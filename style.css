@@ -239,3 +239,94 @@ div.navi_breit {
 }
 
 #footer a {	color: #cfd5e2; }
+
+/*===================================*/
+/* Image Gallery, 10/11/2019 */
+#galerie
+a {
+	padding: 0.1em;
+}
+
+a:focus,
+a:hover {
+	background: #09c;
+}
+
+@media all and (min-width: 35em) {
+	.details {
+		position: absolute;
+		right: 10%;
+		top: -20%;
+		background-color: #F1F3F4;
+		border: 0.1em solid #3983ab;
+		border-radius: 0 8px 8px;
+		padding: 1em 1em .2em;
+		width: 50em;
+		max-height: 80em;
+		overflow: auto;
+		display: none;
+	}
+	.details img {
+		width: 100%;
+	}
+	.details:target {
+		display: block;
+	}
+	.close, .next, .prev {
+		width: 0;
+		height: 0;
+		border: 0;
+		text-shadow: none;
+		color: transparent;
+	}
+	.close:after {
+		position: absolute;
+		top: 1em;
+		right: 1em;
+		content: "X";
+		color: white;
+		background: #c32e04;
+		font: font: bold 1em/150% Georgia, Times, serif;
+		border: 0.1em solid #3983ab;
+		border-radius: 0 8px 8px;
+		display: block;
+		text-align: center;
+		width: 1.5em;
+		height: 1.5em;
+		padding: 0.2em 0 0 0em;
+	}
+	
+	.next:after {
+		position: absolute;
+		bottom: 2em;
+		right: 1em;
+		content: ">";
+		color: white;
+		background: #c32e04;
+		font: font: bold 1em/150% Georgia, Times, serif;
+		border: 0.1em solid #3983ab;
+		border-radius: 0 8px 8px;
+		display: block;
+		text-align: center;
+		width: 1.5em;
+		height: 1.5em;
+		padding: 0.2em 0 0 0em;
+	}
+	
+	.prev:after {
+		position: absolute;
+		bottom: 2em;
+		left: 1em;
+		content: "<";
+		color: white;
+		background: #c32e04;
+		font: font: bold 1em/150% Georgia, Times, serif;
+		border: 0.1em solid #3983ab;
+		border-radius: 0 8px 8px;
+		display: block;
+		text-align: center;
+		width: 1.5em;
+		height: 1.5em;
+		padding: 0.2em 0 0 0em;
+	}
+}

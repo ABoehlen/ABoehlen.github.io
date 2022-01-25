@@ -118,11 +118,10 @@ div.navi_breit {
 	
 #navigation a:hover { background-image: none; }
 
-/*===================================*/
+/*=================================== */
 
 #content {
 	line-height: 18px;
-	word-spacing: 2px;
 	text-align: justify;
 	width: 819px;
 	float: left;
@@ -145,7 +144,6 @@ div.navi_breit {
 #content h2 {
 	font-size: 16px;
 	font-weight: bold;
-	/*color: #929db5;*/
 	color: #7c1a12;
 	margin-bottom: 10px;
 }
@@ -162,6 +160,18 @@ div.navi_breit {
 
 #content p {
 	margin-top: 5px;
+}
+
+#content ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1em;
+}
+#content ul > li:before {
+	display: inline-block;
+	content: "\2013\00a0"; /* Halbgeviertstrich, gefolgt von einem geschuetzten Leerzeichen */
+	width: 1em;
+	margin-left: -1em;
 }
 
 #content a { color: #677798; text-decoration: none; }

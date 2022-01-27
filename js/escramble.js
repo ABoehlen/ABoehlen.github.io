@@ -11,7 +11,7 @@ function escramble(){
   a+='lto:'
   b+='@'
   e='</a>'
-  f='e-Mail'
+  f='a.boehlen (at) bluewin.ch'
   b+='bluewin.ch'
   g='<img src=\"'
   h=''

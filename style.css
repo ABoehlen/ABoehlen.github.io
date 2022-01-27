@@ -1,5 +1,3 @@
-/* modified by boa, 11.07.2016 */
-
 html { height: 100%; }
 
 body {
@@ -153,13 +151,19 @@ div.navi_breit {
 #content h3, th {
 	font-size: 12px;
 	font-weight: bold;
-	/*color: #ffffff;*/
 	color: #262626;
 	margin-bottom: 5px;
 }
 
 #content p {
 	margin-top: 5px;
+}
+
+/* fuer Datenschutzerklaerung */
+#content address {
+	font-style: normal;
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
 
 #content ul {
@@ -242,7 +246,7 @@ div.navi_breit {
 #footer .box {
 	text-align: center;
 	margin: auto;
-	padding-top: 16px;
+	padding-top: 8px;
 	font-size: 9px;
 	font-style: italic;
 	color: #f0f0f0;

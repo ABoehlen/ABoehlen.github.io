@@ -5,10 +5,10 @@ function randimg() {
   var randimage = images[rand];
   var orient = randimage.substr(8,1)
   if (orient == "p") {
-    document.write("<img height=\"400px\" src=\"https://f.hikr.org/files/" + randimage.substr(0,7) + ".jpg\">");
+    document.write("<img height=\"400px\" src=\"https://f.hikr.org/files/" + randimage.substr(0,7) + "k.jpg\">");
   }
   else {
-    document.write("<img width=\"400px\" src=\"https://f.hikr.org/files/" + randimage.substr(0,7) + ".jpg\">");
+    document.write("<img width=\"400px\" src=\"https://f.hikr.org/files/" + randimage.substr(0,7) + "k.jpg\">");
   }
 }
 randimg();

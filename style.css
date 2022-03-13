@@ -5,8 +5,8 @@ body {
 	background-color: #b43831;
 	background-image: url("img/background_main.png");
 	background-position: top center;
-	font-family: Verdana, Geneva, "DejaVu Sans", sans-serif;
-	font-size: 75%;
+	font-family: Segoe UI, Optima, Dejavu Sans Condensed, sans-serif;
+	font-size: 100%;
 	background-repeat: repeat-y;
 	margin: 0px;
 	color: #262626;
@@ -21,9 +21,6 @@ body {
 	padding: 0;
 	text-align: left;
 }
-
-.left { float: left; }
-.right { float: right; }
 
 /*===================================*/
 
@@ -45,7 +42,7 @@ body {
 }
 #header h3 {
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 20px;
 	color: #CCCCCC;
 	margin: 0;
 }
@@ -69,7 +66,7 @@ body {
 	
 div.navi_schmal {
 	float: left;
-	width: 110px; 
+	width: 120px; 
 	height: 32px;
 	margin: 0;
 	padding: 0;
@@ -80,7 +77,7 @@ div.navi_schmal {
 
 div.navi_mittel {
 	float: left;
-	width: 130px; 
+	width: 135px; 
 	height: 32px;
 	margin: 0;
 	padding: 0;
@@ -91,7 +88,7 @@ div.navi_mittel {
 
 div.navi_breit {
 	float: left;
-	width: 170px; 
+	width: 190px; 
 	height: 32px;
 	margin: 0;
 	padding: 0;
@@ -105,6 +102,7 @@ div.navi_breit {
 	width: 100%;
 	height: 22px;
 	color: #ffffff;
+	font-size: 14px;
 	font-weight: bold;
 	text-decoration: none;
 	text-align: center;
@@ -124,10 +122,13 @@ div.navi_breit {
 	width: 819px;
 	float: left;
 	position: relative;
-	margin-bottom: 32px;
+	margin-bottom: 16px;
 }
 
-#content .box {	padding: 0 16px; margin-bottom: 16px; }
+/* Einzug links */
+#content .box {
+	padding: 0 50px;
+}
 
 #content .pager { margin-bottom: 10px; }
 
@@ -138,25 +139,43 @@ div.navi_breit {
 	padding: 0;
 }
 
-
-#content h2 {
-	font-size: 16px;
-	font-weight: bold;
+#content h1 {
+	font-size: 25px;
 	color: #7c1a12;
-	margin-bottom: 10px;
+	line-height: normal;
+	margin-bottom: 8px;
 }
 
-#content h2 a { text-decoration: none; font-weight: bold; }
+#content h2 {
+	font-size: 21px;
+	color: #7c1a12;
+	line-height: normal;
+	margin-bottom: 7px;
+}
+
+#content h1 h2 a {
+	text-decoration: none;
+	font-weight: bold;
+}
 	
 #content h3, th {
-	font-size: 12px;
+	font-size: 18px;
 	font-weight: bold;
 	color: #262626;
 	margin-bottom: 5px;
+	margin-top: 8px;
 }
 
 #content p {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 125%;
 	margin-top: 5px;
+}
+
+#content sup {
+	font-size: 10px;
+	font-weight: normal;
 }
 
 /* fuer Datenschutzerklaerung */
@@ -166,6 +185,7 @@ div.navi_breit {
 	margin-bottom: 10px;
 }
 
+/* fuer schoene Aufzaehlungen */
 #content ul {
 	list-style: none;
 	margin-left: 0;
@@ -176,11 +196,22 @@ div.navi_breit {
 	content: "\2013\00a0"; /* Halbgeviertstrich, gefolgt von einem geschuetzten Leerzeichen */
 	width: 1em;
 	margin-left: -1em;
+	margin-top: 0.3em;
 }
 
-#content a { color: #677798; text-decoration: none; }
+#content a {
+	color: #677798;
+	text-decoration: none;
+}
 #content a:hover { text-decoration: underline;}
-#content img.border { padding: 1px; background-color: #6d6d6d; border: 1px solid #3e3e3e; margin-left: 8px; margin-right: 8px; }
+
+#content img.border {
+	padding: 1px;
+	background-color: #6d6d6d;
+	border: 1px solid #3e3e3e;
+	margin-left: 8px;
+	margin-right: 8px;
+}
 
 #content map{
   padding:0;
@@ -204,23 +235,41 @@ div.navi_breit {
 }
 
 #sidebar h2, h3 {
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: bold;
 	color: #ffffff;
 	margin: 0 0 16px 0;
 }
 
 #sidebar p {
-	font-size: 11px;
+	font-size: 14px;
+	font-weight: normal;
 	line-height: 17px;
 	word-spacing: 1px;
 	color: #F0F0F0;
 }
 
-#sidebar img { margin: 0; padding: 1px; background-color: #556076; border: 1px solid #394150; }
-#sidebar ul { padding: 0; margin: 0; }
-#sidebar li { list-style-type: none; padding-left: 16px; padding-top: 7px; }
-#sidebar a { color: #cfd5e2; text-decoration: none; }
+#sidebar img {
+	margin: 0;
+	padding: 1px;
+	background-color: #556076;
+	border: 1px solid #394150;
+}
+#sidebar ul {
+	padding: 0;
+	margin: 0;
+}
+#sidebar li {
+	list-style-type: none;
+	padding-left: 16px;
+	padding-top: 7px;
+}
+#sidebar a {
+	color: #cfd5e2;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: normal;
+}
 #sidebar a:hover { text-decoration: underline; }
 
 /*===================================*/
@@ -247,7 +296,7 @@ div.navi_breit {
 	text-align: center;
 	margin: auto;
 	padding-top: 8px;
-	font-size: 9px;
+	font-size: 10px;
 	font-style: italic;
 	color: #f0f0f0;
 }

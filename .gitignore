@@ -1,10 +1,8 @@
 # Documentation
 notes.txt
-screenshots/ansicht_linux.jpg
-screenshots/ansicht_win11.jpg
 
 # Test files
-
+util/out.txt
 
 # Scripts
 list_html.txt
@@ -15,6 +13,16 @@ mod_navigation.bash
 # Misc
 entw.txt
 template.html
+
+# Reference files
+grundlagen_blyton.txt
+adventure_series/grundlagen_adventure.txt
+adventure_series/grundlagen_adventure_maps_circus.txt
+adventure_series/grundlagen_adventure_maps_island.txt
+adventure_series/grundlagen_adventure_maps_river.txt
+adventure_series/grundlagen_adventure_maps_sea.txt
+secret_series/grundlagen_secret.txt
+secret_series/grundlagen_secret_maps_killi.txt
 
 # Old files
 old

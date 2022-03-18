@@ -1,4 +1,4 @@
-// verweise.js V1.0 13.03.2022
+// verweise.js V1.0 18.03.2022
 // Autor: Adrian Boehlen
 //
 // Script uebersetzt in Originaldokumenten definierte Verweise
@@ -25,13 +25,15 @@ blyIntrDict["ac"] = "3";
 var advIntrDict = new Array();
 advIntrDict["aa"] = "1";
 advIntrDict["ab"] = "2";
-advIntrDict["ac"] = "3";
+advIntrDict["ac"] = "4";
+advIntrDict["ad"] = "3";
 
 var advIslDict = new Array();
 advIslDict["aa"] = "1";
-advIslDict["ab"] = "2";
-advIslDict["ac"] = "3";
-advIslDict["ad"] = "4";
+advIslDict["ab"] = "3";
+advIslDict["ac"] = "4";
+advIslDict["ad"] = "5";
+advIslDict["ae"] = "2";
 
 var advCircDict = new Array();
 advCircDict["aa"] = "1";
@@ -80,6 +82,7 @@ var secrIntrDict = new Array();
 secrIntrDict["aa"] = "1";
 secrIntrDict["ab"] = "2";
 secrIntrDict["ac"] = "3";
+secrIntrDict["ad"] = "4";
 
 var secrKilliDict = new Array();
 secrKilliDict["aa"] = "1";
@@ -97,7 +100,7 @@ function uebersetze(dict) {
         document.write("<sup>" + dict[i] + "</sup>");
       }
       else {
-        document.write("<sup>" + dict[i] + " (Kapitel " + kap + ")" + "</sup>");
+        document.write("<sup>" + dict[i] + "&nbsp;(Kapitel&nbsp;" + kap + ")" + "</sup>");
       }
     }
   }

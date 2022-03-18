@@ -139,6 +139,22 @@ div.navi_breit {
 	padding: 0;
 }
 
+#content .box .bericht_bild {
+	width: 350px;
+	margin: 0px;
+	margin-top: 5px;
+	padding: 0px;
+	text-indent: 0;
+	text-align: left;
+}
+
+#content .box .bericht_bildlegende {
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
 #content h1 {
 	font-size: 25px;
 	color: #7c1a12;
@@ -393,3 +409,26 @@ a:hover {
 		padding: 0.2em 0 0 0em;
 	}
 }
+
+/* nicht zu druckende Bereiche festlegen*/
+@media print {
+	#header {
+		display: none;
+	}
+	#navigation {
+		display: none;
+	}
+	#topShadow {
+		display: none;
+	}
+	#bottomShadow {
+		display: none;
+	}
+	#sidebar {
+		display: none;
+	}
+	#footer {
+		display: none;
+	}
+}
+

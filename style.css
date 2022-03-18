@@ -334,7 +334,7 @@ a:hover {
 @media all and (min-width: 35em) {
 	.details {
 		position: absolute;
-		right: 10%;
+		right: -5%;
 		top: -20%;
 		background-color: #F1F3F4;
 		border: 0.1em solid #3983ab;

@@ -11,8 +11,10 @@ list_images.vim
 mod_navigation.bash
 
 # Misc
-entw.txt
 template.html
+misc/test.html
+misc/test.css
+misc/entw.txt
 screenshots/ansicht_linux.jpg
 screenshots/ansicht_win11.jpg
 
@@ -28,5 +30,6 @@ secret_series/grundlagen_secret_maps_killi.txt
 
 # Old files
 old
-old/header_v1.jpg
+old/header_nibbio.jpg
+old/header_churzenberg_winter.jpg
 old/css_media_all_ori.txt

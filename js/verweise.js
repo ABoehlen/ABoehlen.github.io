@@ -8,7 +8,7 @@
 // werden. Falls nicht muss kap der Leerstring zugewiesen werden.
 // Die Anwendung wird ueber die Funktion verweis ausgeloest, der als Argument
 // die in der Funktionsdefinition angegebene Referenz mitgegeben wird.
-// Das Script muss im Header referenziert sein:
+// Das Script muss im Header referenziert sein, z.B.:
 // <script type="text/javascript" src="../js/verweise.js"></script>
 // Nachfolgend ein Anwenungsbeispiel:
 // <script type="text/javascript">var name="ag"; var kap="4"; verweis("advIntr");</script>
@@ -56,12 +56,12 @@ advValleyDict["ab"] = "6";
 advValleyDict["ac"] = "19";
 advValleyDict["ad"] = "21";
 advValleyDict["ae"] = "22";
-advValleyDict["af"] = "0";
+advValleyDict["af"] = "28"; 
 advValleyDict["ag"] = "7";
 advValleyDict["ah"] = "20";
 advValleyDict["ai"] = "23";
-advValleyDict["aj"] = "24";// hoechste
-advValleyDict["ak"] = "0";
+advValleyDict["aj"] = "24";
+advValleyDict["ak"] = "32";
 advValleyDict["al"] = "9";
 advValleyDict["am"] = "1";
 advValleyDict["an"] = "3";
@@ -77,6 +77,20 @@ advValleyDict["aw"] = "15";
 advValleyDict["ax"] = "2";
 advValleyDict["ay"] = "4";
 advValleyDict["az"] = "8";
+advValleyDict["ba"] = "25";
+advValleyDict["bb"] = "26";
+advValleyDict["bc"] = "27";
+advValleyDict["bd"] = "29";
+advValleyDict["be"] = "30";
+advValleyDict["bf"] = "33";
+advValleyDict["bg"] = "34";
+advValleyDict["bh"] = "35";
+advValleyDict["bi"] = "36";
+advValleyDict["bj"] = "31";
+advValleyDict["bk"] = "37";
+advValleyDict["bl"] = "38";
+advValleyDict["bm"] = "39";
+advValleyDict["bn"] = "40";
 
 var secrIntrDict = new Array();
 secrIntrDict["aa"] = "1";

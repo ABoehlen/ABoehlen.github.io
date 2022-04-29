@@ -5,7 +5,7 @@ body {
 	background-color: #b43831;
 	background-image: url("img/background_main.png");
 	background-position: top center;
-	font-family: Segoe UI, Optima, Dejavu Sans Condensed, sans-serif;
+	font-family: "Segoe UI", Optima, "Dejavu Sans", sans-serif;
 	font-size: 100%;
 	background-repeat: repeat-y;
 	margin: 0px;
@@ -77,7 +77,7 @@ div.navi_schmal {
 
 div.navi_mittel {
 	float: left;
-	width: 135px; 
+	width: 150px; 
 	height: 32px;
 	margin: 0;
 	padding: 0;
@@ -139,18 +139,74 @@ div.navi_breit {
 	padding: 0;
 }
 
-#content .box .bericht_bild {
-	width: 350px;
-	margin: 0px;
-	margin-top: 5px;
-	padding: 0px;
-	text-indent: 0;
+#content .box .Reihe {
+	display: table-row;
 	text-align: left;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: normal;
 }
 
-#content .box .bericht_bildlegende {
+#content .box .Reihe .Zelle_norm {
+	display: inline-block;
+	width: 320px;
+	margin-top: 5px;
+	vertical-align: top;
+	/*border: 1px solid #999999;*/
+}
+
+#content .box .Reihe .Zelle_zw {
+	display: inline-block;
+	width: 50px;
+}
+
+#content .box .Reihe .Zelle_kl {
+	display: table-cell;
+	font-size: 16px;
+	font-weight: normal;
+	width: 120px;
+	vertical-align: top;
+}
+
+#content .box .Reihe .Zelle_Text_r {
+	display: table-cell;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: justify;
+	width: 360px;
+	vertical-align: top;
+	/*border: 1px solid #999999;*/
+}
+
+#content .box .Reihe .Zelle_Verw_l {
+	display: table-cell;
 	font-size: 14px;
 	font-weight: normal;
+	width: 20px;
+	vertical-align: top;
+}
+
+#content .box .Reihe .Zelle_Verw_r {
+	display: table-cell;
+	font-size: 14px;
+	font-weight: normal;
+	width: 680px;
+	vertical-align: top;
+}
+
+#content .box .Bild_l {
+	float: left;
+	display: inline-block;
+	width: 320px;
+	margin-top: 5px;
+	margin-right: 50px;
+	vertical-align: top;
+}
+
+#content .box .Bildlegende {
+	font-size: 14px;
+	font-weight: normal;
+	text-align: left;
 	margin-top: 5px;
 	margin-bottom: 20px;
 }
@@ -241,7 +297,10 @@ div.navi_breit {
 	position: relative;
 }
 	
-#sidebar .box { padding: 0 10px; }
+#sidebar .box { 
+	padding: 0 10px;
+	top: 0%;
+}
 
 #sidebar .spacer {
 	background-image: url("img/sidebar_spacer.png");

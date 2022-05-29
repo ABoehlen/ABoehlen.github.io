@@ -1,4 +1,4 @@
-// verweise.js V1.0 18.03.2022
+// verweise.js V1.0 27.05.2022
 // Autor: Adrian Boehlen
 //
 // Script uebersetzt in Originaldokumenten definierte Verweise
@@ -91,6 +91,36 @@ advValleyDict["bk"] = "37";
 advValleyDict["bl"] = "38";
 advValleyDict["bm"] = "39";
 advValleyDict["bn"] = "40";
+advValleyDict["bo"] = "41";
+advValleyDict["bp"] = "42";
+advValleyDict["bq"] = "43";
+advValleyDict["br"] = "44";
+advValleyDict["bs"] = "45";
+advValleyDict["bt"] = "46";
+advValleyDict["bu"] = "47";
+advValleyDict["bv"] = "48";
+
+var ffIntrDict = new Array();
+ffIntrDict["aa"] = "1";
+ffIntrDict["ab"] = "2";
+ffIntrDict["ac"] = "3";
+ffIntrDict["ad"] = "4";
+ffIntrDict["ae"] = "5";
+ffIntrDict["af"] = "6";
+ffIntrDict["ag"] = "7";
+
+var ffModZeltDict = new Array();
+ffModZeltDict["aa"] = "1";
+ffModZeltDict["ab"] = "2";
+ffModZeltDict["ac"] = "5";
+ffModZeltDict["ad"] = "3";
+ffModZeltDict["ae"] = "6";
+ffModZeltDict["af"] = "7";
+ffModZeltDict["ag"] = "4";
+ffModZeltDict["ah"] = "8";
+ffModZeltDict["ai"] = "9";
+ffModZeltDict["aj"] = "10";
+ffModZeltDict["ak"] = "11";
 
 var secrIntrDict = new Array();
 secrIntrDict["aa"] = "1";
@@ -145,6 +175,12 @@ function verweis(ref) {
       break;
     case "advVal":
       uebersetze(advValleyDict);
+      break;
+    case "ffIntr":
+      uebersetze(ffIntrDict);
+      break;
+    case "ffModZelt":
+      uebersetze(ffModZeltDict);
       break;
     case "secrIntr":
       uebersetze(secrIntrDict);

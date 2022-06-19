@@ -1,8 +1,8 @@
-// randimg.js V1.0 17.03.2022
+// randimg.js V1.0.1 19.06.2022
 // Autor: Adrian Boehlen
 //
 // Script greift nach Zufallsprinzip aus einer Liste von Hikr-Bildern (eindeutige, in der Hikr-Datenbank
-// definierte Nummern) eines heraus und stellt es in der einheitlichen Groesse von 400px in der 
+// definierte Nummern) eines heraus und stellt es in der einheitlichen Groesse von 320px in der 
 // laengeren Achse dar. Damit das Script weiss, ob das Bild hoch oder quer liegt, ist jede Nummer
 // mit der Ergaenzung _l (landscape) bzw. _p (portrait) gekennzeichnet.
 
@@ -13,10 +13,10 @@ function randimg() {
   var randimage = images[rand];
   var orient = randimage.substr(8,1)
   if (orient == "p") {
-    document.write("<img height=\"400px\" src=\"https://f.hikr.org/files/" + randimage.substr(0,7) + "k.jpg\">");
+    document.write("<img height=\"320px\" src=\"https://f.hikr.org/files/" + randimage.substr(0,7) + "k.jpg\">");
   }
   else {
-    document.write("<img width=\"400px\" src=\"https://f.hikr.org/files/" + randimage.substr(0,7) + "k.jpg\">");
+    document.write("<img width=\"320px\" src=\"https://f.hikr.org/files/" + randimage.substr(0,7) + "k.jpg\">");
   }
 }
 randimg();

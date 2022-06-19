@@ -194,6 +194,22 @@ div.navi_breit {
 	vertical-align: top;
 }
 
+#content .box .Reihe .Zelle_Inh_l {
+	display: table-cell;
+	font-size: 16px;
+	font-weight: normal;
+	width: 60px;
+	vertical-align: top;
+}
+
+#content .box .Reihe .Zelle_Inh_r {
+	display: table-cell;
+	font-size: 16px;
+	font-weight: normal;
+	width: 640px;
+	vertical-align: top;
+}
+
 #content .box .Bild_l {
 	float: left;
 	display: inline-block;
@@ -209,6 +225,14 @@ div.navi_breit {
 	text-align: left;
 	margin-top: 5px;
 	margin-bottom: 20px;
+}
+
+#content .box .Liste {
+	font-size: 16px;
+	font-weight: normal;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 #content h1 {

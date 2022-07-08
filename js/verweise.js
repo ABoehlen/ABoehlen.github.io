@@ -1,5 +1,6 @@
 // verweise.js V1.0 27.05.2022
 // Autor: Adrian Boehlen
+// Aktualisierung: laufend
 //
 // Script uebersetzt in Originaldokumenten definierte Verweise
 // in fortlaufende Nummern und stellt diese hochgestellt dar.
@@ -56,12 +57,12 @@ advValleyDict["ab"] = "6";
 advValleyDict["ac"] = "19";
 advValleyDict["ad"] = "21";
 advValleyDict["ae"] = "22";
-advValleyDict["af"] = "28"; 
+advValleyDict["af"] = "29"; 
 advValleyDict["ag"] = "7";
 advValleyDict["ah"] = "20";
 advValleyDict["ai"] = "23";
 advValleyDict["aj"] = "24";
-advValleyDict["ak"] = "32";
+advValleyDict["ak"] = "33";
 advValleyDict["al"] = "9";
 advValleyDict["am"] = "1";
 advValleyDict["an"] = "3";
@@ -78,36 +79,38 @@ advValleyDict["ax"] = "2";
 advValleyDict["ay"] = "4";
 advValleyDict["az"] = "8";
 advValleyDict["ba"] = "25";
-advValleyDict["bb"] = "26";
-advValleyDict["bc"] = "27";
-advValleyDict["bd"] = "29";
-advValleyDict["be"] = "30";
-advValleyDict["bf"] = "33";
-advValleyDict["bg"] = "34";
-advValleyDict["bh"] = "35";
-advValleyDict["bi"] = "36";
-advValleyDict["bj"] = "31";
-advValleyDict["bk"] = "37";
-advValleyDict["bl"] = "38";
-advValleyDict["bm"] = "39";
-advValleyDict["bn"] = "40";
-advValleyDict["bo"] = "41";
-advValleyDict["bp"] = "42";
-advValleyDict["bq"] = "43";
-advValleyDict["br"] = "44";
-advValleyDict["bs"] = "45";
-advValleyDict["bt"] = "46";
-advValleyDict["bu"] = "47";
-advValleyDict["bv"] = "48";
+advValleyDict["bb"] = "27";
+advValleyDict["bc"] = "28";
+advValleyDict["bd"] = "30";
+advValleyDict["be"] = "31";
+advValleyDict["bf"] = "34";
+advValleyDict["bg"] = "35";
+advValleyDict["bh"] = "36";
+advValleyDict["bi"] = "37";
+advValleyDict["bj"] = "32";
+advValleyDict["bk"] = "38";
+advValleyDict["bl"] = "39";
+advValleyDict["bm"] = "40";
+advValleyDict["bn"] = "41";
+advValleyDict["bo"] = "42";
+advValleyDict["bp"] = "43";
+advValleyDict["bq"] = "44";
+advValleyDict["br"] = "45";
+advValleyDict["bs"] = "46";
+advValleyDict["bt"] = "47";
+advValleyDict["bu"] = "48";
+advValleyDict["bv"] = "49"; // hoechste
+advValleyDict["bw"] = "26";
 
 var ffIntrDict = new Array();
 ffIntrDict["aa"] = "1";
 ffIntrDict["ab"] = "2";
 ffIntrDict["ac"] = "3";
 ffIntrDict["ad"] = "4";
-ffIntrDict["ae"] = "5";
-ffIntrDict["af"] = "6";
-ffIntrDict["ag"] = "7";
+ffIntrDict["ae"] = "6";
+ffIntrDict["af"] = "7";
+ffIntrDict["ag"] = "8";
+ffIntrDict["ah"] = "5";
 
 var ffModZeltDict = new Array();
 ffModZeltDict["aa"] = "1";

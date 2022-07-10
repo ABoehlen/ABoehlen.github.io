@@ -5,7 +5,7 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>Adventure Series – Abenteuer-Serie</title>
 <link rel="stylesheet" href="../style.css" type="text/css" />
-<script type="text/javascript" src="../js/openwindow.js"></script>
+<script type="text/javascript" src="../js/show.js"></script>
 <script type="text/javascript" src="../js/verweise.js" ></script>
 <script type="text/javascript" src="../js/navi.js"></script>
 </head>
@@ -29,21 +29,21 @@
 
 			<div class="Reihe">
 				<div class="Zelle_norm">
-					<a href="./maps/circus03_map.jpg" onclick="NewWindow(this.href); return false"><img width="320px" height="240px" alt="Map Quarry Cottage" src="./maps/circus03_map_lowres.jpg" /></a>
+					<img width="320px" height="240px" alt="Quarry Cottage, TV Screenshot" onclick="show('./maps/circus03_map.jpg');" src="./maps/circus03_map_lowres.jpg" />
 					<p class="Bildlegende">Abb.&nbsp;1:&nbsp;Zoom auf die «Quarry Cottage» in der Karte von OS.<br />Ausschnitt aus <em>The Circus of Adventure</em> (NZ 1995) <script type="text/javascript">var name="aa"; var kap=""; verweis("advCirc");</script>
 					</p>
 				</div>
 			</div>
 			<div class="Reihe">
 				<div class="Zelle_norm">
-					<a href="./maps/emblehope_moor50.png" onclick="NewWindow(this.href); return false"><img width="320px" height="300px" alt="Map OS50" src="./maps/emblehope_moor50_lowres.png" /></a>
+					<img width="320px" height="300px" alt="Quarry Cottage auf OS Karte" onclick="show('./maps/emblehope_moor50.png');" src="./maps/emblehope_moor50_lowres.png" />
 					<p class="Bildlegende">Abb.&nbsp;2:&nbsp;Diese Stelle liegt in Northumberland (UK), inmitten einer sehr dünn besiedelten hügeligen Gegend. OS 1:50’000 	<script type="text/javascript">var name="ab"; var kap=""; verweis("advCirc");</script>
 					</p>
 				</div>
 				<div class="Zelle_zw">
 				</div>
 				<div class="Zelle_norm">
-					<a href="./maps/emblehope_moor200.png" onclick="NewWindow(this.href); return false"><img width="320px" height="300px" alt="Map OS200" src="./maps/emblehope_moor200_lowres.png" /></a>
+					<img width="320px" height="300px" alt="OS Übersichtskarte" onclick="show('./maps/emblehope_moor200.png');" src="./maps/emblehope_moor200_lowres.png" />
 					<p class="Bildlegende">Abb.&nbsp;3:&nbsp;Dieselbe Gegend in der OS 1:200’000 <script type="text/javascript">var name="ab"; var kap=""; verweis("advCirc");</script>
 					</p>
 				</div>
@@ -72,6 +72,9 @@
 		<div class="box">
 			<a href="./adventure.html">Hauptseite<br />Abenteuer-Serie</a>
 		</div>
+	</div>
+	<div id="preview">
+		<div id="preview_inner" onclick="show_close()"></div>
 	</div>
 	<div id="bottomShadow">&nbsp;</div>
 	<div id="footer">

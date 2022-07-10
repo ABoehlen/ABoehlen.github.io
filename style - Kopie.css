@@ -1,4 +1,3 @@
-/* allgemeine Einstellungen */
 html { height: 100%; }
 
 body {
@@ -17,19 +16,13 @@ body {
 	border: 1px solid #3d3d3d;
 	background-image: url("img/content_main.png");
 	background-repeat: repeat-y;
-	font-style: normal;
 	margin: 0 auto;
 	width: 1000px;
 	padding: 0;
 	text-align: left;
 }
 
-img[onClick]{
-	cursor:pointer;
-}
-
 /*===================================*/
-/* Kopfzeile */
 
 #header {
 	background: #000000 url(img/header.jpg) no-repeat right;
@@ -55,7 +48,6 @@ img[onClick]{
 }
 
 /*===================================*/
-/* Navigationsbereich */
 
 #navigation {
 	background-color: #47526a;
@@ -123,7 +115,6 @@ div.navi_breit {
 #navigation a:hover { background-image: none; }
 
 /*=================================== */
-/* Inhaltsbereich */
 
 #content {
 	line-height: 18px;
@@ -236,14 +227,6 @@ div.navi_breit {
 	margin-bottom: 20px;
 }
 
-#content .box .Bildlegende_gal {
-	font-size: 14px;
-	font-weight: normal;
-	text-align: left;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
 #content .box .Liste {
 	font-size: 16px;
 	font-weight: normal;
@@ -331,7 +314,6 @@ div.navi_breit {
 }
 
 /*===================================*/
-/* Seitenleiste */
 	
 #sidebar {
 	width: 181px;
@@ -390,32 +372,6 @@ div.navi_breit {
 #sidebar a:hover { text-decoration: underline; }
 
 /*===================================*/
-/* Funktionen zum Vergroessern der Bilder */
-
-#preview{
-	width: 100%;
-	height: 100%;
-	position: fixed;
-	display: none;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-#preview #imgPrev{
-	display: block;
-	margin: 0 auto;
-}
-#preview #preview_inner{
-	width: 100%;
-	height: 100%;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-
-/*===================================*/
-/* Fussleiste */
 	
 #bottomShadow {
 	background-image: url("img/content_bShadow.png");
@@ -440,19 +396,18 @@ div.navi_breit {
 	margin: auto;
 	padding-top: 8px;
 	font-size: 10px;
+	font-style: italic;
 	color: #f0f0f0;
 }
 
-#footer i {
-	font-style: italic;
-}
-
-#footer a {
-	color: #cfd5e2;
-}
+#footer a {	color: #cfd5e2; }
 
 /*===================================*/
-/* Bildergalerie */
+/* Image Gallery, 10/11/2019 */
+#galerie
+a {
+	padding: 0.1em;
+}
 
 a:focus,
 a:hover {
@@ -538,9 +493,7 @@ a:hover {
 	}
 }
 
-/*===================================*/
-/* Druckeinstellungen */
-
+/* nicht zu druckende Bereiche festlegen*/
 @media print {
 	#header {
 		display: none;
@@ -561,3 +514,4 @@ a:hover {
 		display: none;
 	}
 }
+

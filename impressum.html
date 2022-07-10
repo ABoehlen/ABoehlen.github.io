@@ -5,7 +5,7 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>Impressum</title>
 <link rel="stylesheet" href="style.css" type="text/css" />
-<script type="text/javascript" src="./js/openwindow.js"></script>
+<script type="text/javascript" src="./js/show.js"></script>
 <script type="text/javascript" src="./js/navi.js"></script>
 </head>
 
@@ -58,8 +58,11 @@
 	</div>
 	<div id="sidebar">	
 		<div class="box">
-			<a href="./img/profilbild.jpg" onclick="NewWindow(this.href); return false"><img width="168px" height="256px" alt="Profilbild" src="./img/profilbild.jpg" /></a>
+			<img width="168px" height="256px" alt="Profilbild" onclick="show('./img/profilbild.jpg');" src="./img/profilbild.jpg" />
 		</div>
+	</div>
+	<div id="preview">
+		<div id="preview_inner" onclick="show_close()"></div>
 	</div>
 	<div id="bottomShadow">&nbsp;</div>
 	<div id="footer">

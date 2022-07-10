@@ -3,6 +3,7 @@
 #
 # quellenverzeichnis.awk V1.2 27.03.2022
 # Autor: Adrian Boehlen
+# Aktualisierung: laufend
 #
 # Script generiert die geordnete Quellenliste aus der originalen, ungeordneten Textdatei.
 # Als Trennzeichen ist "$" zu verwenden, andernfalls Zeile 17 anpassen
@@ -34,15 +35,60 @@ BEGIN {
   # dieses muss identisch mit dem betreffenden in verweise.js sein
   ##################################
 
-secrKilliDict["aa"] = "1";
-secrKilliDict["ab"] = "2";
-secrKilliDict["ac"] = "3";
-secrKilliDict["ad"] = "4";
+advValleyDict["aa"] = "18";
+advValleyDict["ab"] = "6";
+advValleyDict["ac"] = "19";
+advValleyDict["ad"] = "21";
+advValleyDict["ae"] = "22";
+advValleyDict["af"] = "29"; 
+advValleyDict["ag"] = "7";
+advValleyDict["ah"] = "20";
+advValleyDict["ai"] = "23";
+advValleyDict["aj"] = "24";
+advValleyDict["ak"] = "33";
+advValleyDict["al"] = "9";
+advValleyDict["am"] = "1";
+advValleyDict["an"] = "3";
+advValleyDict["ao"] = "10";
+advValleyDict["ap"] = "11";
+advValleyDict["aq"] = "16";
+advValleyDict["ar"] = "13";
+advValleyDict["as"] = "14";
+advValleyDict["at"] = "17";
+advValleyDict["au"] = "5";
+advValleyDict["av"] = "12";
+advValleyDict["aw"] = "15";
+advValleyDict["ax"] = "2";
+advValleyDict["ay"] = "4";
+advValleyDict["az"] = "8";
+advValleyDict["ba"] = "25";
+advValleyDict["bb"] = "27";
+advValleyDict["bc"] = "28";
+advValleyDict["bd"] = "30";
+advValleyDict["be"] = "31";
+advValleyDict["bf"] = "34";
+advValleyDict["bg"] = "35";
+advValleyDict["bh"] = "36";
+advValleyDict["bi"] = "37";
+advValleyDict["bj"] = "32";
+advValleyDict["bk"] = "38";
+advValleyDict["bl"] = "39";
+advValleyDict["bm"] = "40";
+advValleyDict["bn"] = "41";
+advValleyDict["bo"] = "42";
+advValleyDict["bp"] = "43";
+advValleyDict["bq"] = "44";
+advValleyDict["br"] = "45";
+advValleyDict["bs"] = "46";
+advValleyDict["bt"] = "47";
+advValleyDict["bu"] = "48";
+advValleyDict["bv"] = "49"; // hoechste
+advValleyDict["bw"] = "26";
 
   ##################################
   # Kopie von urspruenglichem Array unter dem einheitlichen Namen "verweise" anlegen
-  for (i in secrKilliDict)
-    verweise[i] = secrKilliDict[i];
+  for (i in advValleyDict)
+    verweise[i] = advValleyDict[i];
 }
 
 {

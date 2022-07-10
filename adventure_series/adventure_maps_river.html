@@ -5,7 +5,7 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>Adventure Series – Abenteuer-Serie</title>
 <link rel="stylesheet" href="../style.css" type="text/css" />
-<script type="text/javascript" src="../js/openwindow.js"></script>
+<script type="text/javascript" src="../js/show.js"></script>
 <script type="text/javascript" src="../js/verweise.js" ></script>
 <script type="text/javascript" src="../js/navi.js"></script>
 </head>
@@ -29,14 +29,14 @@
 			<p>Wesentlich plausibler sind da die «alten» Karten der Gegend, die im Film vorkommen und von denen man sich gut vorstellen kann, dass sie älter als 1929 sein sollen und entsprechend noch arabisch beschriftet sind. <script type="text/javascript">var name="ab"; var kap=""; verweis("advRiv");</script> Auf jener, die Raya Uma und sein Diener studieren, taucht übrigens der Name der Türkei ebenfalls auf. Um herauszufinden, was auf diesen Karten genau steht, habe ich die einzelnen Toponyme mit den verfügbaren Grundlagen übersetzt. <script type="text/javascript">var name="ac"; var kap=""; verweis("advRiv");</script><sup> / </sup> <script type="text/javascript">var name="ad"; var kap=""; verweis("advRiv");</script> Es wäre spannend zu wissen, ob diese Karten einen realen Hintergrund haben, oder ob sich ein dem arabischen Alphabet kundiger Künstler hierfür austoben durfte.</p>
 			<div class="Reihe">
 				<div class="Zelle_norm">
-					<a href="./maps/river_of_adventure_map.jpg" onclick="NewWindow(this.href); return false"><img width="320px" height="271px" alt="River of Adventure Map" src="./maps/river_of_adventure_map_lowres.jpg" /></a>
+					<img width="320px" height="271px" alt="River of Adventure Map" onclick="show('./maps/river_of_adventure_map.jpg');" src="./maps/river_of_adventure_map_lowres.jpg" />
 					<p class="Bildlegende">Abb.&nbsp;1:&nbsp;Übersichtskarte der Gegend.<br />Aus verschiedenen Ausschnitten aus <em>The River of Adventure</em> (NZ 1995) zusammengesetzt <script type="text/javascript">var name="ab"; var kap=""; verweis("advRiv");</script>
 					</p>
 				</div>
 				<div class="Zelle_zw">
 				</div>
 				<div class="Zelle_norm">
-					<a href="./maps/river_temple_of_death_map.jpg" onclick="NewWindow(this.href); return false"><img width="320px" height="427px" alt="Temple of Death Map" src="./maps/river_temple_of_death_map_lowres.jpg" /></a>
+					<img width="320px" height="427px" alt="Temple of Death Map" onclick="show('./maps/river_temple_of_death_map.jpg');" src="./maps/river_temple_of_death_map_lowres.jpg" />
 					<p class="Bildlegende">Abb.&nbsp;2:&nbsp;Der «Tempels des Todes».<br />Ausschnitt aus <em>The River of Adventure</em> (NZ 1995) <script type="text/javascript">var name="ab"; var kap=""; verweis("advRiv");</script>
 					</p>
 				</div>
@@ -80,6 +80,9 @@
 		<div class="box">
 			<a href="./adventure.html">Hauptseite<br />Abenteuer-Serie</a>
 		</div>
+	</div>
+	<div id="preview">
+		<div id="preview_inner" onclick="show_close()"></div>
 	</div>
 	<div id="bottomShadow">&nbsp;</div>
 	<div id="footer">

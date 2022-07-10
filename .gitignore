@@ -31,7 +31,11 @@ secret_series/grundlagen_secret.txt
 secret_series/grundlagen_secret_maps_killi.txt
 
 # Old files
+js/__openwindow.js
 old
 old/header_nibbio.jpg
 old/header_churzenberg_winter.jpg
 old/css_media_all_ori.txt
+
+# Under construction
+adventure_series/valley_of_adventure

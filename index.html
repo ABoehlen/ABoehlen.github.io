@@ -8,8 +8,8 @@
 <meta name="author" content="adrian"/> 
 <link rel="stylesheet" href="style.css" type="text/css" />
 <script type="text/javascript" src="./js/navi.js"></script>
+<script type="text/javascript" src="./js/show.js"></script>
 </head>
-
 <body>
 <div id="mainContainer">
 	<div id="header">
@@ -40,13 +40,14 @@
 				<div class="Zelle_norm">
 					<h3>Neuigkeiten auf der Seite</h3>
 					<ul class="Liste">
-						<li><a href="./famous_five/famous_five.html">29.05.2022:<br />Übersicht Fünf Freunde ergänzt</a></li>
-						<li><a href="./famous_five/ff_modell_eisenbahn_zeltlager.html">29.05.2022:<br />Neuer Bericht: Bahnanlagen «Zeltlager»</a></li>
-						<li>19.06.2022: Startseite angepasst</li>
+						<script src="./js/news.js" type="text/javascript"></script>
 					</ul>
 				</div>
 			</div>
 		</div>
+	</div>
+	<div id="preview">
+		<div id="preview_inner" onclick="show_close()"></div>
 	</div>
 	<div id="bottomShadow">&nbsp;</div>
 	<div id="footer">

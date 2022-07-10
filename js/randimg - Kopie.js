@@ -1,4 +1,4 @@
-// randimg.js V1.1 10.07.2022
+// randimg.js V1.0.1 19.06.2022
 // Autor: Adrian Boehlen
 //
 // Script greift nach Zufallsprinzip aus einer Liste von Hikr-Bildern (eindeutige, in der Hikr-Datenbank
@@ -11,14 +11,12 @@ function randimg() {
   
   var rand = Math.floor(Math.random()*images.length);
   var randimage = images[rand];
-  var orient = randimage.substr(8,1);
-  var path = "https://f.hikr.org/files/" + randimage.substr(0,7) + "k.jpg";
-  
+  var orient = randimage.substr(8,1)
   if (orient == "p") {
-    document.write("<img height=\"320px\" onclick=\"show(\'" + path + "\');\" src=" + path + " />");
+    document.write("<img height=\"320px\" src=\"https://f.hikr.org/files/" + randimage.substr(0,7) + "k.jpg\">");
   }
   else {
-    document.write("<img width=\"320px\" onclick=\"show(\'" + path + "\');\" src=" + path + " />");
+    document.write("<img width=\"320px\" src=\"https://f.hikr.org/files/" + randimage.substr(0,7) + "k.jpg\">");
   }
 }
 randimg();

@@ -5,7 +5,7 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>Adventure Series – Abenteuer-Serie</title>
 <link rel="stylesheet" href="../style.css" type="text/css" />
-<script type="text/javascript" src="../js/openwindow.js"></script>
+<script type="text/javascript" src="../js/show.js"></script>
 <script type="text/javascript" src="../js/verweise.js" ></script>
 <script type="text/javascript" src="../js/navi.js"></script>
 </head>
@@ -29,22 +29,22 @@
 			
 			<div class="Reihe">
 				<div class="Zelle_kl">
-					<a href="./maps/berneray.png" onclick="NewWindow(this.href); return false"><img width="102px" height="77px" alt="Berneray" src="./maps/berneray_lowres.png" /></a>
+					<img width="102px" height="77px" alt="Berneray" onclick="show('./maps/berneray.png');" src="./maps/berneray_lowres.png" />
 				</div>
 				<div class="Zelle_kl">
-					<a href="./maps/berneray25.png" onclick="NewWindow(this.href); return false"><img width="102px" height="77px" alt="Berneray" src="./maps/berneray25_lowres.png" /></a>
+					<img width="102px" height="77px" alt="Berneray" onclick="show('./maps/berneray25.png');" src="./maps/berneray25_lowres.png" />
 				</div>
 				<div class="Zelle_kl">
-					<a href="./maps/boreray25.png" onclick="NewWindow(this.href); return false"><img width="102px" height="77px" alt="Boreray" src="./maps/boreray25_lowres.png" /></a>
+					<img width="102px" height="77px" alt="Boreray" onclick="show('./maps/boreray25.png');" src="./maps/boreray25_lowres.png" />
 				</div>
 				<div class="Zelle_kl">
-					<a href="./maps/flannan25_01.png" onclick="NewWindow(this.href); return false"><img width="102px" height="77px" alt="Flannan" src="./maps/flannan25_01_lowres.png" /></a>
+					<img width="102px" height="77px" alt="Flannan" onclick="show('./maps/flannan25_01.png');" src="./maps/flannan25_01_lowres.png" />
 				</div>
 				<div class="Zelle_kl">
-					<a href="./maps/flannan25_02.png" onclick="NewWindow(this.href); return false"><img width="102px" height="77px" alt="Flannan" src="./maps/flannan25_02_lowres.png" /></a>
+					<img width="102px" height="77px" alt="Flannan" onclick="show('./maps/flannan25_02.png');" src="./maps/flannan25_02_lowres.png" />
 				</div>
 				<div class="Zelle_kl">
-					<a href="./maps/flannan_isles.png" onclick="NewWindow(this.href); return false"><img width="102px" height="77px" alt="Flannan" src="./maps/flannan_isles_lowres.png" /></a>
+					<img width="102px" height="77px" alt="Flannan" onclick="show('./maps/flannan_isles.png');" src="./maps/flannan_isles_lowres.png" />
 				</div>
 			</div>
 			<div class="Reihe">
@@ -70,19 +70,19 @@
 			<p>&nbsp;</p>
 			<div class="Reihe">
 				<div class="Zelle_kl">
-					<a href="./maps/haskeir25.png" onclick="NewWindow(this.href); return false"><img width="102px" height="77px" alt="Haskeir" src="./maps/haskeir25_lowres.png" /></a>
+					<img width="102px" height="77px" alt="Haskeir" onclick="show('./maps/haskeir25.png');" src="./maps/haskeir25_lowres.png" />
 				</div>
 				<div class="Zelle_kl">
-					<a href="./maps/heisker_or_monach_islands25.png" onclick="NewWindow(this.href); return false"><img width="102px" alt="Heisker" height="77px" src="./maps/heisker_or_monach_islands25_lowres.png" /></a>
+					<img width="102px" height="77px" alt="Heisker" onclick="show('./maps/heisker_or_monach_islands25.png');" src="./maps/heisker_or_monach_islands25_lowres.png" />
 				</div>
 				<div class="Zelle_kl">
-					<a href="./maps/pabaigh_mor.png" onclick="NewWindow(this.href); return false"><img width="102px" height="77px" alt="Pabaigh Mor" src="./maps/pabaigh_mor_lowres.png" /></a>
+					<img width="102px" height="77px" alt="Pabaigh Mor" onclick="show('./maps/pabaigh_mor.png');" src="./maps/pabaigh_mor_lowres.png" />
 				</div>
 				<div class="Zelle_kl">
-					<a href="./maps/st-kilda.png" onclick="NewWindow(this.href); return false"><img width="102px" height="77px" alt="St-Kilda" src="./maps/st-kilda_lowres.png" /></a>
+					<img width="102px" height="77px" alt="St-Kilda" onclick="show('./maps/st-kilda.png');" src="./maps/st-kilda_lowres.png" />
 				</div>
 				<div class="Zelle_kl">
-					<a href="./maps/soay25.png" onclick="NewWindow(this.href); return false"><img width="102px" height="77px" alt="Soay" src="./maps/soay25_lowres.png" /></a>
+					<img width="102px" height="77px" alt="Soay" onclick="show('./maps/soay25.png');" src="./maps/soay25_lowres.png" />
 				</div>
 			</div>
 			<div class="Reihe">
@@ -136,6 +136,9 @@
 		<div class="box">
 			<a href="./adventure.html">Hauptseite<br />Abenteuer-Serie</a>
 		</div>
+	</div>
+	<div id="preview">
+		<div id="preview_inner" onclick="show_close()"></div>
 	</div>
 	<div id="bottomShadow">&nbsp;</div>
 	<div id="footer">

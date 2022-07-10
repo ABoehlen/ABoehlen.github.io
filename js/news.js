@@ -14,9 +14,9 @@ neuigkeiten[2] = "<a href=\"./famous_five/famous_five.html\">29.05.2022:<br />Ü
 neuigkeiten[3] = "10.07.2022: Neue Funktion zum Vergrössern der Bilder";
 
 // Definieren, ab welchem Element die Ausgabe erfolgen soll
-var i = 0;
+var min = 0;
 
-// Ausgabe als Liste
-for (i; i < neuigkeiten.length; i++) {
+// Ausgabe der Aenderungen als Liste, neueste zuoberst
+for (var i = (neuigkeiten.length - 1); i >= min; i--) {
   document.write("<li>" + neuigkeiten[i] + "</li>");
 }

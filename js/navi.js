@@ -1,4 +1,4 @@
-// navi.js V1.0 29.04.2022
+// navi.js V1.1 17.09.2022
 // Autor: Adrian Boehlen
 //
 // Script generiert die Navigationsleiste jeder Seite.
@@ -22,10 +22,11 @@ function navigationsleiste(stufe) {
 			pfad = "../../";
 			break;
 	}
-	startseite = "<div class=\"navi_breit\"><a href=\"" + pfad + "index.html\">Startseite</a></div>";
-	blyton = "<div class=\"navi_breit\"><a href=\"" + pfad + "blyton.html\">Enid Blyton</a></div>";
-	touren = "<div class=\"navi_breit\"><a href=\"" + pfad + "touren.html\">Touren</a></div>";
-	links = "<div class=\"navi_breit\"><a href=\"" + pfad + "links.html\">Links</a></div>";
+	startseite = "<div class=\"navi_mittel\"><a href=\"" + pfad + "index.html\">Startseite</a></div>";
+	blyton = "<div class=\"navi_mittel\"><a href=\"" + pfad + "blyton.html\">Enid Blyton</a></div>";
+	karten = "<div class=\"navi_mittel\"><a href=\"" + pfad + "karten.html\">Karten</a></div>";
+	touren = "<div class=\"navi_mittel\"><a href=\"" + pfad + "touren.html\">Touren</a></div>";
+	links = "<div class=\"navi_mittel\"><a href=\"" + pfad + "links.html\">Links</a></div>";
 	impr = "<div class=\"navi_breit\"><a href=\"" + pfad + "impressum.html\">Impressum / Über mich</a></div>";
-	document.write(startseite + blyton + touren + links + impr);
+	document.write(startseite + blyton + karten + touren + links + impr);
 }

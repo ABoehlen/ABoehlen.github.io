@@ -107,9 +107,9 @@ ffIntrDict["aa"] = "1";
 ffIntrDict["ab"] = "2";
 ffIntrDict["ac"] = "3";
 ffIntrDict["ad"] = "4";
-ffIntrDict["ae"] = "6";
-ffIntrDict["af"] = "7";
-ffIntrDict["ag"] = "8";
+ffIntrDict["ae"] = "7";
+ffIntrDict["af"] = "8";
+ffIntrDict["ag"] = "6";
 ffIntrDict["ah"] = "5";
 
 var ffModZeltDict = new Array();

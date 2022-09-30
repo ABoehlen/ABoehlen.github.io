@@ -13,6 +13,7 @@ neuigkeiten[1] = "29.05.2022:<br />Neuer Bericht: <a href=\"./famous_five/ff_mod
 neuigkeiten[2] = "19.06.2022: Startseite angepasst";
 neuigkeiten[3] = "10.07.2022: Neue Funktion zum Vergrössern der Bilder";
 neuigkeiten[4] = "24.09.2022: Neue Rubrik <a href=\"./karten.html\">Karten</a> ergänzt";
+neuigkeiten[5] = "30.09.2022:<br />Übersicht <a href=\"./famous_five/famous_five.html\">Fünf Freunde</a> überarbeitet";
 
 // Definieren, ab welchem Element die Ausgabe erfolgen soll
 var min = 1;

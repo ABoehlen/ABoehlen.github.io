@@ -1,4 +1,4 @@
-// news.js V1.0 10.07.2022
+// news.js V1.1 22.10.2022
 // Autor: Adrian Boehlen
 // Aktualisierung: laufend
 //
@@ -14,11 +14,14 @@ neuigkeiten[2] = "19.06.2022: Startseite angepasst";
 neuigkeiten[3] = "10.07.2022: Neue Funktion zum Vergrössern der Bilder";
 neuigkeiten[4] = "24.09.2022: Neue Rubrik <a href=\"./karten.html\">Karten</a> ergänzt";
 neuigkeiten[5] = "30.09.2022:<br />Übersicht <a href=\"./famous_five/famous_five.html\">Fünf Freunde</a> überarbeitet";
+neuigkeiten[6] = "22.10.2022: Karte <a href=\"./karten.html#2014_castlehill_map\">Castle Hill</a> ergänzt";
 
 // Definieren, ab welchem Element die Ausgabe erfolgen soll
 var min = 1;
 
 // Ausgabe der Aenderungen als Liste, neueste zuoberst
+document.write("<ul class=\"Liste\">");
 for (var i = (neuigkeiten.length - 1); i >= min; i--) {
   document.write("<li>" + neuigkeiten[i] + "</li>");
 }
+document.write("</ul>");

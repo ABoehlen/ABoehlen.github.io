@@ -17,6 +17,7 @@ neuigkeiten[4] = "24.09.2022: Neue Rubrik <a href=\"./karten.html\">Karten</a> e
 neuigkeiten[5] = "30.09.2022:<br />Übersicht <a href=\"./famous_five/famous_five.html\">Fünf Freunde</a> überarbeitet";
 neuigkeiten[6] = "22.10.2022: Karte <a href=\"./karten.html#2014_castlehill_map\">Castle Hill</a> ergänzt";
 neuigkeiten[7] = "12.12.2022: Neue Bilder Startseite / Footer in JavaScript ausgelagert";
+neuigkeiten[8] = "29.01.2023: Karte <a href=\"./karten.html#2023_valledinibbio\">Valle di Nibbio</a> ergänzt";
 
 //------------------------------------------------------------------------------------------------------------------------
 
@@ -29,3 +30,5 @@ for (var i = (neuigkeiten.length - 1); i >= min; i--) {
   document.write("<li>" + neuigkeiten[i] + "</li>");
 }
 document.write("</ul>");
+
+

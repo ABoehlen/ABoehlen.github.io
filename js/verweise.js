@@ -25,9 +25,10 @@ blyIntrDict["ac"] = "3";
 
 var advIntrDict = new Array();
 advIntrDict["aa"] = "1";
-advIntrDict["ab"] = "2";
-advIntrDict["ac"] = "4";
-advIntrDict["ad"] = "3";
+advIntrDict["ab"] = "3";
+advIntrDict["ac"] = "5";
+advIntrDict["ad"] = "4";
+advIntrDict["ae"] = "2";
 
 var advIslDict = new Array();
 advIslDict["aa"] = "1";
@@ -56,10 +57,11 @@ ffIntrDict["aa"] = "1";
 ffIntrDict["ab"] = "2";
 ffIntrDict["ac"] = "3";
 ffIntrDict["ad"] = "4";
-ffIntrDict["ae"] = "7";
-ffIntrDict["af"] = "8";
-ffIntrDict["ag"] = "6";
-ffIntrDict["ah"] = "5";
+ffIntrDict["ae"] = "8";
+ffIntrDict["af"] = "9";
+ffIntrDict["ag"] = "7";
+ffIntrDict["ah"] = "6";
+ffIntrDict["ai"] = "5";
 
 var ffModZeltDict = new Array();
 ffModZeltDict["aa"] = "1";
@@ -78,7 +80,8 @@ var secrIntrDict = new Array();
 secrIntrDict["aa"] = "1";
 secrIntrDict["ab"] = "2";
 secrIntrDict["ac"] = "3";
-secrIntrDict["ad"] = "4";
+secrIntrDict["ad"] = "5";
+secrIntrDict["ae"] = "4";
 
 var secrKilliDict = new Array();
 secrKilliDict["aa"] = "1";

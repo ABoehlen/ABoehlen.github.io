@@ -1,9 +1,9 @@
-// news.js V1.1 22.10.2022
+// news.js V1.2 22.03.2023
 // Autor: Adrian Boehlen
 // Aktualisierung: laufend
 //
-// Script greift aus der fortlaufenden Liste der Neuerungen, die hier als
-// Array aufgebaut ist, die neuesten heraus und gibt sie auf der Webseite aus.
+// Script greift aus der fortlaufenden Liste der Neuerungen, die hier als Array
+// aufgebaut ist, eine beliebige Anzahl heraus und gibt sie auf der Webseite aus.
 
 var neuigkeiten = new Array();
 
@@ -21,17 +21,21 @@ neuigkeiten[7] =  "12.12.2022: Neue Bilder Startseite / Footer in JavaScript aus
 neuigkeiten[8] =  "29.01.2023: Karte <a href=\"./karten.html#2023_valledinibbio\">Valle di Nibbio</a> ergänzt";
 neuigkeiten[9] =  "01.03.2023: Dokumentation <a href=\"./secret_series/secret_maps_killi.html\"> Karten von Killimooin</a> erweitert";
 neuigkeiten[10] = "17.03.2023: Zu jeder Serienbeschreibung in <a href=\"./blyton.html\"> Enid Blyton</a> ein Bild ergänzt";
+neuigkeiten[11] = "22.03.2023: Neue Option auf der Startseite, um die gesamte Chronik anzuzeigen";
 
 //------------------------------------------------------------------------------------------------------------------------
 
-// Definieren, ab welchem Element die Ausgabe erfolgen soll
-var min = 5;
 
-// Ausgabe der Aenderungen als Liste, neueste zuoberst
-document.write("<ul class=\"Liste\">");
-for (var i = (neuigkeiten.length - 1); i >= min; i--) {
-  document.write("<li>" + neuigkeiten[i] + "</li>");
+// Ausgabe der letzten Aenderungen als Liste, neueste zuoberst
+function news(n) {
+  if (n == 0) {
+    n = neuigkeiten.length; // um alle anzuzeigen
+  }
+  document.write("<ul class=\"Liste\">");
+  for (var i = (neuigkeiten.length - 1); i >= neuigkeiten.length - n; i--) {
+    document.write("<li>" + neuigkeiten[i] + "</li>");
+  }
+  document.write("</ul>");
 }
-document.write("</ul>");
 
 

@@ -8,13 +8,10 @@ util/out.txt
 list_html.txt
 list_hikr-images.txt
 list_images.vim
-mod_navigation.bash
 
 # Misc
 template.html
-misc/test.html
-misc/test.css
-misc/entw.txt
+misc
 screenshots/ansicht_linux.jpg
 screenshots/ansicht_win11.jpg
 
@@ -31,11 +28,5 @@ secret_series/grundlagen_secret.txt
 secret_series/grundlagen_secret_maps_killi.txt
 
 # Old files
-js/__openwindow.js
 old
-old/header_nibbio.jpg
-old/header_churzenberg_winter.jpg
 old/css_media_all_ori.txt
-
-# Under construction
-adventure_series/valley_of_adventure

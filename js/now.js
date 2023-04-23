@@ -1,3 +1,8 @@
+// now.js V1.0 23.03.2023
+// Autor: Adrian Boehlen, basierend auf einer nicht mehr auffindbaren Online-Quelle
+//
+// Script erzeugt ein deutschsprachiger Datum- und Zeit-String
+
 function jetzt() {  
   var datum = new Date();
   var tag = datum.deformat();
@@ -36,5 +41,3 @@ function de_format() {
   erg += this.getFullYear();
   return erg;
 }
-
-jetzt();

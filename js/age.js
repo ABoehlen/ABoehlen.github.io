@@ -1,3 +1,8 @@
+// alter.js V1.0 23.03.2023
+// Autor: Adrian Boehlen
+//
+// Script gibt mein Alter aus
+
 function alter() {  
   var datum = new Date();
   var monat = datum.getMonth();
@@ -11,4 +16,3 @@ function alter() {
     document.write(jahr - geburtsjahr);
   }
 }
-alter();

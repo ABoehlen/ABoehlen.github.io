@@ -22,4 +22,3 @@ function randimg() {
     document.write("<img width=\"320px\" onclick=\"show(\'" + path + "\');\" src=" + path + " />");
   }
 }
-randimg();

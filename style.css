@@ -1,3 +1,12 @@
+/*********************************************
+ * Filename: style.css
+ * Author:   Adrian Boehlen
+ * Date:     20.04.2023
+ * Version:  3.0
+ * Purpose:  Desingn und Formatierung/
+ *           der Website aboehlen.github.io
+ *------------------------------------------*/
+
 /* allgemeine Einstellungen */
 html { height: 100%; }
 
@@ -32,7 +41,7 @@ img[onClick]{
 /* Kopfzeile */
 
 #header {
-	background: #000000 url(img/header_winter.jpg) no-repeat right;
+	background: #000000 url(img/header_sommer.jpg) no-repeat right;
 	height: 177px;
 	width: 1000px;
 	margin: 0;
@@ -148,11 +157,19 @@ div.navi_breit {
 	padding: 0;
 }
 
+/* Tabellendarstellungen */
 #content .box .Reihe {
 	display: table-row;
 	text-align: left;
 	font-size: 21px;
 	font-weight: bold;
+	line-height: 110%;
+}
+
+#content .box .Reihe_zw {
+	display: table-row;
+	text-align: left;
+	font-size: 12px;
 	line-height: normal;
 }
 
@@ -207,18 +224,27 @@ div.navi_breit {
 	display: table-cell;
 	font-size: 16px;
 	font-weight: normal;
-	width: 60px;
+	text-align: right;
+	width: 90px;
 	vertical-align: top;
+}
+
+#content .box .Reihe .Zelle_Inh_zw {
+	display: table-cell;
+	font-size: 8px;
+	width: 30px;
 }
 
 #content .box .Reihe .Zelle_Inh_r {
 	display: table-cell;
 	font-size: 16px;
 	font-weight: normal;
-	width: 640px;
+	text-align: left;
+	width: 500px;
 	vertical-align: top;
 }
 
+/* Bilder und -legenden */
 #content .box .Bild_l {
 	float: left;
 	display: inline-block;

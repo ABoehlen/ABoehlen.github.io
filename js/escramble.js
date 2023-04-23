@@ -23,4 +23,3 @@ function escramble(){
   
   document.write(a + b + c + d + e)
 }
-escramble()

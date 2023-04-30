@@ -1,0 +1,16 @@
+﻿		</div>
+	</div>
+	<div id="sidebar">	
+		<div class="box">
+		<ul>
+		  <li><a href="./adv_valley_inh.html">Inhaltsverzeichnis</a></li>
+		</ul>
+		</div>
+	</div>
+	<div id="bottomShadow">&nbsp;</div>
+	<div id="footer">
+		<script type="text/javascript">fusszeile("3");</script>
+	</div>
+</div>
+</body>
+</html>

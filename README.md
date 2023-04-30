@@ -8,9 +8,9 @@ Currently only available in German.
 
 https://aboehlen.github.io/ ist meine persönliche Website, realisiert als Github Repository unter Verwendung von Github Pages.
 
-Mittels Github Pages https://pages.github.com/ ist es möglich, eine komplette Website als Github Repository zuführen. Wie das geht, ist online gut dokumentiert, z.B. hier \[1\].
+Mittels Github Pages https://pages.github.com/ ist es möglich, eine komplette Website als Github Repository zu verwalten. Wie das geht, ist online gut dokumentiert, z.B. hier \[1\].
 
-Die URL leitet sich aus dem Benutzernamen ab (<username>.github.io), aber kann auf jede beliebige Domain umgeleitet werden, wie hier beschrieben: \[2\] Momentan nutze ich diese Möglichkeit nicht.
+Die URL leitet sich aus dem Benutzernamen ab (`<username>.github.io`), kann aber auf jede beliebige Domain umgeleitet werden, wie hier beschrieben: \[2\] Momentan nutze ich diese Möglichkeit nicht.
 
 ***
 
@@ -22,7 +22,7 @@ Diese liegen im Unterordner `Util`.
 
 #### Einleitung
 
-Das Shellscript `xref` ermöglicht die fortlaufende Nummerierung von Querverweisen und Abbildungen in Berichten, die eine oder mehrere HTML-Seiten umfassen.
+Das Shellscript `xref` ermöglicht die fortlaufende Nummerierung von Querverweisen und Abbildungen in Berichten und Dokumentationen, die eine oder mehrere HTML-Seite umfassen.
 
 Die grundlegende Problematik und ein Lösungsansatz wird von den Autoren der Programmiersprache Awk in ihrem Standardwerk erläutert:
 
@@ -32,7 +32,7 @@ Das hier geschilderte Problem stellt sich insbesondere bei manuell erstellten HT
 
 #### Grundsatz
 
-Das Konzept von Aho, Kernighan und Weinberger wird unverändert übernommen. Zitiert aus \[3\].
+Das Konzept von Aho, Kernighan und Weinberger wird unverändert übernommen. Zitiert aus \[3\]:
 
 *As the document is being written, the author creates and uses symbolic names for the various items that will be cross-referenced. Because the names are symbolic, items can be added, deleted, and rearranged without having to change any existing names.*
 

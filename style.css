@@ -1,8 +1,8 @@
 /*********************************************
  * Filename: style.css
  * Author:   Adrian Boehlen
- * Date:     20.04.2023
- * Version:  3.0
+ * Date:     14.05.2023
+ * Version:  3.1
  * Purpose:  Desingn und Formatierung/
  *           der Website aboehlen.github.io
  *------------------------------------------*/
@@ -78,7 +78,8 @@ img[onClick]{
 	background-image: url("img/content_shadow.png");
 	height: 29px;
 	margin: 0;
-	padding: 0;
+	padding: 0 50px;
+	font-size: 14px;
 }
 	
 div.navi_schmal {
@@ -447,7 +448,8 @@ div.navi_breit {
 	background-image: url("img/content_bShadow.png");
 	height: 29px;
 	margin: 0;
-	padding: 0;
+	padding: 0 50px;
+	font-size: 14px;
 	clear: both;
 	position: relative;
 }

@@ -27,6 +27,7 @@ neuigkeiten[13] = "17.03.2023: Zu jeder Serienbeschreibung in <a href=\"./blyton
 neuigkeiten[14] = "22.03.2023: Neue Option auf der Startseite, um die gesamte Chronik anzuzeigen";
 neuigkeiten[15] = "30.04.2023: Dokumentation der Website und des Tools 'xref' im <a target=\"_blank\" href=\"https://github.com/ABoehlen/ABoehlen.github.io/blob/main/README.md\">README.md</a>";
 neuigkeiten[16] = "29.05.2023 / 03.06.2023: Analoge <a href=\"./karten.html\">Karten</a> ergänzt und dokumentiert";
+neuigkeiten[17] = "25.06.2023: Struktur von <a href=\"./karten.html\">Karten</a> überarbeitet";
 
 //------------------------------------------------------------------------------------------------------------------------
 

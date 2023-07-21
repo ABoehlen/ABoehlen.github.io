@@ -62,6 +62,7 @@ ffIntrDict["af"] = "9";
 ffIntrDict["ag"] = "7";
 ffIntrDict["ah"] = "6";
 ffIntrDict["ai"] = "5";
+ffIntrDict["aj"] = "10";
 
 var ffModZeltDict = new Array();
 ffModZeltDict["aa"] = "1";

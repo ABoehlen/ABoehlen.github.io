@@ -20,14 +20,15 @@ neuigkeiten[6] =  "10.07.2022: Neue Funktion zum Vergrössern der Bilder";
 neuigkeiten[7] =  "24.09.2022: Neue Rubrik <a href=\"./karten.html\">Karten</a> ergänzt";
 neuigkeiten[8] =  "30.09.2022: Übersicht <a href=\"./famous_five/famous_five.html\">Fünf Freunde</a> überarbeitet";
 neuigkeiten[9] =  "22.10.2022: Karte <a href=\"./karten.html#2014_castlehill_map\">Castle Hill</a> ergänzt";
-neuigkeiten[10] =  "12.12.2022: Neue Bilder Startseite / Footer in JavaScript ausgelagert";
-neuigkeiten[11] =  "29.01.2023: Karte <a href=\"./karten.html#2023_valledinibbio\">Valle di Nibbio</a> ergänzt";
-neuigkeiten[12] =  "01.03.2023: Dokumentation <a href=\"./secret_series/secret_maps_killi.html\"> Karten von Killimooin</a> erweitert";
+neuigkeiten[10] = "12.12.2022: Neue Bilder Startseite / Footer in JavaScript ausgelagert";
+neuigkeiten[11] = "29.01.2023: Karte <a href=\"./karten.html#2023_valledinibbio\">Valle di Nibbio</a> ergänzt";
+neuigkeiten[12] = "01.03.2023: Dokumentation <a href=\"./secret_series/secret_maps_killi.html\"> Karten von Killimooin</a> erweitert";
 neuigkeiten[13] = "17.03.2023: Zu jeder Serienbeschreibung in <a href=\"./blyton.html\"> Enid Blyton</a> ein Bild ergänzt";
 neuigkeiten[14] = "22.03.2023: Neue Option auf der Startseite, um die gesamte Chronik anzuzeigen";
 neuigkeiten[15] = "30.04.2023: Dokumentation der Website und des Tools 'xref' im <a target=\"_blank\" href=\"https://github.com/ABoehlen/ABoehlen.github.io/blob/main/README.md\">README.md</a>";
 neuigkeiten[16] = "29.05.2023 / 03.06.2023: Analoge <a href=\"./karten.html\">Karten</a> ergänzt und dokumentiert";
 neuigkeiten[17] = "25.06.2023: Struktur von <a href=\"./karten.html\">Karten</a> überarbeitet";
+neuigkeiten[18] = "23.07.2023: Text von <a href=\"./secret_series/secret_maps_killi.html\"> Karten von Killimooin</a> überarbeitet";
 
 //------------------------------------------------------------------------------------------------------------------------
 

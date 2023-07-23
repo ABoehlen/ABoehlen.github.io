@@ -88,8 +88,9 @@ var secrKilliDict = new Array();
 secrKilliDict["aa"] = "1";
 secrKilliDict["ab"] = "2";
 secrKilliDict["ac"] = "3";
-secrKilliDict["ad"] = "4";
-secrKilliDict["ae"] = "5";
+secrKilliDict["ad"] = "5";
+secrKilliDict["ae"] = "6";
+secrKilliDict["af"] = "4";
 
 //******************************************************
 // Funktion zur Uebersetzung in die definitiven Zeichen,

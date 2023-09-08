@@ -52,6 +52,19 @@ advRivDict["ab"] = "2";
 advRivDict["ac"] = "3";
 advRivDict["ad"] = "4";
 
+var advValDict = new Array();
+advValDict["aa"] = "1";
+advValDict["ab"] = "2";
+advValDict["ac"] = "4";
+advValDict["ad"] = "6";
+advValDict["ae"] = "5";
+advValDict["af"] = "7";
+advValDict["ag"] = "8";
+advValDict["ah"] = "10";
+advValDict["ai"] = "3";
+advValDict["aj"] = "11";
+advValDict["ak"] = "9";
+
 var ffIntrDict = new Array();
 ffIntrDict["aa"] = "1";
 ffIntrDict["ab"] = "2";
@@ -132,7 +145,7 @@ function verweis(ref) {
       uebersetze(advRivDict);
       break;
     case "advVal":
-      uebersetze(advValleyDict);
+      uebersetze(advValDict);
       break;
     case "ffIntr":
       uebersetze(ffIntrDict);

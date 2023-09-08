@@ -1,4 +1,4 @@
-// now.js V1.0 23.03.2023
+// now.js V1.1 08.09.2023
 // Autor: Adrian Boehlen, basierend auf einer nicht mehr auffindbaren Online-Quelle
 //
 // Script erzeugt ein deutschsprachiger Datum- und Zeit-String
@@ -23,18 +23,18 @@ Date.prototype.deformat = de_format;
 
 function de_format() {
   var monat = new Array(12);
-  monat[0] = "Januar";
-  monat[1] = "Februar";
-  monat[2] = "März";
-  monat[3] = "April";
-  monat[4] = "Mai";
-  monat[5] = "Juni";
-  monat[6] = "Juli";
-  monat[7] = "August";
-  monat[8] = "September";
-  monat[9] = "Oktober";
-  monat[10] = "November";
-  monat[11] = "Dezember";
+  monat[0] =  "Jan.";
+  monat[1] =  "Feb.";
+  monat[2] =  "März";
+  monat[3] =  "April";
+  monat[4] =  "Mai";
+  monat[5] =  "Juni";
+  monat[6] =  "Juli";
+  monat[7] =  "Aug.";
+  monat[8] =  "Sept.";
+  monat[9] =  "Okt.";
+  monat[10] = "Nov.";
+  monat[11] = "Dez.";
   
   var erg = this.getDate() + ". ";
   erg += monat[this.getMonth()] + " ";

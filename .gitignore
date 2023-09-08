@@ -1,8 +1,12 @@
+# Backups
+adventure_series/maps/bak
+
 # Documentation
 notes.txt
 
 # Test files
 util/out.txt
+util/quellenverzeichnis.awk
 
 # Scripts
 list_html.txt
@@ -10,10 +14,12 @@ list_hikr-images.txt
 list_images.vim
 
 # Misc
-template.html
 misc
-screenshots/ansicht_linux.jpg
-screenshots/ansicht_win11.jpg
+template.html
+
+# Old files
+old
+old/css_media_all_ori.txt
 
 # Reference files
 grundlagen_blyton.txt
@@ -22,11 +28,14 @@ adventure_series/grundlagen_adventure_maps_circus.txt
 adventure_series/grundlagen_adventure_maps_island.txt
 adventure_series/grundlagen_adventure_maps_river.txt
 adventure_series/grundlagen_adventure_maps_sea.txt
+adventure_series/grundlagen_adventure_maps_valley.txt
 famous_five/grundlagen_famous-five.txt
 famous_five/grundlagen_ff_modell_eisenbahn_zeltlager.txt
 secret_series/grundlagen_secret.txt
 secret_series/grundlagen_secret_maps_killi.txt
 
-# Old files
-old
-old/css_media_all_ori.txt
+# Screenshots
+screenshots
+
+# Temporary files
+adventure_series/notes.txt

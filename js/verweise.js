@@ -47,10 +47,11 @@ advSeaDict["ab"] = "2";
 advSeaDict["ac"] = "3";
 
 var advRivDict = new Array();
-advRivDict["aa"] = "1";
-advRivDict["ab"] = "2";
-advRivDict["ac"] = "3";
-advRivDict["ad"] = "4";
+advRivDict["aa"] = "2";
+advRivDict["ab"] = "3";
+advRivDict["ac"] = "4";
+advRivDict["ad"] = "5";
+advRivDict["ae"] = "1";
 
 var advValDict = new Array();
 advValDict["aa"] = "1";
@@ -98,12 +99,13 @@ secrIntrDict["ad"] = "5";
 secrIntrDict["ae"] = "4";
 
 var secrKilliDict = new Array();
-secrKilliDict["aa"] = "1";
-secrKilliDict["ab"] = "2";
-secrKilliDict["ac"] = "3";
-secrKilliDict["ad"] = "5";
-secrKilliDict["ae"] = "6";
-secrKilliDict["af"] = "4";
+secrKilliDict["aa"] = "2";
+secrKilliDict["ab"] = "3";
+secrKilliDict["ac"] = "4";
+secrKilliDict["ad"] = "6";
+secrKilliDict["ae"] = "7";
+secrKilliDict["af"] = "5";
+secrKilliDict["ag"] = "1";
 
 //******************************************************
 // Funktion zur Uebersetzung in die definitiven Zeichen,

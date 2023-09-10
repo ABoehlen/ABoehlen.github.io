@@ -11,7 +11,7 @@ var neuigkeiten = new Array();
 //------------------------------------------------------------------------------------------------------------------------
 
 neuigkeiten[0] =  "19.09.2021: Erstes Commit, noch ohne Inhalt";
-neuigkeiten[1] =  "27.01.2022: Inhalt ergänzt";
+neuigkeiten[1] =  "10.10.2021: erster Inhalt ergänzt";
 neuigkeiten[2] =  "13.03.2022: Design optimiert";
 neuigkeiten[3] =  "29.05.2022: Übersicht <a href=\"./famous_five/famous_five.html\">Fünf Freunde</a> ergänzt";
 neuigkeiten[4] =  "29.05.2022: Neuer Bericht: <a href=\"./famous_five/ff_modell_eisenbahn_zeltlager.html\">Bahnanlagen «Zeltlager»</a>";
@@ -30,6 +30,7 @@ neuigkeiten[16] = "29.05.2023 / 03.06.2023: Analoge <a href=\"./karten.html\">Ka
 neuigkeiten[17] = "25.06.2023: Struktur von <a href=\"./karten.html\">Karten</a> überarbeitet";
 neuigkeiten[18] = "23.07.2023: Text von <a href=\"./secret_series/secret_maps_killi.html\"> Karten zu TV’s The Secret of Killimooin</a> überarbeitet";
 neuigkeiten[19] = "08.09.2023: Neue Dokumentation <a href=\"./adventure_series/adventure_maps_valley.html\"> Karten zu TV’s The Valley of Adventure</a> ergänzt";
+neuigkeiten[20] = "10.09.2023: Seite <a href=\"./adventure_series/adventure_maps_river.html\"> Karten in TV’s The River of Adventure</a> überarbeitet";
 
 //------------------------------------------------------------------------------------------------------------------------
 

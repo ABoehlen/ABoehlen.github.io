@@ -14,9 +14,9 @@
 // Nachfolgend ein Anwenungsbeispiel:
 // <script type="text/javascript">var name="ag"; var kap="4"; verweis("advIntr");</script>
 
-//**************************
+// *************************
 // Verweise als Dictionaries
-//**************************
+// *************************
 
 var blyIntrDict = new Array();
 blyIntrDict["aa"] = "1";
@@ -66,6 +66,8 @@ advValDict["ai"] = "3";
 advValDict["aj"] = "11";
 advValDict["ak"] = "9";
 
+// ***************************
+
 var ffIntrDict = new Array();
 ffIntrDict["aa"] = "1";
 ffIntrDict["ab"] = "2";
@@ -91,6 +93,8 @@ ffModZeltDict["ai"] = "9";
 ffModZeltDict["aj"] = "10";
 ffModZeltDict["ak"] = "11";
 
+// ***************************
+
 var secrIntrDict = new Array();
 secrIntrDict["aa"] = "1";
 secrIntrDict["ab"] = "2";
@@ -107,7 +111,29 @@ secrKilliDict["ae"] = "7";
 secrKilliDict["af"] = "5";
 secrKilliDict["ag"] = "1";
 
-//******************************************************
+var secrMoonDict = new Array();
+secrMoonDict["aa"] = "1";
+secrMoonDict["ab"] = "2";
+secrMoonDict["ac"] = "7";
+secrMoonDict["ad"] = "6";
+secrMoonDict["ae"] = "4";
+secrMoonDict["af"] = "3";
+secrMoonDict["ag"] = "5";
+
+var secrMtnDict = new Array();
+secrMtnDict["aa"] = "1";
+secrMtnDict["ab"] = "2";
+secrMtnDict["ac"] = "6";
+secrMtnDict["ad"] = "3";
+secrMtnDict["ae"] = "5";
+secrMtnDict["af"] = "9";
+secrMtnDict["ag"] = "8";
+secrMtnDict["ah"] = "11";
+secrMtnDict["ai"] = "4";
+secrMtnDict["aj"] = "7";
+secrMtnDict["ak"] = "10";
+
+// ******************************************************
 // Funktion zur Uebersetzung in die definitiven Zeichen,
 // die hochgestellt ausgegeben werden
 function uebersetze(dict) {
@@ -123,7 +149,7 @@ function uebersetze(dict) {
   }
 }
 
-//*******************************
+// *******************************
 // Anwendung zur Uebersetzung der
 // oben definierten Dictionaries
 function verweis(ref) {
@@ -160,6 +186,12 @@ function verweis(ref) {
       break;
     case "secrKilli":
       uebersetze(secrKilliDict);
+      break;
+    case "secrMoon":
+      uebersetze(secrMoonDict);
+      break;
+    case "secrMtn":
+      uebersetze(secrMtnDict);
       break;
   }
 }

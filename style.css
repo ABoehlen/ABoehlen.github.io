@@ -1,9 +1,9 @@
 /*********************************************
  * Filename: style.css
  * Author:   Adrian Boehlen
- * Date:     25.06.2023
- * Version:  3.2
- * Purpose:  Desingn und Formatierung/
+ * Date:     22.09.2023
+ * Version:  3.3
+ * Purpose:  Design und Formatierung
  *           der Website aboehlen.github.io
  *------------------------------------------*/
 
@@ -284,6 +284,7 @@ div.navi_breit {
 	color: #7c1a12;
 	line-height: normal;
 	margin-bottom: 8px;
+	text-align: left;
 }
 
 #content h2 {
@@ -291,6 +292,7 @@ div.navi_breit {
 	color: #7c1a12;
 	line-height: normal;
 	margin-bottom: 7px;
+	text-align: left;
 }
 
 #content h1 h2 a {
@@ -304,6 +306,7 @@ div.navi_breit {
 	color: #262626;
 	margin-bottom: 5px;
 	margin-top: 8px;
+	text-align: left;
 }
 
 #content p {

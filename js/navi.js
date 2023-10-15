@@ -1,4 +1,4 @@
-// navi.js V1.1 17.09.2022
+// navi.js V1.2 15.10.2023
 // Autor: Adrian Boehlen
 //
 // Script generiert die Navigationsleiste jeder Seite.
@@ -27,6 +27,6 @@ function navigationsleiste(stufe) {
 	karten = "<div class=\"navi_mittel\"><a href=\"" + pfad + "karten.html\">Karten</a></div>";
 	touren = "<div class=\"navi_mittel\"><a href=\"" + pfad + "touren.html\">Touren</a></div>";
 	links = "<div class=\"navi_mittel\"><a href=\"" + pfad + "links.html\">Links</a></div>";
-	impr = "<div class=\"navi_breit\"><a href=\"" + pfad + "impressum.html\">Impressum / Über mich</a></div>";
+	impr = "<div class=\"navi_breit\"><a href=\"" + pfad + "impressum.html\">Impressum</a></div>";
 	document.write(startseite + blyton + karten + touren + links + impr);
 }

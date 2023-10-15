@@ -1,8 +1,8 @@
 /*********************************************
  * Filename: style.css
  * Author:   Adrian Boehlen
- * Date:     22.09.2023
- * Version:  3.3
+ * Date:     15.10.2023
+ * Version:  3.4
  * Purpose:  Design und Formatierung
  *           der Website aboehlen.github.io
  *------------------------------------------*/
@@ -15,7 +15,7 @@ body {
 	background-color: #b43831;
 	background-image: url("img/background_main.png");
 	background-position: top center;
-	font-family: "Segoe UI", Optima, "Dejavu Sans", sans-serif;
+	font-family: Verdana, "Segoe UI", Optima, "Dejavu Sans", sans-serif;
 	font-size: 100%;
 	background-repeat: repeat-y;
 	margin: 0px;
@@ -324,7 +324,7 @@ div.navi_breit {
 #content summary {
 	outline: none;
 	font-weight: normal;
-	font-size: 21px;
+	font-size: 18px;
 	color: #7c1a12;
 	line-height: normal;
 	margin-bottom: 7px;

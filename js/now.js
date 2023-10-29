@@ -1,4 +1,4 @@
-// now.js V1.1 08.09.2023
+// now.js V1.2 18.10.2023
 // Autor: Adrian Boehlen, basierend auf einer nicht mehr auffindbaren Online-Quelle
 //
 // Script erzeugt ein deutschsprachiger Datum- und Zeit-String
@@ -12,10 +12,10 @@ function jetzt() {
   document.write("Heute ist der ");
   
   if (min < 10) {
-    document.write(tag + ". Es ist " + std + ":0" + min + " Uhr.");
+    document.write(tag + ".<br />Es ist " + std + ":0" + min + " Uhr.");
   }
   else {
-    document.write(tag + ". Es ist " + std + ":" + min + " Uhr.");
+    document.write(tag + ".<br />Es ist " + std + ":" + min + " Uhr.");
   }
 }
 

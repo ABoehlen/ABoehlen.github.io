@@ -93,6 +93,20 @@ ffModZeltDict["ai"] = "9";
 ffModZeltDict["aj"] = "10";
 ffModZeltDict["ak"] = "11";
 
+var ffSaillDict = new Array();
+ffSaillDict["aa"] = "1";
+ffSaillDict["ab"] = "2";
+ffSaillDict["ac"] = "3";
+ffSaillDict["ad"] = "4";
+ffSaillDict["ae"] = "5";
+ffSaillDict["af"] = "6";
+ffSaillDict["ag"] = "7";
+ffSaillDict["ah"] = "8";
+ffSaillDict["ai"] = "10";
+ffSaillDict["aj"] = "12";
+ffSaillDict["ak"] = "9";
+ffSaillDict["al"] = "11";
+
 // ***************************
 
 var secrIntrDict = new Array();
@@ -180,6 +194,9 @@ function verweis(ref) {
       break;
     case "ffModZelt":
       uebersetze(ffModZeltDict);
+      break;
+    case "ffSaill":
+      uebersetze(ffSaillDict);
       break;
     case "secrIntr":
       uebersetze(secrIntrDict);

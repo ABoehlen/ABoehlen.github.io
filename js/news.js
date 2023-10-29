@@ -33,6 +33,7 @@ neuigkeiten[19] = "08.09.2023: Neue Dokumentation <a href=\"./adventure_series/a
 neuigkeiten[20] = "10.09.2023: Seite <a href=\"./adventure_series/adventure_maps_river.html\"> Karten in TV’s The River of Adventure</a> überarbeitet";
 neuigkeiten[21] = "08.10.2023: Zusammenfassung und Gedanken <a href=\"./secret_series/secret_mountain.html\"> The Secret Mountain</a> und <a href=\"./secret_series/secret_moon.html\"> The Secret of Moon Castle</a> überarbeitet";
 neuigkeiten[22] = "15.10.2023: Typographie der Berichte harmonisiert";
+neuigkeiten[23] = "29.10.2023: Bericht <a href=\"./famous_five/ff_saillon.html\"> Ausflug nach Saillon […]</a> überarbeitet";
 
 //------------------------------------------------------------------------------------------------------------------------
 

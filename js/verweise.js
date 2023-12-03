@@ -107,6 +107,30 @@ ffSaillDict["aj"] = "12";
 ffSaillDict["ak"] = "9";
 ffSaillDict["al"] = "11";
 
+var ffSmugDict = new Array();
+ffSmugDict["aa"] = "1";
+ffSmugDict["ab"] = "2";
+ffSmugDict["ac"] = "3";
+ffSmugDict["ad"] = "4";
+ffSmugDict["ae"] = "5";
+ffSmugDict["af"] = "6";
+ffSmugDict["ag"] = "8";
+ffSmugDict["ah"] = "9";
+ffSmugDict["ai"] = "10";
+ffSmugDict["aj"] = "11";
+ffSmugDict["ak"] = "13";
+ffSmugDict["al"] = "14";
+ffSmugDict["am"] = "17";
+ffSmugDict["an"] = "12";
+ffSmugDict["ao"] = "15";
+ffSmugDict["ap"] = "16";
+ffSmugDict["aq"] = "18";
+ffSmugDict["ar"] = "19";
+ffSmugDict["as"] = "21";
+ffSmugDict["at"] = "22";
+ffSmugDict["au"] = "7";
+ffSmugDict["av"] = "20";
+
 // ***************************
 
 var secrIntrDict = new Array();
@@ -194,6 +218,9 @@ function verweis(ref) {
       break;
     case "ffModZelt":
       uebersetze(ffModZeltDict);
+      break;
+    case "ffSmug":
+      uebersetze(ffSmugDict);
       break;
     case "ffSaill":
       uebersetze(ffSaillDict);

@@ -35,6 +35,7 @@ neuigkeiten[21] = "08.10.2023: Zusammenfassung und Gedanken <a href=\"./secret_s
 neuigkeiten[22] = "15.10.2023: Typographie der Berichte harmonisiert";
 neuigkeiten[23] = "29.10.2023: Bericht <a href=\"./famous_five/ff_saillon.html\"> Ausflug nach Saillon […]</a> und Seite <a href=\"./touren.html\"> Touren</a> überarbeitet";
 neuigkeiten[24] = "03.12.2023: Bericht zu <a href=\"./famous_five/ff_smugglers_top.html\"> Karte von Castaway Hill und Smuggler’s Top</a> überarbeitet und ergänzt";
+neuigkeiten[25] = "19.01.2024: Neue Seite mit <a href=\"./touren2.html\">Links zu besonderen Tourenberichten</a> ergänzt";
 
 //------------------------------------------------------------------------------------------------------------------------
 

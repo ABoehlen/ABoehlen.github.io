@@ -51,6 +51,11 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://aboehlen.github.io/touren2.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://aboehlen.github.io/adventure_series/adventure.html</loc>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
@@ -76,12 +81,27 @@
   <priority>0.7</priority>
 </url>
 <url>
+  <loc>https://aboehlen.github.io/adventure_series/adventure_maps_valley.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
   <loc>https://aboehlen.github.io/famous_five/famous_five.html</loc>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
 <url>
   <loc>https://aboehlen.github.io/famous_five/ff_modell_eisenbahn_zeltlager.html</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/famous_five/ff_saillon.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/famous_five/ff_smugglers_top.html</loc>
   <changefreq>yearly</changefreq>
   <priority>0.7</priority>
 </url>
@@ -96,12 +116,17 @@
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://aboehlen.github.io/pdf/castaway-hill_map.pdf</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.5</priority>
+  <loc>https://aboehlen.github.io/secret_series/secret_moon.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://aboehlen.github.io/pdf/castaway-hill_map_only.pdf</loc>
+  <loc>https://aboehlen.github.io/secret_series/secret_mountain.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pdf/castaway-hill_map.pdf</loc>
   <changefreq>yearly</changefreq>
   <priority>0.5</priority>
 </url>
@@ -136,22 +161,7 @@
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://aboehlen.github.io/pdf/moon_castle_zusammenfassung.pdf</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.5</priority>
-</url>
-<url>
   <loc>https://aboehlen.github.io/pdf/reise_zu_den_drehorten_der_78er_fuenf_freunde.pdf</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.5</priority>
-</url>
-<url>
-  <loc>https://aboehlen.github.io/pdf/saillon_2017.pdf</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.5</priority>
-</url>
-<url>
-  <loc>https://aboehlen.github.io/pdf/secret_mountain_zusammenfassung.pdf</loc>
   <changefreq>yearly</changefreq>
   <priority>0.5</priority>
 </url>
@@ -166,7 +176,7 @@
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://aboehlen.github.io/pdf/valle-di-nibbio_v3.pdf</loc>
+  <loc>https://aboehlen.github.io/pdf/valle-di-nibbio_v31.pdf</loc>
   <changefreq>yearly</changefreq>
   <priority>0.5</priority>
 </url>

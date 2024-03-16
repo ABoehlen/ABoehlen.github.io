@@ -171,6 +171,22 @@ secrMtnDict["ai"] = "4";
 secrMtnDict["aj"] = "7";
 secrMtnDict["ak"] = "10";
 
+// ***************************
+
+var dokSkyDict = new Array();
+dokSkyDict["aa"] = "3";
+dokSkyDict["ab"] = "4";
+dokSkyDict["ac"] = "5";
+dokSkyDict["ad"] = "6";
+dokSkyDict["ae"] = "7";
+dokSkyDict["af"] = "8";
+dokSkyDict["ag"] = "9";
+dokSkyDict["ah"] = "1";
+dokSkyDict["ai"] = "10";
+dokSkyDict["aj"] = "11";
+dokSkyDict["ak"] = "2";
+dokSkyDict["al"] = "12";
+
 // ******************************************************
 // Funktion zur Uebersetzung in die definitiven Zeichen,
 // die hochgestellt ausgegeben werden
@@ -236,6 +252,9 @@ function verweis(ref) {
       break;
     case "secrMtn":
       uebersetze(secrMtnDict);
+      break;
+    case "dokSky":
+      uebersetze(dokSkyDict);
       break;
   }
 }

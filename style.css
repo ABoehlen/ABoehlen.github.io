@@ -1,8 +1,8 @@
 /*********************************************
  * Filename: style.css
  * Author:   Adrian Boehlen
- * Date:     03.11.2023
- * Version:  3.6
+ * Date:     10.03.2024
+ * Version:  3.8
  * Purpose:  Design und Formatierung
  *           der Website aboehlen.github.io
  *------------------------------------------*/
@@ -41,7 +41,7 @@ img[onClick]{
 /* Kopfzeile */
 
 #header {
-	background: #000000 url(img/header_winter.jpg) no-repeat right;
+	background: #000000 url(img/header_sommer.jpg) no-repeat right;
 	height: 177px;
 	width: 1000px;
 	margin: 0;
@@ -264,7 +264,6 @@ div.navi_breit {
 	vertical-align: top;
 }
 
-
 #content .box .Bildlegende {
 	font-size: 14px;
 	font-weight: normal;
@@ -287,6 +286,20 @@ div.navi_breit {
 	text-align: left;
 	margin-top: 0px;
 	margin-bottom: 0px;
+}
+
+/* einzelne Zeilen Programmcode */
+#content .box .Nichtproportional {
+	font-family: monospace;
+}
+
+/* Programmcode-Bloecke */
+#content code {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  padding: 0 1em;
+  background-color: #eee;
 }
 
 #content h1 {
@@ -341,7 +354,7 @@ div.navi_breit {
 	cursor: pointer;
 }
 
-/* fuer Impressum und Datenschutzerklaerung */
+/* Impressum und Datenschutzerklaerung */
 #content .box .adresse {
 	font-size: 16px;
 	font-style: normal;
@@ -350,7 +363,7 @@ div.navi_breit {
 	margin-bottom: 10px;
 }
 
-/* fuer schoene Aufzaehlungen */
+/* schoene Aufzaehlungen */
 #content ul {
 	list-style: none;
 	margin-left: 0;

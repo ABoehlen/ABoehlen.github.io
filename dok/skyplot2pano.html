@@ -27,7 +27,7 @@
 		<div class="box">
 			<h1>skyplot2pano – Dokumentation</h1>
 			<p>Adrian Böhlen<br />
-			Version 1.0 vom 16.03.2024</p>
+			Version 1.1 vom 24.03.2024</p>
 			
 			<h2>Inhalt</h2>
 			<div class="Reihe_zw">
@@ -285,6 +285,16 @@
 					<a href="#grundr">Anzeige im Grundriss</a>
 				</div>
 			</div>
+			<div class="Reihe">
+				<div class="Zelle_Inh_l">
+					2.5.5
+				</div>
+				<div class="Zelle_Inh_zw">
+				</div>
+				<div class="Zelle_Inh_r">
+					<a href="#profillinie">Horizontbildende Linie (Bergprofil, Profillinie)</a>
+				</div>
+			</div>
 			<div class="Reihe_zw">
 				<div class="Zelle_Inh_zw">
 				&nbsp;
@@ -471,7 +481,9 @@ Entferntester: 640238  154256  4005  243.8  208.300   4060.6  2993
 
 			<a name="aufr"></a>
 			<h2>2.2&nbsp;&nbsp;Aufruf über die Kommandozeile</h2>
-			<p>Im einfachsten Fall wird skyplot2pano einfach über die Kommandozeile aus einem beliebigen Dateiverzeichnis heraus aufgerufen. Ohne Argumente erscheint eine Übersicht, wie die Parametrisierung zu erfolgen hat. Die Werte für die insgesamt 12 Argumente müssen durch je einen Leerschlag getrennt werden und dürfen selber keine Leerzeichen enthalten. Sind die Werte gültig, beginnt das Programm zu laufen, wobei der Fortschritt ausgegeben wird, wie bereits erwähnt wurde (siehe Abb.&nbsp;5). Sobald der Prozess beendet ist, befinden sich im Verzeichnis, aus dem der Aufruf erfolgte, zwei neue Dateien:</p>
+			<p>Im einfachsten Fall wird skyplot2pano einfach über die Kommandozeile aus einem beliebigen Dateiverzeichnis heraus aufgerufen. Ohne Argumente erscheint eine Übersicht, wie die Parametrisierung zu erfolgen hat. Die Werte für die insgesamt 12 Argumente müssen durch je einen Leerschlag getrennt werden und dürfen selber keine Leerzeichen enthalten. Nachfolgend ein Beispiel: Der Sektor 218&nbsp;–&nbsp;233&nbsp;gon wird mit einer sehr feinen Auflösung von 0.01&nbsp;gon abgetastet, dies für den Distanzbereich 5&nbsp;–&nbsp;40&nbsp;km im Abstand von 0.1&nbsp;km. Die resultierende Bildbreite beträgt 200&nbsp;mm.</p>
+			<p class="Nichtproportional">skyplot2pano.awk 610558 197236 635 Gantrischweg alti25 0.01 218 233 200 5 40 0.1</p>
+			<p>Sind die Werte gültig, beginnt das Programm zu laufen, wobei der Fortschritt ausgegeben wird, wie bereits erwähnt wurde (siehe Abb.&nbsp;5). Sobald der Prozess beendet ist, befinden sich im Verzeichnis, aus dem der Aufruf erfolgte, zwei neue Dateien:</p>
 			<ul>
 				<li>prot_<em>Name_AziLi-AziRe</em>.txt (z.B. prot_Gantrischweg_218-240.txt). Dies ist das Berechungsprotokoll mit den eingegebenen Werten, daraus abgeleiteten Werten sowie den topographischen Extrempunkten (siehe Kapitel 1.3).</li>
 				<li>sil_<em>Name_AziLi-AziRe</em>.txt (z.B. sil_Gantrischweg_218-240.txt). Dies ist die kommagetrennte Textdatei für die Darstellung von aus Punkten gebildeten Silhouetten (siehe Kapitel 1.4).</li>
@@ -487,12 +499,12 @@ Entferntester: 640238  154256  4005  243.8  208.300   4060.6  2993
 			<h2>2.4&nbsp;&nbsp;Auslagerung auf eine RAM-Disk</h2>
 			<p>Wie im Abschnitt 1.4.4 aufgeführt, beinhaltet ein skyplot2pano-Prozess meist eine Vielzahl einzelner Berechnungen. Dabei werden innert kürzester Zeit dutzende Dateien angelegt, ausgewertet und wieder gelöscht. Aus diesem Grund ist es sinnvoll, die Berechnung auf ein virtuelles Laufwerk, eine so genannte RAM-Disk auszulagern. Dabei wird ein Teil des Memorys (RAM) dauerhaft einem virtuellen Laufwerk zugewiesen, welches dann zur Laufzeit wie ein normales Laufwerk verwendet werden kann. Da alles innerhalb des RAM geschieht, sind viele Prozesse auf diese Weise wesentlich schneller als auf einem «richtigen» Laufwerk.</p>
 			<p>Um eine solche RAM-Disk einzurichten, ist eine entsprechende Zusatzapplikation nötig. Zu diesem Zweck gibt es verschiedene Produkte, auch kostenlose, weshalb hier auf eine Empfehlung verzichtet wird. Beim Einrichten muss man sich genau überlegen, wieviel Speicher man für das virtuelle Laufwerk «opfern» will. Möglichst viel ist natürlich in Hinblick auf grosse Höhenmodell-Dateien sinnvoll, allerdings steht dieser Speicher dann für das normale RAM nicht mehr zur Verfügung, weshalb hier eine Güterabwägung vorzunehmen ist. Hat man sich völlig vertan, kann das virtuelle Laufwerk auch einfach wieder gelöscht und nochmals von vorne begonnen werden.</p>
-			<p>Um die Berechnung im virtuellen Laufwerk ausführen zu lassen, ist ebenfalls ein Batch erforderlich, der aber einige Zeilen mehr enthält, als der zuvor genannte. Nachstehend ein mögliches Beispiel:</p>
+			<p>Um die Berechnung im virtuellen Laufwerk ausführen zu lassen, ist ebenfalls ein Batch erforderlich, der aber einige Zeilen mehr enthält, als der zuvor genannte. Nachstehend das zuvor erläuterte Beispiel entsprechend erweitert:</p>
 			<code>
 #!/bin/bash
 dir=$(pwd)
 cd /d
-skyplot2pano.awk 610558 197236 635 Gantrischweg alti25 0.1 218 240 400 5 40 1
+skyplot2pano.awk 610558 197236 635 Gantrischweg alti25 0.01 218 233 200 5 40 0.1
 mv prot_* $dir
 mv sil_* $dir
 			</code>
@@ -536,7 +548,15 @@ mv sil_* $dir
 				<img width="320px" height="162px" alt="Anzeige Grundriss" onclick="show('./img/anzeige_grundriss_1127x572.png');" src="./img/anzeige_grundriss_320x162.png" />
 				<p class="Bildlegende">Abb.&nbsp;10:&nbsp;Anzeige der Silhouetten im Grundriss<br />Eigener Screenshot aus ArcView vom 10.03.2024</p>
 			</div>
-			<p>Nebst der Panorama-Ansicht, welche einem Seitenriss entspricht, ist es auch möglich, sich die berechnete Datei im Grundriss anzeigen zu lassen. Das Vorgehen ist grundsätzlich identisch, mit dem Unterschied dass beim Import ins GIS als Quelle für die X-Achse im Bildkoordinatensystem das Attribut <em>LageX</em> und für die Y-Achse das Feld <em>LageY</em> festgelegt werden muss. Mit einer passenden Karte im Hintergrund lassen sich die Punkte dann gut visualisieren, allerdings darf man nicht etwa erwarten, eine Art Sichtbarkeitskarte zu erhalten. Dies ist mit der Methode, mit der SCOP.SKYPLOT arbeitet nicht möglich, da damit keine Flächen, sondern nur sichtbegrenzende Kreten erfasst werden. Wie Abb.&nbsp;10 zeigt, lässt sich die Auflösung des verwendeten Höhenmodells auf diese Weise gut erkennen, da sie dem Abstand zwischen den sichtbegrenzenden Punkten in Bezug auf das Projektionszentrum entspricht; im vorliegenden Fall 25 m.</p>	
+			<p>Nebst der Panorama-Ansicht, welche einem Seitenriss entspricht, ist es auch möglich, sich die berechnete Datei im Grundriss anzeigen zu lassen. Das Vorgehen ist grundsätzlich identisch, mit dem Unterschied dass beim Import ins GIS als Quelle für die X-Achse im Bildkoordinatensystem das Attribut <em>LageX</em> und für die Y-Achse das Feld <em>LageY</em> festgelegt werden muss. Mit einer passenden Karte im Hintergrund lassen sich die Punkte dann gut visualisieren, allerdings darf man nicht etwa erwarten, eine Art Sichtbarkeitskarte zu erhalten. Dies ist mit der Methode, mit der SCOP.SKYPLOT arbeitet nicht möglich, da damit keine Flächen, sondern nur sichtbegrenzende Kreten erfasst werden. Wie Abb.&nbsp;10 zeigt, lässt sich die Auflösung des verwendeten Höhenmodells auf diese Weise gut erkennen, da sie dem Abstand zwischen den sichtbegrenzenden Punkten in Bezug auf das Projektionszentrum entspricht; im vorliegenden Fall 25 m.</p>
+			
+			<a name="profillinie"></a>
+			<h3>2.5.5&nbsp;&nbsp;Horizontbildende Linie (Bergprofil, Profillinie)</h3>
+			<p>Wie im Abschnitt 1.4.4 erläutert, wird durch die kontinuierliche Erweiterung des Höhenmodell-Perimeters vom Projektionszentrum aus eine mehr oder weniger umfassende Darstellung des sichtbaren Geländes erzielt. Manchmal ist jedoch lediglich die Wiedergabe des natürlichen Horizonts erwünscht; als gleichmässige, durchgehende Profillinie, unabhängig davon wie weit der jeweilige horizontbildende Punkt entfernt ist. Dies entspricht der eigentlichen Funktionalität von SCOP.SKYPLOT, aber eine solche Darstellung lässt sich durchaus auch mit skyplot2pano erzielen. Dazu muss man einfach das Programm dazu zwingen, nur eine einzige Berechnung durchzuführen. Für die minimale Distanz (10. Argument) und die maximale Distanz (11. Argument) kann beispielsweise fast der identische Wert verwendet werden, und zwar einer, der weiter entfernt ist als der entfernteste vom Projektionszentrum im gewünschten Sektor aus sichtbare Punkt. Zudem ist für das Intervall, mit dem der Perimeter erweitert wird (12. Argument), ein höherer Wert zu wählen, als die Differenz zwischen minimaler und maximaler Distanz. In folgendem Beispiel wurde als minimale Distanz 100, als maximale 101 und als Intervall 50 km verwendet:</p>
+			<p class="Nichtproportional">skyplot2pano.awk 600377 196254 860 Gurten dhm25 0.01 190 210 200 100 101 50</p>
+
+			<p>Um aus dem Ergebnis eine «echte» Linie zu erzielen, müssen die Punkte nach (oder je nach System bereits während) dem Import ins GIS in eine Punktdatei umgewandelt werden (Shape-, Geodatabase- oder Geopackage Format). Da die interne Reihenfolge der Punkte von links nach rechts verläuft, lassen sie sich anschliessend mit einem passenden Werkzeug mühelos in eine Linie umwandeln.</p>
+			<p>Anwendungsfälle, für solche stark abstrahierten Abbildungen der Berge gibt es genügend, beispielsweise die vom Autor in Zusammenarbeit mit der Südostbahn realisierte Beschriftung der S-Bahn Züge, für die damals aber SCOP.PER verwendet wurde. <script type="text/javascript">var name="am"; var kap=""; verweis("dokSky");</script></p>
 			
 			<a name="qu"></a>
 			<h1>Anmerkungen, Literatur und Quellen</h1>			
@@ -636,6 +656,14 @@ mv sil_* $dir
 				</div>
 				<div class="Zelle_Verw_r">
 					<a target="_blank" href="https://en.wikipedia.org/wiki/ArcView_3.x">https://en.wikipedia.org/wiki/ArcView_3.x</a> (Wikipedia: ArcView 3.x)
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>13</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					Krucker, Claudia: Die Namen der Südostbahn-Züge: Von A-Z im Höhenflug, St.&nbsp;Gallen 2022 (<a target="_blank" href="https://direkt.sob.ch/themen/einblick/von-a-z-im-hoehenflug">https://direkt.sob.ch/themen/einblick/von-a-z-im-hoehenflug</a>)
 				</div>
 			</div>
 		</div>

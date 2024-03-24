@@ -186,6 +186,7 @@ dokSkyDict["ai"] = "10";
 dokSkyDict["aj"] = "11";
 dokSkyDict["ak"] = "2";
 dokSkyDict["al"] = "12";
+dokSkyDict["am"] = "13";
 
 // ******************************************************
 // Funktion zur Uebersetzung in die definitiven Zeichen,

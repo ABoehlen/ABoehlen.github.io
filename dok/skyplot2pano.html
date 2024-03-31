@@ -27,7 +27,7 @@
 		<div class="box">
 			<h1>skyplot2pano – Dokumentation</h1>
 			<p>Adrian Böhlen<br />
-			Version 1.2 vom 28.03.2024</p>
+			Version 1.3 vom 31.03.2024</p>
 			
 			<h2>Inhalt</h2>
 			<div class="Reihe_zw">
@@ -434,21 +434,22 @@ Entferntester: 640238  154256  4005  243.8  208.300   4060.6  2993
 				<img width="320px" height="185px" alt="Höhe aus Radius und Winkel" onclick="show('./img/h_aus_radius_und_winkel_950x550.jpg');" src="./img/h_aus_radius_und_winkel_950x550.jpg" />
 				<p class="Bildlegende">Abb.&nbsp;4:&nbsp;Bestimmung der Höhe (h) über dem mathematischen Horizont (mH) im Bildkoordinatensystem zwecks Festlegung der Punkte, welche die Konturen der Landschaft wiedergeben.<br />Eigene Zeichnung vom 07.03.2024</p>
 			</div>	
-			<p>Im Gegensatz zu einer «echten» Zylinderprojektion liegt der so genannte Hauptpunkt (Bildkoordinaten 0 / 0) hier nicht in der Bildmitte, sondern am linken Bildrand. Ausgehend von der Information, wie vielen Millimetern ein gon im Bildkoordinatensystem entspricht, wird nun ein Punkt nach dem anderen berechnet, wobei der Horizontalabstand der einzelnen Punkte (Abstand auf der X-Achse des Bildkoordinatensystems) immer genau gleich ist und der in Millimetern umgerechneten azimutalen Auflösung (6. Argument) entspricht. Der vertikale Abstand vom mathematischen Horizont (Y-Koordinate im Bildkoordinatensystem) wird trigonometrisch errechnet, indem der Radius des Projektionszylinders als Ankathete in einem rechtwinkligen Dreieck angenommen und mit dem Tangens des Höhenwinkels multipliziert wird. Abb.&nbsp;4 erläutert die Zusammenhänge. Das ist wie wenn der virtuelle Panoramazeichner&nbsp;–&nbsp;um zum vorherigen Beispiel zurückzukehren&nbsp;–&nbsp;der dahinterliegenden Landschaft entsprechend, in regelmässigem Abstand einen Punkt auf den Zylinder zeichnen würde. Wie im ersten Teil erläutert, lassen sich mittels der verfügbaren Informationen die Lagekoordinaten ermitteln und so erhält jeder Punkt seine reale X- und Y-Koordinate als Zusatzinformation, sodass diese später im Panoramabild abgefragt werden können. Zusammen mit einigen weiteren Angaben präsentiert sich die resultierende sil-Datei am Schluss wie folgt:</p>
+			<p>Im Gegensatz zu einer «echten» Zylinderprojektion liegt der so genannte Hauptpunkt (Bildkoordinaten 0 / 0) hier nicht in der Bildmitte, sondern am linken Bildrand. Ausgehend von der Information, wie vielen Millimetern ein gon im Bildkoordinatensystem entspricht, wird nun ein Punkt nach dem anderen berechnet, wobei der Horizontalabstand der einzelnen Punkte (Abstand auf der X-Achse des Bildkoordinatensystems) immer genau gleich ist und der in Millimetern umgerechneten azimutalen Auflösung (6. Argument) entspricht. Der vertikale Abstand vom mathematischen Horizont (Y-Koordinate im Bildkoordinatensystem) wird trigonometrisch errechnet, indem der Radius des Projektionszylinders als Ankathete in einem rechtwinkligen Dreieck angenommen und mit dem Tangens des Höhenwinkels multipliziert wird. Abb.&nbsp;4 erläutert die Zusammenhänge. Das ist wie wenn der virtuelle Panoramazeichner&nbsp;–&nbsp;um zum vorherigen Beispiel zurückzukehren&nbsp;–&nbsp;der dahinterliegenden Landschaft entsprechend, in regelmässigem Abstand einen Punkt auf den Zylinder zeichnen würde. Wie im ersten Teil erläutert, lassen sich mittels der verfügbaren Informationen die Lage- und Höhenkoordinaten ermitteln und so erhält jeder Punkt seine reale X-, Y- und Z-Koordinate als Zusatzinformation, sodass diese später im Panoramabild abgefragt werden können. Zusammen mit einigen weiteren Angaben präsentiert sich die resultierende sil-Datei am Schluss wie folgt:</p>
 			<code>
-      X,       Y,     LageX,     LageY,     Dist,   Azi, HWink,  Limit, DiRel
-  0.000,  58.123,  603397.0,  172588.0,  25700.0, 218.0,   3.2,  25000,     6
-  1.818,  58.287,  603344.0,  172551.0,  25750.0, 218.1,   3.2,  25000,     6
-  3.636,  58.564,  603299.0,  172539.0,  25775.0, 218.2,   3.2,  25000,     6
-  5.455,  59.115,  603253.0,  172527.0,  25800.0, 218.3,   3.2,  25000,     6
-  7.273,  59.844,  603214.0,  172539.0,  25800.0, 218.4,   3.3,  25000,     6
-  9.091,  61.354,  603190.0,  172600.0,  25750.0, 218.5,   3.4,  25000,     6
- 10.909,  62.493,  603159.0,  172637.0,  25725.0, 218.6,   3.4,  25000,     6
- 12.727,  62.231,  603121.0,  172648.0,  25725.0, 218.7,   3.4,  25000,     6
- 14.545,  62.679,  603082.0,  172661.0,  25725.0, 218.8,   3.4,  25000,     6
- 16.364,  62.163,  603043.0,  172672.0,  25725.0, 218.9,   3.4,  25000,     6
+      X,       Y,   LageX,   LageY,  LageZ,     Dist,   Azi, HWink,  Limit, DiRel
+  0.000,  10.804,  615484,  166133,   2172,  31525.0, 190.0,   3.0,  35000,     3
+  3.636,   9.961,  615165,  164867,   2114,  32725.0, 191.0,   2.7,  35000,     3
+  7.273,  11.517,  614667,  164710,   2339,  32825.0, 192.0,   3.2,  35000,     3
+ 10.909,  11.184,  614175,  164473,   2301,  33000.0, 193.0,   3.1,  35000,     3
+ 14.545,  11.386,  613723,  163751,   2366,  33675.0, 194.0,   3.1,  35000,     3
+ 18.182,  10.631,  613258,  162928,   2296,  34450.0, 195.0,   2.9,  35000,     3
+ 25.455,   7.728,  612188,  162669,   1872,  34625.0, 197.0,   2.1,  35000,     3
+ 29.091,   7.602,  611375,  171238,   1535,  26025.0, 198.0,   2.1,  35000,     3
+ 32.727,   7.957,  610970,  170980,   1584,  26275.0, 199.0,   2.2,  35000,     3
+ 36.364,   9.407,  610558,  170933,   1751,  26325.0, 200.0,   2.6,  35000,     3
+ 40.000,  10.577,  610145,  170967,   1882,  26300.0, 201.0,   2.9,  35000,     3
 			</code>
-			<p class="Bildlegende">Tab.&nbsp;4:&nbsp;Output von skyplot2pano (Auszug). Kommagetrennte Textdatei für die Darstellung von aus Punkten gebildeter Silhouetten.</p>
+			<p class="Bildlegende">Tab.&nbsp;4:&nbsp;Output von skyplot2pano (Auszug). Kommagetrennte Textdatei für die Darstellung von aus Punkten gebildeten Silhouetten.</p>
 			
 			<a name="sil"></a>
 			<h3>1.4.4&nbsp;&nbsp;Realisierung von sichtbegrenzenden Kreten (Silhouetten)</h3>
@@ -528,18 +529,18 @@ mv sil_* $dir
 			
 			<a name="pte_best"></a>
 			<h3>2.5.3&nbsp;&nbsp;Lage der Punkte bestimmen</h3>
-			<p>Wie bereits erwähnt, werden zu jedem Punkt die zugehörigen Lagekoordinaten berechnet. Mit einem entsprechenden Werkzeug (<em>Identify</em> o.ä.) lassen sie sich dann problemlos abfragen und z.B. mittels eines Geoportals verorten. Die Abbildungen 8 und 9 zeigen ein Beispiel unter Verwendung von <a target="_blank" href="https://map.geo.admin.ch">https://map.geo.admin.ch</a>. Dort lassen sich Koordinatenpaare einfach ins Suchfeld eintippen, worauf die Ansicht zur entsprechenden Stelle springt. In diesem Beispiel handelt es sich bei dem hinter dem Gemsgrat aufragenden Gipfel mit den LV03-Koordinaten 598520 / 171359 demnach um den 2115&nbsp;m hohen Hane.</p>
+			<p>Wie bereits erwähnt, werden zu jedem Punkt die zugehörigen Lagekoordinaten berechnet. Mit einem entsprechenden Werkzeug (<em>Identify</em> o.ä.) lassen sie sich dann problemlos abfragen und z.B. mittels eines Geoportals verorten. Die Abbildungen 8 und 9 zeigen ein Beispiel unter Verwendung von <a target="_blank" href="https://map.geo.admin.ch">https://map.geo.admin.ch</a>. Dort lassen sich Koordinatenpaare einfach ins Suchfeld eintippen, worauf die Ansicht zur entsprechenden Stelle springt. In diesem Beispiel handelt es sich bei dem hinter dem Gemsgrat aufragenden Gipfel mit den LV03-Koordinaten 598516 / 171361 demnach um den Nordgipfel des 2115&nbsp;m hohen Hane, der gemäss Höhenmodell 2106&nbsp;m hoch ist.</p>
 			
 			<div class="Reihe">
 				<div class="Zelle_norm">
 					<img width="320px" height="221px" alt="Abfrage Punkt" onclick="show('./img/abfrage_punkt_526x364.jpg');" src="./img/abfrage_punkt_320x221.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;8:&nbsp;Abfragen eines Punktes mit Anzeige der Lagekoordinaten.<br />Eigener Screenshot aus ArcView vom 09.03.2024</p>
+					<p class="Bildlegende">Abb.&nbsp;8:&nbsp;Abfragen eines Punktes mit Anzeige der Lage- und Höhenkoordinaten.<br />Eigener Screenshot aus ArcView vom 31.03.2024</p>
 				</div>
 				<div class="Zelle_zw">
 				</div>
 				<div class="Zelle_norm">
 					<img width="320px" height="221px" alt="Lage bestimmen" onclick="show('./img/punktbestimmung_geoadmin_526x364.jpg');" src="./img/punktbestimmung_geoadmin_320x221.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;9:&nbsp;Lokalisierung dieses Punktes anhand der Lagekoordinaten im Geoportal map.geo.admin.ch<br />Eigener Screenshot aus Firefox vom 09.03.2024</p>
+					<p class="Bildlegende">Abb.&nbsp;9:&nbsp;Lokalisierung dieses Punktes anhand der Lagekoordinaten im Geoportal map.geo.admin.ch<br />Eigener Screenshot aus Firefox vom 31.03.2024</p>
 				</div>
 			</div>			
 			
@@ -556,7 +557,12 @@ mv sil_* $dir
 			<p>Wie im Abschnitt 1.4.4 erläutert, wird durch die kontinuierliche Erweiterung des Höhenmodell-Perimeters vom Projektionszentrum aus eine mehr oder weniger umfassende Darstellung des sichtbaren Geländes erzielt. Manchmal ist jedoch lediglich die Wiedergabe des natürlichen Horizonts erwünscht; als gleichmässige, durchgehende Profillinie, unabhängig davon wie weit der jeweilige horizontbildende Punkt entfernt ist. Dies entspricht der eigentlichen Funktionalität von SCOP.SKYPLOT, aber eine solche Darstellung lässt sich durchaus auch mit skyplot2pano erzielen. Dazu muss man einfach das Programm dazu zwingen, nur eine einzige Berechnung durchzuführen. Für die minimale Distanz (10. Argument) und die maximale Distanz (11. Argument) kann beispielsweise fast der identische Wert verwendet werden, und zwar einer, der weiter entfernt ist als der entfernteste vom Projektionszentrum im gewünschten Sektor aus sichtbare Punkt. Zudem ist für das Intervall, mit dem der Perimeter erweitert wird (12. Argument), ein höherer Wert zu wählen, als die Differenz zwischen minimaler und maximaler Distanz. In folgendem Beispiel wurde als minimale Distanz 100, als maximale 101 und als Intervall 50 km verwendet:</p>
 			<p class="Nichtproportional">skyplot2pano.awk 600377 196254 860 Gurten dhm25 0.01 190 210 200 100 101 50</p>
 
-			<p>Um aus dem Ergebnis eine «echte» Linie zu erzielen, müssen die Punkte nach (oder je nach System bereits während) dem Import ins GIS in eine Punktdatei umgewandelt werden (Shape-, Geodatabase- oder Geopackage Format). Da die interne Reihenfolge der Punkte von links nach rechts verläuft, lassen sie sich anschliessend mit einem passenden Werkzeug mühelos in eine Linie umwandeln.</p>
+			<div class="Bild_l">
+				<img width="320px" height="46px" alt="Profillinie" onclick="show('./img/profillinie_640x93.jpg');" src="./img/profillinie_640x93.jpg" />
+				<p class="Bildlegende">Abb.&nbsp;11:&nbsp;Profillinie<br />Eigener Export aus ArcView vom 31.03.2024</p>
+			</div>
+
+			<p>Um aus dem Ergebnis eine «echte» Linie zu erzielen, müssen die Punkte nach (oder je nach System bereits während) dem Import ins GIS in eine Punktdatei umgewandelt werden (Shape-, Geodatabase- oder Geopackage Format). Da die interne Reihenfolge der Punkte von links nach rechts verläuft, lassen sie sich anschliessend mit einem passenden Werkzeug mühelos in eine Linie umwandeln. Abb.&nbsp;11 zeigt das aus obiger Parametrisierung erzielte Ergebnis.</p>
 			<p>Anwendungsfälle, für solche stark abstrahierten Abbildungen der Berge gibt es genügend, beispielsweise die vom Autor in Zusammenarbeit mit der Südostbahn realisierte Beschriftung der S-Bahn Züge, für die damals aber SCOP.PER verwendet wurde. <script type="text/javascript">var name="am"; var kap=""; verweis("dokSky");</script></p>
 			
 			<a name="qu"></a>

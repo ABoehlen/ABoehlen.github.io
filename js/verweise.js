@@ -182,11 +182,13 @@ dokSkyDict["ae"] = "7";
 dokSkyDict["af"] = "8";
 dokSkyDict["ag"] = "9";
 dokSkyDict["ah"] = "1";
-dokSkyDict["ai"] = "10";
-dokSkyDict["aj"] = "11";
+dokSkyDict["ai"] = "12";
+dokSkyDict["aj"] = "13";
 dokSkyDict["ak"] = "2";
-dokSkyDict["al"] = "12";
-dokSkyDict["am"] = "13";
+dokSkyDict["al"] = "14";
+dokSkyDict["am"] = "15";
+dokSkyDict["an"] = "10";
+dokSkyDict["ao"] = "11";
 
 // ******************************************************
 // Funktion zur Uebersetzung in die definitiven Zeichen,

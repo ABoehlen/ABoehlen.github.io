@@ -182,13 +182,15 @@ dokSkyDict["ae"] = "7";
 dokSkyDict["af"] = "8";
 dokSkyDict["ag"] = "9";
 dokSkyDict["ah"] = "1";
-dokSkyDict["ai"] = "12";
-dokSkyDict["aj"] = "13";
+dokSkyDict["ai"] = "14";
+dokSkyDict["aj"] = "15";
 dokSkyDict["ak"] = "2";
-dokSkyDict["al"] = "14";
-dokSkyDict["am"] = "15";
-dokSkyDict["an"] = "10";
-dokSkyDict["ao"] = "11";
+dokSkyDict["al"] = "16";
+dokSkyDict["am"] = "17";
+dokSkyDict["an"] = "11";
+dokSkyDict["ao"] = "13";
+dokSkyDict["ap"] = "10";
+dokSkyDict["aq"] = "12";
 
 // ******************************************************
 // Funktion zur Uebersetzung in die definitiven Zeichen,

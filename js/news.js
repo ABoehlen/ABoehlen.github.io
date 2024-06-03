@@ -38,6 +38,7 @@ neuigkeiten[24] = "03.12.2023: Bericht zu <a href=\"./famous_five/ff_smugglers_t
 neuigkeiten[25] = "19.01.2024: Neue Seite mit <a href=\"./touren2.html\">Links zu besonderen Tourenberichten</a> ergänzt";
 neuigkeiten[26] = "16.03.2024: Ausführliche Dokumentation zur Eigenentwicklung <a href=\"./dok/skyplot2pano.html\">skyplot2pano</a> ergänzt";
 neuigkeiten[27] = "05.05.2024: Automatische Bergbeschriftung der Eigenentwicklung <a href=\"./dok/skyplot2pano.html\">skyplot2pano</a> dokumentiert";
+neuigkeiten[28] = "03.06.2024: Seite mit <a href=\"./touren2.html\">Links zu besonderen Tourenberichten</a> erweitert";
 
 //------------------------------------------------------------------------------------------------------------------------
 

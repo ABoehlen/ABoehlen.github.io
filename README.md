@@ -16,7 +16,7 @@ Die URL leitet sich aus dem Benutzernamen ab (`<username>.github.io`), kann aber
 
 ## Dokumentation der zusätzlichen Tools
 
-Diese liegen im Unterordner `Util`.
+Diese liegen im Unterverzeichnis `Util`.
 
 ### xref – Programm zur Erzeugung fortlaufender Querverweise
 
@@ -90,7 +90,7 @@ Benötigt wird eine Shell-Umgebung (bash) mit Gawk. Dies ist auf allen Linux-Sys
 
 #### Programmaufruf
 
-Folgende Dateien müssen in den Arbeitsordner kopiert werden:
+Folgende Dateien müssen ins Arbeitsverzeichnis kopiert werden:
 
 - xref
 - xref.awk
@@ -103,11 +103,11 @@ Aufgerufen wird nur `xref`, welches dann die Unterprogramme selbst parametrisier
 
 Damit `xref` weiss, in welcher Reihenfolge, die HTML-Dateien abzuarbeiten sind, muss als 1. Argument eine Dateiliste in Textform angegeben werden. Dort sind die HTML-Dateien in der korrekten Reihenfolge aufgeführt, jeweils durch einem Zeilenvorschub getrennt. Am Ende müssen die beiden Textfiles für das Literatur- und das Abbildungsverzeichnis stehen. Die Datei wird mit einer Leerzeile abgeschlossen.
 
-Als 2. und 4. Argument sind die Namen der neu zu erstellenden HTML-Dateien für das Literatur- und Abbildungsverzeichnis anzugeben, deren Titel als 3. und 5. Argument definiert wird. Die Titel werden später als Überschrift 1. Ordnung (`h1`) in den jeweiligen HTML-Dokumenten stehen.
+Als 2. und 4. Argument sind die Namen der neu zu erstellenden HTML-Dateien für das Literatur- und Abbildungsverzeichnis anzugeben, deren Titel als 3. und 5. Argument definiert wird. Die Titel werden später als Überschrift 1. Ordnung (`h1`) in den jeweiligen HTML-Dokumenten stehen. Die Ausgabe erfolgt in das Verzeichnis, welches als 6. Argument angegeben wird.
 
-Beispiel: `./xref filelist.txt adv_valley_lit.html "Quellennachweis" adv_valley_abb.html "Abbildungsverzeichnis"`
+Beispiel: `./xref filelist.txt adv_valley_lit.html "Quellennachweis" adv_valley_abb.html "Abbildungsverzeichnis" ../adv_valley_def`
 
-Der Programmdurchlauf dauert nur einen Augenblick und erzeugt auf derselben Ebene wie der Arbeitsordner einen neuen Ordner `def`. So bleibt der Link zur CSS-Datei gültig und das Ergebnis kann direkt mittels Browser kontrolliert werden. Allfällige Unterordner mit Bildern oder Scriptfiles müssen manuell dorthin kopiert werden.
+Der Programmdurchlauf dauert nur einen Augenblick und erzeugt im angegebenen Verzeichnis die konvertierten HTML-Dateien. Allfällige Unterverzeichnisse mit Bildern oder Scriptfiles müssen manuell dorthin kopiert werden.
 
 ***
 

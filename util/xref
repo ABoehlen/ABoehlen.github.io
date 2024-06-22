@@ -3,8 +3,8 @@
 #
 # Filename:     xref
 # Author:       Adrian Boehlen
-# Date:         30.04.2023
-# Version:      1.0
+# Date:         22.06.2024
+# Version:      1.1
 # Product:      Website
 #
 # Purpose:      erzeugt fortlaufende Querverweise ueber mehrere Dateien hinweg
@@ -20,20 +20,20 @@
 #                 angegeben werden.
 #               - Die Titel von Literatur- und das Abbildungsverzeichnis sind in einfache oder 
 #                 doppelte Hochkommas als 3. und 5. Argument anzugeben
+#               - die Ausgabe wird in das Verzeichnis geschrieben, welches als 6. Argument
+#                 angegeben wird
 #               - Zum Erstellen der HTML-Seiten werden die Dateien header.txt und footer.txt in
 #                 der richtigen Struktur im gleichen Verzeichnis benoetigt.
-#               - die resultierenden Dateien werden in den Ordner 'def' auf gleicher
-#                 Ebene geschrieben (wegen allfaelliger relativer Links zu anderen Files).
 #
 #################################################################################################
 
-if [[ $# != 5 ]]
+if [[ $# != 6 ]]
 then
   echo ' ' 
   echo ' '
-  echo '***************************************************************************************************************'
-  echo 'Usage:  xref <filelist> <bibliography html> <bibliography title> <list of figures html> <list of figures title>'
-  echo '***************************************************************************************************************'
+  echo '**************************************************************************************************************************'
+  echo 'Usage:  xref <filelist> <bibliography html> <bibliography title> <list of figures html> <list of figures title> <dest dir>'
+  echo '**************************************************************************************************************************'
   echo ' '
   echo ' '
   exit
@@ -45,11 +45,12 @@ bibHtml=$2
 bibTitle=$3
 figHtml=$4
 figTitle=$5
+destDir=$6
 
 # Zielverzeichnis anlegen, falls nicht vorhanden
-if [[ ! -d ../def ]]
+if [[ ! -d $destDir ]]
 then
-  mkdir ../def
+  mkdir $destDir
 fi
 
 # symbolische Namen fortlaufenden Nummern zuweisen und Ersetzen-Script anlegen
@@ -58,13 +59,13 @@ awk -f xref.awk $filelist
 # symbolische Namen durch fortlaufende Nummern ersetzen
 while IFS= read -r file
 do
-  cat $file | awk -f xref.tmp $file > ../def/$file
+  cat $file | awk -f xref.tmp $file > $destDir/$file
 done < $filelist
 
 # Literatur- und Abbildungsverzeichnis uebersetzen
-awk -v bibTitle=$bibTitle -f xref_bibliography.awk ../def/bibliography.txt > ../def/$bibHtml
-awk -v figTitle=$figTitle -f xref_figurelist.awk ../def/figures.txt        > ../def/$figHtml
+awk -v bibTitle=$bibTitle -f xref_bibliography.awk $destDir/bibliography.txt > $destDir/$bibHtml
+awk -v figTitle=$figTitle -f xref_figurelist.awk $destDir/figures.txt        > $destDir/$figHtml
 
 # Aufraeumen
 rm -f xref.tmp
-rm -f ../def/*.txt
+rm -f $destDir/*.txt

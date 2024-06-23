@@ -39,6 +39,7 @@ neuigkeiten[25] = "19.01.2024: Neue Seite mit <a href=\"./touren2.html\">Links z
 neuigkeiten[26] = "16.03.2024: Ausführliche Dokumentation zur Eigenentwicklung <a href=\"./dok/skyplot2pano.html\">skyplot2pano</a> ergänzt";
 neuigkeiten[27] = "05.05.2024: Automatische Bergbeschriftung der Eigenentwicklung <a href=\"./dok/skyplot2pano.html\">skyplot2pano</a> dokumentiert";
 neuigkeiten[28] = "03.06.2024: Seite mit <a href=\"./touren2.html\">Links zu besonderen Tourenberichten</a> erweitert";
+neuigkeiten[29] = "23.06.2024: Neue umfangreiche Dokumentation <a href=\"./adventure_series/valley_of_adventure/adv_valley_inh.html\">Mein Tal der Abenteuer</a> ergänzt";
 
 //------------------------------------------------------------------------------------------------------------------------
 

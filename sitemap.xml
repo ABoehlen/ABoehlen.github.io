@@ -91,6 +91,106 @@
   <priority>0.7</priority>
 </url>
 <url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_abb.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_ebl.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>  
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_end.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_essen.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_felsst.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_hoehle.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_hoehlenbw.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_inh.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_karten.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_mot.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_nachts.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_quellen.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_skizze.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_suche.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_tiere.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_wafa.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_weg.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_wegw.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_wetter.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_zus.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
   <loc>https://aboehlen.github.io/dok/skyplot2pano.html</loc>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>

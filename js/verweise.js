@@ -174,6 +174,21 @@ secrMtnDict["ak"] = "10";
 
 // ***************************
 
+var dokMVT7000Dict = new Array();
+dokMVT7000Dict["aa"] = "1";
+dokMVT7000Dict["ab"] = "2";
+dokMVT7000Dict["ac"] = "5";
+dokMVT7000Dict["ad"] = "6";
+dokMVT7000Dict["ae"] = "7";
+dokMVT7000Dict["af"] = "8";
+dokMVT7000Dict["ag"] = "10";
+dokMVT7000Dict["ah"] = "9";
+dokMVT7000Dict["ai"] = "4";
+dokMVT7000Dict["aj"] = "3";
+dokMVT7000Dict["ak"] = "12";
+dokMVT7000Dict["al"] = "13";
+dokMVT7000Dict["am"] = "11";
+
 var dokSkyDict = new Array();
 dokSkyDict["aa"] = "3";
 dokSkyDict["ab"] = "4";
@@ -258,6 +273,9 @@ function verweis(ref) {
       break;
     case "secrMtn":
       uebersetze(secrMtnDict);
+      break;
+    case "dokMVT7000":
+      uebersetze(dokMVT7000Dict);
       break;
     case "dokSky":
       uebersetze(dokSkyDict);

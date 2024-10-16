@@ -185,9 +185,10 @@ dokMVT7000Dict["ag"] = "10";
 dokMVT7000Dict["ah"] = "9";
 dokMVT7000Dict["ai"] = "4";
 dokMVT7000Dict["aj"] = "3";
-dokMVT7000Dict["ak"] = "12";
-dokMVT7000Dict["al"] = "13";
+dokMVT7000Dict["ak"] = "13";
+dokMVT7000Dict["al"] = "14";
 dokMVT7000Dict["am"] = "11";
+dokMVT7000Dict["an"] = "12";
 
 var dokSkyDict = new Array();
 dokSkyDict["aa"] = "3";

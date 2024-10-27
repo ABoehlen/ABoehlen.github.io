@@ -176,19 +176,32 @@ secrMtnDict["ak"] = "10";
 
 var dokMVT7000Dict = new Array();
 dokMVT7000Dict["aa"] = "1";
-dokMVT7000Dict["ab"] = "2";
-dokMVT7000Dict["ac"] = "5";
-dokMVT7000Dict["ad"] = "6";
-dokMVT7000Dict["ae"] = "7";
-dokMVT7000Dict["af"] = "8";
-dokMVT7000Dict["ag"] = "10";
-dokMVT7000Dict["ah"] = "9";
-dokMVT7000Dict["ai"] = "4";
-dokMVT7000Dict["aj"] = "3";
-dokMVT7000Dict["ak"] = "13";
-dokMVT7000Dict["al"] = "14";
-dokMVT7000Dict["am"] = "11";
-dokMVT7000Dict["an"] = "12";
+dokMVT7000Dict["ab"] = "3";
+dokMVT7000Dict["ac"] = "6";
+dokMVT7000Dict["ad"] = "7";
+dokMVT7000Dict["ae"] = "8";
+dokMVT7000Dict["af"] = "9";
+dokMVT7000Dict["ag"] = "11";
+dokMVT7000Dict["ah"] = "10";
+dokMVT7000Dict["ai"] = "5";
+dokMVT7000Dict["aj"] = "4";
+dokMVT7000Dict["am"] = "12";
+dokMVT7000Dict["an"] = "2";
+
+var dokMVT7000_2Dict = new Array();
+dokMVT7000_2Dict["aa"] = "1";
+dokMVT7000_2Dict["ab"] = "5";
+dokMVT7000_2Dict["ac"] = "12";
+dokMVT7000_2Dict["ad"] = "2";
+dokMVT7000_2Dict["ae"] = "11";
+dokMVT7000_2Dict["af"] = "6";
+dokMVT7000_2Dict["ag"] = "13";
+dokMVT7000_2Dict["ah"] = "7";
+dokMVT7000_2Dict["ai"] = "8";
+dokMVT7000_2Dict["aj"] = "9";
+dokMVT7000_2Dict["ak"] = "10";
+dokMVT7000_2Dict["al"] = "3";
+dokMVT7000_2Dict["am"] = "4";
 
 var dokSkyDict = new Array();
 dokSkyDict["aa"] = "3";
@@ -277,6 +290,9 @@ function verweis(ref) {
       break;
     case "dokMVT7000":
       uebersetze(dokMVT7000Dict);
+      break;
+    case "dokMVT7000_2":
+      uebersetze(dokMVT7000_2Dict);
       break;
     case "dokSky":
       uebersetze(dokSkyDict);

@@ -1,0 +1,13 @@
+aa$https://blog.kakaocdn.net/dn/bwuFwW/btr0ybuleE4/Tk9JkKgCEkLEBtL8BsSDH1/LF-B15.pdf?attach=1&amp;knm=tfile.pdf (LF-B15 455 kHz Ceramic Filters)
+ab$Schiffhauer, Nils: Scanner – UKW-Sprechfunk-Empfänger. Siebel Verlag, Meckenheim 1995, S.&nbsp;112
+ac$Siebel, Wolf: Zusatzgeräte für den Funkempfang. Siebel Verlag, Meckenheim 1995, S.&nbsp;83ff
+ad$http://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/cerafil/p05e.ashx (Ceramic Filters (CERAFILr)/Ceramic Discriminators for Communications Equipment, Seite 37 (Druckseite 35))
+ae$https://www.merseyradar.co.uk/airband-radio/scanner-greats-yupiteru-mvt-7000-brought-back-to-life/ (Yupiteru MVT-7000 brought back to life !)
+af$http://www.grahn-spezialantennen.de/ (Grahn Spezialantennen)
+ag$Radio-Scanner, Das Hör- und Abhör-Magazin, Nr. 4/96. Burgdorf 1996, S.&nbsp;61ff
+ah$Klawitter, Gerd: Technik, Tips &amp; Tricks rund um den Empfänger. Siebel Verlag, Meckenheim 1994, S.&nbsp;102ff
+ai$https://www.youtube.com/watch?v=sUynyu-Bftg (Sendestelle HCJB Weenermoor)
+aj$Tech, Jürgen: Antennen zum Selbstbauen. Frech-Verlag, Stuttgart 1978, S.&nbsp;9ff
+ak$siehe Anmerkung ab, S.&nbsp;11
+al$HF-225 General Coverage Receiver. User’s Manual. Lowe Electronics Ltd, Matlock, Derbyshire 1989, S.&nbsp;10
+am$https://www.alldatasheet.com/datasheet-pdf/pdf/1424487/MURATA1/SFE10.7MS2-Z.7.html (SFE10.7MS2-Z.7 Datasheet, Murata Manufacturing Co., Ltd, Seite 9 (Druckseite 7))

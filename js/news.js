@@ -43,6 +43,7 @@ neuigkeiten[29] = "23.06.2024: Neue umfangreiche Dokumentation <a href=\"./adven
 neuigkeiten[30] = "30.08.2024: Seite <a href=\"./karten.html\">Karten</a> erweitert und überarbeitet";
 neuigkeiten[31] = "20.09.2024: Erweiterter Inhalt der DXF-Datei von <a href=\"./dok/skyplot2pano.html\">skyplot2pano</a> erläutert";
 neuigkeiten[32] = "06.10.2024: Neue Rubrik <a href=\"./dx.html\">DX</a> und Umbaubericht <a href=\"./dok/mvt7000.html\">MVT-7000</a> ergänzt";
+neuigkeiten[33] = "27.10.2024: Neuer Erfahrungsbericht zum <a href=\"./dok/mvt7000_2.html\">MVT-7000</a> ergänzt";
 
 //------------------------------------------------------------------------------------------------------------------------
 

@@ -187,6 +187,7 @@ dokMVT7000Dict["ai"] = "5";
 dokMVT7000Dict["aj"] = "4";
 dokMVT7000Dict["am"] = "12";
 dokMVT7000Dict["an"] = "2";
+dokMVT7000Dict["ao"] = "13";
 
 var dokMVT7000_2Dict = new Array();
 dokMVT7000_2Dict["aa"] = "1";

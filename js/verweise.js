@@ -223,6 +223,12 @@ dokSkyDict["ao"] = "13";
 dokSkyDict["ap"] = "10";
 dokSkyDict["aq"] = "12";
 
+var dokUKWLoopDict = new Array();
+dokUKWLoopDict["aa"] = "1";
+dokUKWLoopDict["ab"] = "2";
+dokUKWLoopDict["ac"] = "3";
+
+
 // ******************************************************
 // Funktion zur Uebersetzung in die definitiven Zeichen,
 // die hochgestellt ausgegeben werden
@@ -297,6 +303,9 @@ function verweis(ref) {
       break;
     case "dokSky":
       uebersetze(dokSkyDict);
+      break;
+    case "dokUKWLoop":
+      uebersetze(dokUKWLoopDict);
       break;
   }
 }

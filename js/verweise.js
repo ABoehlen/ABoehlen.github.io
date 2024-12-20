@@ -91,7 +91,8 @@ ffModZeltDict["ag"] = "4";
 ffModZeltDict["ah"] = "8";
 ffModZeltDict["ai"] = "9";
 ffModZeltDict["aj"] = "10";
-ffModZeltDict["ak"] = "11";
+ffModZeltDict["ak"] = "12";
+ffModZeltDict["al"] = "11";
 
 var ffSaillDict = new Array();
 ffSaillDict["aa"] = "1";

@@ -27,8 +27,8 @@
 		<div class="box">
 			<h1>skyplot2pano – Dokumentation</h1>
 			<p>Adrian Böhlen<br />
-			Dokumentation: Version 1.8 vom 20.09.2024<br />
-			Applikation: Version 1.15 vom 20.09.2024</p>
+			Dokumentation: Version 1.9 vom 22.12.2024<br />
+			Applikation: Version 2.0 vom 22.12.2024</p>
 			
 			<h2>Inhalt</h2>
 			<div class="Reihe_zw">
@@ -363,7 +363,7 @@
 				<div class="Zelle_Inh_zw">
 				</div>
 				<div class="Zelle_Inh_r">
-					<a href="#profillinie">Horizontbildende Linie (Bergprofil, Profillinie)</a>
+					<a href="#extr_vis">Visualisierung der Extrempunkte</a>
 				</div>
 			</div>
 			<div class="Reihe">
@@ -373,12 +373,22 @@
 				<div class="Zelle_Inh_zw">
 				</div>
 				<div class="Zelle_Inh_r">
-					<a href="#namen">Erzeugen der automatischen Beschriftung</a>
+					<a href="#profillinie">Horizontbildende Linie (Bergprofil, Profillinie)</a>
 				</div>
 			</div>
 			<div class="Reihe">
 				<div class="Zelle_Inh_l">
 					2.6.7
+				</div>
+				<div class="Zelle_Inh_zw">
+				</div>
+				<div class="Zelle_Inh_r">
+					<a href="#namen">Erzeugen der automatischen Beschriftung</a>
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Inh_l">
+					2.6.8
 				</div>
 				<div class="Zelle_Inh_zw">
 				</div>
@@ -802,43 +812,51 @@ mv sil_* $dir
 				<p class="Bildlegende">Abb.&nbsp;16:&nbsp;Anzeige der Silhouetten im Grundriss<br />Eigener Screenshot aus ArcView vom 10.03.2024</p>
 			</div>
 			<p>Nebst der Panorama-Ansicht, welche einem Seitenriss entspricht, ist es auch möglich, sich die berechnete Datei im Grundriss anzeigen zu lassen. Das Vorgehen ist grundsätzlich identisch, mit dem Unterschied dass beim Import ins GIS als Quelle für die X-Achse im Bildkoordinatensystem das Attribut <em>LageX</em> und für die Y-Achse das Feld <em>LageY</em> festgelegt werden muss. Mit einer passenden Karte im Hintergrund lassen sich die Punkte dann gut visualisieren, allerdings darf man nicht etwa erwarten, eine Art Sichtbarkeitskarte zu erhalten. Dies ist mit der Methode, mit der SCOP.SKYPLOT arbeitet nicht möglich, da damit keine Flächen, sondern nur sichtbegrenzende Kreten erfasst werden. Wie Abb.&nbsp;16 zeigt, lässt sich die Auflösung des verwendeten Höhenmodells auf diese Weise gut erkennen, da sie dem Abstand zwischen den sichtbegrenzenden Punkten in Bezug auf das Projektionszentrum entspricht; im vorliegenden Fall 25 m.</p>
+
+			<a name="extr_vis"></a>
+			<h3>2.6.5&nbsp;&nbsp;Visualisierung der Extrempunkte</h3>
+			<div class="Bild_r">
+				<img width="320px" height="172px" alt="Anzeige Extrempunkte" onclick="show('./img/extrempunkte_auf_karte_640x344.png');" src="./img/extrempunkte_auf_karte_640x344.png" />
+				<p class="Bildlegende">Abb.&nbsp;17:&nbsp;Anzeige der Extrempunkte vor der Landeskarte der Schweiz 1:1 Mio.<br />Eigener Screenshot aus ArcView vom 21.12.2024</p>
+			</div>
+			<p>Ebenfalls im Grundriss können die topographischen Extrempunkte visualisiert werden. Dazu wird die bei jeder Berechnung erzeugte Datei extr_<em>Name_AziLi-AziRe</em>.txt verwendet. Diese ist nach demselben Prinzip wie die Datei mit den aus Punkten gebildeten Silhouetten zu laden. Die Felder <em>X</em> und <em>Y</em> kennzeichnen die Lage im gleichen Koordinatensystem wie das verwendete Höhenmodell. Über das Attribut <em>Extrempunkt</em> lassen sich anschliessend verschiedene Symbole für die einzelnen Punkte festlegen. Dass mehrere Extrempunkte an derselben Stelle liegen, kann dabei durchaus vorkommen, entsprechend liegen dort dann mehrere Symbole übereinander. In Abb.&nbsp;17 betrifft dies z.B. den südlichsten und den entferntesten Punkt, welches in beiden Fällen das Balmhorn ist. Wie in Abschnitt 1.3.3 erläutert, beziehen sich die Extrempunkte immer auf den berechneten Sektor. In diesem Fall erfolgte die Berechnung nur von Ost über Süd nach West (100 – 300 gon), entsprechend liegt der nördlichste Punkt beim Projektionszentrum (Gantrischweg).</p>
 			
 			<a name="profillinie"></a>
-			<h3>2.6.5&nbsp;&nbsp;Horizontbildende Linie (Bergprofil, Profillinie)</h3>
+			<h3>2.6.6&nbsp;&nbsp;Horizontbildende Linie (Bergprofil, Profillinie)</h3>
 			<p>Wie im Abschnitt 1.4.4 erläutert, wird durch die kontinuierliche Erweiterung des Höhenmodell-Perimeters vom Projektionszentrum aus eine mehr oder weniger umfassende Darstellung des sichtbaren Geländes erzielt. Manchmal ist jedoch lediglich die Wiedergabe des natürlichen Horizonts erwünscht; als gleichmässige, durchgehende Profillinie, unabhängig davon wie weit der jeweilige horizontbildende Punkt entfernt ist. Dies entspricht der eigentlichen Funktionalität von SCOP.SKYPLOT, aber eine solche Darstellung lässt sich durchaus auch mit skyplot2pano erzielen. Dazu muss man einfach das Programm dazu zwingen, nur eine einzige Berechnung durchzuführen. Für die minimale Distanz (10. Argument) und die maximale Distanz (11. Argument) kann beispielsweise fast der identische Wert verwendet werden, und zwar einer, der weiter entfernt ist als der entfernteste vom Projektionszentrum im gewünschten Sektor aus sichtbare Punkt. Zudem ist für das Intervall, mit dem der Perimeter erweitert wird (12. Argument), ein höherer Wert zu wählen, als die Differenz zwischen minimaler und maximaler Distanz. In folgendem Beispiel wurde als minimale Distanz 100, als maximale 101 und als Intervall 50 km verwendet:</p>
-			<p class="Nichtproportional">skyplot2pano.awk 600377 196254 860 Gurten dhm25 0.01 190 210 200 100 101 50</p>
+			<code>skyplot2pano.awk 600377 196254 860 Gurten dhm25 0.01 190 210 200 100 101 50 0 0</code><br />
 
 			<div class="Bild_l">
 				<img width="320px" height="46px" alt="Profillinie" onclick="show('./img/profillinie_640x93.jpg');" src="./img/profillinie_640x93.jpg" />
-				<p class="Bildlegende">Abb.&nbsp;17:&nbsp;Profillinie (Gurten Richtung Gantrisch)<br />Eigener Export aus ArcView vom 31.03.2024</p>
+				<p class="Bildlegende">Abb.&nbsp;18:&nbsp;Profillinie (Gurten Richtung Gantrisch)<br />Eigener Export aus ArcView vom 31.03.2024</p>
 			</div>
 
-			<p>Um aus dem Ergebnis eine «echte» Linie zu erzielen, müssen die Punkte nach (oder je nach System bereits während) dem Import ins GIS in eine Punktdatei umgewandelt werden (Shape-, Geodatabase- oder Geopackage Format). Da die interne Reihenfolge der Punkte von links nach rechts verläuft, lassen sie sich anschliessend mit einem passenden Werkzeug mühelos in eine Linie umwandeln. Abb.&nbsp;17 zeigt das aus obiger Parametrisierung erzielte Ergebnis.</p>
+			<p>Um aus dem Ergebnis eine «echte» Linie zu erzielen, müssen die Punkte nach (oder je nach System bereits während) dem Import ins GIS in eine Punktdatei umgewandelt werden (Shape-, Geodatabase- oder Geopackage Format). Da die interne Reihenfolge der Punkte von links nach rechts verläuft, lassen sie sich anschliessend mit einem passenden Werkzeug mühelos in eine Linie umwandeln. Abb.&nbsp;18 zeigt das aus obiger Parametrisierung erzielte Ergebnis.</p>
 			<p>Anwendungsfälle, für solche stark abstrahierten Abbildungen der Berge gibt es genügend, beispielsweise die vom Autor in Zusammenarbeit mit der Südostbahn realisierte Beschriftung der S-Bahn Züge, für die damals aber SCOP.PER verwendet wurde. <script type="text/javascript">var name="am"; var kap=""; verweis("dokSky");</script></p>
 
 			<a name="namen"></a>
-			<h3>2.6.6&nbsp;&nbsp;Erzeugen der automatischen Beschriftung</h3>
+			<h3>2.6.7&nbsp;&nbsp;Erzeugen der automatischen Beschriftung</h3>
 			<p>Wie im Abschnitt 1.5 erläutert, besteht die Möglichkeit, die auf dem Panorama sichtbaren Gipfel automatisch beschriften zu lassen. Diese Option ist allerdings noch nicht sehr ausgereift, weshalb das Ergebnis möglicherweise den Erwartungen nicht entspricht. Dazu ist als 13.&nbsp;Argument die als Grundlage zu verwendende Namendatei aufzuführen und als 14.&nbsp;Argument die Lagetoleranz in m. Welcher Wert hier ideal ist, hängt von verschiedenen Parametern ab und muss im Einzelfall durch Probieren herausgefunden werden. Bei Sichtweiten unter 100&nbsp;km und einem gut aufgelösten Höhenmodell lassen sich mit 50&nbsp;–&nbsp;100&nbsp;m im Normalfall gute Ergebnisse erzielen. Grundsätzlich ist es sehr wichtig, dass für ein gutes Resultat die azimutale Auflösung möglichst klein sein sollte, insbesondere bei grosser Distanz zu den abgebildeten Gipfeln, da es ansonsten gut möglich ist, dass die höchsten Punkte durch die Maschen fallen und so auch keine Übereinstimmung mit der Namensinformation gefunden werden kann, d.h. die betreffenden Namen dann fehlen, obwohl die Gipfel sichtbar wären. Die Toleranz sollte also bei insgesamt grossen Distanzen höher gewählt werden (100&nbsp;–&nbsp;500&nbsp;m), was natürlich das Risiko mit sich bringt, dass mitunter «falsche», d.h. gar nicht sichtbare Namen erwischt und dann ebenfalls angezeigt werden. Allerdings muss der Toleranzwert immer kleiner sein als die Hälfte von Aufloes-Dist (12.&nbsp;Argument), da ansonsten ein Name bei mehreren Berechnungen als sichtbar detektiert werden kann und dann mehrfach im Panorama auftaucht.</p>
 			<div class="Bild_l">
 				<img width="320px" height="137px" alt="DXF laden" onclick="show('./img/add_dxf_483x206.png');" src="./img/add_dxf_483x206.png" />
-				<p class="Bildlegende">Abb.&nbsp;18:&nbsp;Laden der Linien- und Textinformation einer DXF-Datei.<br />Eigener Screenshot aus ArcView vom 21.04.2024</p>
+				<p class="Bildlegende">Abb.&nbsp;19:&nbsp;Laden der Linien- und Textinformation einer DXF-Datei.<br />Eigener Screenshot aus ArcView vom 21.04.2024</p>
 			</div>
 			<p>Bei gesetztem 13. und 14.&nbsp;Argument wird eine Datei im DXF-Format angelegt, wobei die Namenskonvention jener der sil- und prot-Datei entspricht. Bei Verwendung einer RAM-Disk (siehe Abschnitt 2.5) darf in diesem Fall nicht vergessen werden, noch eine weitere Zeile anzufügen, die diese Datei ebenfalls von der RAM-Disk ins ursprüngliche Verzeichnis zurückschiebt.</p>
-			<p>DXF ist ein gut dokumentiertes vektorielles CAD-Format von AutoDesk, welches auch von GIS-Systemen unterstützt wird (teilweise ist wie bei ArcView 3 dazu das Aktivieren einer <em>Extension</em> nötig). Da eine DXF-Datei das Speichern unterschiedlicher Geometrietypen in der gleichen Datei ermöglicht, genügt es nicht, im Dateibrowser einfach das DXF auszuwählen, sondern die gewünschten Typen müssen gezielt selektiert werden. In diesem Fall sind dies <em>Line</em> (in einigen Systemen auch <em>Polyline</em> genannt) und <em>Annotation</em> (Text), siehe Abb.&nbsp;18.</p>
+			<p>DXF ist ein gut dokumentiertes vektorielles CAD-Format von AutoDesk, welches auch von GIS-Systemen unterstützt wird (teilweise ist wie bei ArcView 3 dazu das Aktivieren einer <em>Extension</em> nötig). Da eine DXF-Datei das Speichern unterschiedlicher Geometrietypen in der gleichen Datei ermöglicht, genügt es nicht, im Dateibrowser einfach das DXF auszuwählen, sondern die gewünschten Typen müssen gezielt selektiert werden. In diesem Fall sind dies <em>Line</em> (in einigen Systemen auch <em>Polyline</em> genannt) und <em>Annotation</em> (Text), siehe Abb.&nbsp;19.</p>
 
 			<a name="dxf_symb"></a>
-			<h3>2.6.7&nbsp;&nbsp;Darstellen der DXF-Datei</h3>
-			<p>Die auf diese Weise geladene DXF-Datei erscheint in Form von 2 Ebenen in der Liste der geladenen Daten. Für die Darstellung ist es am sinnvollsten, eine Klassifizierung nach dem Attribut <em>Layer</em> vorzunehmen, wie in Abb.&nbsp;19 gezeigt. Für den Rahmen lässt sich dann z.B. eine breite Linie definieren, für den Horizont eine feine und für die Zuordnungslinie eine strichlierte. So kann sich ein Ergebnis wie in Abb.&nbsp;20 realisiert werden. Auch die Textobjekte können auf diese Weise unterschiedlich dargestellt werden, wobei sich lediglich die Schriftart und Farbe einstellen lässt, nicht jedoch die Schriftgrösse.</p>
+			<h3>2.6.8&nbsp;&nbsp;Darstellen der DXF-Datei</h3>
+			<p>Die auf diese Weise geladene DXF-Datei erscheint in Form von 2 Ebenen in der Liste der geladenen Daten. Für die Darstellung ist es am sinnvollsten, eine Klassifizierung nach dem Attribut <em>Layer</em> vorzunehmen, wie in Abb.&nbsp;20 gezeigt. Für den Rahmen lässt sich dann z.B. eine breite Linie definieren, für den Horizont eine feine und für die Zuordnungslinie eine strichlierte. So kann sich ein Ergebnis wie in Abb.&nbsp;21 realisiert werden. Auch die Textobjekte können auf diese Weise unterschiedlich dargestellt werden, wobei sich lediglich die Schriftart und Farbe einstellen lässt, nicht jedoch die Schriftgrösse.</p>
 			<div class="Reihe">
 				<div class="Zelle_norm">
 					<img width="320px" height="238px" alt="Pano mit Rahmen rechts erweitert" onclick="show('./img/dxf_layer_625x473.png');" src="./img/dxf_layer_320x238.png" />
-				<p class="Bildlegende">Abb.&nbsp;19:&nbsp;Klassifizierung der DXF-Linien nach dem Attribut <em>Layer</em>.<br />Eigener Screenshot aus ArcView vom 19.09.2024</p>
+				<p class="Bildlegende">Abb.&nbsp;20:&nbsp;Klassifizierung der DXF-Linien nach dem Attribut <em>Layer</em>.<br />Eigener Screenshot aus ArcView vom 19.09.2024</p>
 				</div>
 				<div class="Zelle_zw">
 				</div>
 				<div class="Zelle_norm">
 					<img width="320px" height="238px" alt="Pano mit Horizont oberhalb Bild" onclick="show('./img/dxf_darstellung_1011x752.png');" src="./img/dxf_darstellung_320x238.png" />
-					<p class="Bildlegende">Abb.&nbsp;20:&nbsp;Unterschiedliche Darstellung der verschiedenen Linientypen sowie der Beschriftung.<br />Eigener Export aus ArcView vom 19.09.2024</p>
+					<p class="Bildlegende">Abb.&nbsp;21:&nbsp;Unterschiedliche Darstellung der verschiedenen Linientypen sowie der Beschriftung.<br />Eigener Export aus ArcView vom 19.09.2024</p>
 				</div>
 			</div>
 

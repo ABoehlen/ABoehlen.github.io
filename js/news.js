@@ -41,10 +41,11 @@ neuigkeiten[27] = "05.05.2024: Automatische Bergbeschriftung der Eigenentwicklun
 neuigkeiten[28] = "03.06.2024: Seite mit <a href=\"./touren2.html\">Links zu besonderen Tourenberichten</a> erweitert";
 neuigkeiten[29] = "23.06.2024: Neue umfangreiche Dokumentation <a href=\"./adventure_series/valley_of_adventure/adv_valley_inh.html\">Mein Tal der Abenteuer</a> ergänzt";
 neuigkeiten[30] = "30.08.2024: Seite <a href=\"./karten.html\">Karten</a> erweitert und überarbeitet";
-neuigkeiten[31] = "20.09.2024: Erweiterter Inhalt der DXF-Datei von <a href=\"./dok/skyplot2pano.html\">skyplot2pano</a> erläutert";
+neuigkeiten[31] = "20.09.2024: Erweiterter Inhalt der DXF-Datei von <a href=\"./dok/skyplot2pano.html#nam_dxf\">skyplot2pano</a> erläutert";
 neuigkeiten[32] = "06.10.2024: Neue Rubrik <a href=\"./dx.html\">DX</a> und Umbaubericht <a href=\"./dok/mvt7000.html\">MVT-7000</a> ergänzt";
 neuigkeiten[33] = "27.10.2024: Neuer Erfahrungsbericht zum <a href=\"./dok/mvt7000_2.html\">MVT-7000</a> ergänzt";
 neuigkeiten[34] = "20.12.2024: Einige neue Bilder in <a href=\"./famous_five/ff_modell_eisenbahn_zeltlager.html\">Bahnanlagen «Zeltlager»</a> eingefügt";
+neuigkeiten[35] = "22.12.2024: Umfassend erweiterte Version 2.0 von <a href=\"./dok/skyplot2pano.html\">skyplot2pano</a> erläutert";
 
 //------------------------------------------------------------------------------------------------------------------------
 

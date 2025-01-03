@@ -38,7 +38,11 @@ secret_series/grundlagen_secret_maps_killi.txt
 secret_series/grundlagen_secret_moon.txt
 secret_series/grundlagen_secret_mountain.txt
 dok/grundlagen_sykplot2pano.txt
-dok/grundlagen_mvt7000.txt
+dx/grundlagen_mvt7000.txt
+dx/grundlagen_mvt7000_2.txt
+dx/ukw_bandscan_worb/ukw_bandscan_worb.apr
+dx/ukw_bandscan_worb/ukw_bandscan_worb.dbf
+dx/ukw_bandscan_worb/ukw_bandscan_worb_leer.pdf
 
 # Screenshots
 screenshots

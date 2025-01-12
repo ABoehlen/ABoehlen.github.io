@@ -175,35 +175,48 @@ secrMtnDict["ak"] = "10";
 
 // ***************************
 
-var dokMVT7000Dict = new Array();
-dokMVT7000Dict["aa"] = "1";
-dokMVT7000Dict["ab"] = "3";
-dokMVT7000Dict["ac"] = "6";
-dokMVT7000Dict["ad"] = "7";
-dokMVT7000Dict["ae"] = "8";
-dokMVT7000Dict["af"] = "9";
-dokMVT7000Dict["ag"] = "11";
-dokMVT7000Dict["ah"] = "10";
-dokMVT7000Dict["ai"] = "5";
-dokMVT7000Dict["aj"] = "4";
-dokMVT7000Dict["am"] = "12";
-dokMVT7000Dict["an"] = "2";
-dokMVT7000Dict["ao"] = "13";
+var dxAdvDict = new Array();
+dxAdvDict["aa"] = "1";
+dxAdvDict["ab"] = "2";
+dxAdvDict["ac"] = "3";
+dxAdvDict["ad"] = "5";
+dxAdvDict["ae"] = "6";
+dxAdvDict["af"] = "7";
+dxAdvDict["ag"] = "8";
+dxAdvDict["ah"] = "9";
+dxAdvDict["ai"] = "4";
 
-var dokMVT7000_2Dict = new Array();
-dokMVT7000_2Dict["aa"] = "1";
-dokMVT7000_2Dict["ab"] = "5";
-dokMVT7000_2Dict["ac"] = "12";
-dokMVT7000_2Dict["ad"] = "2";
-dokMVT7000_2Dict["ae"] = "11";
-dokMVT7000_2Dict["af"] = "6";
-dokMVT7000_2Dict["ag"] = "13";
-dokMVT7000_2Dict["ah"] = "7";
-dokMVT7000_2Dict["ai"] = "8";
-dokMVT7000_2Dict["aj"] = "9";
-dokMVT7000_2Dict["ak"] = "10";
-dokMVT7000_2Dict["al"] = "3";
-dokMVT7000_2Dict["am"] = "4";
+var dxMVT7000Dict = new Array();
+dxMVT7000Dict["aa"] = "1";
+dxMVT7000Dict["ab"] = "3";
+dxMVT7000Dict["ac"] = "6";
+dxMVT7000Dict["ad"] = "7";
+dxMVT7000Dict["ae"] = "8";
+dxMVT7000Dict["af"] = "9";
+dxMVT7000Dict["ag"] = "11";
+dxMVT7000Dict["ah"] = "10";
+dxMVT7000Dict["ai"] = "5";
+dxMVT7000Dict["aj"] = "4";
+dxMVT7000Dict["am"] = "12";
+dxMVT7000Dict["an"] = "2";
+dxMVT7000Dict["ao"] = "13";
+
+var dxMVT7000_2Dict = new Array();
+dxMVT7000_2Dict["aa"] = "1";
+dxMVT7000_2Dict["ab"] = "5";
+dxMVT7000_2Dict["ac"] = "12";
+dxMVT7000_2Dict["ad"] = "2";
+dxMVT7000_2Dict["ae"] = "11";
+dxMVT7000_2Dict["af"] = "6";
+dxMVT7000_2Dict["ag"] = "13";
+dxMVT7000_2Dict["ah"] = "7";
+dxMVT7000_2Dict["ai"] = "8";
+dxMVT7000_2Dict["aj"] = "9";
+dxMVT7000_2Dict["ak"] = "10";
+dxMVT7000_2Dict["al"] = "3";
+dxMVT7000_2Dict["am"] = "4";
+
+// ***************************
 
 var dokSkyDict = new Array();
 dokSkyDict["aa"] = "3";
@@ -223,11 +236,6 @@ dokSkyDict["an"] = "11";
 dokSkyDict["ao"] = "13";
 dokSkyDict["ap"] = "10";
 dokSkyDict["aq"] = "12";
-
-var dokUKWLoopDict = new Array();
-dokUKWLoopDict["aa"] = "1";
-dokUKWLoopDict["ab"] = "2";
-dokUKWLoopDict["ac"] = "3";
 
 
 // ******************************************************
@@ -296,17 +304,18 @@ function verweis(ref) {
     case "secrMtn":
       uebersetze(secrMtnDict);
       break;
-    case "dokMVT7000":
-      uebersetze(dokMVT7000Dict);
+    case "dxAdv":
+      uebersetze(dxAdvDict);
       break;
-    case "dokMVT7000_2":
-      uebersetze(dokMVT7000_2Dict);
+    case "dxMVT7000":
+      uebersetze(dxMVT7000Dict);
+      break;
+    case "dxMVT7000_2":
+      uebersetze(dxMVT7000_2Dict);
       break;
     case "dokSky":
       uebersetze(dokSkyDict);
       break;
-    case "dokUKWLoop":
-      uebersetze(dokUKWLoopDict);
-      break;
+
   }
 }

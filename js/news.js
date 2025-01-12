@@ -46,6 +46,7 @@ neuigkeiten[32] = "06.10.2024: Neue Rubrik <a href=\"./dx.html\">DX</a> und Umba
 neuigkeiten[33] = "27.10.2024: Neuer Erfahrungsbericht zum <a href=\"./dx/mvt7000_2.html\">MVT-7000</a> ergänzt";
 neuigkeiten[34] = "20.12.2024: Einige neue Bilder in <a href=\"./famous_five/ff_modell_eisenbahn_zeltlager.html\">Bahnanlagen «Zeltlager»</a> eingefügt";
 neuigkeiten[35] = "22.12.2024: Umfassend erweiterte Version 2.0 von <a href=\"./dok/skyplot2pano.html\">skyplot2pano</a> erläutert";
+neuigkeiten[36] = "12.01.2025: Neuer Bericht: <a href=\"./dx/adv.html\">Eigenbauempfänger nach UKW-Radio-Adventskalender</a>";
 
 //------------------------------------------------------------------------------------------------------------------------
 

@@ -3,6 +3,8 @@ adventure_series/maps/bak
 
 # Documentation
 notes.txt
+dx/panasonic_rf-b45_service-manual
+dx/ukw_bandscan_worb
 
 # Test files
 util/out.txt
@@ -38,11 +40,9 @@ secret_series/grundlagen_secret_maps_killi.txt
 secret_series/grundlagen_secret_moon.txt
 secret_series/grundlagen_secret_mountain.txt
 dok/grundlagen_sykplot2pano.txt
+dx/grundlagen_adv.txt
 dx/grundlagen_mvt7000.txt
 dx/grundlagen_mvt7000_2.txt
-dx/ukw_bandscan_worb/ukw_bandscan_worb.apr
-dx/ukw_bandscan_worb/ukw_bandscan_worb.dbf
-dx/ukw_bandscan_worb/ukw_bandscan_worb_leer.pdf
 
 # Screenshots
 screenshots

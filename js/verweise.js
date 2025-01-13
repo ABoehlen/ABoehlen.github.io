@@ -182,9 +182,10 @@ dxAdvDict["ac"] = "3";
 dxAdvDict["ad"] = "5";
 dxAdvDict["ae"] = "6";
 dxAdvDict["af"] = "7";
-dxAdvDict["ag"] = "8";
-dxAdvDict["ah"] = "9";
+dxAdvDict["ag"] = "9";
+dxAdvDict["ah"] = "10";
 dxAdvDict["ai"] = "4";
+dxAdvDict["aj"] = "8";
 
 var dxMVT7000Dict = new Array();
 dxMVT7000Dict["aa"] = "1";

@@ -27,8 +27,8 @@
 		<div class="box">
 			<h1>skyplot2pano – Dokumentation</h1>
 			<p>Adrian Böhlen<br />
-			Dokumentation: Version 1.9 vom 22.12.2024<br />
-			Applikation: Version 2.0 vom 22.12.2024</p>
+			Dokumentation: Version 1.10 vom 19.01.2025<br />
+			Applikation: Version 2.1 vom 08.01.2025</p>
 			
 			<h2>Inhalt</h2>
 			<div class="Reihe_zw">
@@ -567,7 +567,7 @@ Entferntester: 640238  154256  4005  243.8  208.300   4060.6  2993
  36.364,   9.407,  610558,  170933,   1751,  26325.0, 200.0,   2.6,  35000,     3
  40.000,  10.577,  610145,  170967,   1882,  26300.0, 201.0,   2.9,  35000,     3
 			</code>
-			<p class="Bildlegende">Tab.&nbsp;5:&nbsp;Output von skyplot2pano (Auszug). Kommagetrennte Textdatei für die Darstellung von aus Punkten gebildeten Silhouetten.</p>
+			<p class="Bildlegende">Tab.&nbsp;5:&nbsp;Output von skyplot2pano (Auszug). Kommagetrennte Textdatei für die Darstellung von aus Punkten gebildeten Silhouetten.<br />Resultat bis und mit Version 2.0. Spätere Versionen generieren noch weitere Informationen in zusätzlichen Spalten.</p>
 			
 			<p>Bezüglich der Dateiendung *.txt gilt dasselbe wie zuvor bei den Extrempunkten gesagte.</p>
 			
@@ -790,24 +790,24 @@ mv sil_* $dir
 			
 			<a name="pte_best"></a>
 			<h3>2.6.3&nbsp;&nbsp;Lage der Punkte bestimmen</h3>
-			<p>Wie bereits erwähnt, werden zu jedem Punkt die zugehörigen Lagekoordinaten berechnet. Mit einem entsprechenden Werkzeug (<em>Identify</em> o.ä.) lassen sie sich dann problemlos abfragen und z.B. mittels eines Geoportals verorten. Die Abbildungen 14 und 15 zeigen ein Beispiel unter Verwendung von <a target="_blank" href="https://map.geo.admin.ch">https://map.geo.admin.ch</a>. Dort lassen sich Koordinatenpaare einfach ins Suchfeld eintippen, worauf die Ansicht zur entsprechenden Stelle springt. In diesem Beispiel handelt es sich bei dem hinter dem Gemsgrat aufragenden Gipfel mit den LV03-Koordinaten 598516 / 171361 demnach um den Nordgipfel des 2115&nbsp;m hohen Hane, der gemäss verwendetem Höhenmodell 2106&nbsp;m hoch ist.</p>
+			<p>Wie bereits erwähnt, werden zu jedem Punkt die zugehörigen Lagekoordinaten berechnet. Mit einem entsprechenden Werkzeug (<em>Identify</em> o.ä.) lassen sie sich dann problemlos abfragen und z.B. mittels eines Geoportals verorten. Die Abbildungen 14 und 15 zeigen ein Beispiel unter Verwendung von <a target="_blank" href="https://map.geo.admin.ch">https://map.geo.admin.ch</a>. Dort lassen sich Koordinatenpaare einfach ins Suchfeld eintippen, worauf die Ansicht zur entsprechenden Stelle springt. In diesem Beispiel handelt es sich bei dem hinter dem Gemsgrat aufragenden Gipfel mit den LV03-Koordinaten 598516 171361 demnach um den Nordgipfel des 2115&nbsp;m hohen Hane, der gemäss verwendetem Höhenmodell 2106&nbsp;m hoch ist. Alternativ zum Abtippen können über das kombinierte Feld <em>LageX LageY</em> beide Koordinaten auf einmal mittels copy&paste übernommen werden, sofern das System dies zulässt.</p>
 			
 			<div class="Reihe">
 				<div class="Zelle_norm">
-					<img width="320px" height="221px" alt="Abfrage Punkt" onclick="show('./img/abfrage_punkt_526x364.jpg');" src="./img/abfrage_punkt_320x221.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;14:&nbsp;Abfragen eines Punktes mit Anzeige der Lage- und Höhenkoordinaten.<br />Eigener Screenshot aus ArcView vom 31.03.2024</p>
+					<img width="320px" height="245px" alt="Abfrage Punkt" onclick="show('./img/abfrage_punkt_470x360.jpg');" src="./img/abfrage_punkt_470x360.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;14:&nbsp;Abfragen eines Punktes mit Anzeige der Lage- und Höhenkoordinaten, sowie der durch ein Leerzeichen getrennten Lagekoordinaten.<br />Eigener Screenshot aus ArcView vom 19.01.2025</p>
 				</div>
 				<div class="Zelle_zw">
 				</div>
 				<div class="Zelle_norm">
-					<img width="320px" height="221px" alt="Lage bestimmen" onclick="show('./img/punktbestimmung_geoadmin_526x364.jpg');" src="./img/punktbestimmung_geoadmin_320x221.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;15:&nbsp;Lokalisierung dieses Punktes anhand der Lagekoordinaten im Geoportal map.geo.admin.ch<br />Eigener Screenshot aus Firefox vom 31.03.2024</p>
+					<img width="320px" height="245px" alt="Lage bestimmen" onclick="show('./img/punktbestimmung_geoadmin_658x504.jpg');" src="./img/punktbestimmung_geoadmin_658x504.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;15:&nbsp;Lokalisierung dieses Punktes anhand der Lagekoordinaten im Geoportal map.geo.admin.ch<br />Eigener Screenshot aus Firefox vom 19.01.2025</p>
 				</div>
 			</div>			
 			
 			<a name="grundr"></a>
 			<h3>2.6.4&nbsp;&nbsp;Anzeige im Grundriss</h3>
-			<div class="Bild_r">
+			<div class="Bild_l">
 				<img width="320px" height="162px" alt="Anzeige Grundriss" onclick="show('./img/anzeige_grundriss_1127x572.png');" src="./img/anzeige_grundriss_320x162.png" />
 				<p class="Bildlegende">Abb.&nbsp;16:&nbsp;Anzeige der Silhouetten im Grundriss<br />Eigener Screenshot aus ArcView vom 10.03.2024</p>
 			</div>

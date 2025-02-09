@@ -1,6 +1,9 @@
 # Backups
 adventure_series/maps/bak
 
+# Reports not yet finished
+dx/ukw_loop.html
+
 # Documentation
 notes.txt
 dx/grundlagen_adv
@@ -44,6 +47,7 @@ dok/grundlagen_sykplot2pano.txt
 dx/grundlagen_adv.txt
 dx/grundlagen_mvt7000.txt
 dx/grundlagen_mvt7000_2.txt
+dx/grundlagen_ukw_loop.txt
 
 # Screenshots
 screenshots

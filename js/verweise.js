@@ -224,6 +224,7 @@ dxUKWLoopDict["ab"] = "2";
 dxUKWLoopDict["ac"] = "3";
 dxUKWLoopDict["ad"] = "4";
 dxUKWLoopDict["ae"] = "5";
+dxUKWLoopDict["af"] = "6";
 
 // ***************************
 

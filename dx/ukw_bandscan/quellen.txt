@@ -1,0 +1,29 @@
+
+
+BCSDR_221208
+
+https://www.bakom.admin.ch/bakom/de/home/frequenzen-antennen/standorte-von-sendeanlagen/rundfunk.html
+
+--------------
+Degrees Minutes Seconds to Decimal Degrees
+
+https://www.latlong.net/degrees-minutes-seconds-to-decimal-degrees
+
+--------------
+I ripetitori FM italiani
+
+http://www.fmdx.altervista.org/articles.php?lng=it&pg=1467
+
+--------------
+Lista Radio FM ricevibili a Novara
+
+https://www.federicostella.it/lista-radio-fm-ricevibili-a-novara/
+
+
+
+¬https://map.geo.admin.ch/ (Layer Radio- und Fernsehsender)
+¬https://www.bakom.admin.ch/bakom/de/home/frequenzen-antennen/standorte-von-sendeanlagen/rundfunk.html
+¬https://www.ukwtv.de/cms/sender-tabelle.html
+¬https://www.federicostella.it/lista-radio-fm-ricevibili-a-novara/
+¬http://www.fmdx.altervista.org/articles.php?lng=it&pg=1467
+¬https://www.mapsforeurope.org/datasets/euro-global-map (Hintergrund)

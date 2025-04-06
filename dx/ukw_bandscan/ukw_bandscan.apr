@@ -31,7 +31,6 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 	Doc:	2187
 	Doc:	2191
 	Doc:	2195
-	ActiveDoc:	62
 	Buttons:	2208
 	Buttons:	2209
 	Buttons:	2210
@@ -64,18 +63,19 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 	Scripts:	2237
 	Prefs:	2239
 	GUI:	2867
-	GUI:	3465
-	GUI:	3783
-	GUI:	4112
-	GUI:	4233
-	GUI:	4341
-	WorkDir:	4913
+	GUI:	3464
+	GUI:	3782
+	GUI:	4111
+	GUI:	4232
+	GUI:	4340
+	WorkDir:	4912
 	WinX:	-8
 	WinY:	-7
 	WinW:	1936
 	WinH:	1047
 	SerialNumber:	"899941126318"
-	SelColor:	4914
+	SelColor:	4913
+	GUINames:	4914
 	GUINames:	4915
 	GUINames:	4916
 	GUINames:	4917
@@ -86,7 +86,6 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 	GUINames:	4922
 	GUINames:	4923
 	GUINames:	4924
-	GUINames:	4925
 	TocWidthScale:	1.00000000000000
 )
 
@@ -117,7 +116,6 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 
 (DocWin.63
 	Owner:	62
-	Open:	1
 	X:	50
 	Y:	540
 	W:	1198
@@ -136,7 +134,7 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 (FTheme.66
 	Name:	"UKW_alle"
 	Source:	67
-	Flags:	0x03
+	Flags:	0x01
 	Legend:	95
 	Threshold:	115
 	View:	116
@@ -821,8 +819,8 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 )
 
 (PointD.141
-	x:	260926.49292421929000
-	y:	356698.82426578907000
+	x:	262910.87190859235000
+	y:	152307.78887536359000
 )
 
 (Numb.142
@@ -1325,39 +1323,6 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 
 (Bitmap.205
 	NumBits:	6897
-	NumBitsSet:	4
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00040000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00800000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00008000 00000000 
 	Bits:	00000000 00000000 00000000 00000000 
 	Bits:	00000000 00000000 00000000 00000000 
 	Bits:	00000000 00000000 00000000 00000000 
@@ -1377,7 +1342,39 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 	Bits:	00000000 00000000 00000000 00000000 
 	Bits:	00000000 00000000 00000000 00000000 
 	Bits:	00000000 00000000 00000000 00000000 
-	Bits:	00000000 00000000 00000100 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
 	Bits:	00000000 00000000 00000000 00000000 
 	Bits:	00000000 00000000 00000000 00000000 
 
@@ -2204,8 +2201,8 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 	Owner:	351
 	X:	35
 	Y:	35
-	W:	373
-	H:	260
+	W:	845
+	H:	543
 )
 
 (CSMgr.353
@@ -14148,8 +14145,7 @@ LF.Get(0)                 'first (origin) point\n  p2 = SELF.Get(1)             
 (GText.2105
 	Bounds:	2106
 	Sym:	2107
-	Selected:	0x01
-	Text:	"23.03.2025"
+	Text:	"06.04.2025"
 	Spacing:	1.00000000000000
 )
 
@@ -14956,29 +14952,29 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 
 (NameDict.2239
 	Obj:	2240
-	Obj:	2241
+	Obj:	2243
 	Obj:	2244
 	Obj:	2854
-	Obj:	2859
+	Obj:	2860
 	Obj:	2865
 )
 
 (AVDict.2240
-	InternalName:	"Table of Contents Defaults Dialog"
-)
-
-(AVDict.2241
 	InternalName:	"Dialog Designer"
-	Key:	2242
-	Value:	2243
+	Key:	2241
+	Value:	2242
 )
 
-(AVStr.2242
+(AVStr.2241
 	S:	"IsVisible"
 )
 
-(Bool.2243
+(Bool.2242
 	Truth:	1
+)
+
+(AVDict.2243
+	InternalName:	"Table of Contents Defaults Dialog"
 )
 
 (AVDict.2244
@@ -14995,60 +14991,60 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 )
 
 (AVDict.2854
-	InternalName:	"Geoprocessing"
+	InternalName:	"Table Master 2"
 	Key:	2855
-	Key:	2856
-	Value:	2857
-	Value:	2858
+	Value:	2856
 )
 
 (AVStr.2855
-	S:	"Loaded"
-)
-
-(AVStr.2856
-	S:	"Version"
-)
-
-(Bool.2857
-	Truth:	1
-)
-
-(Numb.2858
-	N:	3.10000000000000
-)
-
-(AVDict.2859
-	InternalName:	"Table Master 2"
-	Key:	2860
-	Value:	2861
-)
-
-(AVStr.2860
 	S:	"Table Master 2"
 )
 
-(AVDict.2861
+(AVDict.2856
+	Key:	2857
+	Value:	2858
+)
+
+(Numb.2857
+)
+
+(List.2858
+	InternalName:	"Incorrect"
+	Child:	2859
+)
+
+(AVStr.2859
+	S:	"1"
+)
+
+(AVDict.2860
+	InternalName:	"Geoprocessing"
+	Key:	2861
 	Key:	2862
 	Value:	2863
+	Value:	2864
 )
 
-(Numb.2862
+(AVStr.2861
+	S:	"Loaded"
 )
 
-(List.2863
-	InternalName:	"Incorrect"
-	Child:	2864
+(AVStr.2862
+	S:	"Version"
 )
 
-(AVStr.2864
-	S:	"1"
+(Bool.2863
+	Truth:	1
+)
+
+(Numb.2864
+	N:	3.10000000000000
 )
 
 (AVDict.2865
 	InternalName:	"Projection Utility Wizard"
 	Key:	2866
-	Value:	2857
+	Value:	2863
 )
 
 (AVStr.2866
@@ -15061,9 +15057,9 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Modified:	1
 	Visible:	1
 	MenuBar:	2868
-	ButnBar:	3222
-	Popups:	3285
-	ToolBar:	3310
+	ButnBar:	3221
+	Popups:	3284
+	ToolBar:	3309
 	NewScript:	"View.New"
 	OpenScript:	"Doc.Open"
 	ActionScript:	"Doc.Action"
@@ -15071,7 +15067,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	OpenUpdateScript:	"Doc.OpenUpdate"
 	ActionUpdateScript:	"Doc.ActionUpdate"
 	Title:	"Views"
-	Icon:	3464
+	Icon:	3463
 )
 
 (MenuBar.2868
@@ -15082,8 +15078,8 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	3022
 	Child:	3042
 	Child:	3186
-	Child:	3198
-	Child:	3203
+	Child:	3197
+	Child:	3202
 )
 
 (PMenu.2869
@@ -15990,6 +15986,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 )
 
 (Choice.3012
+	Disabled:	1
 	Help:	"Labels features in active, visible themes"
 	HelpTopic:	"Auto_label"
 	Update:	"View.LabelThemesUpdate"
@@ -16242,7 +16239,6 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	3193
 	Child:	3195
 	Child:	3196
-	Child:	3197
 	Label:	"&Window"
 )
 
@@ -16287,7 +16283,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 )
 
 (AVStr.3194
-	S:	"ukw_bandscan.apr Attributes of UKW_alle UKW-Sender"
+	S:	"ukw_bandscan.apr UKW-Sender"
 )
 
 (Choice.3195
@@ -16298,29 +16294,22 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 )
 
 (Choice.3196
-	Help:	"Activates Attributes of UKW_alle"
-	Label:	"&2 Attributes of UKW_alle"
-	Click:	"WindowActivate"
-	Shortcut:	"Keys.None"
-)
-
-(Choice.3197
 	Help:	"Activates UKW-Sender"
-	Label:	"&3 UKW-Sender"
+	Label:	"&2 UKW-Sender"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.3198
+(PMenu.3197
 	InternalName:	"Help"
+	Child:	3198
 	Child:	3199
 	Child:	3200
 	Child:	3201
-	Child:	3202
 	Label:	"&Help"
 )
 
-(Choice.3199
+(Choice.3198
 	Help:	"Displays the dialog for browsing and searching ArcView's help system"
 	HelpTopic:	"Help_on_Help_Topics"
 	Label:	"Help &Topics..."
@@ -16328,7 +16317,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3200
+(Choice.3199
 	Help:	"Provides instructions for how to obtain help from ArcView"
 	HelpTopic:	"Help_on_How_to_Get_Help"
 	Label:	"&How to Get Help..."
@@ -16336,10 +16325,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3201
+(Space.3200
 )
 
-(Choice.3202
+(Choice.3201
 	Help:	"Provides information about ArcView"
 	HelpTopic:	"About"
 	Label:	"&About ArcView..."
@@ -16347,303 +16336,304 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.3203
+(PMenu.3202
 	Label:	"&P/PL-Tools"
 )
 
-(ButnBar.3222
-	Child:	3223
-	Child:	3227
-	Child:	3231
-	Child:	3237
-	Child:	3239
-	Child:	3241
-	Child:	3243
-	Child:	3245
-	Child:	3247
-	Child:	3249
-	Child:	3251
-	Child:	3253
-	Child:	3255
-	Child:	3257
-	Child:	3259
-	Child:	3261
-	Child:	3263
+(ButnBar.3221
+	Child:	3222
+	Child:	3226
+	Child:	3230
+	Child:	3236
+	Child:	3238
+	Child:	3240
+	Child:	3242
+	Child:	3244
+	Child:	3246
+	Child:	3248
+	Child:	3250
+	Child:	3252
+	Child:	3254
+	Child:	3256
+	Child:	3258
+	Child:	3260
+	Child:	3262
+	Child:	3266
 	Child:	3267
-	Child:	3268
-	Child:	3270
+	Child:	3269
 )
 
-(Butn.3223
+(Butn.3222
 	Help:	"Save Project//Saves the current project"
 	HelpTopic:	"Save_Project"
-	Icon:	3224
+	Icon:	3223
 	Click:	"Project.Save"
 )
 
-(AVIcon.3224
+(AVIcon.3223
 	Name:	"Save"
 	Res:	"Icons.Save"
 
 )
 
-(Butn.3227
+(Butn.3226
 	Help:	"Add Theme//Inserts themes into the view"
 	HelpTopic:	"Add_Theme"
-	Icon:	3228
+	Icon:	3227
 	Click:	"View.Add"
 )
 
-(AVIcon.3228
+(AVIcon.3227
 	Name:	"AddTheme"
 	Res:	"Icons.AddTheme"
 
 )
 
-(Butn.3231
+(Butn.3230
 	Help:	"Theme Properties//Displays the dialog box to edit properties of the active theme"
 	HelpTopic:	"Theme_Properties"
 	Update:	"View.ActiveThemesUpdate"
-	Icon:	3232
+	Icon:	3231
 	Click:	"View.ThemeProperties"
 )
 
-(AVIcon.3232
+(AVIcon.3231
 	Name:	"Props"
 	Res:	"Icons.Props"
 
 )
 
-(Butn.3237
+(Butn.3236
 	Help:	"Edit Legend//Displays the legends of the active themes"
 	HelpTopic:	"Edit_Legend"
 	Update:	"View.ActiveThemesUpdate"
-	Icon:	3238
+	Icon:	3237
 	Click:	"View.EditLegendClick"
 )
 
-(AVIcon.3238
+(AVIcon.3237
 	Name:	"Legend"
 	Res:	"Icons.Legend"
 
 )
 
-(Butn.3239
+(Butn.3238
 	Help:	"Open Theme Table//Opens the tables of the active themes"
 	HelpTopic:	"Open_Theme_Table"
 	Update:	"View.TabularThemesUpdate"
-	Icon:	3240
+	Icon:	3239
 	Click:	"View.ShowTable"
 )
 
-(AVIcon.3240
+(AVIcon.3239
 	Name:	"Table"
 	Res:	"Icons.Table"
 
 )
 
-(Butn.3241
+(Butn.3240
 	Help:	"Find//Finds features in the active themes using the text you enter"
 	HelpTopic:	"Find"
 	Update:	"View.TabularThemesUpdate"
-	Icon:	3242
+	Icon:	3241
 	Click:	"View.Find"
 )
 
-(AVIcon.3242
+(AVIcon.3241
 	Name:	"Find"
 	Res:	"Icons.Find"
 
 )
 
-(Butn.3243
+(Butn.3242
 	Disabled:	1
 	Help:	"Locate Address//Locates an address in the active, matchable theme"
 	HelpTopic:	"Locate_Address"
 	Update:	"View.LocateUpdate"
-	Icon:	3244
+	Icon:	3243
 	Click:	"View.Locate"
 )
 
-(AVIcon.3244
+(AVIcon.3243
 	Name:	"AddMatch"
 	Res:	"Icons.AddMatch"
 
 )
 
-(Butn.3245
+(Butn.3244
 	Help:	"Query Builder//Displays the Query Builder to select features with a logical expression"
 	HelpTopic:	"Query_Builder"
 	Update:	"View.AttributeThemesUpdate"
-	Icon:	3246
+	Icon:	3245
 	Click:	"View.Query"
 )
 
-(AVIcon.3246
+(AVIcon.3245
 	Name:	"QueryBuilder"
 	Res:	"Icons.QueryBuilder"
 
 )
 
-(Butn.3247
+(Butn.3246
 	Help:	"Zoom to Full Extent//Zooms to the extent of all themes"
 	HelpTopic:	"Zoom_to_Full_Extent"
 	Update:	"View.HasDataUpdate"
-	Icon:	3248
+	Icon:	3247
 	Click:	"View.ZoomFullExtent"
 )
 
-(AVIcon.3248
+(AVIcon.3247
 	Name:	"ZoomView"
 	Res:	"Icons.ZoomView"
 
 )
 
-(Butn.3249
+(Butn.3248
 	Help:	"Zoom to Active Theme(s)//Zooms to the extent of active themes"
 	HelpTopic:	"Zoom_to_Active_Theme"
 	Update:	"View.ActiveThemesUpdate"
-	Icon:	3250
+	Icon:	3249
 	Click:	"View.ZoomToThemes"
 )
 
-(AVIcon.3250
+(AVIcon.3249
 	Name:	"ZoomTheme"
 	Res:	"Icons.ZoomTheme"
 
 )
 
-(Butn.3251
+(Butn.3250
 	Help:	"Zoom to Selected//Zooms to the extent of the selected features"
 	HelpTopic:	"Zoom_to_Selected"
 	Update:	"View.SelectableThemesUpdate"
-	Icon:	3252
+	Icon:	3251
 	Click:	"View.ZoomToSelected"
 )
 
-(AVIcon.3252
+(AVIcon.3251
 	Name:	"ZoomToSelected"
 	Res:	"Icons.ZoomToSelected"
 
 )
 
-(Butn.3253
+(Butn.3252
 	Help:	"Zoom In//Zooms in on the center of the display"
 	HelpTopic:	"Zoom_In"
 	Update:	"View.HasDataUpdate"
-	Icon:	3254
+	Icon:	3253
 	Click:	"View.ZoomIn"
 )
 
-(AVIcon.3254
+(AVIcon.3253
 	Name:	"ZoomIn"
 	Res:	"Icons.ZoomIn"
 
 )
 
-(Butn.3255
+(Butn.3254
 	Help:	"Zoom Out//Zooms out from the center of the display"
 	HelpTopic:	"Zoom_Out"
 	Update:	"View.HasDataUpdate"
-	Icon:	3256
+	Icon:	3255
 	Click:	"View.ZoomOut"
 )
 
-(AVIcon.3256
+(AVIcon.3255
 	Name:	"ZoomOut"
 	Res:	"Icons.ZoomOut"
 
 )
 
-(Butn.3257
+(Butn.3256
 	Help:	"Zoom to Previous Extent//Goes back to the previous extent you were viewing"
 	HelpTopic:	"Zoom_Previous"
 	Update:	"View.UndoZoomUpdate"
-	Icon:	3258
+	Icon:	3257
 	Click:	"View.UndoZoom"
 )
 
-(AVIcon.3258
+(AVIcon.3257
 	Name:	"ZoomPrevious"
 	Res:	"Icons.ZoomPrevious"
 
 )
 
-(Butn.3259
+(Butn.3258
 	Disabled:	1
 	Help:	"Select Features Using Graphic//Selects features in active themes using selected graphics"
 	HelpTopic:	"Select_Features_Using_Graphic"
 	Update:	"View.SpatialSelectUpdate"
-	Icon:	3260
+	Icon:	3259
 	Click:	"View.SpatialSelect"
 )
 
-(AVIcon.3260
+(AVIcon.3259
 	Name:	"SpatialSelect"
 	Res:	"Icons.SpatialSelect"
 
 )
 
-(Butn.3261
+(Butn.3260
 	Help:	"Clear Selected Features//Unselects the selected features of all active themes"
 	HelpTopic:	"Clear_Selected_Features"
 	Update:	"View.AttributeThemesUpdate"
-	Icon:	3262
+	Icon:	3261
 	Click:	"View.ClearSelect"
 )
 
-(AVIcon.3262
+(AVIcon.3261
 	Name:	"SelectNone"
 	Res:	"Icons.SelectNone"
 
 )
 
-(Butn.3263
+(Butn.3262
 	Help:	"Help//Gets help about the next button, tool, or menu choice you click"
 	HelpTopic:	"Help_button"
-	Icon:	3264
+	Icon:	3263
 	Click:	"Help.Tool"
 )
 
-(AVIcon.3264
+(AVIcon.3263
 	Name:	"HelpTool"
 	Res:	"Icons.HelpTool"
 
 )
 
-(Space.3267
+(Space.3266
 	Tag:	"theSpace1"
 )
 
-(Butn.3268
+(Butn.3267
 	Help:	"calculate distance from QTH//"
-	Icon:	3269
+	Icon:	3268
 	Click:	"calc_dist_from_qth"
 )
 
-(AVIcon.3269
+(AVIcon.3268
 	Name:	"D"
 	Res:	"Icons.D"
 
 )
 
-(Butn.3270
+(Butn.3269
 	Help:	"Zooms View to the Layout extent//"
-	Icon:	3271
+	Icon:	3270
 	Click:	"Bandscan-Map_Layout"
 )
 
-(AVIcon.3271
+(AVIcon.3270
 	Name:	"L"
 	Res:	"Icons.L"
 
 )
 
-(PopupSet.3285
-	Child:	3286
+(PopupSet.3284
+	Child:	3285
 )
 
-(Popup.3286
+(Popup.3285
+	Child:	3286
 	Child:	3287
 	Child:	3288
 	Child:	3289
@@ -16666,11 +16656,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	3306
 	Child:	3307
 	Child:	3308
-	Child:	3309
 	Label:	"Menu"
 )
 
-(Choice.3287
+(Choice.3286
 	Disabled:	1
 	Invisible:	1
 	Help:	"Deletes the last entered point on the line or polygon being drawn"
@@ -16680,7 +16669,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3288
+(Choice.3287
 	Disabled:	1
 	Help:	"Undo the last edit to features in a theme"
 	HelpTopic:	"Undo_Feature_Edit_on_a_view"
@@ -16690,7 +16679,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3289
+(Choice.3288
 	Disabled:	1
 	Help:	"Redo the last edit operation on a theme that was undone"
 	Update:	"View.RedoEditUpdate"
@@ -16699,14 +16688,14 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3290
+(Space.3289
 )
 
-(Space.3291
+(Space.3290
 	InternalName:	"Spacer"
 )
 
-(Choice.3292
+(Choice.3291
 	Help:	"Turns general snapping on"
 	Update:	"View.ToggleGeneralSnapUpdate"
 	Label:	"Enable General Snapping"
@@ -16714,7 +16703,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3293
+(Choice.3292
 	Help:	"Turns interactive snapping on"
 	Update:	"View.ToggleInteractiveSnapUpdate"
 	Label:	"Enable Interactive Snapping"
@@ -16722,7 +16711,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3294
+(Choice.3293
 	Help:	"Turns snap tolerance cursor off"
 	Update:	"View.ToggleTolCursorUpdate"
 	Label:	"Hide Snap Tolerance Cursor"
@@ -16730,10 +16719,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3295
+(Space.3294
 )
 
-(Choice.3296
+(Choice.3295
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snaps the next entered point to the nearest vertex within the user tolerance"
@@ -16743,7 +16732,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3297
+(Choice.3296
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snaps the next entered point to the nearest line segment"
@@ -16753,7 +16742,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3298
+(Choice.3297
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snaps the next entered point to the nearest node common to two or more features"
@@ -16763,7 +16752,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3299
+(Choice.3298
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snaps the next entered point to the nearest endpoint of an existing line"
@@ -16773,10 +16762,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3300
+(Space.3299
 )
 
-(Choice.3301
+(Choice.3300
 	Help:	"Unselects the selected features in all active themes"
 	Update:	"View.AttributeThemesUpdate"
 	Label:	"Clear Selection"
@@ -16784,7 +16773,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3302
+(Choice.3301
 	Help:	"Zooms in at point where you click to bring up popup menu"
 	Update:	"View.HasDataUpdate"
 	Label:	"Zoom In"
@@ -16792,7 +16781,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3303
+(Choice.3302
 	Help:	"Zooms out from point where you click to bring up popup menu"
 	Update:	"View.HasDataUpdate"
 	Label:	"Zoom Out"
@@ -16800,7 +16789,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3304
+(Choice.3303
 	Help:	"Zooms to the extent of the selected features"
 	Update:	"View.SelectableThemesUpdate"
 	Label:	"Zoom to Selected"
@@ -16808,7 +16797,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3305
+(Choice.3304
 	Help:	"Centers display on point where you click to bring up popup"
 	Update:	"View.HasDataUpdate"
 	Label:	"Pan"
@@ -16816,22 +16805,22 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3306
+(Choice.3305
 	Label:	"Move"
 	Click:	"View.Move"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3307
+(Choice.3306
 	Label:	"Flip"
 	Click:	"View.Flip"
 	Shortcut:	"Keys.None"
 )
 
-(Space.3308
+(Space.3307
 )
 
-(Choice.3309
+(Choice.3308
 	Disabled:	1
 	Help:	"Opens the shape properties window for editing vertex locations"
 	Update:	"ShapeWin.PopUp Update"
@@ -16840,23 +16829,24 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(ToolBar.3310
-	Child:	3311
-	Child:	3313
-	Child:	3315
-	Child:	3354
-	Child:	3356
-	Child:	3358
-	Child:	3360
-	Child:	3364
-	Child:	3366
-	Child:	3368
-	Child:	3370
-	Child:	3389
-	Child:	3402
-	Child:	3421
+(ToolBar.3309
+	Child:	3310
+	Child:	3312
+	Child:	3314
+	Child:	3353
+	Child:	3355
+	Child:	3357
+	Child:	3359
+	Child:	3363
+	Child:	3365
+	Child:	3367
+	Child:	3369
+	Child:	3388
+	Child:	3401
+	Child:	3420
+	Child:	3425
 	Child:	3426
-	Child:	3427
+	Child:	3446
 	Child:	3447
 	Child:	3448
 	Child:	3449
@@ -16871,637 +16861,649 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	3458
 	Child:	3459
 	Child:	3460
-	Child:	3461
 )
 
-(Tool.3311
+(Tool.3310
 	Help:	"Identify//Provides information about a feature"
 	HelpTopic:	"Identify_tool"
 	Update:	"View.IdentifyUpdate"
-	Icon:	3312
+	Icon:	3311
 	Cursor:	"Cursors.ID"
 	Apply:	"View.Identify"
 )
 
-(AVIcon.3312
+(AVIcon.3311
 	Name:	"ID"
 	Res:	"Icons.ID"
 
 )
 
-(Tool.3313
+(Tool.3312
 	Help:	"Pointer//Selects, moves, and resizes graphics"
 	HelpTopic:	"Pointer_tool"
 	Update:	"View.HasDataUpdate"
-	Icon:	3314
+	Icon:	3313
 	Cursor:	"Cursors.Select"
 	Apply:	"View.Select"
 	Click:	"View.SelectTool"
 )
 
-(AVIcon.3314
+(AVIcon.3313
 	Name:	"Select"
 	Res:	"Icons.Select"
 
 )
 
-(Tool.3315
+(Tool.3314
 	Disabled:	1
 	Help:	"Vertex Edit//Adds, moves, and deletes vertices of features and graphics"
 	HelpTopic:	"Vertex_Edit_tool"
 	Update:	"View.SelectToEditUpdate"
-	Icon:	3316
+	Icon:	3315
 	Cursor:	"Cursors.SelectEdit"
 	Apply:	"View.SelectToEdit"
 	Click:	"View.SelectToEditTool"
 )
 
-(AVIcon.3316
+(AVIcon.3315
 	Name:	"SelectEdit"
 	Res:	"Icons.SelectEdit"
 
 )
 
-(Tool.3354
+(Tool.3353
 	Help:	"Select Feature//Selects features in the active themes by pointing or dragging"
 	HelpTopic:	"Select_Feature_tool"
 	Update:	"View.SelectableThemesUpdate"
-	Icon:	3355
+	Icon:	3354
 	Cursor:	"Cursors.Default"
 	Apply:	"View.SelectPoint"
 )
 
-(AVIcon.3355
+(AVIcon.3354
 	Name:	"FeatureSelect"
 	Res:	"Icons.FeatureSelect"
 
 )
 
-(Tool.3356
+(Tool.3355
 	Help:	"Zoom In//Zooms in at a point you click or zooms in on a rectangle you drag"
 	HelpTopic:	"Zoom_In_tool"
 	Update:	"View.HasDataUpdate"
-	Icon:	3357
+	Icon:	3356
 	Cursor:	"Cursors.ZoomIn"
 	Apply:	"View.ZoomInTool"
 )
 
-(AVIcon.3357
+(AVIcon.3356
 	Name:	"ZoomInTool"
 	Res:	"Icons.ZoomInTool"
 
 )
 
-(Tool.3358
+(Tool.3357
 	Help:	"Zoom Out//Zooms out from a point you click or zooms out to include a rectangle you drag"
 	HelpTopic:	"Zoom_Out_tool"
 	Update:	"View.HasDataUpdate"
-	Icon:	3359
+	Icon:	3358
 	Cursor:	"Cursors.ZoomOut"
 	Apply:	"View.ZoomOutTool"
 )
 
-(AVIcon.3359
+(AVIcon.3358
 	Name:	"ZoomOutTool"
 	Res:	"Icons.ZoomOutTool"
 
 )
 
-(Tool.3360
+(Tool.3359
 	Help:	"Pan//Drags the display in the direction you move the cursor"
 	HelpTopic:	"Pan_tool"
 	Update:	"View.HasDataUpdate"
-	Icon:	3361
+	Icon:	3360
 	Cursor:	"Cursors.Pan"
 	Apply:	"View.Pan"
 )
 
-(AVIcon.3361
+(AVIcon.3360
 	Name:	"Pan"
 	Res:	"Icons.Pan"
 
 )
 
-(Tool.3364
+(Tool.3363
 	Help:	"Measure//Measures distance"
 	HelpTopic:	"Measure_tool"
 	Update:	"View.HasDataUpdate"
-	Icon:	3365
+	Icon:	3364
 	Cursor:	"Cursors.Measure"
 	Apply:	"View.Measure"
 )
 
-(AVIcon.3365
+(AVIcon.3364
 	Name:	"Measure"
 	Res:	"Icons.Measure"
 
 )
 
-(Tool.3366
+(Tool.3365
 	Disabled:	1
 	Help:	"Hot Link//Follows a hot link in the active themes"
 	HelpTopic:	"Hot_Link_tool"
 	Update:	"View.HotLinkUpdate"
-	Icon:	3367
+	Icon:	3366
 	Cursor:	"Cursors.Media"
 	Apply:	"View.HotLink"
 )
 
-(AVIcon.3367
+(AVIcon.3366
 	Name:	"Media"
 	Res:	"Icons.Media"
 
 )
 
-(Tool.3368
+(Tool.3367
 	Disabled:	1
 	Help:	"Area of Interest//Sets the view's Area Of Interest for library-based themes"
 	HelpTopic:	"Area_Of_Interest_tool"
 	Update:	"View.AOIToolUpdate"
-	Icon:	3369
+	Icon:	3368
 	Cursor:	"Cursors.Default"
 	Apply:	"View.AOITool"
 )
 
-(AVIcon.3369
+(AVIcon.3368
 	Name:	"AOI"
 	Res:	"Icons.AOI"
 
 )
 
-(ToolMenu.3370
+(ToolMenu.3369
+	Disabled:	1
 	Help:	"Label//Labels a feature in the active theme with data from its table"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.LabelToolUpdate"
-	Icon:	3371
+	Icon:	3370
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.LabelTool"
+	Child:	3371
 	Child:	3372
-	Child:	3373
-	Child:	3375
-	Child:	3377
-	Child:	3379
-	Child:	3381
-	Child:	3383
-	Child:	3385
-	Child:	3387
+	Child:	3374
+	Child:	3376
+	Child:	3378
+	Child:	3380
+	Child:	3382
+	Child:	3384
+	Child:	3386
 )
 
-(AVIcon.3371
+(AVIcon.3370
 	Name:	"Tag"
 	Res:	"Icons.Tag"
 
 )
 
-(Tool.3372
+(Tool.3371
+	Disabled:	1
 	Help:	"Label//Labels a feature in the active theme with data from its table"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.LabelToolUpdate"
-	Icon:	3371
+	Icon:	3370
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.LabelTool"
 )
 
-(Tool.3373
+(Tool.3372
+	Disabled:	1
 	Help:	"Callout Label//Click on a feature and drag in the direction you want the label to appear"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	3374
+	Icon:	3373
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.CalloutLabelTool"
 )
 
-(AVIcon.3374
+(AVIcon.3373
 	Name:	"CallOutLabel1"
 	Res:	"Icons.CallOutLabel1"
 
 )
 
-(Tool.3375
+(Tool.3374
+	Disabled:	1
 	Help:	"Bullet Leader Label//Click on a feature and drag in the direction you want the label to appear"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	3376
+	Icon:	3375
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.BulletLeaderLabelTool"
 )
 
-(AVIcon.3376
+(AVIcon.3375
 	Name:	"CallOutLabel2"
 	Res:	"Icons.CallOutLabel2"
 
 )
 
-(Tool.3377
+(Tool.3376
+	Disabled:	1
 	Help:	"Banner Label//Click on a feature you want to label"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	3378
+	Icon:	3377
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.ShadowBoxLabelTool"
 )
 
-(AVIcon.3378
+(AVIcon.3377
 	Name:	"CallOutLabel3"
 	Res:	"Icons.CallOutLabel3"
 
 )
 
-(Tool.3379
+(Tool.3378
+	Disabled:	1
 	Help:	"U.S. Interstate//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	3380
+	Icon:	3379
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.Highway1 Apply"
 )
 
-(AVIcon.3380
+(AVIcon.3379
 	Name:	"BW US Interstate"
 	Res:	"Icons.BW US Interstate"
 
 )
 
-(Tool.3381
+(Tool.3380
+	Disabled:	1
 	Help:	"U.S. Route//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	3382
+	Icon:	3381
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.Highway2 Apply"
 )
 
-(AVIcon.3382
+(AVIcon.3381
 	Name:	"USRoute"
 	Res:	"Icons.USRoute"
 
 )
 
-(Tool.3383
+(Tool.3382
+	Disabled:	1
 	Help:	"Generic State Hwy//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	3384
+	Icon:	3383
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.Highway3 Apply"
 )
 
-(AVIcon.3384
+(AVIcon.3383
 	Name:	"GenericStateHighway"
 	Res:	"Icons.GenericStateHighway"
 
 )
 
-(Tool.3385
+(Tool.3384
+	Disabled:	1
 	Help:	"Generic Square Hwy//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	3386
+	Icon:	3385
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.Highway4 Apply"
 )
 
-(AVIcon.3386
+(AVIcon.3385
 	Name:	"GenericHighway1"
 	Res:	"Icons.GenericHighway1"
 
 )
 
-(Tool.3387
+(Tool.3386
+	Disabled:	1
 	Help:	"Generic Oval Hwy//Click where you want to place a highway shield"
 	Update:	"View.CalloutUpdate"
-	Icon:	3388
+	Icon:	3387
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.Highway5 Apply"
 )
 
-(AVIcon.3388
+(AVIcon.3387
 	Name:	"GenericHighway2"
 	Res:	"Icons.GenericHighway2"
 
 )
 
-(ToolMenu.3389
+(ToolMenu.3388
 	Help:	"Text//Creates text on the display"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	3390
+	Icon:	3389
 	Cursor:	"Cursors.Text"
 	Apply:	"View.TextTool"
 	Click:	"SymWin.DisplayFontPanel"
+	Child:	3390
 	Child:	3391
-	Child:	3392
-	Child:	3394
-	Child:	3396
-	Child:	3398
-	Child:	3400
+	Child:	3393
+	Child:	3395
+	Child:	3397
+	Child:	3399
 )
 
-(AVIcon.3390
+(AVIcon.3389
 	Name:	"Text"
 	Res:	"Icons.Text"
 
 )
 
-(Tool.3391
+(Tool.3390
 	Help:	"Text//Creates text on the display"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	3390
+	Icon:	3389
 	Cursor:	"Cursors.Text"
 	Apply:	"View.TextTool"
 	Click:	"SymWin.DisplayFontPanel"
 )
 
-(Tool.3392
+(Tool.3391
 	Help:	"Callout Text//Click and drag to where you want your text to appear, then enter the text"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	3393
+	Icon:	3392
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.CalloutTextTool"
 )
 
-(AVIcon.3393
+(AVIcon.3392
 	Name:	"CallOutText1"
 	Res:	"Icons.CallOutText1"
 
 )
 
-(Tool.3394
+(Tool.3393
 	Help:	"Bullet Leader Text//Click and drag to where you want your text to appear, then enter the text"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	3395
+	Icon:	3394
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.BulletLeaderTextTool"
 )
 
-(AVIcon.3395
+(AVIcon.3394
 	Name:	"CallOutText2"
 	Res:	"Icons.CallOutText2"
 
 )
 
-(Tool.3396
+(Tool.3395
 	Help:	"Banner Text//Click where you want your label to appear and enter your text"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	3397
+	Icon:	3396
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.ShadowBoxTextTool"
 )
 
-(AVIcon.3397
+(AVIcon.3396
 	Name:	"CallOutText3"
 	Res:	"Icons.CallOutText3"
 
 )
 
-(Tool.3398
+(Tool.3397
 	Help:	"Drop-Shadow Text//Click where you want your text to appear and enter your text"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	3399
+	Icon:	3398
 	Cursor:	"Cursors.Target"
 	Apply:	"View.CreateDropShadowText"
 )
 
-(AVIcon.3399
+(AVIcon.3398
 	Name:	"DropShadowText"
 	Res:	"Icons.DropShadowText"
 
 )
 
-(Tool.3400
+(Tool.3399
 	Help:	"Spline Text//Adds text that is aligned to a splined baseline"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	3401
+	Icon:	3400
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.SplineText"
 )
 
-(AVIcon.3401
+(AVIcon.3400
 	Name:	"TextAligned"
 	Res:	"Icons.TextAligned"
 
 )
 
-(ToolMenu.3402
+(ToolMenu.3401
 	Help:	"Draw Point//Creates a point on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PointToolUpdate"
-	Icon:	3403
+	Icon:	3402
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.PointTool"
 	Click:	"SymWin.DisplayMarkerPanel"
+	Child:	3403
 	Child:	3404
-	Child:	3405
-	Child:	3407
-	Child:	3409
-	Child:	3411
-	Child:	3413
-	Child:	3415
-	Child:	3417
-	Child:	3419
+	Child:	3406
+	Child:	3408
+	Child:	3410
+	Child:	3412
+	Child:	3414
+	Child:	3416
+	Child:	3418
 )
 
-(AVIcon.3403
+(AVIcon.3402
 	Name:	"Point"
 	Res:	"Icons.Point"
 
 )
 
-(Tool.3404
+(Tool.3403
 	Help:	"Draw Point//Creates a point on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PointToolUpdate"
-	Icon:	3403
+	Icon:	3402
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.PointTool"
 	Click:	"SymWin.DisplayMarkerPanel"
 )
 
-(Tool.3405
+(Tool.3404
 	Help:	"Draw Straight Line//Creates a line on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.GraphicToolUpdate"
-	Icon:	3406
+	Icon:	3405
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.LineTool"
 	Click:	"SymWin.DisplayPenPanel"
 )
 
-(AVIcon.3406
+(AVIcon.3405
 	Name:	"SelectLine"
 	Res:	"Icons.SelectLine"
 
 )
 
-(Tool.3407
+(Tool.3406
 	Help:	"Draw Line//Creates a line with two or more points on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PolyLineToolUpdate"
-	Icon:	3408
+	Icon:	3407
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.PolyLineTool"
 	Click:	"SymWin.DisplayPenPanel"
 )
 
-(AVIcon.3408
+(AVIcon.3407
 	Name:	"Lines"
 	Res:	"Icons.Lines"
 
 )
 
-(Tool.3409
+(Tool.3408
 	Help:	"Draw Rectangle//Creates a rectangle on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PolyToolUpdate"
-	Icon:	3410
+	Icon:	3409
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.RectTool"
 	Click:	"SymWin.DisplayFillPanel"
 )
 
-(AVIcon.3410
+(AVIcon.3409
 	Name:	"Rect"
 	Res:	"Icons.Rect"
 
 )
 
-(Tool.3411
+(Tool.3410
 	Help:	"Draw Circle//Creates a circle on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PolyToolUpdate"
-	Icon:	3412
+	Icon:	3411
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.CircleTool"
 	Click:	"SymWin.DisplayFillPanel"
 )
 
-(AVIcon.3412
+(AVIcon.3411
 	Name:	"Disk"
 	Res:	"Icons.Disk"
 
 )
 
-(Tool.3413
+(Tool.3412
 	Help:	"Draw Polygon//Creates a polygon on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PolyToolUpdate"
-	Icon:	3414
+	Icon:	3413
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.PolyTool"
 	Click:	"SymWin.DisplayFillPanel"
 )
 
-(AVIcon.3414
+(AVIcon.3413
 	Name:	"Poly"
 	Res:	"Icons.Poly"
 
 )
 
-(Tool.3415
+(Tool.3414
 	Disabled:	1
 	Help:	"Draw Line to Split Feature//Creates a line to split line features"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.SplitLineToolUpdate"
-	Icon:	3416
+	Icon:	3415
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.SplitTool"
 )
 
-(AVIcon.3416
+(AVIcon.3415
 	Name:	"SplitLine"
 	Res:	"Icons.SplitLine"
 
 )
 
-(Tool.3417
+(Tool.3416
 	Disabled:	1
 	Help:	"Draw Line to Split Polygon//Creates a line to split polygon features"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.SplitPolyToolUpdate"
-	Icon:	3418
+	Icon:	3417
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.SplitTool"
 )
 
-(AVIcon.3418
+(AVIcon.3417
 	Name:	"SplitPoly"
 	Res:	"Icons.SplitPoly"
 
 )
 
-(Tool.3419
+(Tool.3418
 	Disabled:	1
 	Help:	"Draw Line to Append Polygon//Appends a new polygon adjacent to other polygons"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.AutoCompleteUpdate"
-	Icon:	3420
+	Icon:	3419
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.AutoCompleteTool"
 )
 
-(AVIcon.3420
+(AVIcon.3419
 	Name:	"AutoComplete"
 	Res:	"Icons.AutoComplete"
 
 )
 
-(ToolMenu.3421
+(ToolMenu.3420
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snap//Sets the general snapping tolerance for the editable theme"
 	HelpTopic:	"Snap_tools"
 	Update:	"View.SnapToolUpdate"
-	Icon:	3422
+	Icon:	3421
 	Cursor:	"Cursors.Default"
 	Apply:	"View.SnapTool"
+	Child:	3422
 	Child:	3423
-	Child:	3424
 )
 
-(AVIcon.3422
+(AVIcon.3421
 	Name:	"SnapTool"
 	Res:	"Icons.SnapTool"
 
 )
 
-(Tool.3423
+(Tool.3422
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snap//Sets the general snapping tolerance for the editable theme"
 	HelpTopic:	"Snap_tools"
 	Update:	"View.SnapToolUpdate"
-	Icon:	3422
+	Icon:	3421
 	Cursor:	"Cursors.Default"
 	Apply:	"View.SnapTool"
 )
 
-(Tool.3424
+(Tool.3423
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snap//Sets the interactive snapping tolerance for the editable theme"
 	HelpTopic:	"Snap_tools"
 	Update:	"View.InteractiveSnapToolUpdate"
-	Icon:	3425
+	Icon:	3424
 	Cursor:	"Cursors.Default"
 	Apply:	"View.InteractiveSnapTool"
 )
 
-(AVIcon.3425
+(AVIcon.3424
 	Name:	"SnapFeatureTool"
 	Res:	"Icons.SnapFeatureTool"
 
 )
 
+(Space.3425
+)
+
 (Space.3426
 )
 
-(Space.3427
+(Space.3446
 )
 
 (Space.3447
@@ -17546,24 +17548,21 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 (Space.3460
 )
 
-(Space.3461
-)
-
-(AVIcon.3464
+(AVIcon.3463
 	Name:	"Icon"
 	Res:	"View.Icon"
 
 )
 
-(DocGUI.3465
+(DocGUI.3464
 	Name:	"Table"
 	Type:	"Table"
 	Modified:	1
 	Visible:	1
-	MenuBar:	3466
-	ButnBar:	3614
-	Popups:	3681
-	ToolBar:	3682
+	MenuBar:	3465
+	ButnBar:	3613
+	Popups:	3680
+	ToolBar:	3681
 	NewScript:	"Table.New"
 	OpenScript:	"Doc.Open"
 	ActionScript:	"Table.Action"
@@ -17571,21 +17570,22 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	OpenUpdateScript:	"Doc.OpenUpdate"
 	ActionUpdateScript:	"Table.ActionUpdate"
 	Title:	"Tables"
-	Icon:	3693
+	Icon:	3692
 )
 
-(MenuBar.3466
-	Child:	3467
-	Child:	3481
-	Child:	3497
-	Child:	3515
-	Child:	3524
-	Child:	3598
-	Child:	3609
+(MenuBar.3465
+	Child:	3466
+	Child:	3480
+	Child:	3496
+	Child:	3514
+	Child:	3523
+	Child:	3597
+	Child:	3608
 )
 
-(PMenu.3467
+(PMenu.3466
 	InternalName:	"File"
+	Child:	3467
 	Child:	3468
 	Child:	3469
 	Child:	3470
@@ -17598,11 +17598,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	3477
 	Child:	3478
 	Child:	3479
-	Child:	3480
 	Label:	"&File"
 )
 
-(Choice.3468
+(Choice.3467
 	Help:	"Closes the active component"
 	HelpTopic:	"Close"
 	Label:	"&Close"
@@ -17610,7 +17609,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3469
+(Choice.3468
 	Help:	"Closes all components"
 	HelpTopic:	"Close_All"
 	Label:	"Close &All"
@@ -17618,10 +17617,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3470
+(Space.3469
 )
 
-(Choice.3471
+(Choice.3470
 	Help:	"Saves the current project"
 	HelpTopic:	"Save_Project"
 	Label:	"&Save Project"
@@ -17629,7 +17628,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+S"
 )
 
-(Choice.3472
+(Choice.3471
 	Help:	"Saves the current project with a new name"
 	HelpTopic:	"Save_Project_As"
 	Label:	"Save Project As..."
@@ -17637,10 +17636,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3473
+(Space.3472
 )
 
-(Choice.3474
+(Choice.3473
 	Help:	"Displays the Extensions Dialog"
 	HelpTopic:	"Extensions"
 	Label:	"Extensions..."
@@ -17648,10 +17647,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3475
+(Space.3474
 )
 
-(Choice.3476
+(Choice.3475
 	Help:	"Prints the table"
 	HelpTopic:	"Print"
 	Label:	"&Print..."
@@ -17659,7 +17658,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3477
+(Choice.3476
 	Help:	"Edits the printer and the printing options"
 	HelpTopic:	"Print_Setup"
 	Update:	"PrintSetupUpdate"
@@ -17668,7 +17667,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3478
+(Choice.3477
 	Help:	"Exports the current table to a dBASE, INFO, or text file"
 	HelpTopic:	"Export_Table"
 	Update:	"Table.ExportUpdate"
@@ -17677,10 +17676,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3479
+(Space.3478
 )
 
-(Choice.3480
+(Choice.3479
 	Help:	"Exits ArcView"
 	HelpTopic:	"Exit"
 	Label:	"E&xit"
@@ -17688,8 +17687,9 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.3481
+(PMenu.3480
 	InternalName:	"Edit"
+	Child:	3481
 	Child:	3482
 	Child:	3483
 	Child:	3484
@@ -17704,12 +17704,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	3493
 	Child:	3494
 	Child:	3495
-	Child:	3496
 	Label:	"&Edit"
 )
 
-(Choice.3482
-	Disabled:	1
+(Choice.3481
 	Help:	"Cuts the selected cell to the clipboard"
 	HelpTopic:	"Cut"
 	Update:	"Table.CutUpdate"
@@ -17718,8 +17716,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+X"
 )
 
-(Choice.3483
-	Disabled:	1
+(Choice.3482
 	Help:	"Copies the selected cell to the clipboard"
 	HelpTopic:	"Copy"
 	Update:	"Table.CutUpdate"
@@ -17728,8 +17725,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+C"
 )
 
-(Choice.3484
-	Disabled:	1
+(Choice.3483
 	Help:	"Inserts the contents of the Clipboard into the active cell"
 	HelpTopic:	"Paste"
 	Update:	"Table.CutUpdate"
@@ -17738,11 +17734,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+V"
 )
 
-(Space.3485
+(Space.3484
 )
 
-(Choice.3486
-	Disabled:	1
+(Choice.3485
 	Help:	"Undo the last edit operation on the Table"
 	HelpTopic:	"Undo_Edit_on_a_table"
 	Update:	"Table.UndoEditUpdate"
@@ -17751,8 +17746,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+Z"
 )
 
-(Choice.3487
-	Disabled:	1
+(Choice.3486
 	Help:	"Redo the last undone operation on the Table"
 	HelpTopic:	"Redo_Edit_on_a_table"
 	Update:	"Table.RedoEditUpdate"
@@ -17761,10 +17755,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+Y"
 )
 
-(Space.3488
+(Space.3487
 )
 
-(Choice.3489
+(Choice.3488
 	Help:	"Adds a new field to the table"
 	HelpTopic:	"Add_Field"
 	Update:	"Table.AddFieldUpdate"
@@ -17773,8 +17767,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3490
-	Disabled:	1
+(Choice.3489
 	Help:	"Adds a new record at the bottom of the table"
 	HelpTopic:	"Add_Record"
 	Update:	"Table.AddRecordUpdate"
@@ -17783,7 +17776,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+A"
 )
 
-(Choice.3491
+(Choice.3490
 	Help:	"Deletes the active field from the table"
 	HelpTopic:	"Delete_Field"
 	Update:	"Table.DeleteFieldUpdate"
@@ -17792,7 +17785,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3492
+(Choice.3491
 	Disabled:	1
 	Help:	"Deletes the selected records from the table"
 	HelpTopic:	"Delete_Records"
@@ -17802,10 +17795,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Del"
 )
 
-(Space.3493
+(Space.3492
 )
 
-(Choice.3494
+(Choice.3493
 	Help:	"Selects all records in the table"
 	HelpTopic:	"Select_All"
 	Label:	"Select &All"
@@ -17813,7 +17806,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3495
+(Choice.3494
 	Help:	"Unselects all records in the table"
 	HelpTopic:	"Select_None_in_a_table"
 	Label:	"Select &None"
@@ -17821,7 +17814,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3496
+(Choice.3495
 	Help:	"Toggles selected and unselected records in the table"
 	HelpTopic:	"Switch_Selection"
 	Label:	"&Switch Selection"
@@ -17829,8 +17822,9 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.3497
+(PMenu.3496
 	InternalName:	"Table"
+	Child:	3497
 	Child:	3498
 	Child:	3499
 	Child:	3500
@@ -17847,11 +17841,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	3511
 	Child:	3512
 	Child:	3513
-	Child:	3514
 	Label:	"&Table"
 )
 
-(Choice.3498
+(Choice.3497
 	Help:	"Displays the dialog box to edit properties of the table"
 	HelpTopic:	"Table_Properties"
 	Label:	"&Properties..."
@@ -17859,10 +17852,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3499
+(Space.3498
 )
 
-(Choice.3500
+(Choice.3499
 	Help:	"Creates a chart from the table"
 	HelpTopic:	"Create_Chart"
 	Update:	"Table.ChartUpdate"
@@ -17871,17 +17864,16 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3501
+(Choice.3500
 	Help:	"Starts or stops editing of table values"
 	HelpTopic:	"Start_Stop_Editing"
 	Update:	"Table.ToggleEditingUpdate"
-	Label:	"Start &Editing"
+	Label:	"Stop &Editing"
 	Click:	"Table.ToggleEditing"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3502
-	Disabled:	1
+(Choice.3501
 	Help:	"Saves edits to the source file"
 	HelpTopic:	"Save_edits_table"
 	Update:	"Table.SaveEditsUpdate"
@@ -17890,8 +17882,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3503
-	Disabled:	1
+(Choice.3502
 	Help:	"Save edits to a new source file"
 	HelpTopic:	"Save_edits_as_table"
 	Update:	"Table.SaveEditsUpdate"
@@ -17900,10 +17891,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3504
+(Space.3503
 )
 
-(Choice.3505
+(Choice.3504
 	Help:	"Finds the row in the table using the text you enter"
 	HelpTopic:	"Find"
 	Label:	"&Find..."
@@ -17911,7 +17902,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+F"
 )
 
-(Choice.3506
+(Choice.3505
 	Help:	"Displays the Query Builder to select records with a logical expression"
 	HelpTopic:	"Query_Builder"
 	Label:	"&Query..."
@@ -17919,7 +17910,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+Q"
 )
 
-(Choice.3507
+(Choice.3506
 	Disabled:	1
 	Help:	"Promotes selected rows to the top of the table"
 	HelpTopic:	"Promote"
@@ -17929,10 +17920,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3508
+(Space.3507
 )
 
-(Choice.3509
+(Choice.3508
 	Disabled:	1
 	Help:	"Appends the fields of another table to the active table based on a common field"
 	HelpTopic:	"Join"
@@ -17942,7 +17933,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+J"
 )
 
-(Choice.3510
+(Choice.3509
 	Disabled:	1
 	Help:	"Removes any fields joined to the table"
 	HelpTopic:	"Remove_All_Joins"
@@ -17952,7 +17943,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3511
+(Choice.3510
 	Disabled:	1
 	Help:	"Associates the selection of the active table with another table"
 	HelpTopic:	"Link"
@@ -17962,7 +17953,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3512
+(Choice.3511
 	Disabled:	1
 	Help:	"Removes the association between the active table and its linked tables"
 	HelpTopic:	"Remove_All_Links"
@@ -17972,10 +17963,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3513
+(Space.3512
 )
 
-(Choice.3514
+(Choice.3513
 	Help:	"Refreshes the table"
 	HelpTopic:	"Refresh"
 	Label:	"Refres&h"
@@ -17983,8 +17974,9 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.3515
+(PMenu.3514
 	InternalName:	"Field"
+	Child:	3515
 	Child:	3516
 	Child:	3517
 	Child:	3518
@@ -17992,11 +17984,11 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	3520
 	Child:	3521
 	Child:	3522
-	Child:	3523
 	Label:	"F&ield"
 )
 
-(Choice.3516
+(Choice.3515
+	Disabled:	1
 	Help:	"Sorts rows in ascending order (A-Z), (0-9)"
 	HelpTopic:	"Sort_table"
 	Update:	"Table.SortUpdate"
@@ -18005,7 +17997,8 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3517
+(Choice.3516
+	Disabled:	1
 	Help:	"Sorts rows in descending order (Z-A), (9-0)"
 	HelpTopic:	"Sort_table"
 	Update:	"Table.SortUpdate"
@@ -18014,10 +18007,11 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3518
+(Space.3517
 )
 
-(Choice.3519
+(Choice.3518
+	Disabled:	1
 	Help:	"Creates or removes an index on the active field"
 	HelpTopic:	"Create_Remove_Index"
 	Update:	"Table.IndexUpdate"
@@ -18026,10 +18020,11 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3520
+(Space.3519
 )
 
-(Choice.3521
+(Choice.3520
+	Disabled:	1
 	Help:	"Creates a summary table grouped by the active field"
 	HelpTopic:	"Summarize"
 	Update:	"Table.SortUpdate"
@@ -18038,7 +18033,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3522
+(Choice.3521
 	Disabled:	1
 	Help:	"Calculates the value of a field"
 	HelpTopic:	"Calculate"
@@ -18048,7 +18043,8 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3523
+(Choice.3522
+	Disabled:	1
 	Help:	"Generates a report of statistics for data in the active, numeric field"
 	HelpTopic:	"Statistics"
 	Update:	"Table.StatisticsUpdate"
@@ -18057,26 +18053,26 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.3524
+(PMenu.3523
 	Tag:	"Xtools1234"
 	Label:	"&XTools"
 )
 
-(PMenu.3598
+(PMenu.3597
 	InternalName:	"Window"
+	Child:	3598
 	Child:	3599
 	Child:	3600
 	Child:	3601
 	Child:	3602
 	Child:	3603
-	Child:	3604
+	Child:	3605
 	Child:	3606
 	Child:	3607
-	Child:	3608
 	Label:	"&Window"
 )
 
-(Choice.3599
+(Choice.3598
 	Help:	"Arranges windows as non-overlapping tiles"
 	HelpTopic:	"Tile"
 	Label:	"&Tile"
@@ -18084,7 +18080,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3600
+(Choice.3599
 	Help:	"Arranges windows"
 	HelpTopic:	"Cascade"
 	Label:	"&Cascade"
@@ -18092,7 +18088,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3601
+(Choice.3600
 	Help:	"Arranges iconified windows"
 	HelpTopic:	"Arrange_Icons"
 	Label:	"&Arrange Icons"
@@ -18100,10 +18096,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3602
+(Space.3601
 )
 
-(Choice.3603
+(Choice.3602
 	Help:	"Shows the symbol window"
 	HelpTopic:	"Show_Symbol_Window"
 	Label:	"Show Symbol Window..."
@@ -18111,46 +18107,46 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+P"
 )
 
-(Space.3604
-	ObjectTag:	3605
+(Space.3603
+	ObjectTag:	3604
 	Update:	"WindowMenuUpdate"
 )
 
-(AVStr.3605
-	S:	"ukw_bandscan.apr Attributes of UKW_alle UKW-Sender"
+(AVStr.3604
+	S:	"ukw_bandscan.apr Attributes of UKW_empf_tabl UKW-Sender"
 )
 
-(Choice.3606
+(Choice.3605
 	Help:	"Activates ukw_bandscan.apr"
 	Label:	"&1 ukw_bandscan.apr"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3607
-	Help:	"Activates Attributes of UKW_alle"
-	Label:	"&2 Attributes of UKW_alle"
+(Choice.3606
+	Help:	"Activates Attributes of UKW_empf_tabl"
+	Label:	"&2 Attributes of UKW_empf_tabl"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3608
+(Choice.3607
 	Help:	"Activates UKW-Sender"
 	Label:	"&3 UKW-Sender"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.3609
+(PMenu.3608
 	InternalName:	"Help"
+	Child:	3609
 	Child:	3610
 	Child:	3611
 	Child:	3612
-	Child:	3613
 	Label:	"&Help"
 )
 
-(Choice.3610
+(Choice.3609
 	Help:	"Displays the dialog for browsing and searching ArcView's help system"
 	HelpTopic:	"Help_on_Help_Topics"
 	Label:	"Help &Topics..."
@@ -18158,7 +18154,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3611
+(Choice.3610
 	Help:	"Provides instructions for how to obtain help from ArcView"
 	HelpTopic:	"Help_on_How_to_Get_Help"
 	Label:	"&How to Get Help..."
@@ -18166,10 +18162,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3612
+(Space.3611
 )
 
-(Choice.3613
+(Choice.3612
 	Help:	"Provides information about ArcView"
 	HelpTopic:	"About"
 	Label:	"&About ArcView..."
@@ -18177,365 +18173,364 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(ButnBar.3614
-	Child:	3615
+(ButnBar.3613
+	Child:	3614
+	Child:	3616
 	Child:	3617
-	Child:	3618
-	Child:	3622
-	Child:	3624
+	Child:	3621
+	Child:	3623
+	Child:	3637
 	Child:	3638
-	Child:	3639
-	Child:	3641
-	Child:	3643
+	Child:	3640
+	Child:	3642
+	Child:	3644
 	Child:	3645
-	Child:	3646
+	Child:	3647
 	Child:	3648
-	Child:	3649
-	Child:	3651
-	Child:	3653
+	Child:	3650
+	Child:	3652
+	Child:	3654
 	Child:	3655
-	Child:	3656
+	Child:	3657
 	Child:	3658
-	Child:	3659
-	Child:	3661
+	Child:	3660
+	Child:	3662
 	Child:	3663
-	Child:	3664
-	Child:	3666
+	Child:	3665
+	Child:	3677
 	Child:	3678
-	Child:	3679
 )
 
-(Butn.3615
+(Butn.3614
 	Help:	"Save Project//Saves the current project"
 	HelpTopic:	"Save_Project"
-	Icon:	3616
+	Icon:	3615
 	Click:	"Project.Save"
 )
 
-(AVIcon.3616
+(AVIcon.3615
 	Name:	"Save"
 	Res:	"Icons.Save"
 
 )
 
-(Space.3617
+(Space.3616
 )
 
-(Butn.3618
-	Disabled:	1
+(Butn.3617
 	Help:	"Cut//Cuts the selected cell to the clipboard"
 	HelpTopic:	"Cut"
 	Update:	"Table.CutUpdate"
-	Icon:	3619
+	Icon:	3618
 	Click:	"Table.Cut"
 )
 
-(AVIcon.3619
+(AVIcon.3618
 	Name:	"Cut"
 	Res:	"Icons.Cut"
 
 )
 
-(Butn.3622
-	Disabled:	1
+(Butn.3621
 	Help:	"Copy//Copies the selected cell to the clipboard"
 	HelpTopic:	"Copy"
 	Update:	"Table.CutUpdate"
-	Icon:	3623
+	Icon:	3622
 	Click:	"Table.Copy"
 )
 
-(AVIcon.3623
+(AVIcon.3622
 	Name:	"Copy"
 	Res:	"Icons.Copy"
 
 )
 
-(Butn.3624
-	Disabled:	1
+(Butn.3623
 	Help:	"Paste//Inserts the contents of the Clipboard into the active cell"
 	HelpTopic:	"Paste"
 	Update:	"Table.CutUpdate"
-	Icon:	3625
+	Icon:	3624
 	Click:	"Table.Paste"
 )
 
-(AVIcon.3625
+(AVIcon.3624
 	Name:	"Paste"
 	Res:	"Icons.Paste"
 
 )
 
-(Space.3638
+(Space.3637
 )
 
-(Butn.3639
+(Butn.3638
 	Help:	"Select All//Selects all records in the table"
 	HelpTopic:	"Select_All"
-	Icon:	3640
+	Icon:	3639
 	Click:	"Table.SelectAll"
 )
 
-(AVIcon.3640
+(AVIcon.3639
 	Name:	"SelectAll"
 	Res:	"Icons.SelectAll"
 
 )
 
-(Butn.3641
+(Butn.3640
 	Help:	"Select None//Unselects all records in the table"
 	HelpTopic:	"Select_None_in_a_table"
-	Icon:	3642
+	Icon:	3641
 	Click:	"Table.UnselectAll"
 )
 
-(AVIcon.3642
+(AVIcon.3641
 	Name:	"SelectNone"
 	Res:	"Icons.SelectNone"
 
 )
 
-(Butn.3643
+(Butn.3642
 	Help:	"Switch Selection//Toggles selected and unselected records in the table"
 	HelpTopic:	"Switch_Selection"
-	Icon:	3644
+	Icon:	3643
 	Click:	"Table.SwitchSelection"
 )
 
-(AVIcon.3644
+(AVIcon.3643
 	Name:	"SwitchSelect"
 	Res:	"Icons.SwitchSelect"
 
 )
 
-(Space.3645
+(Space.3644
 )
 
-(Butn.3646
+(Butn.3645
 	Help:	"Create Chart//Creates a chart from the table"
 	HelpTopic:	"Create_Chart"
 	Update:	"Table.ChartUpdate"
-	Icon:	3647
+	Icon:	3646
 	Click:	"Table.Chart"
 )
 
-(AVIcon.3647
+(AVIcon.3646
 	Name:	"MakeChart"
 	Res:	"Icons.MakeChart"
 
 )
 
-(Space.3648
+(Space.3647
 )
 
-(Butn.3649
+(Butn.3648
 	Help:	"Find//Finds the row in the table using the text you enter"
 	HelpTopic:	"Find"
-	Icon:	3650
+	Icon:	3649
 	Click:	"Table.Find"
 )
 
-(AVIcon.3650
+(AVIcon.3649
 	Name:	"Find"
 	Res:	"Icons.Find"
 
 )
 
-(Butn.3651
+(Butn.3650
 	Help:	"Query Builder//Displays the Query Builder to select records with a logical expression"
 	HelpTopic:	"Query_Builder"
-	Icon:	3652
+	Icon:	3651
 	Click:	"Table.Query"
 )
 
-(AVIcon.3652
+(AVIcon.3651
 	Name:	"QueryBuilder"
 	Res:	"Icons.QueryBuilder"
 
 )
 
-(Butn.3653
+(Butn.3652
 	Disabled:	1
 	Help:	"Promote//Promotes selected rows to the top of the table"
 	HelpTopic:	"Promote"
 	Update:	"Table.PromoteUpdate"
-	Icon:	3654
+	Icon:	3653
 	Click:	"Table.Promote"
 )
 
-(AVIcon.3654
+(AVIcon.3653
 	Name:	"Promote"
 	Res:	"Icons.Promote"
 
 )
 
-(Space.3655
+(Space.3654
 )
 
-(Butn.3656
+(Butn.3655
 	Disabled:	1
 	Help:	"Join//Appends the fields of another table to the active table based on a common field"
 	HelpTopic:	"Join"
 	Update:	"Table.JoinUpdate"
-	Icon:	3657
+	Icon:	3656
 	Click:	"Table.Join"
 )
 
-(AVIcon.3657
+(AVIcon.3656
 	Name:	"Join"
 	Res:	"Icons.Join"
 
 )
 
-(Space.3658
+(Space.3657
 )
 
-(Butn.3659
+(Butn.3658
+	Disabled:	1
 	Help:	"Summarize//Creates a summary table grouped by the active field"
 	HelpTopic:	"Summarize"
 	Update:	"Table.SortUpdate"
-	Icon:	3660
+	Icon:	3659
 	Click:	"Table.Summarize"
 )
 
-(AVIcon.3660
+(AVIcon.3659
 	Name:	"Summarize"
 	Res:	"Icons.Summarize"
 
 )
 
-(Butn.3661
+(Butn.3660
 	Disabled:	1
 	Help:	"Calculate//Calculates the value of a field"
 	HelpTopic:	"Calculate"
 	Update:	"Table.CalculateUpdate"
-	Icon:	3662
+	Icon:	3661
 	Click:	"Table.Calculate"
 )
 
-(AVIcon.3662
+(AVIcon.3661
 	Name:	"Calculator"
 	Res:	"Icons.Calculator"
 
 )
 
-(Space.3663
+(Space.3662
 )
 
-(Butn.3664
+(Butn.3663
+	Disabled:	1
 	Help:	"Sort Ascending//Sorts rows in ascending order (A-Z), (0-9)"
 	HelpTopic:	"Sort_table"
 	Update:	"Table.SortUpdate"
-	Icon:	3665
+	Icon:	3664
 	Click:	"Table.SortAscending"
 )
 
-(AVIcon.3665
+(AVIcon.3664
 	Name:	"SortAscending"
 	Res:	"Icons.SortAscending"
 
 )
 
-(Butn.3666
+(Butn.3665
+	Disabled:	1
 	Help:	"Sort Descending//Sorts rows in descending order (Z-A), (9-0)"
 	HelpTopic:	"Sort_table"
 	Update:	"Table.SortUpdate"
-	Icon:	3667
+	Icon:	3666
 	Click:	"Table.SortDescending"
 )
 
-(AVIcon.3667
+(AVIcon.3666
 	Name:	"SortDescending"
 	Res:	"Icons.SortDescending"
 
 )
 
-(Space.3678
+(Space.3677
 )
 
-(Butn.3679
+(Butn.3678
 	Help:	"Help//Gets help about the next button, tool, or menu choice you click"
 	HelpTopic:	"Help_button"
-	Icon:	3680
+	Icon:	3679
 	Click:	"Help.Tool"
 )
 
-(AVIcon.3680
+(AVIcon.3679
 	Name:	"HelpTool"
 	Res:	"Icons.HelpTool"
 
 )
 
-(PopupSet.3681
+(PopupSet.3680
 )
 
-(ToolBar.3682
-	Child:	3683
-	Child:	3685
-	Child:	3687
+(ToolBar.3681
+	Child:	3682
+	Child:	3684
+	Child:	3686
 )
 
-(Tool.3683
+(Tool.3682
 	Help:	"Select//Selects records in the table"
 	HelpTopic:	"Select_tool"
-	Icon:	3684
+	Icon:	3683
 	Cursor:	"Cursors.Default"
 	Apply:	"Table.Select"
 	Click:	"Table.StopEditing"
 )
 
-(AVIcon.3684
+(AVIcon.3683
 	Name:	"Select"
 	Res:	"Icons.Select"
 
 )
 
-(Tool.3685
-	Disabled:	1
+(Tool.3684
 	Help:	"Edit//Changes cell values"
 	HelpTopic:	"Edit_tool"
 	Update:	"Table.IsEditableUpdate"
-	Icon:	3686
+	Icon:	3685
 	Cursor:	"Cursors.Finger"
 	Apply:	"Table.Edit"
 )
 
-(AVIcon.3686
+(AVIcon.3685
 	Name:	"Edit"
 	Res:	"Icons.Edit"
 
 )
 
-(Tool.3687
+(Tool.3686
 	Help:	"Identify//Provides information about a record"
 	HelpTopic:	"Identify_tool"
-	Icon:	3688
+	Icon:	3687
 	Cursor:	"Cursors.ID"
 	Apply:	"Table.Identify"
 	Click:	"Table.StopEditing"
 )
 
-(AVIcon.3688
+(AVIcon.3687
 	Name:	"ID"
 	Res:	"Icons.ID"
 
 )
 
-(AVIcon.3693
+(AVIcon.3692
 	Name:	"Icon"
 	Res:	"Table.Icon"
 
 )
 
-(DocGUI.3783
+(DocGUI.3782
 	Name:	"Layout"
 	Type:	"Layout"
 	Modified:	1
 	Visible:	1
-	MenuBar:	3784
-	ButnBar:	3871
-	Popups:	3916
-	ToolBar:	3928
+	MenuBar:	3783
+	ButnBar:	3870
+	Popups:	3915
+	ToolBar:	3927
 	NewScript:	"Layout.New"
 	OpenScript:	"Doc.Open"
 	ActionScript:	"Doc.Action"
@@ -18543,20 +18538,21 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	OpenUpdateScript:	"Doc.OpenUpdate"
 	ActionUpdateScript:	"Doc.ActionUpdate"
 	Title:	"Layouts"
-	Icon:	3985
+	Icon:	3984
 )
 
-(MenuBar.3784
-	Child:	3785
-	Child:	3799
-	Child:	3808
-	Child:	3826
-	Child:	3854
-	Child:	3866
+(MenuBar.3783
+	Child:	3784
+	Child:	3798
+	Child:	3807
+	Child:	3825
+	Child:	3853
+	Child:	3865
 )
 
-(PMenu.3785
+(PMenu.3784
 	InternalName:	"File"
+	Child:	3785
 	Child:	3786
 	Child:	3787
 	Child:	3788
@@ -18569,11 +18565,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	3795
 	Child:	3796
 	Child:	3797
-	Child:	3798
 	Label:	"&File"
 )
 
-(Choice.3786
+(Choice.3785
 	Help:	"Closes the active component"
 	HelpTopic:	"Close"
 	Label:	"&Close"
@@ -18581,7 +18576,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3787
+(Choice.3786
 	Help:	"Closes all components"
 	HelpTopic:	"Close_All"
 	Label:	"Close &All"
@@ -18589,10 +18584,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3788
+(Space.3787
 )
 
-(Choice.3789
+(Choice.3788
 	Help:	"Saves the current project"
 	HelpTopic:	"Save_Project"
 	Label:	"&Save Project"
@@ -18600,7 +18595,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+S"
 )
 
-(Choice.3790
+(Choice.3789
 	Help:	"Saves the current project with a new name"
 	HelpTopic:	"Save_Project_As"
 	Label:	"Save Project As..."
@@ -18608,10 +18603,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3791
+(Space.3790
 )
 
-(Choice.3792
+(Choice.3791
 	Help:	"Displays the Extensions Dialog"
 	HelpTopic:	"Extensions"
 	Label:	"Extensions..."
@@ -18619,10 +18614,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3793
+(Space.3792
 )
 
-(Choice.3794
+(Choice.3793
 	Help:	"Prints the layout"
 	HelpTopic:	"Print"
 	Label:	"&Print..."
@@ -18630,7 +18625,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3795
+(Choice.3794
 	Help:	"Edits the printer and the printing options"
 	HelpTopic:	"Print_Setup"
 	Label:	"P&rint Setup..."
@@ -18638,7 +18633,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3796
+(Choice.3795
 	Help:	"Exports the Layout to a graphics file"
 	HelpTopic:	"Export"
 	Label:	"&Export..."
@@ -18646,10 +18641,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3797
+(Space.3796
 )
 
-(Choice.3798
+(Choice.3797
 	Help:	"Exits ArcView"
 	HelpTopic:	"Exit"
 	Label:	"E&xit"
@@ -18657,8 +18652,9 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.3799
+(PMenu.3798
 	InternalName:	"Edit"
+	Child:	3799
 	Child:	3800
 	Child:	3801
 	Child:	3802
@@ -18666,11 +18662,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	3804
 	Child:	3805
 	Child:	3806
-	Child:	3807
 	Label:	"&Edit"
 )
 
-(Choice.3800
+(Choice.3799
 	Disabled:	1
 	Help:	"Undo last edit"
 	HelpTopic:	"Undo"
@@ -18680,10 +18675,11 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+Z"
 )
 
-(Space.3801
+(Space.3800
 )
 
-(Choice.3802
+(Choice.3801
+	Disabled:	1
 	Help:	"Copies selected graphics to the clipboard and removes them from the layout"
 	HelpTopic:	"Cut"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -18692,7 +18688,8 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+X"
 )
 
-(Choice.3803
+(Choice.3802
+	Disabled:	1
 	Help:	"Copies the selected shapes or graphics to the clipboard"
 	HelpTopic:	"Copy"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -18701,7 +18698,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+C"
 )
 
-(Choice.3804
+(Choice.3803
 	Disabled:	1
 	Help:	"Inserts the contents of the clipboard"
 	HelpTopic:	"Paste"
@@ -18711,7 +18708,8 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+V"
 )
 
-(Choice.3805
+(Choice.3804
+	Disabled:	1
 	Help:	"Removes the selected frames or graphics from the layout"
 	HelpTopic:	"Delete"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -18720,10 +18718,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Del"
 )
 
-(Space.3806
+(Space.3805
 )
 
-(Choice.3807
+(Choice.3806
 	Help:	"Selects all graphics in the layout"
 	HelpTopic:	"Select_All"
 	Update:	"Layout.HasGraphicsUpdate"
@@ -18732,8 +18730,9 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.3808
+(PMenu.3807
 	InternalName:	"Layout"
+	Child:	3808
 	Child:	3809
 	Child:	3810
 	Child:	3811
@@ -18750,11 +18749,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	3822
 	Child:	3823
 	Child:	3824
-	Child:	3825
 	Label:	"&Layout"
 )
 
-(Choice.3809
+(Choice.3808
 	Help:	"Displays the dialog box to edit properties of the layout"
 	HelpTopic:	"Layout_Properties"
 	Label:	"&Properties..."
@@ -18762,7 +18760,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3810
+(Choice.3809
 	Help:	"Displays the page setup dialog"
 	HelpTopic:	"Page_Setup"
 	Label:	"Page Se&tup..."
@@ -18770,10 +18768,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3811
+(Space.3810
 )
 
-(Choice.3812
+(Choice.3811
 	Help:	"Zooms to the extent of the layout's page"
 	HelpTopic:	"Zoom_to_Page"
 	Label:	"&Zoom to Page"
@@ -18781,7 +18779,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3813
+(Choice.3812
 	Help:	"Zooms to display the actual size of the layout (1:1)"
 	HelpTopic:	"Zoom_to_Actual_Size"
 	Label:	"Zoom to &Actual"
@@ -18789,7 +18787,8 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3814
+(Choice.3813
+	Disabled:	1
 	Help:	"Zooms to the extent of the selected layout graphics"
 	HelpTopic:	"Zoom_to_Selected"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -18798,7 +18797,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3815
+(Choice.3814
 	Help:	"Zooms in on the center of the display"
 	HelpTopic:	"Zoom_In"
 	Label:	"Zoom &In"
@@ -18806,7 +18805,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.F2"
 )
 
-(Choice.3816
+(Choice.3815
 	Help:	"Zooms out from the center of the display"
 	HelpTopic:	"Zoom_Out"
 	Label:	"Zoom &Out"
@@ -18814,10 +18813,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.F3"
 )
 
-(Space.3817
+(Space.3816
 )
 
-(Choice.3818
+(Choice.3817
 	Help:	"Shows or hides the layout's grid"
 	HelpTopic:	"Show_Hide_Grid"
 	Update:	"Layout.ShowHideGridUpdate"
@@ -18826,7 +18825,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3819
+(Choice.3818
 	Help:	"Shows or hides the layout's margins"
 	HelpTopic:	"Show_Hide_Margins"
 	Update:	"Layout.ShowHideMarginsUpdate"
@@ -18835,10 +18834,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3820
+(Space.3819
 )
 
-(Choice.3821
+(Choice.3820
 	Help:	"Places a neatline around your graphics or inside your margins "
 	HelpTopic:	"Layout_Neatline"
 	Update:	"Graphic.Neatline ShowUpdate"
@@ -18847,10 +18846,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3822
+(Space.3821
 )
 
-(Choice.3823
+(Choice.3822
 	Help:	"Create a new layout by using a predefined template"
 	HelpTopic:	"Use_Template"
 	Label:	"&Use Template..."
@@ -18858,7 +18857,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3824
+(Choice.3823
 	Help:	"Store the current layout as a template"
 	HelpTopic:	"Store_As_Template"
 	Label:	"Sto&re As Template..."
@@ -18866,7 +18865,8 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3825
+(Choice.3824
+	Disabled:	1
 	Help:	"Store each graphic group in the current layout as a north arrow"
 	HelpTopic:	"Store_North_Arrows"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -18875,8 +18875,9 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.3826
+(PMenu.3825
 	InternalName:	"Graphics"
+	Child:	3826
 	Child:	3827
 	Child:	3828
 	Child:	3829
@@ -18885,15 +18886,15 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	3832
 	Child:	3833
 	Child:	3834
-	Child:	3835
+	Child:	3836
 	Child:	3837
 	Child:	3838
 	Child:	3839
-	Child:	3840
 	Label:	"&Graphics"
 )
 
-(Choice.3827
+(Choice.3826
+	Disabled:	1
 	Help:	"Displays the property editor for the selected graphic"
 	HelpTopic:	"Graphic_Properties"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -18902,10 +18903,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3828
+(Space.3827
 )
 
-(Choice.3829
+(Choice.3828
 	Help:	"Shows a dialog where you can set the default values for the text tools"
 	HelpTopic:	"Default_settings_for_text_and_label_tools"
 	Label:	"&Text Tool Defaults..."
@@ -18913,10 +18914,11 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3830
+(Space.3829
 )
 
-(Choice.3831
+(Choice.3830
+	Disabled:	1
 	Help:	"Displays a dialog box to adjust size and position of selected graphic"
 	HelpTopic:	"Size_and_Position"
 	Update:	"Graphic.SingleSelectionUpdate"
@@ -18925,7 +18927,8 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3832
+(Choice.3831
+	Disabled:	1
 	Help:	"Aligns the selected graphics"
 	HelpTopic:	"Align"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -18934,10 +18937,11 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+A"
 )
 
-(Space.3833
+(Space.3832
 )
 
-(Choice.3834
+(Choice.3833
+	Disabled:	1
 	Help:	"Moves selected graphics in front of other graphics"
 	HelpTopic:	"Bring_to_Front"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -18946,7 +18950,8 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3835
+(Choice.3834
+	Disabled:	1
 	Help:	"Moves selected graphics behind other graphics"
 	HelpTopic:	"Send_to_Back"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -18955,7 +18960,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3837
+(Choice.3836
 	Disabled:	1
 	Help:	"Groups selected graphics"
 	HelpTopic:	"Group"
@@ -18965,7 +18970,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+G"
 )
 
-(Choice.3838
+(Choice.3837
 	Disabled:	1
 	Help:	"Ungroups selected graphics"
 	HelpTopic:	"Ungroup"
@@ -18975,10 +18980,11 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+U"
 )
 
-(Space.3839
+(Space.3838
 )
 
-(Choice.3840
+(Choice.3839
+	Disabled:	1
 	Help:	"Simplify selected graphics by converting them to a set of shapes"
 	HelpTopic:	"Simplify"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -18987,21 +18993,21 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.3854
+(PMenu.3853
 	InternalName:	"Window"
+	Child:	3854
 	Child:	3855
 	Child:	3856
 	Child:	3857
 	Child:	3858
-	Child:	3859
-	Child:	3861
+	Child:	3860
+	Child:	3862
 	Child:	3863
 	Child:	3864
-	Child:	3865
 	Label:	"&Window"
 )
 
-(Choice.3855
+(Choice.3854
 	Help:	"Arranges windows as non-overlapping tiles"
 	HelpTopic:	"Tile"
 	Label:	"&Tile"
@@ -19009,7 +19015,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3856
+(Choice.3855
 	Help:	"Arranges windows"
 	HelpTopic:	"Cascade"
 	Label:	"&Cascade"
@@ -19017,7 +19023,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3857
+(Choice.3856
 	Help:	"Arranges iconified windows"
 	HelpTopic:	"Arrange_Icons"
 	Label:	"&Arrange Icons"
@@ -19025,10 +19031,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3858
+(Space.3857
 )
 
-(Choice.3859
+(Choice.3858
 	Help:	"Shows the symbol window"
 	HelpTopic:	"Show_Symbol_Window"
 	Label:	"Show Symbol Window..."
@@ -19036,46 +19042,46 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+P"
 )
 
-(Space.3861
-	ObjectTag:	3862
+(Space.3860
+	ObjectTag:	3861
 	Update:	"WindowMenuUpdate"
 )
 
-(AVStr.3862
+(AVStr.3861
 	S:	"ukw_bandscan.apr UKW-Bandscan-Map UKW-Sender"
 )
 
-(Choice.3863
+(Choice.3862
 	Help:	"Activates ukw_bandscan.apr"
 	Label:	"&1 ukw_bandscan.apr"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3864
+(Choice.3863
 	Help:	"Activates UKW-Bandscan-Map"
 	Label:	"&2 UKW-Bandscan-Map"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3865
+(Choice.3864
 	Help:	"Activates UKW-Sender"
 	Label:	"&3 UKW-Sender"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.3866
+(PMenu.3865
 	InternalName:	"Help"
+	Child:	3866
 	Child:	3867
 	Child:	3868
 	Child:	3869
-	Child:	3870
 	Label:	"&Help"
 )
 
-(Choice.3867
+(Choice.3866
 	Help:	"Displays the dialog for browsing and searching ArcView's help system"
 	HelpTopic:	"Help_on_Help_Topics"
 	Label:	"Help &Topics..."
@@ -19083,7 +19089,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3868
+(Choice.3867
 	Help:	"Provides instructions for how to obtain help from ArcView"
 	HelpTopic:	"Help_on_How_to_Get_Help"
 	Label:	"&How to Get Help..."
@@ -19091,10 +19097,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3869
+(Space.3868
 )
 
-(Choice.3870
+(Choice.3869
 	Help:	"Provides information about ArcView"
 	HelpTopic:	"About"
 	Label:	"&About ArcView..."
@@ -19102,304 +19108,310 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(ButnBar.3871
-	Child:	3872
+(ButnBar.3870
+	Child:	3871
+	Child:	3873
 	Child:	3874
-	Child:	3875
-	Child:	3879
-	Child:	3881
+	Child:	3878
+	Child:	3880
+	Child:	3882
 	Child:	3883
-	Child:	3884
-	Child:	3886
-	Child:	3888
-	Child:	3890
-	Child:	3892
-	Child:	3894
+	Child:	3885
+	Child:	3887
+	Child:	3889
+	Child:	3891
+	Child:	3893
+	Child:	3895
 	Child:	3896
-	Child:	3897
-	Child:	3899
-	Child:	3901
-	Child:	3903
-	Child:	3905
+	Child:	3898
+	Child:	3900
+	Child:	3902
+	Child:	3904
+	Child:	3906
 	Child:	3907
-	Child:	3908
+	Child:	3909
 	Child:	3910
-	Child:	3911
+	Child:	3912
 	Child:	3913
-	Child:	3914
 )
 
-(Butn.3872
+(Butn.3871
 	Help:	"Save Project//Saves the current project"
 	HelpTopic:	"Save_Project"
-	Icon:	3873
+	Icon:	3872
 	Click:	"Project.Save"
 )
 
-(AVIcon.3873
+(AVIcon.3872
 	Name:	"Save"
 	Res:	"Icons.Save"
 
 )
 
-(Space.3874
+(Space.3873
 )
 
-(Butn.3875
+(Butn.3874
+	Disabled:	1
 	Help:	"Cut//Cuts the selection and puts it into the clipboard"
 	HelpTopic:	"Cut"
 	Update:	"Graphic.HasSelectionUpdate"
-	Icon:	3876
+	Icon:	3875
 	Click:	"Layout.Cut"
 )
 
-(AVIcon.3876
+(AVIcon.3875
 	Name:	"Cut"
 	Res:	"Icons.Cut"
 
 )
 
-(Butn.3879
+(Butn.3878
+	Disabled:	1
 	Help:	"Copy//Copies the selected graphics to the clipboard"
 	HelpTopic:	"Copy"
 	Update:	"Graphic.HasSelectionUpdate"
-	Icon:	3880
+	Icon:	3879
 	Click:	"Layout.Copy"
 )
 
-(AVIcon.3880
+(AVIcon.3879
 	Name:	"Copy"
 	Res:	"Icons.Copy"
 
 )
 
-(Butn.3881
+(Butn.3880
 	Disabled:	1
 	Help:	"Paste//Inserts the contents of the clipboard"
 	HelpTopic:	"Paste"
 	Update:	"Layout.PasteUpdate"
-	Icon:	3882
+	Icon:	3881
 	Click:	"Layout.Paste"
 )
 
-(AVIcon.3882
+(AVIcon.3881
 	Name:	"Paste"
 	Res:	"Icons.Paste"
 
 )
 
-(Space.3883
+(Space.3882
 )
 
-(Butn.3884
+(Butn.3883
 	Help:	"Layout Properties//Displays the dialog box to edit properties of the layout"
 	HelpTopic:	"Layout_Properties"
-	Icon:	3885
+	Icon:	3884
 	Click:	"Layout.Properties"
 )
 
-(AVIcon.3885
+(AVIcon.3884
 	Name:	"Props"
 	Res:	"Icons.Props"
 
 )
 
-(Butn.3886
+(Butn.3885
 	Disabled:	1
 	Help:	"Group//Groups selected graphics"
 	HelpTopic:	"Group"
 	Update:	"Graphic.GroupUpdate"
-	Icon:	3887
+	Icon:	3886
 	Click:	"Graphic.Group"
 )
 
-(AVIcon.3887
+(AVIcon.3886
 	Name:	"Group"
 	Res:	"Icons.Group"
 
 )
 
-(Butn.3888
+(Butn.3887
 	Disabled:	1
 	Help:	"Ungroup//Ungroups selected graphics"
 	HelpTopic:	"Ungroup"
 	Update:	"Graphic.UngroupUpdate"
-	Icon:	3889
+	Icon:	3888
 	Click:	"Graphic.Ungroup"
 )
 
-(AVIcon.3889
+(AVIcon.3888
 	Name:	"Ungroup"
 	Res:	"Icons.Ungroup"
 
 )
 
-(Butn.3890
+(Butn.3889
+	Disabled:	1
 	Help:	"Bring to Front//Moves selected graphics in front of other graphics"
 	HelpTopic:	"Bring_to_Front"
 	Update:	"Graphic.HasSelectionUpdate"
-	Icon:	3891
+	Icon:	3890
 	Click:	"Graphic.ToFront"
 )
 
-(AVIcon.3891
+(AVIcon.3890
 	Name:	"MoveToFront"
 	Res:	"Icons.MoveToFront"
 
 )
 
-(Butn.3892
+(Butn.3891
+	Disabled:	1
 	Help:	"Send to Back//Moves selected graphics behind other graphics"
 	HelpTopic:	"Send_to_Back"
 	Update:	"Graphic.HasSelectionUpdate"
-	Icon:	3893
+	Icon:	3892
 	Click:	"Graphic.ToBack"
 )
 
-(AVIcon.3893
+(AVIcon.3892
 	Name:	"SendToBack"
 	Res:	"Icons.SendToBack"
 
 )
 
-(Butn.3894
+(Butn.3893
 	Disabled:	1
 	Help:	"Undo//Undo last edit"
 	HelpTopic:	"Undo"
 	Update:	"Layout.UndoUpdate"
-	Icon:	3895
+	Icon:	3894
 	Click:	"Layout.Undo"
 )
 
-(AVIcon.3895
+(AVIcon.3894
 	Name:	"Undo"
 	Res:	"Icons.Undo"
 
 )
 
-(Space.3896
+(Space.3895
 )
 
-(Butn.3897
+(Butn.3896
 	Help:	"Zoom to Page//Zooms to the page"
 	HelpTopic:	"Zoom_to_Page"
-	Icon:	3898
+	Icon:	3897
 	Click:	"Layout.ZoomPage"
 )
 
-(AVIcon.3898
+(AVIcon.3897
 	Name:	"ZoomToPage"
 	Res:	"Icons.ZoomToPage"
 
 )
 
-(Butn.3899
+(Butn.3898
 	Help:	"Zoom to Actual Size//Zooms to display the actual size of the layout (1:1)"
 	HelpTopic:	"Zoom_to_Actual_Size"
-	Icon:	3900
+	Icon:	3899
 	Click:	"Layout.ZoomActual"
 )
 
-(AVIcon.3900
+(AVIcon.3899
 	Name:	"ZoomToActual"
 	Res:	"Icons.ZoomToActual"
 
 )
 
-(Butn.3901
+(Butn.3900
+	Disabled:	1
 	Help:	"Zoom to Selected//Zooms to the extent of the selected layout graphics"
 	HelpTopic:	"Zoom_to_Selected"
 	Update:	"Graphic.HasSelectionUpdate"
-	Icon:	3902
+	Icon:	3901
 	Click:	"Layout.ZoomSelected"
 )
 
-(AVIcon.3902
+(AVIcon.3901
 	Name:	"ZoomToSelected"
 	Res:	"Icons.ZoomToSelected"
 
 )
 
-(Butn.3903
+(Butn.3902
 	Help:	"Zoom In//Zooms in on the center of the display"
 	HelpTopic:	"Zoom_In"
-	Icon:	3904
+	Icon:	3903
 	Click:	"Layout.ZoomIn"
 )
 
-(AVIcon.3904
+(AVIcon.3903
 	Name:	"ZoomIn"
 	Res:	"Icons.ZoomIn"
 
 )
 
-(Butn.3905
+(Butn.3904
 	Help:	"Zoom Out//Zooms out from the center of the display"
 	HelpTopic:	"Zoom_Out"
-	Icon:	3906
+	Icon:	3905
 	Click:	"Layout.ZoomOut"
 )
 
-(AVIcon.3906
+(AVIcon.3905
 	Name:	"ZoomOut"
 	Res:	"Icons.ZoomOut"
 
 )
 
-(Space.3907
+(Space.3906
 )
 
-(Butn.3908
+(Butn.3907
 	Help:	"Neatline//Places a neatline around your graphics or inside your margins"
 	HelpTopic:	"Layout_Neatline"
 	Update:	"Graphic.Neatline ShowUpdate"
-	Icon:	3909
+	Icon:	3908
 	Click:	"Graphic.Neatline Show"
 )
 
-(AVIcon.3909
+(AVIcon.3908
 	Name:	"Neatline"
 	Res:	"Icons.Neatline"
 
 )
 
-(Space.3910
+(Space.3909
 )
 
-(Butn.3911
+(Butn.3910
 	Help:	"Print//Prints the layout"
 	HelpTopic:	"Print"
-	Icon:	3912
+	Icon:	3911
 	Click:	"Doc.Print"
 )
 
-(AVIcon.3912
+(AVIcon.3911
 	Name:	"Print"
 	Res:	"Icons.Print"
 
 )
 
-(Space.3913
+(Space.3912
 )
 
-(Butn.3914
+(Butn.3913
 	Help:	"Help//Gets help about the next button, tool, or menu choice you click"
 	HelpTopic:	"Help_button"
-	Icon:	3915
+	Icon:	3914
 	Click:	"Help.Tool"
 )
 
-(AVIcon.3915
+(AVIcon.3914
 	Name:	"HelpTool"
 	Res:	"Icons.HelpTool"
 
 )
 
-(PopupSet.3916
-	Child:	3917
+(PopupSet.3915
+	Child:	3916
 )
 
-(Popup.3917
+(Popup.3916
+	Child:	3917
 	Child:	3918
 	Child:	3919
 	Child:	3920
@@ -19409,11 +19421,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	3924
 	Child:	3925
 	Child:	3926
-	Child:	3927
 	Label:	"Menu"
 )
 
-(Choice.3918
+(Choice.3917
 	Help:	"Selects all layout graphics"
 	HelpTopic:	"Select_All"
 	Update:	"Layout.HasGraphicsUpdate"
@@ -19422,10 +19433,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3919
+(Space.3918
 )
 
-(Choice.3920
+(Choice.3919
 	Help:	"Undo the last edit"
 	Update:	"Layout.UndoUpdate"
 	Label:	"Undo"
@@ -19433,10 +19444,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3921
+(Space.3920
 )
 
-(Choice.3922
+(Choice.3921
 	Help:	"Moves selected graphics in front of other graphics"
 	HelpTopic:	"Bring_to_Front"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -19445,7 +19456,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.3923
+(Choice.3922
 	Help:	"Moves selected graphics behind other graphics"
 	HelpTopic:	"Send_to_Back"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -19454,10 +19465,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3924
+(Space.3923
 )
 
-(Choice.3925
+(Choice.3924
 	Help:	"Simplifies the selected graphic by converting it to a set of shapes"
 	HelpTopic:	"Simplify"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -19466,10 +19477,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.3926
+(Space.3925
 )
 
-(Choice.3927
+(Choice.3926
 	Help:	"Refreshes view frames"
 	Update:	"Frame.RefreshUpdate"
 	Label:	"Refresh View Frames"
@@ -19477,455 +19488,455 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(ToolBar.3928
-	Child:	3929
-	Child:	3931
-	Child:	3933
-	Child:	3935
-	Child:	3937
-	Child:	3941
-	Child:	3954
-	Child:	3967
+(ToolBar.3927
+	Child:	3928
+	Child:	3930
+	Child:	3932
+	Child:	3934
+	Child:	3936
+	Child:	3940
+	Child:	3953
+	Child:	3966
 )
 
-(Tool.3929
+(Tool.3928
 	Help:	"Pointer//Selects frames or graphics on the layout by pointing or dragging"
 	HelpTopic:	"Pointer_tool"
-	Icon:	3930
+	Icon:	3929
 	Cursor:	"Cursors.Select"
 	Apply:	"Layout.Select"
 	Click:	"Layout.SelectTool"
 )
 
-(AVIcon.3930
+(AVIcon.3929
 	Name:	"Select"
 	Res:	"Icons.Select"
 
 )
 
-(Tool.3931
+(Tool.3930
 	Help:	"Vertex_Edit//Adds, moves, and deletes vertices of line and polygon graphics"
 	HelpTopic:	"Vertex_Edit_Tool"
-	Icon:	3932
+	Icon:	3931
 	Cursor:	"Cursors.SelectEdit"
 	Apply:	"Layout.SelectToEdit"
 	Click:	"Layout.SelectToEditTool"
 )
 
-(AVIcon.3932
+(AVIcon.3931
 	Name:	"SelectEdit"
 	Res:	"Icons.SelectEdit"
 
 )
 
-(Tool.3933
+(Tool.3932
 	Help:	"Zoom In//Zooms in at a point you click or zooms in on a rectangle you drag"
 	HelpTopic:	"Zoom_In_tool"
-	Icon:	3934
+	Icon:	3933
 	Cursor:	"Cursors.ZoomIn"
 	Apply:	"Layout.ZoomInTool"
 )
 
-(AVIcon.3934
+(AVIcon.3933
 	Name:	"ZoomInTool"
 	Res:	"Icons.ZoomInTool"
 
 )
 
-(Tool.3935
+(Tool.3934
 	Help:	"Zoom Out//Zooms out from a point you click or zooms out to include a rectangle you drag"
 	HelpTopic:	"Zoom_Out_tool"
-	Icon:	3936
+	Icon:	3935
 	Cursor:	"Cursors.ZoomOut"
 	Apply:	"Layout.ZoomOutTool"
 )
 
-(AVIcon.3936
+(AVIcon.3935
 	Name:	"ZoomOutTool"
 	Res:	"Icons.ZoomOutTool"
 
 )
 
-(Tool.3937
+(Tool.3936
 	Help:	"Pan//Drags the display in the direction you move the cursor"
 	HelpTopic:	"Pan_tool"
-	Icon:	3938
+	Icon:	3937
 	Cursor:	"Cursors.Pan"
 	Apply:	"Layout.Pan"
 )
 
-(AVIcon.3938
+(AVIcon.3937
 	Name:	"Pan"
 	Res:	"Icons.Pan"
 
 )
 
-(ToolMenu.3941
+(ToolMenu.3940
 	Help:	"Text//Creates text on the display"
 	HelpTopic:	"Text_tool"
 	Update:	"Layout.TextToolUpdate"
-	Icon:	3942
+	Icon:	3941
 	Cursor:	"Cursors.Text"
 	Apply:	"Layout.Text"
 	Click:	"SymWin.DisplayFontPanel"
+	Child:	3942
 	Child:	3943
-	Child:	3944
-	Child:	3946
-	Child:	3948
-	Child:	3950
-	Child:	3952
+	Child:	3945
+	Child:	3947
+	Child:	3949
+	Child:	3951
 )
 
-(AVIcon.3942
+(AVIcon.3941
 	Name:	"Text"
 	Res:	"Icons.Text"
 
 )
 
-(Tool.3943
+(Tool.3942
 	Help:	"Text//Creates text on the display"
 	HelpTopic:	"Text_tool"
 	Update:	"Layout.TextToolUpdate"
-	Icon:	3942
+	Icon:	3941
 	Cursor:	"Cursors.Text"
 	Apply:	"Layout.Text"
 	Click:	"SymWin.DisplayFontPanel"
 )
 
-(Tool.3944
+(Tool.3943
 	Help:	"Callout Text//Draws text with a box and leader around it"
 	HelpTopic:	"Text_tool"
 	Update:	"Layout.TextToolUpdate"
-	Icon:	3945
+	Icon:	3944
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.CalloutTextTool"
 )
 
-(AVIcon.3945
+(AVIcon.3944
 	Name:	"CallOutText1"
 	Res:	"Icons.CallOutText1"
 
 )
 
-(Tool.3946
+(Tool.3945
 	Help:	"Bullet Leader Text//Draws text with a bullet and leader"
 	HelpTopic:	"Text_tool"
 	Update:	"Layout.TextToolUpdate"
-	Icon:	3947
+	Icon:	3946
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.BulletLeaderTextTool"
 )
 
-(AVIcon.3947
+(AVIcon.3946
 	Name:	"CallOutText2"
 	Res:	"Icons.CallOutText2"
 
 )
 
-(Tool.3948
+(Tool.3947
 	Help:	"Banner Text//Creates text with a box and shadow around it"
 	HelpTopic:	"Text_tool"
 	Update:	"Layout.TextToolUpdate"
-	Icon:	3949
+	Icon:	3948
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.ShadowBoxTextTool"
 )
 
-(AVIcon.3949
+(AVIcon.3948
 	Name:	"CallOutText3"
 	Res:	"Icons.CallOutText3"
 
 )
 
-(Tool.3950
+(Tool.3949
 	Help:	"Drop-Shadow Text//Creates text where each letter has a drop-shadow"
 	HelpTopic:	"Text_tool"
 	Update:	"Layout.TextToolUpdate"
-	Icon:	3951
+	Icon:	3950
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.CreateDropShadowText"
 )
 
-(AVIcon.3951
+(AVIcon.3950
 	Name:	"DropShadowText"
 	Res:	"Icons.DropShadowText"
 
 )
 
-(Tool.3952
+(Tool.3951
 	Help:	"SplineText//Adds text aligned to a spline baseline"
 	HelpTopic:	"Text_tool"
 	Update:	"Layout.TextToolUpdate"
-	Icon:	3953
+	Icon:	3952
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.SplineText"
 )
 
-(AVIcon.3953
+(AVIcon.3952
 	Name:	"TextAligned"
 	Res:	"Icons.TextAligned"
 
 )
 
-(ToolMenu.3954
+(ToolMenu.3953
 	Help:	"Draw Point//Creates a point on the display"
 	HelpTopic:	"Draw_tool"
-	Icon:	3955
+	Icon:	3954
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.Point"
 	Click:	"SymWin.DisplayMarkerPanel"
+	Child:	3955
 	Child:	3956
-	Child:	3957
-	Child:	3959
-	Child:	3961
-	Child:	3963
-	Child:	3965
+	Child:	3958
+	Child:	3960
+	Child:	3962
+	Child:	3964
 )
 
-(AVIcon.3955
+(AVIcon.3954
 	Name:	"Point"
 	Res:	"Icons.Point"
 
 )
 
-(Tool.3956
+(Tool.3955
 	Help:	"Draw Point//Creates a point on the display"
 	HelpTopic:	"Draw_tool"
-	Icon:	3955
+	Icon:	3954
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.Point"
 	Click:	"SymWin.DisplayMarkerPanel"
 )
 
-(Tool.3957
+(Tool.3956
 	Help:	"Draw Straight Line//Creates a line on the display"
 	HelpTopic:	"Draw_tool"
-	Icon:	3958
+	Icon:	3957
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.Line"
 	Click:	"SymWin.DisplayPenPanel"
 )
 
-(AVIcon.3958
+(AVIcon.3957
 	Name:	"SelectLine"
 	Res:	"Icons.SelectLine"
 
 )
 
-(Tool.3959
+(Tool.3958
 	Help:	"Draw Line//Creates a line with three or more points on the display"
 	HelpTopic:	"Draw_tool"
-	Icon:	3960
+	Icon:	3959
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.PolyLine"
 	Click:	"SymWin.DisplayPenPanel"
 )
 
-(AVIcon.3960
+(AVIcon.3959
 	Name:	"Lines"
 	Res:	"Icons.Lines"
 
 )
 
-(Tool.3961
+(Tool.3960
 	Help:	"Draw Rectangle//Creates a rectangle on the display"
 	HelpTopic:	"Draw_tool"
-	Icon:	3962
+	Icon:	3961
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.Rect"
 	Click:	"SymWin.DisplayFillPanel"
 )
 
-(AVIcon.3962
+(AVIcon.3961
 	Name:	"Rect"
 	Res:	"Icons.Rect"
 
 )
 
-(Tool.3963
+(Tool.3962
 	Help:	"Draw Circle//Creates a circle on the display"
 	HelpTopic:	"Draw_tool"
-	Icon:	3964
+	Icon:	3963
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.Circle"
 	Click:	"SymWin.DisplayFillPanel"
 )
 
-(AVIcon.3964
+(AVIcon.3963
 	Name:	"Disk"
 	Res:	"Icons.Disk"
 
 )
 
-(Tool.3965
+(Tool.3964
 	Help:	"Draw Polygon//Creates a polygon on the display"
 	HelpTopic:	"Draw_tool"
-	Icon:	3966
+	Icon:	3965
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.Poly"
 	Click:	"SymWin.DisplayFillPanel"
 )
 
-(AVIcon.3966
+(AVIcon.3965
 	Name:	"Poly"
 	Res:	"Icons.Poly"
 
 )
 
-(ToolMenu.3967
+(ToolMenu.3966
 	Help:	"View Frame//Creates a view frame on the display"
 	HelpTopic:	"Frame_tool"
-	Icon:	3968
+	Icon:	3967
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.FrameView"
+	Child:	3968
 	Child:	3969
-	Child:	3970
-	Child:	3972
-	Child:	3974
-	Child:	3976
-	Child:	3978
-	Child:	3980
+	Child:	3971
+	Child:	3973
+	Child:	3975
+	Child:	3977
+	Child:	3979
 )
 
-(AVIcon.3968
+(AVIcon.3967
 	Name:	"FrameView"
 	Res:	"Icons.FrameView"
 
 )
 
-(Tool.3969
+(Tool.3968
 	Help:	"View Frame//Creates a view frame on the display"
 	HelpTopic:	"Frame_tool"
-	Icon:	3968
+	Icon:	3967
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.FrameView"
 )
 
-(Tool.3970
+(Tool.3969
 	Help:	"Legend Frame//Creates a legend frame on the display"
 	HelpTopic:	"Frame_tool"
-	Icon:	3971
+	Icon:	3970
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.FrameLegend"
 )
 
-(AVIcon.3971
+(AVIcon.3970
 	Name:	"FrameLegend"
 	Res:	"Icons.FrameLegend"
 
 )
 
-(Tool.3972
+(Tool.3971
 	Help:	"Scale Bar Frame//Creates a scale bar frame on the display"
 	HelpTopic:	"Frame_tool"
-	Icon:	3973
+	Icon:	3972
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.FrameScalebar"
 )
 
-(AVIcon.3973
+(AVIcon.3972
 	Name:	"FrameScalebar"
 	Res:	"Icons.FrameScalebar"
 
 )
 
-(Tool.3974
+(Tool.3973
 	Help:	"North Arrow//Creates a north arrow on the display"
 	HelpTopic:	"Frame_tool"
-	Icon:	3975
+	Icon:	3974
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.NorthArrow"
 )
 
-(AVIcon.3975
+(AVIcon.3974
 	Name:	"NorthArrow"
 	Res:	"Icons.NorthArrow"
 
 )
 
-(Tool.3976
+(Tool.3975
 	Help:	"Chart Frame//Creates a chart frame on the display"
 	HelpTopic:	"Frame_tool"
-	Icon:	3977
+	Icon:	3976
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.FrameChart"
 )
 
-(AVIcon.3977
+(AVIcon.3976
 	Name:	"FrameChart"
 	Res:	"Icons.FrameChart"
 
 )
 
-(Tool.3978
+(Tool.3977
 	Help:	"Table Frame//Creates a table frame on the display"
 	HelpTopic:	"Frame_tool"
-	Icon:	3979
+	Icon:	3978
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.FrameTable"
 )
 
-(AVIcon.3979
+(AVIcon.3978
 	Name:	"FrameTable"
 	Res:	"Icons.FrameTable"
 
 )
 
-(Tool.3980
+(Tool.3979
 	Help:	"Picture Frame//Creates a picture frame on the display"
 	HelpTopic:	"Frame_tool"
-	Icon:	3981
+	Icon:	3980
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.FramePicture"
 )
 
-(AVIcon.3981
+(AVIcon.3980
 	Name:	"FramePicture"
 	Res:	"Icons.FramePicture"
 
 )
 
-(AVIcon.3985
+(AVIcon.3984
 	Name:	"Icon"
 	Res:	"Layout.Icon"
 
 )
 
-(DocGUI.4112
+(DocGUI.4111
 	Name:	"Project"
 	Type:	"Project"
 	Modified:	1
-	MenuBar:	4113
-	ButnBar:	4194
-	Popups:	4212
-	ToolBar:	4213
-	Icon:	4214
+	MenuBar:	4112
+	ButnBar:	4193
+	Popups:	4211
+	ToolBar:	4212
+	Icon:	4213
 )
 
-(MenuBar.4113
-	Child:	4114
-	Child:	4126
-	Child:	4136
-	Child:	4179
-	Child:	4189
+(MenuBar.4112
+	Child:	4113
+	Child:	4125
+	Child:	4135
+	Child:	4178
+	Child:	4188
 )
 
-(PMenu.4114
+(PMenu.4113
 	InternalName:	"File"
+	Child:	4114
 	Child:	4115
 	Child:	4116
 	Child:	4117
 	Child:	4118
 	Child:	4119
-	Child:	4120
+	Child:	4121
 	Child:	4122
 	Child:	4123
 	Child:	4124
-	Child:	4125
 	Label:	"&File"
 )
 
-(Choice.4115
+(Choice.4114
 	Help:	"Creates a new project"
 	HelpTopic:	"New_Project"
 	Label:	"&New Project"
@@ -19933,7 +19944,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+N"
 )
 
-(Choice.4116
+(Choice.4115
 	Help:	"Opens an existing project"
 	HelpTopic:	"Open_Project"
 	Label:	"&Open Project..."
@@ -19941,7 +19952,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4117
+(Choice.4116
 	Help:	"Closes the project window"
 	HelpTopic:	"Close_Project"
 	Label:	"&Close Project"
@@ -19949,10 +19960,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4118
+(Space.4117
 )
 
-(Choice.4119
+(Choice.4118
 	Help:	"Saves the current project"
 	HelpTopic:	"Save_Project"
 	Label:	"&Save Project"
@@ -19960,7 +19971,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+S"
 )
 
-(Choice.4120
+(Choice.4119
 	Help:	"Saves the current project with a new name"
 	HelpTopic:	"Save_Project_As"
 	Label:	"Save Project &As..."
@@ -19968,10 +19979,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4122
+(Space.4121
 )
 
-(Choice.4123
+(Choice.4122
 	Help:	"Displays the Extensions dialog"
 	HelpTopic:	"Extensions"
 	Label:	"&Extensions..."
@@ -19979,10 +19990,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4124
+(Space.4123
 )
 
-(Choice.4125
+(Choice.4124
 	Help:	"Exits ArcView"
 	HelpTopic:	"Exit"
 	Label:	"E&xit"
@@ -19990,8 +20001,9 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.4126
+(PMenu.4125
 	InternalName:	"Project"
+	Child:	4126
 	Child:	4127
 	Child:	4128
 	Child:	4129
@@ -20000,11 +20012,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	4132
 	Child:	4133
 	Child:	4134
-	Child:	4135
 	Label:	"&Project"
 )
 
-(Choice.4127
+(Choice.4126
 	Help:	"Displays the dialog box to edit properties of the project"
 	HelpTopic:	"Project_Properties"
 	Label:	"&Properties..."
@@ -20012,7 +20023,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4128
+(Choice.4127
 	Help:	"Customizes the active project"
 	HelpTopic:	"Customize"
 	Update:	"Project.CustomizeUpdate"
@@ -20021,10 +20032,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4129
+(Space.4128
 )
 
-(Choice.4130
+(Choice.4129
 	Help:	"Renames the selected project component"
 	HelpTopic:	"Rename"
 	Update:	"Project.RenameUpdate"
@@ -20033,7 +20044,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+R"
 )
 
-(Choice.4131
+(Choice.4130
 	Help:	"Deletes the selected component from the project"
 	HelpTopic:	"Delete_Component"
 	Update:	"Project.DeleteUpdate"
@@ -20042,10 +20053,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Del"
 )
 
-(Space.4132
+(Space.4131
 )
 
-(Choice.4133
+(Choice.4132
 	Help:	"Adds a table to the project"
 	HelpTopic:	"Add_Table"
 	Update:	"Project.AddTableUpdate"
@@ -20054,7 +20065,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4134
+(Choice.4133
 	Help:	"Creates a new project component from an external source"
 	HelpTopic:	"Import"
 	Update:	"Project.ImportUpdate"
@@ -20063,7 +20074,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4135
+(Choice.4134
 	Help:	"Opens the SQL Connection manager"
 	HelpTopic:	"SQL_Connect"
 	Update:	"Project.HasSQL"
@@ -20072,25 +20083,25 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.4136
+(PMenu.4135
 	Tag:	"Xtools1234"
 	Label:	"&XTools"
 )
 
-(PMenu.4179
+(PMenu.4178
 	InternalName:	"Window"
+	Child:	4179
 	Child:	4180
 	Child:	4181
 	Child:	4182
 	Child:	4183
 	Child:	4184
-	Child:	4185
+	Child:	4186
 	Child:	4187
-	Child:	4188
 	Label:	"&Window"
 )
 
-(Choice.4180
+(Choice.4179
 	Help:	"Arranges windows as non-overlapping tiles"
 	HelpTopic:	"Tile"
 	Label:	"&Tile"
@@ -20098,7 +20109,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4181
+(Choice.4180
 	Help:	"Arranges windows"
 	HelpTopic:	"Cascade"
 	Label:	"&Cascade"
@@ -20106,7 +20117,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4182
+(Choice.4181
 	Help:	"Arranges iconified windows"
 	HelpTopic:	"Arrange_Icons"
 	Label:	"&Arrange Icons"
@@ -20114,10 +20125,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4183
+(Space.4182
 )
 
-(Choice.4184
+(Choice.4183
 	Help:	"Shows the symbol window"
 	HelpTopic:	"Show_Symbol_Window"
 	Label:	"Show Symbol Window..."
@@ -20125,39 +20136,39 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+P"
 )
 
-(Space.4185
-	ObjectTag:	4186
+(Space.4184
+	ObjectTag:	4185
 	Update:	"WindowMenuUpdate"
 )
 
-(AVStr.4186
+(AVStr.4185
 	S:	"ukw_bandscan.apr UKW-Sender"
 )
 
-(Choice.4187
+(Choice.4186
 	Help:	"Activates ukw_bandscan.apr"
 	Label:	"&1 ukw_bandscan.apr"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4188
+(Choice.4187
 	Help:	"Activates UKW-Sender"
 	Label:	"&2 UKW-Sender"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.4189
+(PMenu.4188
 	InternalName:	"Help"
+	Child:	4189
 	Child:	4190
 	Child:	4191
 	Child:	4192
-	Child:	4193
 	Label:	"&Help"
 )
 
-(Choice.4190
+(Choice.4189
 	Help:	"Displays the dialog for browsing and searching ArcView's help system"
 	HelpTopic:	"Help_on_Help_Topics"
 	Label:	"Help &Topics..."
@@ -20165,7 +20176,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4191
+(Choice.4190
 	Help:	"Provides instructions for how to obtain help from ArcView"
 	HelpTopic:	"Help_on_How_to_Get_Help"
 	Label:	"&How to Get Help..."
@@ -20173,10 +20184,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4192
+(Space.4191
 )
 
-(Choice.4193
+(Choice.4192
 	Help:	"Provides information about ArcView"
 	HelpTopic:	"About"
 	Label:	"&About ArcView..."
@@ -20184,62 +20195,62 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(ButnBar.4194
+(ButnBar.4193
 	Update:	"Project.UpdateButtons"
-	Child:	4195
+	Child:	4194
+	Child:	4196
 	Child:	4197
-	Child:	4198
 )
 
-(Butn.4195
+(Butn.4194
 	Help:	"Save Project//Saves the current project"
 	HelpTopic:	"Save_Project"
-	Icon:	4196
+	Icon:	4195
 	Click:	"Project.Save"
 )
 
-(AVIcon.4196
+(AVIcon.4195
 	Name:	"Save"
 	Res:	"Icons.Save"
 
 )
 
-(Space.4197
+(Space.4196
 )
 
-(Butn.4198
+(Butn.4197
 	Help:	"Help//Gets help about the next button, tool, or menu choice you click"
 	HelpTopic:	"Help_button"
-	Icon:	4199
+	Icon:	4198
 	Click:	"Help.Tool"
 )
 
-(AVIcon.4199
+(AVIcon.4198
 	Name:	"HelpTool"
 	Res:	"Icons.HelpTool"
 
 )
 
-(PopupSet.4212
+(PopupSet.4211
 )
 
-(ToolBar.4213
+(ToolBar.4212
 )
 
-(AVIcon.4214
+(AVIcon.4213
 	Name:	"Icon"
 	Res:	"Project.Icon"
 
 )
 
-(DocGUI.4233
+(DocGUI.4232
 	Name:	"XTSED"
 	Type:	"SEd"
 	Modified:	1
-	MenuBar:	4234
-	ButnBar:	4297
-	Popups:	4338
-	ToolBar:	4339
+	MenuBar:	4233
+	ButnBar:	4296
+	Popups:	4337
+	ToolBar:	4338
 	NewScript:	"Script.New"
 	OpenScript:	"Doc.Open"
 	ActionScript:	"Script.Action"
@@ -20247,19 +20258,20 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	OpenUpdateScript:	"Doc.OpenUpdate"
 	ActionUpdateScript:	"Script.ActionUpdate"
 	Title:	"XTSED"
-	Icon:	4340
+	Icon:	4339
 )
 
-(MenuBar.4234
-	Child:	4235
-	Child:	4248
-	Child:	4264
-	Child:	4281
-	Child:	4292
+(MenuBar.4233
+	Child:	4234
+	Child:	4247
+	Child:	4263
+	Child:	4280
+	Child:	4291
 )
 
-(PMenu.4235
+(PMenu.4234
 	InternalName:	"File"
+	Child:	4235
 	Child:	4236
 	Child:	4237
 	Child:	4238
@@ -20271,11 +20283,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	4244
 	Child:	4245
 	Child:	4246
-	Child:	4247
 	Label:	"&File"
 )
 
-(Choice.4236
+(Choice.4235
 	Help:	"Closes the active component"
 	HelpTopic:	"Close"
 	Label:	"&Close"
@@ -20283,7 +20294,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4237
+(Choice.4236
 	Help:	"Closes all components"
 	HelpTopic:	"Close_All"
 	Label:	"Close &All"
@@ -20291,10 +20302,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4238
+(Space.4237
 )
 
-(Choice.4239
+(Choice.4238
 	Help:	"Saves the current project"
 	HelpTopic:	"Save_Project"
 	Label:	"&Save Project"
@@ -20302,7 +20313,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+S"
 )
 
-(Choice.4240
+(Choice.4239
 	Help:	"Saves the current project with a new name"
 	HelpTopic:	"Save_Project_As"
 	Label:	"Save Project As..."
@@ -20310,10 +20321,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4241
+(Space.4240
 )
 
-(Choice.4242
+(Choice.4241
 	Help:	"Displays the Extensions Dialog"
 	HelpTopic:	"Extensions"
 	Label:	"Extensions..."
@@ -20321,10 +20332,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4243
+(Space.4242
 )
 
-(Choice.4244
+(Choice.4243
 	Help:	"Prints the script"
 	HelpTopic:	"Print"
 	Label:	"&Print..."
@@ -20332,7 +20343,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4245
+(Choice.4244
 	Disabled:	1
 	Help:	"Edits the printer and the printing options"
 	HelpTopic:	"Print_Setup"
@@ -20342,10 +20353,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4246
+(Space.4245
 )
 
-(Choice.4247
+(Choice.4246
 	Help:	"Exits ArcView"
 	HelpTopic:	"Exit"
 	Label:	"E&xit"
@@ -20353,8 +20364,9 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.4248
+(PMenu.4247
 	InternalName:	"Edit"
+	Child:	4248
 	Child:	4249
 	Child:	4250
 	Child:	4251
@@ -20369,11 +20381,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	4260
 	Child:	4261
 	Child:	4262
-	Child:	4263
 	Label:	"&Edit"
 )
 
-(Choice.4249
+(Choice.4248
 	Help:	"Undoes the last change"
 	HelpTopic:	"Undo__Script_"
 	Label:	"&Undo"
@@ -20381,10 +20392,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+Z"
 )
 
-(Space.4250
+(Space.4249
 )
 
-(Choice.4251
+(Choice.4250
 	Help:	"Finds the selected or specified string"
 	HelpTopic:	"Script_Find"
 	Label:	"&Find..."
@@ -20392,7 +20403,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4252
+(Choice.4251
 	Disabled:	1
 	Help:	"Finds the next occurrence of the string"
 	HelpTopic:	"Script_FindNext"
@@ -20402,7 +20413,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.F3"
 )
 
-(Choice.4253
+(Choice.4252
 	Help:	"Replaces the selected or specifed string"
 	HelpTopic:	"Script_Replace"
 	Label:	"Rep&lace..."
@@ -20410,10 +20421,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4254
+(Space.4253
 )
 
-(Choice.4255
+(Choice.4254
 	Disabled:	1
 	Help:	"Cuts the selection and puts it into the clipboard"
 	HelpTopic:	"Cut"
@@ -20423,7 +20434,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+X"
 )
 
-(Choice.4256
+(Choice.4255
 	Disabled:	1
 	Help:	"Copies the selection and puts it into the clipboard"
 	HelpTopic:	"Copy"
@@ -20433,7 +20444,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+C"
 )
 
-(Choice.4257
+(Choice.4256
 	Help:	"Inserts the contents of the clipboard"
 	HelpTopic:	"Paste"
 	Label:	"&Paste"
@@ -20441,10 +20452,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+V"
 )
 
-(Space.4258
+(Space.4257
 )
 
-(Choice.4259
+(Choice.4258
 	Help:	"Selects all text in the script editor"
 	HelpTopic:	"Select_All_in_a_script"
 	Label:	"Select &All"
@@ -20452,7 +20463,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4260
+(Choice.4259
 	Help:	"Deletes text from the cursor to the left margin"
 	HelpTopic:	"Delete_Left"
 	Label:	"&Delete Left"
@@ -20460,10 +20471,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+U"
 )
 
-(Space.4261
+(Space.4260
 )
 
-(Choice.4262
+(Choice.4261
 	Disabled:	1
 	Help:	"Comments selected text"
 	HelpTopic:	"Comment"
@@ -20473,7 +20484,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4263
+(Choice.4262
 	Disabled:	1
 	Help:	"Uncomments selected text"
 	HelpTopic:	"Remove_Comment"
@@ -20483,8 +20494,9 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.4264
+(PMenu.4263
 	InternalName:	"Script"
+	Child:	4264
 	Child:	4265
 	Child:	4266
 	Child:	4267
@@ -20500,11 +20512,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	4277
 	Child:	4278
 	Child:	4279
-	Child:	4280
 	Label:	"&Script"
 )
 
-(Choice.4265
+(Choice.4264
 	Help:	"Displays the dialog box to edit properties of the script"
 	HelpTopic:	"Script_Properties"
 	Label:	"&Properties..."
@@ -20512,10 +20523,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4266
+(Space.4265
 )
 
-(Choice.4267
+(Choice.4266
 	Disabled:	1
 	Help:	"Compiles the script"
 	HelpTopic:	"Compile"
@@ -20525,7 +20536,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4268
+(Choice.4267
 	Help:	"Executes one request or object reference in the compiled script"
 	HelpTopic:	"Step"
 	Update:	"Script.RunUpdate"
@@ -20534,7 +20545,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.F8"
 )
 
-(Choice.4269
+(Choice.4268
 	Help:	"Runs the compiled script"
 	HelpTopic:	"Run"
 	Update:	"Script.RunUpdate"
@@ -20543,10 +20554,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.F5"
 )
 
-(Space.4270
+(Space.4269
 )
 
-(Choice.4271
+(Choice.4270
 	Help:	"Toggles a breakpoint on or off at the current cursor position"
 	HelpTopic:	"Toggle_Breakpoint"
 	Update:	"Script.RunUpdate"
@@ -20555,7 +20566,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4272
+(Choice.4271
 	Help:	"Clears all breakpoints"
 	HelpTopic:	"Clear_All_Breakpoints"
 	Update:	"Script.RunUpdate"
@@ -20564,7 +20575,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4273
+(Choice.4272
 	Help:	"Displays the current value of local and global variables"
 	HelpTopic:	"Examine_Variables"
 	Update:	"Script.RunUpdate"
@@ -20573,10 +20584,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+E"
 )
 
-(Space.4274
+(Space.4273
 )
 
-(Choice.4275
+(Choice.4274
 	Help:	"Inserts the source code of a system script"
 	HelpTopic:	"Load_System_Script"
 	Label:	"&Load System Script..."
@@ -20584,7 +20595,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4276
+(Choice.4275
 	Help:	"Inserts the contents of a text file"
 	HelpTopic:	"Load_Text_File"
 	Label:	"Load &Text File..."
@@ -20592,7 +20603,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4277
+(Choice.4276
 	Help:	"Writes the entire script or the selected text to a text file"
 	HelpTopic:	"Write_Text_File"
 	Label:	"&Write Text File..."
@@ -20600,10 +20611,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4278
+(Space.4277
 )
 
-(Choice.4279
+(Choice.4278
 	Help:	"Embeds the script in the project and deletes its window"
 	HelpTopic:	"Embed_Script"
 	Update:	"Script.RunUpdate"
@@ -20612,7 +20623,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4280
+(Choice.4279
 	Disabled:	1
 	Help:	"Removes specified script from embedded scripts and puts it in a SEd"
 	HelpTopic:	"Script_Unembed"
@@ -20622,21 +20633,21 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.4281
+(PMenu.4280
 	InternalName:	"Window"
+	Child:	4281
 	Child:	4282
 	Child:	4283
 	Child:	4284
 	Child:	4285
 	Child:	4286
 	Child:	4287
-	Child:	4288
+	Child:	4289
 	Child:	4290
-	Child:	4291
 	Label:	"&Window"
 )
 
-(Choice.4282
+(Choice.4281
 	Help:	"Arranges windows as non-overlapping tiles"
 	HelpTopic:	"Tile"
 	Label:	"&Tile"
@@ -20644,7 +20655,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4283
+(Choice.4282
 	Help:	"Arranges windows"
 	HelpTopic:	"Cascade"
 	Label:	"&Cascade"
@@ -20652,7 +20663,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4284
+(Choice.4283
 	Help:	"Arranges iconified windows"
 	HelpTopic:	"Arrange_Icons"
 	Label:	"&Arrange Icons"
@@ -20660,10 +20671,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4285
+(Space.4284
 )
 
-(Choice.4286
+(Choice.4285
 	Help:	"Shows the symbol window"
 	HelpTopic:	"Show_Symbol_Window"
 	Label:	"Show Symbol Window..."
@@ -20671,46 +20682,46 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+P"
 )
 
-(Choice.4287
+(Choice.4286
 	Help:	"Symbol Editor"
 	Label:	"Edit Symbols..."
 	Click:	"SymbEd.Edit"
 	Shortcut:	"Keys.None"
 )
 
-(Space.4288
-	ObjectTag:	4289
+(Space.4287
+	ObjectTag:	4288
 	Update:	"WindowMenuUpdate"
 )
 
-(AVStr.4289
+(AVStr.4288
 	S:	"makedef.apr .Script1"
 )
 
-(Choice.4290
+(Choice.4289
 	Help:	"Activates makedef.apr"
 	Label:	"&1 makedef.apr"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4291
+(Choice.4290
 	Help:	"Activates .Script1"
 	Label:	"&2 .Script1"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.4292
+(PMenu.4291
 	InternalName:	"Help"
+	Child:	4292
 	Child:	4293
 	Child:	4294
 	Child:	4295
-	Child:	4296
 	Label:	"&Help"
 )
 
-(Choice.4293
+(Choice.4292
 	Help:	"Displays the dialog for browsing and searching ArcView's help system"
 	HelpTopic:	"Help_on_Help_Topics"
 	Label:	"Help &Topics..."
@@ -20718,7 +20729,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4294
+(Choice.4293
 	Help:	"Provides instructions for how to obtain help from ArcView"
 	HelpTopic:	"Help_on_How_to_Get_Help"
 	Label:	"&How to Get Help"
@@ -20726,10 +20737,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4295
+(Space.4294
 )
 
-(Choice.4296
+(Choice.4295
 	Help:	"Provides information about ArcView"
 	HelpTopic:	"About"
 	Label:	"&About ArcView..."
@@ -20737,301 +20748,301 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(ButnBar.4297
-	Child:	4298
+(ButnBar.4296
+	Child:	4297
+	Child:	4299
 	Child:	4300
-	Child:	4301
-	Child:	4303
-	Child:	4305
+	Child:	4302
+	Child:	4304
+	Child:	4306
 	Child:	4307
-	Child:	4308
+	Child:	4309
 	Child:	4310
-	Child:	4311
-	Child:	4313
+	Child:	4312
+	Child:	4314
 	Child:	4315
-	Child:	4316
-	Child:	4318
-	Child:	4320
-	Child:	4322
-	Child:	4324
+	Child:	4317
+	Child:	4319
+	Child:	4321
+	Child:	4323
+	Child:	4325
 	Child:	4326
-	Child:	4327
-	Child:	4329
-	Child:	4331
+	Child:	4328
+	Child:	4330
+	Child:	4332
 	Child:	4333
-	Child:	4334
-	Child:	4336
+	Child:	4335
 )
 
-(Butn.4298
+(Butn.4297
 	Help:	"Save Project//Saves the current project"
 	HelpTopic:	"Save_Project"
-	Icon:	4299
+	Icon:	4298
 	Click:	"Project.Save"
 )
 
-(AVIcon.4299
+(AVIcon.4298
 	Name:	"Save"
 	Res:	"Icons.Save"
 
 )
 
-(Space.4300
+(Space.4299
 )
 
-(Butn.4301
+(Butn.4300
 	Disabled:	1
 	Help:	"Cut//Cuts the selection and puts it into the clipboard"
 	HelpTopic:	"Cut"
 	Update:	"Script.HasSelUpdate"
-	Icon:	4302
+	Icon:	4301
 	Click:	"Script.Cut"
 )
 
-(AVIcon.4302
+(AVIcon.4301
 	Name:	"Cut"
 	Res:	"Icons.Cut"
 
 )
 
-(Butn.4303
+(Butn.4302
 	Disabled:	1
 	Help:	"Copy//Copies the selection and puts it into the clipboard"
 	HelpTopic:	"Copy"
 	Update:	"Script.HasSelUpdate"
-	Icon:	4304
+	Icon:	4303
 	Click:	"Script.Copy"
 )
 
-(AVIcon.4304
+(AVIcon.4303
 	Name:	"Copy"
 	Res:	"Icons.Copy"
 
 )
 
-(Butn.4305
+(Butn.4304
 	Help:	"Paste//Inserts the contents of the clipboard"
 	HelpTopic:	"Paste"
-	Icon:	4306
+	Icon:	4305
 	Click:	"Script.Paste"
 )
 
-(AVIcon.4306
+(AVIcon.4305
 	Name:	"Paste"
 	Res:	"Icons.Paste"
 
 )
 
-(Space.4307
+(Space.4306
 )
 
-(Butn.4308
+(Butn.4307
 	Help:	"Undo//Undoes the last modification to the script editor text"
 	HelpTopic:	"Undo__Script_"
-	Icon:	4309
+	Icon:	4308
 	Click:	"Script.Undo"
 )
 
-(AVIcon.4309
+(AVIcon.4308
 	Name:	"Undo"
 	Res:	"Icons.Undo"
 
 )
 
-(Space.4310
+(Space.4309
 )
 
-(Butn.4311
+(Butn.4310
 	Help:	"Shift Lines Left//Shifts selected lines or current line two spaces to the left"
 	HelpTopic:	"Shift_lines_left_or_right"
-	Icon:	4312
+	Icon:	4311
 	Click:	"Script.ShiftLeft"
 )
 
-(AVIcon.4312
+(AVIcon.4311
 	Name:	"ShiftLeft"
 	Res:	"Icons.ShiftLeft"
 
 )
 
-(Butn.4313
+(Butn.4312
 	Help:	"Shift Lines Right//Shifts selected lines or current line two spaces to the right"
 	HelpTopic:	"Shift_lines_left_or_right"
-	Icon:	4314
+	Icon:	4313
 	Click:	"Script.ShiftRight"
 )
 
-(AVIcon.4314
+(AVIcon.4313
 	Name:	"ShiftRight"
 	Res:	"Icons.ShiftRight"
 
 )
 
-(Space.4315
+(Space.4314
 )
 
-(Butn.4316
+(Butn.4315
 	Disabled:	1
 	Help:	"Compile//Compiles the script"
 	HelpTopic:	"Compile"
 	Update:	"Script.CompileUpdate"
-	Icon:	4317
+	Icon:	4316
 	Click:	"Script.Compile"
 )
 
-(AVIcon.4317
+(AVIcon.4316
 	Name:	"Check"
 	Res:	"Icons.Check"
 
 )
 
-(Butn.4318
+(Butn.4317
 	Help:	"Run//Runs the compiled script"
 	HelpTopic:	"Run"
 	Update:	"Script.RunUpdate"
-	Icon:	4319
+	Icon:	4318
 	Click:	"Script.Run"
 )
 
-(AVIcon.4319
+(AVIcon.4318
 	Name:	"Run"
 	Res:	"Icons.Run"
 
 )
 
-(Butn.4320
+(Butn.4319
 	Help:	"Step//Executes one request or object reference in the compiled script"
 	HelpTopic:	"Step"
 	Update:	"Script.RunUpdate"
-	Icon:	4321
+	Icon:	4320
 	Click:	"Script.Step"
 )
 
-(AVIcon.4321
+(AVIcon.4320
 	Name:	"Footprints"
 	Res:	"Icons.Footprints"
 
 )
 
-(Butn.4322
+(Butn.4321
 	Help:	"Toggle Breakpoint//Toggles a breakpoint on or off at the current cursor position"
 	HelpTopic:	"Toggle_Breakpoint"
 	Update:	"Script.RunUpdate"
-	Icon:	4323
+	Icon:	4322
 	Click:	"Script.ToggleBreak"
 )
 
-(AVIcon.4323
+(AVIcon.4322
 	Name:	"Hand"
 	Res:	"Icons.Hand"
 
 )
 
-(Butn.4324
+(Butn.4323
 	Help:	"Examine Variables//Displays the current value of local and global variables"
 	HelpTopic:	"Examine_Variables"
 	Update:	"Script.RunUpdate"
-	Icon:	4325
+	Icon:	4324
 	Click:	"Script.ShowVariables"
 )
 
-(AVIcon.4325
+(AVIcon.4324
 	Name:	"Examine"
 	Res:	"Icons.Examine"
 
 )
 
-(Space.4326
+(Space.4325
 )
 
-(Butn.4327
+(Butn.4326
 	Help:	"Load System Script//Inserts the source code of a system script"
 	HelpTopic:	"Load_System_Script"
-	Icon:	4328
+	Icon:	4327
 	Click:	"Script.SystemLoad"
 )
 
-(AVIcon.4328
+(AVIcon.4327
 	Name:	"LoadScript"
 	Res:	"Icons.LoadScript"
 
 )
 
-(Butn.4329
+(Butn.4328
 	Help:	"Load Text File//Inserts the contents of a text file"
 	HelpTopic:	"Load_Text_File"
-	Icon:	4330
+	Icon:	4329
 	Click:	"Script.FileLoad"
 )
 
-(AVIcon.4330
+(AVIcon.4329
 	Name:	"Open"
 	Res:	"Icons.Open"
 
 )
 
-(Butn.4331
+(Butn.4330
 	Help:	"Write Text File//Writes the entire script or the selected text to a text file"
 	HelpTopic:	"Write_Text_File"
-	Icon:	4332
+	Icon:	4331
 	Click:	"Script.FileWrite"
 )
 
-(AVIcon.4332
+(AVIcon.4331
 	Name:	"Write"
 	Res:	"Icons.Write"
 
 )
 
-(Space.4333
+(Space.4332
 )
 
-(Butn.4334
+(Butn.4333
 	Help:	"Script Help//Searches for help using the current selection"
 	HelpTopic:	"Getting_help_about_script_components"
-	Icon:	4335
+	Icon:	4334
 	Click:	"Script.Help"
 )
 
-(AVIcon.4335
+(AVIcon.4334
 	Name:	"Help"
 	Res:	"Icons.Help"
 
 )
 
-(Butn.4336
+(Butn.4335
 	Help:	"Help//Gets help about the next button, tool, or menu choice you click"
 	HelpTopic:	"Help_button"
-	Icon:	4337
+	Icon:	4336
 	Click:	"Help.Tool"
 )
 
-(AVIcon.4337
+(AVIcon.4336
 	Name:	"HelpTool"
 	Res:	"Icons.HelpTool"
 
 )
 
-(PopupSet.4338
+(PopupSet.4337
 )
 
-(ToolBar.4339
+(ToolBar.4338
 )
 
-(AVIcon.4340
+(AVIcon.4339
 	Name:	"Icon"
 	Res:	"SEd.Icon"
 
 )
 
-(DocGUI.4341
+(DocGUI.4340
 	Name:	"XTGUI"
 	Type:	"View"
 	Modified:	1
-	MenuBar:	4342
-	ButnBar:	4503
-	Popups:	4563
-	ToolBar:	4585
+	MenuBar:	4341
+	ButnBar:	4502
+	Popups:	4562
+	ToolBar:	4584
 	NewScript:	"View.New"
 	OpenScript:	"Doc.Open"
 	ActionScript:	"Doc.Action"
@@ -21039,23 +21050,24 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	OpenUpdateScript:	"Doc.OpenUpdate"
 	ActionUpdateScript:	"Doc.ActionUpdate"
 	Title:	"XTGUI"
-	Icon:	4668
+	Icon:	4667
 )
 
-(MenuBar.4342
-	Child:	4343
-	Child:	4361
-	Child:	4381
-	Child:	4410
-	Child:	4433
-	Child:	4449
-	Child:	4479
-	Child:	4491
-	Child:	4496
+(MenuBar.4341
+	Child:	4342
+	Child:	4360
+	Child:	4380
+	Child:	4409
+	Child:	4432
+	Child:	4448
+	Child:	4478
+	Child:	4490
+	Child:	4495
 )
 
-(PMenu.4343
+(PMenu.4342
 	InternalName:	"File"
+	Child:	4343
 	Child:	4344
 	Child:	4345
 	Child:	4346
@@ -21072,11 +21084,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	4357
 	Child:	4358
 	Child:	4359
-	Child:	4360
 	Label:	"&File"
 )
 
-(Choice.4344
+(Choice.4343
 	Help:	"Closes the active component"
 	HelpTopic:	"Close"
 	Label:	"&Close"
@@ -21084,7 +21095,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4345
+(Choice.4344
 	Help:	"Closes all components"
 	HelpTopic:	"Close_All"
 	Label:	"Close &All"
@@ -21092,10 +21103,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4346
+(Space.4345
 )
 
-(Choice.4347
+(Choice.4346
 	Help:	"Allows you to specify the current working directory"
 	HelpTopic:	"Set_Working_Directory"
 	Label:	"Set &Working Directory..."
@@ -21103,7 +21114,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4348
+(Choice.4347
 	Help:	"Saves the current project"
 	HelpTopic:	"Save_Project"
 	Label:	"&Save Project"
@@ -21111,7 +21122,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+S"
 )
 
-(Choice.4349
+(Choice.4348
 	Help:	"Saves the current project with a new name"
 	HelpTopic:	"Save_Project_As"
 	Label:	"Save Project As..."
@@ -21119,10 +21130,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4350
+(Space.4349
 )
 
-(Choice.4351
+(Choice.4350
 	Help:	"Displays the Extensions dialog"
 	HelpTopic:	"Extensions"
 	Label:	"Extensions..."
@@ -21130,10 +21141,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4352
+(Space.4351
 )
 
-(Choice.4353
+(Choice.4352
 	Help:	"Prints the view"
 	HelpTopic:	"Print"
 	Label:	"&Print..."
@@ -21141,7 +21152,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4354
+(Choice.4353
 	Help:	"Edits the printer and the printing options"
 	HelpTopic:	"Print_Setup"
 	Label:	"P&rint Setup..."
@@ -21149,7 +21160,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4355
+(Choice.4354
 	Disabled:	1
 	Help:	"Exports the view"
 	HelpTopic:	"Export"
@@ -21159,10 +21170,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4356
+(Space.4355
 )
 
-(Choice.4357
+(Choice.4356
 	Help:	"Displays the dialog box to delete, edit, and copy data sources"
 	HelpTopic:	"Manage_Sources"
 	Label:	"&Manage Data Sources..."
@@ -21170,7 +21181,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4358
+(Choice.4357
 	Help:	"Launches the ArcView Projection Utility wizard// Launches the ArcView Projection Utility wizard"
 	HelpTopic:	"What_is_the_ArcView_Projection_Utility_@projutil.hlp"
 	Label:	"ArcView Projection Utility..."
@@ -21178,10 +21189,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4359
+(Space.4358
 )
 
-(Choice.4360
+(Choice.4359
 	Help:	"Exits ArcView"
 	HelpTopic:	"Exit"
 	Label:	"E&xit"
@@ -21189,8 +21200,9 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.4361
+(PMenu.4360
 	InternalName:	"Edit"
+	Child:	4361
 	Child:	4362
 	Child:	4363
 	Child:	4364
@@ -21209,11 +21221,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	4377
 	Child:	4378
 	Child:	4379
-	Child:	4380
 	Label:	"&Edit"
 )
 
-(Choice.4362
+(Choice.4361
 	Disabled:	1
 	Help:	"Cuts the active themes to the clipboard"
 	HelpTopic:	"Cut_Themes"
@@ -21223,7 +21234,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4363
+(Choice.4362
 	Disabled:	1
 	Help:	"Copies the active themes to the clipboard"
 	HelpTopic:	"Copy_Themes"
@@ -21233,7 +21244,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4364
+(Choice.4363
 	Disabled:	1
 	Help:	"Removes the active themes from the view"
 	HelpTopic:	"Delete_Themes"
@@ -21243,10 +21254,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4365
+(Space.4364
 )
 
-(Choice.4366
+(Choice.4365
 	Disabled:	1
 	Help:	"Undo the last edit to graphics on a view"
 	HelpTopic:	"Undo_Graphic_Edit_on_a_view"
@@ -21256,7 +21267,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+Z"
 )
 
-(Choice.4367
+(Choice.4366
 	Disabled:	1
 	Invisible:	1
 	Help:	"Redo the last edit operation on a theme that was undone"
@@ -21267,10 +21278,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+Y"
 )
 
-(Space.4368
+(Space.4367
 )
 
-(Choice.4369
+(Choice.4368
 	Disabled:	1
 	Help:	"Cuts the selected graphics to the clipboard"
 	HelpTopic:	"Cut_Graphics"
@@ -21280,7 +21291,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+X"
 )
 
-(Choice.4370
+(Choice.4369
 	Disabled:	1
 	Help:	"Copies the selected graphics to the clipboard"
 	HelpTopic:	"Copy_Graphics"
@@ -21290,7 +21301,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+C"
 )
 
-(Choice.4371
+(Choice.4370
 	Disabled:	1
 	Help:	"Removes the selected graphics from the view"
 	HelpTopic:	"Delete_Graphics"
@@ -21300,10 +21311,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Del"
 )
 
-(Space.4372
+(Space.4371
 )
 
-(Choice.4373
+(Choice.4372
 	Disabled:	1
 	Help:	"Combines the selected polygons"
 	HelpTopic:	"Combine_Graphics"
@@ -21313,7 +21324,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4374
+(Choice.4373
 	Disabled:	1
 	Help:	"Unions the selected graphics to create a new graphic"
 	HelpTopic:	"Union_Graphics"
@@ -21323,7 +21334,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4375
+(Choice.4374
 	Disabled:	1
 	Help:	"Subtracts one selected polygon from the other selected polygon"
 	HelpTopic:	"Subtract_Graphics"
@@ -21333,7 +21344,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4376
+(Choice.4375
 	Disabled:	1
 	Help:	"Creates a new polygon from the area  of overlap between the selected polygons"
 	HelpTopic:	"Intersect_Graphics"
@@ -21343,10 +21354,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4377
+(Space.4376
 )
 
-(Choice.4378
+(Choice.4377
 	Disabled:	1
 	Help:	"Inserts the contents of the clipboard"
 	HelpTopic:	"Paste"
@@ -21356,10 +21367,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+V"
 )
 
-(Space.4379
+(Space.4378
 )
 
-(Choice.4380
+(Choice.4379
 	Disabled:	1
 	Help:	"Selects all graphics in the view"
 	HelpTopic:	"Select_All_Graphics"
@@ -21369,8 +21380,9 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.4381
+(PMenu.4380
 	InternalName:	"View"
+	Child:	4381
 	Child:	4382
 	Child:	4383
 	Child:	4384
@@ -21398,11 +21410,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	4406
 	Child:	4407
 	Child:	4408
-	Child:	4409
 	Label:	"&View"
 )
 
-(Choice.4382
+(Choice.4381
 	Help:	"Displays the dialog box to edit properties of the view"
 	HelpTopic:	"View_Properties"
 	Label:	"&Properties..."
@@ -21410,10 +21421,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4383
+(Space.4382
 )
 
-(Choice.4384
+(Choice.4383
 	Help:	"Inserts themes into the view"
 	HelpTopic:	"Add_Theme"
 	Label:	"&Add Theme..."
@@ -21421,7 +21432,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+T"
 )
 
-(Choice.4385
+(Choice.4384
 	Disabled:	1
 	Help:	"Displays a dialog box to create a geocoded theme"
 	HelpTopic:	"Geocode_Addresses"
@@ -21431,7 +21442,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4386
+(Choice.4385
 	Disabled:	1
 	Help:	"Displays a dialog box to create an XY or dynamic segmentation event-based theme "
 	HelpTopic:	"Add_Event_Theme"
@@ -21441,7 +21452,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4387
+(Choice.4386
 	Help:	"Creates a new theme"
 	HelpTopic:	"New_Theme"
 	Label:	"&New Theme..."
@@ -21449,7 +21460,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4388
+(Choice.4387
 	Disabled:	1
 	Help:	"Makes all themes visible"
 	HelpTopic:	"Themes_On_Themes_Off"
@@ -21459,7 +21470,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4389
+(Choice.4388
 	Disabled:	1
 	Help:	"Makes all themes invisible"
 	HelpTopic:	"Themes_On_Themes_Off"
@@ -21469,10 +21480,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4390
+(Space.4389
 )
 
-(Choice.4391
+(Choice.4390
 	Disabled:	1
 	Help:	"Create a Layout from the View"
 	HelpTopic:	"Layout_menu_choice"
@@ -21482,10 +21493,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4392
+(Space.4391
 )
 
-(Choice.4393
+(Choice.4392
 	Help:	"Shows a dialog where you can change the style of the TOC"
 	HelpTopic:	"TOC_Defaults"
 	Update:	"TocDefs.ShowUpdate"
@@ -21494,10 +21505,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4394
+(Space.4393
 )
 
-(Choice.4395
+(Choice.4394
 	Disabled:	1
 	Help:	"Zooms to the extent of all themes"
 	HelpTopic:	"Zoom_to_Full_Extent"
@@ -21507,7 +21518,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4396
+(Choice.4395
 	Disabled:	1
 	Help:	"Zooms in on the center of the display"
 	HelpTopic:	"Zoom_In"
@@ -21517,7 +21528,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4397
+(Choice.4396
 	Disabled:	1
 	Help:	"Zooms out from the center of the display"
 	HelpTopic:	"Zoom_Out"
@@ -21527,7 +21538,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4398
+(Choice.4397
 	Disabled:	1
 	Help:	"Zooms to the extent of active themes"
 	HelpTopic:	"Zoom_to_Active_Theme"
@@ -21537,7 +21548,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4399
+(Choice.4398
 	Disabled:	1
 	Help:	"Zooms to the extent of the selected features"
 	HelpTopic:	"Zoom_to_Selected"
@@ -21547,7 +21558,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4400
+(Choice.4399
 	Disabled:	1
 	Help:	"Goes back to the previous extent you were viewing"
 	HelpTopic:	"Zoom_Previous"
@@ -21557,10 +21568,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4401
+(Space.4400
 )
 
-(Choice.4402
+(Choice.4401
 	Disabled:	1
 	Help:	"Finds features in the active themes using the text you enter"
 	HelpTopic:	"Find"
@@ -21570,7 +21581,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+F"
 )
 
-(Choice.4403
+(Choice.4402
 	Disabled:	1
 	Help:	"Locates an address in the active, matchable theme"
 	HelpTopic:	"Locate_Address"
@@ -21580,10 +21591,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4404
+(Space.4403
 )
 
-(Choice.4405
+(Choice.4404
 	Help:	"Displays the Digitizer Registration Window"
 	HelpTopic:	"Digitizer_Setup@digitize.hlp"
 	Update:	"Digit.UpdateSetup"
@@ -21592,7 +21603,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4406
+(Choice.4405
 	Help:	"Set digitizer mode to be puck or mouse"
 	HelpTopic:	"Digitizer_as_Puck_Mouse@digitize.hlp"
 	Update:	"Digit.UpdateMode"
@@ -21601,7 +21612,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.F2"
 )
 
-(Choice.4407
+(Choice.4406
 	Help:	"Sets the stream tolerance"
 	HelpTopic:	"Stream_Tolerance@digitize.hlp"
 	Update:	"Digit.StreamToleranceUpdate"
@@ -21610,7 +21621,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4408
+(Choice.4407
 	Help:	"Enables stream mode digitizing"
 	HelpTopic:	"Enable_Disable_Stream_Mode@digitize.hlp"
 	Update:	"Digit.StreamModeUpdate"
@@ -21619,7 +21630,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.F3"
 )
 
-(Choice.4409
+(Choice.4408
 	InternalName:	"GeoProc"
 	Help:	"Opens the GeoProcessing Wizard"
 	HelpTopic:	"geoproc_choice"
@@ -21630,8 +21641,9 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.4410
+(PMenu.4409
 	InternalName:	"Theme"
+	Child:	4410
 	Child:	4411
 	Child:	4412
 	Child:	4413
@@ -21653,11 +21665,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	4429
 	Child:	4430
 	Child:	4431
-	Child:	4432
 	Label:	"&Theme"
 )
 
-(Choice.4411
+(Choice.4410
 	Disabled:	1
 	Help:	"Displays the dialog box to edit properties of the active theme"
 	HelpTopic:	"Theme_Properties"
@@ -21667,10 +21678,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4412
+(Space.4411
 )
 
-(Choice.4413
+(Choice.4412
 	Disabled:	1
 	Help:	"Starts or stops editing of shapefile"
 	HelpTopic:	"Start_Stop_Editing_in_a_view"
@@ -21680,7 +21691,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4414
+(Choice.4413
 	Disabled:	1
 	Help:	"Save edits to the source shapefile"
 	HelpTopic:	"Save_edits_theme"
@@ -21690,7 +21701,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4415
+(Choice.4414
 	Disabled:	1
 	Help:	"Saves edits to a new shapefile"
 	HelpTopic:	"Save_edits_as_theme"
@@ -21700,7 +21711,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4416
+(Choice.4415
 	Disabled:	1
 	Help:	"Converts a theme to a shapefile"
 	HelpTopic:	"Convert_to_Shapefile"
@@ -21710,10 +21721,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4417
+(Space.4416
 )
 
-(Choice.4418
+(Choice.4417
 	Disabled:	1
 	Help:	"Displays the legends of the active themes"
 	HelpTopic:	"Edit_Legend"
@@ -21723,7 +21734,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4419
+(Choice.4418
 	Disabled:	1
 	Help:	"Shows or hides the active themes' legends"
 	HelpTopic:	"Hide_show_Legend"
@@ -21733,10 +21744,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4420
+(Space.4419
 )
 
-(Choice.4421
+(Choice.4420
 	Disabled:	1
 	Help:	"Displays the Re-match dialog for re-matching addresses"
 	HelpTopic:	"Re_match_Addresses"
@@ -21746,10 +21757,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4422
+(Space.4421
 )
 
-(Choice.4423
+(Choice.4422
 	Disabled:	1
 	Help:	"Labels features in active, visible themes"
 	HelpTopic:	"Auto_label"
@@ -21759,7 +21770,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+L"
 )
 
-(Choice.4424
+(Choice.4423
 	Disabled:	1
 	Help:	"Removes any labels from active themes"
 	HelpTopic:	"Remove_Labels"
@@ -21769,7 +21780,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+R"
 )
 
-(Choice.4425
+(Choice.4424
 	Disabled:	1
 	Help:	"Removes the overlapping labels from active themes, if they are still green."
 	HelpTopic:	"Remove_Overlapping_Labels"
@@ -21779,7 +21790,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4426
+(Choice.4425
 	Disabled:	1
 	Help:	"Converts selected overlapping labels to symbol of selected good label"
 	HelpTopic:	"Convert_Overlapping_Labels"
@@ -21789,10 +21800,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+O"
 )
 
-(Space.4427
+(Space.4426
 )
 
-(Choice.4428
+(Choice.4427
 	Disabled:	1
 	Help:	"Opens the tables of the active themes"
 	HelpTopic:	"Open_Theme_Table"
@@ -21802,7 +21813,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4429
+(Choice.4428
 	Disabled:	1
 	Help:	"Displays the Query Builder to select features with a logical expression"
 	HelpTopic:	"Query_Builder"
@@ -21812,7 +21823,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+Q"
 )
 
-(Choice.4430
+(Choice.4429
 	Disabled:	1
 	Help:	"Selects features in the active themes using another theme's features"
 	HelpTopic:	"Select_By_Theme"
@@ -21822,7 +21833,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4431
+(Choice.4430
 	Disabled:	1
 	Help:	"Creates buffers around features"
 	HelpTopic:	"Create_Buffer_Choice"
@@ -21832,7 +21843,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4432
+(Choice.4431
 	Disabled:	1
 	Help:	"Unselects the selected features of all active themes"
 	HelpTopic:	"Clear_Selected_Features"
@@ -21842,8 +21853,9 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.4433
+(PMenu.4432
 	InternalName:	"Graphics"
+	Child:	4433
 	Child:	4434
 	Child:	4435
 	Child:	4436
@@ -21858,11 +21870,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	4445
 	Child:	4446
 	Child:	4447
-	Child:	4448
 	Label:	"&Graphics"
 )
 
-(Choice.4434
+(Choice.4433
 	Disabled:	1
 	Help:	"Displays the property editor for the selected graphic"
 	HelpTopic:	"Graphic_Properties"
@@ -21872,10 +21883,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4435
+(Space.4434
 )
 
-(Choice.4436
+(Choice.4435
 	Help:	"Shows a dialog where you can set the default values for the label and text tools"
 	HelpTopic:	"Default_settings_for_text_and_label_tools"
 	Label:	"&Text and Label Defaults..."
@@ -21883,10 +21894,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4437
+(Space.4436
 )
 
-(Choice.4438
+(Choice.4437
 	Disabled:	1
 	Help:	"Displays a dialog box to adjust size and position of selected graphic"
 	HelpTopic:	"Size_and_Position"
@@ -21896,7 +21907,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4439
+(Choice.4438
 	Disabled:	1
 	Help:	"Aligns the selected graphics"
 	HelpTopic:	"Align"
@@ -21906,10 +21917,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+A"
 )
 
-(Space.4440
+(Space.4439
 )
 
-(Choice.4441
+(Choice.4440
 	Disabled:	1
 	Help:	"Moves selected graphics in front of other graphics"
 	HelpTopic:	"Bring_to_Front_on_a_view"
@@ -21919,7 +21930,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4442
+(Choice.4441
 	Disabled:	1
 	Help:	"Moves selected graphics behind other graphics"
 	HelpTopic:	"Send_to_Back_on_a_view"
@@ -21929,7 +21940,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4443
+(Choice.4442
 	Disabled:	1
 	Help:	"Groups selected graphics"
 	HelpTopic:	"Group_on_a_view"
@@ -21939,7 +21950,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+G"
 )
 
-(Choice.4444
+(Choice.4443
 	Disabled:	1
 	Help:	"Ungroups selected graphics"
 	HelpTopic:	"Ungroup_on_a_view"
@@ -21949,10 +21960,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+U"
 )
 
-(Space.4445
+(Space.4444
 )
 
-(Choice.4446
+(Choice.4445
 	Disabled:	1
 	Help:	"Associates selected graphics with active themes"
 	HelpTopic:	"Attach_Graphics"
@@ -21962,7 +21973,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4447
+(Choice.4446
 	Disabled:	1
 	Help:	"Removes association between graphics and active themes"
 	HelpTopic:	"Detach_Graphics"
@@ -21972,11 +21983,12 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4448
+(Space.4447
 )
 
-(PMenu.4449
+(PMenu.4448
 	Tag:	"Xtools1234"
+	Child:	4449
 	Child:	4450
 	Child:	4451
 	Child:	4452
@@ -22005,11 +22017,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	4475
 	Child:	4476
 	Child:	4477
-	Child:	4478
 	Label:	"&XTools"
 )
 
-(Choice.4450
+(Choice.4449
 	Help:	"View or change the XTools defaults for language version, data map units, View map units, View distance units, output area units, and View projection."
 	Tag:	"Xtools1234"
 	Label:	"View/Change XTools Defaults"
@@ -22017,11 +22028,11 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4451
+(Space.4450
 	Tag:	"Xtools1234"
 )
 
-(Choice.4452
+(Choice.4451
 	Help:	"Run a batch file containing XTools Overlay commands:  Clip, Erase, Identity, Intersect, Union, or Update.    Press \"Shift\" and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"XTools Batch Overlay"
@@ -22029,7 +22040,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4453
+(Choice.4452
 	Help:	"View the log file for most XTools operations."
 	Tag:	"Xtools1234"
 	Label:	"View XTools Log File"
@@ -22037,11 +22048,11 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4454
+(Space.4453
 	Tag:	"Xtools1234"
 )
 
-(Choice.4455
+(Choice.4454
 	Help:	"Clip With Polygon(s)//Clips a point, multipoint, polyline or polygon theme with selected polygons from a polygon theme.  Press \"Shift and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Clip With Polygon(s)"
@@ -22049,7 +22060,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4456
+(Choice.4455
 	Help:	"Erase Features//Erases point, multipoint, polyline, or polygon features using selected polygons from an erase theme.  Press \"Shift\" and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Erase Features"
@@ -22057,7 +22068,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4457
+(Choice.4456
 	Help:	"Perform an \"Identity\" overlay operation.//Performs an \"Identity\" overlay operation.  Press \"Shift\" and click this menu item for description and instructions."
 	Tag:	"Xtools1234"
 	Label:	"Identity"
@@ -22065,7 +22076,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4458
+(Choice.4457
 	Help:	"Intersect Themes//Intersect a point, multipoint, polyline, or polygon theme with selected polygons from a polygon theme. Press \"Shift\" and click this menu item for instructions.."
 	Tag:	"Xtools1234"
 	Label:	"Intersect Themes"
@@ -22073,7 +22084,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4459
+(Choice.4458
 	Help:	"Merge Themes//Merges two or more feature themes with the same feature type.  Requires at least two feature themes with the same feature type.  Press \"Shift\" and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Merge Themes"
@@ -22081,7 +22092,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4460
+(Choice.4459
 	Help:	"Union two polygon themes.  Press \"Shift\" and click this menu item for a description and instructions."
 	HelpTopic:	" "
 	Tag:	"Xtools1234"
@@ -22090,7 +22101,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4461
+(Choice.4460
 	Help:	"Update Polygon Theme//Update a polygon theme using polygons from another theme.  Requires two polygon themes.  Press \"Shift\" and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Update Polygon Theme"
@@ -22098,11 +22109,11 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4462
+(Space.4461
 	Tag:	"Xtools1234"
 )
 
-(Choice.4463
+(Choice.4462
 	Help:	"Update Feature Size Values//Uses the XTools defaults specs to update the size of features (area, perimeter, length, and acres and/or hectares), as appropriate. Press \"Shift\" and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Calculate Area, Perimeter , Length , Acres, Hectares"
@@ -22110,7 +22121,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4464
+(Choice.4463
 	Help:	"Copies and pastes features between themes, with feature type conversion if necessary and possible.  Press and hold the \"Shift\" key and click on this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Transfer / Convert Selected Features"
@@ -22118,11 +22129,11 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4465
+(Space.4464
 	Tag:	"Xtools1234"
 )
 
-(Choice.4466
+(Choice.4465
 	Help:	"Buffer Selected Features//Creates a  buffer around selected features, or all features if none selected.  Requires at least one active theme.  Press \"Shift\" and click this menu item for a description and instructions."
 	Tag:	"Xtools1234"
 	Label:	"Buffer Selected Features"
@@ -22130,7 +22141,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4467
+(Choice.4466
 	Help:	"Converts multipart shapes to single part shapes and places them in a new shapefile.  Press and hold the \"Shift\" key and click this menu item for a description and instructions."
 	Tag:	"Xtools1234"
 	Label:	"Convert Multipart Shapes to Single Part"
@@ -22138,7 +22149,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4468
+(Choice.4467
 	Help:	"Convert Polygons to Polylines//Converts selected polygons to polylines.  Requires a polygon theme.   Press \"Shift\" and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Convert Polygons To PolyLines"
@@ -22146,7 +22157,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4469
+(Choice.4468
 	Help:	"Builds one polygon from the selected polylines in a theme.   Press the \"Shift\" key and click on this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Make One Polygon From Polylines"
@@ -22154,7 +22165,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4470
+(Choice.4469
 	Help:	"Builds one polygon from the selected points in a theme.   Press the \"Shift\" key and click on this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Make One Polygon From Points"
@@ -22162,14 +22173,14 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4471
+(Choice.4470
 	Tag:	"Xtools1234"
 	Label:	"Make One Polyline From Points"
 	Click:	"aanView.Points2PolyLine"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4472
+(Choice.4471
 	Help:	"Convert Shapes To Graphics//Convert selected shapes to graphics.  Requires a feature theme with shapes.  Press \"Shift\" and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Convert Shapes to Graphics"
@@ -22177,7 +22188,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4473
+(Choice.4472
 	Help:	"Convert Graphics to Shapes//Converts all of the graphics in the View of a specified feature type to shapes, and stores them in a shape file.  Press and hold the \"Shift\" key and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Convert Graphics To Shapes"
@@ -22185,7 +22196,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4474
+(Choice.4473
 	Help:	"Make a new point theme based on the center points (centroids) of the input theme features.  Press and hold the \"Shift\" key and click on this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Convert Shapes To Centroids"
@@ -22193,11 +22204,11 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4475
+(Space.4474
 	Tag:	"Xtools1234"
 )
 
-(Choice.4476
+(Choice.4475
 	Help:	"Batch Import Active Themes To Shapefiles//This script allows the user to batch import active themes to shapefiles.  Requires at least one active theme in the View.  Press \"Shift\" and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Batch Import Themes To Shapefiles"
@@ -22205,11 +22216,11 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4477
+(Space.4476
 	Tag:	"Xtools1234"
 )
 
-(Choice.4478
+(Choice.4477
 	Help:	"Manage shapefiles using the ArcView Source Manager.  Allows the user to copy, rename, or delete associated shapefile datasets as a group.   No \"Shift Click\" instructions ."
 	Tag:	"Xtools1234"
 	Label:	"Manage Shapefiles"
@@ -22217,22 +22228,22 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.4479
+(PMenu.4478
 	InternalName:	"Window"
+	Child:	4479
 	Child:	4480
 	Child:	4481
 	Child:	4482
 	Child:	4483
 	Child:	4484
 	Child:	4485
-	Child:	4486
+	Child:	4487
 	Child:	4488
 	Child:	4489
-	Child:	4490
 	Label:	"&Window"
 )
 
-(Choice.4480
+(Choice.4479
 	Help:	"Arranges windows as non-overlapping tiles"
 	HelpTopic:	"Tile"
 	Label:	"&Tile"
@@ -22240,7 +22251,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4481
+(Choice.4480
 	Help:	"Arranges windows"
 	HelpTopic:	"Cascade"
 	Label:	"&Cascade"
@@ -22248,7 +22259,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4482
+(Choice.4481
 	Help:	"Arranges iconified windows"
 	HelpTopic:	"Arrange_Icons"
 	Label:	"&Arrange Icons"
@@ -22256,10 +22267,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4483
+(Space.4482
 )
 
-(Choice.4484
+(Choice.4483
 	Help:	"Shows the symbol window"
 	HelpTopic:	"Show_Symbol_Window"
 	Label:	"Show Symbol Window..."
@@ -22267,53 +22278,53 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.Ctrl+P"
 )
 
-(Choice.4485
+(Choice.4484
 	Help:	"Symbol Editor"
 	Label:	"Edit Symbols..."
 	Click:	"SymbEd.Edit"
 	Shortcut:	"Keys.None"
 )
 
-(Space.4486
-	ObjectTag:	4487
+(Space.4485
+	ObjectTag:	4486
 	Update:	"WindowMenuUpdate"
 )
 
-(AVStr.4487
+(AVStr.4486
 	S:	"makedef.apr View.Highway5 Apply View1"
 )
 
-(Choice.4488
+(Choice.4487
 	Help:	"Activates makedef.apr"
 	Label:	"&1 makedef.apr"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4489
+(Choice.4488
 	Help:	"Activates View.Highway5 Apply"
 	Label:	"&2 View.Highway5 Apply"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4490
+(Choice.4489
 	Help:	"Activates View1"
 	Label:	"&3 View1"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.4491
+(PMenu.4490
 	InternalName:	"Help"
+	Child:	4491
 	Child:	4492
 	Child:	4493
 	Child:	4494
-	Child:	4495
 	Label:	"&Help"
 )
 
-(Choice.4492
+(Choice.4491
 	Help:	"Displays the dialog for browsing and searching ArcView's help system"
 	HelpTopic:	"Help_on_Help_Topics"
 	Label:	"Help &Topics..."
@@ -22321,7 +22332,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4493
+(Choice.4492
 	Help:	"Provides instructions for how to obtain help from ArcView"
 	HelpTopic:	"Help_on_How_to_Get_Help"
 	Label:	"&How to Get Help..."
@@ -22329,10 +22340,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4494
+(Space.4493
 )
 
-(Choice.4495
+(Choice.4494
 	Help:	"Provides information about ArcView"
 	HelpTopic:	"About"
 	Label:	"&About ArcView..."
@@ -22340,17 +22351,17 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.4496
+(PMenu.4495
+	Child:	4496
 	Child:	4497
 	Child:	4498
 	Child:	4499
 	Child:	4500
 	Child:	4501
-	Child:	4502
 	Label:	"MILA utilities"
 )
 
-(Choice.4497
+(Choice.4496
 	Help:	"Calculates area and perimeter for polygon themes and length for line themes"
 	Update:	"MILA.Util.OneTheme.Update"
 	Label:	"Calculate Area/Perimeter/Length"
@@ -22358,7 +22369,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4498
+(Choice.4497
 	Help:	"Adds X and Y coordinates of features to Attribute table (Point / Polygon themes)"
 	Update:	"MILA.Util.OneTheme.Update"
 	Label:	"Add X/Y coordinate"
@@ -22366,7 +22377,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4499
+(Choice.4498
 	Help:	"Adds a record numeber to all active Theme tables"
 	Update:	"MILA.Util.OneTheme.Update"
 	Label:	"Add record number"
@@ -22374,7 +22385,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4500
+(Choice.4499
 	Disabled:	1
 	Help:	"Make a new Theme of polygon circles from a point themes having a numeric field for circles radius definition\n"
 	Update:	"MILA.Util.MakeCirces.Update"
@@ -22383,7 +22394,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4501
+(Choice.4500
 	Help:	"Random selection of a precised percentage of features of actives themes"
 	Update:	"MILA.Util.OneTheme.Update"
 	Label:	"Random selection"
@@ -22391,7 +22402,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4502
+(Choice.4501
 	Disabled:	1
 	Help:	"Dissolve polygons based on their Area"
 	Update:	"MILA.Util.DissolveByArea.Update"
@@ -22400,346 +22411,346 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(ButnBar.4503
-	Child:	4504
+(ButnBar.4502
+	Child:	4503
+	Child:	4505
 	Child:	4506
-	Child:	4507
+	Child:	4508
 	Child:	4509
-	Child:	4510
-	Child:	4512
-	Child:	4514
+	Child:	4511
+	Child:	4513
+	Child:	4515
 	Child:	4516
-	Child:	4517
-	Child:	4519
-	Child:	4521
+	Child:	4518
+	Child:	4520
+	Child:	4522
 	Child:	4523
-	Child:	4524
-	Child:	4526
-	Child:	4528
-	Child:	4530
-	Child:	4532
-	Child:	4534
+	Child:	4525
+	Child:	4527
+	Child:	4529
+	Child:	4531
+	Child:	4533
+	Child:	4535
 	Child:	4536
-	Child:	4537
-	Child:	4539
-	Child:	4541
+	Child:	4538
+	Child:	4540
+	Child:	4542
 	Child:	4543
-	Child:	4544
+	Child:	4545
 	Child:	4546
-	Child:	4547
-	Child:	4549
-	Child:	4551
-	Child:	4553
-	Child:	4555
-	Child:	4557
-	Child:	4559
-	Child:	4561
+	Child:	4548
+	Child:	4550
+	Child:	4552
+	Child:	4554
+	Child:	4556
+	Child:	4558
+	Child:	4560
 )
 
-(Butn.4504
+(Butn.4503
 	Help:	"Save Project//Saves the current project"
 	HelpTopic:	"Save_Project"
-	Icon:	4505
+	Icon:	4504
 	Click:	"Project.Save"
 )
 
-(AVIcon.4505
+(AVIcon.4504
 	Name:	"Save"
 	Res:	"Icons.Save"
 
 )
 
-(Space.4506
+(Space.4505
 )
 
-(Butn.4507
+(Butn.4506
 	Help:	"Add Theme//Inserts themes into the view"
 	HelpTopic:	"Add_Theme"
-	Icon:	4508
+	Icon:	4507
 	Click:	"View.Add"
 )
 
-(AVIcon.4508
+(AVIcon.4507
 	Name:	"AddTheme"
 	Res:	"Icons.AddTheme"
 
 )
 
-(Space.4509
+(Space.4508
 )
 
-(Butn.4510
+(Butn.4509
 	Disabled:	1
 	Help:	"Theme Properties//Displays the dialog box to edit properties of the active theme"
 	HelpTopic:	"Theme_Properties"
 	Update:	"View.ActiveThemesUpdate"
-	Icon:	4511
+	Icon:	4510
 	Click:	"View.ThemeProperties"
 )
 
-(AVIcon.4511
+(AVIcon.4510
 	Name:	"Props"
 	Res:	"Icons.Props"
 
 )
 
-(Butn.4512
+(Butn.4511
 	Disabled:	1
 	Help:	"Edit Legend//Displays the legends of the active themes"
 	HelpTopic:	"Edit_Legend"
 	Update:	"View.ActiveThemesUpdate"
-	Icon:	4513
+	Icon:	4512
 	Click:	"View.EditLegendClick"
 )
 
-(AVIcon.4513
+(AVIcon.4512
 	Name:	"Legend"
 	Res:	"Icons.Legend"
 
 )
 
-(Butn.4514
+(Butn.4513
 	Disabled:	1
 	Help:	"Open Theme Table//Opens the tables of the active themes"
 	HelpTopic:	"Open_Theme_Table"
 	Update:	"View.TabularThemesUpdate"
-	Icon:	4515
+	Icon:	4514
 	Click:	"View.ShowTable"
 )
 
-(AVIcon.4515
+(AVIcon.4514
 	Name:	"Table"
 	Res:	"Icons.Table"
 
 )
 
-(Space.4516
+(Space.4515
 )
 
-(Butn.4517
+(Butn.4516
 	Disabled:	1
 	Help:	"Find//Finds features in the active themes using the text you enter"
 	HelpTopic:	"Find"
 	Update:	"View.TabularThemesUpdate"
-	Icon:	4518
+	Icon:	4517
 	Click:	"View.Find"
 )
 
-(AVIcon.4518
+(AVIcon.4517
 	Name:	"Find"
 	Res:	"Icons.Find"
 
 )
 
-(Butn.4519
+(Butn.4518
 	Disabled:	1
 	Help:	"Locate Address//Locates an address in the active, matchable theme"
 	HelpTopic:	"Locate_Address"
 	Update:	"View.LocateUpdate"
-	Icon:	4520
+	Icon:	4519
 	Click:	"View.Locate"
 )
 
-(AVIcon.4520
+(AVIcon.4519
 	Name:	"AddMatch"
 	Res:	"Icons.AddMatch"
 
 )
 
-(Butn.4521
+(Butn.4520
 	Disabled:	1
 	Help:	"Query Builder//Displays the Query Builder to select features with a logical expression"
 	HelpTopic:	"Query_Builder"
 	Update:	"View.AttributeThemesUpdate"
-	Icon:	4522
+	Icon:	4521
 	Click:	"View.Query"
 )
 
-(AVIcon.4522
+(AVIcon.4521
 	Name:	"QueryBuilder"
 	Res:	"Icons.QueryBuilder"
 
 )
 
-(Space.4523
+(Space.4522
 )
 
-(Butn.4524
+(Butn.4523
 	Disabled:	1
 	Help:	"Zoom to Full Extent//Zooms to the extent of all themes"
 	HelpTopic:	"Zoom_to_Full_Extent"
 	Update:	"View.HasDataUpdate"
-	Icon:	4525
+	Icon:	4524
 	Click:	"View.ZoomFullExtent"
 )
 
-(AVIcon.4525
+(AVIcon.4524
 	Name:	"ZoomView"
 	Res:	"Icons.ZoomView"
 
 )
 
-(Butn.4526
+(Butn.4525
 	Disabled:	1
 	Help:	"Zoom to Active Theme(s)//Zooms to the extent of active themes"
 	HelpTopic:	"Zoom_to_Active_Theme"
 	Update:	"View.ActiveThemesUpdate"
-	Icon:	4527
+	Icon:	4526
 	Click:	"View.ZoomToThemes"
 )
 
-(AVIcon.4527
+(AVIcon.4526
 	Name:	"ZoomTheme"
 	Res:	"Icons.ZoomTheme"
 
 )
 
-(Butn.4528
+(Butn.4527
 	Disabled:	1
 	Help:	"Zoom to Selected//Zooms to the extent of the selected features"
 	HelpTopic:	"Zoom_to_Selected"
 	Update:	"View.SelectableThemesUpdate"
-	Icon:	4529
+	Icon:	4528
 	Click:	"View.ZoomToSelected"
 )
 
-(AVIcon.4529
+(AVIcon.4528
 	Name:	"ZoomToSelected"
 	Res:	"Icons.ZoomToSelected"
 
 )
 
-(Butn.4530
+(Butn.4529
 	Disabled:	1
 	Help:	"Zoom In//Zooms in on the center of the display"
 	HelpTopic:	"Zoom_In"
 	Update:	"View.HasDataUpdate"
-	Icon:	4531
+	Icon:	4530
 	Click:	"View.ZoomIn"
 )
 
-(AVIcon.4531
+(AVIcon.4530
 	Name:	"ZoomIn"
 	Res:	"Icons.ZoomIn"
 
 )
 
-(Butn.4532
+(Butn.4531
 	Disabled:	1
 	Help:	"Zoom Out//Zooms out from the center of the display"
 	HelpTopic:	"Zoom_Out"
 	Update:	"View.HasDataUpdate"
-	Icon:	4533
+	Icon:	4532
 	Click:	"View.ZoomOut"
 )
 
-(AVIcon.4533
+(AVIcon.4532
 	Name:	"ZoomOut"
 	Res:	"Icons.ZoomOut"
 
 )
 
-(Butn.4534
+(Butn.4533
 	Disabled:	1
 	Help:	"Zoom to Previous Extent//Goes back to the previous extent you were viewing"
 	HelpTopic:	"Zoom_Previous"
 	Update:	"View.UndoZoomUpdate"
-	Icon:	4535
+	Icon:	4534
 	Click:	"View.UndoZoom"
 )
 
-(AVIcon.4535
+(AVIcon.4534
 	Name:	"ZoomPrevious"
 	Res:	"Icons.ZoomPrevious"
 
 )
 
-(Space.4536
+(Space.4535
 )
 
-(Butn.4537
-	Icon:	4538
+(Butn.4536
+	Icon:	4537
 	Click:	"View.YXPan"
 )
 
-(AVIcon.4538
+(AVIcon.4537
 	Name:	"XY"
 	Res:	"Icons.XY"
 
 )
 
-(Butn.4539
+(Butn.4538
 	Disabled:	1
 	Help:	"Select Features Using Graphic//Selects features in active themes using selected graphics"
 	HelpTopic:	"Select_Features_Using_Graphic"
 	Update:	"View.SpatialSelectUpdate"
-	Icon:	4540
+	Icon:	4539
 	Click:	"View.SpatialSelect"
 )
 
-(AVIcon.4540
+(AVIcon.4539
 	Name:	"SpatialSelect"
 	Res:	"Icons.SpatialSelect"
 
 )
 
-(Butn.4541
+(Butn.4540
 	Disabled:	1
 	Help:	"Clear Selected Features//Unselects the selected features of all active themes"
 	HelpTopic:	"Clear_Selected_Features"
 	Update:	"View.AttributeThemesUpdate"
-	Icon:	4542
+	Icon:	4541
 	Click:	"View.ClearSelect"
 )
 
-(AVIcon.4542
+(AVIcon.4541
 	Name:	"SelectNone"
 	Res:	"Icons.SelectNone"
 
 )
 
-(Space.4543
+(Space.4542
 )
 
-(Butn.4544
+(Butn.4543
 	Help:	"Help//Gets help about the next button, tool, or menu choice you click"
 	HelpTopic:	"Help_button"
-	Icon:	4545
+	Icon:	4544
 	Click:	"Help.Tool"
 )
 
-(AVIcon.4545
+(AVIcon.4544
 	Name:	"HelpTool"
 	Res:	"Icons.HelpTool"
 
 )
 
-(Space.4546
+(Space.4545
 	Tag:	"Xtools1234"
 )
 
-(Butn.4547
+(Butn.4546
 	Help:	"Display Selected Shapes Info.//Display the number and amount (acres for polygons, length for lines) of selected shapes in each ftheme that has selected features.  Press \"Shift and click this button for instructions."
 	HelpTopic:	" "
 	Tag:	"Xtools1234"
-	Icon:	4548
+	Icon:	4547
 	Click:	"XTDisplaySelected.Open"
 )
 
-(AVIcon.4548
+(AVIcon.4547
 	Name:	"Summarize"
 	Res:	"Icons.Summarize"
 
 )
 
-(Butn.4549
+(Butn.4548
 	Help:	"Explodes MultiPart Shapes in the Theme of Your Choice//Explode MultiPart Shapes in the Theme of Your Choice"
 	Update:	"Explode MultiPart Shapes.Update"
-	Icon:	4550
+	Icon:	4549
 	Click:	"Explode MultiPart Shapes"
 )
 
-(AVIcon.4550
+(AVIcon.4549
 	Name:	"explode.bmp"
 	Data:	4e442049 6d616765 00010011 00110000 
 	Data:	00ccffff ffffffff fffff000 0000ffff 
@@ -22763,39 +22774,39 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Data:	00000000 0000
 )
 
-(Butn.4551
+(Butn.4550
 	Help:	"Random points//Generate randomly-distributed points"
 	Update:	"random.open.update"
-	Icon:	4552
+	Icon:	4551
 	Click:	"random.open"
 )
 
-(AVIcon.4552
+(AVIcon.4551
 	Name:	"Icon5"
 	Res:	"Icons.Icon5"
 
 )
 
-(Butn.4553
+(Butn.4552
 	Help:	"Generate vector grid//"
-	Icon:	4554
+	Icon:	4553
 	Click:	"MILA.Util.View.Gridmkr"
 )
 
-(AVIcon.4554
+(AVIcon.4553
 	Name:	"FrameTable"
 	Res:	"Icons.FrameTable"
 
 )
 
-(Butn.4555
+(Butn.4554
 	Help:	"Convert to Star exchange format//Convert View vector themes to the Star STD ASCII interchange file format"
 	Update:	"MILA.Util.Arc2star.main.update"
-	Icon:	4556
+	Icon:	4555
 	Click:	"MILA.Util.Arc2star.Main"
 )
 
-(AVIcon.4556
+(AVIcon.4555
 	Name:	"star.gif"
 	Data:	4e442049 6d616765 00010018 00180000 
 	Data:	02407b7b 7b7b7b7b 7b7b7b7b 7b7b7b7b 
@@ -22902,29 +22913,29 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Data:	00000000 00000000 0000
 )
 
-(Butn.4557
+(Butn.4556
 	Help:	"MILA - Utilities Extension Help//"
-	Icon:	4558
+	Icon:	4557
 	Click:	"MILA.Util.Help"
 )
 
-(AVIcon.4558
+(AVIcon.4557
 	Name:	"ID"
 	Res:	"Icons.ID"
 
 )
 
-(Butn.4559
+(Butn.4558
 	Disabled:	1
 	Help:	"Rotates selected PolyLines or Polygons around individual object's centre"
 	HelpTopic:	" "
 	Tag:	" "
 	Update:	"Rotate.Update"
-	Icon:	4560
+	Icon:	4559
 	Click:	"Rotate"
 )
 
-(AVIcon.4560
+(AVIcon.4559
 	Name:	"rotate.bmp"
 	Data:	4e442049 6d616765 00010014 00110000 
 	Data:	00cc7777 77770000 07777777 00007777 
@@ -22948,14 +22959,14 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Data:	00000000 0000
 )
 
-(Butn.4561
+(Butn.4560
 	Help:	"AutoSnap is ON//ArcView Draw and Vertex Edit tools will AutoSnap to active themes and graphics ! (Ron Schultz - 0104)"
 	Tag:	"Rons"
-	Icon:	4562
+	Icon:	4561
 	Click:	"AutoSnap"
 )
 
-(AVIcon.4562
+(AVIcon.4561
 	Name:	"snapon.bmp"
 	Data:	4e442049 6d616765 00010019 00160000 
 	Data:	0688bfbf bf000000 00000000 00000000 
@@ -23067,11 +23078,12 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Data:	0000
 )
 
-(PopupSet.4563
-	Child:	4564
+(PopupSet.4562
+	Child:	4563
 )
 
-(Popup.4564
+(Popup.4563
+	Child:	4564
 	Child:	4565
 	Child:	4566
 	Child:	4567
@@ -23091,11 +23103,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Child:	4581
 	Child:	4582
 	Child:	4583
-	Child:	4584
 	Label:	"Menu"
 )
 
-(Choice.4565
+(Choice.4564
 	Disabled:	1
 	Invisible:	1
 	Help:	"Deletes the last entered point on the line or polygon being drawn"
@@ -23105,7 +23116,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4566
+(Choice.4565
 	Disabled:	1
 	Help:	"Undo the last edit to graphics on a view"
 	HelpTopic:	"Undo_Graphic_Edit_on_a_view"
@@ -23115,7 +23126,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4567
+(Choice.4566
 	Disabled:	1
 	Invisible:	1
 	Help:	"Redo the last edit operation on a theme that was undone"
@@ -23125,10 +23136,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4568
+(Space.4567
 )
 
-(Choice.4569
+(Choice.4568
 	Disabled:	1
 	Invisible:	1
 	Help:	"Turns general snapping on"
@@ -23138,7 +23149,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4570
+(Choice.4569
 	Disabled:	1
 	Invisible:	1
 	Help:	"Turns interactive snapping on"
@@ -23148,7 +23159,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4571
+(Choice.4570
 	Help:	"Turns snap tolerance cursor on"
 	Update:	"View.ToggleTolCursorUpdate"
 	Label:	"Show Snap Tolerance Cursor"
@@ -23156,10 +23167,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4572
+(Space.4571
 )
 
-(Choice.4573
+(Choice.4572
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snaps the next entered point to the nearest vertex within the user tolerance"
@@ -23169,7 +23180,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4574
+(Choice.4573
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snaps the next entered point to the nearest line segment"
@@ -23179,7 +23190,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4575
+(Choice.4574
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snaps the next entered point to the nearest node common to two or more features"
@@ -23189,7 +23200,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4576
+(Choice.4575
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snaps the next entered point to the nearest endpoint of an existing line"
@@ -23199,10 +23210,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4577
+(Space.4576
 )
 
-(Choice.4578
+(Choice.4577
 	Disabled:	1
 	Help:	"Unselects the selected features in all active themes"
 	Update:	"View.AttributeThemesUpdate"
@@ -23211,7 +23222,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4579
+(Choice.4578
 	Disabled:	1
 	Help:	"Zooms in at point where you click to bring up popup menu"
 	Update:	"View.HasDataUpdate"
@@ -23220,7 +23231,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4580
+(Choice.4579
 	Disabled:	1
 	Help:	"Zooms out from point where you click to bring up popup menu"
 	Update:	"View.HasDataUpdate"
@@ -23229,7 +23240,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4581
+(Choice.4580
 	Disabled:	1
 	Help:	"Zooms to the extent of the selected features"
 	Update:	"View.SelectableThemesUpdate"
@@ -23238,7 +23249,7 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Choice.4582
+(Choice.4581
 	Disabled:	1
 	Help:	"Centers display on point where you click to bring up popup"
 	Update:	"View.HasDataUpdate"
@@ -23247,10 +23258,10 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(Space.4583
+(Space.4582
 )
 
-(Choice.4584
+(Choice.4583
 	Disabled:	1
 	Help:	"Opens the shape properties window for editing vertex locations"
 	Update:	"ShapeWin.PopUp Update"
@@ -23259,774 +23270,774 @@ he-(abstoben*2))\nporigin=(a@b)\npsize=(breite@hoehe)\nr=rect.make(porigin,psize
 	Shortcut:	"Keys.None"
 )
 
-(ToolBar.4585
-	Child:	4586
-	Child:	4588
-	Child:	4590
-	Child:	4592
-	Child:	4594
-	Child:	4596
-	Child:	4598
-	Child:	4600
-	Child:	4602
-	Child:	4604
-	Child:	4606
-	Child:	4608
-	Child:	4627
-	Child:	4640
-	Child:	4659
-	Child:	4664
-	Child:	4666
+(ToolBar.4584
+	Child:	4585
+	Child:	4587
+	Child:	4589
+	Child:	4591
+	Child:	4593
+	Child:	4595
+	Child:	4597
+	Child:	4599
+	Child:	4601
+	Child:	4603
+	Child:	4605
+	Child:	4607
+	Child:	4626
+	Child:	4639
+	Child:	4658
+	Child:	4663
+	Child:	4665
 )
 
-(Tool.4586
+(Tool.4585
 	Disabled:	1
 	Help:	"Identify//Provides information about a feature"
 	HelpTopic:	"Identify_tool"
 	Update:	"View.IdentifyUpdate"
-	Icon:	4587
+	Icon:	4586
 	Cursor:	"Cursors.ID"
 	Apply:	"View.Identify"
 )
 
-(AVIcon.4587
+(AVIcon.4586
 	Name:	"ID"
 	Res:	"Icons.ID"
 
 )
 
-(Tool.4588
+(Tool.4587
 	Disabled:	1
 	Help:	"Pointer//Selects, moves, and resizes graphics"
 	HelpTopic:	"Pointer_tool"
 	Update:	"View.HasDataUpdate"
-	Icon:	4589
+	Icon:	4588
 	Cursor:	"Cursors.Select"
 	Apply:	"View.Select"
 	Click:	"View.SelectTool"
 )
 
-(AVIcon.4589
+(AVIcon.4588
 	Name:	"Select"
 	Res:	"Icons.Select"
 
 )
 
-(Tool.4590
+(Tool.4589
 	Disabled:	1
 	Help:	"Vertex Edit//Adds, moves, and deletes vertices of features and graphics"
 	HelpTopic:	"Vertex_Edit_tool"
 	Update:	"View.SelectToEditUpdate"
-	Icon:	4591
+	Icon:	4590
 	Cursor:	"Cursors.SelectEdit"
 	Apply:	"View.SelectToEdit"
 	Click:	"View.SelectToEditTool"
 )
 
-(AVIcon.4591
+(AVIcon.4590
 	Name:	"SelectEdit"
 	Res:	"Icons.SelectEdit"
 
 )
 
-(Tool.4592
+(Tool.4591
 	Disabled:	1
 	Help:	"Select Feature//Selects features in the active themes by pointing or dragging"
 	HelpTopic:	"Select_Feature_tool"
 	Update:	"View.SelectableThemesUpdate"
-	Icon:	4593
+	Icon:	4592
 	Cursor:	"Cursors.Default"
 	Apply:	"View.SelectPoint"
 )
 
-(AVIcon.4593
+(AVIcon.4592
 	Name:	"FeatureSelect"
 	Res:	"Icons.FeatureSelect"
 
 )
 
-(Tool.4594
+(Tool.4593
 	Disabled:	1
 	Help:	"Zoom In//Zooms in at a point you click or zooms in on a rectangle you drag"
 	HelpTopic:	"Zoom_In_tool"
 	Update:	"View.HasDataUpdate"
-	Icon:	4595
+	Icon:	4594
 	Cursor:	"Cursors.ZoomIn"
 	Apply:	"View.ZoomInTool"
 )
 
-(AVIcon.4595
+(AVIcon.4594
 	Name:	"ZoomInTool"
 	Res:	"Icons.ZoomInTool"
 
 )
 
-(Tool.4596
+(Tool.4595
 	Disabled:	1
 	Help:	"Zoom Out//Zooms out from a point you click or zooms out to include a rectangle you drag"
 	HelpTopic:	"Zoom_Out_tool"
 	Update:	"View.HasDataUpdate"
-	Icon:	4597
+	Icon:	4596
 	Cursor:	"Cursors.ZoomOut"
 	Apply:	"View.ZoomOutTool"
 )
 
-(AVIcon.4597
+(AVIcon.4596
 	Name:	"ZoomOutTool"
 	Res:	"Icons.ZoomOutTool"
 
 )
 
-(Tool.4598
+(Tool.4597
 	Disabled:	1
 	Help:	"Pan//Drags the display in the direction you move the cursor"
 	HelpTopic:	"Pan_tool"
 	Update:	"View.HasDataUpdate"
-	Icon:	4599
+	Icon:	4598
 	Cursor:	"Cursors.Pan"
 	Apply:	"View.Pan"
 )
 
-(AVIcon.4599
+(AVIcon.4598
 	Name:	"Pan"
 	Res:	"Icons.Pan"
 
 )
 
-(Tool.4600
+(Tool.4599
 	Help:	"Rotate (outline)//Dynamically rotate selected graphics--press shift or wait five seconds to end.  Press shift while clicking the tool to change outlining mode."
 	Tag:	"Outline"
 	Update:	"View.RotateGraphicTool.Update"
-	Icon:	4601
+	Icon:	4600
 	Cursor:	"Cursors.RotateAll"
 	Apply:	"View.RotateGraphicTool"
 	Click:	"View.RotateGraphicTool.Click"
 )
 
-(AVIcon.4601
+(AVIcon.4600
 	Name:	"Redo"
 	Res:	"Icons.Redo"
 
 )
 
-(Tool.4602
+(Tool.4601
 	Disabled:	1
 	Help:	"Measure//Measures distance"
 	HelpTopic:	"Measure_tool"
 	Update:	"View.HasDataUpdate"
-	Icon:	4603
+	Icon:	4602
 	Cursor:	"Cursors.Measure"
 	Apply:	"View.Measure"
 )
 
-(AVIcon.4603
+(AVIcon.4602
 	Name:	"Measure"
 	Res:	"Icons.Measure"
 
 )
 
-(Tool.4604
+(Tool.4603
 	Disabled:	1
 	Help:	"Hot Link//Follows a hot link in the active themes"
 	HelpTopic:	"Hot_Link_tool"
 	Update:	"View.HotLinkUpdate"
-	Icon:	4605
+	Icon:	4604
 	Cursor:	"Cursors.Media"
 	Apply:	"View.HotLink"
 )
 
-(AVIcon.4605
+(AVIcon.4604
 	Name:	"Media"
 	Res:	"Icons.Media"
 
 )
 
-(Tool.4606
+(Tool.4605
 	Disabled:	1
 	Help:	"Area of Interest//Sets the view's Area Of Interest for library-based themes"
 	HelpTopic:	"Area_Of_Interest_tool"
 	Update:	"View.AOIToolUpdate"
-	Icon:	4607
+	Icon:	4606
 	Cursor:	"Cursors.Default"
 	Apply:	"View.AOITool"
 )
 
-(AVIcon.4607
+(AVIcon.4606
 	Name:	"AOI"
 	Res:	"Icons.AOI"
 
 )
 
-(ToolMenu.4608
+(ToolMenu.4607
 	Disabled:	1
 	Help:	"Label//Labels a feature in the active theme with data from its table"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.LabelToolUpdate"
-	Icon:	4609
+	Icon:	4608
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.LabelTool"
+	Child:	4609
 	Child:	4610
-	Child:	4611
-	Child:	4613
-	Child:	4615
-	Child:	4617
-	Child:	4619
-	Child:	4621
-	Child:	4623
-	Child:	4625
+	Child:	4612
+	Child:	4614
+	Child:	4616
+	Child:	4618
+	Child:	4620
+	Child:	4622
+	Child:	4624
 )
 
-(AVIcon.4609
+(AVIcon.4608
 	Name:	"Tag"
 	Res:	"Icons.Tag"
 
 )
 
-(Tool.4610
+(Tool.4609
 	Disabled:	1
 	Help:	"Label//Labels a feature in the active theme with data from its table"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.LabelToolUpdate"
-	Icon:	4609
+	Icon:	4608
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.LabelTool"
 )
 
-(Tool.4611
+(Tool.4610
 	Disabled:	1
 	Help:	"Callout Label//Click on a feature and drag in the direction you want the label to appear"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	4612
+	Icon:	4611
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.CalloutLabelTool"
 )
 
-(AVIcon.4612
+(AVIcon.4611
 	Name:	"CallOutLabel1"
 	Res:	"Icons.CallOutLabel1"
 
 )
 
-(Tool.4613
+(Tool.4612
 	Disabled:	1
 	Help:	"Bullet Leader Label//Click on a feature and drag in the direction you want the label to appear"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	4614
+	Icon:	4613
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.BulletLeaderLabelTool"
 )
 
-(AVIcon.4614
+(AVIcon.4613
 	Name:	"CallOutLabel2"
 	Res:	"Icons.CallOutLabel2"
 
 )
 
-(Tool.4615
+(Tool.4614
 	Disabled:	1
 	Help:	"Banner Label//Click on a feature you want to label"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	4616
+	Icon:	4615
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.ShadowBoxLabelTool"
 )
 
-(AVIcon.4616
+(AVIcon.4615
 	Name:	"CallOutLabel3"
 	Res:	"Icons.CallOutLabel3"
 
 )
 
-(Tool.4617
+(Tool.4616
 	Disabled:	1
 	Help:	"U.S. Interstate//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	4618
+	Icon:	4617
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.Highway1 Apply"
 )
 
-(AVIcon.4618
+(AVIcon.4617
 	Name:	"BW US Interstate"
 	Res:	"Icons.BW US Interstate"
 
 )
 
-(Tool.4619
+(Tool.4618
 	Disabled:	1
 	Help:	"U.S. Route//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	4620
+	Icon:	4619
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.Highway2 Apply"
 )
 
-(AVIcon.4620
+(AVIcon.4619
 	Name:	"USRoute"
 	Res:	"Icons.USRoute"
 
 )
 
-(Tool.4621
+(Tool.4620
 	Disabled:	1
 	Help:	"Generic State Hwy//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	4622
+	Icon:	4621
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.Highway3 Apply"
 )
 
-(AVIcon.4622
+(AVIcon.4621
 	Name:	"GenericStateHighway"
 	Res:	"Icons.GenericStateHighway"
 
 )
 
-(Tool.4623
+(Tool.4622
 	Disabled:	1
 	Help:	"Generic Square Hwy//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	4624
+	Icon:	4623
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.Highway4 Apply"
 )
 
-(AVIcon.4624
+(AVIcon.4623
 	Name:	"GenericHighway1"
 	Res:	"Icons.GenericHighway1"
 
 )
 
-(Tool.4625
+(Tool.4624
 	Disabled:	1
 	Help:	"Generic Oval Hwy//Click where you want to place a highway shield"
 	Update:	"View.CalloutUpdate"
-	Icon:	4626
+	Icon:	4625
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.Highway5 Apply"
 )
 
-(AVIcon.4626
+(AVIcon.4625
 	Name:	"GenericHighway2"
 	Res:	"Icons.GenericHighway2"
 
 )
 
-(ToolMenu.4627
+(ToolMenu.4626
 	Disabled:	1
 	Help:	"Text//Creates text on the display"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	4628
+	Icon:	4627
 	Cursor:	"Cursors.Text"
 	Apply:	"View.TextTool"
 	Click:	"SymWin.DisplayFontPanel"
+	Child:	4628
 	Child:	4629
-	Child:	4630
-	Child:	4632
-	Child:	4634
-	Child:	4636
-	Child:	4638
+	Child:	4631
+	Child:	4633
+	Child:	4635
+	Child:	4637
 )
 
-(AVIcon.4628
+(AVIcon.4627
 	Name:	"Text"
 	Res:	"Icons.Text"
 
 )
 
-(Tool.4629
+(Tool.4628
 	Disabled:	1
 	Help:	"Text//Creates text on the display"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	4628
+	Icon:	4627
 	Cursor:	"Cursors.Text"
 	Apply:	"View.TextTool"
 	Click:	"SymWin.DisplayFontPanel"
 )
 
-(Tool.4630
+(Tool.4629
 	Disabled:	1
 	Help:	"Callout Text//Click and drag to where you want your text to appear, then enter the text"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	4631
+	Icon:	4630
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.CalloutTextTool"
 )
 
-(AVIcon.4631
+(AVIcon.4630
 	Name:	"CallOutText1"
 	Res:	"Icons.CallOutText1"
 
 )
 
-(Tool.4632
+(Tool.4631
 	Disabled:	1
 	Help:	"Bullet Leader Text//Click and drag to where you want your text to appear, then enter the text"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	4633
+	Icon:	4632
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.BulletLeaderTextTool"
 )
 
-(AVIcon.4633
+(AVIcon.4632
 	Name:	"CallOutText2"
 	Res:	"Icons.CallOutText2"
 
 )
 
-(Tool.4634
+(Tool.4633
 	Disabled:	1
 	Help:	"Banner Text//Click where you want your label to appear and enter your text"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	4635
+	Icon:	4634
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.ShadowBoxTextTool"
 )
 
-(AVIcon.4635
+(AVIcon.4634
 	Name:	"CallOutText3"
 	Res:	"Icons.CallOutText3"
 
 )
 
-(Tool.4636
+(Tool.4635
 	Disabled:	1
 	Help:	"Drop-Shadow Text//Click where you want your text to appear and enter your text"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	4637
+	Icon:	4636
 	Cursor:	"Cursors.Target"
 	Apply:	"View.CreateDropShadowText"
 )
 
-(AVIcon.4637
+(AVIcon.4636
 	Name:	"DropShadowText"
 	Res:	"Icons.DropShadowText"
 
 )
 
-(Tool.4638
+(Tool.4637
 	Help:	"Spline Text//Adds text that is aligned to a splined baseline"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	4639
+	Icon:	4638
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.SplineText"
 )
 
-(AVIcon.4639
+(AVIcon.4638
 	Name:	"TextAligned"
 	Res:	"Icons.TextAligned"
 
 )
 
-(ToolMenu.4640
+(ToolMenu.4639
 	Help:	"Draw Point//Creates a point on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PointToolUpdate"
-	Icon:	4641
+	Icon:	4640
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.PointTool"
 	Click:	"SymWin.DisplayMarkerPanel"
+	Child:	4641
 	Child:	4642
-	Child:	4643
-	Child:	4645
-	Child:	4647
-	Child:	4649
-	Child:	4651
-	Child:	4653
-	Child:	4655
-	Child:	4657
+	Child:	4644
+	Child:	4646
+	Child:	4648
+	Child:	4650
+	Child:	4652
+	Child:	4654
+	Child:	4656
 )
 
-(AVIcon.4641
+(AVIcon.4640
 	Name:	"Point"
 	Res:	"Icons.Point"
 
 )
 
-(Tool.4642
+(Tool.4641
 	Help:	"Draw Point//Creates a point on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PointToolUpdate"
-	Icon:	4641
+	Icon:	4640
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.PointTool"
 	Click:	"SymWin.DisplayMarkerPanel"
 )
 
-(Tool.4643
+(Tool.4642
 	Help:	"Draw Straight Line//Creates a line on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.GraphicToolUpdate"
-	Icon:	4644
+	Icon:	4643
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.LineTool"
 	Click:	"SymWin.DisplayPenPanel"
 )
 
-(AVIcon.4644
+(AVIcon.4643
 	Name:	"SelectLine"
 	Res:	"Icons.SelectLine"
 
 )
 
-(Tool.4645
+(Tool.4644
 	Help:	"Draw Line//Creates a line with two or more points on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PolyLineToolUpdate"
-	Icon:	4646
+	Icon:	4645
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.PolyLineTool"
 	Click:	"SymWin.DisplayPenPanel"
 )
 
-(AVIcon.4646
+(AVIcon.4645
 	Name:	"Lines"
 	Res:	"Icons.Lines"
 
 )
 
-(Tool.4647
+(Tool.4646
 	Help:	"Draw Rectangle//Creates a rectangle on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PolyToolUpdate"
-	Icon:	4648
+	Icon:	4647
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.RectTool"
 	Click:	"SymWin.DisplayFillPanel"
 )
 
-(AVIcon.4648
+(AVIcon.4647
 	Name:	"Rect"
 	Res:	"Icons.Rect"
 
 )
 
-(Tool.4649
+(Tool.4648
 	Help:	"Draw Circle//Creates a circle on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PolyToolUpdate"
-	Icon:	4650
+	Icon:	4649
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.CircleTool"
 	Click:	"SymWin.DisplayFillPanel"
 )
 
-(AVIcon.4650
+(AVIcon.4649
 	Name:	"Disk"
 	Res:	"Icons.Disk"
 
 )
 
-(Tool.4651
+(Tool.4650
 	Help:	"Draw Polygon//Creates a polygon on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PolyToolUpdate"
-	Icon:	4652
+	Icon:	4651
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.PolyTool"
 	Click:	"SymWin.DisplayFillPanel"
 )
 
-(AVIcon.4652
+(AVIcon.4651
 	Name:	"Poly"
 	Res:	"Icons.Poly"
 
 )
 
-(Tool.4653
+(Tool.4652
 	Disabled:	1
 	Help:	"Draw Line to Split Feature//Creates a line to split line features"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.SplitLineToolUpdate"
-	Icon:	4654
+	Icon:	4653
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.SplitTool"
 )
 
-(AVIcon.4654
+(AVIcon.4653
 	Name:	"SplitLine"
 	Res:	"Icons.SplitLine"
 
 )
 
-(Tool.4655
+(Tool.4654
 	Disabled:	1
 	Help:	"Draw Line to Split Polygon//Creates a line to split polygon features"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.SplitPolyToolUpdate"
-	Icon:	4656
+	Icon:	4655
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.SplitTool"
 )
 
-(AVIcon.4656
+(AVIcon.4655
 	Name:	"SplitPoly"
 	Res:	"Icons.SplitPoly"
 
 )
 
-(Tool.4657
+(Tool.4656
 	Disabled:	1
 	Help:	"Draw Line to Append Polygon//Appends a new polygon adjacent to other polygons"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.AutoCompleteUpdate"
-	Icon:	4658
+	Icon:	4657
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.AutoCompleteTool"
 )
 
-(AVIcon.4658
+(AVIcon.4657
 	Name:	"AutoComplete"
 	Res:	"Icons.AutoComplete"
 
 )
 
-(ToolMenu.4659
+(ToolMenu.4658
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snap//Sets the general snapping tolerance for the editable theme"
 	HelpTopic:	"Snap_tools"
 	Update:	"View.SnapToolUpdate"
-	Icon:	4660
+	Icon:	4659
 	Cursor:	"Cursors.Default"
 	Apply:	"View.SnapTool"
+	Child:	4660
 	Child:	4661
-	Child:	4662
 )
 
-(AVIcon.4660
+(AVIcon.4659
 	Name:	"SnapTool"
 	Res:	"Icons.SnapTool"
 
 )
 
-(Tool.4661
+(Tool.4660
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snap//Sets the general snapping tolerance for the editable theme"
 	HelpTopic:	"Snap_tools"
 	Update:	"View.SnapToolUpdate"
-	Icon:	4660
+	Icon:	4659
 	Cursor:	"Cursors.Default"
 	Apply:	"View.SnapTool"
 )
 
-(Tool.4662
+(Tool.4661
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snap//Sets the interactive snapping tolerance for the editable theme"
 	HelpTopic:	"Snap_tools"
 	Update:	"View.InteractiveSnapToolUpdate"
-	Icon:	4663
+	Icon:	4662
 	Cursor:	"Cursors.Default"
 	Apply:	"View.InteractiveSnapTool"
 )
 
-(AVIcon.4663
+(AVIcon.4662
 	Name:	"SnapFeatureTool"
 	Res:	"Icons.SnapFeatureTool"
 
 )
 
-(Tool.4664
+(Tool.4663
 	Help:	"Stream Tolerance//Sets the stream tolerance (in map units) to digitize features in stream mode."
 	HelpTopic:	"Stream_Tolerance@digitize.hlp"
 	Update:	"Digit.StreamToleranceToolUpdate"
-	Icon:	4665
+	Icon:	4664
 	Cursor:	"Cursors.Default"
 	Apply:	"Digit.StreamToleranceTool"
 )
 
-(AVIcon.4665
+(AVIcon.4664
 	Name:	"SelectCircle"
 	Res:	"Icons.SelectCircle"
 
 )
 
-(Tool.4666
+(Tool.4665
 	Help:	"Azimuth//Draw polylines using angle and length"
 	Tag:	"Ron Schultz"
-	Icon:	4667
+	Icon:	4666
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Azimuth"
 )
 
-(AVIcon.4667
+(AVIcon.4666
 	Name:	"AlignTop"
 	Res:	"Icons.AlignTop"
 
 )
 
-(AVIcon.4668
+(AVIcon.4667
 	Name:	"Icon"
 	Res:	"View.Icon"
 
 )
 
-(FN.4913
+(FN.4912
 	Path:	"$HOME"
 )
 
-(TClr.4914
+(TClr.4913
 	Red:	0xffff
 	Green:	0xffff
 )
 
-(AVStr.4915
+(AVStr.4914
 	S:	"View"
 )
 
-(AVStr.4916
+(AVStr.4915
 	S:	"Table"
 )
 
-(AVStr.4917
+(AVStr.4916
 	S:	"Chart"
 )
 
-(AVStr.4918
+(AVStr.4917
 	S:	"Layout"
 )
 
-(AVStr.4919
+(AVStr.4918
 	S:	"Script"
 )
 
-(AVStr.4920
+(AVStr.4919
 	S:	"Project"
 )
 
-(AVStr.4921
+(AVStr.4920
 	S:	"Appl"
 )
 
-(AVStr.4922
+(AVStr.4921
 	S:	"XTSED"
 )
 
-(AVStr.4923
+(AVStr.4922
 	S:	"XTGUI"
 )
 
-(AVStr.4924
+(AVStr.4923
 	S:	"Request"
 )
 
-(AVStr.4925
+(AVStr.4924
 	S:	"DialogEditor"
 )
 

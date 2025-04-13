@@ -49,6 +49,7 @@ neuigkeiten[35] = "22.12.2024: Umfassend erweiterte Version 2.0 von <a href=\"./
 neuigkeiten[36] = "12.01.2025: Neuer Bericht: <a href=\"./dx/adv.html\">Eigenbauempfänger nach UKW-Radio-Adventskalender</a>";
 neuigkeiten[37] = "16.02.2025: Rubrik <a href=\"./dx.html#scan\">Bandscans</a> und <a target=\"_blank\" href=\"./dx/bandscans/ukw_bandscan_worb.html\">UKW-Bandscan Worb</a> ergänzt";
 neuigkeiten[38] = "23.02.2025: Weitere Möglichkeiten und Erfahrungen mit dem <a href=\"./dx/mvt7000_2.html\">MVT-7000</a> ergänzt";
+neuigkeiten[39] = "13.04.2025: <a target=\"_blank\" href=\"./dx/bandscans/ukw_bandscan_worb.html\">UKW-Bandscan Worb</a> und zugehörige <a target=\"_blank\" href=\"./pdf/ukw-bandscan-map.pdf\">Karte</a> deutlich erweitert";
 
 //------------------------------------------------------------------------------------------------------------------------
 

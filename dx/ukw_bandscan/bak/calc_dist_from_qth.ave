@@ -26,12 +26,12 @@ distField = theFTab.FindField("Dist")
 
 '# pruefen, ob das Thema bearbeitbar und im Bearbeitungsmodus ist
 if (theFTab.canEdit.Not) then
-  MsgBox.Warning("The table cannot be edited", "Abort")
+  MsgBox.Warning("Die Tabelle ist nicht editierbar", "Abbruch")
   return nil
 end
 
 if (theFTab.isEditable.Not) then
-  MsgBox.Warning("Please start an edit session first", "Abort")
+  MsgBox.Warning("Bitte starten Sie zuerst eine Edit-Session", "Abbruch")
   return nil
 end
 

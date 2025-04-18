@@ -218,6 +218,7 @@ dxMVT7000_2Dict["al"] = "3";
 dxMVT7000_2Dict["am"] = "5";
 dxMVT7000_2Dict["an"] = "4";
 dxMVT7000_2Dict["ao"] = "12";
+dxMVT7000_2Dict["ap"] = "16";
 
 var dxUKWLoopDict = new Array();
 dxUKWLoopDict["aa"] = "1";

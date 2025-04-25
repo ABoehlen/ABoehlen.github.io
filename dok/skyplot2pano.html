@@ -27,8 +27,8 @@
 		<div class="box">
 			<h1>skyplot2pano – Dokumentation</h1>
 			<p>Adrian Böhlen<br />
-			Dokumentation: Version 1.10 vom 19.01.2025<br />
-			Applikation: Version 2.1 vom 08.01.2025</p>
+			Dokumentation: Version 1.11 vom 25.04.2025<br />
+			Applikation: Version 2.2 vom 25.04.2025</p>
 			
 			<h2>Inhalt</h2>
 			<div class="Reihe_zw">
@@ -594,15 +594,16 @@ Entferntester: 640238  154256  4005  243.8  208.300   4060.6  2993
 
 			<a name="nam_file"></a>
 			<h3>1.5.2&nbsp;&nbsp;Namendatei</h3>
-			<p>Für die Namendatei wird die gleiche Struktur vorausgesetzt, wie bei der Verwendung in SCOP.PER. Falls nicht vorhanden, lässt sich diese auf einfache Weise z.B. aus einer kommagetrennten Datei ableiten. Relevant für diese Anwendung sind nur die Felder Name, X-, Y- und Z-Koordinate. Die Felder Priorität und Perimeter werden für diese Anwendung nicht verwendet. Die genaue Definition ist in der Dokumentation von SCOP.PER wie folgt beschrieben: <script type="text/javascript">var name="an"; var kap=""; verweis("dokSky");</script></p>
+			<p>Für die Namendatei wird die gleiche Struktur vorausgesetzt, wie bei der Verwendung in SCOP.PER. Falls nicht vorhanden, lässt sich diese auf einfache Weise z.B. aus einer kommagetrennten Datei ableiten. Relevant für diese Anwendung sind nur die Felder Name, X-, Y- und Z-Koordinate sowie die Priorität. Das Feld Perimeter wird nicht verwendet. Die genaue Definition ist in der Dokumentation von SCOP.PER wie folgt beschrieben: <script type="text/javascript">var name="an"; var kap=""; verweis("dokSky");</script></p>
 			<p><em>Dieser Parameter ermöglicht die Angabe des Namens jener Datei, auf der die Namensinformation vorbereitet ist. Diese Infomation besteht aus dem Namen selbst, seiner Position (X,Y,Z), der Priorität und dem Perimeter. Der Perimeter wird entweder als Radius eines Kreises oder als Umringpolygon (max. 32 Punkte X,Y) angegeben. Der Wertebereich für die Priorität liegt zwischen 1 und 99. Der Name, die Position und die Priorität müssen dem Fortran-Format (A32,3F12.2,I4) genügen; die Formatierung für den Perimeter ist frei.</em></p>
+			<p>Im Feld Priorität hat lediglich der Wert 99 eine besondere Bedeutung. Namen, die mit diesem Wert gekennzeichnet sind, werden später auf dem Panorama immer abgebildet, egal ob sichtbar oder nicht. Voraussetzung ist natürlich, dass sie innerhalb des gewählten Sektors liegen.</p>
 			<p>Nachstehend ein Beispiel:</p>
 			<code>
 Morgenberghorn                      627184.0    163500.0      2249.0  28  200.
 Gros Brun / Schopfenspitz           585609.0    163489.0      2104.0  28  200.
 Wannichnubel                        632287.0    172655.0      1585.0  46  200.
 Sertigpass                          787091.0    172878.0      2739.0  24  200.
-Piz Radun / Plangghora              740662.0    172837.0      2581.0  28  200.
+Aiguille du Midi                    557199.0     80943.0      3842.0  99  200.
 Piz Nair                            697156.0    172757.0      3059.0  28  200.
 Tschingel                           653676.0    172736.0      2326.0  46  200.
 Homad                               604262.0    172675.0      2076.0  46  200.
@@ -681,13 +682,13 @@ Sustenhorn                          677742.0    172472.0      3502.0  37  200.
 
 			<div class="Reihe">
 				<div class="Zelle_norm">
-					<img width="320px" height="185px" alt="Pano mit Rahmen rechts erweitert" onclick="show('./img/rahmen_rechts_erw_1260x732.png');" src="./img/rahmen_rechts_erw_320x186.png" />
+					<img width="320px" height="185px" alt="Pano mit Rahmen rechts erweitert" onclick="show('./img/rahmen_rechts_erw_1260x732.png');" src="./img/rahmen_rechts_erw_1260x732.png" />
 				<p class="Bildlegende">Abb.&nbsp;11:&nbsp;Panorama-Ansicht mit Namen bis fast zum rechten Bildrand (Hohe Möhr Richtung Alpen). Der Rahmen wird daher automatisch nach rechts erweitert.<br />Eigener Screenshot aus ArcView vom 18.09.2024</p>
 				</div>
 				<div class="Zelle_zw">
 				</div>
 				<div class="Zelle_norm">
-					<img width="320px" height="185px" alt="Pano mit Horizont oberhalb Bild" onclick="show('./img/horizont_ausserhalb_1260x732.png');" src="./img/horizont_ausserhalb_320x186.png" />
+					<img width="320px" height="185px" alt="Pano mit Horizont oberhalb Bild" onclick="show('./img/horizont_ausserhalb_1260x732.png');" src="./img/horizont_ausserhalb_1260x732.png" />
 					<p class="Bildlegende">Abb.&nbsp;12:&nbsp;Panorama-Ansicht aus sehr grosser Höhe (Großer Inselsberg plus 8000&nbsp;m Richtung Alpen). Daher liegen alle abgebildeten Punkte deutlich unter dem mathematischen Horizont, der entsprechend oberhalb des Bildes angezeigt wird.<br />Eigener Screenshot aus ArcView vom 18.09.2024</p>
 				</div>
 			</div>
@@ -782,7 +783,7 @@ mv sil_* $dir
 			<a name="komb"></a>
 			<h3>2.6.2&nbsp;&nbsp;Kombination mit einer Fotografie</h3>
 			<div class="Bild_l">
-				<img width="320px" height="163px" alt="Ueberlagerung mit Bild" onclick="show('./img/ueberlagerung_foto_800x408.jpg');" src="./img/ueberlagerung_foto_320x163.jpg" />
+				<img width="320px" height="163px" alt="Ueberlagerung mit Bild" onclick="show('./img/ueberlagerung_foto_800x408.jpg');" src="./img/ueberlagerung_foto_800x408.jpg" />
 				<p class="Bildlegende">Abb.&nbsp;13:&nbsp;Überlagerung der Silhouettendarstellung mit einer Fotografie (Gantrischweg Richtung Gantrisch).<br />Eigener Screenshot aus ArcView vom 09.03.2024 unter Verwendung einer eigenen Aufnahme vom 13.12.2021</p>
 			</div>
 			
@@ -808,7 +809,7 @@ mv sil_* $dir
 			<a name="grundr"></a>
 			<h3>2.6.4&nbsp;&nbsp;Anzeige im Grundriss</h3>
 			<div class="Bild_l">
-				<img width="320px" height="162px" alt="Anzeige Grundriss" onclick="show('./img/anzeige_grundriss_1127x572.png');" src="./img/anzeige_grundriss_320x162.png" />
+				<img width="320px" height="162px" alt="Anzeige Grundriss" onclick="show('./img/anzeige_grundriss_1127x572.png');" src="./img/anzeige_grundriss_1127x572.png" />
 				<p class="Bildlegende">Abb.&nbsp;16:&nbsp;Anzeige der Silhouetten im Grundriss<br />Eigener Screenshot aus ArcView vom 10.03.2024</p>
 			</div>
 			<p>Nebst der Panorama-Ansicht, welche einem Seitenriss entspricht, ist es auch möglich, sich die berechnete Datei im Grundriss anzeigen zu lassen. Das Vorgehen ist grundsätzlich identisch, mit dem Unterschied dass beim Import ins GIS als Quelle für die X-Achse im Bildkoordinatensystem das Attribut <em>LageX</em> und für die Y-Achse das Feld <em>LageY</em> festgelegt werden muss. Mit einer passenden Karte im Hintergrund lassen sich die Punkte dann gut visualisieren, allerdings darf man nicht etwa erwarten, eine Art Sichtbarkeitskarte zu erhalten. Dies ist mit der Methode, mit der SCOP.SKYPLOT arbeitet nicht möglich, da damit keine Flächen, sondern nur sichtbegrenzende Kreten erfasst werden. Wie Abb.&nbsp;16 zeigt, lässt sich die Auflösung des verwendeten Höhenmodells auf diese Weise gut erkennen, da sie dem Abstand zwischen den sichtbegrenzenden Punkten in Bezug auf das Projektionszentrum entspricht; im vorliegenden Fall 25 m.</p>
@@ -836,7 +837,8 @@ mv sil_* $dir
 
 			<a name="namen"></a>
 			<h3>2.6.7&nbsp;&nbsp;Erzeugen der automatischen Beschriftung</h3>
-			<p>Wie im Abschnitt 1.5 erläutert, besteht die Möglichkeit, die auf dem Panorama sichtbaren Gipfel automatisch beschriften zu lassen. Diese Option ist allerdings noch nicht sehr ausgereift, weshalb das Ergebnis möglicherweise den Erwartungen nicht entspricht. Dazu ist als 13.&nbsp;Argument die als Grundlage zu verwendende Namendatei aufzuführen und als 14.&nbsp;Argument die Lagetoleranz in m. Welcher Wert hier ideal ist, hängt von verschiedenen Parametern ab und muss im Einzelfall durch Probieren herausgefunden werden. Bei Sichtweiten unter 100&nbsp;km und einem gut aufgelösten Höhenmodell lassen sich mit 50&nbsp;–&nbsp;100&nbsp;m im Normalfall gute Ergebnisse erzielen. Grundsätzlich ist es sehr wichtig, dass für ein gutes Resultat die azimutale Auflösung möglichst klein sein sollte, insbesondere bei grosser Distanz zu den abgebildeten Gipfeln, da es ansonsten gut möglich ist, dass die höchsten Punkte durch die Maschen fallen und so auch keine Übereinstimmung mit der Namensinformation gefunden werden kann, d.h. die betreffenden Namen dann fehlen, obwohl die Gipfel sichtbar wären. Die Toleranz sollte also bei insgesamt grossen Distanzen höher gewählt werden (100&nbsp;–&nbsp;500&nbsp;m), was natürlich das Risiko mit sich bringt, dass mitunter «falsche», d.h. gar nicht sichtbare Namen erwischt und dann ebenfalls angezeigt werden. Allerdings muss der Toleranzwert immer kleiner sein als die Hälfte von Aufloes-Dist (12.&nbsp;Argument), da ansonsten ein Name bei mehreren Berechnungen als sichtbar detektiert werden kann und dann mehrfach im Panorama auftaucht.</p>
+			<p>Wie im Abschnitt 1.5 erläutert, besteht die Möglichkeit, die auf dem Panorama sichtbaren Gipfel automatisch beschriften, bzw. mit Priorität 99 gekennzeichnete Namen erzwungen darstellen zu lassen. Diese Option ist allerdings noch nicht sehr ausgereift, weshalb das Ergebnis möglicherweise den Erwartungen nicht entspricht. Dazu ist als 13.&nbsp;Argument die als Grundlage zu verwendende Namendatei aufzuführen und als 14.&nbsp;Argument die Lagetoleranz in m. Welcher Wert hier ideal ist, hängt von verschiedenen Parametern ab und muss im Einzelfall durch Probieren herausgefunden werden. Bei Sichtweiten unter 100&nbsp;km und einem gut aufgelösten Höhenmodell lassen sich mit 50&nbsp;–&nbsp;100&nbsp;m im Normalfall gute Ergebnisse erzielen. Grundsätzlich ist es sehr wichtig, dass für ein gutes Resultat die azimutale Auflösung möglichst klein sein sollte, insbesondere bei grosser Distanz zu den abgebildeten Gipfeln, da es ansonsten gut möglich ist, dass die höchsten Punkte durch die Maschen fallen und so auch keine Übereinstimmung mit der Namensinformation gefunden werden kann, d.h. die betreffenden Namen dann fehlen, obwohl die Gipfel sichtbar wären. Die Toleranz sollte also bei insgesamt grossen Distanzen höher gewählt werden (100&nbsp;–&nbsp;500&nbsp;m), was natürlich das Risiko mit sich bringt, dass mitunter «falsche», d.h. gar nicht sichtbare Namen erwischt und dann ebenfalls angezeigt werden. Allerdings muss der Toleranzwert immer kleiner sein als die Hälfte von Aufloes-Dist (12.&nbsp;Argument), da ansonsten ein Name bei mehreren Berechnungen als sichtbar detektiert werden kann und dann mehrfach im Panorama auftaucht.</p>
+			<p></p>
 			<div class="Bild_l">
 				<img width="320px" height="137px" alt="DXF laden" onclick="show('./img/add_dxf_483x206.png');" src="./img/add_dxf_483x206.png" />
 				<p class="Bildlegende">Abb.&nbsp;19:&nbsp;Laden der Linien- und Textinformation einer DXF-Datei.<br />Eigener Screenshot aus ArcView vom 21.04.2024</p>
@@ -849,14 +851,14 @@ mv sil_* $dir
 			<p>Die auf diese Weise geladene DXF-Datei erscheint in Form von 2 Ebenen in der Liste der geladenen Daten. Für die Darstellung ist es am sinnvollsten, eine Klassifizierung nach dem Attribut <em>Layer</em> vorzunehmen, wie in Abb.&nbsp;20 gezeigt. Für den Rahmen lässt sich dann z.B. eine breite Linie definieren, für den Horizont eine feine und für die Zuordnungslinie eine strichlierte. So kann sich ein Ergebnis wie in Abb.&nbsp;21 realisiert werden. Auch die Textobjekte können auf diese Weise unterschiedlich dargestellt werden, wobei sich lediglich die Schriftart und Farbe einstellen lässt, nicht jedoch die Schriftgrösse.</p>
 			<div class="Reihe">
 				<div class="Zelle_norm">
-					<img width="320px" height="238px" alt="Pano mit Rahmen rechts erweitert" onclick="show('./img/dxf_layer_625x473.png');" src="./img/dxf_layer_320x238.png" />
+					<img width="320px" height="238px" alt="Klassifizierung DXF-Attribute" onclick="show('./img/dxf_layer_625x473.png');" src="./img/dxf_layer_625x473.png" />
 				<p class="Bildlegende">Abb.&nbsp;20:&nbsp;Klassifizierung der DXF-Linien nach dem Attribut <em>Layer</em>.<br />Eigener Screenshot aus ArcView vom 19.09.2024</p>
 				</div>
 				<div class="Zelle_zw">
 				</div>
 				<div class="Zelle_norm">
-					<img width="320px" height="238px" alt="Pano mit Horizont oberhalb Bild" onclick="show('./img/dxf_darstellung_1011x752.png');" src="./img/dxf_darstellung_320x238.png" />
-					<p class="Bildlegende">Abb.&nbsp;21:&nbsp;Unterschiedliche Darstellung der verschiedenen Linientypen sowie der Beschriftung.<br />Eigener Export aus ArcView vom 19.09.2024</p>
+					<img width="320px" height="238px" alt="Linie und Text symbolisiert" onclick="show('./img/dxf_darstellung_1011x752.png');" src="./img/dxf_darstellung_1011x752.png" />
+					<p class="Bildlegende">Abb.&nbsp;21:&nbsp;Unterschiedliche Darstellung der verschiedenen Linientypen sowie der Beschriftung.<br />Aiguille du Midi ist ein nicht sichtbarer Gipfel, der in der Namendatei mit der Priorität 99 gekennzeichnet wurde (siehe Tab.&nbsp;6).<br />Eigener Export aus ArcView vom 25.04.2025</p>
 				</div>
 			</div>
 

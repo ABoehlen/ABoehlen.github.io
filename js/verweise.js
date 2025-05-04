@@ -202,24 +202,6 @@ dxMVT7000Dict["am"] = "12";
 dxMVT7000Dict["an"] = "2";
 dxMVT7000Dict["ao"] = "13";
 
-var dxMVT7000_2Dict = new Array();
-dxMVT7000_2Dict["aa"] = "1";
-dxMVT7000_2Dict["ab"] = "6";
-dxMVT7000_2Dict["ac"] = "14";
-dxMVT7000_2Dict["ad"] = "2";
-dxMVT7000_2Dict["ae"] = "13";
-dxMVT7000_2Dict["af"] = "7";
-dxMVT7000_2Dict["ag"] = "15";
-dxMVT7000_2Dict["ah"] = "8";
-dxMVT7000_2Dict["ai"] = "9";
-dxMVT7000_2Dict["aj"] = "10";
-dxMVT7000_2Dict["ak"] = "11";
-dxMVT7000_2Dict["al"] = "3";
-dxMVT7000_2Dict["am"] = "5";
-dxMVT7000_2Dict["an"] = "4";
-dxMVT7000_2Dict["ao"] = "12";
-dxMVT7000_2Dict["ap"] = "16";
-
 var dxUKWLoopDict = new Array();
 dxUKWLoopDict["aa"] = "1";
 dxUKWLoopDict["ab"] = "2";
@@ -321,9 +303,6 @@ function verweis(ref) {
       break;
     case "dxMVT7000":
       uebersetze(dxMVT7000Dict);
-      break;
-    case "dxMVT7000_2":
-      uebersetze(dxMVT7000_2Dict);
       break;
     case "dxUKWLoop":
       uebersetze(dxUKWLoopDict);

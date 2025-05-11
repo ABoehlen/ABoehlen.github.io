@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>MVT-7000 Modifikation</title>
+<link rel="stylesheet" href="../style.css" type="text/css" />
+<script type="text/javascript" src="../js/show.js"></script>
+<script type="text/javascript" src="../js/verweise.js"></script>
+<script type="text/javascript" src="../js/navi.js"></script>
+<script type="text/javascript" src="../js/footer.js"></script>
+</head>
+
+
+<body>
+<div id="mainContainer">
+	<div id="header">
+		<div class="box">
+		<h2>MVT-7000 Modifikation</h2>
+		</div>
+	</div>
+	<div id="navigation">
+		<script type="text/javascript">navigationsleiste("2");</script>
+	</div>
+	<div id="topShadow">&nbsp;	</div>
+	<div id="content">
+		<div class="box">
+			<h1>WFM-Filtermodifikation beim Yupiteru MVT-7000</h1>
+			<p>Adrian Böhlen<br />
+			Version 2.0 vom 10.05.2025</p>
+			
+			<h2>Einleitung</h2>
+
+			<p>Im Gegensatz zu vielen anderen Funkscannern kann mit dem MVT-7000 nicht nur Sprechfunk, sondern auch UKW-Rundfunk empfangen werden. Dafür ist die Betriebsart Breitband-FM (WFM) vorgesehen. Bereits bei den ersten Empfangsversuchen fiel mir aber die sehr schlechte Trennschärfe in diesem Modus auf. Das äussert sich dadurch, dass stark einfallende Signale noch auf zahlreichen Nachbarkanälen rechts und links zu hören sind, was den Empfang schwächerer Sender in Nachbarschaft zu stärkeren verunmöglicht. Dabei wären solche dank der hohen Empfindlichkeit wohl ohne weiteres aufzunehmen. Überraschend ist dieses Verhalten nicht, denn in einschlägiger Fachliteratur wird darauf hingewiesen, dass bei dieser Art Empfänger zumeist nur ein geringer Aufwand für WFM betrieben wird und keinesfalls eine Trennschärfe wie bei einem UKW-Tuner erwartet werden darf. Dies gilt nicht nur für portable Geräte wie dieses, sondern sogar für teure Stationsempfänger. <script type="text/javascript">var name="ai"; var kap=""; verweis("dxMVT7000wfm");</script></p>
+	
+			<p>WFM wird wie üblich separat verarbeitet, deshalb lässt sich hier durchaus noch etwas verbessern, ohne andere Funktionen zu beeinträchtigen. Der MVT-7000 ist als Mehrfachsuper ausgeführt, wobei die eigentliche Verarbeitung und Filterung in diesem Fall auf der zweiten ZF von 10.7 MHz vorgenommen wird. Und für diese ZF habe ich von früheren Umbauprojekten noch geeignete schmale Filter in der Bastelkiste. Vor einem solchen Eingriff muss das Gerät aber zunächst mal geöffnet werden, und das hat es in sich!</p>
+			
+			<h2>Zerlegung</h2>
+	
+			<p>Die Zerlegung ist in einem äusserst detaillierten Bericht auf der Seite <em>Mersey Radio</em> beschrieben. <script type="text/javascript">var name="ab"; var kap=""; verweis("dxMVT7000wfm");</script>. Ohne diese Hilfe wäre ich vermutlich gescheitert, denn das Vorgehen ist nicht intuitiv, aber eigentlich sollte der Benutzer solch ein Gerät ja auch nicht selber auseinander nehmen…</p>
+	
+			<p>Als erstes muss der Kunststoffdrehknopf des rastenden Abstimmknopfes durch vorsichtiges Ziehen entfernt werden. Um das Gerät öffnen zu können, ist es zwingend erforderlich, die darunter versenkt platzierte runde Befestigungsmutter zu entfernen (Abb.&nbsp;1). Bei den beiden anderen Drehknöpfen ist dies nicht notwendig. Diese Aktion kann viel Kopfzerbrechen bereiten. Der Autor von <em>Mersey Radio</em> empfiehlt, mit einem kleinen Schraubenzieher zu versuchen, die Mutter zu lösen, was bei mir nicht funktioniert hat. Ich bin dann zum Schluss gekommen, dass man auf beiden Seiten gleichzeitig drücken muss, aber da mir ein dafür geeignetes Werkzeug fehlte, löste ich das Problem, indem ich zwei Nägel im richtigen Abstand (8 mm) durch ein Stück Holzleiste trieb, und es mit dieser Konstruktion schlussendlich zustande brachte, durch vorsichtiges Drehen die festsitzende Mutter zu lösen. (Abb.&nbsp;2 und 3)</p>
+	
+			<div class="Reihe">
+				<div class="Zelle_norm">
+					<img width="320px" height="246px" alt="Drehknopf fixiert" onclick="show('./img/mvt_drehknopf_fixiert_640x492.jpg');" src="./img/mvt_drehknopf_fixiert_640x492.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;1:&nbsp;Drehknopf mit entferntem Abstimmungsknopf. Die runde Befestigungsmutter ist gut zu erkennen.<br />Eigene Aufnahme vom 22.09.2024</p>
+				</div>
+				<div class="Zelle_zw">
+				</div>
+				<div class="Zelle_norm">
+					<img width="320px" height="246px" alt="Drehknopf gelöst" onclick="show('./img/mvt_drehknopf_geloest_640x492.jpg');" src="./img/mvt_drehknopf_geloest_640x492.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;2:&nbsp;Die runde Befestigungsmutter ist entfernt.<br />Eigene Aufnahme vom 21.09.2024</p>
+				</div>
+			</div>
+			<div class="Bild_l">
+				<img width="320px" height="120px" alt="Werkzeug" onclick="show('./img/mvt_werkzeug_drehknopf_loesen_640x240.jpg');" src="./img/mvt_werkzeug_drehknopf_loesen_640x240.jpg" />
+				<p class="Bildlegende">Abb.&nbsp;3:&nbsp;Selbst gebasteltes «Werkzeug» zum Lösen der Befestigungsmutter<br />Eigene Aufnahme vom 20.09.2024</p>
+			</div>
+	
+			<p>Ist dies geschafft, müssen die kleinen Schrauben entfernt werden, die die beiden Gehäuse-Halbschalen zusammenhalten; insgesamt 10 Stück. Das ist sehr einfach und klappt mit einem kleinen Kreuzschlitz-Schraubenzieher problemlos. Damit sind alle Vorarbeiten erledigt und es geht als nächstes darum, sehr vorsichtig die beiden Hälften auseinander zu bewegen. Nun achte man insbesondere auf den freiliegenden Drehknopf, der nur mit Lötzinn über seine drei zierlichen Anschlüsse auf der Platine befestigt ist. Beim Öffnen muss er durch das Loch auf der Oberseite bewegt werden, ohne Druck auf ihn auszuüben. Dabei darf auch das Lautsprecherkabel nicht belastet werden, sondern muss an der Verbindungsstelle (einer feinen zweipoligen Steckverbindung) vorsichtig gelöst werden. Die Hauptverbindung zwischen den beiden Platinen erfolgt über eine 16-polige Stiftleiste, die ebenfalls vorsichtig aus dem Gegenstück gezogen werden muss. Dies alles hat gleichzeitig zu geschehen! (Abb.&nbsp;4)</p>
+	
+			<p>Bei diesem Vorgang lässt es sich nicht vermeiden, dass mehrere Kleinteile herausfallen, nämlich die Metallplättchen, in die die Gehäuseschrauben eingedreht werden, und die seitlich angebrachten Druck- und Schiebeschalter.</p>
+			
+			<h2>Austauschen des Keramikfilters</h2>
+	
+			<div class="Reihe">
+				<div class="Zelle_norm">
+					<img width="320px" height="240px" alt="Gerät geöffnet" onclick="show('./img/mvt_geraet_geoeffnet_1000x750.jpg');" src="./img/mvt_geraet_geoeffnet_1000x750.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;4:&nbsp;Gerät geöffnet. Rückseite oben, Vorderseite unten, diverse Kleinteile rechts. Die elektrische Verbindung der beiden Teile erfolgt über die 16-polige Leiste links. Das gelöste rot-schwarze Lautsprecherkabel ist ebenfalls zu erkennen.<br />Eigene Aufnahme vom 20.09.2024</p>
+				</div>
+				<div class="Zelle_zw">
+				</div>
+				<div class="Zelle_norm">
+					<img width="320px" height="240px" alt="Platine Hochfrequenztechnik" onclick="show('./img/mvt_platine_geloest_1000x750.jpg');" src="./img/mvt_platine_geloest_1000x750.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;5:&nbsp;Entfernte Platine der Geräterückseite mit der Hochfrequenztechnik. Zum Abschätzen der Grössenverhältnisse beachte man das quadratische Raster der Unterlage, dessen Linien einen Abstand von 5&nbsp;cm aufweisen.<br />Eigene Aufnahme vom 20.09.2024</p>
+				</div>
+			</div>
+	
+			<div class="Bild_l">
+				<img width="320px" height="150px" alt="Original-Keramikfilter" onclick="show('./img/mvt_e10-7s_640x300.jpg');" src="./img/mvt_e10-7s_640x300.jpg" />
+				<p class="Bildlegende">Abb.&nbsp;6:&nbsp;Originales Keramikfilter für WFM mit der Bezeichnung E10.7S<br />Eigene Aufnahme vom 20.09.2024</p>
+			</div>
+	
+			<p>Der Hochfrequenzteil befindet sich auf der Platine in der Gehäuserückseite. Um sie zu entfernen, sind drei weitere Schrauben zu lösen. (Abb.&nbsp;5) Neben 5 in Reihe stehend eingelöteten blauen Elektrolyt-Kondensatoren lässt sich dort das für WFM eingesetzte Keramikfilter erkennen. Es handelt sich um ein SFE&nbsp;10.7MS3-A (Aufschrift: E10.7S) von muRata, welches laut <em>The FM Ceramic Filter Page</em> <script type="text/javascript">var name="ac"; var kap=""; verweis("dxMVT7000wfm");</script> bereits bei -3&nbsp;dB eine Bandbreite von 180&nbsp;kHz aufweist, was beinahe zwei UKW-Kanälen entspricht. Bei -20&nbsp;dB beträgt diese sogar 520&nbsp;kHz und erklärt somit sehr anschaulich die schlechte Trennschärfe des Gerätes in der Einstellung WFM. (Abb.&nbsp;6)</p>
+
+			<p>Das Problem lässt sich beheben, indem ein baugleiches Filter desselben Herstellers mit deutlich schmalerer Bandbreite an seiner Stelle eingebaut wird. Dies ist ohne weiteres möglich, da die Nennimpedanz bei diesen zweistufigen Filtern (SFE) jeweils 330&nbsp;Ohm beträgt. <script type="text/javascript">var name="ad"; var kap=""; verweis("dxMVT7000wfm");</script> Ich habe mich für den Typen SFE&nbsp;10.7&nbsp;MV (Aufschrift E10.7V) entschieden, welchen ich vor Zeiten bei Jürgen Martens (DF5TY) in Eningen erwerben konnte. <script type="text/javascript">var name="ae"; var kap=""; verweis("dxMVT7000wfm");</script> Diese sehr schmalen Filter haben bei -3&nbsp;dB eine Bandbreite von nur noch 56&nbsp;kHz (bei -20&nbsp;dB 110&nbsp;kHz). <script type="text/javascript">var name="af"; var kap=""; verweis("dxMVT7000wfm");</script> Dies ist für eine verzerrungsfreie Wiedergabe eines UKW-Senders zwar zu wenig, aber da wir es hier nicht mit einer HiFi-Anlage, sondern einem Funkscanner zu tun haben, kann darüber hinweggesehen werden.</p>
+			
+			<p>Allerdings weist Jürgen Martens an anderer Stelle darauf hin, dass man bei einem einzigen Keramikfilter im ZF-Kreis keine Wunder erwarten darf. <em>Bekanntermaßen weist ein einzelnes Keramikfilter nur bescheidene Werte bei der Flankensteilheit und der Sperrdämpfung überhaupt auf. Daher sind selbst in einfachen Taschenempfängern zumindest zwei, bei hochwertigen Stereo-Tunern auch mehr, Keramikfilter im ZF-Teil enthalten.</em> <script type="text/javascript">var name="ah"; var kap=""; verweis("dxMVT7000wfm");</script> Bei solch kleinen Geräten, die einen derart grossen Frequenzbereich überstreichen, fehlt aber leider schlicht und einfach der Platz für aufwändige Schaltungen mit mehreren Filtern und Verstärkern im ZF-Teil.</p>
+	
+			<div class="Reihe">
+				<div class="Zelle_norm">
+					<img width="320px" height="200px" alt="Filter entfernt" onclick="show('./img/mvt_keramikfilter_entfernt_vorderseite_640x400.jpg');" src="./img/mvt_keramikfilter_entfernt_vorderseite_640x400.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;7:&nbsp;Ansicht von oben. Das Keramikfilter an der Position «FF3» ist entfernt. Die drei in Reihe liegenden Löcher sind gereinigt.<br />Eigene Aufnahme vom 21.09.2024</p>
+				</div>
+				<div class="Zelle_zw">
+				</div>
+				<div class="Zelle_norm">
+					<img width="320px" height="200px" alt="Lötstelle von unten" onclick="show('./img/mvt_neues_filter_eingesetzt_rueckseite_640x400.jpg');" src="./img/mvt_neues_filter_eingesetzt_rueckseite_640x400.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;8:&nbsp;Ansicht von unten. Das neue Filter ist in die drei in Reihe liegenden Löcher vor dem IC CX20111 eingelötet.<br />Eigene Aufnahme vom 21.09.2024</p>
+				</div>
+			</div>
+
+			<div class="Bild_l">
+				<img width="320px" height="150px" alt="neues Filter eingesetzt" onclick="show('./img/mvt_neues_filter_eingesetzt_vorderseite_640x300.jpg');" src="./img/mvt_neues_filter_eingesetzt_vorderseite_640x300.jpg" />
+				<p class="Bildlegende">Abb.&nbsp;9:&nbsp;Ansicht von oben mit dem neu eingesetzten Keramikfilter für WFM (E10.7V)<br />Eigene Aufnahme vom 21.09.2024</p>
+			</div>
+	
+			<p>Die Arbeit mit dem Lötkolben verlangt ausserordentlich viel Fingerspitzengefühl und eine ruhige Hand. Die Bauteile sind äusserst eng nebeneinander eingelötet und natürlich ist die Platine beidseitig mit hunderten Bauteilen bestückt. Ist das Filter mit Hilfe von Lötsauglitze erst einmal entfernt, geht es darum, die drei Löcher zu durchstossen, wozu ich eine Stecknadel verwendet habe. (Abb.&nbsp;7) Danach kann das neue Filter eingesetzt und mit wenig(!) Lötzinn die drei Anschlussbeinchen sauber verlötet werden. Der Anschluss auf der Innenseite der Platine wird dabei direkt mit dem SMD-Widerstand mit der Aufschrift «189» verbunden. (Abb.&nbsp;8 und 9)</p>
+	
+			<h2>Zusammenbau</h2>
+			<p>Ist dies geschafft, kann das Gerät wieder zusammengebaut werden. Ein Funktionstest bei geöffnetem Gerät ist leider nicht möglich, da die elektrischen Verbindungen unterbrochen sind. (siehe Abb.&nbsp;4) Vor dem Zusammenbau habe ich noch diverse Reinigungsarbeiten ausgeführt, vor allem auf der dünnen seitlichen Abdeckung, wo einst eine Art Klebstoff verwendet wurde, der aber unnötig ist, und sich im Laufe der Zeit zersetzt hat. Mit einem scharfen Messer liessen sich die Reste gut entfernen. Ausserdem wies das Gehäuse im Bereich des Batteriefachs Risse auf, was wenig erstaunt, da man die Batterien mit ziemlicher Kraft einsetzen muss, so stark sind die federnden Anschlussplättchen. Ich habe dazu den Kunststoff im Bereich der Risse angeschliffen und anschliessend grosszügig mit UHU Plus bestrichen.</p>
+	
+			<p>Der Zusammenbau ist leider noch kniffliger als die Zerlegung. Vor allem die herausgefallenen Kleinteile wieder an ihren Platz zu bringen und darauf zu achten, dass sie dort auch blieben, sorgt für viel Kopfzerbrechen. Und natürlich muss wieder besonders auf den Drehknopf geachtet werden, dass er gut durch das Loch gleitet und nirgends hängenbleibt. Das Zusammenschrauben ist ebenfalls nicht ohne Schwierigkeiten, insbesondere sind die kleinen Metallplättchen auf der Seite des Batteriefachs nur mit viel Geduld an die richtige Stelle zu bewegen, sodass die kleinen Schrauben eingedreht werden können.</p>
+	
+			<h2>Funktionstest und Ergebnisse</h2>
+
+			<p>Nach dem Einsetzen der Akkus sind leider alle gespeicherten Frequenzen gelöscht. Wie die Speicherung funktioniert, ist bei DH0HQN <script type="text/javascript">var name="ag"; var kap=""; verweis("dxMVT7000wfm");</script> dokumentiert. Vermutlich ist bei meinem Gerät der erwähnte «GoldCap» Kondensator auch defekt, aber ihn auszutauschen würde bedingen, auch die Platine in der vorderen Gehäusehälfte auszubauen. Da es für mich in dieser Sache derzeit keinen Handlungsbedarf gibt, habe ich das vorderhand unterlassen. Vielmehr interessiert mich nach dem Einschalten, ob in der Stellung WFM etwas zu hören ist, und falls ja, was. Wie ich erleichtert feststelle, ist die Modifikation geglückt und das neue Filter wirkt.</p>
+
+			<p>Die Zeit reicht nun nicht mehr für umfangreiche Tests, aber wenige Tage später geht es mit dem Gerät in den Urlaub nach <a target="_blank" href="https://s.geo.admin.ch/53yvep77tc53">Unterbach</a> bei Meiringen. Die Lage im engen Talgrund zwischen zwei Alpenketten ist für erfolgreichen UKW-Fernempfang ebenso eine Herausforderung wie nahe gelegene, stark einfallende Sender, die das Tal mit den ortsüblichen Programmen versorgen. Gerade mit letzterem kommt der MVT-7000 in der Stellung WFM leider überhaupt nicht zurecht. Zwar sorgt das schmalere Filter dafür, dass sich die einzelnen Sender nun nicht mehr über so viele Nachbarkanäle hinaus erstrecken wie zuvor. Allerdings haben die von Jürgen Martens erwähnten <em>bescheidenen Werte bei der […] Sperrdämpfung</em> zur Folge, dass starke Sender dann beim Weiterscannen unvermittelt wieder auftauchen, teilweise auch weit abseits der eigentlichen Frequenz. So ist Radio BeO (94.9&nbsp;MHz) vom 4&nbsp;km entfernten, 0.5&nbsp;kW starken und in Sichtweite liegenden Sender Hofstetten vor allem im Bereich zwischen den Chasseral-Frequenzen 102.3, 103.0 und 104.2 fast überall zu hören und allfällige dazwischenliegende, schwache Signale werden von diesen «Geisterstationen» völlig zugedeckt.</p>
+
+			<div class="Bild_r">
+				<img width="320px" height="545px" alt="WFM-Empfang" onclick="show('./img/mvt7000_ukw-wfm_640x1090.jpg');" src="./img/mvt7000_ukw-wfm_640x1090.jpg" />
+				<p class="Bildlegende">Abb.&nbsp;10:&nbsp;Das Gerät in Betrieb. Empfangen wird hier die Frequenz 89.0&nbsp;MHz vom 144&nbsp;km entfernten Witthoh mit dem Programm SWR&nbsp;4 Baden-Württemberg in der Betriebsart WFM, wobei nach einiger Zeit auf 89.05&nbsp;MHz abgestimmt werden muss. Trotz schwachem Signal mit nur einer S-Stufe ist der Empfang klar und rauscharm.<br />Eigene Aufnahme vom 01.10.2024</p>
+			</div>
+			
+			<p>Trotzdem gelingt der Empfang des einen oder anderen schwachen Signals in WFM, allerdings sind diese oft von einem undefinierbaren, aus verschiedenen Ortssendern zusammengemischten Klangteppich überlagert. Dieser lässt sich etwas reduzieren, wenn die recht lange Teleskopantenne etwas eingeschoben wird. Dadurch wird natürlich das eigentlich zu empfangende Signal auch schwächer und mitunter verrauschter. Der eingebaute Abschwächer (ATT) neben dem Antennenanschluss dämpft leider so stark, dass die gewünschte Station meist ebenfalls verschwindet. Bei so viel Kritik: Die Witthoh-Frequenz 89.0&nbsp;MHz lässt sich mit dem Programm SWR&nbsp;4 hier mitten in den Alpen ordentlich empfangen, was angesichts von 144&nbsp;km Distanz und der Sendeleistung von gerade mal 5&nbsp;kW ziemlich erstaunlich ist, zumal davon Richtung Schweiz kaum was rausgeht. <script type="text/javascript">var name="am"; var kap=""; verweis("dxMVT7000wfm");</script> Beim längeren Zuhören macht sich aber ein anderer Effekt bemerkbar: Die Frequenzstabilität in WFM scheint nicht sehr gut zu sein, denn nach etwa 20&nbsp;Minuten in Betrieb muss die Frequenz um eine 50&nbsp;kHz-Stufe nach ober korrigiert werden. Dies ist natürlich mit dem originalen, sehr breiten Filter nicht nachweisbar, mit dem nur noch 56&nbsp;kHz schmalen nachgerüsteten Filter hingegen schon. Die Ursache für dieses Verhalten ist mir leider nicht bekannt.</p>
+			
+			<p>Bemerkenswert finde ich, dass die Klangqualität gar nicht so stark beeinträchtigt wird, wie dies anhand der technischen Daten eigentlich zu erwarten wäre. Die Ursache dürfte wohl darin liegen, dass die vom Hersteller angegebene 56&nbsp;kHz Bandbreite bei -3&nbsp;dB gemessen wird und nicht, wie sonst üblich, bei -6&nbsp;dB. Tatsächlich hat Jürgen Martens bei seinen eigenen Messungen verschiedener muRata Keramikfilter der SFE-Reihe festgestellt, dass sie bei -6&nbsp;dB erheblich breiter als ihre Sollwerte sind. <script type="text/javascript">var name="ao"; var kap=""; verweis("dxMVT7000wfm");</script> Das SFE&nbsp;10.7&nbsp;MV stand 1993 noch nicht zur Verfügung, und leider fehlt mir selbst eine entsprechende Messvorrichtung, aber basierend auf den Daten der seinerzeit gemessenen SFE-Filter müsste das SFE&nbsp;10.7&nbsp;MV bei -6&nbsp;dB zwischen 70 und 80&nbsp;kHz breit sein und somit breit genug, um mit max. 75&nbsp;kHz ausgesteuerte UKW-Hörfunksender noch ohne nennenswerte Verzerrungen wiederzugeben. Dies gilt aber nur, wenn wie hier lediglich ein einziges Filter in der ZF vorhanden ist. Bei Verwendung mehrerer Filter stiege zwar die Sperrdämpfung erheblich und die Flanken würden deutlich steiler, jedoch würde auch die -6&nbsp;dB Bandbreite (und damit die Wiedergabequalität) reduziert.</p>
+			
+			<p>Insgesamt lässt sich sagen, dass sich die Modifikation trotz der beschriebenen Einschränkungen durchaus gelohnt hat. Dadurch wird das Gerät für halbwegs ernsthaften UKW-Empfang überhaupt erst brauchbar. Schwach bis mittelstark zu empfangende Sender werden im Abstand von 200&nbsp;kHz jetzt einwandfrei getrennt, auch die Trennung im Abstand von 100&nbsp;kHz ist in vielen Fällen möglich. Da Ende 2024 die SRG die Rundfunkversorgung auf UKW eingestellt hat und in der Schweiz nur noch private Anbieter auf einem Bruchteil der vormals benutzten Frequenzen aktiv sind, hat sich zumindest hierzulande der allgemeine Signalpegel deutlich reduziert, was die beobachteten Probleme mit starken Signalen weit gehend behoben hat.</p>
+	
+			<h3>Grundlagen und Literatur</h3>
+			<!-- automatically generated by quellenverzeichnis.awk -->
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>1</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					Helmbold, Frank et al: reflexion – Das Technik-Buch. UKW/TV-Arbeitskreis der AGDX e.V. Bremen 1996 (z.B. S.&nbsp;44ff)
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>2</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					<a target="_blank" href="https://www.merseyradar.co.uk/airband-radio/scanner-greats-yupiteru-mvt-7000-brought-back-to-life/">https://www.merseyradar.co.uk/airband-radio/scanner-greats-yupiteru-mvt-7000-brought-back-to-life/</a> (Yupiteru MVT-7000 brought back to life !)
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>3</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					<a target="_blank" href="https://earmark.net/gesr/cf.htm">https://earmark.net/gesr/cf.htm</a> (The FM Ceramic Filter Page)
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>4</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					Persönliches Schreiben von Bernhard Weiskopf, Mitglied im UKW/TV-Arbeitskreis der AGDX e. V. vom 27.02.2001
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>5</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					<a target="_blank" href="https://www.addx.de/addx/klubdienst.php">https://www.addx.de/addx/klubdienst.php</a> (Kontaktdaten von Jürgen Martens auf der Seite des ADDX)
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>6</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					<a target="_blank" href="https://www.alldatasheet.com/datasheet-pdf/pdf/1424487/MURATA1/SFE10.7MS2-Z.7.html">https://www.alldatasheet.com/datasheet-pdf/pdf/1424487/MURATA1/SFE10.7MS2-Z.7.html</a> (SFE10.7MS2-Z.7 Datasheet, Murata Manufacturing Co., Ltd, Seite 9 (Druckseite 7))
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>7</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					Martens, Jürgen: AOR AR-5000 Sonderausführung für UKW-DX, Informationsblatt mit persönlichem Schreiben vom 09.09.1998
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>8</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					<a target="_blank" href="https://www.qsl.net/dh0hqn/repair/yupiteru_mvt7000.shtml">https://www.qsl.net/dh0hqn/repair/yupiteru_mvt7000.shtml</a> (Yupiteru MVT-7000, Verlust von Einstellungen &amp; Speicherinhalten)
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>9</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					<a target="_blank" href="https://de.wikipedia.org/wiki/Sender_Witthoh">https://de.wikipedia.org/wiki/Sender_Witthoh</a> (Sender Witthoh)
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>10</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					siehe Anmerkung 1, S. 23ff
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sidebar">	
+		<div class="box">
+			<a href="../dx.html">Hauptseite DX<br /><br /></a>
+			<a href="./mvt7000.html">Hauptseite MVT-7000</a>
+		</div>
+	</div>
+	<div id="preview">
+		<div id="preview_inner" onclick="show_close()"></div>
+	</div>
+	<div id="bottomShadow">&nbsp;</div>
+	<div id="footer">
+		<script type="text/javascript">fusszeile("2");</script>
+	</div>
+</div>
+</body>
+</html>

@@ -14,5 +14,8 @@ _tiefpassfilt_$
 _kopfh-filter_$
 _ext-batt-ans_$
 _ext-batt-pack_$
+_filter-45k24_$
+_mob-dip-ein_$
+_mob-dip-vert_$
 
 # Ende

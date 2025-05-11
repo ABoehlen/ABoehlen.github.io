@@ -20,7 +20,7 @@ _ai_$https://www.youtube.com/watch?v=sUynyu-Bftg (Sendestelle HCJB Weenermoor)
 
 _aj_$Tech, Jürgen: Antennen zum Selbstbauen. Frech-Verlag, Stuttgart 1978, S.&nbsp;9ff
 
-_ak_$siehe Anmerkung _af_, S.&nbsp;11
+_ak_$Schiffhauer, Nils: Scanner – UKW-Sprechfunk-Empfänger. Siebel Verlag, Meckenheim 1995, S.&nbsp;11
 
 _al_$https://de.wikipedia.org/wiki/Überlagerungsempfänger (Überlagerungsempfänger)
 
@@ -31,5 +31,22 @@ _an_$Siebel, Wolf: Zusatzgeräte für den Funkempfang. Siebel Verlag, Meckenheim
 _ao_$Radio-Scanner, Das Hör- und Abhör-Magazin, Nr. 4/96. Burgdorf 1996, S.&nbsp;61ff
 
 _ap_$https://www.rigpix.com/yupiteru/mvt7000_schematic.pdf (Yupiteru MVT-7000 Schaltplan)
+
+_aq_$https://www.merseyradar.co.uk/airband-radio/scanner-greats-yupiteru-mvt-7000-brought-back-to-life/ (Yupiteru MVT-7000 brought back to life !)
+
+_ar_$https://www.rigpix.com/yupiteru/mvt7000.htm (Yupiteru MVT-7000 Specifications) 
+
+_as_$Schiffhauer, Nils: Scanner – UKW-Sprechfunk-Empfänger. Siebel Verlag, Meckenheim 1995, S. 113ff
+
+_at_$https://www.rigpix.com/yupiteru/mvt7000.htm (Yupiteru MVT-7000 Specifications) 
+
+_au_$Persönliches Schreiben von Bernhard Weiskopf, Mitglied im UKW/TV-Arbeitskreis der AGDX e. V. vom 27.02.2001 
+
+_av_$https://www.discriminator.nl/ic/cx20111.pdf (SONY FM/AM-Radio IC CX20111)
+
+_aw_$https://www.discriminator.nl/ic/mc3361.pdf (Motorola Low Power Narrowband IC MC3361C)
+
+_ax_$https://www.rigpix.com/yupiteru/mvt7000_schematic.pdf (Yupiteru MVT-7000 Schaltplan) 
+
 
 # Ende

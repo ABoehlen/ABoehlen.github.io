@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://gmpg.org/xfn/11">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>MVT-7000 Erfahrungen</title>
+<title>MVT-7000</title>
 <link rel="stylesheet" href="../style.css" type="text/css" />
 <script type="text/javascript" src="../js/show.js"></script>
 <script type="text/javascript" src="../js/navi.js"></script>
@@ -27,12 +27,15 @@
 		<div class="box">
 			<h1>Empfangsbeobachtungen und Erfahrungen mit dem Yupiteru MVT-7000</h1>
 			<p>Adrian Böhlen<br />
-			Version 2.0 vom 04.05.2025</p>
+			Version 2.1 vom 11.05.2025</p>
 
 			<h2>Einleitung</h2>
 
-			<p>Im <a href="./mvt7000.html">einleitenden Bericht zur Filtermodifikation</a> habe ich bereits einige Empfangsbeobachtungen mit dem Yupiteru MVT-7000 notiert, diese sind allerdings begrenzt auf den UKW-Hörfunkempfang in der Betriebsart Breitband-FM (WFM). Damit wird erst ein kleiner Teil der Fähigkeiten dieses Empfängers abgedeckt. Nachfolgend daher einige weitere Beobachtungen, die auch andere Wellenbereiche und/oder Betriebsarten einschliessen, ausserdem technische Details, sowie Erfahrungen mit der Stromversorgung und verschiedenen Zusatzgeräten. Die Reihenfolge der Themen ist etwas willkürlich, aber die einzelnen Abschnitte bauen aufeinander auf.</p>
+			<!--#Bib _aq_ -->
+			<p>Im Frühling 2024 konnte ich einen dieser tragbaren Breitbandempfänger für weniger als einem Fünftel des seinerzeitigen Neupreises über eBay in England erwerben. Der Zustand ist insgesamt sehr gut, was bei solchen Käufen längst nicht immer der Fall ist. Ein weniger schöner Fall ist ausführlich auf der Seite <em>Mersey Radio</em> <sup>_aq_</sup> dokumentiert. Für detaillierte Informationen zu diesem Empfänger und seiner Verwendung sei ausdrücklich auf diese sehr informative Seite verwiesen. Auch ich werde wiederholt darauf Bezug nehmen.</p>
 
+			<p>Während ich früher zum Rundfunk-Fernempfang den (inzwischen verkauften) grossen stationären Empfänger AOR AR-5000 einsetzte, bin ich in der Zwischenzeit (wieder) bei portablen Geräten gelandet, die den unschlagbaren Vorteil haben, dass man sie mühelos in den Urlaub oder auch einfach nur ins Freie mitnehmen kann; Hauptsache raus der Dämpfung des Gebäudes und dem elektrischen Störnebel. Natürlich bietet ein kleines Gerät wie der MVT-7000 längst nicht so viele Einstellmöglichkeiten wie ein Kommunikationsempfänger und hat auch sonst so seine Schwachpunkte, dennoch ist es erstaunlich, was so ein Winzling zu leisten imstande ist. Nachfolgend einige technische Details, Empfangsbeobachtungen sowie Erfahrungen mit der Stromversorgung und verschiedenen Zusatzgeräten. Die Reihenfolge der Themen ist etwas willkürlich, aber die einzelnen Abschnitte bauen aufeinander auf.</p>
+			
 			<h2>Themen</h2>
 			<div class="Reihe_zw">
 				<div class="Zelle_Inh_zw">
@@ -41,12 +44,17 @@
 			</div>
 			<div class="Reihe">
 				<div class="Zelle_Inh_r">
-					<a href="#ukw_nfm">UKW-DX in Schmalband-FM</a>
+					<a href="#eigensch">Eigenschaften</a>
 				</div>
 			</div>
 			<div class="Reihe">
 				<div class="Zelle_Inh_r">
-					<a href="#filter_nfm">Keramikfilter für Schmalband-FM</a>
+					<a href="#funkt">Funktionsprinzip</a>
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Inh_r">
+					<a href="#filter_nfm">Quarz- und Keramikfilter für Schmalband-FM</a>
 				</div>
 			</div>
 			<div class="Reihe">
@@ -56,12 +64,22 @@
 			</div>
 			<div class="Reihe">
 				<div class="Zelle_Inh_r">
+					<a href="#ukw_nfm">UKW-DX in Schmalband-FM</a>
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Inh_r">
 					<a href="#kw_empfang">Weltweiter Empfang auf Kurzwelle</a>
 				</div>
 			</div>
 			<div class="Reihe">
 				<div class="Zelle_Inh_r">
-					<a href="#ext_ant_kw">Externe Antennen für Kurzwellenempfang</a>
+					<a href="#ext_ant_dipol">Externe Dipolantenne</a>
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Inh_r">
+					<a href="#ext_ant_kw">Magnetische Antenne für Kurzwellenempfang</a>
 				</div>
 			</div>
 			<div class="Reihe">
@@ -89,36 +107,65 @@
 					<a href="#batt">Batterien und Akkus</a>
 				</div>
 			</div>
-
-			<a name="ukw_nfm"></a>
-			<h2>UKW-DX in Schmalband-FM</h2>
-
-			<!--#Fig _nfm-auf-ukw_ -->
-			<div class="Bild_l">
-				<img width="320px" height="250px" alt="NFM-Empfang" onclick="show('./img/mvt7000_ukw-nfm_640x500.jpg');" src="./img/mvt7000_ukw-nfm_640x500.jpg" />
-				<p class="Bildlegende">Abb.&nbsp;_nfm-auf-ukw_:&nbsp;Die Signale des weit nördlich der Schweizer Grenze liegenden Senders Witthoh kann der MVT-7000 in Unterbach&nbsp;BE, mitten in den Alpen, noch mit 3 von 5 S-Stufen wiedergeben, dies allerdings nur in NFM.<br />Eigene Aufnahme vom 01.10.2024</p>
+			<div class="Reihe">
+				<div class="Zelle_Inh_r">
+					<a href="#dok">Weitere Dokumentationen</a>
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Inh_r">
+					<a href="#quellen">Grundlagen und Literatur</a>
+				</div>
 			</div>
 
-			<p>Bei den Empfangstests in <a target="_blank" href="https://s.geo.admin.ch/53yvep77tc53">Unterbach&nbsp;BE</a> habe ich beim UKW-DX zwischendurch versuchshalber auch mal auf NFM umgeschaltet. Dabei zeigt sich ein gänzlich anderes Bild als in WFM: Zum einen ist die Empfindlichkeit deutlich höher und das S-Meter springt oft zwei bis drei Stufen nach oben. Zum anderen sind die beschriebenen Grosssignaleffekte weitaus schwächer und Sender, von denen in WFM keine Spur zu erkennen ist, sind laut und «deutlich» hörbar, z.B. Radio&nbsp;7 von Witthoh auf 102.5&nbsp;MHz mit 3&nbsp;S-Stufen (in WFM durch «Geistersender» zugedeckt). Auch die Trennschärfe ist so gut, dass selbst 100&nbsp;kHz neben Ortssendern Empfang möglich ist, z.B. der Bantiger auf 93.2&nbsp;MHz (SRF&nbsp;2) neben dem nur 5.6&nbsp;km entfernten und 0.5&nbsp;kW starken Sender Brienz/Wellenberg auf 93.1&nbsp;MHz (SRF&nbsp;1). Für ausgesprochenes DX in diesem Frequenzbereich ist der Empfänger also in der Stellung NFM durchaus zu gebrauchen, wenngleich dies den erheblichen Nachteil mit sich bringt, dass dynamik-komprimierte und/oder stark modulierte Signale kaum lesbar sind. Am besten geeignet für solche Versuche sind Kultur- und/oder Klassik-Programme (getestet mit SRF&nbsp;2, SWR&nbsp;Kultur und dem Deutschlandfunk). Auch die Frequenzstabilität ist in NFM ausgezeichnet und es zeigen sich bei längerer Betriebsdauer keinerlei Abweichungen.</p>
+			<a name="eigensch"></a>
+			<h2>Eigenschaften</h2>
 
-			<p>Natürlich ist dieser kleine Handscanner aber kein Top-DX-Gerät für UKW-Rundfunk. Wer über einen diesbezüglich leistungsfähigeren Empfänger verfügt, kann den MVT-7000 dennoch nutzen, um damit mittels Schmalband-FM noch einen Tick mehr herauszuholen. Wie das geht, ist in <a href="#zf">diesem Abschnitt</a> beschrieben.</p>
+			<!--#Bib _ar_ -->
+			<!--#Bib _as_ -->
+			<!--#Bib _ax_ -->
+			<p>Das Gerät kam 1990 auf den Markt <sup>_ar_</sup>, ehe es nach ein paar Jahren vom fast gleich aussehenden MVT-7100 abgelöst wurde. Ausserdem gab es eine stationäre Variante, ungefähr in der Grösse eines Autoradios unter dem Namen MVT-8000. <sup>_as_</sup> Der japanische Hersteller Yupiteru existiert noch immer (Stand 2025), stellt jedoch keine Empfangsgeräte mehr her. </p>
+			
+			<p>Der MVT-7000 ist ein Breitbandempfänger (auch Funkscanner oder Scanner genannt) mit einem durchgehenden Frequenzbereich von 0.1 bis 1300 MHz, wobei der garantierte Empfangsbereich bei 8 MHz beginnt. Wie im Abschnitt <a href="#empfangsber">Wie weit hinunter reicht der Empfangsbereich?</a> erläutert, ist in der Praxis aber noch auf deutlich niedrigeren Frequenzen Empfang möglich. Als Betriebsarten sind AM, Schmalband-FM (NFM) und Breitband-FM (WFM) verfügbar, die unabhängig von der aktuellen Frequenz eingestellt werden können. Die Schrittweite ist in verschiedenen Stufen zwischen 5 und 100&nbsp;kHz wählbar (in WFM stehen nur 50 und 100&nbsp;kHz zur Verfügung). Betrieben wird der ungefähr 18 × 7 × 4 cm grosse Empfänger mit 4 Mignon-Zellen (AA, bzw. gleichartigen NiMH-Akkus) oder externer 12&nbsp;V Gleichspannung. Details dazu weiter unten. Wie bei allen derartigen Geräten befindet sich auf der Oberseite der Antennenanschluss in Form eines BNC-Bajonetts, auf die dann z.B. die mitgelieferte Antenne (eine starre Teleskopantenne) aufgesteckt werden kann. Ich habe mir dann noch eine bis 75&nbsp;cm Länge ausziehbare Teleskopantenne mit Kippgelenk besorgt, was vor allem beim stationären Betrieb vorteilhaft ist. Mit einigen Einschränkungen ist auch der Anschluss beliebiger weiterer Antennen möglich. Mehr dazu weiter unten.</p>
+			
+			<p>Die ausführliche Bedienungsanleitung (die ich leider nur als sehr schlecht lesbare Fotokopie verfügbar habe) erläutert die vielseitigen Möglichkeiten, wie dieser Empfänger bedient werden kann. Im Gegensatz zu vielen anderen Funkscannern lässt sich das Gerät aber auch wie ein «normales» Radio bedienen, indem bekannte Frequenzen direkt über die Zahlentastatur eingegeben werden. Auch manueller Suchempfang im eingestellten Raster über die Up- und Down-Taste ist möglich. Desweitern gibt es auf der Oberseite einen rastenden Drehknopf, mit dem quasi-analog ein Bereich abgesucht werden kann. Bei meinem Gerät funktioniert dieser allerdings nicht mehr. Insgesamt 200 Frequenzen lassen sich speichern, wobei die Speicherung intern über einen Kondensator (<em>Gold Capacitor</em>) mit der hohen Kapazität von 0.22F sichergestellt wird. <sup>_ax_</sup> Diese Teile halten leider nicht ewig und verlieren irgendwann ihre Eigenschaften, was sich dadurch äussert, dass der Speicherinhalt weg ist, wenn das Gerät zwischendurch vom Strom getrennt wurde.</p>
+
+			<a name="funkt"></a>
+			<h2>Funktionsprinzip</h2>
+
+			<!--#Bib _at_ -->
+			<!--#Bib _au_ -->
+			<!--#Bib _aw_ -->
+			<!--#Bib _av_ -->
+			
+			<p>Der Empfänger ist als Mehrfachsuper geschaltet, wie bei Geräten mit solch grossem Empfangsbereich üblich. Um Spiegelfrequenzen vorzubeugen, liegt die erste Zwischenfrequenz sehr hoch (je nach eingestellter Frequenz auf 227.4 oder 592.2&nbsp;MHz) <sup>_at_</sup>. Für WFM wird danach direkt auf die dort übliche 10.7&nbsp;MHz hinuntergemischt, wo ein simples Keramikfilter die Bandbreite von ca. 180&nbsp;kHz bestimmt. Mehr dazu ist im Bericht <a href="mvt7000_wfm-filter-mod.html">WFM-Filtermodifikation beim Yupiteru MVT-7000</a> nachzulesen. Für NFM und AM beträgt die zweite Zwischenfrequenz 45&nbsp;MHz, wo eine erste Filterung vom Quarzfilter 45K24A1 vorgenommen wird. Informationen zu diesem Filter konnte ich keine finden, aber gemäss den Ausführungen von Bernhard Weiskopf  <sup>_au_</sup> müsste es sich um ein Filter der Bandbreite 24&nbsp;kHz mit einem einzelnen Serien-Resonator handeln. Mit dem weit verbreiteten Motorola-Baustein MC3361D <sup>_aw_</sup> wird schliesslich die finale Zwischenfrequenz von 455&nbsp;kHz erzeugt, die mit dem Keramikfilter LF-B15 auf 15&nbsp;kHz Bandbreite begrenzt wird. Mehr dazu im nächsten Abschnitt. Für die (N)FM-Demodulation wird das Signal anschliessend abermals in den MC3361D eingespeist, während die AM-Demodulation im SONY-Baustein CX20111 erfolgt, der auch die WFM-Verarbeitung auf der 10.7&nbsp;MHz Ebene übernimmt. <sup>_av_</sup></p>
+
 
 			<a name="filter_nfm"></a>
-			<h2>Keramikfilter für Schmalband-FM</h2>
+			<h2>Quarz- und Keramikfilter für Schmalband-FM</h2>
 
+			<!--#Fig _filter-45k24_ -->
 			<!--#Fig _filter-lfb15_ -->
-			<div class="Bild_l">
-				<img width="320px" height="200px" alt="Filter LF-B15" src="./img/mvt_lf-b15_320x200.jpg" />
-				<p class="Bildlegende">Abb.&nbsp;_filter-lfb15_:&nbsp;Das 15&nbsp;kHz-Filter auf der 455&nbsp;kHz-Ebene mit seiner typischen Kästchenform.<br />Eigene Aufnahme vom 20.09.2024</p>
+			<div class="Reihe">
+				<div class="Zelle_norm">
+					<img width="320px" height="200px" alt="Filter 45K24A1" src="./img/mvt_45k24a1_320x200.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;_filter-45k24_:&nbsp;Das 24&nbsp;kHz-Quarzfilter auf der 45&nbsp;MHz-Ebene mit seiner typischen Quarzform.<br />Eigene Aufnahme vom 09.05.2025</p>
+				</div>
+				<div class="Zelle_zw">
+				</div>
+				<div class="Zelle_norm">
+					<img width="320px" height="200px" alt="Filter LF-B15" src="./img/mvt_lf-b15_320x200.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;_filter-lfb15_:&nbsp;Das 15&nbsp;kHz-Keramikfilter auf der 455&nbsp;kHz-Ebene mit seiner typischen Kästchenform.<br />Eigene Aufnahme vom 20.09.2024</p>
+				</div>
 			</div>
 
-			<p>In Zusammenhang mit der Betriebsart NFM lohnt sich ein Blick auf die dort verwendete Zwischenfrequenz (ZF). Im Gegensatz zu WFM wird das Signal hierzu auf 455&nbsp;kHz hinunter gemischt, wie das bei schmalen Bandbreiten allgemein üblich ist. Für kaskadierte, d.h. mehrstufig hintereinander angeordnete Filter fehlt hier ebenso der Platz wie bei WFM, weshalb es ein Bauteil allein richten muss. Dieses stammt vom mir bis dato nicht bekannten Hersteller NKT und trägt die Bezeichnung LF-B15. Allerdings zeigt es die typische Kästchenform, wie man sie auch von 455&nbsp;kHz-Filtern anderer Hersteller kennt, die meist in einem schwarzen oder gelben Gehäuse angeboten werden (wurden).</p>
+			<p>Während WFM nur auf der 10.7&nbsp;MHz Zwischenfrequenz (ZF) mit einem einzigen Keramikfilter gefiltert wird, ist die Schaltung für die Betriebsart NFM deutlich umfassender. Als zweite ZF (die erste dient nur der Unterdrückung von Spiegelfrequenzen) wird 45&nbsp;MHz verwendet, wo ein Quarzfilter mit eher ungewöhnlichen 24&nbsp;kHz Bandbreite eine erste Bereinigung vornimmt. Details zu diesem Filter fehlen. Im Anschluss erfolgt die Umsetzung auf 455&nbsp;kHz, wie das bei schmalen Bandbreiten allgemein üblich ist. Für kaskadierte, d.h. mehrstufig hintereinander angeordnete Filter fehlt der Platz, weshalb es dort ein Bauteil allein richten muss. Dieses stammt vom mir bis dato nicht bekannten Hersteller NKT und trägt die Bezeichnung LF-B15. Allerdings zeigt es die typische Kästchenform, wie man sie auch von 455&nbsp;kHz-Filtern anderer Hersteller kennt, die meist in einem schwarzen oder gelben Gehäuse angeboten werden (wurden).</p>
 
 			<!--#Bib _aa_ -->
-			<p>Das Datenblatt ist zwar in japanischer Sprache verfasst, dennoch lassen sich die relevanten Parameter gut erkennen. Demnach beträgt die Bandbreite bei -6&nbsp;dB 15&nbsp;kHz und bei -40&nbsp;dB 40&nbsp;kHz. <sup>_aa_</sup> Auf den Diagrammen mit den Frequenzcharakteristika lässt sich erkennen, dass die obere Flanke im Abstand von 100 und 200 kHz zwei Nebenresonanzen (bis ca. -25&nbsp;dB) aufweist. Stark einfallende Nachbarsender im UKW-Bereich werden auf jeden Fall gut unterdrückt, wie im vorherigen Abschnitt bereits belegt ist.</p>
+			<p>Das Datenblatt ist zwar in japanischer Sprache verfasst, dennoch lassen sich die relevanten Parameter gut erkennen. Demnach beträgt die Bandbreite bei -6&nbsp;dB 15&nbsp;kHz und bei -40&nbsp;dB 40&nbsp;kHz. <sup>_aa_</sup> Auf den Diagrammen mit den Frequenzcharakteristika lässt sich erkennen, dass die obere Flanke im Abstand von 100 und 200 kHz zwei Nebenresonanzen (bis ca. -25&nbsp;dB) aufweist. Stark einfallende Nachbarsender im UKW-Bereich werden auf jeden Fall gut unterdrückt, wie im nächsten Abschnitt erläutert wird.</p>
 			
 			<!--#Bib _ab_ -->
-			<p>Der Hersteller NKT scheint nicht mehr zu existieren, muRata bietet aber weiterhin keramische Filter in diesem Gehäuse an. Eine Modifikation durch einen baugleichen Typen mit schmalerer Bandbreite wäre also auch bei diesem Filter prinzipiell möglich. Da es allerdings für AM und NFM gleichermassen verwendet wird, macht dies m.E. wenig Sinn. Sollte jedoch ein Ersatz ins Auge gefasst werden, so dürfte sich der Typ CFULA455KB2A-B0 hierfür am besten eignen. <sup>_ab_</sup> Auf der Platinenrückseite sind im Bereich des Filters allerdings zahlreiche SMD-Widerstände verlötet, weshalb sich dieses Unterfangen wesentlich anspruchsvoller gestalten würde, als der Ersatz des WFM-Filters.</p>
+			<p>Der Hersteller NKT scheint nicht mehr zu existieren, aber vom bekannten Hersteller muRata sind weiterhin keramische Filter in diesem Gehäuse erhältlich. Eine Modifikation durch einen baugleichen Typen mit schmalerer Bandbreite wäre also auch bei diesem Filter prinzipiell möglich. Da es allerdings für AM und NFM gleichermassen verwendet wird, macht dies m.E. wenig Sinn. Sollte jedoch ein Ersatz ins Auge gefasst werden, so dürfte sich der Typ CFULA455KB2A-B0 hierfür am besten eignen. <sup>_ab_</sup> Auf der Platinenrückseite sind im Bereich des Filters allerdings zahlreiche SMD-Widerstände verlötet, weshalb sich dieses Unterfangen wesentlich anspruchsvoller gestalten würde, als der Ersatz des WFM-Filters.</p>
 
 			<a name="sperr"></a>
 			<h2>Wie gut sperren die Filter?</h2>
@@ -132,7 +179,7 @@
 			<!--#Bib _ac_ -->
 			<p>Ausgehend von den Daten der eingesetzten Filter und unter Zuhilfenahme des eigenen CB-Senders auf 27.185&nbsp;MHz lässt sich nun prüfen, wie gut die Filter bei einem starken Signal sperren. Als Messempfänger für die Signalstärke dient der in ca. 1&nbsp;m Distanz von der Sendeantenne aufgestellte Lowe HF-225 von 1989, der ebenfalls einen koaxialen 50&nbsp;Ohm-Antennenanschluss aufweist (PL-259 Norm), in den ich eine passende Teleskopantenne eingeschraubt habe. Das S-Meter zeigt knapp über S9 an, was einer Eingangsspannung am Antennenanschluss von ungefähr 50&nbsp;µV entspricht. <sup>_ac_</sup> Dies ist nun kein überaus hoher Wert und weniger als ich erwartet hatte. Gerade im Sichtfeld starker Sender dürften in der Praxis noch deutlich stärkere Pegel zu registrieren sein. Als Testanordnung ist dies aber ein realistisches Szenario und daher gut geeignet.</p>
 
-			<p>Moduliert mit Musik in Schmalband-FM geht es nun darum zu prüfen, wie weit abseits der eigentlichen Frequenz der MVT-7000 dieses Tonsignal noch hören lässt und dies sowohl in NFM wie auch in WFM.</p>
+			<p>Moduliert mit Musik in Schmalband-FM geht es nun darum zu prüfen, wie weit abseits der eigentlichen Frequenz der MVT-7000 dieses Tonsignal noch hören lässt und dies sowohl in NFM wie auch in WFM. Hier ist wichtig zu wissen, dass die im Bericht <a href="mvt7000_wfm-filter-mod.html">WFM-Filtermodifikation beim Yupiteru MVT-7000</a> beschriebene Modifikation bereits durchgeführt wurde. Mit dem originalen Filter ergibt sich noch eine deutlich grössere Streuung starker Signale.</p>
 
 			<p>In NFM lässt sich das Signal bis 27.12&nbsp;MHz hinunter hören, gefolgt von einigen weiteren Durchschlägen, z.B. auf 27.07&nbsp;MHz. Weiter abwärts ist Ruhe. In der Gegenrichtung gibt es Empfang bis 27.215&nbsp;MHz, gefolgt von einem undefinierbaren Geräuschpegel, der verschwindet, wenn der Sender abgestellt wird. Nach 200&nbsp;kHz gibt es einen kräftigen Durchschlag bei 27.385&nbsp;MHz, wie dies gemäss den Daten des Herstellers zu erwarten war (siehe vorheriger Abschnitt). Weitere schwache Durchschläge sind bei 27.44 und 27.525&nbsp;MHz zu registrieren, danach herrscht auch hier Ruhe.</p>
 
@@ -152,7 +199,20 @@
 			<p>In NFM sind die Effekte weniger ausgeprägt, aber auch hier lässt sich das Signal bis 87.9 bzw. 88.5&nbsp;MHz beobachten. Der Empfang selbst schwacher benachbarter Sender klappt hingegen recht gut (87.7&nbsp;MHz France Culture, Strasbourg und 89.0&nbsp;MHz SWR&nbsp;4, Wannenberg), was daran erkennbar ist, dass das Ergebnis sich nicht gross verändert, wenn der eigene Sender abgeschaltet wird.</p>
 			
 			<!--#Bib _ae_ -->
-			<p>Diese Tests bestätigen insgesamt die in der Empfangspraxis gemachten Erfahrungen: Das einzelne SFE-Filter im WFM-Zweig hat leider nur eine geringe Sperrwirkung, weshalb starke Signale auch in grossem Abstand zur Sendefrequenz noch zu hören sind, obwohl das Diagramm der Frequenzcharakteristik für die Weitabselektion eine Dämpfung bis 50&nbsp;dB ausweist. <sup>_ae_</sup> Demgegenüber sperrt das Filter auf der 455&nbsp;kHz-Ebene deutlich besser, jedoch kann es auch hier zu Problemen im Nahbereich starker Sender kommen.</p>
+			<p>Diese Tests bestätigen insgesamt die in der Empfangspraxis gemachten Erfahrungen: Das einzelne SFE-Filter im WFM-Zweig hat leider nur eine geringe Sperrwirkung, weshalb starke Signale auch in grossem Abstand zur Sendefrequenz noch zu hören sind, obwohl das Diagramm der Frequenzcharakteristik für die Weitabselektion eine Dämpfung bis 50&nbsp;dB ausweist. <sup>_ae_</sup> Demgegenüber sperrt das Filter auf der 455&nbsp;kHz-Ebene deutlich besser, was natürlich auch der «Vorarbeit» durch das 24&nbsp;kHz Filter auf der zweiten ZF-Ebene zu verdanken ist. Trotzdem kann es auch hier zu Problemen im Nahbereich starker Sender kommen.</p>
+
+			<a name="ukw_nfm"></a>
+			<h2>UKW-DX in Schmalband-FM</h2>
+
+			<!--#Fig _nfm-auf-ukw_ -->
+			<div class="Bild_l">
+				<img width="320px" height="250px" alt="NFM-Empfang" onclick="show('./img/mvt7000_ukw-nfm_640x500.jpg');" src="./img/mvt7000_ukw-nfm_640x500.jpg" />
+				<p class="Bildlegende">Abb.&nbsp;_nfm-auf-ukw_:&nbsp;Die Signale des weit nördlich der Schweizer Grenze liegenden Senders Witthoh kann der MVT-7000 in Unterbach&nbsp;BE, mitten in den Alpen, noch mit 3 von 5 S-Stufen wiedergeben, dies allerdings nur in NFM.<br />Eigene Aufnahme vom 01.10.2024</p>
+			</div>
+
+			<p>Wie gesehen ergeben sich auch mit modifizierter Bandbreite in WFM noch zahlreiche Probleme vor allem im Umfeld starker Signale. Bei den Empfangstests 2024 in <a target="_blank" href="https://s.geo.admin.ch/53yvep77tc53">Unterbach&nbsp;BE</a> habe ich beim UKW-DX daher zwischendurch versuchshalber auch mal auf NFM umgeschaltet. Dabei zeigt sich ein gänzlich anderes Bild als in WFM: Zum einen ist die Empfindlichkeit deutlich höher und das S-Meter springt oft zwei bis drei Stufen nach oben. Zum anderen sind die beschriebenen Grosssignaleffekte weitaus schwächer und Sender, von denen in WFM keine Spur zu erkennen ist, sind laut und «deutlich» hörbar, z.B. Radio&nbsp;7 von Witthoh auf 102.5&nbsp;MHz mit 3&nbsp;S-Stufen (in WFM durch «Geistersender» zugedeckt). Auch die Trennschärfe ist so gut, dass selbst 100&nbsp;kHz neben Ortssendern Empfang möglich ist, z.B. der Bantiger auf 93.2&nbsp;MHz (SRF&nbsp;2) neben dem nur 5.6&nbsp;km entfernten und 0.5&nbsp;kW starken Sender Brienz/Wellenberg auf 93.1&nbsp;MHz (SRF&nbsp;1). Für ausgesprochenes DX in diesem Frequenzbereich ist der Empfänger also in der Stellung NFM durchaus zu gebrauchen, wenngleich dies den erheblichen Nachteil mit sich bringt, dass dynamik-komprimierte und/oder stark modulierte Signale kaum lesbar sind. Am besten geeignet für solche Versuche sind Kultur- und/oder Klassik-Programme (getestet mit SRF&nbsp;2, SWR&nbsp;Kultur und dem Deutschlandfunk). Auch die Frequenzstabilität ist in NFM ausgezeichnet und es zeigen sich bei längerer Betriebsdauer keinerlei Abweichungen.</p>
+
+			<p>Damit ist der MVT-7000 zwar noch kein Top-DX-Gerät für UKW-Rundfunk. Wer über einen diesbezüglich leistungsfähigeren Empfänger verfügt, kann ihn dennoch nutzen, um mittels Schmalband-FM noch einen Tick mehr herauszuholen. Wie das geht, ist im Abschnitt <a href="#zf">Zwischenfrequenz empfangen</a> beschrieben.</p>
 			
 			<a name="kw_empfang"></a>
 			<h2>Weltweiter Empfang auf Kurzwelle</h2>
@@ -164,10 +224,32 @@
 			</div>
 			
 			<!--#Bib _af_ -->
-			<p>Der MVT-7000 ist bekanntlich ein Breitbandempfänger, daher lohnt sich ein Blick auf andere Wellenbereiche. Nun heisst es zwar manchmal, der Kurzwellenbereich sei bei den meisten Funkscannern nur ein Werbeargument und in der Praxis kaum zu gebrauchen <sup>_af_</sup>, beim MVT-7000 trifft das aber ganz und gar nicht zu. Wie bereits gesehen, entspricht die AM-Bandbreite etwa drei Kurzwellenkanälen à 5&nbsp;kHz, was in der Praxis weniger ein Problem ist, als man vielleicht denken könnte. Beim Vergleich mit einem klassischen portablen Weltempfänger hoher Qualität (Panasonic RF-B45 von 1991) zeigte sich, dass der MVT-7000 die meisten mit dem Vergleichsgerät gehörten Sender ebenfalls empfangen kann und dies mit der bei diesem Gerät auf Kurzwelle nicht ideal angepassten Teleskopantenne. Yupiteru hat diesen Frequenzbereich offensichtlich sehr ernst genommen und dem Empfänger auch dort eine überdurchschnittliche Empfindlichkeit beschert. Weitere Details dazu in den nächsten Abschnitten.</p>
+			<p>Der MVT-7000 ist bekanntlich ein Breitbandempfänger, daher lohnt sich auch ein Blick auf Wellenbereiche abseits von UKW. Nun heisst es zwar manchmal, der Kurzwellenbereich sei bei den meisten Funkscannern nur ein Werbeargument und in der Praxis kaum zu gebrauchen <sup>_af_</sup>, beim MVT-7000 trifft das aber ganz und gar nicht zu. Wie bereits gesehen, entspricht die AM-Bandbreite etwa drei Kurzwellenkanälen à 5&nbsp;kHz, was in der Praxis weniger ein Problem ist, als man vielleicht denken könnte. Beim Vergleich mit einem klassischen portablen Weltempfänger hoher Qualität (Panasonic RF-B45 von 1991) zeigte sich, dass der MVT-7000 die meisten mit dem Vergleichsgerät gehörten Sender ebenfalls empfangen kann und dies mit der bei diesem Gerät auf Kurzwelle nicht ideal angepassten Teleskopantenne. Yupiteru hat diesen Frequenzbereich offensichtlich sehr ernst genommen und dem Empfänger auch dort eine überdurchschnittliche Empfindlichkeit beschert. Weitere Details dazu weiter unten.</p>
+
+			<a name="ext_ant_dipol"></a>
+			<h2>Externe Dipolantenne</h2>
+
+			<p>Wie schon mehrfach erwähnt, ist der MVT-7000 hochempfindlich und verarbeitet auch sehr schwache Antennenspannungen noch zu hörbaren Signalen. Auf der anderen Seite reagiert er im wahrsten Sinne des Wortes «empfindlich» auf starke Signale und ist dann anfällig für allerhand Grosssignalstörungen. Aus diesem Grund erscheint es zunächst wenig sinnvoll, an den BNC-Anschluss eine externe Antenne anzuschliessen, wo doch selbst die voll ausgezogene Teleskopantenne manchmal schon zuviel des Guten ist. Allerdings gibt es durchaus Situationen, wo sich mit einer an einen bestimmten Frequenzbereich optimal angepassten Antenne deutliche Empfangsverbesserungen erzielen lassen. Eine solche angepasste Antenne ist der Dipol. Entspricht seine Gesamtlänge ungefähr der halben Wellenlänge der Empfangsfrequenz, ist er optimal angepasst, zudem ergeben sich beim direkten Einspeisen des Signals in ein Koaxkabel kaum Anpassungsverluste.</p>
+			
+			<p>Basierend auf diesen Überlegungen habe ich mit zwei auf je 80&nbsp;cm ausziehbaren Teleskopantennen, ein wenig Abfallholz, viel Klebstoff und einem Stück Koaxkabel mit BNC-Stecker einen Dipol aufgebaut. Der Vorteil einer solchen Konstruktion liegt darin, dass je nachdem wieviele Segmente der Teleskope ausgefahren werden, verschiedene Wellenbereiche erfasst werden können. Ausserdem ist er bei eingeschobenen Antennenstäben ziemlich kompakt und gut transportierbar. Die Wirkung ist allerdings nicht überall gleich: Während sich im UKW-Rundfunkbereich keine signifikanten Verbesserungen gegenüber der normalen Teleskopantenne ergeben, ist die Empfindlichkeit im Flugfunkbereich mit dieser Dipolantenne deutlich höher, was beispielsweise beim schwachen Signal von Meiringen INFO auf 135.475&nbsp;MHz auffällt. Die Antenne lässt sich bequem in der Hand halten, oder alternativ z.B. an einer Holzwand befestigen (siehe nachstehend). Im Flugfunkbereich ist die Polarisation vertikal, weshalb der Dipol senkrecht stehen muss. Für den Empfang horizontal polarisierter Singale ist er dagegen waagerecht zu halten.</p>
+
+			<!--#Fig _mob-dip-ein_ -->
+			<!--#Fig _mob-dip-vert_ -->
+			<div class="Reihe">
+				<div class="Zelle_norm">
+					<img width="320px" height="426px" alt="Mobiler Dipol eingeschoben" onclick="show('./img/mobiler-dipol_eingeschoben_640x853.jpg');" src="./img/mobiler-dipol_eingeschoben_640x853.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;_mob-dip-ein_:&nbsp;Mobile Dipolantenne mit eingeschobenen Teleskopstäben.<br />Eigene Aufnahme vom 10.05.2025</p>
+				</div>
+				<div class="Zelle_zw">
+				</div>
+				<div class="Zelle_norm">
+					<img width="320px" height="426px" alt="Mobiler Dipol vertikal" onclick="show('./img/mobiler-dipol_vertikal_montiert_640x853.jpg');" src="./img/mobiler-dipol_vertikal_montiert_640x853.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;_mob-dip-vert_:&nbsp;Mobile Dipolantenne, vertikal montiert. Die drei äussersten Segmente sind jeweils eingeschoben, womit jeder Schenkel ca. 50&nbsp;cm lang ist, was für den Empfang im oberen Flugfunkbereich ideal ist (Wellenlänge ca. 2.2&nbsp;m).<br />Eigene Aufnahme vom 10.05.2025</p>
+				</div>
+			</div>
 
 			<a name="ext_ant_kw"></a>
-			<h2>Externe Antennen für Kurzwellenempfang</h2>
+			<h2>Magnetische Antenne für Kurzwellenempfang</h2>
 
 			<!--#Fig _grahn-ant_ -->
 			<div class="Bild_l">
@@ -176,7 +258,7 @@
 			</div>
 
 			<!--#Bib _ag_ -->
-			<p>Wie schon mehrfach erwähnt, ist der MVT-7000 hochempfindlich und verarbeitet auch sehr schwache Antennenspannungen noch zu hörbaren Signalen. Auf der anderen Seite reagiert er im wahrsten Sinne des Wortes «empfindlich» auf starke Signale und ist dann anfällig für allerhand Grosssignalstörungen. Aus diesem Grund erscheint es zunächst wenig sinnvoll, an den BNC-Anschluss eine externe Antenne anzuschliessen, wo doch selbst die voll ausgezogene Teleskopantenne manchmal schon zuviel des Guten ist. Eine Ausnahme gibt es aber: Selektive Rahmenantennen (engl. <em>Magnetic Loops</em>) empfangen die magnetische Komponente der elektromagnetischen Wellen und dies nur in einem schmalen Frequenzbereich. Sie sind folglich bei jedem Senderwechsel neu einzustellen, unterdrücken dafür aber sehr wirkungsvoll störende Signale anderer, unerwünschter Sender. Solche Antennen lassen sich mit etwas Aufwand selber bauen, daneben gibt es auch verschiedene käufliche Produkte, wie beispielsweise jene des deutschen Herstellers Grahn. <sup>_ag_</sup> Hierbei handelt es sich um aktive Antennensysteme, d.h. im Basisgerät ist ein Verstärker integriert, der immer eingeschaltet sein muss. Um den Empfänger nicht zu überfordern, dreht man den entsprechenden Regler am besten zunächst auf das Minimum zurück, was oft schon ein genügend starkes Signal ergibt. Andernfalls kann man versuchen, ob mit einer höheren Verstärkung eine Empfangsverbesserung eintritt.</p>
+			<p>Ein weiterer Antennentyp, der mit dem MVT-7000 sehr gut betrieben werden kann, ist die selektive Rahmenantenne (engl. <em>Magnetic Loop</em>). Antennen dieser Art empfangen die magnetische Komponente der elektromagnetischen Wellen und dies nur in einem schmalen Frequenzbereich. Sie sind folglich bei jedem Senderwechsel neu einzustellen, unterdrücken dafür aber sehr wirkungsvoll störende Signale anderer, unerwünschter Sender. Solche Antennen lassen sich mit etwas Aufwand selber bauen, daneben gibt es auch verschiedene käufliche Produkte, wie beispielsweise jene des deutschen Herstellers Grahn. <sup>_ag_</sup> Hierbei handelt es sich um aktive Antennensysteme, d.h. im Basisgerät ist ein Verstärker integriert, der immer eingeschaltet sein muss. Um den Empfänger nicht zu überfordern, dreht man den entsprechenden Regler am besten zunächst auf das Minimum zurück, was oft schon ein genügend starkes Signal ergibt. Andernfalls kann man versuchen, ob mit einer höheren Verstärkung eine Empfangsverbesserung eintritt.</p>
 
 			<!--#Bib _ah_ -->
 			<p>Bei Empfangsversuchen zeigte sich, dass mit einer solchen Antenne insbesondere während der Tagesdämpfung durchaus Sender recht ordentlich empfangen werden können, die mit der Teleskopantenne nicht hörbar sind. Als Beispiel sei hier der 10&nbsp;kW starke und von meinem QTH rund 350&nbsp;km entfernte Sender Rohrbach/Waal in Bayern auf 6070&nbsp;kHz erwähnt, der tagsüber nur sehr schwach ankommt. Abends und nachts, wenn die Signale vor allem auf den unteren Bändern insgesamt deutlich stärker werden, ist dieser Aspekt weniger bedeutend, trotzdem sind auch dann Verbesserungen möglich. Dies vor allem deshalb, weil die selektive Rahmenantenne den Empfänger stark entlastet und so das Hintergrundrauschen weitaus geringer ist als beim Betrieb mit der Teleskopantenne, die natürlich «alles» empfängt. Allerdings will solch eine aktive Antenne mit Strom versorgt sein; im Falle der erwähnten Grahn-Antenne sind dies 12&nbsp;V Gleichspannung, die über ein externes Netzteil eingespeist werden müssen. Daher eignet sich diese Art Antenne eher für den stationären Betrieb. Ist ein mobiler Betrieb erwünscht&nbsp;–&nbsp;schliesslich haben wir es ja mit einem portablen Empfänger zu tun&nbsp;–&nbsp;käme allenfalls eine selbst gebaute, mobile und passive Rahmenantenne in Frage, wie sie im Buch «Technik, Tips &amp; Tricks» beschrieben ist. <sup>_ah_</sup> Ob sich eine nach diesem Prinzip arbeitende Antenne auch für höhere Frequenzen als die Kurzwelle bauen und sinnvoll einsetzen lässt, möchte ich bei Gelegenheit noch untersuchen. Ergebnisse folgen hier zu einem späteren Zeitpunkt.</p>
@@ -289,7 +371,7 @@
 			</ul>
 			
 			<!--#Bib _ap_ -->
-			<p>Die einzige Alternative ist der Betrieb mit einem Netzteil, welches gemäss Anleitung 12&nbsp;V liefern soll. Diese zu hohe Spannung wird intern mit dem Toshiba-Baustein TA78006AP auf 6V begrenzt, wie aus dem Schaltplan hervorgeht. <sup>_ap_</sup> Diese Lösung kam für mich aber nicht in Frage, weil ich das Gerät ja mobil einsetzen möchte. Also blieb als Lösung nur ein Umbau des Geräts, damit es mit 5&nbsp;NiMH-Zellen versorgt werden kann, was die vorgegebenen 6&nbsp;V ergibt. Dazu geeignete Batteriehalter gibt es meines Wissens keine, aber in der Bastelkiste fand sich noch ein Exemplar für 6 Zellen. Das nicht benutzte Fach muss dann mit einer passenden Konstruktion überbrückt werden, damit der Stromkreis geschlossen wird. Alternativ kann man auch 6 Akkus laden, was dann allerdings eine etwas zu hohe Spannung ergibt. Dies scheint dem Gerät jedoch nicht zu schaden, obwohl gemäss Schaltplan bei der Stromversorgung via Batterien/Akkus keine Spannungsbegrenzung erfolgt. Um das Gerät nicht wieder öffnen zu müssen, habe ich die Anschlüsse im Batteriefach fest gelötet und über zwei Drähte nach aussen geführt. Die Verbindung mit dem 6fach-Batteriehalter erfolgt dann mit einem Batterieclip, wie man ihn von 9&nbsp;V-Blockbatterien kennt. Da der Deckel des Batteriefachs einen sehr guten Halt bietet, habe ich die ganze Konstruktion mit reichlich Zweikomponentenkleber dort festgeklebt. So lässt sich der Batteriehalter bei Nichtgebrauch problemlos entfernen und der MVT-7000 weiterhin in der praktischen Schutztasche aufbewahren. </p>
+			<p>Die einzige Alternative ist der Betrieb mit einem Netzteil, welches gemäss Anleitung 12&nbsp;V liefern soll. Diese zu hohe Spannung wird intern mit dem Toshiba-Baustein TA78006AP auf 6V begrenzt, wie aus dem Schaltplan hervorgeht. <sup>_ap_</sup> Diese Lösung kam für mich aber nicht in Frage, weil ich das Gerät ja mobil einsetzen möchte. Also blieb als Lösung nur ein Umbau des Geräts, damit es mit 5&nbsp;NiMH-Zellen versorgt werden kann, was die vorgegebenen 6&nbsp;V ergibt. Dazu geeignete Batteriehalter gibt es meines Wissens keine, aber in der Bastelkiste fand sich noch ein Exemplar für 6 Zellen. Das nicht benutzte Fach muss dann mit einer passenden Konstruktion überbrückt werden, damit der Stromkreis geschlossen wird. Alternativ kann man auch 6 Akkus einfügen, was dann allerdings eine etwas zu hohe Spannung ergibt. Dies scheint dem Gerät jedoch nicht zu schaden, obwohl gemäss Schaltplan bei der Stromversorgung via Batterien/Akkus keine Spannungsbegrenzung erfolgt. Um das Gerät nicht wieder öffnen zu müssen, habe ich die Anschlüsse im Batteriefach fest gelötet und über zwei Drähte nach aussen geführt. Die Verbindung mit dem 6fach-Batteriehalter erfolgt dann mit einem Batterieclip, wie man ihn von 9&nbsp;V-Blockbatterien kennt. Da der Deckel des Batteriefachs einen sehr guten Halt bietet, habe ich die ganze Konstruktion mit reichlich Zweikomponentenkleber dort festgeklebt. So lässt sich der Batteriehalter bei Nichtgebrauch problemlos entfernen und der MVT-7000 weiterhin in der praktischen Schutztasche aufbewahren. </p>
 			<p>Dieser Umbau hat sich wirklich gelohnt, denn mit der auf diese Weise sichergestellten korrekten Versorgungsspannung arbeitet das Gerät wesentlich zuverlässiger. Ein angenehmer Nebeneffekt ist, dass das Gerät (wenn stationär betrieben) wesentlich stabiler steht, da der Batteriehalter wie eine Stütze wirkt.</p>
 			<p>Das Handbuch verweist im Übrigen darauf, dass Akkus direkt im Gerät geladen werden können, wenn über die DC12V Buchse eine externe Stromversorgung angeschlossen ist. Davon würde ich abraten. Sinnvoller ist es, die Akkus in einem Schnellladegerät zu laden, welches den Ladevorgang automatisch stoppt, wenn sie voll sind.</p>
 
@@ -307,7 +389,15 @@
 					<p class="Bildlegende">Abb.&nbsp;_ext-batt-pack_:&nbsp;Betrieb mit externem 6fach-Batteriehalter, der auf den Deckel des Batteriefachs aufgeklebt ist.<br />Eigene Aufnahme vom 05.04.2025</p>
 				</div>
 			</div>
-	
+
+			<a name="dok"></a>
+			<h2>Weitere Dokumentationen</h2>
+			<ul>
+				<li><a href="mvt7000_wfm-filter-mod.html">WFM-Filtermodifikation</a></li>
+			</ul>
+
+
+			<a name="quellen"></a>
 			<h3>Grundlagen und Literatur</h3>
 
 
@@ -316,7 +406,7 @@
 	<div id="sidebar">	
 		<div class="box">
 			<a href="../dx.html">Hauptseite DX<br /><br /></a>
-			<a href="./mvt7000.html">MVT-7000<br />Modifikation</a>
+			<a href="./mvt7000_wfm-filter-mod.html">MVT-7000<br />WFM Modifikation</a>
 		</div>
 	</div>
 	<div id="preview">

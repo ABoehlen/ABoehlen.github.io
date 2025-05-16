@@ -17,5 +17,6 @@ _ext-batt-pack_$
 _filter-45k24_$
 _mob-dip-ein_$
 _mob-dip-vert_$
+_mvt700_inB_$
 
 # Ende

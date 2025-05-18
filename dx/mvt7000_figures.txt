@@ -18,5 +18,10 @@ _filter-45k24_$
 _mob-dip-ein_$
 _mob-dip-vert_$
 _mvt700_inB_$
+_holzdrehkn-unten_$
+_holzdrehkn-mont_$
+_handbuch-ausz_$
+_schaltpl-ausz_$
+_bogerfunk-ins_$
 
 # Ende

@@ -48,5 +48,15 @@ _aw_$https://www.discriminator.nl/ic/mc3361.pdf (Motorola Low Power Narrowband I
 
 _ax_$https://www.rigpix.com/yupiteru/mvt7000_schematic.pdf (Yupiteru MVT-7000 Schaltplan) 
 
+_ay_$https://www.manua.ls/yupiteru/mvt-7000/manual (Yupiteru MVT-7000 Handbuch)
+
+_az_$https://www.rigpix.com/yupiteru/mvt7000_schematic.pdf (Yupiteru MVT-7000 Schaltplan)
+
+_ba_$Radio-Scanner, Das Hör- und Abhör-Magazin, Nr. 4/96. Burgdorf 1996, S.&nbsp;45
+
+_bb_$https://www.merseyradar.co.uk/airband-radio/home-made-coaxial-dipole-antenna-for-civil-airband/ (Home made coaxial dipole antenna for civil (and military) airband)
+
+
+
 
 # Ende

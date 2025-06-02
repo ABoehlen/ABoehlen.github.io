@@ -27,8 +27,8 @@
 		<div class="box">
 			<h1>skyplot2pano – Dokumentation</h1>
 			<p>Adrian Böhlen<br />
-			Dokumentation: Version 1.11 vom 25.04.2025<br />
-			Applikation: Version 2.2 vom 25.04.2025</p>
+			Dokumentation: Version 1.12 vom 02.06.2025<br />
+			Applikation: Version 2.6 vom 02.06.2025</p>
 			
 			<h2>Inhalt</h2>
 			<div class="Reihe_zw">
@@ -596,7 +596,7 @@ Entferntester: 640238  154256  4005  243.8  208.300   4060.6  2993
 			<h3>1.5.2&nbsp;&nbsp;Namendatei</h3>
 			<p>Für die Namendatei wird die gleiche Struktur vorausgesetzt, wie bei der Verwendung in SCOP.PER. Falls nicht vorhanden, lässt sich diese auf einfache Weise z.B. aus einer kommagetrennten Datei ableiten. Relevant für diese Anwendung sind nur die Felder Name, X-, Y- und Z-Koordinate sowie die Priorität. Das Feld Perimeter wird nicht verwendet. Die genaue Definition ist in der Dokumentation von SCOP.PER wie folgt beschrieben: <script type="text/javascript">var name="an"; var kap=""; verweis("dokSky");</script></p>
 			<p><em>Dieser Parameter ermöglicht die Angabe des Namens jener Datei, auf der die Namensinformation vorbereitet ist. Diese Infomation besteht aus dem Namen selbst, seiner Position (X,Y,Z), der Priorität und dem Perimeter. Der Perimeter wird entweder als Radius eines Kreises oder als Umringpolygon (max. 32 Punkte X,Y) angegeben. Der Wertebereich für die Priorität liegt zwischen 1 und 99. Der Name, die Position und die Priorität müssen dem Fortran-Format (A32,3F12.2,I4) genügen; die Formatierung für den Perimeter ist frei.</em></p>
-			<p>Im Feld Priorität hat lediglich der Wert 99 eine besondere Bedeutung. Namen, die mit diesem Wert gekennzeichnet sind, werden später auf dem Panorama immer abgebildet, egal ob sichtbar oder nicht. Voraussetzung ist natürlich, dass sie innerhalb des gewählten Sektors liegen.</p>
+			<p>Im Feld Priorität haben lediglich die Werte 98 und 99 eine besondere Bedeutung: Namen, die mit dem Wert 98 gekennzeichnet sind, werden bei der Berechnung ignoriert, und Namen mit dem Wert 99 werden auf dem Panorama immer abgebildet, egal ob sichtbar oder nicht. Voraussetzung ist natürlich, dass sie innerhalb des gewählten Sektors liegen.</p>
 			<p>Nachstehend ein Beispiel:</p>
 			<code>
 Morgenberghorn                      627184.0    163500.0      2249.0  28  200.
@@ -605,7 +605,7 @@ Wannichnubel                        632287.0    172655.0      1585.0  46  200.
 Sertigpass                          787091.0    172878.0      2739.0  24  200.
 Aiguille du Midi                    557199.0     80943.0      3842.0  99  200.
 Piz Nair                            697156.0    172757.0      3059.0  28  200.
-Tschingel                           653676.0    172736.0      2326.0  46  200.
+Tschingel                           653676.0    172736.0      2326.0  98  200.
 Homad                               604262.0    172675.0      2076.0  46  200.
 Gantrisch                           600915.0    172616.0      2176.0  46  200.
 Sustenhorn                          677742.0    172472.0      3502.0  37  200.
@@ -848,7 +848,7 @@ mv sil_* $dir
 
 			<a name="dxf_symb"></a>
 			<h3>2.6.8&nbsp;&nbsp;Darstellen der DXF-Datei</h3>
-			<p>Die auf diese Weise geladene DXF-Datei erscheint in Form von 2 Ebenen in der Liste der geladenen Daten. Für die Darstellung ist es am sinnvollsten, eine Klassifizierung nach dem Attribut <em>Layer</em> vorzunehmen, wie in Abb.&nbsp;20 gezeigt. Für den Rahmen lässt sich dann z.B. eine breite Linie definieren, für den Horizont eine feine und für die Zuordnungslinie eine strichlierte. So kann sich ein Ergebnis wie in Abb.&nbsp;21 realisiert werden. Auch die Textobjekte können auf diese Weise unterschiedlich dargestellt werden, wobei sich lediglich die Schriftart und Farbe einstellen lässt, nicht jedoch die Schriftgrösse.</p>
+			<p>Die auf diese Weise geladene DXF-Datei erscheint in Form von 2 Ebenen in der Liste der geladenen Daten. Für die Darstellung ist es am sinnvollsten, eine Klassifizierung nach dem Attribut <em>Layer</em> vorzunehmen, wie in Abb.&nbsp;20 gezeigt. Für den Rahmen lässt sich dann z.B. eine breite Linie definieren, für den Horizont eine feine und für die Zuordnungslinie eine strichlierte. So kann sich ein Ergebnis wie in Abb.&nbsp;21 realisiert werden. Auch die Textobjekte können auf diese Weise unterschiedlich dargestellt werden, wobei sich lediglich die Schriftart und Farbe einstellen lässt, nicht jedoch die Schriftgrösse. Liegen mehrere sichtbare Namenspunkte im gleichen oder sehr ähnlichen Azimut, so überlagern sich leider die Beschriftungen. Dies lässt sich manuell nicht korrigieren, da DXF-Dateien in GIS-Systemen normalerweise nicht bearbeitet werden können. Eine Lösungsvariante ist es, die weniger wichtigen Namen zu ermitteln und in der Namendatei mit der Priorität 98 zu kennzeichnen, sodass sie bei der Berechnung ignoriert werden (siehe Abschnitt 1.5).</p>
 			<div class="Reihe">
 				<div class="Zelle_norm">
 					<img width="320px" height="238px" alt="Klassifizierung DXF-Attribute" onclick="show('./img/dxf_layer_625x473.png');" src="./img/dxf_layer_625x473.png" />

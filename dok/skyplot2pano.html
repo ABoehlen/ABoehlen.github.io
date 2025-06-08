@@ -27,8 +27,8 @@
 		<div class="box">
 			<h1>skyplot2pano – Dokumentation</h1>
 			<p>Adrian Böhlen<br />
-			Dokumentation: Version 1.12 vom 02.06.2025<br />
-			Applikation: Version 2.6 vom 02.06.2025</p>
+			Dokumentation: Version 1.13 vom 08.06.2025<br />
+			Applikation: Version 2.7 vom 07.06.2025</p>
 			
 			<h2>Inhalt</h2>
 			<div class="Reihe_zw">
@@ -596,21 +596,29 @@ Entferntester: 640238  154256  4005  243.8  208.300   4060.6  2993
 			<h3>1.5.2&nbsp;&nbsp;Namendatei</h3>
 			<p>Für die Namendatei wird die gleiche Struktur vorausgesetzt, wie bei der Verwendung in SCOP.PER. Falls nicht vorhanden, lässt sich diese auf einfache Weise z.B. aus einer kommagetrennten Datei ableiten. Relevant für diese Anwendung sind nur die Felder Name, X-, Y- und Z-Koordinate sowie die Priorität. Das Feld Perimeter wird nicht verwendet. Die genaue Definition ist in der Dokumentation von SCOP.PER wie folgt beschrieben: <script type="text/javascript">var name="an"; var kap=""; verweis("dokSky");</script></p>
 			<p><em>Dieser Parameter ermöglicht die Angabe des Namens jener Datei, auf der die Namensinformation vorbereitet ist. Diese Infomation besteht aus dem Namen selbst, seiner Position (X,Y,Z), der Priorität und dem Perimeter. Der Perimeter wird entweder als Radius eines Kreises oder als Umringpolygon (max. 32 Punkte X,Y) angegeben. Der Wertebereich für die Priorität liegt zwischen 1 und 99. Der Name, die Position und die Priorität müssen dem Fortran-Format (A32,3F12.2,I4) genügen; die Formatierung für den Perimeter ist frei.</em></p>
-			<p>Im Feld Priorität haben lediglich die Werte 98 und 99 eine besondere Bedeutung: Namen, die mit dem Wert 98 gekennzeichnet sind, werden bei der Berechnung ignoriert, und Namen mit dem Wert 99 werden auf dem Panorama immer abgebildet, egal ob sichtbar oder nicht. Voraussetzung ist natürlich, dass sie innerhalb des gewählten Sektors liegen.</p>
+			<p>Die Umsetzung weicht leicht von diesen Vorgaben ab. Durch die sich so ergebenden Puffer zwischen den einzelnen Feldern wirken sich geringfügige Verletzungen der Definition nicht direkt auf benachbarte Felder aus:</p>
+			<ul>
+				<li>Zeichen  1 – 32: Name</li>
+				<li>Zeichen 35 – 44: X-Koordinate </li>
+				<li>Zeichen 47 – 56: Y-Koordinate</li>
+				<li>Zeichen 61 – 68: Z-Koordinate</li>
+				<li>Zeichen 71 – 72: Priorität</li>
+			</ul>
+			<p>Im Feld Priorität haben lediglich die Werte 98 und 99 eine besondere Bedeutung: Namen, die mit dem Wert 98 gekennzeichnet sind, werden bei der Berechnung ignoriert, und Namen mit dem Wert 99 werden auf dem Panorama immer abgebildet, egal ob sichtbar oder nicht. Auch die Distanz spielt keine Rolle; Voraussetzung ist aber, dass sie innerhalb des gewählten Sektors liegen.</p>
 			<p>Nachstehend ein Beispiel:</p>
 			<code>
-Morgenberghorn                      627184.0    163500.0      2249.0  28  200.
-Gros Brun / Schopfenspitz           585609.0    163489.0      2104.0  28  200.
-Wannichnubel                        632287.0    172655.0      1585.0  46  200.
-Sertigpass                          787091.0    172878.0      2739.0  24  200.
+Dijon/Chenôve                       415182.0    241952.0       370.0  99  200.
+Payerne Tower                       560390.0    188850.0       470.0  98  200.
+Bern-Belp Tower                     604802.0    195760.0       530.0  98  200.
+Bourges/Neuvy-Deux-Clochers         236026.0    248988.0       411.0  99  200.
+Lyon/Mont Pilat                     378571.0     30730.0      1364.0  99  200.
+Marseille/Grande Etoile             436596.0   -194591.0       779.0  99  200.
 Aiguille du Midi                    557199.0     80943.0      3842.0  99  200.
-Piz Nair                            697156.0    172757.0      3059.0  28  200.
-Tschingel                           653676.0    172736.0      2326.0  98  200.
-Homad                               604262.0    172675.0      2076.0  46  200.
+Tête de Ran                         555533.0    211629.0      1422.0  46  200.
+Wisle                               608961.0    197193.0       674.0  41  200.
 Gantrisch                           600915.0    172616.0      2176.0  46  200.
-Sustenhorn                          677742.0    172472.0      3502.0  37  200.
 			</code>
-			<p class="Bildlegende">Tab.&nbsp;6:&nbsp;Auszug aus der Namendatei «sn200.txt» (swissTLM-Regio Names, &copy;swisstopo) in der Struktur gemäss Handbuch SCOP.PER.</p>
+			<p class="Bildlegende">Tab.&nbsp;6:&nbsp;Selbst erstellte Namendatei in der Struktur gemäss Handbuch SCOP.PER. Die Koordinaten liegen im System CH1903 LV03 vor. Die Namen mit der Priorität 41 (Hügel) und 46 (Gipfel) werden nur dargestellt, wenn sie im abgebildeten Sektor im Sichtfeld liegen, jene mit der Priorität 98 werden ignoriert und jene mit Priorität 99 werden dargestellt, wenn sie im definierten Sektor liegen, unabhängig der Sichtbarkeit. Letztere werden in der Ausgabedatei einem separaten DXF-Layer zugewiesen (siehe Abschnitt 1.5.5).</p>
 
 			<a name="nam_ber"></a>
 			<h3>1.5.3&nbsp;&nbsp;Ermitteln der sichtbaren Namen</h3>
@@ -676,9 +684,9 @@ Sustenhorn                          677742.0    172472.0      3502.0  37  200.
 			<h3>1.5.5&nbsp;&nbsp;Bergnamen, Rahmen und mathematischer Horizont als DXF-Datei</h3>
 			<p>Wie zuvor erläutert, werden während der Berechnung die Namen fortlaufend anhand ihrer Lagekoordinaten auf Übereinstimmung mit errechneten Geländepunkten geprüft und sobald eine solche gegeben ist, mit den relevanten Informationen (Name, Höhe, Distanz, X- und Y-Bildkoordinaten) in eine kommagetrennte, temporäre Textdatei geschrieben. Für die Visualisierung lässt sich diese aber nicht verwenden, weshalb am Schluss die Übersetzung in das CAD-Format DXF vorgenommen wird. DXF ist ein textbasiertes Austauschformat für CAD-Systeme, welches 1982 durch die Firma Autodesk eingeführt wurde und auch nach über 4 Jahrzehnten noch oft verwendet wird, teilweise auch im GIS-Bereich. <script type="text/javascript">var name="ao"; var kap=""; verweis("dokSky");</script> Da es hierfür aber eigentlich nicht geeignet ist, müssen sich GIS-Nutzer mit einigen unpraktischen Eigenschaften abfinden, wie etwa der fehlenden Möglichkeit, Attribute zu verwalten. Ein grosser Vorteil ist hingegen, dass in einer einzigen DXF-Datei verschiedene Geometrietypen verwaltet werden können. Dazu gehören auch Textobjekte, so genannte <em>Annotations</em>.</p>
 
-			<p>Bei der aktuellen Umsetzung wird nur eine stark vereinfachte DXF-Struktur erzeugt, indem z.B. auf Darstellungseigenschaften (Sektion <em>Tables</em>) verzichtet wird. Zu jedem detektierten Punkt wird der zugehörige Name (mit Höhe in m und Entfernung in km) im Winkel von 45° oberhalb des Gipfels platziert, wobei für die Positionierung der Namen im Bild der Geländepunkt mit der höchsten Y-Bildkoordinate massgebend ist. Für die Zuweisung des Namens zum Punkt dient eine durch zwei Punkte festgelegte Linie. Ausserdem wird ein Rahmen um das Panoramabild erzeugt, wobei die rechte und obere Begrenzung so gewählt wird, dass Namen nach Möglichkeit nicht geschnitten werden (Ausnahmen bei sehr langen Namen möglich). Bei Namen nahe des rechten Bildrandes führt dies dazu, dass die Konturlinien des Panoramas dann nicht bis zum rechten Bildrand reichen (siehe Abb.&nbsp;11).<p>
+			<p>Bei der aktuellen Umsetzung wird nur eine stark vereinfachte DXF-Struktur erzeugt, indem z.B. auf Darstellungseigenschaften (Sektion <em>Tables</em>) verzichtet wird. Zu jedem detektierten Punkt wird der zugehörige Name (mit Höhe in m und Entfernung in km) im Winkel von 45° oberhalb des Gipfels platziert, wobei für die Positionierung der Namen im Bild der Geländepunkt mit der höchsten Y-Bildkoordinate massgebend ist. Für die Zuweisung des Namens zum Punkt dient eine durch zwei Punkte festgelegte Linie. Ausserdem wird ein Rahmen um das Panoramabild erzeugt, wobei sich die untere Begrenzung nach dem visuell tiefsten Graphikelement richtet, welches eine Silhouette oder eine Namen-Zuordnungslinie sein kann. Die rechte und obere Begrenzung ist so gewählt, dass Namen nach Möglichkeit nicht geschnitten werden (Ausnahmen bei sehr langen Namen möglich). Bei Namen nahe des rechten Bildrandes führt dies dazu, dass die Konturlinien des Panoramas dann nicht bis zum rechten Bildrand reichen (siehe Abb.&nbsp;11).<p>
 
-			<p>Als weiteres Element wird der mathematische Horizont rechts und links mit je einer kurzen horizontalen Linie angezeigt, kombiniert mit dem Buchstaben «H». Dieser müsste sich normalerweise innerhalb des Bildes befinden. Liegen allerdings alle abgebildeten Punkte entweder über oder unter dem mathematischen Horizont, so erscheint diese Markierung ausserhalb des Bildes (siehe Abb.&nbsp;12).</p>
+			<p>Als weiteres Element wird der mathematische Horizont rechts und links mit je einer kurzen horizontalen Linie angezeigt, kombiniert mit dem Text «Horizont» (in früheren Versionen nur «H»). Dieser müsste sich normalerweise innerhalb des Bildes befinden. Liegen allerdings alle abgebildeten Punkte entweder über oder unter dem mathematischen Horizont, so erscheint diese Markierung ausserhalb des Bildes (siehe Abb.&nbsp;12).</p>
 
 			<div class="Reihe">
 				<div class="Zelle_norm">
@@ -697,12 +705,14 @@ Sustenhorn                          677742.0    172472.0      3502.0  37  200.
 			<strong>Line (Polyline)</strong>
 			<ul>
 				<li>ZUORDNUNGSLINIE</li>
+				<li>ZUORDNUNGSLINIE_99</li>
 				<li>RAHMEN</li>
 				<li>HORIZONT</li>
 			</ul>
 			<strong>Annotation</strong>
 			<ul>
 				<li>BERGNAME</li>
+				<li>BERGNAME_99</li>
 				<li>HORIZONT</li>
 			</ul>
 			<p>So lässt sich die Darstellung der einzelnen Klassen wunschgemäss manuell gestalten. Mittels einer <em>Definition Query</em> können ausserdem nicht darzustellende Elemente ausgeblendet werden.</p>
@@ -851,14 +861,14 @@ mv sil_* $dir
 			<p>Die auf diese Weise geladene DXF-Datei erscheint in Form von 2 Ebenen in der Liste der geladenen Daten. Für die Darstellung ist es am sinnvollsten, eine Klassifizierung nach dem Attribut <em>Layer</em> vorzunehmen, wie in Abb.&nbsp;20 gezeigt. Für den Rahmen lässt sich dann z.B. eine breite Linie definieren, für den Horizont eine feine und für die Zuordnungslinie eine strichlierte. So kann sich ein Ergebnis wie in Abb.&nbsp;21 realisiert werden. Auch die Textobjekte können auf diese Weise unterschiedlich dargestellt werden, wobei sich lediglich die Schriftart und Farbe einstellen lässt, nicht jedoch die Schriftgrösse. Liegen mehrere sichtbare Namenspunkte im gleichen oder sehr ähnlichen Azimut, so überlagern sich leider die Beschriftungen. Dies lässt sich manuell nicht korrigieren, da DXF-Dateien in GIS-Systemen normalerweise nicht bearbeitet werden können. Eine Lösungsvariante ist es, die weniger wichtigen Namen zu ermitteln und in der Namendatei mit der Priorität 98 zu kennzeichnen, sodass sie bei der Berechnung ignoriert werden (siehe Abschnitt 1.5).</p>
 			<div class="Reihe">
 				<div class="Zelle_norm">
-					<img width="320px" height="238px" alt="Klassifizierung DXF-Attribute" onclick="show('./img/dxf_layer_625x473.png');" src="./img/dxf_layer_625x473.png" />
-				<p class="Bildlegende">Abb.&nbsp;20:&nbsp;Klassifizierung der DXF-Linien nach dem Attribut <em>Layer</em>.<br />Eigener Screenshot aus ArcView vom 19.09.2024</p>
+					<img width="320px" height="150px" alt="Klassifizierung DXF-Attribute" onclick="show('./img/dxf_layer_620x290.png');" src="./img/dxf_layer_620x290.png" />
+				<p class="Bildlegende">Abb.&nbsp;20:&nbsp;Klassifizierung der DXF-Linien nach dem Attribut <em>Layer</em>.<br />Eigener Screenshot aus ArcView vom 08.06.2025</p>
 				</div>
 				<div class="Zelle_zw">
 				</div>
 				<div class="Zelle_norm">
-					<img width="320px" height="238px" alt="Linie und Text symbolisiert" onclick="show('./img/dxf_darstellung_1011x752.png');" src="./img/dxf_darstellung_1011x752.png" />
-					<p class="Bildlegende">Abb.&nbsp;21:&nbsp;Unterschiedliche Darstellung der verschiedenen Linientypen sowie der Beschriftung.<br />Aiguille du Midi ist ein nicht sichtbarer Gipfel, der in der Namendatei mit der Priorität 99 gekennzeichnet wurde (siehe Tab.&nbsp;6).<br />Eigener Export aus ArcView vom 25.04.2025</p>
+					<img width="320px" height="150px" alt="Linie und Text symbolisiert" onclick="show('./img/dxf_darstellung_930x435.png');" src="./img/dxf_darstellung_930x435.png" />
+					<p class="Bildlegende">Abb.&nbsp;21:&nbsp;Unterschiedliche Darstellung der verschiedenen Linientypen sowie der Beschriftung.<br />Mit der Priorität 99 gekennzeichnete Punkte (siehe Tab.&nbsp;6) werden mit grauen Linien und Texten dargestellt.<br />Eigener Export aus ArcView vom 25.04.2025</p>
 				</div>
 			</div>
 

@@ -52,6 +52,7 @@ neuigkeiten[38] = "23.02.2025: Weitere Möglichkeiten und Erfahrungen mit dem <a
 neuigkeiten[39] = "13.04.2025: <a target=\"_blank\" href=\"./dx/bandscans/ukw_bandscan_worb.html\">UKW-Bandscan Worb</a> und zugehörige <a target=\"_blank\" href=\"./pdf/ukw-bandscan-map.pdf\">Karte</a> deutlich erweitert";
 neuigkeiten[40] = "11.05.2025: Überarbeitung und Erweiterung der Seiten <a href=\"./dx/mvt7000.html\">MVT-7000</a> und <a href=\"./dx/mvt7000_wfm-filter-mod.html\">MVT-7000 Modifikation</a>";
 neuigkeiten[41] = "02.06.2025: Neue Funktionen der v2.6 von <a href=\"./dok/skyplot2pano.html\">skyplot2pano</a> erläutert (Darstellen von Namen ignorieren oder erzwingen)";
+neuigkeiten[42] = "28.06.2025: Neuer Seite: <a href=\"./dx/jingles.html\">Erkennungsmelodien von Rundfunksendern und Sendungen</a>";
 
 //------------------------------------------------------------------------------------------------------------------------
 

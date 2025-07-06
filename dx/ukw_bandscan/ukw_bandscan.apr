@@ -36,7 +36,6 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 	Doc:	2202
 	Doc:	2206
 	Doc:	2210
-	ActiveDoc:	119
 	Buttons:	2223
 	Buttons:	2224
 	Buttons:	2225
@@ -140,7 +139,7 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 (FTheme.66
 	Name:	"UKW_alle"
 	Source:	67
-	Flags:	0x03
+	Flags:	0x01
 	Legend:	98
 	Threshold:	118
 	View:	119
@@ -149,7 +148,7 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 	TxPos:	1614
 	LabelField:	72
 	Table:	62
-	InteractiveSnapTol:	302.58165706242369
+	InteractiveSnapTol:	358.64619167316238
 	SnapTolCursor:	1
 )
 
@@ -464,7 +463,7 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 )
 
 (Bitmap.97
-	NumBits:	6901
+	NumBits:	6900
 	Bits:	00000000 00000000 00000000 00000000 
 	Bits:	00000000 00000000 00000000 00000000 
 	Bits:	00000000 00000000 00000000 00000000 
@@ -865,8 +864,8 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 )
 
 (PointD.144
-	x:	266879.62987733848000
-	y:	410277.05684386176000
+	x:	260265.03326276160000
+	y:	439381.28194800002000
 )
 
 (Numb.145
@@ -1190,7 +1189,7 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 )
 
 (Bitmap.177
-	NumBits:	6901
+	NumBits:	6900
 
 )
 
@@ -1884,7 +1883,7 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 )
 
 (Bitmap.270
-	NumBits:	6901
+	NumBits:	6900
 
 )
 
@@ -11622,7 +11621,7 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 )
 
 (Bitmap.1647
-	NumBits:	6901
+	NumBits:	6900
 	Bits:	00000000 00000000 00000000 00000000 
 	Bits:	00000000 00000000 00000000 00000000 
 	Bits:	00000000 00000000 00000000 00000000 
@@ -12024,7 +12023,7 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 )
 
 (Bitmap.1682
-	NumBits:	6901
+	NumBits:	6900
 
 )
 
@@ -14319,7 +14318,8 @@ LF.Get(0)                 'first (origin) point\n  p2 = SELF.Get(1)             
 (GText.2070
 	Bounds:	2071
 	Sym:	2072
-	Text:	"02.06.2025"
+	Selected:	0x01
+	Text:	"06.07.2025"
 	Spacing:	1.00000000000000
 )
 
@@ -15291,7 +15291,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	HelpTopic:	"New_button"
 	Update:	"Doc.NewUpdate"
 	Label:	"&New"
-	Click:	"View.New"
+	Click:	"Layout.New"
 )
 
 (LButn.2224
@@ -15423,29 +15423,29 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 
 (NameDict.2254
 	Obj:	2255
-	Obj:	2256
+	Obj:	2258
 	Obj:	2259
 	Obj:	2869
-	Obj:	2874
+	Obj:	2875
 	Obj:	2880
 )
 
 (AVDict.2255
-	InternalName:	"Table of Contents Defaults Dialog"
-)
-
-(AVDict.2256
 	InternalName:	"Dialog Designer"
-	Key:	2257
-	Value:	2258
+	Key:	2256
+	Value:	2257
 )
 
-(AVStr.2257
+(AVStr.2256
 	S:	"IsVisible"
 )
 
-(Bool.2258
+(Bool.2257
 	Truth:	1
+)
+
+(AVDict.2258
+	InternalName:	"Table of Contents Defaults Dialog"
 )
 
 (AVDict.2259
@@ -15462,60 +15462,60 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (AVDict.2869
-	InternalName:	"Geoprocessing"
+	InternalName:	"Table Master 2"
 	Key:	2870
-	Key:	2871
-	Value:	2872
-	Value:	2873
+	Value:	2871
 )
 
 (AVStr.2870
-	S:	"Loaded"
-)
-
-(AVStr.2871
-	S:	"Version"
-)
-
-(Bool.2872
-	Truth:	1
-)
-
-(Numb.2873
-	N:	3.10000000000000
-)
-
-(AVDict.2874
-	InternalName:	"Table Master 2"
-	Key:	2875
-	Value:	2876
-)
-
-(AVStr.2875
 	S:	"Table Master 2"
 )
 
-(AVDict.2876
+(AVDict.2871
+	Key:	2872
+	Value:	2873
+)
+
+(Numb.2872
+)
+
+(List.2873
+	InternalName:	"Incorrect"
+	Child:	2874
+)
+
+(AVStr.2874
+	S:	"1"
+)
+
+(AVDict.2875
+	InternalName:	"Geoprocessing"
+	Key:	2876
 	Key:	2877
 	Value:	2878
+	Value:	2879
 )
 
-(Numb.2877
+(AVStr.2876
+	S:	"Loaded"
 )
 
-(List.2878
-	InternalName:	"Incorrect"
-	Child:	2879
+(AVStr.2877
+	S:	"Version"
 )
 
-(AVStr.2879
-	S:	"1"
+(Bool.2878
+	Truth:	1
+)
+
+(Numb.2879
+	N:	3.10000000000000
 )
 
 (AVDict.2880
 	InternalName:	"Projection Utility Wizard"
 	Key:	2881
-	Value:	2872
+	Value:	2878
 )
 
 (AVStr.2881
@@ -16097,7 +16097,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.2941
-	Disabled:	1
 	Help:	"Goes back to the previous extent you were viewing"
 	HelpTopic:	"Zoom_Previous"
 	Update:	"View.UndoZoomUpdate"
@@ -16458,6 +16457,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3027
+	Disabled:	1
 	Help:	"Labels features in active, visible themes"
 	HelpTopic:	"Auto_label"
 	Update:	"View.LabelThemesUpdate"
@@ -17017,7 +17017,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Butn.3271
-	Disabled:	1
 	Help:	"Zoom to Previous Extent//Goes back to the previous extent you were viewing"
 	HelpTopic:	"Zoom_Previous"
 	Update:	"View.UndoZoomUpdate"
@@ -17504,6 +17503,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (ToolMenu.3386
+	Disabled:	1
 	Help:	"Label//Labels a feature in the active theme with data from its table"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.LabelToolUpdate"
@@ -17528,6 +17528,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3388
+	Disabled:	1
 	Help:	"Label//Labels a feature in the active theme with data from its table"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.LabelToolUpdate"
@@ -17537,6 +17538,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3389
+	Disabled:	1
 	Help:	"Callout Label//Click on a feature and drag in the direction you want the label to appear"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
@@ -17552,6 +17554,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3391
+	Disabled:	1
 	Help:	"Bullet Leader Label//Click on a feature and drag in the direction you want the label to appear"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
@@ -17567,6 +17570,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3393
+	Disabled:	1
 	Help:	"Banner Label//Click on a feature you want to label"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
@@ -17582,6 +17586,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3395
+	Disabled:	1
 	Help:	"U.S. Interstate//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
@@ -17597,6 +17602,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3397
+	Disabled:	1
 	Help:	"U.S. Route//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
@@ -17612,6 +17618,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3399
+	Disabled:	1
 	Help:	"Generic State Hwy//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
@@ -17627,6 +17634,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3401
+	Disabled:	1
 	Help:	"Generic Square Hwy//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
@@ -17642,6 +17650,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3403
+	Disabled:	1
 	Help:	"Generic Oval Hwy//Click where you want to place a highway shield"
 	Update:	"View.CalloutUpdate"
 	Icon:	3404
@@ -18216,7 +18225,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3502
-	Disabled:	1
 	Help:	"Undo the last edit operation on the Table"
 	HelpTopic:	"Undo_Edit_on_a_table"
 	Update:	"Table.UndoEditUpdate"
@@ -18226,7 +18234,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3503
-	Disabled:	1
 	Help:	"Redo the last undone operation on the Table"
 	HelpTopic:	"Redo_Edit_on_a_table"
 	Update:	"Table.RedoEditUpdate"
@@ -18248,7 +18255,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3506
-	Disabled:	1
 	Help:	"Adds a new record at the bottom of the table"
 	HelpTopic:	"Add_Record"
 	Update:	"Table.AddRecordUpdate"
@@ -18267,7 +18273,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3508
-	Disabled:	1
 	Help:	"Deletes the selected records from the table"
 	HelpTopic:	"Delete_Records"
 	Update:	"Table.DeleteRecordsUpdate"
@@ -18349,13 +18354,12 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Help:	"Starts or stops editing of table values"
 	HelpTopic:	"Start_Stop_Editing"
 	Update:	"Table.ToggleEditingUpdate"
-	Label:	"Start &Editing"
+	Label:	"Stop &Editing"
 	Click:	"Table.ToggleEditing"
 	Shortcut:	"Keys.None"
 )
 
 (Choice.3518
-	Disabled:	1
 	Help:	"Saves edits to the source file"
 	HelpTopic:	"Save_edits_table"
 	Update:	"Table.SaveEditsUpdate"
@@ -18365,7 +18369,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3519
-	Disabled:	1
 	Help:	"Save edits to a new source file"
 	HelpTopic:	"Save_edits_as_table"
 	Update:	"Table.SaveEditsUpdate"
@@ -18394,7 +18397,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3523
-	Disabled:	1
 	Help:	"Promotes selected rows to the top of the table"
 	HelpTopic:	"Promote"
 	Update:	"Table.PromoteUpdate"
@@ -18847,7 +18849,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Butn.3671
-	Disabled:	1
 	Help:	"Promote//Promotes selected rows to the top of the table"
 	HelpTopic:	"Promote"
 	Update:	"Table.PromoteUpdate"
@@ -18986,7 +18987,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3703
-	Disabled:	1
 	Help:	"Edit//Changes cell values"
 	HelpTopic:	"Edit_tool"
 	Update:	"Table.IsEditableUpdate"
@@ -19179,7 +19179,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3820
-	Disabled:	1
 	Help:	"Copies selected graphics to the clipboard and removes them from the layout"
 	HelpTopic:	"Cut"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -19189,7 +19188,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3821
-	Disabled:	1
 	Help:	"Copies the selected shapes or graphics to the clipboard"
 	HelpTopic:	"Copy"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -19209,7 +19207,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3823
-	Disabled:	1
 	Help:	"Removes the selected frames or graphics from the layout"
 	HelpTopic:	"Delete"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -19288,7 +19285,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3832
-	Disabled:	1
 	Help:	"Zooms to the extent of the selected layout graphics"
 	HelpTopic:	"Zoom_to_Selected"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -19366,7 +19362,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3843
-	Disabled:	1
 	Help:	"Store each graphic group in the current layout as a north arrow"
 	HelpTopic:	"Store_North_Arrows"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -19394,7 +19389,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3845
-	Disabled:	1
 	Help:	"Displays the property editor for the selected graphic"
 	HelpTopic:	"Graphic_Properties"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -19418,7 +19412,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3849
-	Disabled:	1
 	Help:	"Displays a dialog box to adjust size and position of selected graphic"
 	HelpTopic:	"Size_and_Position"
 	Update:	"Graphic.SingleSelectionUpdate"
@@ -19428,7 +19421,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3850
-	Disabled:	1
 	Help:	"Aligns the selected graphics"
 	HelpTopic:	"Align"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -19441,7 +19433,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3852
-	Disabled:	1
 	Help:	"Moves selected graphics in front of other graphics"
 	HelpTopic:	"Bring_to_Front"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -19451,7 +19442,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3853
-	Disabled:	1
 	Help:	"Moves selected graphics behind other graphics"
 	HelpTopic:	"Send_to_Back"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -19484,7 +19474,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3858
-	Disabled:	1
 	Help:	"Simplify selected graphics by converting them to a set of shapes"
 	HelpTopic:	"Simplify"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -19652,7 +19641,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Butn.3893
-	Disabled:	1
 	Help:	"Cut//Cuts the selection and puts it into the clipboard"
 	HelpTopic:	"Cut"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -19667,7 +19655,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Butn.3897
-	Disabled:	1
 	Help:	"Copy//Copies the selected graphics to the clipboard"
 	HelpTopic:	"Copy"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -19743,7 +19730,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Butn.3908
-	Disabled:	1
 	Help:	"Bring to Front//Moves selected graphics in front of other graphics"
 	HelpTopic:	"Bring_to_Front"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -19758,7 +19744,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Butn.3910
-	Disabled:	1
 	Help:	"Send to Back//Moves selected graphics behind other graphics"
 	HelpTopic:	"Send_to_Back"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -19817,7 +19802,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Butn.3919
-	Disabled:	1
 	Help:	"Zoom to Selected//Zooms to the extent of the selected layout graphics"
 	HelpTopic:	"Zoom_to_Selected"
 	Update:	"Graphic.HasSelectionUpdate"

@@ -18,6 +18,9 @@
 // Verweise als Dictionaries
 // *************************
 
+// ***************************
+// Blyton Intro & Adventure
+
 var blyIntrDict = new Array();
 blyIntrDict["aa"] = "1";
 blyIntrDict["ab"] = "2";
@@ -67,6 +70,7 @@ advValDict["aj"] = "11";
 advValDict["ak"] = "9";
 
 // ***************************
+// Famous Five
 
 var ffIntrDict = new Array();
 ffIntrDict["aa"] = "1";
@@ -134,6 +138,7 @@ ffSmugDict["av"] = "21";
 ffSmugDict["aw"] = "5";
 
 // ***************************
+// Secret Series
 
 var secrIntrDict = new Array();
 secrIntrDict["aa"] = "1";
@@ -174,6 +179,7 @@ secrMtnDict["aj"] = "7";
 secrMtnDict["ak"] = "10";
 
 // ***************************
+// DX
 
 var dxAdvDict = new Array();
 dxAdvDict["aa"] = "1";
@@ -199,6 +205,12 @@ dxMVT7000wfmDict["ai"] = "1";
 dxMVT7000wfmDict["am"] = "9";
 dxMVT7000wfmDict["ao"] = "10";
 
+var dxRFBnfDict = new Array();
+dxRFBnfDict["aa"] = "2";
+dxRFBnfDict["ab"] = "4";
+dxRFBnfDict["ac"] = "3";
+dxRFBnfDict["ad"] = "1";
+
 var dxUKWLoopDict = new Array();
 dxUKWLoopDict["aa"] = "1";
 dxUKWLoopDict["ab"] = "2";
@@ -208,6 +220,7 @@ dxUKWLoopDict["ae"] = "5";
 dxUKWLoopDict["af"] = "6";
 
 // ***************************
+// Dokus
 
 var dokSkyDict = new Array();
 dokSkyDict["aa"] = "3";
@@ -300,6 +313,9 @@ function verweis(ref) {
       break;
     case "dxMVT7000wfm":
       uebersetze(dxMVT7000wfmDict);
+      break;
+    case "dxRFBnf":
+      uebersetze(dxRFBnfDict);
       break;
     case "dxUKWLoop":
       uebersetze(dxUKWLoopDict);

@@ -53,6 +53,7 @@ neuigkeiten[39] = "13.04.2025: <a target=\"_blank\" href=\"./dx/bandscans/ukw_ba
 neuigkeiten[40] = "11.05.2025: Überarbeitung und Erweiterung der Seiten <a href=\"./dx/mvt7000.html\">MVT-7000</a> und <a href=\"./dx/mvt7000_wfm-filter-mod.html\">MVT-7000 Modifikation</a>";
 neuigkeiten[41] = "02.06.2025: Neue Funktionen der v2.6 von <a href=\"./dok/skyplot2pano.html\">skyplot2pano</a> erläutert (Darstellen von Namen ignorieren oder erzwingen)";
 neuigkeiten[42] = "28.06.2025: Neuer Seite: <a href=\"./dx/jingles.html\">Erkennungsmelodien von Rundfunksendern und Sendungen</a>";
+neuigkeiten[43] = "06.07.2025: Neuer Bericht: <a href=\"./dx/rf-b45_nf-aus.html\">Anschluss für Tonaufnahmen beim Panasonic RF-B45</a>";
 
 //------------------------------------------------------------------------------------------------------------------------
 

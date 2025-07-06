@@ -1,0 +1,4 @@
+aa$Siebel, Wolf: Zusatzgeräte für den Funkempfang. Siebel Verlag, Meckenheim 1995, S.&nbsp;86ff
+ab$https://archive.org/details/manual_RFB45_SM_PANASONIC/mode/2up (Service Manual Panasonic RF-B45)
+ac$Klawitter, Gerd: Technik, Tips &amp; Tricks rund um den Empfänger. Siebel Verlag, Meckenheim 1994, S.&nbsp;33ff
+ad$http://www.shortwaveradio.ch/doku.php?id=de:rf-b45 (Beschreibung Panasonic RF-B45)

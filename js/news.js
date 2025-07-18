@@ -54,7 +54,7 @@ neuigkeiten[40] = "11.05.2025: Überarbeitung und Erweiterung der Seiten <a href
 neuigkeiten[41] = "02.06.2025: Neue Funktionen der v2.6 von <a href=\"./dok/skyplot2pano.html\">skyplot2pano</a> erläutert (Darstellen von Namen ignorieren oder erzwingen)";
 neuigkeiten[42] = "28.06.2025: Neuer Seite: <a href=\"./dx/jingles.html\">Erkennungsmelodien von Rundfunksendern und Sendungen</a>";
 neuigkeiten[43] = "06.07.2025: Neuer Bericht: <a href=\"./dx/rf-b45_nf-aus.html\">Anschluss für Tonaufnahmen beim Panasonic RF-B45</a>";
-neuigkeiten[44] = "12.07.2025: Seite: <a href=\"./dx/jingles.html\">Erkennungsmelodien von Rundfunksendern und Sendungen</a> stark erweitert";
+neuigkeiten[44] = "18.07.2025: Seite <a href=\"./dx/jingles.html\">Erkennungsmelodien von Rundfunksendern und Sendungen</a> fertig gestellt";
 
 //------------------------------------------------------------------------------------------------------------------------
 

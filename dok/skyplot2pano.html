@@ -27,8 +27,8 @@
 		<div class="box">
 			<h1>skyplot2pano – Dokumentation</h1>
 			<p>Adrian Böhlen<br />
-			Dokumentation: Version 1.13 vom 08.06.2025<br />
-			Applikation: Version 2.7 vom 07.06.2025</p>
+			Dokumentation: Version 1.14 vom 28.07.2025<br />
+			Applikation: Version 2.9 vom 28.07.2025</p>
 			
 			<h2>Inhalt</h2>
 			<div class="Reihe_zw">
@@ -723,7 +723,8 @@ Gantrisch                           600915.0    172616.0      2176.0  46  200.
 			<p>Folgende Voraussetzungen müssen erfüllt sein, damit <em>skyplot2pano</em> verwendet werden kann:</p>
 			<ul>
 				<li>Die direkt ausführbare Quelltextdatei <em>skyplot2pano.awk</em> sowie die Konfigurationsdateien <em>dhm.txt</em> und <em>nam.txt</em> müssen von <a target="_blank" href="https://github.com/ABoehlen/skyplot2pano">https://github.com/ABoehlen/skyplot2pano</a> heruntergeladen werden.</li>
-				<li><em>skyplot2pano</em> ist in der Programmiersprache Awk geschrieben, nutzt jedoch auch UNIX-Kommandos <script type="text/javascript">var name="ai"; var kap=""; verweis("dokSky");</script>. Es kann daher nur in einer Umgebung ausgeführt werden, die diese Befehle versteht, also z.B. einem beliebigen Linux-System, oder unter Windows innerhalb Emulatoren wie <em>Git for Windows</em> oder <em>Cygwin</em>.</li>
+				<li><em>skyplot2pano</em> ist in der Programmiersprache Awk geschrieben, nutzt jedoch auch UNIX-Kommandos <script type="text/javascript">var name="ai"; var kap=""; verweis("dokSky");</script>. Es kann daher nur in einer Umgebung ausgeführt werden, die diese Befehle versteht, also z.B. einem beliebigen Linux-System, oder unter Windows innerhalb Emulatoren wie <em>Git for Windows</em> oder <em>Cygwin</em>, die auch GNU Awk bereits enthalten.</li>
+        <li>Das Programm läuft nur mit GNU Awk (<em>Gawk</em>) ab Version 4.0. Unter <em>mawk</em> läuft es nicht. Weitere Awk-Portierungen wurden nicht getestet.</li>
 				<li>Das Programmsystem SCOP der TU Wien wird nicht benötigt, jedoch das Zusatzprogramm <em>skyplot.exe</em>, welches genau aus dieser einzelnen exe-Datei besteht. Der Speicherort muss in die Umgebungsvariable PATH aufgenommen worden sein. Idealerweise wird <em>skyplot2pano.awk</em> am gleichen Ort abgelegt.</li>
 				<li>Es wird zumindest ein Höhenmodell im Format SCOP RDH benötigt (*.dtm oder *.rdh Datei). Dieses hybride Höhenmodellformat kann vermutlich nur mit SCOP++ aus verschiedenen gängigen Höhenmodell-Formaten (z.B. ESRI ASCII GRID) erzeugt werden. <script type="text/javascript">var name="aj"; var kap=""; verweis("dokSky");</script> GIS-Applikationen wie ESRI ArcGIS oder Safe FME unterstützen das Format nicht.</li>
 				<li>Der Speicherort und die Beschreibung der verwendeten Höhenmodelle muss in der Datei <em>dhm.txt</em> festgelegt werden.</li>

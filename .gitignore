@@ -18,8 +18,9 @@ list_html.txt
 list_hikr-images.txt
 list_images.vim
 
-# Misc
-template.html
+# Templates
+template_xhtml.html
+template_html5.html
 
 # Old files
 old

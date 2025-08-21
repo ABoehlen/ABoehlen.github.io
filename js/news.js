@@ -55,6 +55,7 @@ neuigkeiten[41] = "02.06.2025: Neue Funktionen der v2.6 von <a href=\"./dok/skyp
 neuigkeiten[42] = "28.06.2025: Neuer Seite: <a href=\"./dx/jingles.html\">Erkennungsmelodien von Rundfunksendern und Sendungen</a>";
 neuigkeiten[43] = "06.07.2025: Neuer Bericht: <a href=\"./dx/rf-b45_nf-aus.html\">Anschluss für Tonaufnahmen beim Panasonic RF-B45</a>";
 neuigkeiten[44] = "18.07.2025: Seite <a href=\"./dx/jingles.html\">Erkennungsmelodien von Rundfunksendern und Sendungen</a> fertig gestellt";
+neuigkeiten[45] = "21.08.2025: Neue Rubrik «Presse» unter <a href=\"./links.html\">Links</a>";
 
 //------------------------------------------------------------------------------------------------------------------------
 

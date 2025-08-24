@@ -27,8 +27,8 @@
 		<div class="box">
 			<h1>skyplot2pano – Dokumentation</h1>
 			<p>Adrian Böhlen<br />
-			Dokumentation: Version 1.14 vom 28.07.2025<br />
-			Applikation: Version 2.9 vom 28.07.2025</p>
+			Dokumentation: Version 1.15 vom 24.08.2025<br />
+			Applikation: Version 2.10 vom 24.08.2025</p>
 			
 			<h2>Inhalt</h2>
 			<div class="Reihe_zw">
@@ -790,6 +790,8 @@ mv sil_* $dir
 			<h3>2.6.1&nbsp;&nbsp;Panorama-Ansicht visualisieren</h3>
 			
 			<p>Die kommagetrennte Ausgabedatei lässt sich problemlos in einem Geographischen Informationssystem visualisieren. Die genaue Handhabung ist bei jedem System etwas anders, weshalb darauf nicht eingegangen wird. Für die nachstehenden Beispiele wurde wie bereits zuvor ESRI ArcView GIS 3.2a verwendet <script type="text/javascript">var name="al"; var kap=""; verweis("dokSky");</script>. Entscheidend ist die Zuweisung der richtigen Felder für die Darstellung der X- und Y-Koordinaten im Bildkoordinatensystem. Da diese bereits mit X und Y gekennzeichnet sind, sollten sie vom System normalerweise automatisch erkannt werden. Danach erscheinen die Punkte, welche die sichtbegrenzenden Kreten repräsentieren, in einer Einheitsgrösse im Kartenfenster. Mit dem Attribut <em>DiRel</em> (Distanz relativ) werden die Punkte je nach Konstellation in 8 – 10 Klassen unterteilt und lassen sich daher mit unterschiedlichen Grössen symbolisieren (siehe z.B. Abb.&nbsp;13). So lässt sich ein realistischer Landschaftseindruck erzielen, indem nahe gelegene Formationen mit grossen, weit entfernte dagegen mit kleinen Punkten dargestellt werden. Bei einer hohen Punktdichte, wie sie bei einer sehr geringen azimutalen Auflösung resultiert, verschmelzen die Punkte zudem zu durchgehenden Linien.</p>
+      
+      <p>Alternativ kann die Panorama-Ansicht seit Version 2.10 auch dadurch gewonnen werden, indem der Geometrietyp <em>Point</em> aus der DXF-Datei, die zur Speicherung der Namensinformationen erzeugt wird, geladen wird. Dies ist aber nur dann möglich, wenn bei der Berechnung des Panoramas eine Namendatei angegeben wird. Details dazu siehe Abschnitte 2.6.7 und 2.6.8.</p>
 
 			<a name="komb"></a>
 			<h3>2.6.2&nbsp;&nbsp;Kombination mit einer Fotografie</h3>
@@ -851,8 +853,8 @@ mv sil_* $dir
 			<p>Wie im Abschnitt 1.5 erläutert, besteht die Möglichkeit, die auf dem Panorama sichtbaren Gipfel automatisch beschriften, bzw. mit Priorität 99 gekennzeichnete Namen erzwungen darstellen zu lassen. Diese Option ist allerdings noch nicht sehr ausgereift, weshalb das Ergebnis möglicherweise den Erwartungen nicht entspricht. Dazu ist als 13.&nbsp;Argument die als Grundlage zu verwendende Namendatei aufzuführen und als 14.&nbsp;Argument die Lagetoleranz in m. Welcher Wert hier ideal ist, hängt von verschiedenen Parametern ab und muss im Einzelfall durch Probieren herausgefunden werden. Bei Sichtweiten unter 100&nbsp;km und einem gut aufgelösten Höhenmodell lassen sich mit 50&nbsp;–&nbsp;100&nbsp;m im Normalfall gute Ergebnisse erzielen. Grundsätzlich ist es sehr wichtig, dass für ein gutes Resultat die azimutale Auflösung möglichst klein sein sollte, insbesondere bei grosser Distanz zu den abgebildeten Gipfeln, da es ansonsten gut möglich ist, dass die höchsten Punkte durch die Maschen fallen und so auch keine Übereinstimmung mit der Namensinformation gefunden werden kann, d.h. die betreffenden Namen dann fehlen, obwohl die Gipfel sichtbar wären. Die Toleranz sollte also bei insgesamt grossen Distanzen höher gewählt werden (100&nbsp;–&nbsp;500&nbsp;m), was natürlich das Risiko mit sich bringt, dass mitunter «falsche», d.h. gar nicht sichtbare Namen erwischt und dann ebenfalls angezeigt werden. Allerdings muss der Toleranzwert immer kleiner sein als die Hälfte von Aufloes-Dist (12.&nbsp;Argument), da ansonsten ein Name bei mehreren Berechnungen als sichtbar detektiert werden kann und dann mehrfach im Panorama auftaucht.</p>
 			<p></p>
 			<div class="Bild_l">
-				<img width="320px" height="137px" alt="DXF laden" onclick="show('./img/add_dxf_483x206.png');" src="./img/add_dxf_483x206.png" />
-				<p class="Bildlegende">Abb.&nbsp;19:&nbsp;Laden der Linien- und Textinformation einer DXF-Datei.<br />Eigener Screenshot aus ArcView vom 21.04.2024</p>
+				<img width="320px" height="147px" alt="DXF laden" onclick="show('./img/add_dxf_517x237.png');" src="./img/add_dxf_517x237.png" />
+				<p class="Bildlegende">Abb.&nbsp;19:&nbsp;Laden der Linien- und Textinformation einer DXF-Datei.<br />Eigener Screenshot aus ArcView vom 24.08.2025</p>
 			</div>
 			<p>Bei gesetztem 13. und 14.&nbsp;Argument wird eine Datei im DXF-Format angelegt, wobei die Namenskonvention jener der sil- und prot-Datei entspricht. Bei Verwendung einer RAM-Disk (siehe Abschnitt 2.5) darf in diesem Fall nicht vergessen werden, noch eine weitere Zeile anzufügen, die diese Datei ebenfalls von der RAM-Disk ins ursprüngliche Verzeichnis zurückschiebt.</p>
 			<p>DXF ist ein gut dokumentiertes vektorielles CAD-Format von AutoDesk, welches auch von GIS-Systemen unterstützt wird (teilweise ist wie bei ArcView 3 dazu das Aktivieren einer <em>Extension</em> nötig). Da eine DXF-Datei das Speichern unterschiedlicher Geometrietypen in der gleichen Datei ermöglicht, genügt es nicht, im Dateibrowser einfach das DXF auszuwählen, sondern die gewünschten Typen müssen gezielt selektiert werden. In diesem Fall sind dies <em>Line</em> (in einigen Systemen auch <em>Polyline</em> genannt) und <em>Annotation</em> (Text), siehe Abb.&nbsp;19.</p>
@@ -870,6 +872,13 @@ mv sil_* $dir
 				<div class="Zelle_norm">
 					<img width="320px" height="150px" alt="Linie und Text symbolisiert" onclick="show('./img/dxf_darstellung_930x435.png');" src="./img/dxf_darstellung_930x435.png" />
 					<p class="Bildlegende">Abb.&nbsp;21:&nbsp;Unterschiedliche Darstellung der verschiedenen Linientypen sowie der Beschriftung.<br />Mit der Priorität 99 gekennzeichnete Punkte (siehe Tab.&nbsp;6) werden mit grauen Linien und Texten dargestellt.<br />Eigener Export aus ArcView vom 25.04.2025</p>
+				</div>
+			</div>
+      <p>Ab Version 2.10 werden bei Berücksichtigung eines Namensfiles, d.h. bei gesetztem 13. und 14. Attribut, zusätzlich die Silhouettenpunkte ins DXF-File geschrieben. Es ist somit nicht mehr notwendig, die Text-Silhouettendatei ins GIS zu importieren, sondern es genügt, innerhalb der DXF-Datei einfach den Typen <em>Point</em> auszuwählen. Um die nach Distanz abgestufte Darstellung zu erzielen, ist die DXF-Color entsprechend zu symbolisieren. Der DXF-Layer wird für die Speicherung der Lagekoordinaten verwendet. Weitere Informationen, wie z.B. das Azimut oder die Distanz können auf diese Weise aber nicht abgebildet werden. Dazu ist es weiterhin notwendig, die Textdatei zu importieren.</p>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<img width="640px" height="321px" alt="Abfrage DXF-Silhouettenpunkt" onclick="show('./img/abfrage_dxf-punkt_780x389.png');" src="./img/abfrage_dxf-punkt_780x389.png" />
+				<p class="Bildlegende">Abb.&nbsp;22:&nbsp;Abfrage eines DXF-Silhouettenpunktes mit Anzeige der Lagekoordinaten im Attribut <em>Layer</em>.<br />Eigener Screenshot aus ArcView vom 24.08.2025</p>
 				</div>
 			</div>
 

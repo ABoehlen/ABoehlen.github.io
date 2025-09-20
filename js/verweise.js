@@ -193,6 +193,17 @@ dxAdvDict["ah"] = "10";
 dxAdvDict["ai"] = "4";
 dxAdvDict["aj"] = "8";
 
+var dxKKDict = new Array();
+dxKKDict["aa"] = "1";
+dxKKDict["ab"] = "2";
+dxKKDict["ac"] = "4";
+dxKKDict["ad"] = "5";
+dxKKDict["ae"] = "6";
+dxKKDict["af"] = "7";
+dxKKDict["ag"] = "3";
+dxKKDict["ah"] = "9";
+dxKKDict["ai"] = "8";
+
 var dxMVT7000wfmDict = new Array();
 dxMVT7000wfmDict["ab"] = "2";
 dxMVT7000wfmDict["ac"] = "3";
@@ -310,6 +321,9 @@ function verweis(ref) {
       break;
     case "dxAdv":
       uebersetze(dxAdvDict);
+      break;
+    case "dxKK":
+      uebersetze(dxKKDict);
       break;
     case "dxMVT7000wfm":
       uebersetze(dxMVT7000wfmDict);

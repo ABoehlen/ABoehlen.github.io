@@ -27,7 +27,7 @@
 		<div class="box">
 			<h1>Erfahrungen und Empfangsbeobachtungen mit dem Yupiteru MVT-7000</h1>
 			<p>Adrian Böhlen<br />
-			Version 2.5 vom 15.08.2025</p>
+			Version 2.6 vom 17.10.2025</p>
 
 			<h2>Einleitung</h2>
 
@@ -110,7 +110,7 @@
 			
 			<p>Mit einem Verkaufspreis von DM&nbsp;499.– (Bogerfunk, Stand 1996 <sup>4</sup>) war dieses sehr gut ausgestattete Gerät vergleichsweise günstig zu haben. Interessant ist, dass in einem Inserat von 1998 Bogerfunk plötzlich DM&nbsp;552.– verlangte, obwohl damals nicht nur der Nachfolger MVT-7100/7200, sondern bereits auch dessen Nachfolger MVT-9000 im Handel war. Letzterer kostete allerdings mehr als doppelt so viel und ist daher nicht mehr wirklich vergleichbar. <sup>5</sup> Zum MVT-7000 fand ich noch ein Inserat aus England von 1995, welches einen Verkaufspreis von £&nbsp;265.– ausweist <sup>6</sup>, was beim damaligen Wechselkurs ein wenig teurer als der Preis in Deutschland war. <sup>7</sup> </p>
 			
-			<p>Das umfangreiche Handbuch (siehe dazu nächster Abschnitt) erläutert die vielseitigen Möglichkeiten, wie dieser Empfänger benutzt werden kann. Im Gegensatz zu vielen anderen Funkscannern lässt sich das Gerät aber auch wie ein «normales» Radio bedienen, indem bekannte Frequenzen direkt über die Zahlentastatur eingegeben werden. Auch manueller Suchempfang im eingestellten Raster über die Up- und Down-Taste ist möglich. Desweitern gibt es auf der Oberseite einen rastenden Drehknopf, mit dem quasi-analog ein Bereich abgesucht werden kann. Bei meinem Gerät funktioniert dieser allerdings nicht mehr. Insgesamt 200 Frequenzen lassen sich speichern, wobei die Speicherung intern über einen Kondensator (<em>Gold Capacitor</em>) mit der hohen Kapazität von 0.22F sichergestellt wird. <sup>8</sup> Diese Teile halten leider nicht ewig und verlieren irgendwann ihre Eigenschaften, was sich dadurch äussert, dass der Speicherinhalt weg ist, wenn das Gerät zwischendurch vom Strom getrennt wurde.</p>
+			<p>Das umfangreiche Handbuch (siehe dazu nächster Abschnitt) erläutert die vielseitigen Möglichkeiten, wie dieser Empfänger benutzt werden kann. Im Gegensatz zu vielen anderen Funkscannern lässt sich das Gerät aber auch wie ein «normales» Radio bedienen, indem bekannte Frequenzen direkt über die Zahlentastatur eingegeben werden. Auch manueller Suchempfang im eingestellten Raster über die Up- und Down-Taste ist möglich. Desweitern gibt es auf der Oberseite einen rastenden Drehknopf, mit dem quasi-analog ein Bereich abgesucht werden kann. Bei meinem Gerät funktioniert dieser allerdings nicht mehr. Insgesamt 200 Frequenzen lassen sich speichern, wobei die Speicherung intern über einen Kondensator (<em>Gold Capacitor</em>) mit der hohen Kapazität von 0.22&nbsp;F sichergestellt wird. <sup>8</sup> Diese Teile halten leider nicht ewig und verlieren irgendwann ihre Eigenschaften, was sich dadurch äussert, dass der Speicherinhalt weg ist, wenn das Gerät zwischendurch vom Strom getrennt wurde.</p>
 			
 			<a name="manual"></a>
 			<h2>Handbuch und Schaltplan</h2>
@@ -342,19 +342,19 @@
 			</ul>
 			
 			<p>Die einzige Alternative ist der Betrieb mit einem Netzteil, welches gemäss Anleitung 12&nbsp;V liefern soll. Diese zu hohe Spannung wird intern mit dem Toshiba-Baustein TA78006AP auf 6V begrenzt, wie aus dem Schaltplan hervorgeht. <sup>32</sup> Diese Lösung kam für mich aber nicht in Frage, weil ich das Gerät ja mobil einsetzen möchte. Also blieb als Lösung nur ein Umbau des Geräts, damit es mit 5&nbsp;NiMH-Zellen versorgt werden kann, was die vorgegebenen 6&nbsp;V ergibt. Dazu geeignete Batteriehalter gibt es meines Wissens keine, aber in der Bastelkiste fand sich noch ein Exemplar für 6 Zellen. Das nicht benutzte Fach darf nun natürlich nicht einfach leer bleiben, weil dadurch der Stromkreis unterbrochen würde. Mittels eines Stücks Rundholz habe ich daher eine «Dummy-Batterie» erbaut, die über zwei Kontakte und ein Stück Kabel die nötige Verbindung sicherstellt. Um das Gerät nicht wieder öffnen zu müssen, habe ich die Anschlüsse im Batteriefach fest gelötet und über zwei Drähte nach aussen geführt. Die Verbindung mit dem 6fach-Batteriehalter erfolgt dann mit einem Batterieclip, wie man ihn von 9&nbsp;V-Blockbatterien kennt. Da der Deckel des Batteriefachs einen sehr guten Halt bietet, habe ich die ganze Konstruktion mit reichlich Zweikomponentenkleber dort festgeklebt. So lässt sich der Batteriehalter bei Nichtgebrauch problemlos entfernen und der MVT-7000 weiterhin in der praktischen Schutztasche aufbewahren.</p>
-			<p>Dieser Umbau hat sich wirklich gelohnt, denn mit der auf diese Weise sichergestellten korrekten Versorgungsspannung arbeitet das Gerät deutlich zuverlässiger. Ein angenehmer Nebeneffekt ist, dass das Gerät (wenn stationär betrieben) wesentlich stabiler steht, da der Batteriehalter wie eine Stütze wirkt.</p>
+			<p>Dieser Umbau hat sich wirklich gelohnt, denn mit der auf diese Weise sichergestellten korrekten Versorgungsspannung arbeitet das Gerät deutlich zuverlässiger. Ein angenehmer Nebeneffekt ist, dass das Gerät (wenn stationär betrieben) wesentlich stabiler steht, da der Batteriehalter wie eine Stütze wirkt. Allerdings habe ich festgestellt, dass sich die Akkus vergleichsweise schnell entleeren, wenn sie dauerhaft angeschlossen bleiben. Besser ist es daher, die Stromversorgung über den Batterieclip zu lösen, wenn das Gerät längere Zeit nicht gebraucht wird. Damit der Speicherinhalt möglichst nicht verloren geht, habe ich im Batteriefach einen passenden 1000&nbsp;μF Elektrolytkondensator eingelötet. Wie oben erläutert, wird dies eigentlich durch einen eingebauten <em>Gold Capacitor</em> mit 0.22&nbsp;F Kapazität erledigt, der in meinem Fall jedoch nicht mehr richtig zu funktionieren scheint. Nach einigen Stunden ohne Versorgungsspannung waren die gespeicherten Frequenzen jeweils gelöscht. Mit diesem Kondensator konnte ich das Problem nun deutlich entschärfen und bei Tests war der Speicherinhalt auch nach 36&nbsp;Stunden ohne Strom noch vorhanden.</p>
 			<p>Das Handbuch verweist im Übrigen darauf, dass Akkus direkt im Gerät geladen werden können, wenn über die DC12V Buchse eine externe Stromversorgung angeschlossen ist. Davon würde ich abraten. Sinnvoller ist es, die Akkus in einem Schnellladegerät zu laden, welches den Ladevorgang automatisch stoppt, wenn sie voll sind.</p>
 
 			<div class="Reihe">
 				<div class="Zelle_norm">
 					<img width="320px" height="217px" alt="externer Batterieanschluss" onclick="show('./img/mvt7000_ext_batterieanschluss_640x435.jpg');" src="./img/mvt7000_ext_batterieanschluss_640x435.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;21:&nbsp;Anschluss für den externen Batteriehalter, festgelötet im Batteriefach. Um die Leitungen nach aussen zu führen, habe ich zwei kleine Löcher in die Unterseite gebohrt.<br />Eigene Aufnahme vom 21.02.2025</p>
+					<p class="Bildlegende">Abb.&nbsp;21:&nbsp;Anschluss für den externen Batteriehalter, festgelötet im Batteriefach. Um die Leitungen nach aussen zu führen, habe ich zwei kleine Löcher in die Unterseite gebohrt. Der Kondensator hilft mit, dass der Speicherinhalt erhalten bleibt.<br />Eigene Aufnahme vom 15.10.2025</p>
 				</div>
 				<div class="Zelle_zw">
 				</div>
 				<div class="Zelle_norm">
 					<img width="320px" height="217px" alt="externes Batteriepaket" onclick="show('./img/mvt7000_ext_batteriepaket_640x435.jpg');" src="./img/mvt7000_ext_batteriepaket_640x435.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;22:&nbsp;Betrieb mit externem 6fach-Batteriehalter. Da nur 5 NiMH-Akkus benötigt werden, ist auf der einen Seite in der Mitte ein «Dummy» eingesetzt, der die elektrische Verbindung sicherstellt.<br />Eigene Aufnahme vom 21.02.2025</p>
+					<p class="Bildlegende">Abb.&nbsp;22:&nbsp;Betrieb mit externem 6fach-Batteriehalter. Da nur 5 NiMH-Akkus benötigt werden, ist anstelle des fehlenden Akkus ein «Dummy» eingesetzt, der die elektrische Verbindung sicherstellt.<br />Eigene Aufnahme vom 21.02.2025</p>
 				</div>
 			</div>
 
@@ -386,6 +386,7 @@
 
 			<a name="quellen"></a>
 			<h3>Grundlagen und Literatur</h3>
+
 			<!-- automatically generated by xref_bibliography.awk -->
 			<div class="Reihe">
 				<div class="Zelle_Verw_l">

@@ -203,6 +203,7 @@ dxKKDict["af"] = "7";
 dxKKDict["ag"] = "3";
 dxKKDict["ah"] = "9";
 dxKKDict["ai"] = "8";
+dxKKDict["aj"] = "10";
 
 var dxMVT7000wfmDict = new Array();
 dxMVT7000wfmDict["ab"] = "2";

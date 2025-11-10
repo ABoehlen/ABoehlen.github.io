@@ -36,27 +36,28 @@ neuigkeiten[22] = "15.10.2023: Typographie der Berichte harmonisiert";
 neuigkeiten[23] = "29.10.2023: Bericht <a href=\"./famous_five/ff_saillon.html\"> Ausflug nach Saillon […]</a> und Seite <a href=\"./touren.html\"> Touren</a> überarbeitet";
 neuigkeiten[24] = "03.12.2023: Bericht zu <a href=\"./famous_five/ff_smugglers_top.html\"> Karte von Castaway Hill und Smuggler’s Top</a> überarbeitet und ergänzt";
 neuigkeiten[25] = "19.01.2024: Neue Seite mit <a href=\"./touren2.html\">Links zu besonderen Tourenberichten</a> ergänzt";
-neuigkeiten[26] = "16.03.2024: Ausführliche Dokumentation zur Eigenentwicklung <a href=\"./dok/skyplot2pano.html\">skyplot2pano</a> ergänzt";
-neuigkeiten[27] = "05.05.2024: Automatische Bergbeschriftung der Eigenentwicklung <a href=\"./dok/skyplot2pano.html\">skyplot2pano</a> dokumentiert";
+neuigkeiten[26] = "16.03.2024: Ausführliche Dokumentation zur Eigenentwicklung <a href=\"./pano/skyplot2pano.html\">skyplot2pano</a> ergänzt";
+neuigkeiten[27] = "05.05.2024: Automatische Bergbeschriftung der Eigenentwicklung <a href=\"./pano/skyplot2pano.html\">skyplot2pano</a> dokumentiert";
 neuigkeiten[28] = "03.06.2024: Seite mit <a href=\"./touren2.html\">Links zu besonderen Tourenberichten</a> erweitert";
 neuigkeiten[29] = "23.06.2024: Neue umfangreiche Dokumentation <a href=\"./adventure_series/valley_of_adventure/adv_valley_inh.html\">Mein Tal der Abenteuer</a> ergänzt";
 neuigkeiten[30] = "30.08.2024: Seite <a href=\"./karten.html\">Karten</a> erweitert und überarbeitet";
-neuigkeiten[31] = "20.09.2024: Erweiterter Inhalt der DXF-Datei von <a href=\"./dok/skyplot2pano.html#nam_dxf\">skyplot2pano</a> erläutert";
+neuigkeiten[31] = "20.09.2024: Erweiterter Inhalt der DXF-Datei von <a href=\"./pano/skyplot2pano.html#nam_dxf\">skyplot2pano</a> erläutert";
 neuigkeiten[32] = "06.10.2024: Rubrik <a href=\"./dx.html\">DX</a> und Umbaubericht <a href=\"./dx/mvt7000_wfm-filter-mod.html\">MVT-7000</a> ergänzt";
 neuigkeiten[33] = "27.10.2024: Erfahrungsbericht zum <a href=\"./dx/mvt7000.html\">MVT-7000</a> ergänzt";
 neuigkeiten[34] = "20.12.2024: Einige neue Bilder in <a href=\"./famous_five/ff_modell_eisenbahn_zeltlager.html\">Bahnanlagen «Zeltlager»</a> eingefügt";
-neuigkeiten[35] = "22.12.2024: Umfassend erweiterte Version 2.0 von <a href=\"./dok/skyplot2pano.html\">skyplot2pano</a> erläutert";
+neuigkeiten[35] = "22.12.2024: Umfassend erweiterte Version 2.0 von <a href=\"./pano/skyplot2pano.html\">skyplot2pano</a> erläutert";
 neuigkeiten[36] = "12.01.2025: Neuer Bericht: <a href=\"./dx/adv.html\">Eigenbauempfänger nach UKW-Radio-Adventskalender</a>";
 neuigkeiten[37] = "16.02.2025: Rubrik <a href=\"./dx.html#scan\">Bandscans</a> und <a target=\"_blank\" href=\"./dx/bandscans/ukw_bandscan_worb.html\">UKW-Bandscan Worb</a> ergänzt";
 neuigkeiten[38] = "23.02.2025: Weitere Möglichkeiten und Erfahrungen mit dem <a href=\"./dx/mvt7000.html\">MVT-7000</a> ergänzt";
 neuigkeiten[39] = "13.04.2025: <a target=\"_blank\" href=\"./dx/bandscans/ukw_bandscan_worb.html\">UKW-Bandscan Worb</a> und zugehörige <a target=\"_blank\" href=\"./pdf/ukw-bandscan-map.pdf\">Karte</a> deutlich erweitert";
 neuigkeiten[40] = "11.05.2025: Überarbeitung und Erweiterung der Seiten <a href=\"./dx/mvt7000.html\">MVT-7000</a> und <a href=\"./dx/mvt7000_wfm-filter-mod.html\">MVT-7000 Modifikation</a>";
-neuigkeiten[41] = "02.06.2025: Neue Funktionen der v2.6 von <a href=\"./dok/skyplot2pano.html\">skyplot2pano</a> erläutert (Darstellen von Namen ignorieren oder erzwingen)";
+neuigkeiten[41] = "02.06.2025: Neue Funktionen der v2.6 von <a href=\"./pano/skyplot2pano.html\">skyplot2pano</a> erläutert (Darstellen von Namen ignorieren oder erzwingen)";
 neuigkeiten[42] = "28.06.2025: Neuer Seite: <a href=\"./dx/jingles.html\">Erkennungsmelodien von Rundfunksendern und Sendungen</a>";
 neuigkeiten[43] = "06.07.2025: Neuer Bericht: <a href=\"./dx/rf-b45_nf-aus.html\">Anschluss für Tonaufnahmen beim Panasonic RF-B45</a>";
 neuigkeiten[44] = "18.07.2025: Seite <a href=\"./dx/jingles.html\">Erkennungsmelodien von Rundfunksendern und Sendungen</a> fertig gestellt";
 neuigkeiten[45] = "21.08.2025: Neue Rubrik «Presse» unter <a href=\"./links.html\">Links</a>";
 neuigkeiten[46] = "20.09.2025: Neuer Bericht: <a href=\"./dx/kk9803.html\">Weltempfänger Wetekom KK-9803: Beschreibung, Modifikation und Erfahrungen</a>";
+neuigkeiten[47] = "10.11.2025: Diverse Seiten aktualisiert sowie Struktur angepasst</a>";
 
 //------------------------------------------------------------------------------------------------------------------------
 

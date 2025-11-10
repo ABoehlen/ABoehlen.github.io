@@ -196,11 +196,6 @@
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://aboehlen.github.io/dok/skyplot2pano.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.7</priority>
-</url>
-<url>
   <loc>https://aboehlen.github.io/dx/adv.html</loc>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
@@ -253,6 +248,11 @@
 <url>
   <loc>https://aboehlen.github.io/famous_five/ff_smugglers_top.html</loc>
   <changefreq>yearly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pano/skyplot2pano.html</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
 <url>

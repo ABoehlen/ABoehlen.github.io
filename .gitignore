@@ -1,7 +1,7 @@
 # Reports not yet finished
 dx/ukw_loop.html
-dok/img/limits_oeffWi_gross_640x840.jpg
-dok/img/limits_oeffWi_klein_640x840.jpg
+pano/img/limits_oeffWi_gross_640x840.jpg
+pano/img/limits_oeffWi_klein_640x840.jpg
 
 # Documentation
 notes.txt
@@ -42,7 +42,7 @@ secret_series/grundlagen_secret.txt
 secret_series/grundlagen_secret_maps_killi.txt
 secret_series/grundlagen_secret_moon.txt
 secret_series/grundlagen_secret_mountain.txt
-dok/grundlagen_sykplot2pano.txt
+pano/grundlagen_sykplot2pano.txt
 dx/grundlagen_adv.txt
 dx/grundlagen_kk9803.txt
 dx/grundlagen_mvt7000_wfm-filter-mod.txt

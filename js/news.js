@@ -58,6 +58,7 @@ neuigkeiten[44] = "18.07.2025: Seite <a href=\"./dx/jingles.html\">Erkennungsmel
 neuigkeiten[45] = "21.08.2025: Neue Rubrik «Presse» unter <a href=\"./links.html\">Links</a>";
 neuigkeiten[46] = "20.09.2025: Neuer Bericht: <a href=\"./dx/kk9803.html\">Weltempfänger Wetekom KK-9803: Beschreibung, Modifikation und Erfahrungen</a>";
 neuigkeiten[47] = "10.11.2025: Diverse Seiten aktualisiert sowie Struktur angepasst</a>";
+neuigkeiten[48] = "23.11.2025: Neuer Bericht: <a href=\"./dx/rf-b45_zf-aus.html\">Zwischenfrequenz-Ausgang für den Panasonic RF-B45</a>";
 
 //------------------------------------------------------------------------------------------------------------------------
 

@@ -223,6 +223,24 @@ dxRFBnfDict["ab"] = "4";
 dxRFBnfDict["ac"] = "3";
 dxRFBnfDict["ad"] = "1";
 
+var dxRFBzfDict = new Array();
+dxRFBzfDict["aa"] = "1";
+dxRFBzfDict["ab"] = "2";
+dxRFBzfDict["ac"] = "3";
+dxRFBzfDict["ad"] = "4";
+dxRFBzfDict["ae"] = "5";
+dxRFBzfDict["af"] = "6";
+dxRFBzfDict["ag"] = "7";
+dxRFBzfDict["ah"] = "8";
+dxRFBzfDict["ai"] = "9";
+dxRFBzfDict["aj"] = "12";
+dxRFBzfDict["ak"] = "13";
+dxRFBzfDict["al"] = "16";
+dxRFBzfDict["am"] = "11";
+dxRFBzfDict["an"] = "15";
+dxRFBzfDict["ao"] = "14";
+dxRFBzfDict["ap"] = "10";
+
 var dxUKWLoopDict = new Array();
 dxUKWLoopDict["aa"] = "1";
 dxUKWLoopDict["ab"] = "2";
@@ -331,6 +349,9 @@ function verweis(ref) {
       break;
     case "dxRFBnf":
       uebersetze(dxRFBnfDict);
+      break;
+    case "dxRFBzf":
+      uebersetze(dxRFBzfDict);
       break;
     case "dxUKWLoop":
       uebersetze(dxUKWLoopDict);

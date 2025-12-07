@@ -10,7 +10,9 @@ _hf-aus-video_$
 _empf-videokanal_$
 _zf-empf_$
 _ext-ls_$
-_tiefpassfilt_$
+_tiefpassfilt-plan_$
+_tiefpassfilt-bau_$
+_tiefpassfilt-geh_$
 _kopfh-filter_$
 _ext-batt-ans_$
 _ext-batt-pack_$

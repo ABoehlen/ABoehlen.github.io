@@ -59,6 +59,7 @@ neuigkeiten[45] = "21.08.2025: Neue Rubrik «Presse» unter <a href=\"./links.ht
 neuigkeiten[46] = "20.09.2025: Neuer Bericht: <a href=\"./dx/kk9803.html\">Weltempfänger Wetekom KK-9803: Beschreibung, Modifikation und Erfahrungen</a>";
 neuigkeiten[47] = "10.11.2025: Diverse Seiten aktualisiert sowie Struktur angepasst</a>";
 neuigkeiten[48] = "23.11.2025: Neuer Bericht: <a href=\"./dx/rf-b45_zf-aus.html\">Zwischenfrequenz-Ausgang für den Panasonic RF-B45</a>";
+neuigkeiten[49] = "07.12.2025: Ergänzungen und Präzisierungen im Dokument zum <a href=\"./dx/mvt7000.html\">MVT-7000</a>.";
 
 //------------------------------------------------------------------------------------------------------------------------
 

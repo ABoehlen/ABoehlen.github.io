@@ -64,4 +64,6 @@ _be_$AFM Aircrew Speak, An Air-band Frequency Guide. Stamford, Lincolnshire 1995
 
 _bf_$https://europa-urlaub.eu/britische-pfund-historische-wechselkurse/ (historische Wechselkurse des Britischen Pfund zur D-Mark von 1950 bis 1998)
 
+_bg_$https://electronicbase.net/de/tiefpass-berechnen/ (RC Tiefpass Rechner)
+
 # Ende

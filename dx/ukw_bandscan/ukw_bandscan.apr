@@ -140,7 +140,6 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 (FTheme.66
 	Name:	"UKW_alle"
 	Source:	67
-	Flags:	0x01
 	Legend:	98
 	Threshold:	118
 	View:	119
@@ -464,7 +463,7 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 )
 
 (Bitmap.97
-	NumBits:	6897
+	NumBits:	6895
 	Bits:	00000000 00000000 00000000 00000000 
 	Bits:	00000000 00000000 00000000 00000000 
 	Bits:	00000000 00000000 00000000 00000000 
@@ -865,8 +864,8 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 )
 
 (PointD.144
-	x:	280108.82310649223000
-	y:	302459.13202625868000
+	x:	262910.87190859235000
+	y:	199271.42483885941000
 )
 
 (Numb.145
@@ -1190,7 +1189,7 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 )
 
 (Bitmap.177
-	NumBits:	6897
+	NumBits:	6895
 
 )
 
@@ -1552,7 +1551,7 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 (FTheme.239
 	Name:	"UKW_empf_gra"
 	Source:	240
-	Flags:	0x02
+	Flags:	0x03
 	Legend:	271
 	Threshold:	451
 	View:	119
@@ -1884,7 +1883,7 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 )
 
 (Bitmap.270
-	NumBits:	6897
+	NumBits:	6895
 
 )
 
@@ -7530,7 +7529,7 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 (ITheme.995
 	Name:	"Pk1000.tif"
 	Source:	996
-	Flags:	0x04
+	Flags:	0x06
 	Legend:	1001
 	Threshold:	1261
 	View:	119
@@ -11622,7 +11621,7 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 )
 
 (Bitmap.1647
-	NumBits:	6897
+	NumBits:	6895
 	Bits:	00000000 00000000 00000000 00000000 
 	Bits:	00000000 00000000 00000000 00000000 
 	Bits:	00000000 00000000 00000000 00000000 
@@ -12024,7 +12023,7 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 )
 
 (Bitmap.1682
-	NumBits:	6897
+	NumBits:	6895
 
 )
 
@@ -15423,29 +15422,29 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 
 (NameDict.2254
 	Obj:	2255
-	Obj:	2256
+	Obj:	2258
 	Obj:	2259
 	Obj:	2869
-	Obj:	2874
+	Obj:	2875
 	Obj:	2880
 )
 
 (AVDict.2255
-	InternalName:	"Table of Contents Defaults Dialog"
-)
-
-(AVDict.2256
 	InternalName:	"Dialog Designer"
-	Key:	2257
-	Value:	2258
+	Key:	2256
+	Value:	2257
 )
 
-(AVStr.2257
+(AVStr.2256
 	S:	"IsVisible"
 )
 
-(Bool.2258
+(Bool.2257
 	Truth:	1
+)
+
+(AVDict.2258
+	InternalName:	"Table of Contents Defaults Dialog"
 )
 
 (AVDict.2259
@@ -15462,60 +15461,60 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (AVDict.2869
-	InternalName:	"Geoprocessing"
+	InternalName:	"Table Master 2"
 	Key:	2870
-	Key:	2871
-	Value:	2872
-	Value:	2873
+	Value:	2871
 )
 
 (AVStr.2870
-	S:	"Loaded"
-)
-
-(AVStr.2871
-	S:	"Version"
-)
-
-(Bool.2872
-	Truth:	1
-)
-
-(Numb.2873
-	N:	3.10000000000000
-)
-
-(AVDict.2874
-	InternalName:	"Table Master 2"
-	Key:	2875
-	Value:	2876
-)
-
-(AVStr.2875
 	S:	"Table Master 2"
 )
 
-(AVDict.2876
+(AVDict.2871
+	Key:	2872
+	Value:	2873
+)
+
+(Numb.2872
+)
+
+(List.2873
+	InternalName:	"Incorrect"
+	Child:	2874
+)
+
+(AVStr.2874
+	S:	"1"
+)
+
+(AVDict.2875
+	InternalName:	"Geoprocessing"
+	Key:	2876
 	Key:	2877
 	Value:	2878
+	Value:	2879
 )
 
-(Numb.2877
+(AVStr.2876
+	S:	"Loaded"
 )
 
-(List.2878
-	InternalName:	"Incorrect"
-	Child:	2879
+(AVStr.2877
+	S:	"Version"
 )
 
-(AVStr.2879
-	S:	"1"
+(Bool.2878
+	Truth:	1
+)
+
+(Numb.2879
+	N:	3.10000000000000
 )
 
 (AVDict.2880
 	InternalName:	"Projection Utility Wizard"
 	Key:	2881
-	Value:	2872
+	Value:	2878
 )
 
 (AVStr.2881
@@ -15842,6 +15841,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.2919
+	Disabled:	1
 	Help:	"Inserts the contents of the clipboard"
 	HelpTopic:	"Paste"
 	Update:	"View.PasteUpdate"
@@ -16456,7 +16456,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3027
-	Disabled:	1
 	Help:	"Labels features in active, visible themes"
 	HelpTopic:	"Auto_label"
 	Update:	"View.LabelThemesUpdate"
@@ -17502,7 +17501,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (ToolMenu.3386
-	Disabled:	1
 	Help:	"Label//Labels a feature in the active theme with data from its table"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.LabelToolUpdate"
@@ -17527,7 +17525,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3388
-	Disabled:	1
 	Help:	"Label//Labels a feature in the active theme with data from its table"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.LabelToolUpdate"
@@ -17537,7 +17534,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3389
-	Disabled:	1
 	Help:	"Callout Label//Click on a feature and drag in the direction you want the label to appear"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
@@ -17553,7 +17549,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3391
-	Disabled:	1
 	Help:	"Bullet Leader Label//Click on a feature and drag in the direction you want the label to appear"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
@@ -17569,7 +17564,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3393
-	Disabled:	1
 	Help:	"Banner Label//Click on a feature you want to label"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
@@ -17585,7 +17579,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3395
-	Disabled:	1
 	Help:	"U.S. Interstate//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
@@ -17601,7 +17594,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3397
-	Disabled:	1
 	Help:	"U.S. Route//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
@@ -17617,7 +17609,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3399
-	Disabled:	1
 	Help:	"Generic State Hwy//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
@@ -17633,7 +17624,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3401
-	Disabled:	1
 	Help:	"Generic Square Hwy//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
@@ -17649,7 +17639,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Tool.3403
-	Disabled:	1
 	Help:	"Generic Oval Hwy//Click where you want to place a highway shield"
 	Update:	"View.CalloutUpdate"
 	Icon:	3404

@@ -3,8 +3,8 @@
 '# Filename:     exportHTML.ave
 '# based on:     TableTools_ExportHTML.ave
 '# Author:       Adrian Boehlen
-'# Date:         02.06.2025
-'# Version:      0.4
+'# Date:         22.12.2025
+'# Version:      0.5
 '# 
 '# Purpose:      - Konvertiert Tabellen ins HTML-Format
 '#               - verschiedene Stile sind waehlbar
@@ -143,7 +143,9 @@ for each r in xt
     distFld = theTab.FindField("Dist")
     dist = theTab.ReturnValueString(distFld,r)
     dist = dist.AsNumber
-    if (dist < 50) then
+    if (dist = 0) then
+      ColStr = "#ffffff"
+    elseif (dist < 50) then
       ColStr = "#ccffff"
     elseif (dist < 100) then
       ColStr = "#ccffcc"
@@ -174,4 +176,3 @@ end
 R_file.WriteElt("</table>")
 R_file.WriteElt("</html>")
 R_file.Close
-

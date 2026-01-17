@@ -1,0 +1,11213 @@
+/3.2
+(ODB.1
+	FirstRootClassName:	"AVDict"
+	Roots:	2
+	Version:	32
+)
+
+(AVDict.2
+	Key:	3
+	Value:	4
+)
+
+(AVStr.3
+	S:	"MyDoc"
+)
+
+(View.4
+	Name:	"UKW-Sender"
+	CreationDate:	"Dienstag, 21. Januar 2025 20:36:18"
+	Comments:	"XTOOLS DEFAULTS FOR THIS VIEW:\nData Map Units set to Meters;   Output Map Units set to Meters;   View Distance Units set to Meters;   Area Output Units set to Both Acres and Hectares;\nAlways convert output shapes to single part?:  No;\nAlways do Area and Length Calculations?:  Yes;\nVIEW PROJECTION NOT SET."
+	GUIName:	"View"
+	Win:	5
+	CSMgr:	6
+	DocExts:	8
+	DocExts:	23
+	Graphics:	24
+	Theme:	31
+	Theme:	90
+	Theme:	124
+	Theme:	344
+	Theme:	404
+	Theme:	509
+	Theme:	575
+	Theme:	638
+	Theme:	717
+	Theme:	758
+	Theme:	888
+	Theme:	940
+	Theme:	1208
+	Theme:	1222
+	Theme:	1236
+	Theme:	1250
+	Theme:	1264
+	Theme:	1278
+	Theme:	1292
+	Theme:	1306
+	Theme:	1320
+	Theme:	1334
+	Theme:	1348
+	Theme:	1362
+	Theme:	1376
+	Theme:	1390
+	Theme:	1404
+	Theme:	1418
+	Theme:	1432
+	Theme:	1446
+	Theme:	1460
+	Theme:	1474
+	Theme:	1488
+	Theme:	1502
+	Theme:	1516
+	Theme:	1530
+	Theme:	1544
+	LastScale:	2500000.01967256000000
+	Dpy:	25
+	TOCWidth:	150
+	CoordPrecision:	2
+)
+
+(DocWin.5
+	Owner:	4
+	Open:	1
+	X:	265
+	W:	1052
+	H:	882
+)
+
+(CSMgr.6
+	Client:	7
+	Client:	9
+)
+
+(CSClient.7
+	Client:	8
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.8
+	Doc:	4
+)
+
+(CSClient.9
+	Client:	10
+	ReqName:	"ViewChangedCB"
+)
+
+(GView.10
+	Name:	"ViewFrame2"
+	Bounds:	11
+	Sym:	12
+	Flags:	0x01
+	UserBounds:	16
+	Refresh:	2
+	Quality:	1
+	View:	4
+	LiveLink:	1
+	MapDpy:	17
+	CSMgr:	22
+)
+
+(RectD.11
+	Left:	746.62101576182022
+	Top:	754.13023759486282
+	Right:	753.37898423817740
+	Bottom:	748.49859719789833
+)
+
+(BShSym.12
+	Color:	13
+	OutlineColor:	14
+	BgColor:	15
+	Style:	0x01
+)
+
+(TClr.13
+)
+
+(TClr.14
+)
+
+(TClr.15
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(RectD.16
+	Left:	746.62101576182022
+	Top:	754.13023759486282
+	Right:	753.37898423817740
+	Bottom:	748.49859719789833
+)
+
+(MapDpy.17
+	Left:	256034.99872773967000
+	Bottom:	-118358.19729481499000
+	Top:	442156.10522781505000
+	Right:	843272.27157326031000
+	Scale:	18
+	FrameLeft:	746.62101576182022
+	FrameBottom:	748.49859719789833
+	FrameTop:	754.13023759486282
+	FrameRight:	753.37898423817740
+	PageDpy:	19
+	MouseLoc:	21
+)
+
+(Numb.18
+	N:	0.00001004727332
+)
+
+(PageDpy.19
+	Left:	2.16159105667941
+	Bottom:	-4.14850069514739
+	Top:	1495.85149930485250
+	Right:	1502.16159105667700
+	ReportUnits:	5
+	Units:	1
+	Scale:	20
+	Type:	1
+	ZoomLeft:	745.45516666666549
+	ZoomRight:	754.54483333333224
+	ZoomTop:	756.43133333333321
+	ZoomBottom:	743.56866666666656
+	PageLeft:	745.86833333333220
+	PageRight:	754.13166666666552
+	PageTop:	755.84666666666658
+	PageBottom:	744.15333333333319
+	GridSpacingX:	0.19685000000000
+	GridSpacingY:	0.07874000000000
+	MarginLeft:	0.70866000000000
+	MarginRight:	0.70866000000000
+	MarginTop:	0.59055000000000
+	MarginBottom:	0.59055000000000
+	UsePrtPageSize:	1
+	Options:	55
+)
+
+(Numb.20
+	N:	0.07774437649010
+)
+
+(PointD.21
+)
+
+(CSMgr.22
+)
+
+(DocAct.23
+	Doc:	4
+)
+
+(GList.24
+	Dpy:	25
+	FormatNumb:	30
+)
+
+(MapDpy.25
+	Left:	273010.89061200002000
+	Bottom:	-115583.37401499999000
+	Top:	439381.28194800002000
+	Right:	826296.37968899996000
+	ReportUnits:	7
+	Units:	7
+	Scale:	26
+	FrameTop:	8.73958333333333
+	FrameRight:	9.15625000000000
+	PageDpy:	27
+	FitToPage:	1
+	MouseLoc:	29
+)
+
+(Numb.26
+	N:	0.00001574799988
+)
+
+(PageDpy.27
+	Top:	8.73958333333333
+	Right:	9.15625000000000
+	ReportUnits:	1
+	Units:	1
+	Scale:	28
+	ZoomRight:	9.15625000000000
+	ZoomTop:	8.73958333333333
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.28
+	N:	96.00000000000000
+)
+
+(PointD.29
+	x:	559906.25990309415000
+	y:	173474.49804200960000
+)
+
+(Numb.30
+)
+
+(FTheme.31
+	Name:	"Ukw_empf_tabl"
+	Source:	32
+	Flags:	0x01
+	Legend:	63
+	Threshold:	82
+	View:	4
+	GSet:	83
+	LegEditScript:	"View.EditLegend"
+	TxPos:	84
+	LabelField:	37
+	Table:	85
+	SnapTolCursor:	1
+)
+
+(ShpSrc.32
+	Name:	33
+	FTab:	35
+)
+
+(SrcName.33
+	FileName:	34
+	Name:	"ukw_standorte_lv03.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.34
+	Path:	"c:/users/aboeh/git/aboehlen.github.io/dx/ukw_bandscan/ukw_standorte/ukw_standorte_lv03.shp"
+)
+
+(FTab.35
+	Name:	"ukw_standorte_lv03.dbf"
+	BTab:	36
+	Query:	"(( [Empfang] <> \"\" ) and ( [Rf_b45] <> \"N/A\" ))"
+	Fields:	61
+	Fields:	39
+	Fields:	40
+	Fields:	41
+	Fields:	42
+	Fields:	43
+	Fields:	44
+	Fields:	45
+	Fields:	46
+	Fields:	47
+	Fields:	48
+	Fields:	52
+	Fields:	53
+	Fields:	37
+	Fields:	38
+	Fields:	51
+	Fields:	50
+	Fields:	49
+	Fields:	54
+	Fields:	55
+	Fields:	56
+	Fields:	57
+	Fields:	58
+	Fields:	59
+	SelBits:	62
+	FSrc:	32
+)
+
+(dBASE.36
+	Name:	"ukw_standorte_lv03.dbf"
+	Fields:	37
+	Fields:	38
+	Fields:	39
+	Fields:	40
+	Fields:	41
+	Fields:	42
+	Fields:	43
+	Fields:	44
+	Fields:	45
+	Fields:	46
+	Fields:	47
+	Fields:	48
+	Fields:	49
+	Fields:	50
+	Fields:	51
+	Fields:	52
+	Fields:	53
+	Fields:	54
+	Fields:	55
+	Fields:	56
+	Fields:	57
+	Fields:	58
+	Fields:	59
+	FileName:	60
+)
+
+(Field.37
+	Name:	"Site_name"
+	Btab:	36
+	Alias:	"Standort"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.38
+	Name:	"Ctry"
+	Btab:	36
+	Alias:	"Land"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.39
+	Name:	"Longitude"
+	Btab:	36
+	Alias:	"Longitude"
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.40
+	Name:	"Latitude"
+	Btab:	36
+	Alias:	"Latitude"
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.41
+	Name:	"Metx"
+	Btab:	36
+	Alias:	"Metx"
+	Type:	9
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.42
+	Name:	"Mety"
+	Btab:	36
+	Alias:	"Mety"
+	Type:	9
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.43
+	Name:	"Site_alt"
+	Btab:	36
+	Alias:	"Site_alt"
+	Type:	9
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.44
+	Name:	"Bdwdth"
+	Btab:	36
+	Alias:	"Bdwdth"
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.45
+	Name:	"Erp_h_w"
+	Btab:	36
+	Alias:	"Erp_h_w"
+	Type:	9
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.46
+	Name:	"Erp_v_w"
+	Btab:	36
+	Alias:	"Erp_v_w"
+	Type:	9
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.47
+	Name:	"Polar"
+	Btab:	36
+	Alias:	"Polar"
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.48
+	Name:	"Coord_date"
+	Btab:	36
+	Alias:	"Coord_date"
+	Type:	10
+	Order:	-1
+	Pixels:	61
+)
+
+(Field.49
+	Name:	"Empfang"
+	Btab:	36
+	Alias:	"Empfang"
+	Type:	4
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.50
+	Name:	"Kw"
+	Btab:	36
+	Alias:	"kW"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	47
+)
+
+(Field.51
+	Name:	"Region"
+	Btab:	36
+	Alias:	"Region"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	38
+)
+
+(Field.52
+	Name:	"Freq"
+	Btab:	36
+	Alias:	"MHz"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	41
+)
+
+(Field.53
+	Name:	"Programm"
+	Btab:	36
+	Alias:	"Programm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.54
+	Name:	"Rf_b45"
+	Btab:	36
+	Alias:	"Signal"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.55
+	Name:	"Adv"
+	Btab:	36
+	Alias:	"Adv"
+	Type:	4
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.56
+	Name:	"Dist"
+	Btab:	36
+	Alias:	"km"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	29
+)
+
+(Field.57
+	Name:	"Idn"
+	Btab:	36
+	Alias:	"Idn"
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.58
+	Name:	"X_centr"
+	Btab:	36
+	Alias:	"X_centr"
+	Type:	9
+	Order:	-1
+	Pixels:	125
+)
+
+(Field.59
+	Name:	"Y_centr"
+	Btab:	36
+	Alias:	"Y_centr"
+	Type:	9
+	Order:	-1
+	Pixels:	125
+)
+
+(FN.60
+	Path:	"c:/users/aboeh/git/aboehlen.github.io/dx/ukw_bandscan/ukw_standorte/ukw_standorte_lv03.dbf"
+)
+
+(Field.61
+	Name:	"Shape"
+	Alias:	"Shape"
+	Type:	17
+	Order:	-1
+	Pixels:	41
+)
+
+(Bitmap.62
+	NumBits:	6900
+
+)
+
+(Legend.63
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	64
+	Class:	72
+	StdDevs:	1.00000000000000
+	NullSym:	73
+	NullValues:	80
+	StatValues:	81
+	Precision:	-3
+)
+
+(SymList.64
+	Child:	65
+)
+
+(BMkSym.65
+	Color:	66
+	BgColor:	67
+	Font:	68
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.66
+	Red:	0xe4b1
+	Green:	0x94d4
+	Blue:	0x63c9
+)
+
+(TClr.67
+	Name:	"Transparent"
+)
+
+(NFont.68
+	Family:	69
+	Name:	70
+	Style:	71
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.69
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.70
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.71
+	S:	"Normal"
+)
+
+(LClass.72
+	IsText:	1
+	Precision:	-3
+)
+
+(BMkSym.73
+	Color:	74
+	BgColor:	75
+	Font:	76
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.74
+	Name:	"Transparent"
+)
+
+(TClr.75
+	Name:	"Transparent"
+)
+
+(NFont.76
+	Family:	77
+	Name:	78
+	Style:	79
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.77
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.78
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.79
+	S:	"Normal"
+)
+
+(NameDict.80
+)
+
+(NameDict.81
+)
+
+(Thresh.82
+)
+
+(GSet.83
+)
+
+(TxPosPt.84
+	HAlign:	4
+	VAlign:	3
+)
+
+(Table.85
+	Name:	"Attributes of Ukw_standorte_lv03.shp"
+	CreationDate:	"Sonntag, 4. Mai 2025 11:16:07"
+	GUIName:	"Table"
+	Win:	86
+	CSMgr:	87
+	DocExts:	89
+	VTab:	35
+)
+
+(DocWin.86
+	Owner:	85
+	Open:	1
+	X:	388
+	Y:	252
+	W:	812
+	H:	465
+)
+
+(CSMgr.87
+	Client:	88
+)
+
+(CSClient.88
+	Client:	31
+	ReqName:	"RespondTable"
+)
+
+(DocAct.89
+	Doc:	85
+)
+
+(FTheme.90
+	Name:	"QTH"
+	Source:	91
+	Flags:	0x02
+	Legend:	102
+	Threshold:	121
+	View:	4
+	GSet:	122
+	LegEditScript:	"View.EditLegend"
+	TxPos:	123
+	SnapTolCursor:	1
+)
+
+(ShpSrc.91
+	Name:	92
+	FTab:	94
+)
+
+(SrcName.92
+	FileName:	93
+	Name:	"qth.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.93
+	Path:	"c:/users/aboeh/git/aboehlen.github.io/dx/ukw_bandscan/ukw_standorte/qth.shp"
+)
+
+(FTab.94
+	Name:	"qth.dbf"
+	BTab:	95
+	Fields:	100
+	Fields:	96
+	Fields:	97
+	Fields:	98
+	SelBits:	101
+	FSrc:	91
+)
+
+(dBASE.95
+	Name:	"qth.dbf"
+	Fields:	96
+	Fields:	97
+	Fields:	98
+	FileName:	99
+)
+
+(Field.96
+	Name:	"Hoehe"
+	Btab:	95
+	Alias:	"Hoehe"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	41
+)
+
+(Field.97
+	Name:	"X_coord"
+	Btab:	95
+	Alias:	"X_coord"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	113
+)
+
+(Field.98
+	Name:	"Y_coord"
+	Btab:	95
+	Alias:	"Y_coord"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	113
+)
+
+(FN.99
+	Path:	"c:/users/aboeh/git/aboehlen.github.io/dx/ukw_bandscan/ukw_standorte/qth.dbf"
+)
+
+(Field.100
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+	Pixels:	41
+)
+
+(Bitmap.101
+	NumBits:	1
+
+)
+
+(Legend.102
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	103
+	Class:	111
+	StdDevs:	1.00000000000000
+	NullSym:	112
+	NullValues:	119
+	StatValues:	120
+	ScaleSymbols:	1
+	RefScale:	2500000.00000000000000
+	Precision:	-3
+)
+
+(SymList.103
+	Child:	104
+)
+
+(BMkSym.104
+	Color:	105
+	BgColor:	106
+	Font:	107
+	Size:	16.00000000000000
+	Pattern:	240
+	Angle:	360.00000000000000
+)
+
+(TClr.105
+	Blue:	0xffff
+)
+
+(TClr.106
+	Name:	"Transparent"
+)
+
+(NFont.107
+	Family:	108
+	Name:	109
+	Style:	110
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.108
+	S:	"ESRI Environmental & Icons"
+)
+
+(AVStr.109
+	S:	"ESRI Environmental & Icons"
+)
+
+(AVStr.110
+	S:	"Normal"
+)
+
+(LClass.111
+	IsText:	1
+	Precision:	-3
+)
+
+(BMkSym.112
+	Color:	113
+	BgColor:	114
+	Font:	115
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.113
+	Name:	"Transparent"
+)
+
+(TClr.114
+	Name:	"Transparent"
+)
+
+(NFont.115
+	Family:	116
+	Name:	117
+	Style:	118
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.116
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.117
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.118
+	S:	"Normal"
+)
+
+(NameDict.119
+)
+
+(NameDict.120
+)
+
+(Thresh.121
+)
+
+(GSet.122
+)
+
+(TxPosPt.123
+	HAlign:	4
+	VAlign:	3
+)
+
+(FTheme.124
+	Name:	"UKW_empf_gra"
+	Source:	125
+	Flags:	0x02
+	Legend:	156
+	Threshold:	336
+	View:	4
+	GSet:	337
+	LegEditScript:	"View.EditLegend"
+	TxPos:	338
+	LabelField:	130
+	Table:	339
+	SnapTolCursor:	1
+)
+
+(ShpSrc.125
+	Name:	126
+	FTab:	128
+)
+
+(SrcName.126
+	FileName:	127
+	Name:	"ukw_standorte_lv03.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.127
+	Path:	"c:/users/aboeh/git/aboehlen.github.io/dx/ukw_bandscan/ukw_standorte/ukw_standorte_lv03.shp"
+)
+
+(FTab.128
+	Name:	"ukw_standorte_lv03.dbf"
+	BTab:	129
+	Query:	"(( [Empfang] <> \"\" ) and ( [Rf_b45] <> \"N/A\" ))"
+	Fields:	154
+	Fields:	130
+	Fields:	131
+	Fields:	132
+	Fields:	133
+	Fields:	134
+	Fields:	135
+	Fields:	136
+	Fields:	137
+	Fields:	138
+	Fields:	139
+	Fields:	140
+	Fields:	141
+	Fields:	142
+	Fields:	143
+	Fields:	144
+	Fields:	145
+	Fields:	146
+	Fields:	147
+	Fields:	148
+	Fields:	149
+	Fields:	150
+	Fields:	151
+	Fields:	152
+	SelBits:	155
+	FSrc:	125
+)
+
+(dBASE.129
+	Name:	"ukw_standorte_lv03.dbf"
+	Fields:	130
+	Fields:	131
+	Fields:	132
+	Fields:	133
+	Fields:	134
+	Fields:	135
+	Fields:	136
+	Fields:	137
+	Fields:	138
+	Fields:	139
+	Fields:	140
+	Fields:	141
+	Fields:	142
+	Fields:	143
+	Fields:	144
+	Fields:	145
+	Fields:	146
+	Fields:	147
+	Fields:	148
+	Fields:	149
+	Fields:	150
+	Fields:	151
+	Fields:	152
+	FileName:	153
+)
+
+(Field.130
+	Name:	"Site_name"
+	Btab:	129
+	Alias:	"Site_name"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.131
+	Name:	"Ctry"
+	Btab:	129
+	Alias:	"Ctry"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.132
+	Name:	"Longitude"
+	Btab:	129
+	Alias:	"Longitude"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.133
+	Name:	"Latitude"
+	Btab:	129
+	Alias:	"Latitude"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.134
+	Name:	"Metx"
+	Btab:	129
+	Alias:	"Metx"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.135
+	Name:	"Mety"
+	Btab:	129
+	Alias:	"Mety"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.136
+	Name:	"Site_alt"
+	Btab:	129
+	Alias:	"Site_alt"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.137
+	Name:	"Bdwdth"
+	Btab:	129
+	Alias:	"Bdwdth"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.138
+	Name:	"Erp_h_w"
+	Btab:	129
+	Alias:	"Erp_h_w"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.139
+	Name:	"Erp_v_w"
+	Btab:	129
+	Alias:	"Erp_v_w"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.140
+	Name:	"Polar"
+	Btab:	129
+	Alias:	"Polar"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.141
+	Name:	"Coord_date"
+	Btab:	129
+	Alias:	"Coord_date"
+	Visible:	1
+	Type:	10
+	Order:	-1
+	Pixels:	60
+)
+
+(Field.142
+	Name:	"Empfang"
+	Btab:	129
+	Alias:	"Empfang"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.143
+	Name:	"Kw"
+	Btab:	129
+	Alias:	"Kw"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	47
+)
+
+(Field.144
+	Name:	"Region"
+	Btab:	129
+	Alias:	"Region"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	39
+)
+
+(Field.145
+	Name:	"Freq"
+	Btab:	129
+	Alias:	"Freq"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	41
+)
+
+(Field.146
+	Name:	"Programm"
+	Btab:	129
+	Alias:	"Programm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.147
+	Name:	"Rf_b45"
+	Btab:	129
+	Alias:	"Rf_b45"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.148
+	Name:	"Adv"
+	Btab:	129
+	Alias:	"Adv"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.149
+	Name:	"Dist"
+	Btab:	129
+	Alias:	"Dist"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	29
+)
+
+(Field.150
+	Name:	"Idn"
+	Btab:	129
+	Alias:	"Idn"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.151
+	Name:	"X_centr"
+	Btab:	129
+	Alias:	"X_centr"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	125
+)
+
+(Field.152
+	Name:	"Y_centr"
+	Btab:	129
+	Alias:	"Y_centr"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	125
+)
+
+(FN.153
+	Path:	"c:/users/aboeh/git/aboehlen.github.io/dx/ukw_bandscan/ukw_standorte/ukw_standorte_lv03.dbf"
+)
+
+(Field.154
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+	Pixels:	41
+)
+
+(Bitmap.155
+	NumBits:	6900
+
+)
+
+(Legend.156
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	157
+	Symbols:	158
+	Class:	317
+	Class:	318
+	Class:	319
+	Class:	320
+	Class:	321
+	Class:	322
+	Class:	323
+	Class:	324
+	Class:	325
+	Class:	326
+	StdDevs:	1.00000000000000
+	NullSym:	327
+	NullValues:	334
+	StatValues:	335
+	ScaleSymbols:	1
+	RefScale:	2500000.00000000000000
+	Precision:	-3
+)
+
+(AVStr.157
+	S:	"Rf_b45"
+)
+
+(SymList.158
+	Child:	159
+	Child:	177
+	Child:	195
+	Child:	213
+	Child:	231
+	Child:	249
+	Child:	256
+	Child:	274
+	Child:	292
+	Child:	310
+)
+
+(CMkSym.159
+	Color:	160
+	Symbols:	161
+	BgColor:	176
+	Size:	16.00000000000000
+)
+
+(TClr.160
+	Red:	0xffff
+)
+
+(SymList.161
+	Child:	162
+	Child:	169
+)
+
+(BMkSym.162
+	Color:	163
+	BgColor:	164
+	Font:	165
+	Size:	16.00000000000000
+	Pattern:	202
+	Angle:	360.00000000000000
+)
+
+(TClr.163
+	Red:	0xffff
+)
+
+(TClr.164
+	Name:	"Transparent"
+)
+
+(NFont.165
+	Family:	166
+	Name:	167
+	Style:	168
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.166
+	S:	"ESRI Cartography"
+)
+
+(AVStr.167
+	S:	"ESRI Cartography"
+)
+
+(AVStr.168
+	S:	"Normal"
+)
+
+(BMkSym.169
+	Color:	170
+	ColorLock:	1
+	BgColor:	171
+	Font:	172
+	Size:	16.00000000000000
+	Pattern:	218
+	Angle:	360.00000000000000
+)
+
+(TClr.170
+)
+
+(TClr.171
+	Name:	"Transparent"
+)
+
+(NFont.172
+	Family:	173
+	Name:	174
+	Style:	175
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.173
+	S:	"ESRI Cartography"
+)
+
+(AVStr.174
+	S:	"ESRI Cartography"
+)
+
+(AVStr.175
+	S:	"Normal"
+)
+
+(TClr.176
+	Name:	"Transparent"
+)
+
+(CMkSym.177
+	Color:	178
+	Symbols:	179
+	BgColor:	194
+	Size:	16.00000000000000
+)
+
+(TClr.178
+	Red:	0xff00
+	Green:	0xbf7b
+	Blue:	0xfe
+)
+
+(SymList.179
+	Child:	180
+	Child:	187
+)
+
+(BMkSym.180
+	Color:	181
+	BgColor:	182
+	Font:	183
+	Size:	16.00000000000000
+	Pattern:	202
+	Angle:	360.00000000000000
+)
+
+(TClr.181
+	Red:	0xff00
+	Green:	0xbf7b
+	Blue:	0xfe
+)
+
+(TClr.182
+	Name:	"Transparent"
+)
+
+(NFont.183
+	Family:	184
+	Name:	185
+	Style:	186
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.184
+	S:	"ESRI Cartography"
+)
+
+(AVStr.185
+	S:	"ESRI Cartography"
+)
+
+(AVStr.186
+	S:	"Normal"
+)
+
+(BMkSym.187
+	Color:	188
+	ColorLock:	1
+	BgColor:	189
+	Font:	190
+	Size:	16.00000000000000
+	Pattern:	218
+	Angle:	360.00000000000000
+)
+
+(TClr.188
+)
+
+(TClr.189
+	Name:	"Transparent"
+)
+
+(NFont.190
+	Family:	191
+	Name:	192
+	Style:	193
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.191
+	S:	"ESRI Cartography"
+)
+
+(AVStr.192
+	S:	"ESRI Cartography"
+)
+
+(AVStr.193
+	S:	"Normal"
+)
+
+(TClr.194
+	Name:	"Transparent"
+)
+
+(CMkSym.195
+	Color:	196
+	Symbols:	197
+	BgColor:	212
+	Size:	16.00000000000000
+)
+
+(TClr.196
+	Red:	0xffff
+	Green:	0xffff
+)
+
+(SymList.197
+	Child:	198
+	Child:	205
+)
+
+(BMkSym.198
+	Color:	199
+	BgColor:	200
+	Font:	201
+	Size:	16.00000000000000
+	Pattern:	202
+	Angle:	360.00000000000000
+)
+
+(TClr.199
+	Red:	0xffff
+	Green:	0xffff
+)
+
+(TClr.200
+	Name:	"Transparent"
+)
+
+(NFont.201
+	Family:	202
+	Name:	203
+	Style:	204
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.202
+	S:	"ESRI Cartography"
+)
+
+(AVStr.203
+	S:	"ESRI Cartography"
+)
+
+(AVStr.204
+	S:	"Normal"
+)
+
+(BMkSym.205
+	Color:	206
+	ColorLock:	1
+	BgColor:	207
+	Font:	208
+	Size:	16.00000000000000
+	Pattern:	218
+	Angle:	360.00000000000000
+)
+
+(TClr.206
+)
+
+(TClr.207
+	Name:	"Transparent"
+)
+
+(NFont.208
+	Family:	209
+	Name:	210
+	Style:	211
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.209
+	S:	"ESRI Cartography"
+)
+
+(AVStr.210
+	S:	"ESRI Cartography"
+)
+
+(AVStr.211
+	S:	"Normal"
+)
+
+(TClr.212
+	Name:	"Transparent"
+)
+
+(CMkSym.213
+	Color:	214
+	Symbols:	215
+	BgColor:	230
+	Size:	16.00000000000000
+)
+
+(TClr.214
+	Red:	0xc3b5
+	Green:	0xff00
+	Blue:	0xc33b
+)
+
+(SymList.215
+	Child:	216
+	Child:	223
+)
+
+(BMkSym.216
+	Color:	217
+	BgColor:	218
+	Font:	219
+	Size:	16.00000000000000
+	Pattern:	202
+	Angle:	360.00000000000000
+)
+
+(TClr.217
+	Red:	0xc3b5
+	Green:	0xff00
+	Blue:	0xc33b
+)
+
+(TClr.218
+	Name:	"Transparent"
+)
+
+(NFont.219
+	Family:	220
+	Name:	221
+	Style:	222
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.220
+	S:	"ESRI Cartography"
+)
+
+(AVStr.221
+	S:	"ESRI Cartography"
+)
+
+(AVStr.222
+	S:	"Normal"
+)
+
+(BMkSym.223
+	Color:	224
+	ColorLock:	1
+	BgColor:	225
+	Font:	226
+	Size:	16.00000000000000
+	Pattern:	218
+	Angle:	360.00000000000000
+)
+
+(TClr.224
+)
+
+(TClr.225
+	Name:	"Transparent"
+)
+
+(NFont.226
+	Family:	227
+	Name:	228
+	Style:	229
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.227
+	S:	"ESRI Cartography"
+)
+
+(AVStr.228
+	S:	"ESRI Cartography"
+)
+
+(AVStr.229
+	S:	"Normal"
+)
+
+(TClr.230
+	Name:	"Transparent"
+)
+
+(CMkSym.231
+	Color:	232
+	Symbols:	233
+	BgColor:	248
+	Size:	16.00000000000000
+)
+
+(TClr.232
+	Green:	0xffff
+)
+
+(SymList.233
+	Child:	234
+	Child:	241
+)
+
+(BMkSym.234
+	Color:	235
+	BgColor:	236
+	Font:	237
+	Size:	16.00000000000000
+	Pattern:	202
+	Angle:	360.00000000000000
+)
+
+(TClr.235
+	Green:	0xffff
+)
+
+(TClr.236
+	Name:	"Transparent"
+)
+
+(NFont.237
+	Family:	238
+	Name:	239
+	Style:	240
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.238
+	S:	"ESRI Cartography"
+)
+
+(AVStr.239
+	S:	"ESRI Cartography"
+)
+
+(AVStr.240
+	S:	"Normal"
+)
+
+(BMkSym.241
+	Color:	242
+	ColorLock:	1
+	BgColor:	243
+	Font:	244
+	Size:	16.00000000000000
+	Pattern:	218
+	Angle:	360.00000000000000
+)
+
+(TClr.242
+)
+
+(TClr.243
+	Name:	"Transparent"
+)
+
+(NFont.244
+	Family:	245
+	Name:	246
+	Style:	247
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.245
+	S:	"ESRI Cartography"
+)
+
+(AVStr.246
+	S:	"ESRI Cartography"
+)
+
+(AVStr.247
+	S:	"Normal"
+)
+
+(TClr.248
+	Name:	"Transparent"
+)
+
+(BMkSym.249
+	Color:	250
+	BgColor:	251
+	Font:	252
+	Size:	16.00000000000000
+	Pattern:	218
+	Angle:	360.00000000000000
+)
+
+(TClr.250
+	Red:	0xffff
+	Blue:	0xffff
+)
+
+(TClr.251
+	Name:	"Transparent"
+)
+
+(NFont.252
+	Family:	253
+	Name:	254
+	Style:	255
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.253
+	S:	"ESRI Cartography"
+)
+
+(AVStr.254
+	S:	"ESRI Cartography"
+)
+
+(AVStr.255
+	S:	"Normal"
+)
+
+(CMkSym.256
+	Color:	257
+	Symbols:	258
+	BgColor:	273
+	Size:	16.00000000000000
+)
+
+(TClr.257
+	Red:	0xfb24
+	Green:	0xd925
+	Blue:	0xfeff
+)
+
+(SymList.258
+	Child:	259
+	Child:	266
+)
+
+(BMkSym.259
+	Color:	260
+	BgColor:	261
+	Font:	262
+	Size:	16.00000000000000
+	Pattern:	202
+	Angle:	360.00000000000000
+)
+
+(TClr.260
+	Red:	0xfb24
+	Green:	0xd925
+	Blue:	0xfeff
+)
+
+(TClr.261
+	Name:	"Transparent"
+)
+
+(NFont.262
+	Family:	263
+	Name:	264
+	Style:	265
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.263
+	S:	"ESRI Cartography"
+)
+
+(AVStr.264
+	S:	"ESRI Cartography"
+)
+
+(AVStr.265
+	S:	"Normal"
+)
+
+(BMkSym.266
+	Color:	267
+	ColorLock:	1
+	BgColor:	268
+	Font:	269
+	Size:	16.00000000000000
+	Pattern:	218
+	Angle:	360.00000000000000
+)
+
+(TClr.267
+)
+
+(TClr.268
+	Name:	"Transparent"
+)
+
+(NFont.269
+	Family:	270
+	Name:	271
+	Style:	272
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.270
+	S:	"ESRI Cartography"
+)
+
+(AVStr.271
+	S:	"ESRI Cartography"
+)
+
+(AVStr.272
+	S:	"Normal"
+)
+
+(TClr.273
+	Name:	"Transparent"
+)
+
+(CMkSym.274
+	Color:	275
+	Symbols:	276
+	BgColor:	291
+	Size:	16.00000000000000
+)
+
+(TClr.275
+	Red:	0xf92b
+	Green:	0xd771
+	Blue:	0xfcff
+)
+
+(SymList.276
+	Child:	277
+	Child:	284
+)
+
+(BMkSym.277
+	Color:	278
+	BgColor:	279
+	Font:	280
+	Size:	16.00000000000000
+	Pattern:	202
+	Angle:	360.00000000000000
+)
+
+(TClr.278
+	Red:	0xf92b
+	Green:	0xd771
+	Blue:	0xfcff
+)
+
+(TClr.279
+	Name:	"Transparent"
+)
+
+(NFont.280
+	Family:	281
+	Name:	282
+	Style:	283
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.281
+	S:	"ESRI Cartography"
+)
+
+(AVStr.282
+	S:	"ESRI Cartography"
+)
+
+(AVStr.283
+	S:	"Normal"
+)
+
+(BMkSym.284
+	Color:	285
+	ColorLock:	1
+	BgColor:	286
+	Font:	287
+	Size:	16.00000000000000
+	Pattern:	218
+	Angle:	360.00000000000000
+)
+
+(TClr.285
+)
+
+(TClr.286
+	Name:	"Transparent"
+)
+
+(NFont.287
+	Family:	288
+	Name:	289
+	Style:	290
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.288
+	S:	"ESRI Cartography"
+)
+
+(AVStr.289
+	S:	"ESRI Cartography"
+)
+
+(AVStr.290
+	S:	"Normal"
+)
+
+(TClr.291
+	Name:	"Transparent"
+)
+
+(CMkSym.292
+	Color:	293
+	Symbols:	294
+	BgColor:	309
+	Size:	16.00000000000000
+)
+
+(TClr.293
+	Red:	0xfa28
+	Green:	0xd84b
+	Blue:	0xfdff
+)
+
+(SymList.294
+	Child:	295
+	Child:	302
+)
+
+(BMkSym.295
+	Color:	296
+	BgColor:	297
+	Font:	298
+	Size:	16.00000000000000
+	Pattern:	202
+	Angle:	360.00000000000000
+)
+
+(TClr.296
+	Red:	0xfa28
+	Green:	0xd84b
+	Blue:	0xfdff
+)
+
+(TClr.297
+	Name:	"Transparent"
+)
+
+(NFont.298
+	Family:	299
+	Name:	300
+	Style:	301
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.299
+	S:	"ESRI Cartography"
+)
+
+(AVStr.300
+	S:	"ESRI Cartography"
+)
+
+(AVStr.301
+	S:	"Normal"
+)
+
+(BMkSym.302
+	Color:	303
+	ColorLock:	1
+	BgColor:	304
+	Font:	305
+	Size:	16.00000000000000
+	Pattern:	218
+	Angle:	360.00000000000000
+)
+
+(TClr.303
+)
+
+(TClr.304
+	Name:	"Transparent"
+)
+
+(NFont.305
+	Family:	306
+	Name:	307
+	Style:	308
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.306
+	S:	"ESRI Cartography"
+)
+
+(AVStr.307
+	S:	"ESRI Cartography"
+)
+
+(AVStr.308
+	S:	"Normal"
+)
+
+(TClr.309
+	Name:	"Transparent"
+)
+
+(BMkSym.310
+	Color:	311
+	BgColor:	312
+	Font:	313
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.311
+	Name:	"Transparent"
+)
+
+(TClr.312
+	Name:	"Transparent"
+)
+
+(NFont.313
+	Family:	314
+	Name:	315
+	Style:	316
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.314
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.315
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.316
+	S:	"Normal"
+)
+
+(LClass.317
+	IsText:	1
+	Label:	"1"
+	MinStr:	"1"
+	MaxStr:	"1"
+	Precision:	-3
+)
+
+(LClass.318
+	IsText:	1
+	Label:	"2"
+	MinStr:	"2"
+	MaxStr:	"2"
+	Precision:	-3
+)
+
+(LClass.319
+	IsText:	1
+	Label:	"3"
+	MinStr:	"3"
+	MaxStr:	"3"
+	Precision:	-3
+)
+
+(LClass.320
+	IsText:	1
+	Label:	"4"
+	MinStr:	"4"
+	MaxStr:	"4"
+	Precision:	-3
+)
+
+(LClass.321
+	IsText:	1
+	Label:	"5"
+	MinStr:	"5"
+	MaxStr:	"5"
+	Precision:	-3
+)
+
+(LClass.322
+	IsText:	1
+	Label:	"N/A"
+	MinStr:	"N/A"
+	MaxStr:	"N/A"
+	Precision:	-3
+)
+
+(LClass.323
+	IsText:	1
+	Label:	"sc1"
+	MinStr:	"sc1"
+	MaxStr:	"sc1"
+	Precision:	-3
+)
+
+(LClass.324
+	IsText:	1
+	Label:	"sc2"
+	MinStr:	"sc2"
+	MaxStr:	"sc2"
+	Precision:	-3
+)
+
+(LClass.325
+	IsText:	1
+	Label:	"sc3"
+	MinStr:	"sc3"
+	MaxStr:	"sc3"
+	Precision:	-3
+)
+
+(LClass.326
+	IsNoData:	1
+	IsText:	1
+	Label:	"No Data"
+	Precision:	-3
+)
+
+(BMkSym.327
+	Color:	328
+	BgColor:	329
+	Font:	330
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.328
+	Name:	"Transparent"
+)
+
+(TClr.329
+	Name:	"Transparent"
+)
+
+(NFont.330
+	Family:	331
+	Name:	332
+	Style:	333
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.331
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.332
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.333
+	S:	"Normal"
+)
+
+(NameDict.334
+)
+
+(NameDict.335
+)
+
+(Thresh.336
+)
+
+(GSet.337
+)
+
+(TxPosPt.338
+	HAlign:	4
+	VAlign:	3
+)
+
+(Table.339
+	Name:	"Attributes of UKW_empf_gra"
+	CreationDate:	"Freitag, 11. April 2025 21:38:36"
+	GUIName:	"Table"
+	Win:	340
+	CSMgr:	341
+	DocExts:	343
+	VTab:	128
+)
+
+(DocWin.340
+	Owner:	339
+	X:	66
+	Y:	112
+	W:	1168
+	H:	653
+)
+
+(CSMgr.341
+	Client:	342
+)
+
+(CSClient.342
+	Client:	124
+	ReqName:	"RespondTable"
+)
+
+(DocAct.343
+	Doc:	339
+)
+
+(FTheme.344
+	Name:	"UKW_alle"
+	Source:	345
+	Legend:	376
+	Threshold:	396
+	View:	4
+	GSet:	397
+	LegEditScript:	"View.EditLegend"
+	TxPos:	398
+	LabelField:	350
+	Table:	399
+	InteractiveSnapping:	1
+	InteractiveSnapTol:	20774.89036042038100
+	SnapTolCursor:	1
+)
+
+(ShpSrc.345
+	Name:	346
+	FTab:	348
+)
+
+(SrcName.346
+	FileName:	347
+	Name:	"ukw_standorte_lv03.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.347
+	Path:	"c:/users/aboeh/git/aboehlen.github.io/dx/ukw_bandscan/ukw_standorte/ukw_standorte_lv03.shp"
+)
+
+(FTab.348
+	Name:	"ukw_standorte_lv03.dbf"
+	BTab:	349
+	Fields:	374
+	Fields:	365
+	Fields:	366
+	Fields:	350
+	Fields:	351
+	Fields:	364
+	Fields:	352
+	Fields:	353
+	Fields:	354
+	Fields:	355
+	Fields:	356
+	Fields:	363
+	Fields:	357
+	Fields:	358
+	Fields:	359
+	Fields:	360
+	Fields:	361
+	Fields:	362
+	Fields:	367
+	Fields:	368
+	Fields:	369
+	Fields:	370
+	Fields:	371
+	Fields:	372
+	SelBits:	375
+	FSrc:	345
+)
+
+(dBASE.349
+	Name:	"ukw_standorte_lv03.dbf"
+	Fields:	350
+	Fields:	351
+	Fields:	352
+	Fields:	353
+	Fields:	354
+	Fields:	355
+	Fields:	356
+	Fields:	357
+	Fields:	358
+	Fields:	359
+	Fields:	360
+	Fields:	361
+	Fields:	362
+	Fields:	363
+	Fields:	364
+	Fields:	365
+	Fields:	366
+	Fields:	367
+	Fields:	368
+	Fields:	369
+	Fields:	370
+	Fields:	371
+	Fields:	372
+	FileName:	373
+)
+
+(Field.350
+	Name:	"Site_name"
+	Btab:	349
+	Alias:	"Site_name"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	263
+)
+
+(Field.351
+	Name:	"Ctry"
+	Btab:	349
+	Alias:	"Ctry"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	45
+)
+
+(Field.352
+	Name:	"Longitude"
+	Btab:	349
+	Alias:	"Longitude"
+	Type:	4
+	Order:	-1
+	Pixels:	87
+)
+
+(Field.353
+	Name:	"Latitude"
+	Btab:	349
+	Alias:	"Latitude"
+	Type:	4
+	Order:	-1
+	Pixels:	87
+)
+
+(Field.354
+	Name:	"Metx"
+	Btab:	349
+	Alias:	"Metx"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.355
+	Name:	"Mety"
+	Btab:	349
+	Alias:	"Mety"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	62
+)
+
+(Field.356
+	Name:	"Site_alt"
+	Btab:	349
+	Alias:	"Site_alt"
+	Type:	9
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.357
+	Name:	"Bdwdth"
+	Btab:	349
+	Alias:	"Bdwdth"
+	Type:	4
+	Order:	-1
+	Pixels:	54
+)
+
+(Field.358
+	Name:	"Erp_h_w"
+	Btab:	349
+	Alias:	"Erp_h_w"
+	Type:	9
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.359
+	Name:	"Erp_v_w"
+	Btab:	349
+	Alias:	"Erp_v_w"
+	Type:	9
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.360
+	Name:	"Polar"
+	Btab:	349
+	Alias:	"Polar"
+	Type:	4
+	Order:	-1
+	Pixels:	25
+)
+
+(Field.361
+	Name:	"Coord_date"
+	Btab:	349
+	Alias:	"Coord_date"
+	Type:	10
+	Order:	-1
+	Pixels:	60
+)
+
+(Field.362
+	Name:	"Empfang"
+	Btab:	349
+	Alias:	"Empfang"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.363
+	Name:	"kW"
+	Btab:	349
+	Alias:	"kW"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	63
+)
+
+(Field.364
+	Name:	"Region"
+	Btab:	349
+	Alias:	"Region"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	39
+)
+
+(Field.365
+	Name:	"Freq"
+	Btab:	349
+	Alias:	"Freq"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	61
+)
+
+(Field.366
+	Name:	"Programm"
+	Btab:	349
+	Alias:	"Programm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.367
+	Name:	"RF_B45"
+	Btab:	349
+	Alias:	"RF-B45"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.368
+	Name:	"Adv"
+	Btab:	349
+	Alias:	"Adv"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.369
+	Name:	"Dist"
+	Btab:	349
+	Alias:	"Dist"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	99
+)
+
+(Field.370
+	Name:	"IDN"
+	Btab:	349
+	Alias:	"IDN"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	59
+)
+
+(Field.371
+	Name:	"X_Centr"
+	Btab:	349
+	Alias:	"X_Centr"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	131
+)
+
+(Field.372
+	Name:	"Y_Centr"
+	Btab:	349
+	Alias:	"Y_Centr"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	131
+)
+
+(FN.373
+	Path:	"c:/users/aboeh/git/aboehlen.github.io/dx/ukw_bandscan/ukw_standorte/ukw_standorte_lv03.dbf"
+)
+
+(Field.374
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+	Pixels:	41
+)
+
+(Bitmap.375
+	NumBits:	6900
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+
+)
+
+(Legend.376
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	377
+	Class:	385
+	StdDevs:	1.00000000000000
+	NullSym:	386
+	NullValues:	393
+	StatValues:	395
+	DisplayNoDataClass:	1
+	Precision:	-3
+)
+
+(SymList.377
+	Child:	378
+)
+
+(BMkSym.378
+	Color:	379
+	BgColor:	380
+	Font:	381
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.379
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(TClr.380
+	Name:	"Transparent"
+)
+
+(NFont.381
+	Family:	382
+	Name:	383
+	Style:	384
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.382
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.383
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.384
+	S:	"Normal"
+)
+
+(LClass.385
+	IsText:	1
+	Precision:	-3
+)
+
+(BMkSym.386
+	Color:	387
+	BgColor:	388
+	Font:	389
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.387
+	Name:	"Transparent"
+)
+
+(TClr.388
+	Name:	"Transparent"
+)
+
+(NFont.389
+	Family:	390
+	Name:	391
+	Style:	392
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.390
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.391
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.392
+	S:	"Normal"
+)
+
+(NameDict.393
+	Obj:	394
+)
+
+(AVStr.394
+	InternalName:	"Empfang"
+	S:	" "
+)
+
+(NameDict.395
+)
+
+(Thresh.396
+)
+
+(GSet.397
+)
+
+(TxPosPt.398
+	HAlign:	4
+	VAlign:	3
+)
+
+(Table.399
+	Name:	"Attributes of UKW_alle"
+	CreationDate:	"Sonntag, 23. März 2025 10:16:23"
+	GUIName:	"Table"
+	Win:	400
+	CSMgr:	401
+	DocExts:	403
+	VTab:	348
+)
+
+(DocWin.400
+	Owner:	399
+	X:	63
+	Y:	334
+	W:	1417
+	H:	403
+)
+
+(CSMgr.401
+	Client:	402
+)
+
+(CSClient.402
+	Client:	344
+	ReqName:	"RespondTable"
+)
+
+(DocAct.403
+	Doc:	399
+)
+
+(FTheme.404
+	Name:	"Builtupp.shp"
+	Source:	405
+	Legend:	430
+	Threshold:	506
+	View:	4
+	GSet:	507
+	LegEditScript:	"View.EditLegend"
+	TxPos:	508
+	LabelField:	416
+	SnapTolCursor:	1
+)
+
+(ShpSrc.405
+	Name:	406
+	FTab:	408
+)
+
+(SrcName.406
+	FileName:	407
+	Name:	"builtupp.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.407
+	Path:	"c:/adrian/egm_lv03/builtupp.shp"
+)
+
+(FTab.408
+	Name:	"builtupp.dbf"
+	BTab:	409
+	Query:	"([Use] = 1 ) or ([Use] = 2 )"
+	Fields:	428
+	Fields:	410
+	Fields:	411
+	Fields:	412
+	Fields:	413
+	Fields:	414
+	Fields:	415
+	Fields:	416
+	Fields:	417
+	Fields:	418
+	Fields:	419
+	Fields:	420
+	Fields:	421
+	Fields:	422
+	Fields:	423
+	Fields:	424
+	Fields:	425
+	Fields:	426
+	SelBits:	429
+	FSrc:	405
+)
+
+(dBASE.409
+	Name:	"builtupp.dbf"
+	Fields:	410
+	Fields:	411
+	Fields:	412
+	Fields:	413
+	Fields:	414
+	Fields:	415
+	Fields:	416
+	Fields:	417
+	Fields:	418
+	Fields:	419
+	Fields:	420
+	Fields:	421
+	Fields:	422
+	Fields:	423
+	Fields:	424
+	Fields:	425
+	Fields:	426
+	FileName:	427
+)
+
+(Field.410
+	Name:	"Objectid"
+	Btab:	409
+	Alias:	"Objectid"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.411
+	Name:	"Fcsubtype"
+	Btab:	409
+	Alias:	"Fcsubtype"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.412
+	Name:	"Inspireid"
+	Btab:	409
+	Alias:	"Inspireid"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.413
+	Name:	"Beginlifes"
+	Btab:	409
+	Alias:	"Beginlifes"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	131
+)
+
+(Field.414
+	Name:	"F_code"
+	Btab:	409
+	Alias:	"F_code"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	41
+)
+
+(Field.415
+	Name:	"Icc"
+	Btab:	409
+	Alias:	"Icc"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	53
+)
+
+(Field.416
+	Name:	"Namn1"
+	Btab:	409
+	Alias:	"Namn1"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.417
+	Name:	"Namn2"
+	Btab:	409
+	Alias:	"Namn2"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.418
+	Name:	"Nama1"
+	Btab:	409
+	Alias:	"Nama1"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.419
+	Name:	"Nama2"
+	Btab:	409
+	Alias:	"Nama2"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.420
+	Name:	"Nln1"
+	Btab:	409
+	Alias:	"Nln1"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	27
+)
+
+(Field.421
+	Name:	"Nln2"
+	Btab:	409
+	Alias:	"Nln2"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	27
+)
+
+(Field.422
+	Name:	"Ppl"
+	Btab:	409
+	Alias:	"Ppl"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.423
+	Name:	"Pp1"
+	Btab:	409
+	Alias:	"Pp1"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.424
+	Name:	"Pp2"
+	Btab:	409
+	Alias:	"Pp2"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.425
+	Name:	"Use"
+	Btab:	409
+	Alias:	"Use"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.426
+	Name:	"Populatedp"
+	Btab:	409
+	Alias:	"Populatedp"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(FN.427
+	Path:	"c:/adrian/egm_lv03/builtupp.dbf"
+)
+
+(Field.428
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+	Pixels:	41
+)
+
+(Bitmap.429
+	NumBits:	51432
+
+)
+
+(Legend.430
+	LegType:	0x04
+	ClassType:	0x03
+	FieldNames:	431
+	Symbols:	432
+	Class:	489
+	Class:	490
+	Class:	491
+	Class:	492
+	Class:	493
+	Class:	494
+	Class:	495
+	Class:	496
+	StdDevs:	1.00000000000000
+	NullSym:	497
+	NullValues:	504
+	StatValues:	505
+	RefScale:	200000.00000000000000
+	Precision:	-3
+)
+
+(AVStr.431
+	S:	"Ppl"
+)
+
+(SymList.432
+	Child:	433
+	Child:	440
+	Child:	447
+	Child:	454
+	Child:	461
+	Child:	468
+	Child:	475
+	Child:	482
+)
+
+(BMkSym.433
+	Color:	434
+	BgColor:	435
+	Font:	436
+	Size:	4.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.434
+)
+
+(TClr.435
+	Name:	"Transparent"
+)
+
+(NFont.436
+	Family:	437
+	Name:	438
+	Style:	439
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.437
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.438
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.439
+	S:	"Normal"
+)
+
+(BMkSym.440
+	Color:	441
+	BgColor:	442
+	Font:	443
+	Size:	6.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.441
+)
+
+(TClr.442
+	Name:	"Transparent"
+)
+
+(NFont.443
+	Family:	444
+	Name:	445
+	Style:	446
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.444
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.445
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.446
+	S:	"Normal"
+)
+
+(BMkSym.447
+	Color:	448
+	BgColor:	449
+	Font:	450
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.448
+	Red:	0x15f9
+	Green:	0xc79c
+	Blue:	0x3d05
+)
+
+(TClr.449
+	Name:	"Transparent"
+)
+
+(NFont.450
+	Family:	451
+	Name:	452
+	Style:	453
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.451
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.452
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.453
+	S:	"Normal"
+)
+
+(BMkSym.454
+	Color:	455
+	BgColor:	456
+	Font:	457
+	Size:	10.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.455
+	Red:	0x15f9
+	Green:	0xc79c
+	Blue:	0x3d05
+)
+
+(TClr.456
+	Name:	"Transparent"
+)
+
+(NFont.457
+	Family:	458
+	Name:	459
+	Style:	460
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.458
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.459
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.460
+	S:	"Normal"
+)
+
+(BMkSym.461
+	Color:	462
+	BgColor:	463
+	Font:	464
+	Size:	12.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.462
+	Red:	0x15f9
+	Green:	0xc79c
+	Blue:	0x3d05
+)
+
+(TClr.463
+	Name:	"Transparent"
+)
+
+(NFont.464
+	Family:	465
+	Name:	466
+	Style:	467
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.465
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.466
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.467
+	S:	"Normal"
+)
+
+(BMkSym.468
+	Color:	469
+	BgColor:	470
+	Font:	471
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.469
+	Red:	0x2d25
+	Green:	0x9140
+	Blue:	0xee72
+)
+
+(TClr.470
+	Name:	"Transparent"
+)
+
+(NFont.471
+	Family:	472
+	Name:	473
+	Style:	474
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.472
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.473
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.474
+	S:	"Normal"
+)
+
+(BMkSym.475
+	Color:	476
+	BgColor:	477
+	Font:	478
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.476
+	Red:	0x1be8
+	Green:	0x8469
+	Blue:	0x214b
+)
+
+(TClr.477
+	Name:	"Transparent"
+)
+
+(NFont.478
+	Family:	479
+	Name:	480
+	Style:	481
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.479
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.480
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.481
+	S:	"Normal"
+)
+
+(BMkSym.482
+	Color:	483
+	BgColor:	484
+	Font:	485
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.483
+	Name:	"Transparent"
+)
+
+(TClr.484
+	Name:	"Transparent"
+)
+
+(NFont.485
+	Family:	486
+	Name:	487
+	Style:	488
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.486
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.487
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.488
+	S:	"Normal"
+)
+
+(LClass.489
+	Label:	"1 - 99"
+	MinNum:	1.00000000000000
+	MaxNum:	99.00000000000000
+	Precision:	-3
+)
+
+(LClass.490
+	Label:	"100 - 1999"
+	MinNum:	100.00000000000000
+	MaxNum:	1999.00000000000000
+	Precision:	-3
+)
+
+(LClass.491
+	Label:	"2000 - 9999"
+	MinNum:	2000.00000000000000
+	MaxNum:	9999.00000000000000
+	Precision:	-3
+)
+
+(LClass.492
+	Label:	"10000 - 49999"
+	MinNum:	10000.00000000000000
+	MaxNum:	49999.00000000000000
+	Precision:	-3
+)
+
+(LClass.493
+	Label:	"50000 - 99999"
+	MinNum:	50000.00000000000000
+	MaxNum:	99999.00000000000000
+	Precision:	-3
+)
+
+(LClass.494
+	Label:	"100000 - 1000000"
+	MinNum:	100000.00000000000000
+	MaxNum:	1000000.00000000000000
+	Precision:	-3
+)
+
+(LClass.495
+	Label:	"1000001 - 10000000"
+	MinNum:	1000001.00000000000000
+	MaxNum:	10000000.00000000000000
+	Precision:	-3
+)
+
+(LClass.496
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BMkSym.497
+	Color:	498
+	BgColor:	499
+	Font:	500
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.498
+	Name:	"Transparent"
+)
+
+(TClr.499
+	Name:	"Transparent"
+)
+
+(NFont.500
+	Family:	501
+	Name:	502
+	Style:	503
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.501
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.502
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.503
+	S:	"Normal"
+)
+
+(NameDict.504
+)
+
+(NameDict.505
+)
+
+(Thresh.506
+)
+
+(GSet.507
+)
+
+(TxPosPt.508
+	HAlign:	4
+	VAlign:	3
+)
+
+(FTheme.509
+	Name:	"Watrcrsa.shp"
+	Source:	510
+	Legend:	538
+	Threshold:	552
+	View:	4
+	GSet:	553
+	LegEditScript:	"View.EditLegend"
+	TxPos:	554
+	LabelField:	526
+	AttrRules:	555
+	AttrRules:	556
+	AttrRules:	557
+	AttrRules:	558
+	AttrRules:	559
+	AttrRules:	560
+	AttrRules:	561
+	AttrRules:	562
+	AttrRules:	563
+	AttrRules:	564
+	AttrRules:	565
+	AttrRules:	566
+	AttrRules:	567
+	AttrRules:	568
+	AttrRules:	569
+	AttrRules:	570
+	AttrRules:	571
+	AttrRules:	572
+	AttrRules:	573
+	AttrRules:	574
+	SnapTolCursor:	1
+)
+
+(ShpSrc.510
+	Name:	511
+	FTab:	513
+)
+
+(SrcName.511
+	FileName:	512
+	Name:	"watrcrsa.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.512
+	Path:	"c:/adrian/egm_lv03/watrcrsa.shp"
+)
+
+(FTab.513
+	Name:	"watrcrsa.dbf"
+	BTab:	514
+	Fields:	536
+	Fields:	515
+	Fields:	516
+	Fields:	517
+	Fields:	518
+	Fields:	519
+	Fields:	520
+	Fields:	521
+	Fields:	522
+	Fields:	523
+	Fields:	524
+	Fields:	525
+	Fields:	526
+	Fields:	527
+	Fields:	528
+	Fields:	529
+	Fields:	530
+	Fields:	531
+	Fields:	532
+	Fields:	533
+	Fields:	534
+	SelBits:	537
+	FSrc:	510
+)
+
+(dBASE.514
+	Name:	"watrcrsa.dbf"
+	Fields:	515
+	Fields:	516
+	Fields:	517
+	Fields:	518
+	Fields:	519
+	Fields:	520
+	Fields:	521
+	Fields:	522
+	Fields:	523
+	Fields:	524
+	Fields:	525
+	Fields:	526
+	Fields:	527
+	Fields:	528
+	Fields:	529
+	Fields:	530
+	Fields:	531
+	Fields:	532
+	Fields:	533
+	Fields:	534
+	FileName:	535
+)
+
+(Field.515
+	Name:	"Objectid"
+	Btab:	514
+	Alias:	"Objectid"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.516
+	Name:	"Fcsubtype"
+	Btab:	514
+	Alias:	"Fcsubtype"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.517
+	Name:	"Inspireid"
+	Btab:	514
+	Alias:	"Inspireid"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.518
+	Name:	"Beginlifes"
+	Btab:	514
+	Alias:	"Beginlifes"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	131
+)
+
+(Field.519
+	Name:	"F_code"
+	Btab:	514
+	Alias:	"F_code"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	41
+)
+
+(Field.520
+	Name:	"Icc"
+	Btab:	514
+	Alias:	"Icc"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	53
+)
+
+(Field.521
+	Name:	"Nvs"
+	Btab:	514
+	Alias:	"Nvs"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.522
+	Name:	"Hoc"
+	Btab:	514
+	Alias:	"Hoc"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.523
+	Name:	"Hyp"
+	Btab:	514
+	Alias:	"Hyp"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.524
+	Name:	"Hydroid"
+	Btab:	514
+	Alias:	"Hydroid"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.525
+	Name:	"Nhi"
+	Btab:	514
+	Alias:	"Nhi"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.526
+	Name:	"Namn1"
+	Btab:	514
+	Alias:	"Namn1"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.527
+	Name:	"Namn2"
+	Btab:	514
+	Alias:	"Namn2"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.528
+	Name:	"Nama1"
+	Btab:	514
+	Alias:	"Nama1"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.529
+	Name:	"Nama2"
+	Btab:	514
+	Alias:	"Nama2"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.530
+	Name:	"Nln1"
+	Btab:	514
+	Alias:	"Nln1"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	27
+)
+
+(Field.531
+	Name:	"Nln2"
+	Btab:	514
+	Alias:	"Nln2"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	27
+)
+
+(Field.532
+	Name:	"Tid"
+	Btab:	514
+	Alias:	"Tid"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.533
+	Name:	"Shape_leng"
+	Btab:	514
+	Alias:	"Shape_leng"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	119
+)
+
+(Field.534
+	Name:	"Shape_area"
+	Btab:	514
+	Alias:	"Shape_area"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	119
+)
+
+(FN.535
+	Path:	"c:/adrian/egm_lv03/watrcrsa.dbf"
+)
+
+(Field.536
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+	Pixels:	53
+)
+
+(Bitmap.537
+	NumBits:	96
+
+)
+
+(Legend.538
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	539
+	Class:	545
+	StdDevs:	1.00000000000000
+	NullSym:	546
+	NullValues:	550
+	StatValues:	551
+	Precision:	-3
+)
+
+(SymList.539
+	Child:	540
+)
+
+(BShSym.540
+	Color:	541
+	Outline:	1
+	OutlineColor:	542
+	OutlineWidth:	2.00000000000000
+	BgColor:	543
+	Style:	0x01
+	Stipple:	544
+)
+
+(TClr.541
+	Red:	0xa559
+	Green:	0xfad1
+	Blue:	0xff00
+)
+
+(TClr.542
+	Blue:	0xffff
+)
+
+(TClr.543
+	Red:	0xa559
+	Green:	0xfad1
+	Blue:	0xff00
+)
+
+(Stipple.544
+	Columns:	8
+	Rows:	8
+	Bits:	00000000 00000000 
+)
+
+(LClass.545
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.546
+	Color:	547
+	Outline:	1
+	OutlineColor:	548
+	OutlineWidth:	0.10000000000000
+	BgColor:	549
+)
+
+(TClr.547
+	Name:	"Transparent"
+)
+
+(TClr.548
+	Name:	"Transparent"
+)
+
+(TClr.549
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.550
+)
+
+(NameDict.551
+)
+
+(Thresh.552
+)
+
+(GSet.553
+)
+
+(TxPosPly.554
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.555
+	FTab:	513
+	Field:	515
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.556
+	FTab:	513
+	Field:	516
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.557
+	FTab:	513
+	Field:	517
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.558
+	FTab:	513
+	Field:	518
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.559
+	FTab:	513
+	Field:	519
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.560
+	FTab:	513
+	Field:	520
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.561
+	FTab:	513
+	Field:	521
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.562
+	FTab:	513
+	Field:	522
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.563
+	FTab:	513
+	Field:	523
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.564
+	FTab:	513
+	Field:	524
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.565
+	FTab:	513
+	Field:	525
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.566
+	FTab:	513
+	Field:	526
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.567
+	FTab:	513
+	Field:	527
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.568
+	FTab:	513
+	Field:	528
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.569
+	FTab:	513
+	Field:	529
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.570
+	FTab:	513
+	Field:	530
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.571
+	FTab:	513
+	Field:	531
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.572
+	FTab:	513
+	Field:	532
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.573
+	FTab:	513
+	Field:	533
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.574
+	FTab:	513
+	Field:	534
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.575
+	Name:	"LakeresA"
+	Source:	576
+	Flags:	0x02
+	Legend:	603
+	Threshold:	616
+	View:	4
+	GSet:	617
+	LegEditScript:	"View.EditLegend"
+	TxPos:	618
+	LabelField:	590
+	AttrRules:	619
+	AttrRules:	620
+	AttrRules:	621
+	AttrRules:	622
+	AttrRules:	623
+	AttrRules:	624
+	AttrRules:	625
+	AttrRules:	626
+	AttrRules:	627
+	AttrRules:	628
+	AttrRules:	629
+	AttrRules:	630
+	AttrRules:	631
+	AttrRules:	632
+	AttrRules:	633
+	AttrRules:	634
+	AttrRules:	635
+	AttrRules:	636
+	AttrRules:	637
+	SnapTolCursor:	1
+)
+
+(ShpSrc.576
+	Name:	577
+	FTab:	579
+)
+
+(SrcName.577
+	FileName:	578
+	Name:	"lakeresa.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.578
+	Path:	"c:/adrian/egm_lv03/lakeresa.shp"
+)
+
+(FTab.579
+	Name:	"lakeresa.dbf"
+	BTab:	580
+	Query:	"( [Shape_area] >= 10000000 )"
+	Fields:	601
+	Fields:	581
+	Fields:	582
+	Fields:	583
+	Fields:	584
+	Fields:	585
+	Fields:	586
+	Fields:	587
+	Fields:	588
+	Fields:	589
+	Fields:	590
+	Fields:	591
+	Fields:	592
+	Fields:	593
+	Fields:	594
+	Fields:	595
+	Fields:	596
+	Fields:	597
+	Fields:	598
+	Fields:	599
+	SelBits:	602
+	FSrc:	576
+)
+
+(dBASE.580
+	Name:	"lakeresa.dbf"
+	Fields:	581
+	Fields:	582
+	Fields:	583
+	Fields:	584
+	Fields:	585
+	Fields:	586
+	Fields:	587
+	Fields:	588
+	Fields:	589
+	Fields:	590
+	Fields:	591
+	Fields:	592
+	Fields:	593
+	Fields:	594
+	Fields:	595
+	Fields:	596
+	Fields:	597
+	Fields:	598
+	Fields:	599
+	FileName:	600
+)
+
+(Field.581
+	Name:	"Objectid"
+	Btab:	580
+	Alias:	"Objectid"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.582
+	Name:	"Fcsubtype"
+	Btab:	580
+	Alias:	"Fcsubtype"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.583
+	Name:	"Inspireid"
+	Btab:	580
+	Alias:	"Inspireid"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.584
+	Name:	"Beginlifes"
+	Btab:	580
+	Alias:	"Beginlifes"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	131
+)
+
+(Field.585
+	Name:	"F_code"
+	Btab:	580
+	Alias:	"F_code"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	41
+)
+
+(Field.586
+	Name:	"Icc"
+	Btab:	580
+	Alias:	"Icc"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	53
+)
+
+(Field.587
+	Name:	"Hyp"
+	Btab:	580
+	Alias:	"Hyp"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.588
+	Name:	"Hydroid"
+	Btab:	580
+	Alias:	"Hydroid"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.589
+	Name:	"Nhi"
+	Btab:	580
+	Alias:	"Nhi"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.590
+	Name:	"Namn1"
+	Btab:	580
+	Alias:	"Namn1"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.591
+	Name:	"Namn2"
+	Btab:	580
+	Alias:	"Namn2"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.592
+	Name:	"Nama1"
+	Btab:	580
+	Alias:	"Nama1"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.593
+	Name:	"Nama2"
+	Btab:	580
+	Alias:	"Nama2"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.594
+	Name:	"Nln1"
+	Btab:	580
+	Alias:	"Nln1"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	27
+)
+
+(Field.595
+	Name:	"Nln2"
+	Btab:	580
+	Alias:	"Nln2"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	27
+)
+
+(Field.596
+	Name:	"Tid"
+	Btab:	580
+	Alias:	"Tid"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.597
+	Name:	"Zv2"
+	Btab:	580
+	Alias:	"Zv2"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.598
+	Name:	"Shape_leng"
+	Btab:	580
+	Alias:	"Shape_leng"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	119
+)
+
+(Field.599
+	Name:	"Shape_area"
+	Btab:	580
+	Alias:	"Shape_area"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	119
+)
+
+(FN.600
+	Path:	"c:/adrian/egm_lv03/lakeresa.dbf"
+)
+
+(Field.601
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+	Pixels:	53
+)
+
+(Bitmap.602
+	NumBits:	1305
+
+)
+
+(Legend.603
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	604
+	Class:	609
+	StdDevs:	1.00000000000000
+	NullSym:	610
+	NullValues:	614
+	StatValues:	615
+	Precision:	-3
+)
+
+(SymList.604
+	Child:	605
+)
+
+(BShSym.605
+	Color:	606
+	Outline:	1
+	OutlineColor:	607
+	OutlineWidth:	0.20000000000000
+	BgColor:	608
+)
+
+(TClr.606
+	Red:	0xa559
+	Green:	0xfad1
+	Blue:	0xff00
+)
+
+(TClr.607
+	Blue:	0xffff
+)
+
+(TClr.608
+	Red:	0xa559
+	Green:	0xfad1
+	Blue:	0xff00
+)
+
+(LClass.609
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.610
+	Color:	611
+	Outline:	1
+	OutlineColor:	612
+	OutlineWidth:	0.10000000000000
+	BgColor:	613
+)
+
+(TClr.611
+	Name:	"Transparent"
+)
+
+(TClr.612
+	Name:	"Transparent"
+)
+
+(TClr.613
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.614
+)
+
+(NameDict.615
+)
+
+(Thresh.616
+)
+
+(GSet.617
+)
+
+(TxPosPly.618
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.619
+	FTab:	579
+	Field:	581
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.620
+	FTab:	579
+	Field:	582
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.621
+	FTab:	579
+	Field:	583
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.622
+	FTab:	579
+	Field:	584
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.623
+	FTab:	579
+	Field:	585
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.624
+	FTab:	579
+	Field:	586
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.625
+	FTab:	579
+	Field:	587
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.626
+	FTab:	579
+	Field:	588
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.627
+	FTab:	579
+	Field:	589
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.628
+	FTab:	579
+	Field:	590
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.629
+	FTab:	579
+	Field:	591
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.630
+	FTab:	579
+	Field:	592
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.631
+	FTab:	579
+	Field:	593
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.632
+	FTab:	579
+	Field:	594
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.633
+	FTab:	579
+	Field:	595
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.634
+	FTab:	579
+	Field:	596
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.635
+	FTab:	579
+	Field:	597
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.636
+	FTab:	579
+	Field:	598
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.637
+	FTab:	579
+	Field:	599
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.638
+	Name:	"Watrcrsl.shp"
+	Source:	639
+	Legend:	671
+	Threshold:	690
+	View:	4
+	GSet:	691
+	LegEditScript:	"View.EditLegend"
+	TxPos:	692
+	LabelField:	657
+	AttrRules:	693
+	AttrRules:	694
+	AttrRules:	695
+	AttrRules:	696
+	AttrRules:	697
+	AttrRules:	698
+	AttrRules:	699
+	AttrRules:	700
+	AttrRules:	701
+	AttrRules:	702
+	AttrRules:	703
+	AttrRules:	704
+	AttrRules:	705
+	AttrRules:	706
+	AttrRules:	707
+	AttrRules:	708
+	AttrRules:	709
+	AttrRules:	710
+	AttrRules:	711
+	AttrRules:	712
+	AttrRules:	713
+	AttrRules:	714
+	AttrRules:	715
+	AttrRules:	716
+	SnapTolCursor:	1
+)
+
+(ShpSrc.639
+	Name:	640
+	FTab:	642
+)
+
+(SrcName.640
+	FileName:	641
+	Name:	"watrcrsl.shp"
+	SubName:	"Arc"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.641
+	Path:	"c:/adrian/egm_lv03/watrcrsl.shp"
+)
+
+(FTab.642
+	Name:	"watrcrsl.dbf"
+	BTab:	643
+	Query:	"([Wd8] = -32768) and ([Wd7] <> -32768)"
+	Fields:	669
+	Fields:	644
+	Fields:	645
+	Fields:	646
+	Fields:	647
+	Fields:	648
+	Fields:	649
+	Fields:	650
+	Fields:	651
+	Fields:	652
+	Fields:	653
+	Fields:	654
+	Fields:	655
+	Fields:	656
+	Fields:	657
+	Fields:	658
+	Fields:	659
+	Fields:	660
+	Fields:	661
+	Fields:	662
+	Fields:	663
+	Fields:	664
+	Fields:	665
+	Fields:	666
+	Fields:	667
+	SelBits:	670
+	FSrc:	639
+)
+
+(dBASE.643
+	Name:	"watrcrsl.dbf"
+	Fields:	644
+	Fields:	645
+	Fields:	646
+	Fields:	647
+	Fields:	648
+	Fields:	649
+	Fields:	650
+	Fields:	651
+	Fields:	652
+	Fields:	653
+	Fields:	654
+	Fields:	655
+	Fields:	656
+	Fields:	657
+	Fields:	658
+	Fields:	659
+	Fields:	660
+	Fields:	661
+	Fields:	662
+	Fields:	663
+	Fields:	664
+	Fields:	665
+	Fields:	666
+	Fields:	667
+	FileName:	668
+)
+
+(Field.644
+	Name:	"Objectid"
+	Btab:	643
+	Alias:	"Objectid"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.645
+	Name:	"Fcsubtype"
+	Btab:	643
+	Alias:	"Fcsubtype"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.646
+	Name:	"Inspireid"
+	Btab:	643
+	Alias:	"Inspireid"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.647
+	Name:	"Beginlifes"
+	Btab:	643
+	Alias:	"Beginlifes"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.648
+	Name:	"F_code"
+	Btab:	643
+	Alias:	"F_code"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.649
+	Name:	"Icc"
+	Btab:	643
+	Alias:	"Icc"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.650
+	Name:	"Nvs"
+	Btab:	643
+	Alias:	"Nvs"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.651
+	Name:	"Hoc"
+	Btab:	643
+	Alias:	"Hoc"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.652
+	Name:	"Hyp"
+	Btab:	643
+	Alias:	"Hyp"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.653
+	Name:	"Ldv"
+	Btab:	643
+	Alias:	"Ldv"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.654
+	Name:	"Loc"
+	Btab:	643
+	Alias:	"Loc"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.655
+	Name:	"Hydroid"
+	Btab:	643
+	Alias:	"Hydroid"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.656
+	Name:	"Nhi"
+	Btab:	643
+	Alias:	"Nhi"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.657
+	Name:	"Namn1"
+	Btab:	643
+	Alias:	"Namn1"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.658
+	Name:	"Namn2"
+	Btab:	643
+	Alias:	"Namn2"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.659
+	Name:	"Nama1"
+	Btab:	643
+	Alias:	"Nama1"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.660
+	Name:	"Nama2"
+	Btab:	643
+	Alias:	"Nama2"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.661
+	Name:	"Nln1"
+	Btab:	643
+	Alias:	"Nln1"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.662
+	Name:	"Nln2"
+	Btab:	643
+	Alias:	"Nln2"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.663
+	Name:	"Tid"
+	Btab:	643
+	Alias:	"Tid"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.664
+	Name:	"Wch"
+	Btab:	643
+	Alias:	"Wch"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.665
+	Name:	"Wd7"
+	Btab:	643
+	Alias:	"Wd7"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.666
+	Name:	"Wd8"
+	Btab:	643
+	Alias:	"Wd8"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.667
+	Name:	"Shape_leng"
+	Btab:	643
+	Alias:	"Shape_leng"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.668
+	Path:	"c:/adrian/egm_lv03/watrcrsl.dbf"
+)
+
+(Field.669
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	18
+	Order:	-1
+)
+
+(Bitmap.670
+	NumBits:	15138
+
+)
+
+(Legend.671
+	SymType:	0x01
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	672
+	Symbols:	673
+	Class:	682
+	Class:	683
+	Class:	684
+	Class:	685
+	StdDevs:	1.00000000000000
+	NullSym:	686
+	NullValues:	688
+	StatValues:	689
+	ScaleSymbols:	1
+	RefScale:	200000.00000000000000
+	Precision:	-3
+)
+
+(AVStr.672
+	S:	"Wd7"
+)
+
+(SymList.673
+	Child:	674
+	Child:	676
+	Child:	678
+	Child:	680
+)
+
+(BLnSym.674
+	Color:	675
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.675
+	Blue:	0xffff
+)
+
+(BLnSym.676
+	Color:	677
+	Width:	5.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.677
+	Blue:	0xffff
+)
+
+(BLnSym.678
+	Color:	679
+	Width:	5.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.679
+	Blue:	0xffff
+)
+
+(BLnSym.680
+	Color:	681
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.681
+	Name:	"Transparent"
+)
+
+(LClass.682
+	Label:	"50"
+	MinNum:	50.00000000000000
+	MaxNum:	50.00000000000000
+	Precision:	-3
+)
+
+(LClass.683
+	Label:	"125"
+	MinNum:	125.00000000000000
+	MaxNum:	125.00000000000000
+	Precision:	-3
+)
+
+(LClass.684
+	Label:	"126"
+	MinNum:	126.00000000000000
+	MaxNum:	126.00000000000000
+	Precision:	-3
+)
+
+(LClass.685
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BLnSym.686
+	Color:	687
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.687
+	Name:	"Transparent"
+)
+
+(NameDict.688
+)
+
+(NameDict.689
+)
+
+(Thresh.690
+)
+
+(GSet.691
+)
+
+(TxPosArc.692
+	HAlign:	3
+	VAlign:	1
+)
+
+(AttrSingle.693
+	FTab:	642
+	Field:	644
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.694
+	FTab:	642
+	Field:	645
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.695
+	FTab:	642
+	Field:	646
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.696
+	FTab:	642
+	Field:	647
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.697
+	FTab:	642
+	Field:	648
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.698
+	FTab:	642
+	Field:	649
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.699
+	FTab:	642
+	Field:	650
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.700
+	FTab:	642
+	Field:	651
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.701
+	FTab:	642
+	Field:	652
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.702
+	FTab:	642
+	Field:	653
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.703
+	FTab:	642
+	Field:	654
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.704
+	FTab:	642
+	Field:	655
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.705
+	FTab:	642
+	Field:	656
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.706
+	FTab:	642
+	Field:	657
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.707
+	FTab:	642
+	Field:	658
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.708
+	FTab:	642
+	Field:	659
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.709
+	FTab:	642
+	Field:	660
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.710
+	FTab:	642
+	Field:	661
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.711
+	FTab:	642
+	Field:	662
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.712
+	FTab:	642
+	Field:	663
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.713
+	FTab:	642
+	Field:	664
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.714
+	FTab:	642
+	Field:	665
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.715
+	FTab:	642
+	Field:	666
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.716
+	FTab:	642
+	Field:	667
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.717
+	Name:	"SeaA"
+	Source:	718
+	Flags:	0x02
+	Legend:	734
+	Threshold:	747
+	View:	4
+	GSet:	748
+	LegEditScript:	"View.EditLegend"
+	TxPos:	749
+	LabelField:	725
+	AttrRules:	750
+	AttrRules:	751
+	AttrRules:	752
+	AttrRules:	753
+	AttrRules:	754
+	AttrRules:	755
+	AttrRules:	756
+	AttrRules:	757
+	SnapTolCursor:	1
+)
+
+(ShpSrc.718
+	Name:	719
+	FTab:	721
+)
+
+(SrcName.719
+	FileName:	720
+	Name:	"seaa.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.720
+	Path:	"c:/adrian/egm_lv03/seaa.shp"
+)
+
+(FTab.721
+	Name:	"seaa.dbf"
+	BTab:	722
+	Fields:	732
+	Fields:	723
+	Fields:	724
+	Fields:	725
+	Fields:	726
+	Fields:	727
+	Fields:	728
+	Fields:	729
+	Fields:	730
+	SelBits:	733
+	FSrc:	718
+)
+
+(dBASE.722
+	Name:	"seaa.dbf"
+	Fields:	723
+	Fields:	724
+	Fields:	725
+	Fields:	726
+	Fields:	727
+	Fields:	728
+	Fields:	729
+	Fields:	730
+	FileName:	731
+)
+
+(Field.723
+	Name:	"Objectid"
+	Btab:	722
+	Alias:	"Objectid"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.724
+	Name:	"Fcsubtype"
+	Btab:	722
+	Alias:	"Fcsubtype"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.725
+	Name:	"Inspireid"
+	Btab:	722
+	Alias:	"Inspireid"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.726
+	Name:	"Beginlifes"
+	Btab:	722
+	Alias:	"Beginlifes"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.727
+	Name:	"F_code"
+	Btab:	722
+	Alias:	"F_code"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.728
+	Name:	"Icc"
+	Btab:	722
+	Alias:	"Icc"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.729
+	Name:	"Shape_leng"
+	Btab:	722
+	Alias:	"Shape_leng"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.730
+	Name:	"Shape_area"
+	Btab:	722
+	Alias:	"Shape_area"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.731
+	Path:	"c:/adrian/egm_lv03/seaa.dbf"
+)
+
+(Field.732
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.733
+	NumBits:	30
+
+)
+
+(Legend.734
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	735
+	Class:	740
+	StdDevs:	1.00000000000000
+	NullSym:	741
+	NullValues:	745
+	StatValues:	746
+	Precision:	-3
+)
+
+(SymList.735
+	Child:	736
+)
+
+(BShSym.736
+	Color:	737
+	Outline:	1
+	OutlineColor:	738
+	OutlineWidth:	0.10000000000000
+	BgColor:	739
+)
+
+(TClr.737
+	Red:	0xc33b
+	Green:	0xfc36
+	Blue:	0xff00
+)
+
+(TClr.738
+)
+
+(TClr.739
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.740
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.741
+	Color:	742
+	Outline:	1
+	OutlineColor:	743
+	OutlineWidth:	0.10000000000000
+	BgColor:	744
+)
+
+(TClr.742
+	Name:	"Transparent"
+)
+
+(TClr.743
+	Name:	"Transparent"
+)
+
+(TClr.744
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.745
+)
+
+(NameDict.746
+)
+
+(Thresh.747
+)
+
+(GSet.748
+)
+
+(TxPosPly.749
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.750
+	FTab:	721
+	Field:	723
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.751
+	FTab:	721
+	Field:	724
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.752
+	FTab:	721
+	Field:	725
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.753
+	FTab:	721
+	Field:	726
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.754
+	FTab:	721
+	Field:	727
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.755
+	FTab:	721
+	Field:	728
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.756
+	FTab:	721
+	Field:	729
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.757
+	FTab:	721
+	Field:	730
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.758
+	Name:	"Watrcrsl.shp"
+	Source:	759
+	Legend:	791
+	Threshold:	861
+	View:	4
+	GSet:	862
+	LegEditScript:	"View.EditLegend"
+	TxPos:	863
+	LabelField:	777
+	AttrRules:	864
+	AttrRules:	865
+	AttrRules:	866
+	AttrRules:	867
+	AttrRules:	868
+	AttrRules:	869
+	AttrRules:	870
+	AttrRules:	871
+	AttrRules:	872
+	AttrRules:	873
+	AttrRules:	874
+	AttrRules:	875
+	AttrRules:	876
+	AttrRules:	877
+	AttrRules:	878
+	AttrRules:	879
+	AttrRules:	880
+	AttrRules:	881
+	AttrRules:	882
+	AttrRules:	883
+	AttrRules:	884
+	AttrRules:	885
+	AttrRules:	886
+	AttrRules:	887
+	SnapTolCursor:	1
+)
+
+(ShpSrc.759
+	Name:	760
+	FTab:	762
+)
+
+(SrcName.760
+	FileName:	761
+	Name:	"watrcrsl.shp"
+	SubName:	"Arc"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.761
+	Path:	"c:/adrian/egm_lv03/watrcrsl.shp"
+)
+
+(FTab.762
+	Name:	"watrcrsl.dbf"
+	BTab:	763
+	Query:	"( [Wd8] <> -32768 )"
+	Fields:	789
+	Fields:	764
+	Fields:	765
+	Fields:	766
+	Fields:	767
+	Fields:	768
+	Fields:	769
+	Fields:	770
+	Fields:	771
+	Fields:	772
+	Fields:	773
+	Fields:	774
+	Fields:	775
+	Fields:	776
+	Fields:	777
+	Fields:	778
+	Fields:	779
+	Fields:	780
+	Fields:	781
+	Fields:	782
+	Fields:	783
+	Fields:	784
+	Fields:	785
+	Fields:	786
+	Fields:	787
+	SelBits:	790
+	FSrc:	759
+)
+
+(dBASE.763
+	Name:	"watrcrsl.dbf"
+	Fields:	764
+	Fields:	765
+	Fields:	766
+	Fields:	767
+	Fields:	768
+	Fields:	769
+	Fields:	770
+	Fields:	771
+	Fields:	772
+	Fields:	773
+	Fields:	774
+	Fields:	775
+	Fields:	776
+	Fields:	777
+	Fields:	778
+	Fields:	779
+	Fields:	780
+	Fields:	781
+	Fields:	782
+	Fields:	783
+	Fields:	784
+	Fields:	785
+	Fields:	786
+	Fields:	787
+	FileName:	788
+)
+
+(Field.764
+	Name:	"Objectid"
+	Btab:	763
+	Alias:	"Objectid"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.765
+	Name:	"Fcsubtype"
+	Btab:	763
+	Alias:	"Fcsubtype"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.766
+	Name:	"Inspireid"
+	Btab:	763
+	Alias:	"Inspireid"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.767
+	Name:	"Beginlifes"
+	Btab:	763
+	Alias:	"Beginlifes"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.768
+	Name:	"F_code"
+	Btab:	763
+	Alias:	"F_code"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.769
+	Name:	"Icc"
+	Btab:	763
+	Alias:	"Icc"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.770
+	Name:	"Nvs"
+	Btab:	763
+	Alias:	"Nvs"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.771
+	Name:	"Hoc"
+	Btab:	763
+	Alias:	"Hoc"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.772
+	Name:	"Hyp"
+	Btab:	763
+	Alias:	"Hyp"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.773
+	Name:	"Ldv"
+	Btab:	763
+	Alias:	"Ldv"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.774
+	Name:	"Loc"
+	Btab:	763
+	Alias:	"Loc"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.775
+	Name:	"Hydroid"
+	Btab:	763
+	Alias:	"Hydroid"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.776
+	Name:	"Nhi"
+	Btab:	763
+	Alias:	"Nhi"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.777
+	Name:	"Namn1"
+	Btab:	763
+	Alias:	"Namn1"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.778
+	Name:	"Namn2"
+	Btab:	763
+	Alias:	"Namn2"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.779
+	Name:	"Nama1"
+	Btab:	763
+	Alias:	"Nama1"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.780
+	Name:	"Nama2"
+	Btab:	763
+	Alias:	"Nama2"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.781
+	Name:	"Nln1"
+	Btab:	763
+	Alias:	"Nln1"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.782
+	Name:	"Nln2"
+	Btab:	763
+	Alias:	"Nln2"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.783
+	Name:	"Tid"
+	Btab:	763
+	Alias:	"Tid"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.784
+	Name:	"Wch"
+	Btab:	763
+	Alias:	"Wch"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.785
+	Name:	"Wd7"
+	Btab:	763
+	Alias:	"Wd7"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.786
+	Name:	"Wd8"
+	Btab:	763
+	Alias:	"Wd8"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.787
+	Name:	"Shape_leng"
+	Btab:	763
+	Alias:	"Shape_leng"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.788
+	Path:	"c:/adrian/egm_lv03/watrcrsl.dbf"
+)
+
+(Field.789
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	18
+	Order:	-1
+)
+
+(Bitmap.790
+	NumBits:	15138
+
+)
+
+(Legend.791
+	SymType:	0x01
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	792
+	Symbols:	793
+	Class:	836
+	Class:	837
+	Class:	838
+	Class:	839
+	Class:	840
+	Class:	841
+	Class:	842
+	Class:	843
+	Class:	844
+	Class:	845
+	Class:	846
+	Class:	847
+	Class:	848
+	Class:	849
+	Class:	850
+	Class:	851
+	Class:	852
+	Class:	853
+	Class:	854
+	Class:	855
+	Class:	856
+	StdDevs:	1.00000000000000
+	NullSym:	857
+	NullValues:	859
+	StatValues:	860
+	ScaleSymbols:	1
+	RefScale:	200000.00000000000000
+	Precision:	-3
+)
+
+(AVStr.792
+	S:	"Wd8"
+)
+
+(SymList.793
+	Child:	794
+	Child:	796
+	Child:	798
+	Child:	800
+	Child:	802
+	Child:	804
+	Child:	806
+	Child:	808
+	Child:	810
+	Child:	812
+	Child:	814
+	Child:	816
+	Child:	818
+	Child:	820
+	Child:	822
+	Child:	824
+	Child:	826
+	Child:	828
+	Child:	830
+	Child:	832
+	Child:	834
+)
+
+(BLnSym.794
+	Color:	795
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.795
+	Red:	0xc0ff
+	Green:	0x6538
+	Blue:	0x4920
+)
+
+(BLnSym.796
+	Color:	797
+	Width:	1.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.797
+	Blue:	0xffff
+)
+
+(BLnSym.798
+	Color:	799
+	Width:	1.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.799
+	Blue:	0xffff
+)
+
+(BLnSym.800
+	Color:	801
+	Width:	1.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.801
+	Blue:	0xffff
+)
+
+(BLnSym.802
+	Color:	803
+	Width:	1.50000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.803
+	Blue:	0xffff
+)
+
+(BLnSym.804
+	Color:	805
+	Width:	1.50000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.805
+	Blue:	0xffff
+)
+
+(BLnSym.806
+	Color:	807
+	Width:	1.50000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.807
+	Blue:	0xffff
+)
+
+(BLnSym.808
+	Color:	809
+	Width:	1.70000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.809
+	Blue:	0xffff
+)
+
+(BLnSym.810
+	Color:	811
+	Width:	1.70000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.811
+	Blue:	0xffff
+)
+
+(BLnSym.812
+	Color:	813
+	Width:	1.70000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.813
+	Blue:	0xffff
+)
+
+(BLnSym.814
+	Color:	815
+	Width:	1.70000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.815
+	Blue:	0xffff
+)
+
+(BLnSym.816
+	Color:	817
+	Width:	2.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.817
+	Blue:	0xffff
+)
+
+(BLnSym.818
+	Color:	819
+	Width:	2.50000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.819
+	Blue:	0xffff
+)
+
+(BLnSym.820
+	Color:	821
+	Width:	2.50000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.821
+	Blue:	0xffff
+)
+
+(BLnSym.822
+	Color:	823
+	Width:	2.50000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.823
+	Blue:	0xffff
+)
+
+(BLnSym.824
+	Color:	825
+	Width:	2.70000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.825
+	Blue:	0xffff
+)
+
+(BLnSym.826
+	Color:	827
+	Width:	2.70000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.827
+	Blue:	0xffff
+)
+
+(BLnSym.828
+	Color:	829
+	Width:	3.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.829
+	Blue:	0xffff
+)
+
+(BLnSym.830
+	Color:	831
+	Width:	3.50000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.831
+	Blue:	0xffff
+)
+
+(BLnSym.832
+	Color:	833
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.833
+	Blue:	0xffff
+)
+
+(BLnSym.834
+	Color:	835
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.835
+	Name:	"Transparent"
+)
+
+(LClass.836
+	Label:	"-32768"
+	MinNum:	-32768.00000000000000
+	MaxNum:	-32768.00000000000000
+	Precision:	-3
+)
+
+(LClass.837
+	Label:	"3"
+	MinNum:	3.00000000000000
+	MaxNum:	3.00000000000000
+	Precision:	-3
+)
+
+(LClass.838
+	Label:	"5"
+	MinNum:	5.00000000000000
+	MaxNum:	5.00000000000000
+	Precision:	-3
+)
+
+(LClass.839
+	Label:	"6"
+	MinNum:	6.00000000000000
+	MaxNum:	6.00000000000000
+	Precision:	-3
+)
+
+(LClass.840
+	Label:	"10"
+	MinNum:	10.00000000000000
+	MaxNum:	10.00000000000000
+	Precision:	-3
+)
+
+(LClass.841
+	Label:	"12"
+	MinNum:	12.00000000000000
+	MaxNum:	12.00000000000000
+	Precision:	-3
+)
+
+(LClass.842
+	Label:	"14"
+	MinNum:	14.00000000000000
+	MaxNum:	14.00000000000000
+	Precision:	-3
+)
+
+(LClass.843
+	Label:	"15"
+	MinNum:	15.00000000000000
+	MaxNum:	15.00000000000000
+	Precision:	-3
+)
+
+(LClass.844
+	Label:	"16"
+	MinNum:	16.00000000000000
+	MaxNum:	16.00000000000000
+	Precision:	-3
+)
+
+(LClass.845
+	Label:	"18"
+	MinNum:	18.00000000000000
+	MaxNum:	18.00000000000000
+	Precision:	-3
+)
+
+(LClass.846
+	Label:	"20"
+	MinNum:	20.00000000000000
+	MaxNum:	20.00000000000000
+	Precision:	-3
+)
+
+(LClass.847
+	Label:	"24"
+	MinNum:	24.00000000000000
+	MaxNum:	24.00000000000000
+	Precision:	-3
+)
+
+(LClass.848
+	Label:	"30"
+	MinNum:	30.00000000000000
+	MaxNum:	30.00000000000000
+	Precision:	-3
+)
+
+(LClass.849
+	Label:	"35"
+	MinNum:	35.00000000000000
+	MaxNum:	35.00000000000000
+	Precision:	-3
+)
+
+(LClass.850
+	Label:	"42"
+	MinNum:	42.00000000000000
+	MaxNum:	42.00000000000000
+	Precision:	-3
+)
+
+(LClass.851
+	Label:	"49"
+	MinNum:	49.00000000000000
+	MaxNum:	49.00000000000000
+	Precision:	-3
+)
+
+(LClass.852
+	Label:	"50"
+	MinNum:	50.00000000000000
+	MaxNum:	50.00000000000000
+	Precision:	-3
+)
+
+(LClass.853
+	Label:	"75"
+	MinNum:	75.00000000000000
+	MaxNum:	75.00000000000000
+	Precision:	-3
+)
+
+(LClass.854
+	Label:	"124"
+	MinNum:	124.00000000000000
+	MaxNum:	124.00000000000000
+	Precision:	-3
+)
+
+(LClass.855
+	Label:	"125"
+	MinNum:	125.00000000000000
+	MaxNum:	125.00000000000000
+	Precision:	-3
+)
+
+(LClass.856
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BLnSym.857
+	Color:	858
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.858
+	Name:	"Transparent"
+)
+
+(NameDict.859
+)
+
+(NameDict.860
+)
+
+(Thresh.861
+)
+
+(GSet.862
+)
+
+(TxPosArc.863
+	HAlign:	3
+	VAlign:	1
+)
+
+(AttrSingle.864
+	FTab:	762
+	Field:	764
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.865
+	FTab:	762
+	Field:	765
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.866
+	FTab:	762
+	Field:	766
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.867
+	FTab:	762
+	Field:	767
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.868
+	FTab:	762
+	Field:	768
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.869
+	FTab:	762
+	Field:	769
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.870
+	FTab:	762
+	Field:	770
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.871
+	FTab:	762
+	Field:	771
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.872
+	FTab:	762
+	Field:	772
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.873
+	FTab:	762
+	Field:	773
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.874
+	FTab:	762
+	Field:	774
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.875
+	FTab:	762
+	Field:	775
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.876
+	FTab:	762
+	Field:	776
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.877
+	FTab:	762
+	Field:	777
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.878
+	FTab:	762
+	Field:	778
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.879
+	FTab:	762
+	Field:	779
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.880
+	FTab:	762
+	Field:	780
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.881
+	FTab:	762
+	Field:	781
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.882
+	FTab:	762
+	Field:	782
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.883
+	FTab:	762
+	Field:	783
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.884
+	FTab:	762
+	Field:	784
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.885
+	FTab:	762
+	Field:	785
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.886
+	FTab:	762
+	Field:	786
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.887
+	FTab:	762
+	Field:	787
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.888
+	Name:	"PolbndL"
+	Source:	889
+	Flags:	0x02
+	Legend:	906
+	Threshold:	928
+	View:	4
+	GSet:	929
+	LegEditScript:	"View.EditLegend"
+	TxPos:	930
+	LabelField:	896
+	AttrRules:	931
+	AttrRules:	932
+	AttrRules:	933
+	AttrRules:	934
+	AttrRules:	935
+	AttrRules:	936
+	AttrRules:	937
+	AttrRules:	938
+	AttrRules:	939
+	SnapTolCursor:	1
+)
+
+(ShpSrc.889
+	Name:	890
+	FTab:	892
+)
+
+(SrcName.890
+	FileName:	891
+	Name:	"polbndl.shp"
+	SubName:	"Arc"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.891
+	Path:	"c:/adrian/egm_lv03/polbndl.shp"
+)
+
+(FTab.892
+	Name:	"polbndl.dbf"
+	BTab:	893
+	Query:	"( [Use] = 1) or ([Use] = 2 )"
+	Fields:	904
+	Fields:	894
+	Fields:	895
+	Fields:	896
+	Fields:	897
+	Fields:	898
+	Fields:	899
+	Fields:	900
+	Fields:	901
+	Fields:	902
+	SelBits:	905
+	FSrc:	889
+)
+
+(dBASE.893
+	Name:	"polbndl.dbf"
+	Fields:	894
+	Fields:	895
+	Fields:	896
+	Fields:	897
+	Fields:	898
+	Fields:	899
+	Fields:	900
+	Fields:	901
+	Fields:	902
+	FileName:	903
+)
+
+(Field.894
+	Name:	"Objectid"
+	Btab:	893
+	Alias:	"Objectid"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.895
+	Name:	"Fcsubtype"
+	Btab:	893
+	Alias:	"Fcsubtype"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.896
+	Name:	"Inspireid"
+	Btab:	893
+	Alias:	"Inspireid"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.897
+	Name:	"Beginlifes"
+	Btab:	893
+	Alias:	"Beginlifes"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.898
+	Name:	"F_code"
+	Btab:	893
+	Alias:	"F_code"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.899
+	Name:	"Icc"
+	Btab:	893
+	Alias:	"Icc"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.900
+	Name:	"Bst"
+	Btab:	893
+	Alias:	"Bst"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.901
+	Name:	"Use"
+	Btab:	893
+	Alias:	"Use"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.902
+	Name:	"Shape_leng"
+	Btab:	893
+	Alias:	"Shape_leng"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.903
+	Path:	"c:/adrian/egm_lv03/polbndl.dbf"
+)
+
+(Field.904
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	18
+	Order:	-1
+)
+
+(Bitmap.905
+	NumBits:	1579
+
+)
+
+(Legend.906
+	SymType:	0x01
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	907
+	Symbols:	908
+	Class:	919
+	Class:	920
+	Class:	921
+	Class:	922
+	Class:	923
+	StdDevs:	1.00000000000000
+	NullSym:	924
+	NullValues:	926
+	StatValues:	927
+	ScaleSymbols:	1
+	RefScale:	2500000.00000000000000
+	Precision:	-3
+)
+
+(AVStr.907
+	S:	"Use"
+)
+
+(SymList.908
+	Child:	909
+	Child:	911
+	Child:	913
+	Child:	915
+	Child:	917
+)
+
+(BLnSym.909
+	Color:	910
+	Width:	2.00000000000000
+	CapStyle:	0x01
+	JoinStyle:	0x01
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.910
+	Red:	0x2fcf
+	Green:	0xb7ff
+	Blue:	0x2eb7
+)
+
+(BLnSym.911
+	Color:	912
+	Width:	1.00000000000000
+	CapStyle:	0x01
+	JoinStyle:	0x01
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.912
+	Red:	0x2fcf
+	Green:	0xb7ff
+	Blue:	0x2eb7
+)
+
+(BLnSym.913
+	Color:	914
+	Width:	0.10000000000000
+	CapStyle:	0x01
+	JoinStyle:	0x01
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.914
+	Red:	0xbdbd
+	Green:	0xb7b7
+	Blue:	0x6b6b
+)
+
+(BLnSym.915
+	Color:	916
+	Width:	0.10000000000000
+	CapStyle:	0x01
+	JoinStyle:	0x01
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.916
+	Red:	0xf7ff
+	Green:	0xb575
+	Blue:	0x67a7
+)
+
+(BLnSym.917
+	Color:	918
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.918
+	Name:	"Transparent"
+)
+
+(LClass.919
+	Label:	"1"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.920
+	Label:	"2"
+	MinNum:	2.00000000000000
+	MaxNum:	2.00000000000000
+	Precision:	-3
+)
+
+(LClass.921
+	Label:	"3"
+	MinNum:	3.00000000000000
+	MaxNum:	3.00000000000000
+	Precision:	-3
+)
+
+(LClass.922
+	Label:	"4"
+	MinNum:	4.00000000000000
+	MaxNum:	4.00000000000000
+	Precision:	-3
+)
+
+(LClass.923
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BLnSym.924
+	Color:	925
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.925
+	Name:	"Transparent"
+)
+
+(NameDict.926
+)
+
+(NameDict.927
+)
+
+(Thresh.928
+)
+
+(GSet.929
+)
+
+(TxPosArc.930
+	HAlign:	3
+	VAlign:	1
+)
+
+(AttrSingle.931
+	FTab:	892
+	Field:	894
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.932
+	FTab:	892
+	Field:	895
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.933
+	FTab:	892
+	Field:	896
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.934
+	FTab:	892
+	Field:	897
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.935
+	FTab:	892
+	Field:	898
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.936
+	FTab:	892
+	Field:	899
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.937
+	FTab:	892
+	Field:	900
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.938
+	FTab:	892
+	Field:	901
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.939
+	FTab:	892
+	Field:	902
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(ITheme.940
+	Name:	"Pk1000.tif"
+	Source:	941
+	Flags:	0x04
+	Legend:	946
+	Threshold:	1206
+	View:	4
+	GSet:	1207
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.941
+	Name:	942
+	MapBox:	944
+	BandStats:	945
+)
+
+(SrcName.942
+	FileName:	943
+	Name:	"pk1000.tif"
+	OwnerClass:	"ISrc"
+)
+
+(FN.943
+	Path:	"c:/adrian/lk1000/pk1000.tif"
+)
+
+(RectD.944
+	Left:	317000.00000000000000
+	Top:	413000.00000000000000
+	Right:	1057000.00000000000000
+	Bottom:	-87000.00000000000000
+)
+
+(BStat.945
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(SBILeg.946
+	PixelLUT:	947
+	ClrMap:	948
+)
+
+(ILUTIdn.947
+)
+
+(TClrMap.948
+	Colors:	949
+	Colors:	950
+	Colors:	951
+	Colors:	952
+	Colors:	953
+	Colors:	954
+	Colors:	955
+	Colors:	956
+	Colors:	957
+	Colors:	958
+	Colors:	959
+	Colors:	960
+	Colors:	961
+	Colors:	962
+	Colors:	963
+	Colors:	964
+	Colors:	965
+	Colors:	966
+	Colors:	967
+	Colors:	968
+	Colors:	969
+	Colors:	970
+	Colors:	971
+	Colors:	972
+	Colors:	973
+	Colors:	974
+	Colors:	975
+	Colors:	976
+	Colors:	977
+	Colors:	978
+	Colors:	979
+	Colors:	980
+	Colors:	981
+	Colors:	982
+	Colors:	983
+	Colors:	984
+	Colors:	985
+	Colors:	986
+	Colors:	987
+	Colors:	988
+	Colors:	989
+	Colors:	990
+	Colors:	991
+	Colors:	992
+	Colors:	993
+	Colors:	994
+	Colors:	995
+	Colors:	996
+	Colors:	997
+	Colors:	998
+	Colors:	999
+	Colors:	1000
+	Colors:	1001
+	Colors:	1002
+	Colors:	1003
+	Colors:	1004
+	Colors:	1005
+	Colors:	1006
+	Colors:	1007
+	Colors:	1008
+	Colors:	1009
+	Colors:	1010
+	Colors:	1011
+	Colors:	1012
+	Colors:	1013
+	Colors:	1014
+	Colors:	1015
+	Colors:	1016
+	Colors:	1017
+	Colors:	1018
+	Colors:	1019
+	Colors:	1020
+	Colors:	1021
+	Colors:	1022
+	Colors:	1023
+	Colors:	1024
+	Colors:	1025
+	Colors:	1026
+	Colors:	1027
+	Colors:	1028
+	Colors:	1029
+	Colors:	1030
+	Colors:	1031
+	Colors:	1032
+	Colors:	1033
+	Colors:	1034
+	Colors:	1035
+	Colors:	1036
+	Colors:	1037
+	Colors:	1038
+	Colors:	1039
+	Colors:	1040
+	Colors:	1041
+	Colors:	1042
+	Colors:	1043
+	Colors:	1044
+	Colors:	1045
+	Colors:	1046
+	Colors:	1047
+	Colors:	1048
+	Colors:	1049
+	Colors:	1050
+	Colors:	1051
+	Colors:	1052
+	Colors:	1053
+	Colors:	1054
+	Colors:	1055
+	Colors:	1056
+	Colors:	1057
+	Colors:	1058
+	Colors:	1059
+	Colors:	1060
+	Colors:	1061
+	Colors:	1062
+	Colors:	1063
+	Colors:	1064
+	Colors:	1065
+	Colors:	1066
+	Colors:	1067
+	Colors:	1068
+	Colors:	1069
+	Colors:	1070
+	Colors:	1071
+	Colors:	1072
+	Colors:	1073
+	Colors:	1074
+	Colors:	1075
+	Colors:	1076
+	Colors:	1077
+	Colors:	1078
+	Colors:	1079
+	Colors:	1080
+	Colors:	1081
+	Colors:	1082
+	Colors:	1083
+	Colors:	1084
+	Colors:	1085
+	Colors:	1086
+	Colors:	1087
+	Colors:	1088
+	Colors:	1089
+	Colors:	1090
+	Colors:	1091
+	Colors:	1092
+	Colors:	1093
+	Colors:	1094
+	Colors:	1095
+	Colors:	1096
+	Colors:	1097
+	Colors:	1098
+	Colors:	1099
+	Colors:	1100
+	Colors:	1101
+	Colors:	1102
+	Colors:	1103
+	Colors:	1104
+	Colors:	1105
+	Colors:	1106
+	Colors:	1107
+	Colors:	1108
+	Colors:	1109
+	Colors:	1110
+	Colors:	1111
+	Colors:	1112
+	Colors:	1113
+	Colors:	1114
+	Colors:	1115
+	Colors:	1116
+	Colors:	1117
+	Colors:	1118
+	Colors:	1119
+	Colors:	1120
+	Colors:	1121
+	Colors:	1122
+	Colors:	1123
+	Colors:	1124
+	Colors:	1125
+	Colors:	1126
+	Colors:	1127
+	Colors:	1128
+	Colors:	1129
+	Colors:	1130
+	Colors:	1131
+	Colors:	1132
+	Colors:	1133
+	Colors:	1134
+	Colors:	1135
+	Colors:	1136
+	Colors:	1137
+	Colors:	1138
+	Colors:	1139
+	Colors:	1140
+	Colors:	1141
+	Colors:	1142
+	Colors:	1143
+	Colors:	1144
+	Colors:	1145
+	Colors:	1146
+	Colors:	1147
+	Colors:	1148
+	Colors:	1149
+	Colors:	1150
+	Colors:	1151
+	Colors:	1152
+	Colors:	1153
+	Colors:	1154
+	Colors:	1155
+	Colors:	1156
+	Colors:	1157
+	Colors:	1158
+	Colors:	1159
+	Colors:	1160
+	Colors:	1161
+	Colors:	1162
+	Colors:	1163
+	Colors:	1164
+	Colors:	1165
+	Colors:	1166
+	Colors:	1167
+	Colors:	1168
+	Colors:	1169
+	Colors:	1170
+	Colors:	1171
+	Colors:	1172
+	Colors:	1173
+	Colors:	1174
+	Colors:	1175
+	Colors:	1176
+	Colors:	1177
+	Colors:	1178
+	Colors:	1179
+	Colors:	1180
+	Colors:	1181
+	Colors:	1182
+	Colors:	1183
+	Colors:	1184
+	Colors:	1185
+	Colors:	1186
+	Colors:	1187
+	Colors:	1188
+	Colors:	1189
+	Colors:	1190
+	Colors:	1191
+	Colors:	1192
+	Colors:	1193
+	Colors:	1194
+	Colors:	1195
+	Colors:	1196
+	Colors:	1197
+	Colors:	1198
+	Colors:	1199
+	Colors:	1200
+	Colors:	1201
+	Colors:	1202
+	Colors:	1203
+	Colors:	1204
+	NoDataClr:	1205
+)
+
+(TClr.949
+)
+
+(TClr.950
+	Red:	0xff00
+	Green:	0xff00
+	Blue:	0xff00
+)
+
+(TClr.951
+	Red:	0xd500
+	Green:	0xe700
+	Blue:	0xf900
+)
+
+(TClr.952
+	Red:	0xff00
+	Green:	0xcc00
+	Blue:	0x6600
+)
+
+(TClr.953
+	Red:	0x6200
+	Green:	0xc500
+	Blue:	0x6200
+)
+
+(TClr.954
+	Red:	0x3800
+	Green:	0x9300
+	Blue:	0x3800
+)
+
+(TClr.955
+	Red:	0xf800
+	Green:	0xe900
+)
+
+(TClr.956
+	Red:	0xf600
+	Green:	0x9a00
+	Blue:	0xa500
+)
+
+(TClr.957
+	Red:	0xf800
+	Green:	0x9600
+	Blue:	0x1e00
+)
+
+(TClr.958
+	Green:	0x7d00
+	Blue:	0xc500
+)
+
+(TClr.959
+	Red:	0xed00
+	Green:	0x1c00
+	Blue:	0x2400
+)
+
+(TClr.960
+)
+
+(TClr.961
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.962
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.963
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.964
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.965
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.966
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.967
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.968
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.969
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.970
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.971
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.972
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.973
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.974
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.975
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.976
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.977
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.978
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.979
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.980
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.981
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.982
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.983
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.984
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.985
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.986
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.987
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.988
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.989
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.990
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.991
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.992
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.993
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.994
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.995
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.996
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.997
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.998
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.999
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1000
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1001
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1002
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1003
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1004
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1005
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1006
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1007
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1008
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1009
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1010
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1011
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1012
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1013
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1014
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1015
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1016
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1017
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1018
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1019
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1020
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1021
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1022
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1023
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1024
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1025
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1026
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1027
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1028
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1029
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1030
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1031
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1032
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1033
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1034
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1035
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1036
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1037
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1038
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1039
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1040
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1041
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1042
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1043
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1044
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1045
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1046
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1047
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1048
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1049
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1050
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1051
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1052
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1053
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1054
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1055
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1056
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1057
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1058
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1059
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1060
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1061
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1062
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1063
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1064
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1065
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1066
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1067
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1068
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1069
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1070
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1071
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1072
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1073
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1074
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1075
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1076
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1077
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1078
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1079
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1080
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1081
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1082
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1083
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1084
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1085
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1086
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1087
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1088
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1089
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1090
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1091
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1092
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1093
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1094
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1095
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1096
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1097
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1098
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1099
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1100
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1101
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1102
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1103
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1104
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1105
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1106
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1107
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1108
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1109
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1110
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1111
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1112
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1113
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1114
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1115
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1116
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1117
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1118
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1119
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1120
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1121
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1122
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1123
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1124
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1125
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1126
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1127
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1128
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1129
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1130
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1131
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1132
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1133
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1134
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1135
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1136
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1137
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1138
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1139
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1140
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1141
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1142
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1143
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1144
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1145
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1146
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1147
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1148
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1149
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1150
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1151
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1152
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1153
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1154
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1155
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1156
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1157
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1158
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1159
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1160
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1161
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1162
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1163
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1164
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1165
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1166
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1167
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1168
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1169
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1170
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1171
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1172
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1173
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1174
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1175
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1176
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1177
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1178
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1179
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1180
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1181
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1182
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1183
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1184
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1185
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1186
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1187
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1188
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1189
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1190
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1191
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1192
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1193
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1194
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1195
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1196
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1197
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1198
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1199
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1200
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1201
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1202
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1203
+	Red:	0x9600
+	Green:	0x9600
+	Blue:	0x9600
+)
+
+(TClr.1204
+	Red:	0xff00
+	Green:	0xff00
+	Blue:	0xff00
+)
+
+(TClr.1205
+)
+
+(Thresh.1206
+)
+
+(GSet.1207
+)
+
+(ITheme.1208
+	Name:	"80.jpg"
+	Source:	1209
+	Flags:	0x04
+	Legend:	1216
+	Threshold:	1220
+	View:	4
+	GSet:	1221
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1209
+	Name:	1210
+	MapBox:	1212
+	BandStats:	1213
+	BandStats:	1214
+	BandStats:	1215
+)
+
+(SrcName.1210
+	FileName:	1211
+	Name:	"80.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1211
+	Path:	"c:/adrian/lk100/80.jpg"
+)
+
+(RectD.1212
+	Left:	829992.86467015091000
+	Top:	206003.99999740519000
+	Right:	899992.86467015091000
+	Bottom:	158003.99999740519000
+)
+
+(BStat.1213
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1214
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1215
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1216
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1217
+	GreenLUT:	1218
+	BlueLUT:	1219
+)
+
+(ILUTIdn.1217
+)
+
+(ILUTIdn.1218
+)
+
+(ILUTIdn.1219
+)
+
+(Thresh.1220
+)
+
+(GSet.1221
+)
+
+(ITheme.1222
+	Name:	"69.jpg"
+	Source:	1223
+	Flags:	0x04
+	Legend:	1230
+	Threshold:	1234
+	View:	4
+	GSet:	1235
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1223
+	Name:	1224
+	MapBox:	1226
+	BandStats:	1227
+	BandStats:	1228
+	BandStats:	1229
+)
+
+(SrcName.1224
+	FileName:	1225
+	Name:	"69.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1225
+	Path:	"c:/adrian/lk100/69.jpg"
+)
+
+(RectD.1226
+	Left:	794993.52173781814000
+	Top:	302004.27070785163000
+	Right:	864993.52173781814000
+	Bottom:	254004.27070785163000
+)
+
+(BStat.1227
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1228
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1229
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1230
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1231
+	GreenLUT:	1232
+	BlueLUT:	1233
+)
+
+(ILUTIdn.1231
+)
+
+(ILUTIdn.1232
+)
+
+(ILUTIdn.1233
+)
+
+(Thresh.1234
+)
+
+(GSet.1235
+)
+
+(ITheme.1236
+	Name:	"48.jpg"
+	Source:	1237
+	Flags:	0x04
+	Legend:	1244
+	Threshold:	1248
+	View:	4
+	GSet:	1249
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1237
+	Name:	1238
+	MapBox:	1240
+	BandStats:	1241
+	BandStats:	1242
+	BandStats:	1243
+)
+
+(SrcName.1238
+	FileName:	1239
+	Name:	"48.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1239
+	Path:	"c:/adrian/lk100/48.jpg"
+)
+
+(RectD.1240
+	Left:	689995.96121955290000
+	Top:	110005.01468289470000
+	Right:	759995.96121955290000
+	Bottom:	62005.01468289470400
+)
+
+(BStat.1241
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1242
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1243
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1244
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1245
+	GreenLUT:	1246
+	BlueLUT:	1247
+)
+
+(ILUTIdn.1245
+)
+
+(ILUTIdn.1246
+)
+
+(ILUTIdn.1247
+)
+
+(Thresh.1248
+)
+
+(GSet.1249
+)
+
+(ITheme.1250
+	Name:	"47.jpg"
+	Source:	1251
+	Flags:	0x04
+	Legend:	1258
+	Threshold:	1262
+	View:	4
+	GSet:	1263
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1251
+	Name:	1252
+	MapBox:	1254
+	BandStats:	1255
+	BandStats:	1256
+	BandStats:	1257
+)
+
+(SrcName.1252
+	FileName:	1253
+	Name:	"47.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1253
+	Path:	"c:/adrian/lk100/47.jpg"
+)
+
+(RectD.1254
+	Left:	619995.99189181533000
+	Top:	110004.99419166071000
+	Right:	689995.99189181533000
+	Bottom:	62004.99419166070600
+)
+
+(BStat.1255
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1256
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1257
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1258
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1259
+	GreenLUT:	1260
+	BlueLUT:	1261
+)
+
+(ILUTIdn.1259
+)
+
+(ILUTIdn.1260
+)
+
+(ILUTIdn.1261
+)
+
+(Thresh.1262
+)
+
+(GSet.1263
+)
+
+(ITheme.1264
+	Name:	"46.jpg"
+	Source:	1265
+	Flags:	0x04
+	Legend:	1272
+	Threshold:	1276
+	View:	4
+	GSet:	1277
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1265
+	Name:	1266
+	MapBox:	1268
+	BandStats:	1269
+	BandStats:	1270
+	BandStats:	1271
+)
+
+(SrcName.1266
+	FileName:	1267
+	Name:	"46.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1267
+	Path:	"c:/adrian/lk100/46.jpg"
+)
+
+(RectD.1268
+	Left:	549996.41285428265000
+	Top:	110004.37798820160000
+	Right:	619996.41285428265000
+	Bottom:	62004.37798820159500
+)
+
+(BStat.1269
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1270
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1271
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1272
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1273
+	GreenLUT:	1274
+	BlueLUT:	1275
+)
+
+(ILUTIdn.1273
+)
+
+(ILUTIdn.1274
+)
+
+(ILUTIdn.1275
+)
+
+(Thresh.1276
+)
+
+(GSet.1277
+)
+
+(ITheme.1278
+	Name:	"45.jpg"
+	Source:	1279
+	Flags:	0x04
+	Legend:	1286
+	Threshold:	1290
+	View:	4
+	GSet:	1291
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1279
+	Name:	1280
+	MapBox:	1282
+	BandStats:	1283
+	BandStats:	1284
+	BandStats:	1285
+)
+
+(SrcName.1280
+	FileName:	1281
+	Name:	"45.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1281
+	Path:	"c:/adrian/lk100/45.jpg"
+)
+
+(RectD.1282
+	Left:	479996.32573844102000
+	Top:	110003.67060562120000
+	Right:	549996.32573844097000
+	Bottom:	62003.67060562119900
+)
+
+(BStat.1283
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1284
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1285
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1286
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1287
+	GreenLUT:	1288
+	BlueLUT:	1289
+)
+
+(ILUTIdn.1287
+)
+
+(ILUTIdn.1288
+)
+
+(ILUTIdn.1289
+)
+
+(Thresh.1290
+)
+
+(GSet.1291
+)
+
+(ITheme.1292
+	Name:	"44.jpg"
+	Source:	1293
+	Flags:	0x04
+	Legend:	1300
+	Threshold:	1304
+	View:	4
+	GSet:	1305
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1293
+	Name:	1294
+	MapBox:	1296
+	BandStats:	1297
+	BandStats:	1298
+	BandStats:	1299
+)
+
+(SrcName.1294
+	FileName:	1295
+	Name:	"44.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1295
+	Path:	"c:/adrian/lk100/44.jpg"
+)
+
+(RectD.1296
+	Left:	759995.21753415861000
+	Top:	158004.39412564650000
+	Right:	829995.21753415861000
+	Bottom:	110004.39412564650000
+)
+
+(BStat.1297
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1298
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1299
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1300
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1301
+	GreenLUT:	1302
+	BlueLUT:	1303
+)
+
+(ILUTIdn.1301
+)
+
+(ILUTIdn.1302
+)
+
+(ILUTIdn.1303
+)
+
+(Thresh.1304
+)
+
+(GSet.1305
+)
+
+(ITheme.1306
+	Name:	"43.jpg"
+	Source:	1307
+	Flags:	0x04
+	Legend:	1314
+	Threshold:	1318
+	View:	4
+	GSet:	1319
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1307
+	Name:	1308
+	MapBox:	1310
+	BandStats:	1311
+	BandStats:	1312
+	BandStats:	1313
+)
+
+(SrcName.1308
+	FileName:	1309
+	Name:	"43.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1309
+	Path:	"c:/adrian/lk100/43.jpg"
+)
+
+(RectD.1310
+	Left:	689995.68245377671000
+	Top:	158004.39477303679000
+	Right:	759995.68245377671000
+	Bottom:	110004.39477303679000
+)
+
+(BStat.1311
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1312
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1313
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1314
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1315
+	GreenLUT:	1316
+	BlueLUT:	1317
+)
+
+(ILUTIdn.1315
+)
+
+(ILUTIdn.1316
+)
+
+(ILUTIdn.1317
+)
+
+(Thresh.1318
+)
+
+(GSet.1319
+)
+
+(ITheme.1320
+	Name:	"42.jpg"
+	Source:	1321
+	Flags:	0x04
+	Legend:	1328
+	Threshold:	1332
+	View:	4
+	GSet:	1333
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1321
+	Name:	1322
+	MapBox:	1324
+	BandStats:	1325
+	BandStats:	1326
+	BandStats:	1327
+)
+
+(SrcName.1322
+	FileName:	1323
+	Name:	"42.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1323
+	Path:	"c:/adrian/lk100/42.jpg"
+)
+
+(RectD.1324
+	Left:	619996.11336101172000
+	Top:	158004.39472168800000
+	Right:	689996.11336101172000
+	Bottom:	110004.39472168800000
+)
+
+(BStat.1325
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1326
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1327
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1328
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1329
+	GreenLUT:	1330
+	BlueLUT:	1331
+)
+
+(ILUTIdn.1329
+)
+
+(ILUTIdn.1330
+)
+
+(ILUTIdn.1331
+)
+
+(Thresh.1332
+)
+
+(GSet.1333
+)
+
+(ITheme.1334
+	Name:	"41.jpg"
+	Source:	1335
+	Flags:	0x04
+	Legend:	1342
+	Threshold:	1346
+	View:	4
+	GSet:	1347
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1335
+	Name:	1336
+	MapBox:	1338
+	BandStats:	1339
+	BandStats:	1340
+	BandStats:	1341
+)
+
+(SrcName.1336
+	FileName:	1337
+	Name:	"41.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1337
+	Path:	"c:/adrian/lk100/41.jpg"
+)
+
+(RectD.1338
+	Left:	549996.31031790772000
+	Top:	158004.18600764309000
+	Right:	619996.31031790772000
+	Bottom:	110004.18600764309000
+)
+
+(BStat.1339
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1340
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1341
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1342
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1343
+	GreenLUT:	1344
+	BlueLUT:	1345
+)
+
+(ILUTIdn.1343
+)
+
+(ILUTIdn.1344
+)
+
+(ILUTIdn.1345
+)
+
+(Thresh.1346
+)
+
+(GSet.1347
+)
+
+(ITheme.1348
+	Name:	"40.jpg"
+	Source:	1349
+	Flags:	0x04
+	Legend:	1356
+	Threshold:	1360
+	View:	4
+	GSet:	1361
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1349
+	Name:	1350
+	MapBox:	1352
+	BandStats:	1353
+	BandStats:	1354
+	BandStats:	1355
+)
+
+(SrcName.1350
+	FileName:	1351
+	Name:	"40.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1351
+	Path:	"c:/adrian/lk100/40.jpg"
+)
+
+(RectD.1352
+	Left:	479996.59944244783000
+	Top:	158003.57878688580000
+	Right:	549996.59944244777000
+	Bottom:	110003.57878688580000
+)
+
+(BStat.1353
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1354
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1355
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1356
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1357
+	GreenLUT:	1358
+	BlueLUT:	1359
+)
+
+(ILUTIdn.1357
+)
+
+(ILUTIdn.1358
+)
+
+(ILUTIdn.1359
+)
+
+(Thresh.1360
+)
+
+(GSet.1361
+)
+
+(ITheme.1362
+	Name:	"39.jpg"
+	Source:	1363
+	Flags:	0x04
+	Legend:	1370
+	Threshold:	1374
+	View:	4
+	GSet:	1375
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1363
+	Name:	1364
+	MapBox:	1366
+	BandStats:	1367
+	BandStats:	1368
+	BandStats:	1369
+)
+
+(SrcName.1364
+	FileName:	1365
+	Name:	"39.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1365
+	Path:	"c:/adrian/lk100/39.jpg"
+)
+
+(RectD.1366
+	Left:	759995.21755038388000
+	Top:	206004.11404115189000
+	Right:	829995.21755038388000
+	Bottom:	158004.11404115189000
+)
+
+(BStat.1367
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1368
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1369
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1370
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1371
+	GreenLUT:	1372
+	BlueLUT:	1373
+)
+
+(ILUTIdn.1371
+)
+
+(ILUTIdn.1372
+)
+
+(ILUTIdn.1373
+)
+
+(Thresh.1374
+)
+
+(GSet.1375
+)
+
+(ITheme.1376
+	Name:	"38.jpg"
+	Source:	1377
+	Flags:	0x04
+	Legend:	1384
+	Threshold:	1388
+	View:	4
+	GSet:	1389
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1377
+	Name:	1378
+	MapBox:	1380
+	BandStats:	1381
+	BandStats:	1382
+	BandStats:	1383
+)
+
+(SrcName.1378
+	FileName:	1379
+	Name:	"38.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1379
+	Path:	"c:/adrian/lk100/38.jpg"
+)
+
+(RectD.1380
+	Left:	689995.26498744357000
+	Top:	206004.18129585669000
+	Right:	759995.26498744357000
+	Bottom:	158004.18129585669000
+)
+
+(BStat.1381
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1382
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1383
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1384
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1385
+	GreenLUT:	1386
+	BlueLUT:	1387
+)
+
+(ILUTIdn.1385
+)
+
+(ILUTIdn.1386
+)
+
+(ILUTIdn.1387
+)
+
+(Thresh.1388
+)
+
+(GSet.1389
+)
+
+(ITheme.1390
+	Name:	"37.jpg"
+	Source:	1391
+	Flags:	0x04
+	Legend:	1398
+	Threshold:	1402
+	View:	4
+	GSet:	1403
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1391
+	Name:	1392
+	MapBox:	1394
+	BandStats:	1395
+	BandStats:	1396
+	BandStats:	1397
+)
+
+(SrcName.1392
+	FileName:	1393
+	Name:	"37.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1393
+	Path:	"c:/adrian/lk100/37.jpg"
+)
+
+(RectD.1394
+	Left:	619995.70315954369000
+	Top:	206004.18127851450000
+	Right:	689995.70315954369000
+	Bottom:	158004.18127851450000
+)
+
+(BStat.1395
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1396
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1397
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1398
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1399
+	GreenLUT:	1400
+	BlueLUT:	1401
+)
+
+(ILUTIdn.1399
+)
+
+(ILUTIdn.1400
+)
+
+(ILUTIdn.1401
+)
+
+(Thresh.1402
+)
+
+(GSet.1403
+)
+
+(ITheme.1404
+	Name:	"36.jpg"
+	Source:	1405
+	Flags:	0x04
+	Legend:	1412
+	Threshold:	1416
+	View:	4
+	GSet:	1417
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1405
+	Name:	1406
+	MapBox:	1408
+	BandStats:	1409
+	BandStats:	1410
+	BandStats:	1411
+)
+
+(SrcName.1406
+	FileName:	1407
+	Name:	"36.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1407
+	Path:	"c:/adrian/lk100/36.jpg"
+)
+
+(RectD.1408
+	Left:	549996.31028953614000
+	Top:	206003.99946018329000
+	Right:	619996.31028953614000
+	Bottom:	158003.99946018329000
+)
+
+(BStat.1409
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1410
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1411
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1412
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1413
+	GreenLUT:	1414
+	BlueLUT:	1415
+)
+
+(ILUTIdn.1413
+)
+
+(ILUTIdn.1414
+)
+
+(ILUTIdn.1415
+)
+
+(Thresh.1416
+)
+
+(GSet.1417
+)
+
+(ITheme.1418
+	Name:	"35.jpg"
+	Source:	1419
+	Flags:	0x04
+	Legend:	1426
+	Threshold:	1430
+	View:	4
+	GSet:	1431
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1419
+	Name:	1420
+	MapBox:	1422
+	BandStats:	1423
+	BandStats:	1424
+	BandStats:	1425
+)
+
+(SrcName.1420
+	FileName:	1421
+	Name:	"35.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1421
+	Path:	"c:/adrian/lk100/35.jpg"
+)
+
+(RectD.1422
+	Left:	479996.42277189583000
+	Top:	206003.60023369640000
+	Right:	549996.42277189577000
+	Bottom:	158003.60023369640000
+)
+
+(BStat.1423
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1424
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1425
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1426
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1427
+	GreenLUT:	1428
+	BlueLUT:	1429
+)
+
+(ILUTIdn.1427
+)
+
+(ILUTIdn.1428
+)
+
+(ILUTIdn.1429
+)
+
+(Thresh.1430
+)
+
+(GSet.1431
+)
+
+(ITheme.1432
+	Name:	"34.jpg"
+	Source:	1433
+	Flags:	0x04
+	Legend:	1440
+	Threshold:	1444
+	View:	4
+	GSet:	1445
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1433
+	Name:	1434
+	MapBox:	1436
+	BandStats:	1437
+	BandStats:	1438
+	BandStats:	1439
+)
+
+(SrcName.1434
+	FileName:	1435
+	Name:	"34.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1435
+	Path:	"c:/adrian/lk100/34.jpg"
+)
+
+(RectD.1436
+	Left:	759995.27922295197000
+	Top:	254004.39609431010000
+	Right:	829995.27922295197000
+	Bottom:	206004.39609431010000
+)
+
+(BStat.1437
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1438
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1439
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1440
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1441
+	GreenLUT:	1442
+	BlueLUT:	1443
+)
+
+(ILUTIdn.1441
+)
+
+(ILUTIdn.1442
+)
+
+(ILUTIdn.1443
+)
+
+(Thresh.1444
+)
+
+(GSet.1445
+)
+
+(ITheme.1446
+	Name:	"33.jpg"
+	Source:	1447
+	Flags:	0x04
+	Legend:	1454
+	Threshold:	1458
+	View:	4
+	GSet:	1459
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1447
+	Name:	1448
+	MapBox:	1450
+	BandStats:	1451
+	BandStats:	1452
+	BandStats:	1453
+)
+
+(SrcName.1448
+	FileName:	1449
+	Name:	"33.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1449
+	Path:	"c:/adrian/lk100/33.jpg"
+)
+
+(RectD.1450
+	Left:	689995.06269178819000
+	Top:	254004.39612830800000
+	Right:	759995.06269178819000
+	Bottom:	206004.39612830800000
+)
+
+(BStat.1451
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1452
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1453
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1454
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1455
+	GreenLUT:	1456
+	BlueLUT:	1457
+)
+
+(ILUTIdn.1455
+)
+
+(ILUTIdn.1456
+)
+
+(ILUTIdn.1457
+)
+
+(Thresh.1458
+)
+
+(GSet.1459
+)
+
+(ITheme.1460
+	Name:	"32.jpg"
+	Source:	1461
+	Flags:	0x04
+	Legend:	1468
+	Threshold:	1472
+	View:	4
+	GSet:	1473
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1461
+	Name:	1462
+	MapBox:	1464
+	BandStats:	1465
+	BandStats:	1466
+	BandStats:	1467
+)
+
+(SrcName.1462
+	FileName:	1463
+	Name:	"32.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1463
+	Path:	"c:/adrian/lk100/32.jpg"
+)
+
+(RectD.1464
+	Left:	619995.50367551483000
+	Top:	254004.18106697820000
+	Right:	689995.50367551483000
+	Bottom:	206004.18106697820000
+)
+
+(BStat.1465
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1466
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1467
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1468
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1469
+	GreenLUT:	1470
+	BlueLUT:	1471
+)
+
+(ILUTIdn.1469
+)
+
+(ILUTIdn.1470
+)
+
+(ILUTIdn.1471
+)
+
+(Thresh.1472
+)
+
+(GSet.1473
+)
+
+(ITheme.1474
+	Name:	"31.jpg"
+	Source:	1475
+	Flags:	0x04
+	Legend:	1482
+	Threshold:	1486
+	View:	4
+	GSet:	1487
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1475
+	Name:	1476
+	MapBox:	1478
+	BandStats:	1479
+	BandStats:	1480
+	BandStats:	1481
+)
+
+(SrcName.1476
+	FileName:	1477
+	Name:	"31.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1477
+	Path:	"c:/adrian/lk100/31.jpg"
+)
+
+(RectD.1478
+	Left:	549996.02881092206000
+	Top:	254003.61460136401000
+	Right:	619996.02881092206000
+	Bottom:	206003.61460136401000
+)
+
+(BStat.1479
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1480
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1481
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1482
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1483
+	GreenLUT:	1484
+	BlueLUT:	1485
+)
+
+(ILUTIdn.1483
+)
+
+(ILUTIdn.1484
+)
+
+(ILUTIdn.1485
+)
+
+(Thresh.1486
+)
+
+(GSet.1487
+)
+
+(ITheme.1488
+	Name:	"30.jpg"
+	Source:	1489
+	Flags:	0x04
+	Legend:	1496
+	Threshold:	1500
+	View:	4
+	GSet:	1501
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1489
+	Name:	1490
+	MapBox:	1492
+	BandStats:	1493
+	BandStats:	1494
+	BandStats:	1495
+)
+
+(SrcName.1490
+	FileName:	1491
+	Name:	"30.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1491
+	Path:	"c:/adrian/lk100/30.jpg"
+)
+
+(RectD.1492
+	Left:	479996.19448895188000
+	Top:	254003.71657286939000
+	Right:	549996.19448895194000
+	Bottom:	206003.71657286939000
+)
+
+(BStat.1493
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1494
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1495
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1496
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1497
+	GreenLUT:	1498
+	BlueLUT:	1499
+)
+
+(ILUTIdn.1497
+)
+
+(ILUTIdn.1498
+)
+
+(ILUTIdn.1499
+)
+
+(Thresh.1500
+)
+
+(GSet.1501
+)
+
+(ITheme.1502
+	Name:	"29.jpg"
+	Source:	1503
+	Flags:	0x04
+	Legend:	1510
+	Threshold:	1514
+	View:	4
+	GSet:	1515
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1503
+	Name:	1504
+	MapBox:	1506
+	BandStats:	1507
+	BandStats:	1508
+	BandStats:	1509
+)
+
+(SrcName.1504
+	FileName:	1505
+	Name:	"29.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1505
+	Path:	"c:/adrian/lk100/29.jpg"
+)
+
+(RectD.1506
+	Left:	759993.32874384755000
+	Top:	302004.27072044788000
+	Right:	829993.32874384755000
+	Bottom:	254004.27072044788000
+)
+
+(BStat.1507
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1508
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1509
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1510
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1511
+	GreenLUT:	1512
+	BlueLUT:	1513
+)
+
+(ILUTIdn.1511
+)
+
+(ILUTIdn.1512
+)
+
+(ILUTIdn.1513
+)
+
+(Thresh.1514
+)
+
+(GSet.1515
+)
+
+(ITheme.1516
+	Name:	"28.jpg"
+	Source:	1517
+	Flags:	0x04
+	Legend:	1524
+	Threshold:	1528
+	View:	4
+	GSet:	1529
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1517
+	Name:	1518
+	MapBox:	1520
+	BandStats:	1521
+	BandStats:	1522
+	BandStats:	1523
+)
+
+(SrcName.1518
+	FileName:	1519
+	Name:	"28.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1519
+	Path:	"c:/adrian/lk100/28.jpg"
+)
+
+(RectD.1520
+	Left:	689994.86335757212000
+	Top:	302004.44539797050000
+	Right:	759994.86335757212000
+	Bottom:	254004.44539797050000
+)
+
+(BStat.1521
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1522
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1523
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1524
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1525
+	GreenLUT:	1526
+	BlueLUT:	1527
+)
+
+(ILUTIdn.1525
+)
+
+(ILUTIdn.1526
+)
+
+(ILUTIdn.1527
+)
+
+(Thresh.1528
+)
+
+(GSet.1529
+)
+
+(ITheme.1530
+	Name:	"27.jpg"
+	Source:	1531
+	Flags:	0x04
+	Legend:	1538
+	Threshold:	1542
+	View:	4
+	GSet:	1543
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1531
+	Name:	1532
+	MapBox:	1534
+	BandStats:	1535
+	BandStats:	1536
+	BandStats:	1537
+)
+
+(SrcName.1532
+	FileName:	1533
+	Name:	"27.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1533
+	Path:	"c:/adrian/lk100/27.jpg"
+)
+
+(RectD.1534
+	Left:	619995.25025697332000
+	Top:	302004.44535076391000
+	Right:	689995.25025697332000
+	Bottom:	254004.44535076391000
+)
+
+(BStat.1535
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1536
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1537
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1538
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1539
+	GreenLUT:	1540
+	BlueLUT:	1541
+)
+
+(ILUTIdn.1539
+)
+
+(ILUTIdn.1540
+)
+
+(ILUTIdn.1541
+)
+
+(Thresh.1542
+)
+
+(GSet.1543
+)
+
+(ITheme.1544
+	Name:	"26.jpg"
+	Source:	1545
+	Flags:	0x04
+	Legend:	1552
+	Threshold:	1556
+	View:	4
+	GSet:	1557
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1545
+	Name:	1546
+	MapBox:	1548
+	BandStats:	1549
+	BandStats:	1550
+	BandStats:	1551
+)
+
+(SrcName.1546
+	FileName:	1547
+	Name:	"26.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1547
+	Path:	"c:/adrian/lk100/26.jpg"
+)
+
+(RectD.1548
+	Left:	549995.65800775308000
+	Top:	302003.65636230190000
+	Right:	619995.65800775308000
+	Bottom:	254003.65636230190000
+)
+
+(BStat.1549
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1550
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1551
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1552
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1553
+	GreenLUT:	1554
+	BlueLUT:	1555
+)
+
+(ILUTIdn.1553
+)
+
+(ILUTIdn.1554
+)
+
+(ILUTIdn.1555
+)
+
+(Thresh.1556
+)
+
+(GSet.1557
+)
+

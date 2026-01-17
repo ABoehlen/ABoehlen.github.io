@@ -1,0 +1,29 @@
+﻿# Verzeichnis der Abbildungen
+_nfm-auf-ukw_$
+_filter-lfb15_$
+_s9-signal_$
+_ukw-testsend_$
+_kw-empfang_$
+_grahn-ant_$
+_tropenbandempf_$
+_hf-aus-video_$
+_empf-videokanal_$
+_zf-empf_$
+_ext-ls_$
+_tiefpassfilt-plan_$
+_tiefpassfilt-bau_$
+_tiefpassfilt-geh_$
+_kopfh-filter_$
+_ext-batt-ans_$
+_ext-batt-pack_$
+_filter-45k24_$
+_mob-dip-ein_$
+_mob-dip-vert_$
+_mvt700_inB_$
+_holzdrehkn-unten_$
+_holzdrehkn-mont_$
+_handbuch-ausz_$
+_schaltpl-ausz_$
+_bogerfunk-ins_$
+
+# Ende

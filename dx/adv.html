@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>UKW-Radio-Adventskalender</title>
+<link rel="stylesheet" href="../style.css" type="text/css" />
+<script type="text/javascript" src="../js/show.js"></script>
+<script type="text/javascript" src="../js/verweise.js"></script>
+<script type="text/javascript" src="../js/navi.js"></script>
+<script type="text/javascript" src="../js/footer.js"></script>
+</head>
+
+
+<body>
+<div id="mainContainer">
+	<div id="header">
+		<div class="box">
+		<h2>UKW-Radio-Adventskalender</h2>
+		</div>
+	</div>
+	<div id="navigation">
+		<script type="text/javascript">navigationsleiste("2");</script>
+	</div>
+	<div id="topShadow">&nbsp;	</div>
+	<div id="content">
+		<div class="box">
+			<h1>Eigenbauempfänger nach UKW-Radio-Adventskalender</h1>
+			<p>Adrian Böhlen<br />
+			Version 1.4 vom 16.02.2025</p>
+			
+			<h2>Einleitung</h2>
+			<p>Im November 2017 hat mich meine Partnerin mit einem besonderen Geschenk überrascht: Einem UKW-Radio-Adventskalender. Diesen hat der Münchner Verlag Franzis bereits im Jahre 2014 erstmals herausgegeben <script type="text/javascript">var name="aa"; var kap=""; verweis("dxAdv");</script>, was man durchaus als mutig bezeichnen kann, denn zu diesem Zeitpunkt sollte sich gemäss ursprünglicher DAB-Planung der UKW-Rundfunk bereits im Museum befinden. <script type="text/javascript">var name="ab"; var kap=""; verweis("dxAdv");</script> Tatsächlich wird dieser Adventskalender aber bis heute (2025) im Programm von Franzis aufgeführt (nun unter dem Namen Retro-Radio-Adventskalender), scheint sich also durchaus einer gewissen Beliebtheit zu erfreuen. <script type="text/javascript">var name="ac"; var kap=""; verweis("dxAdv");</script>. Auf der Website des Autors ist zudem ersichtlich, dass dieser Bausatz im Laufe der Jahre weiterentwickelt und verbessert wurde. <script type="text/javascript">var name="ai"; var kap=""; verweis("dxAdv");</script> Nachstehender Erfahrungsbericht basiert auf der Version, die noch mit 3&nbsp;V betrieben wurde.</p>
+			
+			<h2>Selbstbau von UKW-Empfängern</h2>
+			<p>Meine ersten UKW-Empfänger hatte ich anhand der Anleitungen des Experimentierkastens <em>Philips Electronic Profi-Lab</em> <script type="text/javascript">var name="ad"; var kap=""; verweis("dxAdv");</script> um 1990 aufgebaut, später kam noch eine einfachere Schaltung mittels des Zusatzkastens <em>Philips Electronic UKW/Stereo-Lab</em> <script type="text/javascript">var name="ae"; var kap=""; verweis("dxAdv");</script> hinzu. Damit hatte es sich. Fortan konzentrierte ich mich auf den Selbstbau von Zusatzgeräten wie Antennenverstärkern oder Filtermodifikationen in bestehenden Empfängern. So gesehen bot mir dieses Geschenk die Möglichkeit, dort anzuknüpfen, wo ich mehr als ein Vierteljahrhundert zuvor schon mal war.</p>
+
+			<div class="Bild_l">
+				<img width="320px" height="227px" alt="Anleitung Vorwort" onclick="show('./img/adv_vorwort_640x454.jpg');" src="./img/adv_vorwort_640x454.jpg" />
+				<p class="Bildlegende">Abb.&nbsp;1:&nbsp;Anleitungsheft: Vorwort<br />Eigener Scan vom 09.01.2025</p>
+			</div>
+
+			<p>Aber natürlich ist die Technik in dieser langen Zeit nicht stehengeblieben, was auch aus dem Vorwort ersichtlich wird. Der Selbstbau von UKW-Empfängern war einst eine rechte Sisyphusarbeit, wenn man dies mit den Elementarbauteilen bewerkstelligen wollte. Für die Spule waren zwar nur wenige Windungen erforderlich (und nicht hunderte wie z.B. im Mittelwellenbereich), aber es war äusserst schwierig, sie genau so hinzukriegen, dass mit einem passenden Abstimmkondensator (oder einer spannungsgesteuerten C-Diode) der Frequenzbereich 87 – 108&nbsp;MHz überstrichen wurde. Und war dies mal geschafft, so wurde die saubere Einstellung eines Senders zur nächsten Knacknuss. Ein geringfügiges Verändern der Komponenten reichte, und man hatte sich mehrere MHz von der zuvor eingestellten Frequenz entfernt. Als grosse Hilfe erwiesen sich da vorkonfigurierte Empfängerbausteine wie der TDA7000, der im erwähnten <em>Philips Electronic UKW/Stereo-Lab</em> Verwendung fand. Damit war mit wesentlich geringeren Schwierigkeiten ein Selbstbau möglich, die Bedienung wurde vereinfacht und die Empfangsleistungen konnten mit käuflichen Geräten durchaus mithalten.</p>
+			
+			<p>Dieser Weg wird auch im Adventskalender-Radio von Franzis begangen, allerdings mit dem Unterschied, dass der hier verwendete Empfängerbaustein BK1068 das Rundfunksignal digitalisiert und auf diese Weise auswertet. So werden überhaupt keine externen Hochfrequenzbauteile mehr benötigt. Hört sich unmöglich an, funktioniert aber tatsächlich!</p>
+	
+			<h2>24 Tage…</h2>
+			<p>In der Anleitung wird der BK1068 leider nicht im Detail beschrieben, aber dieser Baustein aus chinesischer Fertigung scheint recht verbreitet zu sein, wie sich bei einer kurzen Internetrecherche leicht feststellen lässt. In radiomuseum.org wird er beschrieben als <em>«FM-Empfänger mit HF-Vorstufe, interner Abstimmung und digitalem Signalprozessor sowie Lautstärkeeinstellung und NF-Endverstärker für Kopfhörer oder Lautsprecher»</em>, ebenso findet sich dort der Hinweis, dass <em>«Auf Grund seiner hohen Eingangsempfindlichkeit […] schon mit einer kurzen Wurfantenne viele Stationen zu empfangen [sind]»</em>. <script type="text/javascript">var name="af"; var kap=""; verweis("dxAdv");</script> Im Unterschied z.B. zum TDA7000 ist es hier leider nicht möglich, mit einer manuell geregelten Spannung die Frequenzeinstellung zu beeinflussen. Die Schaltung ist ausschliesslich dafür ausgelegt, mittels Taster aufwärts/abwärts bedient zu werden.</p>
+			
+			<p>Da also der gesamte Empfangsteil in diesem schwarzen Kästchen verborgen ist, konzentriert sich die Anleitung darauf, in 24 Schritten die zusätzlich verwendeten Bauteile vorzustellen. Und das ist gute alte Elektronik pur: Widerstände, Kondensatoren, Transistoren… im Grunde also, was ich in den 1980er Jahren mit den <em>Philips Electronic</em> Experimentier-Labors kennenlernen durfte und was heute noch genauso wie damals die Basis jeder elektronischen Schaltung bildet. Hinter jedem Türchen verbirgt sich folglich genau ein solches Teil, und zusammen mit dem kleinen Steckbrett können so jeden Tag andere Versuche durchgeführt werden, wobei die Anleitung alles genau erklärt und beschreibt und auch Schaltpläne nicht fehlen. <script type="text/javascript">var name="aj"; var kap=""; verweis("dxAdv");</script></p>
+			
+			<div class="Reihe">
+				<div class="Zelle_norm">
+					<img width="320px" height="332px" alt="Anleitung Tag 23" onclick="show('./img/adv_tag23_640x664.jpg');" src="./img/adv_tag23_640x664.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;2:&nbsp;Anleitungsheft 23. Tag mit Schalt- und Verdrahtungsplan.<br />Eigener Scan vom 09.01.2025</p>
+				</div>
+				<div class="Zelle_zw">
+				</div>
+				<div class="Zelle_norm">
+					<img width="320px" height="332px" alt="Anleitung Tag 24" onclick="show('./img/adv_tag24_640x664.jpg');" src="./img/adv_tag24_640x664.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;3:&nbsp;Anleitungsheft 24. Tag mit Schaltplan und eigenen Notizen.<br />Eigener Scan vom 09.01.2025</p>
+				</div>
+			</div>
+
+			<p>Am 9. Tag (in neueren Versionen am 10.&nbsp;Tag) kommt dann der BK1068 ins Spiel und eine erste, sehr einfache UKW-Empfängerschaltung wird aufgebaut. In den folgenden Tagen wird aufgezeigt, wie mit den bisher benutzten Bauteilen das Starten und Stoppen des Sendersuchlaufs bewerkstelligt und wie die Lautstärke beeinflusst werden kann. Der UKW-Baustein liefert ein genügend starkes Signal, damit man im Lautsprecher etwas hören kann, aber eine weitere Verstärkung des Tonsignals ist besser. Dazu liegt ein zweiter Integrierter Schaltkreis bei, der MC43119 mit 8 Anschlüssen, der ebenfalls vorgestellt und mit unterschiedlicher Beschaltung ausprobiert wird. Zu guter Letzt fehlen auch Hinweise zum Strom sparen im Standby-Modus nicht.</p>
+	
+			<h2>…und nach dem 24. Dezember?</h2>
+
+			<div class="Bild_l">
+				<img width="320px" height="235px" alt="Anleitung Schlussworte" onclick="show('./img/adv_schlussworte_640x470.jpg');" src="./img/adv_schlussworte_640x470.jpg" />
+				<p class="Bildlegende">Abb.&nbsp;4:&nbsp;Anleitungsheft: Schlussworte<br />Eigener Scan vom 09.01.2025</p>
+			</div>
+			<p>Jeder Adventskalender hat 24 Türchen und wenn am Heiligen Abend, dem 24.&nbsp;Dezember, das letzte geöffnet ist, hat er seinen Zweck erfüllt und wandert meist früher oder später in den Abfall. Auch hier ist am besagten Tag Schluss – alle Teile sind ausgepackt und das Anleitungsheft ist zu Ende. Im Unterschied zu anderen Adventskalendern beginnt nun aber das eigentliche Abenteuer erst, denn auf der letzten Seite werden die Käufer, bzw. die Beschenkten dazu ermuntert, das erworbene Wissen zu nutzen, um ein ganz persönliches Radio aufzubauen. Anregungen, wie das geschehen könnte, hat es in den 24&nbsp;Tagen genügend gegeben. Als zusätzliches Bonbon lässt sich aus dem beiliegenden Karton mit dem Bild eines historischen Radios ein Gehäuse zusammenkleben, in das man die Schaltung, oder zumindest den Lautsprecher einbauen kann. Das würde sicherlich nicht schlecht aussehen, trotzdem habe ich mich für ein anderes Vorgehen entschieden.</p>
+			
+			<h2>Aufbau eines «richtigen» Empfängers</h2>
+
+			<div class="Bild_l">
+				<img width="320px" height="350px" alt="Verdrahtungsplan" onclick="show('./img/adv_verdrahtungsplan_hauptplatine_640x700.jpg');" src="./img/adv_verdrahtungsplan_hauptplatine_640x700.jpg" />
+				<p class="Bildlegende">Abb.&nbsp;5:&nbsp;Definitiver Verdrahtungsplan für die Lochstreifenplatine<br />Eigener Scan vom 09.01.2025 (Zeichnung vom Jan.&nbsp;2018)</p>
+			</div>
+
+			<p>Der Aufbau auf einer Steckplatine ist ideal, um die Bauteile für immer wieder neue, andere Versuche verwenden zu können. Wenn eine Schaltung jedoch «fertig» ist und benutzt werden soll, ist es m.E. sinnvoller, sie dauerhaft zu verlöten, wozu es verschiedene Möglichkeiten gibt. Ich bevorzuge seit jeher die Lochstreifenplatinen, die seit Jahrzehnten angeboten werden und vom Prinzip her den Steckplatinen ähneln. Sie enthalten genauso parallel verlaufende, leitende Bahnen mit Löchern, in welche die Bauelemente gesteckt werden, um sie dann auf der Rückseite zu verlöten. Im Unterschied zur Steckplatine können hier die Leiterbahnen unterbrochen werden, wo dies als notwendig erachtet wird. Nachdem also die aufzubauende Schaltung definiert ist, muss als erstes ein Plan erstellt werden, wie die Bauteile platziert werden sollen, und welche Unterbrechungen und zusätzliche Drahtbrücken nötig sind. Dazu gäbe es heutzutage sicherlich digitale Hilfsmittel, ich ziehe jedoch wie früher die Vorgehensweise mit Papier und Bleistift vor. Das Ergebnis ist in Abb.&nbsp;5 zu sehen. Für die Bedienung mittels Drucktaster sind zahlreiche Verbindungskabel notwendig. Um Verwechslungen vorzubeugen, habe ich dazu isolierte Drähte verschiedener Farben verwendet. Mit roten Linien ist zudem gekennzeichnet, wo die Leiterbahnen unterbrochen werden sollen. Dazu eignet sich ein Bohrer mit ca. 3–4&nbsp;mm Durchmesser.</p>
+
+			<div class="Reihe">
+				<div class="Zelle_norm">
+					<img width="320px" height="180px" alt="Platine Vorderseite" onclick="show('./img/adv_20180114_platine_vorderseite_640x360.jpg');" src="./img/adv_20180114_platine_vorderseite_640x360.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;6:&nbsp;Lochstreifenplatine, Vorderseite. Die vier Bohrungen an den Ecken für Befestigungsschrauben werden schlussendlich nicht benötigt.<br />Eigene Aufnahme vom 14.01.2018</p>
+				</div>
+				<div class="Zelle_zw">
+				</div>
+				<div class="Zelle_norm">
+					<img width="320px" height="180px" alt="Platine Rückseite" onclick="show('./img/adv_20180114_platine_rueckseite_640x360.jpg');" src="./img/adv_20180114_platine_rueckseite_640x360.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;7:&nbsp;Lochstreifenplatine, Rückseite, mit den Leiterbahnunterbrechungen.<br />Eigene Aufnahme vom 14.01.2018</p>
+				</div>
+			</div>
+
+			<p>Als nächstes sind die benötigten Bauteile bereit zu legen, sowie die Drähte passend zuzuschneiden, abzuisolieren und die Enden zu verzinnen. Wie in Abb.&nbsp;8 ersichtlich ist, habe ich mich entschieden, einen etwas grösseren Lautsprecher zu verwenden (rechts), in der Hoffnung, damit einen besseren Klang zu realisieren, als mit dem beiliegenden, recht kleinen  und flachen (links). Als Antenne werde ich ausserdem eine auf rund 50&nbsp;cm ausziehbare Teleskopantenne einbauen, die aus einem ausgeschlachteten Empfänger stammt. Basierend auf dem Experiment am 13.&nbsp;Tag wird hierbei für die Verbindung nach Masse eine selbst gewickelte Spule eingesetzt, sie ist in der unteren Reihe im zweiten Fach von links zu erkennen. Wieviele Windungen nötig sind, muss durch Probieren herausgefunden werden, in meinem Fall sind es deren 8. Das hängt stark vom Durchmesser der Spule ab, und wie weit die Windungen auseinander liegen.</p>
+			<p>Abb.&nbsp;9 zeigt die fertig bestückte Platine, sowie die zweite, kleinere Platine mit den Bedienelementen. Alle Funktionen werden über Drucktaster gesteuert. Da dem Bausatz nur deren zwei beiliegen, müssen die weiteren aus dem eigenen Vorrat beigesteuert werden. Die Stromversorgung erfordert zwei AA-Batterien (Mignon), bzw. NiMH Akkus, der Batteriehalter liegt bei.</p>
+			
+			<div class="Reihe">
+				<div class="Zelle_norm">
+					<img width="320px" height="210px" alt="Bauteile sortiert" onclick="show('./img/adv_20180114_bauteile_640x420.jpg');" src="./img/adv_20180114_bauteile_640x420.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;8:&nbsp;Sortierte Bauteile und zugeschnittene Drähte.<br />Eigene Aufnahme vom 14.01.2018</p>
+				</div>
+				<div class="Zelle_zw">
+				</div>
+				<div class="Zelle_norm">
+					<img width="320px" height="210px" alt="Platine bestückt" onclick="show('./img/adv_20180121_pruefstand_640x420.jpg');" src="./img/adv_20180121_pruefstand_640x420.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;9:&nbsp;Fertig bestückte und verdrahtete Lochstreifenplatinen.<br />Eigene Aufnahme vom 21.01.2018</p>
+				</div>
+			</div>
+
+			<p>Wie oben erwähnt, liesse sich das Gehäuse aus dem beiliegenden Karton zusammenkleben. Holz ist jedoch stabiler und auch die Anleitung erwägt dies als Variante (siehe Abb.&nbsp;4). Den Gehäuseplan habe ich von Grund auf selbst entworfen, mit dem Ziel, ein möglichst kleines und handliches Gerät zu erbauen. Abb.&nbsp;10 zeigt diesen Plan. 3 Sperrholzbrettchen bilden einen Rahmen, der in den Ecken mit Holzleisten verstärkt wird. Die Frontplatte muss ich dagegen aus schmalen Bastelhölzern zusammenleimen, da diese 5 quadratische Öffnungen enthält, über die später die Drucktaster bedient werden. Die kleinere Platine wird dort direkt dahinter auf passende Hölzchen aufgeschraubt. Die Betätigung der Drucktaster erfolgt über quadratische Taster aus einem ausgeschlachteten Grundig-Empfänger. Die Montage dieser Steuerplatine ist in Abb.&nbsp;11 zu sehen.</p>
+
+			<div class="Reihe">
+				<div class="Zelle_norm">
+					<img width="320px" height="225px" alt="Gehäuseplan" onclick="show('./img/adv_gehaeuseplan_640x450.jpg');" src="./img/adv_gehaeuseplan_640x450.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;10:&nbsp;Massstabsgerechter Gehäuseplan, entsprechend der späteren Ansicht von oben. Frontplatte unten, Batteriehalter links, Hauptplatine oben, Lautsprecher rechts.<br />Eigener Scan vom 09.01.2025 (Zeichnung vom Feb.&nbsp;2018)</p>
+				</div>
+				<div class="Zelle_zw">
+				</div>
+				<div class="Zelle_norm">
+					<img width="320px" height="225px" alt="Rahmen und Bedienelemente" onclick="show('./img/adv_20180304_rahmen_und_bedienelemente_640x450.jpg');" src="./img/adv_20180304_rahmen_und_bedienelemente_640x450.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;11:&nbsp;Fertig verschraubter, bzw. verleimter Rahmen. Die Platine mit den Steuerelementen wird befestigt.<br />Eigene Aufnahme vom 04.03.2018</p>
+				</div>
+			</div>
+
+			<p>Sobald der Rahmen komplett ist, können die übrigen Komponenten eingebaut werden. Die Hauptplatine kommt auf die Geräterückseite, wobei sie genau zwischen die beiden Eckklötzchen passt. Entgegen der ursprünglichen Planung befestige ich sie nicht mit 4 Schrauben, sondern fixiere sie einfach mittels passender, auf Rück- und Unterseite aufgeklebter Holzleistchen. Der Batteriehalter wird an der Seite platziert und festgeschraubt. Die Öffnung zeigt nach unten, wobei es nicht nötig ist, das Batteriefach mit einem (umständlich zu realisierenden) Deckel zu versehen. Die kräftigen Federn verhindern, dass die Batterien herauspurzeln, selbst wenn man das Radio herumträgt. Abb.&nbsp;12 zeigt diesen Zustand, noch ohne eingesetzte Batterien. Rechts ist ein Teil der unteren Abdeckung (mit der Aussparung für den Batteriehalter) zu erkennen, die anschliessend aufgeschraubt wird. Nachdem dies geschehen ist, präsentiert sich der Empfänger so wie in Abb.&nbsp;13 gezeigt. Die Antenne ist so platziert, dass die Zuleitung zur Empfängerplatine so kurz ist wie möglich. Denn dies habe ich seit dem Experimentieren mit dem <em>Philips Electronic Profi-Lab</em> verinnerlicht: Im UKW-Bereich gilt: Alle Leitungen im Hochfrequenzteil so kurz wie möglich! <script type="text/javascript">var name="ag"; var kap=""; verweis("dxAdv");</script></p>
+			<p>Wie ebenfalls zu erkennen ist, habe ich noch einen normalen Hauptschalter vorgesehen und ebenfalls in der Frontplatte festgeschraubt. Die rote LED soll später anzeigen, wenn das Gerät in Betrieb ist; sie ist auf dieser Aufnahme noch nicht fertig eingebaut. Gleiches gilt für den Lautsprecher; dieser wird direkt an die obere Abdeckung aufgeklebt.</p>
+
+			<div class="Reihe">
+				<div class="Zelle_norm">
+					<img width="320px" height="250px" alt="Gehäuse von unten" onclick="show('./img/adv_20180311_gehaeuse_unten_640x500.jpg');" src="./img/adv_20180311_gehaeuse_unten_640x500.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;12:&nbsp;Ansicht von unten. Alle Komponenten, ausser dem Lautsprecher sind eingebaut.<br />Eigene Aufnahme vom 11.03.2018</p>
+				</div>
+				<div class="Zelle_zw">
+				</div>
+				<div class="Zelle_norm">
+					<img width="320px" height="250px" alt="Gehäuse von oben" onclick="show('./img/adv_20180311_gehaeuse_oben_640x500.jpg');" src="./img/adv_20180311_gehaeuse_oben_640x500.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;13:&nbsp;Ansicht von oben. Es fehlt nur noch die obere Abdeckung.<br />Eigene Aufnahme vom 11.03.2018</p>
+				</div>
+			</div>
+
+			<p>Nachdem die obere Abdeckung aufgeschraubt wurde, Batterien, bzw. Akkus eingesetzt sind, sowie die Teleskopantenne ausgezogen ist, kann das Gerät in Betrieb genommen werden. Dabei ist zunächst der Hauptschalter umzulegen, worauf der Empfänger meist direkt in Betrieb geht und die LED leuchtet. Ist das nicht der Fall, befindet er sich im Standby-Modus und muss noch über den ON/OFF Schalter eingeschaltet werden. Um einen Sender zu hören, ist mit der Taste F+ der Sendersuchlauf zu starten, der bei 87.5&nbsp;MHz beginnt und beim ersten Sender stoppt, der in genügender Signalstärke einfällt. Erneutes Betätigen von F+ erhöht die eingestellte Frequenz weiter, bis beim nächsten empfangswürdigen Sender abermals gestoppt wird, usw. Mit F- geschieht dasselbe, aber in absteigender Richtung. Die Lautstärke lässt sich über V+ und V- einstellen. Wird das Gerät nur über ON/OFF ausgeschaltet, so behält es die eingestellte Frequenz und Lautstärke bis zum nächsten Einschalten. Gemäss der Anleitung sollte in diesem Standby-Betrieb der Stromverbrauch nur rund 0.2&nbsp;mA betragen (siehe Abb.&nbsp;3). Wird das Gerät längere Zeit nicht benötigt, wird es aber besser über den Hauptschalter ganz ausgeschaltet. Dabei gehen diese Einstellungen verloren, da ändert leider auch der als Puffer eingebaute Kondensator von 100&nbsp;μF nichts daran.</p>
+			<p>Wie sich anhand der Abb.&nbsp;14 und 15 unschwer feststellen lässt, ist das Design alles andere als innovativ, aber das Gehäuse ist stabil und robust und der Empfänger kippt auch mit ausgezogener, abgewinkelter Antenne und auf einer schiefen Unterlage nicht um.</p>
+
+			<div class="Reihe">
+				<div class="Zelle_norm">
+					<img width="320px" height="235px" alt="Ansicht von oben" onclick="show('./img/adv_20180316_ansicht_von_oben_640x470.jpg');" src="./img/adv_20180316_ansicht_von_oben_640x470.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;14:&nbsp;Der fertige Empfänger. Alle Funktionen werden über die Drucktaster auf der Frontplatte gesteuert. Der Lautsprecher strahlt primär nach oben.<br />Eigene Aufnahme vom 16.03.2018</p>
+				</div>
+				<div class="Zelle_zw">
+				</div>
+				<div class="Zelle_norm">
+					<img width="320px" height="235px" alt="Ansicht von unten" onclick="show('./img/adv_20180316_ansicht_von_unten_640x470.jpg');" src="./img/adv_20180316_ansicht_von_unten_640x470.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;15:&nbsp;Das Gerät von unten gesehen. Die Batterien sitzen stabil im Halter und fallen auch ohne Abdeckung nicht heraus. Die sekundäre Abstrahlung des Lautsprechers geht nach unten.<br />Eigene Aufnahme vom 16.03.2018</p>
+				</div>
+			</div>
+
+			<h2>Was leistet der Empfänger?</h2>
+			
+			<p>Zunächst einmal sieht man, was er nicht hat: Eine Frequenzanzeige oder -skala. Während sich mit einem spannungsgesteuerten Schwingkreis ein Drehspulmesswerk als Frequenzanzeige nutzen lässt (wie es in den erwähnten <em>Philips Electronic</em> Experimentier-Labors praktiziert wurde), scheint dies hier vom Konzept her nicht möglich zu sein. Man ist also gezwungen, «blind» den Bereich abzusuchen. Um herauszufinden, was man gerade empfängt, ist ein «normaler» Zweitempfänger nützlich, ausser man hat die Reihenfolge der wichtigsten Sender im Kopf. Damit der Suchlauf stoppt, muss das empfangene Signal einen gewissen Mindestpegel aufweisen&nbsp;–&nbsp;auch dies lässt sich offenbar von aussen nicht beeinflussen. Bei den ersten Tests zeigte sich recht deutlich, dass ausser Ortssender-Empfang nichts drin liegt. Vermutlich würde dies auch mit einer leistungsstärkeren Antenne oder gar einem Antennenverstärker nicht besser, sondern das Gerät nur zum Übersteuern bringen. Dieses Problem haben ja fast alle «billigen» Empfänger. Somit diente das Gerätchen zunächst mal primär zum Abhören des eigenen, mit dem mp3-Player gespeisten «Mini-Zünders».</p>
+			
+			<p>Nachdem nun die SRG auf Ende 2024 alle UKW-Sender abgeschaltet hat, zeigt sich ein vollkommen anderes Bild im UKW-Äther. Zeit also, dieses Gerät wieder einmal in Betrieb zu nehmen, und dabei werde ich nicht enttäuscht. Es macht ganz den Anschein, dass die Schaltung ohne den ganzen Ballast der unzähligen starken SRG-Signale jetzt zu Höchstform auflaufen kann. Nebst den noch verbliebenen leistungsschwachen Privatsender der Umgebung stoppt der Suchlauf nun auch bei Signalen aus Frankreich und sogar Deutschland, obwohl mein Zuhause am Südhang des Worbbergs für letzteres nicht ideal gelegen ist. Bemerkenswert ist ferner, dass sogar Sender im Abstand von 200&nbsp;kHz recht ordentlich getrennt werden, was für eine Schaltung ohne ein einziges Keramikfilter ziemlich beeindruckend ist!</p>
+
+			<h2>Liste der empfangenen Sender</h2>
+			<p>Nachstehend ein Bandscan der mit dem Adventskalender-Radio empfangenen Sender. Er entstand zuhause (Adresse siehe Impressum) im Innern der Wohnung (Stahlbetonbau). Bei welchen Frequenzen der Suchlauf anhält ist sehr davon abhängig, wie die Antenne ausgerichtet ist und in welchem Raum man sich befindet. Die entferntesten Senderstandorte sind Witthoh (146 km) und Gex/Montrond (136 km).</p>
+
+			<!-- automatically generated by TableTools.avx -->
+			<table border="1" width="100%" cellspacing="2" cellpadding="0">
+			<tr> 
+				<th>MHz</th>
+				<th>Programm</th>
+				<th>Standort</th>
+				<th>Land</th>
+				<th>Region</th>
+				<th>kW</th>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 87.60 </td>
+				<td align="left" bgcolor="#FFFFFF"> Radio Freiburg </td>
+				<td align="left" bgcolor="#FFFFFF"> Mühleberg/Stockeren </td>
+				<td align="left" bgcolor="#FFFFFF"> CH </td>
+				<td align="left" bgcolor="#FFFFFF"> BE </td>
+				<td align="right" bgcolor="#FFFFFF"> 2.000 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 88.80 </td>
+				<td align="left" bgcolor="#FFFFFF"> Radio Berner Oberland </td>
+				<td align="left" bgcolor="#FFFFFF"> Niesen </td>
+				<td align="left" bgcolor="#FFFFFF"> CH </td>
+				<td align="left" bgcolor="#FFFFFF"> BE </td>
+				<td align="right" bgcolor="#FFFFFF"> 0.398 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 89.40 </td>
+				<td align="left" bgcolor="#FFFFFF"> Radio Fribourg </td>
+				<td align="left" bgcolor="#FFFFFF"> Sorens/Gibloux </td>
+				<td align="left" bgcolor="#FFFFFF"> CH </td>
+				<td align="left" bgcolor="#FFFFFF"> FR </td>
+				<td align="right" bgcolor="#FFFFFF"> 1.800 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 89.60 </td>
+				<td align="left" bgcolor="#FFFFFF"> France Musique </td>
+				<td align="left" bgcolor="#FFFFFF"> Gex/Montrond </td>
+				<td align="left" bgcolor="#FFFFFF"> F </td>
+				<td align="left" bgcolor="#FFFFFF"> BFC </td>
+				<td align="right" bgcolor="#FFFFFF"> 25.000 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 91.50 </td>
+				<td align="left" bgcolor="#FFFFFF"> Radio Bern 1 </td>
+				<td align="left" bgcolor="#FFFFFF"> Mühleberg/Stockeren </td>
+				<td align="left" bgcolor="#FFFFFF"> CH </td>
+				<td align="left" bgcolor="#FFFFFF"> BE </td>
+				<td align="right" bgcolor="#FFFFFF"> 0.100 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 92.60 </td>
+				<td align="left" bgcolor="#FFFFFF"> SWR Kultur </td>
+				<td align="left" bgcolor="#FFFFFF"> Blauen </td>
+				<td align="left" bgcolor="#FFFFFF"> D </td>
+				<td align="left" bgcolor="#FFFFFF"> BW </td>
+				<td align="right" bgcolor="#FFFFFF"> 8.400 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 94.40 </td>
+				<td align="left" bgcolor="#FFFFFF"> France Inter </td>
+				<td align="left" bgcolor="#FFFFFF"> Gex/Montrond </td>
+				<td align="left" bgcolor="#FFFFFF"> F </td>
+				<td align="left" bgcolor="#FFFFFF"> BFC </td>
+				<td align="right" bgcolor="#FFFFFF"> 25.000 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 95.60 </td>
+				<td align="left" bgcolor="#FFFFFF"> Radio Bern RaBe </td>
+				<td align="left" bgcolor="#FFFFFF"> Bantiger </td>
+				<td align="left" bgcolor="#FFFFFF"> CH </td>
+				<td align="left" bgcolor="#FFFFFF"> BE </td>
+				<td align="right" bgcolor="#FFFFFF"> 0.500 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 96.70 </td>
+				<td align="left" bgcolor="#FFFFFF"> France Culture </td>
+				<td align="left" bgcolor="#FFFFFF"> Gex/Montrond </td>
+				<td align="left" bgcolor="#FFFFFF"> F </td>
+				<td align="left" bgcolor="#FFFFFF"> BFC </td>
+				<td align="right" bgcolor="#FFFFFF"> 25.000 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 97.70 </td>
+				<td align="left" bgcolor="#FFFFFF"> Radio Bern 1 </td>
+				<td align="left" bgcolor="#FFFFFF"> Bantiger </td>
+				<td align="left" bgcolor="#FFFFFF"> CH </td>
+				<td align="left" bgcolor="#FFFFFF"> BE </td>
+				<td align="right" bgcolor="#FFFFFF"> 1.000 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 97.90 </td>
+				<td align="left" bgcolor="#FFFFFF"> SWR Kultur </td>
+				<td align="left" bgcolor="#FFFFFF"> Feldberg </td>
+				<td align="left" bgcolor="#FFFFFF"> D </td>
+				<td align="left" bgcolor="#FFFFFF"> BW </td>
+				<td align="right" bgcolor="#FFFFFF"> 5.000 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 100.70 </td>
+				<td align="left" bgcolor="#FFFFFF"> Radio Neo 1 </td>
+				<td align="left" bgcolor="#FFFFFF"> Belpberg/Furen </td>
+				<td align="left" bgcolor="#FFFFFF"> CH </td>
+				<td align="left" bgcolor="#FFFFFF"> BE </td>
+				<td align="right" bgcolor="#FFFFFF"> 0.200 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 101.10 </td>
+				<td align="left" bgcolor="#FFFFFF"> France Info </td>
+				<td align="left" bgcolor="#FFFFFF"> Gex/Montrond </td>
+				<td align="left" bgcolor="#FFFFFF"> F </td>
+				<td align="left" bgcolor="#FFFFFF"> BFC </td>
+				<td align="right" bgcolor="#FFFFFF"> 12.600 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 101.70 </td>
+				<td align="left" bgcolor="#FFFFFF"> Radio Energy Bern </td>
+				<td align="left" bgcolor="#FFFFFF"> Bantiger </td>
+				<td align="left" bgcolor="#FFFFFF"> CH </td>
+				<td align="left" bgcolor="#FFFFFF"> BE </td>
+				<td align="right" bgcolor="#FFFFFF"> 1.000 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 102.50 </td>
+				<td align="left" bgcolor="#FFFFFF"> Radio 7 </td>
+				<td align="left" bgcolor="#FFFFFF"> Witthoh </td>
+				<td align="left" bgcolor="#FFFFFF"> D </td>
+				<td align="left" bgcolor="#FFFFFF"> BW </td>
+				<td align="right" bgcolor="#FFFFFF"> 40.000 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 103.60 </td>
+				<td align="left" bgcolor="#FFFFFF"> Radio Neo 1 </td>
+				<td align="left" bgcolor="#FFFFFF"> Barschwandhubel </td>
+				<td align="left" bgcolor="#FFFFFF"> CH </td>
+				<td align="left" bgcolor="#FFFFFF"> BE </td>
+				<td align="right" bgcolor="#FFFFFF"> 0.150 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 104.00 </td>
+				<td align="left" bgcolor="#FFFFFF"> SWR 4 BW </td>
+				<td align="left" bgcolor="#FFFFFF"> Feldberg </td>
+				<td align="left" bgcolor="#FFFFFF"> D </td>
+				<td align="left" bgcolor="#FFFFFF"> BW </td>
+				<td align="right" bgcolor="#FFFFFF"> 5.000 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 104.50 </td>
+				<td align="left" bgcolor="#FFFFFF"> GRRIF </td>
+				<td align="left" bgcolor="#FFFFFF"> Biel-Magglingen/BASPO </td>
+				<td align="left" bgcolor="#FFFFFF"> CH </td>
+				<td align="left" bgcolor="#FFFFFF"> BE </td>
+				<td align="right" bgcolor="#FFFFFF"> 0.650 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 105.10 </td>
+				<td align="left" bgcolor="#FFFFFF"> Deutschlandfunk </td>
+				<td align="left" bgcolor="#FFFFFF"> Blauen </td>
+				<td align="left" bgcolor="#FFFFFF"> D </td>
+				<td align="left" bgcolor="#FFFFFF"> BW </td>
+				<td align="right" bgcolor="#FFFFFF"> 10.000 </td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#FFFFFF"> 105.60 </td>
+				<td align="left" bgcolor="#FFFFFF"> Radio Energy Bern </td>
+				<td align="left" bgcolor="#FFFFFF"> Mühleberg/Stockeren </td>
+				<td align="left" bgcolor="#FFFFFF"> CH </td>
+				<td align="left" bgcolor="#FFFFFF"> BE </td>
+				<td align="right" bgcolor="#FFFFFF"> 0.100 </td>
+			</tr>
+			</table>
+			<br />
+
+			<h2>Fazit</h2>
+			<p>Die Aussage des Herstellers <em>«Lassen Sie sich mit diesem Bausatz in die guten alten Zeiten entführen, als es noch üblich war, ein Radio selber zu bauen»</em> <script type="text/javascript">var name="ah"; var kap=""; verweis("dxAdv");</script> ist sicher nicht übertrieben. Natürlich würde der Freak lieber den Hochfrequenzteil selbst ein wenig beeinflussen, wie es mit früheren Bausteinen wie dem erwähnten TDA7000 möglich war. Auf der anderen Seite sollen auch Nutzende ohne Vorkenntnisse problemlos zu einem Erfolgserlebnis kommen und hierfür ist der «verpackte» BK1068 natürlich ideal. Zudem ist es ein gutes Anschauungsbeispiel, was mit heutiger Chip- und Digitaltechnik auch in Zusammenhang mit der analogen, frequenzmodulierten UKW-Technologie möglich ist. Dank der zahlreich beiliegenden klassischen Bauteile kommt das Experimentieren trotzdem nicht zu kurz. Besonders gefällt der Ansatz, während der 24 Tage das Interesse an der Sache zu wecken, damit die Käufer oder Beschenkten im Anschluss daran etwas eigenes und einzigartiges realisieren können. Es ist zu hoffen, dass dies auch geschieht und dabei mancher den nun schon unzählige Male für tot erklärten UKW-Rundfunk neu für sich entdeckt. Aus all diesen Gründen ist der UKW-Radio-Adventskalender ein sehr sinnvolles Geschenk und kann vorbehaltlos empfohlen werden. Mir hat es jedenfalls viel Freude bereitet, wieder mal ein «richtiges» Radio selbst aufzubauen und mit einem passenden Gehäuse zu versehen.</p>
+
+			<h3>Grundlagen und Literatur</h3>
+			<!-- automatically generated by quellenverzeichnis.awk -->
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>1</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					<a target="_blank" href="https://dh2hph.darc.de/ukw_bk1068.html">https://dh2hph.darc.de/ukw_bk1068.html</a> (UKW-Radio mit BK1068)
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>2</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					Plachetka, Claus / Siebel, Wolf: Rundfunk auf UKW. Siebel Verlag, Meckenheim 1995, S.&nbsp;235
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>3</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					<a target="_blank" href="https://www.franzis.de/adventskalender/technik-adventskalender/retro-radio-adventskalender-kalender?srsltid=AfmBOooDCUAsxWVp7LaKTnW0jdq0_Ixd5MWQRoCdwIBfKeqKFF2ApMRq">https://www.franzis.de/adventskalender/technik-adventskalender/retro-radio-adventskalender-kalender […]</a> (Retro-Radio-Adventskalender)
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>4</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					<a target="_blank" href="https://www.elektronik-labor.de/Lernpakete/Lernpakete.html">https://www.elektronik-labor.de/Lernpakete/Lernpakete.html</a> (Das Elektronik-Labor von Burkhard Kainka)
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>5</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					<a target="_blank" href="https://norbert.old.no/kits/6000abc/6104.html">https://norbert.old.no/kits/6000abc/6104.html</a> (6104 D: Elektronik Profi-Lab)
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>6</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					<a target="_blank" href="https://norbert.old.no/kits/6000abc/6301.html">https://norbert.old.no/kits/6000abc/6301.html</a> (6301: Elektronik UKW/Stereo-Lab)
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>7</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					<a target="_blank" href="https://www.radiomuseum.org/tubes/tube_bk1068.html?language_id=1">https://www.radiomuseum.org/tubes/tube_bk1068.html?language_id=1</a> (BK1068)
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>8</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					<a target="_blank" href="https://www.elektronik-labor.de/Lernpakete/Kalender20/FMRadioKalender20.html">https://www.elektronik-labor.de/Lernpakete/Kalender20/FMRadioKalender20.html</a> (Retro-Radio Adventskalender, Tag für Tag)
+				</div>
+			</div>		
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>9</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					<a target="_blank" href="http://ee.old.no/library/6104-D-de.pdf">http://ee.old.no/library/6104-D-de.pdf</a> (Anleitungsbuch Grundstufe D: Elektronik Profi-Lab, Druckseite&nbsp;29)
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Verw_l">
+					<sup>10</sup>
+				</div>
+				<div class="Zelle_Verw_r">
+					siehe Anmerkung 3 (unten)
+				</div>
+			</div>
+
+
+
+		</div>
+	</div>
+	<div id="sidebar">	
+		<div class="box">
+			<a href="../dx.html">Hauptseite DX<br /><br /></a>
+		</div>
+	</div>
+	<div id="preview">
+		<div id="preview_inner" onclick="show_close()"></div>
+	</div>
+	<div id="bottomShadow">&nbsp;</div>
+	<div id="footer">
+		<script type="text/javascript">fusszeile("2");</script>
+	</div>
+</div>
+</body>
+</html>

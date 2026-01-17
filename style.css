@@ -1,0 +1,629 @@
+/*********************************************
+ * Filename: style.css
+ * Author:   Adrian Boehlen
+ * Date:     22.09.2024
+ * Version:  3.9
+ * Purpose:  Design und Formatierung
+ *           der Website aboehlen.github.io
+ *------------------------------------------*/
+
+/* allgemeine Einstellungen */
+html { height: 100%; }
+
+body {
+	height: 100%;
+	background-color: #b43831;
+	background-image: url("img/background_main.png");
+	background-position: top center;
+	font-family: Verdana, "Segoe UI", Optima, "Dejavu Sans", sans-serif;
+	font-size: 100%;
+	background-repeat: repeat-y;
+	margin: 0px;
+	color: #262626;
+}
+
+#mainContainer {
+	border: 1px solid #3d3d3d;
+	background-image: url("img/content_main.png");
+	background-repeat: repeat-y;
+	font-style: normal;
+	margin: 0 auto;
+	width: 1000px;
+	padding: 0;
+	text-align: left;
+}
+
+img[onClick]{
+	cursor:pointer;
+}
+
+/*===================================*/
+/* Kopfzeile */
+
+#header {
+	background: #000000 url(img/header_winter.jpg) no-repeat right;
+	height: 177px;
+	width: 1000px;
+	margin: 0;
+	padding: 0;
+}
+
+#header .box { padding: 56px 16px; margin: 0; }
+#header h2 { 
+	font-weight: normal;
+	font-size: 40px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0;
+}
+#header h3 {
+	font-weight: normal;
+	font-size: 20px;
+	color: #CCCCCC;
+	margin: 0;
+}
+
+/*===================================*/
+/* Navigationsbereich */
+
+#navigation {
+	background-color: #47526a;
+	background-image: url("img/navigation_main.png");
+	height: 32px;
+	margin: 0;
+	padding: 0;
+}
+
+#topShadow {
+	background-image: url("img/content_shadow.png");
+	height: 29px;
+	margin: 0;
+	padding: 0 50px;
+	font-size: 14px;
+}
+	
+div.navi_schmal {
+	float: left;
+	width: 100px; 
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	background: url("img/nav_link.png");
+	background-position: 0 -32px;
+	border-right: 1px solid #2d333f;
+}
+
+div.navi_mittel {
+	float: left;
+	width: 140px; 
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	background: url("img/nav_link.png");
+	background-position: 0 -32px;
+	border-right: 1px solid #2d333f;
+}
+
+div.navi_breit {
+	float: left;
+	width: 190px; 
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	background: url("img/nav_link.png");
+	background-position: 0 -32px;
+	border-right: 1px solid #2d333f;
+}
+
+#navigation a {
+	display: block;
+	width: 100%;
+	height: 22px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	margin: 0;
+	padding-top: 8px;
+	background: url("img/nav_link.png");
+	background-position: 0 0;
+}
+	
+#navigation a:hover { background-image: none; }
+
+/*=================================== */
+/* Inhaltsbereich */
+
+#content {
+	line-height: 18px;
+	text-align: justify;
+	width: 819px;
+	float: left;
+	position: relative;
+	margin-bottom: 16px;
+}
+
+/* Einzug links */
+#content .box {
+	padding: 0 50px;
+}
+
+#content .pager { margin-bottom: 10px; }
+
+#content .spacer {
+	background-image: url("img/content_spacer.png");
+	height: 29px;
+	margin: 0;
+	padding: 0;
+}
+
+/* Tabellendarstellungen */
+#content .box .Reihe {
+	display: table-row;
+	text-align: left;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 110%;
+}
+
+#content .box .Reihe_zw {
+	display: table-row;
+	text-align: left;
+	font-size: 12px;
+	line-height: normal;
+}
+
+#content .box .Reihe .Zelle_norm {
+	display: inline-block;
+	width: 320px;
+	margin-top: 5px;
+	vertical-align: top;
+	/*border: 1px solid #999999;*/
+}
+
+#content .box .Reihe .Zelle_zw {
+	display: inline-block;
+	width: 50px;
+}
+
+#content .box .Reihe .Zelle_kl {
+	display: table-cell;
+	font-size: 16px;
+	font-weight: normal;
+	width: 120px;
+	vertical-align: top;
+}
+
+#content .box .Reihe .Zelle_Text_r {
+	display: table-cell;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: justify;
+	width: 360px;
+	vertical-align: top;
+	/*border: 1px solid #999999;*/
+}
+
+#content .box .Reihe .Zelle_Verw_l {
+	display: table-cell;
+	font-size: 14px;
+	font-weight: normal;
+	width: 20px;
+	vertical-align: top;
+}
+
+#content .box .Reihe .Zelle_Verw_r {
+	display: table-cell;
+	font-size: 14px;
+	font-weight: normal;
+	width: 680px;
+	vertical-align: top;
+}
+
+#content .box .Reihe .Zelle_Inh_l {
+	display: table-cell;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: right;
+	width: 90px;
+	vertical-align: top;
+}
+
+#content .box .Reihe .Zelle_Inh_zw {
+	display: table-cell;
+	font-size: 8px;
+	width: 30px;
+}
+
+#content .box .Reihe .Zelle_Inh_r {
+	display: table-cell;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: left;
+	width: 500px;
+	vertical-align: top;
+}	
+
+/* Bilder und -legenden */
+#content .box .Bild_l {
+	float: left;
+	display: inline-block;
+	width: 320px;
+	margin-top: 5px;
+	margin-right: 50px;
+	vertical-align: top;
+}
+
+#content .box .Bild_r {
+	float: right;
+	display: inline-block;
+	width: 320px;
+	margin-top: 5px;
+	margin-left: 50px;
+	vertical-align: top;
+}
+
+#content .box .Bildlegende {
+	font-size: 14px;
+	font-weight: normal;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+#content .box .Bildlegende_gal {
+	font-size: 14px;
+	font-weight: normal;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#content .box .Liste {
+	font-size: 16px;
+	font-weight: normal;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* einzelne Zeilen Programmcode */
+#content .box .Nichtproportional {
+	font-family: monospace;
+}
+
+/* Programmcode-Bloecke */
+#content code {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  padding: 0 1em;
+  background-color: #eee;
+}
+
+#content h1 {
+	font-size: 25px;
+	color: #7c1a12;
+	line-height: normal;
+	margin-bottom: 8px;
+	text-align: left;
+}
+
+#content h2 {
+	font-size: 21px;
+	color: #7c1a12;
+	line-height: normal;
+	margin-bottom: 7px;
+	text-align: left;
+}
+
+#content h1 h2 a {
+	text-decoration: none;
+	font-weight: bold;
+}
+	
+#content h3, th {
+	font-size: 18px;
+	font-weight: bold;
+	color: #262626;
+	margin-bottom: 5px;
+	margin-top: 8px;
+	text-align: left;
+}
+
+#content p, li {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 125%;
+	margin-top: 1px;
+}
+
+#content sup {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+#content summary {
+	outline: none;
+	font-weight: normal;
+	font-size: 18px;
+	color: #7c1a12;
+	line-height: normal;
+	margin-bottom: 7px;
+	cursor: pointer;
+}
+
+/* Impressum und Datenschutzerklaerung */
+#content .box .adresse {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+/* schoene Aufzaehlungen */
+#content ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1em;
+}
+#content ul > li:before {
+	display: inline-block;
+	content: "\2013\00a0"; /* Halbgeviertstrich, gefolgt von einem geschuetzten Leerzeichen */
+	width: 1em;
+	margin-left: -1em;
+	margin-top: 0.3em;
+}
+
+#content a {
+	color: #677798;
+	text-decoration: none;
+}
+#content a:hover { text-decoration: underline;}
+
+#content img.border {
+	padding: 1px;
+	background-color: #6d6d6d;
+	border: 1px solid #3e3e3e;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+#content map{
+  padding:0;
+}
+
+/*===================================*/
+/* Seitenleiste */
+	
+#sidebar {
+	width: 181px;
+	float: right;
+	position: relative;
+}
+	
+#sidebar .box { 
+	padding: 0 10px;
+	top: 0%;
+}
+
+#sidebar .spacer {
+	background-image: url("img/sidebar_spacer.png");
+	height: 29px;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar h2, h3 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+	margin: 0 0 16px 0;
+}
+
+#sidebar p {
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 17px;
+	word-spacing: 1px;
+	color: #F0F0F0;
+}
+
+#sidebar img {
+	margin: 0;
+	padding: 1px;
+	background-color: #556076;
+	border: 1px solid #394150;
+}
+#sidebar ul {
+	padding: 0;
+	margin: 0;
+}
+#sidebar li {
+	list-style-type: none;
+	padding-left: 16px;
+	padding-top: 7px;
+}
+#sidebar a {
+	color: #cfd5e2;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: normal;
+}
+#sidebar a:hover { text-decoration: underline; }
+
+/*========================================*/
+/* Funktionen zum Vergroessern der Bilder */
+
+#preview{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+#preview #imgPrev{
+	display: block;
+	margin: 0 auto;
+}
+#preview #preview_inner{
+	width: 100%;
+	height: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/*===================================*/
+/* Fussleiste */
+	
+#bottomShadow {
+	background-image: url("img/content_bShadow.png");
+	height: 29px;
+	margin: 0;
+	padding: 0 50px;
+	font-size: 14px;
+	clear: both;
+	position: relative;
+}
+
+#footer {
+	background-image: url("img/footer_main.png");
+	height: 49px;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	position: relative;
+}
+
+#footer .box {
+	text-align: center;
+	margin: auto;
+	padding-top: 8px;
+	font-size: 10px;
+	color: #f0f0f0;
+}
+
+#footer i {
+	font-style: italic;
+}
+
+#footer a {
+	color: #cfd5e2;
+}
+
+/*===================================*/
+/* Bildergalerie */
+
+a:focus,
+a:hover {
+	background: #09c;
+}
+
+@media all and (min-width: 35em) {
+	.details {
+		position: absolute;
+		right: -5%;
+		top: -20%;
+		background-color: #F1F3F4;
+		border: 0.1em solid #3983ab;
+		border-radius: 0 8px 8px;
+		padding: 1em 1em .2em;
+		width: 50em;
+		max-height: 80em;
+		overflow: auto;
+		display: none;
+	}
+	.details img {
+		width: 100%;
+	}
+	.details:target {
+		display: block;
+	}
+	.close, .next, .prev {
+		width: 0;
+		height: 0;
+		border: 0;
+		text-shadow: none;
+		color: transparent;
+	}
+	.close:after {
+		position: absolute;
+		top: 1em;
+		right: 1em;
+		content: "X";
+		color: white;
+		background: #c32e04;
+		/*font: font: bold 1em/150% Georgia, Times, serif;*/
+		border: 0.1em solid #3983ab;
+		border-radius: 0 8px 8px;
+		display: block;
+		text-align: center;
+		width: 1.5em;
+		height: 1.5em;
+		padding: 0.2em 0 0 0em;
+	}
+	
+	.next:after {
+		position: absolute;
+		bottom: 2em;
+		right: 1em;
+		content: ">";
+		color: white;
+		background: #c32e04;
+		/*font: font: bold 1em/150% Georgia, Times, serif;*/
+		border: 0.1em solid #3983ab;
+		border-radius: 0 8px 8px;
+		display: block;
+		text-align: center;
+		width: 1.5em;
+		height: 1.5em;
+		padding: 0.2em 0 0 0em;
+	}
+	
+	.prev:after {
+		position: absolute;
+		bottom: 2em;
+		left: 1em;
+		content: "<";
+		color: white;
+		background: #c32e04;
+		/*font: font: bold 1em/150% Georgia, Times, serif;*/
+		border: 0.1em solid #3983ab;
+		border-radius: 0 8px 8px;
+		display: block;
+		text-align: center;
+		width: 1.5em;
+		height: 1.5em;
+		padding: 0.2em 0 0 0em;
+	}
+}
+
+/*===================================*/
+/* Druckeinstellungen */
+
+@media print {
+	#header {
+		display: none;
+	}
+	#navigation {
+		display: none;
+	}
+	#topShadow {
+		display: none;
+	}
+	#bottomShadow {
+		display: none;
+	}
+	#sidebar {
+		display: none;
+	}
+	#footer {
+		display: none;
+	}
+}

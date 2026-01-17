@@ -1,0 +1,58 @@
+# Reports not yet finished
+dx/ukw_loop.html
+pano/img/limits_oeffWi_gross_640x840.jpg
+pano/img/limits_oeffWi_klein_640x840.jpg
+
+# Documentation
+notes.txt
+dx/grundlagen_adv
+dx/panasonic_rf-b45_service-manual
+dx/yupiteru_mvt7000_service-manual
+
+# Test files
+util/out.txt
+util/quellenverzeichnis.awk
+
+# Scripts
+list_html.txt
+list_hikr-images.txt
+list_images.vim
+
+# Templates
+template_xhtml.html
+template_html5.html
+
+# Old files
+old
+old/css_media_all_ori.txt
+
+# Reference files
+grundlagen_blyton.txt
+adventure_series/grundlagen_adventure.txt
+adventure_series/grundlagen_adventure_maps_circus.txt
+adventure_series/grundlagen_adventure_maps_island.txt
+adventure_series/grundlagen_adventure_maps_river.txt
+adventure_series/grundlagen_adventure_maps_sea.txt
+adventure_series/grundlagen_adventure_maps_valley.txt
+famous_five/grundlagen_famous-five.txt
+famous_five/grundlagen_ff_modell_eisenbahn_zeltlager.txt
+famous_five/grundlagen_ff_saillon.txt
+famous_five/grundlagen_ff_smugglers_top.txt
+secret_series/grundlagen_secret.txt
+secret_series/grundlagen_secret_maps_killi.txt
+secret_series/grundlagen_secret_moon.txt
+secret_series/grundlagen_secret_mountain.txt
+pano/grundlagen_sykplot2pano.txt
+dx/grundlagen_adv.txt
+dx/grundlagen_kk9803.txt
+dx/grundlagen_mvt7000_wfm-filter-mod.txt
+dx/grundlagen_rfb45nf.txt
+dx/grundlagen_rfb45zf.txt
+dx/grundlagen_ukw_loop.txt
+dx/ukw_bandscan/quellen.txt
+
+# Screenshots
+screenshots
+
+# Temporary files
+adventure_series/notes.txt

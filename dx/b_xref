@@ -1,0 +1,2 @@
+#!/bin/bash
+xref mvt7000_filelist.txt mvt7000_quellen.html GrundlagenUndLiteratur mvt7000_abb.html Abbildungsverzeichnis ../tmp

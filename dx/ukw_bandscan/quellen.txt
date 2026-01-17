@@ -1,0 +1,127 @@
+
+
+BCSDR_221208
+
+https://www.bakom.admin.ch/bakom/de/home/frequenzen-antennen/standorte-von-sendeanlagen/rundfunk.html
+
+--------------
+Degrees Minutes Seconds to Decimal Degrees
+
+https://www.latlong.net/degrees-minutes-seconds-to-decimal-degrees
+
+--------------
+I ripetitori FM italiani
+
+http://www.fmdx.altervista.org/articles.php?lng=it&pg=1467
+
+--------------
+Lista Radio FM ricevibili a Novara
+
+https://www.federicostella.it/lista-radio-fm-ricevibili-a-novara/
+
+
+
+¬https://map.geo.admin.ch/ (Layer Radio- und Fernsehsender)
+¬https://www.bakom.admin.ch/bakom/de/home/frequenzen-antennen/standorte-von-sendeanlagen/rundfunk.html
+¬https://www.ukwtv.de/cms/sender-tabelle.html
+¬https://www.federicostella.it/lista-radio-fm-ricevibili-a-novara/
+¬http://www.fmdx.altervista.org/articles.php?lng=it&pg=1467
+¬https://www.mapsforeurope.org/datasets/euro-global-map (Hintergrund)
+
+
+Weitere Grundlagen:
+
+Émetteur de Haute-Goulaine
+https://fr.wikipedia.org/wiki/%C3%89metteur_de_Haute-Goulaine
+
+90.6	France Inter	251
+94.2	France Culture	251
+98.9	France Musique	251
+101.8	ici Loire Océan	200
+
+-------------------------------
+
+Émetteur de Niort-Maisonnay
+https://fr.wikipedia.org/wiki/%C3%89metteur_de_Niort-Maisonnay
+
+99.4	France Inter	200
+96.4	France Culture	200
+91.1	France Musique	200
+
+-------------------------------
+
+Émetteur des Cars
+https://fr.wikipedia.org/wiki/%C3%89metteur_des_Cars
+
+93.0	France Inter	158
+89.5	France Culture	158
+97.5	France Musique	158
+103.5	ici Limousin	158
+91.7	ici Périgord	100
+
+-------------------------------
+
+Émetteur du Mans-Mayet
+https://fr.wikipedia.org/wiki/%C3%89metteur_du_Mans-Mayet
+
+92.6	France Inter	126
+89.0	France Culture	126
+97.0	France Musique	126
+
+-------------------------------
+
+Émetteur de Saint-Pern
+https://fr.wikipedia.org/wiki/%C3%89metteur_de_Saint-Pern
+
+93.5	France Inter	100
+98.3	France Culture	100
+89.9	France Musique	100
+
+-------------------------------
+
+Émetteur de Roc'h Trédudon
+https://fr.wikipedia.org/wiki/%C3%89metteur_de_Roc%27h_Tr%C3%A9dudon
+
+95.4	France Inter	158
+97.8	France Culture	158
+89.4	France Musique	158
+93.0	ici Breizh Izel	158
+
+-------------------------------
+
+Émetteur d'Hautvillers
+https://fr.wikipedia.org/wiki/%C3%89metteur_d%27Hautvillers
+
+96.8	France Inter	150
+98.8	France Culture	150
+89.2	France Musique	150
+
+-------------------------------
+
+Émetteur de Luttange
+https://fr.wikipedia.org/wiki/%C3%89metteur_de_Luttange
+
+99.8	France Inter	145
+94.5	France Culture	145
+89.7	France Musique	145
+106.8	France Info		100
+
+-------------------------------
+
+Sites d'émission du massif de l'Étoile
+https://fr.wikipedia.org/wiki/Sites_d%27%C3%A9mission_du_massif_de_l%27%C3%89toile
+
+91.3	France Inter	400
+99.0	France Culture	400
+94.2	France Musique	400
+103.6	ici Provence	200
+
+-------------------------------
+
+Émetteur du pic du Midi de Bigorre
+https://fr.wikipedia.org/wiki/%C3%89metteur_du_pic_du_Midi_de_Bigorre
+
+87.9	France Inter	79
+95.7	France Culture	79
+91.5	France Musique	79
+102.0	Sud Radio		60

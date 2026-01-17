@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://aboehlen.github.io/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/index.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/index_a.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/blyton.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/datenschutzerklaerung.html</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/dx.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/impressum.html</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/karten.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/links.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/touren.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/touren2.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/404.html</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/adventure.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/adventure_maps_circus.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/adventure_maps_island.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/adventure_maps_river.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/adventure_maps_sea.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/adventure_maps_valley.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_abb.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_ebl.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>  
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_end.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_essen.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_felsst.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_hoehle.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_hoehlenbw.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_inh.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_karten.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_mot.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_nachts.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_quellen.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_skizze.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_suche.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_tiere.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_wafa.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_weg.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_wegw.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_wetter.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/adventure_series/valley_of_adventure/adv_valley_zus.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/dx/adv.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/dx/jingles.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/dx/mvt7000.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/dx/mvt7000_ori.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/dx/mvt7000_wfm-filter-mod.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/dx/rf-b45_nf-aus.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/dx/rf-b45_zf-aus.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/dx/bandscans/ukw_bandscan_worb.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/dx/bandscans/ukw_bandscan_ostermundigen.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/dx/bandscans/ukw_bandscan_saasgrund.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/dx/bandscans/ukw_bandscan_worb_vstr.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/famous_five/famous_five.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/famous_five/ff_modell_eisenbahn_zeltlager.html</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/famous_five/ff_saillon.html</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/famous_five/ff_smugglers_top.html</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pano/skyplot2pano.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/secret_series/secret.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/secret_series/secret_maps_killi.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/secret_series/secret_moon.html</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/secret_series/secret_mountain.html</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pdf/castaway-hill_map.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pdf/castle-hill_map.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pdf/domodossola_mercato_v12-quer.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pdf/erm_karte_newforest.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pdf/five_go_off_to_camp_map.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pdf/lhotp_map.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pdf/lhotp_map_projektbericht.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pdf/reise_zu_den_drehorten_der_78er_fuenf_freunde.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pdf/stadtplan_bern_1840.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pdf/torc_del_runchett.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pdf/ukw-bandscan-map.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pdf/valle-di-nibbio_v32.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+</urlset>

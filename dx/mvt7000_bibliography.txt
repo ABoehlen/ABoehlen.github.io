@@ -1,0 +1,69 @@
+﻿# Liste der Grundlagen
+
+_aa_$https://blog.kakaocdn.net/dn/bwuFwW/btr0ybuleE4/Tk9JkKgCEkLEBtL8BsSDH1/LF-B15.pdf?attach=1&amp;knm=tfile.pdf (LF-B15 455 kHz Ceramic Filters)
+
+_ab_$http://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/cerafil/p05e.ashx (Ceramic Filters (CERAFILr)/Ceramic Discriminators for Communications Equipment, Seite 37 (Druckseite 35))
+
+_ac_$HF-225 General Coverage Receiver. User’s Manual. Lowe Electronics Ltd, Matlock, Derbyshire 1989, S.&nbsp;10
+
+_ad_$https://de.wikipedia.org/wiki/Intermodulation#Tuner (Intermodulationen bei UKW-Tunern)
+
+_ae_$https://www.alldatasheet.com/datasheet-pdf/pdf/1424487/MURATA1/SFE10.7MS2-Z.7.html (SFE10.7MS2-Z.7 Datasheet, Murata Manufacturing Co., Ltd, Seite 9 (Druckseite 7))
+
+_af_$Schiffhauer, Nils: Scanner – UKW-Sprechfunk-Empfänger. Siebel Verlag, Meckenheim 1995, S.&nbsp;112
+
+_ag_$http://www.grahn-spezialantennen.de/ (Grahn Spezialantennen)
+
+_ah_$Klawitter, Gerd: Technik, Tips &amp; Tricks rund um den Empfänger. Siebel Verlag, Meckenheim 1994, S.&nbsp;102ff
+
+_ai_$https://www.youtube.com/watch?v=sUynyu-Bftg (Sendestelle HCJB Weenermoor)
+
+_aj_$Tech, Jürgen: Antennen zum Selbstbauen. Frech-Verlag, Stuttgart 1978, S.&nbsp;9ff
+
+_ak_$Schiffhauer, Nils: Scanner – UKW-Sprechfunk-Empfänger. Siebel Verlag, Meckenheim 1995, S.&nbsp;11
+
+_al_$https://de.wikipedia.org/wiki/Überlagerungsempfänger (Überlagerungsempfänger)
+
+_am_$https://www.merseyradar.co.uk/airband-radio/scanner-greats-yupiteru-mvt-7000-brought-back-to-life/ (Yupiteru MVT-7000 brought back to life !)
+
+_an_$Siebel, Wolf: Zusatzgeräte für den Funkempfang. Siebel Verlag, Meckenheim 1995, S.&nbsp;83ff
+
+_ao_$Radio-Scanner, Das Hör- und Abhör-Magazin, Nr. 4/1996. Burgdorf 1996, S.&nbsp;61ff
+
+_ap_$https://www.rigpix.com/yupiteru/mvt7000_schematic.pdf (Yupiteru MVT-7000 Schaltplan)
+
+_aq_$https://www.merseyradar.co.uk/airband-radio/scanner-greats-yupiteru-mvt-7000-brought-back-to-life/ (Yupiteru MVT-7000 brought back to life !)
+
+_ar_$https://www.rigpix.com/yupiteru/mvt7000.htm (Yupiteru MVT-7000 Specifications) 
+
+_as_$Schiffhauer, Nils: Scanner – UKW-Sprechfunk-Empfänger. Siebel Verlag, Meckenheim 1995, S. 113ff
+
+_at_$https://www.rigpix.com/yupiteru/mvt7000.htm (Yupiteru MVT-7000 Specifications) 
+
+_au_$Persönliches Schreiben von Bernhard Weiskopf, Mitglied im UKW/TV-Arbeitskreis der AGDX e. V. vom 27.02.2001 
+
+_av_$https://www.discriminator.nl/ic/cx20111.pdf (SONY FM/AM-Radio IC CX20111)
+
+_aw_$https://www.discriminator.nl/ic/mc3361.pdf (Motorola Low Power Narrowband IC MC3361C)
+
+_ax_$https://www.rigpix.com/yupiteru/mvt7000_schematic.pdf (Yupiteru MVT-7000 Schaltplan) 
+
+_ay_$https://www.manua.ls/yupiteru/mvt-7000/manual (Yupiteru MVT-7000 Handbuch)
+
+_az_$https://www.rigpix.com/yupiteru/mvt7000_schematic.pdf (Yupiteru MVT-7000 Schaltplan)
+
+_ba_$Radio-Scanner, Das Hör- und Abhör-Magazin, Nr. 4/1996. Burgdorf 1996, S.&nbsp;45
+
+_bb_$https://www.merseyradar.co.uk/airband-radio/home-made-coaxial-dipole-antenna-for-civil-airband/ (Home made coaxial dipole antenna for civil (and military) airband)
+
+_bc_$Radio-Scanner, Das Hör- und Abhör-Magazin, Nr. 4/1996. Burgdorf 1996, S.&nbsp;45
+
+_bd_$Radiohören & Scannen, Das Hobby-Magazin für weltweiten Funkempfang, Nr. 10/1998. Baden-Baden 1998, S.&nbsp;17
+
+_be_$AFM Aircrew Speak, An Air-band Frequency Guide. Stamford, Lincolnshire 1995, S.&nbsp;25
+
+_bf_$https://europa-urlaub.eu/britische-pfund-historische-wechselkurse/ (historische Wechselkurse des Britischen Pfund zur D-Mark von 1950 bis 1998)
+
+_bg_$https://electronicbase.net/de/tiefpass-berechnen/ (RC Tiefpass Rechner)
+
+# Ende

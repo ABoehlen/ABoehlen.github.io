@@ -1,0 +1,3 @@
+mvt7000_ori.html
+mvt7000_bibliography.txt
+mvt7000_figures.txt

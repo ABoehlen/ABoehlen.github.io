@@ -64,6 +64,7 @@ neuigkeiten[50] = "19.12.2025: <a target=\"_blank\" href=\"./dx/bandscans/ukw_ba
 neuigkeiten[51] = "22.12.2025: UKW-Bandscans <a target=\"_blank\" href=\"./dx/bandscans/ukw_bandscan_ostermundigen.html\">Ostermundigen von 2004</a> und <a target=\"_blank\" href=\"./dx/bandscans/ukw_bandscan_saasgrund.html\">Saas-Grund von 2005</a> überarbeitet und neu hinzugefügt";
 neuigkeiten[52] = "11.01.2026: Aufgrund von Angriffen von AI bots auf hikr.org, ist derzeit die Einbindung von auf hikr.org gehosteten Bildern in andere Websites nicht möglich. Dies führt auf der Startseite und auf <a href=\"./touren.html\">Touren</a> zu Fehlern.";
 neuigkeiten[53] = "16.01.2026: Das im letzten Eintrag erwähnte Problem habe ich dadurch gelöst, indem ich die benötigten Bilder von hikr.org ins github Repo kopiert habe und von dort aufrufe.";
+neuigkeiten[54] = "18.01.2026: UKW-Bandscan <a target=\"_blank\" href=\"./dx/bandscans/ukw_bandscan_bolligen-bern.html\">Bolligen/Bern von 1996</a> digital erfasst und neu hinzugefügt";
 
 //------------------------------------------------------------------------------------------------------------------------
 

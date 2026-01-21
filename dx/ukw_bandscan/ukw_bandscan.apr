@@ -37,7 +37,6 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 	Doc:	2179
 	Doc:	2183
 	Doc:	2187
-	ActiveDoc:	116
 	Buttons:	2200
 	Buttons:	2201
 	Buttons:	2202
@@ -825,8 +824,8 @@ eoproc.avx\n$AVEXT/vedit.avx\n"
 )
 
 (PointD.141
-	x:	309996.17647148634000
-	y:	144534.23651893641000
+	x:	335053.31018530705000
+	y:	437274.89624869532000
 )
 
 (Numb.142
@@ -14063,11 +14062,11 @@ LF.Get(0)                 'first (origin) point\n  p2 = SELF.Get(1)             
 	Name:	"ukw_bandscan_bern1996.dbf"
 	BTab:	2094
 	Fields:	2095
+	Fields:	2098
+	Fields:	2099
 	Fields:	2096
 	Fields:	2100
 	Fields:	2097
-	Fields:	2099
-	Fields:	2098
 	Fields:	2101
 	SelBits:	2103
 )
@@ -15078,29 +15077,29 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 
 (NameDict.2231
 	Obj:	2232
-	Obj:	2235
+	Obj:	2233
 	Obj:	2236
 	Obj:	2869
-	Obj:	2875
+	Obj:	2874
 	Obj:	2880
 )
 
 (AVDict.2232
-	InternalName:	"Dialog Designer"
-	Key:	2233
-	Value:	2234
+	InternalName:	"Table of Contents Defaults Dialog"
 )
 
-(AVStr.2233
+(AVDict.2233
+	InternalName:	"Dialog Designer"
+	Key:	2234
+	Value:	2235
+)
+
+(AVStr.2234
 	S:	"IsVisible"
 )
 
-(Bool.2234
+(Bool.2235
 	Truth:	1
-)
-
-(AVDict.2235
-	InternalName:	"Table of Contents Defaults Dialog"
 )
 
 (AVDict.2236
@@ -15117,60 +15116,60 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (AVDict.2869
-	InternalName:	"Table Master 2"
+	InternalName:	"Geoprocessing"
 	Key:	2870
-	Value:	2871
-)
-
-(AVStr.2870
-	S:	"Table Master 2"
-)
-
-(AVDict.2871
-	Key:	2872
+	Key:	2871
+	Value:	2872
 	Value:	2873
 )
 
-(Numb.2872
-)
-
-(List.2873
-	InternalName:	"Incorrect"
-	Child:	2874
-)
-
-(AVStr.2874
-	S:	"1"
-)
-
-(AVDict.2875
-	InternalName:	"Geoprocessing"
-	Key:	2876
-	Key:	2877
-	Value:	2878
-	Value:	2879
-)
-
-(AVStr.2876
+(AVStr.2870
 	S:	"Loaded"
 )
 
-(AVStr.2877
+(AVStr.2871
 	S:	"Version"
 )
 
-(Bool.2878
+(Bool.2872
 	Truth:	1
 )
 
-(Numb.2879
+(Numb.2873
 	N:	3.10000000000000
+)
+
+(AVDict.2874
+	InternalName:	"Table Master 2"
+	Key:	2875
+	Value:	2876
+)
+
+(AVStr.2875
+	S:	"Table Master 2"
+)
+
+(AVDict.2876
+	Key:	2877
+	Value:	2878
+)
+
+(Numb.2877
+)
+
+(List.2878
+	InternalName:	"Incorrect"
+	Child:	2879
+)
+
+(AVStr.2879
+	S:	"1"
 )
 
 (AVDict.2880
 	InternalName:	"Projection Utility Wizard"
 	Key:	2881
-	Value:	2878
+	Value:	2872
 )
 
 (AVStr.2881
@@ -18263,7 +18262,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (AVStr.3621
-	S:	"ukw_bandscan.apr Attributes of Ukw_empf_tabl UKW-Sender"
+	S:	"ukw_bandscan.apr UKW-Sender ukw_bandscan_bern1996.dbf"
 )
 
 (Choice.3622
@@ -18274,15 +18273,15 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.3623
-	Help:	"Activates Attributes of Ukw_empf_tabl"
-	Label:	"&2 Attributes of Ukw_empf_tabl"
+	Help:	"Activates UKW-Sender"
+	Label:	"&2 UKW-Sender"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
 (Choice.3624
-	Help:	"Activates UKW-Sender"
-	Label:	"&3 UKW-Sender"
+	Help:	"Activates ukw_bandscan_bern1996.dbf"
+	Label:	"&3 ukw_bandscan_bern1996.dbf"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
@@ -20206,7 +20205,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Help:	"Renames the selected project component"
 	HelpTopic:	"Rename"
 	Update:	"Project.RenameUpdate"
-	Label:	"&Rename 'ukw_bandscan_odigen2004.dbf'..."
+	Label:	"&Rename 'ukw_bandscan_bern1996.dbf'..."
 	Click:	"Project.Rename"
 	Shortcut:	"Keys.Ctrl+R"
 )
@@ -20215,7 +20214,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Help:	"Deletes the selected component from the project"
 	HelpTopic:	"Delete_Component"
 	Update:	"Project.DeleteUpdate"
-	Label:	"&Delete 'ukw_bandscan_odigen2004.dbf'..."
+	Label:	"&Delete 'ukw_bandscan_bern1996.dbf'..."
 	Click:	"Project.Delete"
 	Shortcut:	"Keys.Del"
 )

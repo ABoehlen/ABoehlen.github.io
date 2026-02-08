@@ -1,0 +1,2 @@
+#!/bin/bash
+xref skyplot2pano_filelist.txt skyplot2pano_quellen.html GrundlagenUndLiteratur skyplot2pano_abb.html Abbildungsverzeichnis ../tmp

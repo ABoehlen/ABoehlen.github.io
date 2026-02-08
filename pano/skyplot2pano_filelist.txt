@@ -1,0 +1,3 @@
+skyplot2pano_ori.html
+skyplot2pano_bibliography.txt
+skyplot2pano_figures.txt

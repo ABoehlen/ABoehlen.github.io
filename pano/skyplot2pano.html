@@ -27,8 +27,8 @@
 		<div class="box">
 			<h1>skyplot2pano – Dokumentation</h1>
 			<p>Adrian Böhlen<br />
-			Dokumentation: Version 1.18 vom 20.11.2025<br />
-			Applikation: Version 2.18 vom 20.11.2025</p>
+			Dokumentation: Version 2.0 vom 08.02.2026<br />
+			Applikation: Version 3.0 vom 05.02.2026</p>
 			
 			<h2>Inhalt</h2>
 			<div class="Reihe_zw">
@@ -58,7 +58,7 @@
 				<div class="Zelle_Inh_zw">
 				</div>
 				<div class="Zelle_Inh_r">
-					<a href="#funkt">Funktionsprinzip</a>
+					<a href="#funkt">Funktionsbeschreibung</a>
 				</div>
 			</div>
 			<div class="Reihe_zw">
@@ -143,7 +143,7 @@
 				<div class="Zelle_Inh_zw">
 				</div>
 				<div class="Zelle_Inh_r">
-					<a href="#ausw_innori">Einleitung</a>
+					<a href="#ausw_pano">Einleitung</a>
 				</div>
 			</div>
 			<div class="Reihe">
@@ -234,6 +234,26 @@
 				</div>
 				<div class="Zelle_Inh_r">
 					<a href="#nam_dxf">Panorama und Bergnamen als DXF-Datei</a>
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Inh_l">
+					1.6
+				</div>
+				<div class="Zelle_Inh_zw">
+				</div>
+				<div class="Zelle_Inh_r">
+					<a href="#uebernord">Das «Nord» Problem</a>
+				</div>
+			</div>
+			<div class="Reihe">
+				<div class="Zelle_Inh_l">
+					1.7
+				</div>
+				<div class="Zelle_Inh_zw">
+				</div>
+				<div class="Zelle_Inh_r">
+					<a href="#prot">Berechnungsprotokoll</a>
 				</div>
 			</div>
 			<div class="Reihe_zw">
@@ -414,13 +434,16 @@
 			
 			<a name="zw"></a>
 			<h1>0&nbsp;&nbsp;Einleitung und Zweck</h1>
-			<p><em>skyplot2pano</em> ist eine kommandozeilen-orientierte Anwendung, geschrieben in der Programmiersprache Awk <script type="text/javascript">var name="ah"; var kap=""; verweis("dokSky");</script>, die sich die Funktion von SCOP.SKYPLOT (ein kleines Zusatzprogramm des Programmsystems SCOP der Technischen Universität (TU) Wien. <script type="text/javascript">var name="ak"; var kap=""; verweis("dokSky");</script>) zunutze macht, um aus einem digitalen Höhenmodell und Namendaten Panorama-Ansichten mit Silhouetten und Namen zu berechnen sowie Sichtbarkeitsparameter abzuleiten. Ziel der Anwendung ist es, auf automatisiertem Wege ein graphisch möglichst hochwertiges Ergebnis zu erzielen und wesentliche Sichtbarkeitsparameter übersichtlich zu protokollieren.</p>
+
+			<p><em>skyplot2pano</em> ist eine kommandozeilen-orientierte Anwendung, geschrieben in der Programmiersprache Awk <sup>1</sup>, die sich die Funktion von SCOP.SKYPLOT (ein kleines Zusatzprogramm des Programmsystems SCOP der Technischen Universität (TU) Wien. <sup>2</sup>) zunutze macht, um aus einem digitalen Höhenmodell und Namendaten Panorama-Ansichten mit Silhouetten und Namen zu berechnen sowie Sichtbarkeitsparameter abzuleiten. Ziel der Anwendung ist es, auf automatisiertem Wege ein graphisch möglichst hochwertiges Ergebnis zu erzielen und wesentliche Sichtbarkeitsparameter übersichtlich zu protokollieren.</p>
 			<p>Aus jeder Berechnung mit <em>skyplot2pano</em> resultiert eine DXF-Datei mit der Panoramagraphik, sowie drei Textdateien: Die prot-Datei ist das Berechnungsprotokoll, welches die angegebenen Argumente und verschiedene abgeleitete Informationen auflistet. Die extr-Datei ist eine kommagetrennte Textdatei der topographischen Extrempunkte, die mit einem Geographischen Informationssystem (GIS; z.B. ArcView, ArcGIS, QGIS...) unter Verwendung der Felder <em>X</em> und <em>Y</em> visualisiert werden kann. Die Koordinaten entsprechen dabei dem Koordinatensystem des verwendeten Höhenmodells. Die sil-Datei ist ebenfalls eine kommagetrennte Textdatei, die in gleicher Weise mit einem GIS visualisiert werden kann. Damit lässt sich alternativ zum DXF ebenfalls die Panoramaansicht erzeugen. Die Felder <em>X</em> und <em>Y</em> kennzeichnen hier Bildkoordinaten, desweitern sind zu jedem Punkt auch die zugehörigen Lagekoordinaten sowie weitere Informationen gespeichert.</p>
+      <p>Der abgebildete Sektor ist weit gehend beliebig definierbar, jedoch lässt die mögliche azimutale Auflösung mit zunehmendem Öffnungswinkel nach. Ist eine möglichst hohe Abbildungsqualität erwünscht, sollte der Sektor daher möglichst unter 200 gon (Halbkreis), noch besser unter 100 gon (Viertelkreis) liegen. Es gilt: Je kleiner der abgebildete Sektor, desto kleiner ist die azimutale Auflösung die SCOP.SKYPLOT zulässt. Ist der eingegebene Wert zu niedrig, wird automatisch eine Korrektur vorgenommen. Im Berechnungsprotokoll ist ersichtlich, welcher Wert eingegeben und welcher tatsächlich angewendet wurde. Zu beachten ist ferner, dass als Azimute der Bildbegrenzung nur ganze Zahlen möglich sind. Allfällige Nachkommastellen werden ignoriert.</p>
 			
 			<a name="funkt"></a>
 			<h1>1&nbsp;&nbsp;Funktionsprinzip</h1>
 			<h2>1.1&nbsp;&nbsp;Funktionalität von SCOP.SKYPLOT</h2>
-			<p>Folgende Beschreibung der zugrundeliegenden Applikation ist dem Benutzerhandbuch entnommen: <script type="text/javascript">var name="aa"; var kap=""; verweis("dokSky");</script></p>
+
+			<p>Folgende Beschreibung der zugrundeliegenden Applikation ist dem Benutzerhandbuch entnommen: <sup>3</sup></p>
 			<p><em>In diesem Programm ist eine Lösung für die Aufgabe realisiert, aus einem Digitalen Geländemodell für einen vorgegebenen Standpunkt die Sichtbegrenzung durch die Topographie abzuleiten. Diese Problemstellung ist unter anderem in Zusammenhang mit GPS-Messungen von Bedeutung, weil damit Aussagen über die Abschattung von Satelliten getroffen werden können.</em></p>
 			<p><em>Die Ergebnisse der Berechnung werden entweder graphisch ausgegeben (Skyplot-Darstellungen) oder in numerischer Form (Datei) gespeichert.</em></p>
 			<p><em>Der Berechnung liegt ein einfacher Algorithmus zugrunde. Über den Vollkreis werden von einem vorgegebenen Standpunkt aus Profile in einem konstanten Winkelabstand gerechnet und an diese Profile jeweils die Tangente gelegt. Für jedes Profil gibt es einen Berührungspunkt zwischen Profil und Tangente, der an der Sichtbarkeitsgrenze liegt und durch seinen Abstand und Höhenunterschied vom Standpunkt beschrieben werden kann.</em></p>
@@ -453,8 +476,9 @@ etc.
 			<a name="ausw_verort"></a>
 			<h2>1.3&nbsp;&nbsp;Auswertung der Daten für die Verortung der Punkte</h2>
 			<h3>1.3.1&nbsp;&nbsp;Bestimmung der Lagekoordinaten</h3>
+
 			<p>Hinter diesen drei Werten steckt wesentlich mehr, als man zunächst erwarten würde. Zusammen mit den Koordinaten des Standorts von dem aus die Berechnung durchgeführt wird (genannt Projektionszentrum, im Header unter <em>Coordinates</em> aufgeführt), ist es möglich, von jedem der aufgelisteten Punkte die zugehörigen Lage- und Höhenkoordinaten abzuleiten.</p>
-			<p>Zunächst muss die horizontale Distanz ermittelt werden, die auch als mathematischer Horizont bezeichnet wird, d.h. die virtuelle Gerade die in rechtem Winkel zur Lotrichtung steht, der Richtung gegen den Erdmittelpunkt hin. Dies lässt sich als vertikales Dreieck veranschaulichen, mit den beiden Eckpunkten A (Projektionszentrum) und P (Grenzpunkt der Sichtbarkeit) wobei die Entfernung der beiden der Hypothenuse entspricht. Zusammen mit dem Höhenwinkel, der meist mit dem griechischen Zeichen &beta; bezeichnet wird, lassen sich die übrigen Parameter trigonometrisch bestimmen (siehe Abb.&nbsp;1). <script type="text/javascript">var name="ab"; var kap=""; verweis("dokSky");</script></p>
+			<p>Zunächst muss die horizontale Distanz ermittelt werden, die auch als mathematischer Horizont bezeichnet wird, d.h. die virtuelle Gerade die in rechtem Winkel zur Lotrichtung steht, der Richtung gegen den Erdmittelpunkt hin. Dies lässt sich als vertikales Dreieck veranschaulichen, mit den beiden Eckpunkten A (Projektionszentrum) und P (Grenzpunkt der Sichtbarkeit) wobei die Entfernung der beiden der Hypothenuse entspricht. Zusammen mit dem Höhenwinkel, der meist mit dem griechischen Zeichen &beta; bezeichnet wird, lassen sich die übrigen Parameter trigonometrisch bestimmen (siehe Abb.&nbsp;1). <sup>4</sup></p>
 			<p>Mit der Entfernung in der Ebene und dem Azimut lässt sich nunmehr ein Dreieck in der Horizontalen konstruieren und damit die Lagekoordinaten des betreffenden Punktes wiederum trigonometrisch ermitteln. Je nachdem, in welcher Richtung&nbsp;–&nbsp;bezogen auf das Projektionszentrum&nbsp;–&nbsp;der Zielpunkt liegt, muss dabei unterschiedlich gerechnet werden. Abb.&nbsp;2 zeigt zwei mögliche Konstellationen, wobei die Koordinaten des entfernten Punktes jeweils mit xE und yE gekennzeichnet sind. In skyplot2pano wird der Vollkreis hierzu in insgesamt 8 Sektoren zu je 50 gon unterteilt.</p>
 
 			<div class="Reihe">
@@ -474,8 +498,9 @@ etc.
 			
 			<a name="ekrref"></a>
 			<h3>1.3.2&nbsp;&nbsp;Erdkrümmung und Refraktion</h3>
-			<p>Auch die höchsten Gipfel sind mit zunehmender Distanz irgendwann nicht mehr sichtbar, selbst wenn die Luft extrem klar ist und keine vorgelagerten Erhebungen die Sicht beeinträchtigen, weil sie aufgrund der Erdkrümmung früher oder später hinter dem Horizont verschwinden. Major Robert Reber, Ingenieur des Eidgenössischen Topographischen Bureaus formulierte es in seinem Aufsatz «Über Erdkrümmung und Refraktion» so: <em>Die Erdkrümmung wirkt immer in einem negativen, d. h. für die Sichtbarkeit nachteiligen Sinne.</em> <script type="text/javascript">var name="ac"; var kap=""; verweis("dokSky");</script></p>
-			<p>Dieser Parameter nimmt mit dem Quadrat der Entfernung zu. Ist der Effekt bei nahe gelegenen Objekten noch gering, so macht er sich mit zunehmender Distanz immer stärker bemerkbar. Für die Berechnung liegen verschiedene Formeln vor, die normalerweise die Erde als Kugel vereinfachen und daher von einem mittleren Radius ausgehen. Da die Erde aber in Wirklichkeit keine exakte Kugel, sondern durch die Rotation abgeplattet ist, hängt der genaue Radius vom Breitengrad ab. Für die Schweiz und die umliegenden Gebiete ergeben sich folgende Werte: <script type="text/javascript">var name="ad"; var kap=""; verweis("dokSky");</script></p>
+
+			<p>Auch die höchsten Gipfel sind mit zunehmender Distanz irgendwann nicht mehr sichtbar, selbst wenn die Luft extrem klar ist und keine vorgelagerten Erhebungen die Sicht beeinträchtigen, weil sie aufgrund der Erdkrümmung früher oder später hinter dem Horizont verschwinden. Major Robert Reber, Ingenieur des Eidgenössischen Topographischen Bureaus formulierte es in seinem Aufsatz «Über Erdkrümmung und Refraktion» so: <em>Die Erdkrümmung wirkt immer in einem negativen, d. h. für die Sichtbarkeit nachteiligen Sinne.</em> <sup>5</sup></p>
+			<p>Dieser Parameter nimmt mit dem Quadrat der Entfernung zu. Ist der Effekt bei nahe gelegenen Objekten noch gering, so macht er sich mit zunehmender Distanz immer stärker bemerkbar. Für die Berechnung liegen verschiedene Formeln vor, die normalerweise die Erde als Kugel vereinfachen und daher von einem mittleren Radius ausgehen. Da die Erde aber in Wirklichkeit keine exakte Kugel, sondern durch die Rotation abgeplattet ist, hängt der genaue Radius vom Breitengrad ab. Für die Schweiz und die umliegenden Gebiete ergeben sich folgende Werte: <sup>6</sup></p>
 			<code>
              Koordinaten LV03     geographische
 Stadt        X      / Y           Koordinaten: Breite       Erdradius
@@ -487,8 +512,10 @@ Lugano       716800 / 95984       46° 00' 19" / 46.005°     6367.114 km
 Milano       737000 / 36230       45° 27' 51" / 45.464°     6367.316 km
 			</code>
 			<p class="Bildlegende">Tab.&nbsp;2:&nbsp;Erdradius im Bereich einiger Städte der Schweiz und des angrenzenden Auslands.</p>
-			<p>Wie man sehen kann, sind die Unterschiede nur sehr gering und für die Berechnung von Sichtweiten innerhalb weniger hundert Kilometern spielt es deshalb keine Rolle, welcher dieser Werte verwendet wird. Aus diesem Grund wird der Erdradius bei skyplot2pano gerundet als 6370 km angenommen, was dem Wert entspricht, den auch SCOP standardmässig verwendet. <script type="text/javascript">var name="ae"; var kap=""; verweis("dokSky");</script></p>
-			<p>Hätte die Erde wie z.B. der Mond keine Atmosphäre, so könnte man es damit belassen. Da der Sehstrahl, d.h. die optische Verbindung zwischen zwei Punkten, sich aber innerhalb der Luftschicht bewegt und vor allem bei grossen Distanzen durch verschieden dichte Luftschichten hindurch, muss noch ein weiterer Parameter berücksichtigt werden; die atmosphärische Refraktion. Diese bewirkt grob gesagt eine Krümmung der Lichtstrahlen gegen die Erdoberfläche hin, oder – nochmals Robert Reber zitierend: <em>Für gewöhnlich wird daher die Refraktion in einem positiven, für die Sichtbarkeit günstigern Sinne wirken.</em> Gewöhnlich deshalb, weil wir es hier nicht mit einem klar festzulegenden geometrischen Wert zu tun haben, sondern sich die Eigenschaften der Atmosphäre aufgrund des Wetters (Hoch- und Tiefdruckgebiete, Inversionen…) und der Temperatur ständig verändern und dadurch auch ihre Wirkung auf die sie durchdringenden Lichtstrahlen. Als mittlerer Refraktionskoeffizient hat sich seit Carl Friedrich Gauß um 1800 der Wert 0.13 bewährt, das entspricht 13 Prozent der Erdkrümmung. <script type="text/javascript">var name="af"; var kap=""; verweis("dokSky");</script></p>
+
+			<p>Wie man sehen kann, sind die Unterschiede nur sehr gering und für die Berechnung von Sichtweiten innerhalb weniger hundert Kilometern spielt es deshalb keine Rolle, welcher dieser Werte verwendet wird. Aus diesem Grund wird der Erdradius bei skyplot2pano gerundet als 6370 km angenommen, was dem Wert entspricht, den auch SCOP standardmässig verwendet. <sup>7</sup></p>
+
+			<p>Hätte die Erde wie z.B. der Mond keine Atmosphäre, so könnte man es damit belassen. Da der Sehstrahl, d.h. die optische Verbindung zwischen zwei Punkten, sich aber innerhalb der Luftschicht bewegt und vor allem bei grossen Distanzen durch verschieden dichte Luftschichten hindurch, muss noch ein weiterer Parameter berücksichtigt werden; die atmosphärische Refraktion. Diese bewirkt grob gesagt eine Krümmung der Lichtstrahlen gegen die Erdoberfläche hin, oder – nochmals Robert Reber zitierend: <em>Für gewöhnlich wird daher die Refraktion in einem positiven, für die Sichtbarkeit günstigern Sinne wirken.</em> Gewöhnlich deshalb, weil wir es hier nicht mit einem klar festzulegenden geometrischen Wert zu tun haben, sondern sich die Eigenschaften der Atmosphäre aufgrund des Wetters (Hoch- und Tiefdruckgebiete, Inversionen…) und der Temperatur ständig verändern und dadurch auch ihre Wirkung auf die sie durchdringenden Lichtstrahlen. Als mittlerer Refraktionskoeffizient hat sich seit Carl Friedrich Gauß um 1800 der Wert 0.13 bewährt, das entspricht 13 Prozent der Erdkrümmung. <sup>8</sup></p>
 
 			<div class="Bild_l">
 				<img width="320px" height="205px" alt="Absenkung durch Erdkrümmung" onclick="show('./img/absenkung_durch_ekr_640x411.jpg');" src="./img/absenkung_durch_ekr_640x411.jpg" />
@@ -541,11 +568,13 @@ Entferntester: 640238  154256  4005  243.8  208.300   4060.6  2993
 
 			<a name="geom"></a>
 			<h3>1.4.2&nbsp;&nbsp;Die Geometrie eines Panoramas</h3>
-			<p>Ein Panorama, welches über die gesamte Länge das Landschaftsbild ohne Verzerrungen wiedergibt, wird durch eine Zylinderprojektion erreicht. Dazu stelle man sich vor, in der Mitte eines durchsichtigen Zylinders zu sitzen, dessen Radius dem ausgestreckten Arm entspricht. Auf diese Weise lassen sich die Konturen der Landschaft jenseits des Zylinders zeichnerisch festhalten und anschliessend das Ergebnis in Form eines langen Streifens abrollen. <script type="text/javascript">var name="ag"; var kap=""; verweis("dokSky");</script> Egal wie lange dieser ist, das Bild bleibt verzerrungsfrei.</p>
+
+			<p>Ein Panorama, welches über die gesamte Länge das Landschaftsbild ohne Verzerrungen wiedergibt, wird durch eine Zylinderprojektion erreicht. Dazu stelle man sich vor, in der Mitte eines durchsichtigen Zylinders zu sitzen, dessen Radius dem ausgestreckten Arm entspricht. Auf diese Weise lassen sich die Konturen der Landschaft jenseits des Zylinders zeichnerisch festhalten und anschliessend das Ergebnis in Form eines langen Streifens abrollen. <sup>9</sup> Egal wie lange dieser ist, das Bild bleibt verzerrungsfrei.</p>
 			
 			<a name="ber_pano"></a>
 			<h3>1.4.3&nbsp;&nbsp;Berechnung des Panoramas</h3>
 			<p>Die wichtigste Zusatzinformation hierfür ist die Bildbreite, welche als 9. Argument festgelegt werden muss. Mit dieser Angabe, sowie dem Öffnungswinkel (7. und 8. Argument) lässt sich sowohl die Ausdehnung eines gon im Bildkoordinatensystem berechnen als auch der Radius des Projektionszylinders. Dieser kann am ehesten mit der Brennweite eines Objektivs vergleichen werden, d.h. je grösser dieser Wert ist, desto grösser (und meist auch genauer) werden Details wiedergegeben. </p>
+
 			<div class="Bild_l">
 				<img width="320px" height="185px" alt="Höhe aus Radius und Winkel" onclick="show('./img/h_aus_radius_und_winkel_950x550.jpg');" src="./img/h_aus_radius_und_winkel_950x550.jpg" />
 				<p class="Bildlegende">Abb.&nbsp;4:&nbsp;Bestimmung der Höhe (h) über dem mathematischen Horizont (mH) im Bildkoordinatensystem zwecks Festlegung der Punkte, welche die Konturen der Landschaft wiedergeben.<br />Eigene Zeichnung vom 07.03.2024</p>
@@ -573,11 +602,13 @@ Entferntester: 640238  154256  4005  243.8  208.300   4060.6  2993
 			<h3>1.4.4&nbsp;&nbsp;Realisierung von sichtbegrenzenden Kreten (Silhouetten)</h3>
 			<p>So umgesetzt und mit einer einzigen SKYPLOT-Berechnung als Grundlage würde allerdings lediglich eine aus Punkten gebildete Linie resultieren – der natürliche Horizont. Um auch vorgelagerte Strukturen abzubilden, greift skyplot2pano zu einem Trick:</p>
 			<p>Wie dem Handbuch zu SCOP.SKYPLOT zu entnehmen ist, kann über den Parameter LIMITS ein beliebiger, durch zwei Koordinatenpaare fesgelegter Ausschnitt des Höhenmodells zur Berechnung verwendet werden. Auf diese Weise lassen sich auch nahe gelegene Erhebungen als natürlichen Horizont erzwingen. Diese Methode hat allerdings den Nachteil, dass dort, wo es keine Erhebungen im betreffenden Höhenmodell-Ausschnitt gibt, das System automatisch den Rand desselben als Sichtbegrenzung zurückliefert. Es ist daher notwendig, solche Punkte mathematisch zu ermitteln und deren Ausgabe in die Zieldatei zu unterdrücken.</p>
+
 			<div class="Bild_r">
 				<img width="329px" height="154px" alt="Cmd Fenster" onclick="show('./img/cmd_fenster_skyplot2pano_461x215.png');" src="./img/cmd_fenster_skyplot2pano_461x215.png" />
 				<p class="Bildlegende">Abb.&nbsp;5:&nbsp;Ausgabe während der Berechnung von skyplot2pano<br />Eigener Screenshot vom 23.09.2025</p>
 			</div>	
 			<p>Über das 12.&nbsp;Argument (Aufloes-Dist) wird festgelegt, in welchem Abstand der für die Berechnung verwendete Höhenmodell-Perimeter sukzessive erweitert werden soll, ausgehend von der minimalen Distanz (10.&nbsp;Argument), bis die maximale Distanz (11.&nbsp;Argument) erreicht ist. Es ist vermutlich einleuchtend, dass bei einer feinen Abstufung und dies über einen grossen Distanzbereich hinweg, eine Vielzahl einzelner Berechnungen vonnöten sind, was dann entsprechend viel Zeit in Anspruch nimmt. Der Stand der Arbeiten wird fortwährend im Kommandofenster ausgewiesen (siehe Abb.&nbsp;5), wobei die Prozentwerte lediglich anhand der Anzahl Berechnungen ermittelt werden. Da jeder detektierte Geländepunkt in eine interne Liste eingetragen und folgende Berechnungen damit abgeglichen werden, um doppelte und mehrfache Punkte zu verhindern, dauern auch die einzelnen Berechnungen kontinuierlich länger. Somit ist nach 50% zwar die Hälfte der Berechnungen durchgeführt, aber noch längst nicht die Hälfte der insgesamt erforderlichen Zeit verstrichen. Letztere wird am Ende sowohl im Log als auch im Protokoll festgehalten.</p>
+
 			<div class="Bild_l">
 				<img width="320px" height="353px" alt="Erweiterung Höhenmodellperi um Aufloes-Dist" onclick="show('./img/perierw_um_aufloes_dist_640x707.jpg');" src="./img/perierw_um_aufloes_dist_640x707.jpg" />
 				<p class="Bildlegende">Abb.&nbsp;6:&nbsp;Vereinfachte Darstellung von 4 aufeinander folgenden Berechnungen mit einem abstrahierten Geländemodell.<br />Eigene Zeichnung vom 07.03.2024</p>
@@ -588,11 +619,13 @@ Entferntester: 640238  154256  4005  243.8  208.300   4060.6  2993
 			<a name="nam_pano"></a>
 			<h2>1.5&nbsp;&nbsp;Beschriftung des Panoramas</h2>
 			<h3>1.5.1&nbsp;&nbsp;Einleitung</h3>
-			<p>Im Kapitel 1.3 wurde erläutert, wie aus der Ausgabe von SCOP.SKYPLOT (Azimut, Höhenwinkel und Distanz) die Lage- und Höhenkoordinaten der einzelnen Punkte abgeleitet werden kann, und im vorherigen Kapitel 1.4 wie aus denselben Informationen die Bildkoordinaten in einem bestimmten Bildformat berechnet werden. Es ist daher naheliegend, dass es auch möglich sein muss, aus Lage- und Höhenkoordinaten eines bestimmten Punktes seine Bildkoordinaten zu ermitteln. Dazu werden die Parameter der Äusseren und der Inneren Orientierung benötigt, also die Definition des Projektionszentrums sowohl im verwendeten projizierten Koordinatensystem, als auch im Bezug auf den Bildhauptpunkt im Bildkoordinatensystem. <script type="text/javascript">var name="ap"; var kap=""; verweis("dokSky");</script> Mit dieser Methodik können in Punktform vorliegende Namendaten in die Berechnung mit einbezogen werden, um später die auf dem Panorama sichtbaren Gipfel automatisch zu beschriften.</p>
+
+			<p>Im Kapitel 1.3 wurde erläutert, wie aus der Ausgabe von SCOP.SKYPLOT (Azimut, Höhenwinkel und Distanz) die Lage- und Höhenkoordinaten der einzelnen Punkte abgeleitet werden kann, und im vorherigen Kapitel 1.4 wie aus denselben Informationen die Bildkoordinaten in einem bestimmten Bildformat berechnet werden. Es ist daher naheliegend, dass es auch möglich sein muss, aus Lage- und Höhenkoordinaten eines bestimmten Punktes seine Bildkoordinaten zu ermitteln. Dazu werden die Parameter der Äusseren und der Inneren Orientierung benötigt, also die Definition des Projektionszentrums sowohl im verwendeten projizierten Koordinatensystem, als auch im Bezug auf den Bildhauptpunkt im Bildkoordinatensystem. <sup>10</sup> Mit dieser Methodik können in Punktform vorliegende Namendaten in die Berechnung mit einbezogen werden, um später die auf dem Panorama sichtbaren Gipfel automatisch zu beschriften.</p>
 
 			<a name="nam_file"></a>
 			<h3>1.5.2&nbsp;&nbsp;Namendatei</h3>
-			<p>Für die Namendatei wird die gleiche Struktur vorausgesetzt, wie bei der Verwendung in SCOP.PER. Falls nicht vorhanden, lässt sich diese auf einfache Weise z.B. aus einer kommagetrennten Datei ableiten. Relevant für diese Anwendung sind nur die Felder Name, X-, Y- und Z-Koordinate sowie die Priorität. Das Feld Perimeter wird nicht verwendet. Die genaue Definition ist in der Dokumentation von SCOP.PER wie folgt beschrieben: <script type="text/javascript">var name="an"; var kap=""; verweis("dokSky");</script></p>
+
+			<p>Für die Namendatei wird die gleiche Struktur vorausgesetzt, wie bei der Verwendung in SCOP.PER. Falls nicht vorhanden, lässt sich diese auf einfache Weise z.B. aus einer kommagetrennten Datei ableiten. Relevant für diese Anwendung sind nur die Felder Name, X-, Y- und Z-Koordinate sowie die Priorität. Das Feld Perimeter wird nicht verwendet. Die genaue Definition ist in der Dokumentation von SCOP.PER wie folgt beschrieben: <sup>11</sup></p>
 			<p><em>Dieser Parameter ermöglicht die Angabe des Namens jener Datei, auf der die Namensinformation vorbereitet ist. Diese Infomation besteht aus dem Namen selbst, seiner Position (X,Y,Z), der Priorität und dem Perimeter. Der Perimeter wird entweder als Radius eines Kreises oder als Umringpolygon (max. 32 Punkte X,Y) angegeben. Der Wertebereich für die Priorität liegt zwischen 1 und 99. Der Name, die Position und die Priorität müssen dem Fortran-Format (A32,3F12.2,I4) genügen; die Formatierung für den Perimeter ist frei.</em></p>
 			<p>Die Umsetzung weicht leicht von diesen Vorgaben ab. Durch die sich so ergebenden Puffer zwischen den einzelnen Feldern wirken sich geringfügige Verletzungen der Definition nicht direkt auf benachbarte Felder aus:</p>
 			<ul>
@@ -622,7 +655,7 @@ Gantrisch                           600915.0    172616.0      2176.0  46  200.
 			<h3>1.5.3&nbsp;&nbsp;Ermitteln der sichtbaren Namen</h3>
 			<p>Wesentlich für das Ermitteln der sichtbaren Namen ist zum einen eine möglichst geringe azimutale Auflösung (6.&nbsp;Argument) und zum andern das 14&nbsp;Argument (<em>Tol</em>) im Programmaufruf, mit welchem definiert wird, wie weit der Namenspunkt in x- und y-Richtung maximal vom ermittelten Geländepunkt entfernt sein darf, um noch abgebildet zu werden. Je kleiner dieser Wert, desto wahrscheinlicher ist es, dass der betreffende Namenspunkt auch tatsächlich sichtbar ist. Allerdings steigt dadurch auch die Gefahr, dass er nicht erscheint, wenn kein Geländepunkt in der betreffenden Distanz detektiert wird. Jeder übereinstimmende Namenspunkt wird in eine Liste eingetragen, welche bei den nächsten Punkten auf Übereinstimmung geprüft wird. Auf diese Weise wird garantiert, dass auch bei grosser Toleranz und vielen übereinstimmenden Punkten jeder Name nur einmal im Panorama erscheinen wird.</p>
 			<p>Zur Positionierung im Panorama könnten grundsätzlich einfach die Bildkoordinaten des ersten übereinstimmenden Punktes verwendet werden. Dies führt aber vor allem bei grösserer Toleranz zu einer fehlerhaften Platzierung, wie am folgenden Beispiel ersichtlich ist:</p>
-			
+
 			<div class="Reihe">
 				<div class="Zelle_norm">
 					<img width="320px" height="185px" alt="Pano mit Namen v1" onclick="show('./img/ansicht_mit_namen1_640x361.png');" src="./img/ansicht_mit_namen1_640x361.png" />
@@ -651,15 +684,16 @@ Gantrisch                           600915.0    172616.0      2176.0  46  200.
 			<ul>
 				<li>Zunächst muss das Azimut des Namenspunktes relativ zum Projektionszentrum bestimmt werden. 
 				<div class="Bild_l">
-				<img width="320px" height="219px" alt="Pano mit Namen v2" onclick="show('./img/atan2_640x439.jpg');" src="./img/atan2_640x439.jpg" />
+				<img width="320px" height="219px" alt="Bestimmung Azi mit atan2" onclick="show('./img/atan2_640x439.jpg');" src="./img/atan2_640x439.jpg" />
 				<p class="Bildlegende">Abb.&nbsp;10:&nbsp;Azimutbestimmung mittels atan2 anhand zweier Beispiele.<br />Eigene Zeichnung vom 03.05.2024</p>
 			</div>
 				Hierzu ist die in vielen Programmiersprachen (so auch in Awk) standardmässig vorhandene Funktion <span class="Nichtproportional">atan2</span> ideal. Sie wird mit 2 Argumenten aufgerufen, d.h. in diesem Fall der X- und Y-Koordinate des gesuchten Punktes. Abb.&nbsp;10 zeigt anhand zweier Beispiele (P1 und P2), wie die Sache funktioniert: Zunächst sind die Koordinaten des Projektionszentrums (A) auf 0/0 zu reduzieren, entsprechend müssen diese von denen des zu bestimmenden Punktes abgezogen werden. Der Wert, den <span class="Nichtproportional">atan2</span> anschliessend als Resultat liefert, entspricht der Länge des Bogens eines Kreises mit Radius 1 zwischen Norden und der gewünschten Richtung, das so genannte Bogenmass, besser bekannt als Radiant (rad). Umgerechnet in gon wird daraus das benötigte Azimut. Zu beachten ist allerdings, dass <span class="Nichtproportional">atan2</span> für den Sektor Süd&nbsp;–&nbsp;Nord über West negative Werte liefert. In diesen Fällen muss das Ergebnis mit -1 mulitpliziert und von 400 (Vollkreis in gon) abgezogen werden, damit das Ergebnis den Erwartungen entspricht.</li>
 				<li>Ausgehend der Information, wieviele mm im Bildkoordinatensystem ein Gon entspricht (siehe Abschnitt 1.4.3) kann nun die X-Bildkoordinaten dadurch gewonnen werden, indem vom Azimut des Punktes das Azimut der linken Bildbegrenzung abgezogen und das Ergebnis in mm umgerechnet wird.</li>
 			</ul>
+
 			<strong>Bildkoordinate Y</strong>
 			<ul>
-				<li>Die Y-Bildkoordinate entspricht der Höhe des Punktes. Entsprechend ist zuerst die Höhendifferenz zu ermitteln: Höhe des Namenspunktes minus Höhe des Projektionszentrums minus Absenkung durch Erdkrümmung und Refraktion (siehe Abschnitt 1.3.2). Hierfür ist vorgängig die Entfernung des betreffenden Punktes vom Projektionszentrum zu bestimmen, was mittels folgender Formel geschieht: <script type="text/javascript">var name="aq"; var kap=""; verweis("dokSky");</script><br />
+				<li>Die Y-Bildkoordinate entspricht der Höhe des Punktes. Entsprechend ist zuerst die Höhendifferenz zu ermitteln: Höhe des Namenspunktes minus Höhe des Projektionszentrums minus Absenkung durch Erdkrümmung und Refraktion (siehe Abschnitt 1.3.2). Hierfür ist vorgängig die Entfernung des betreffenden Punktes vom Projektionszentrum zu bestimmen, was mittels folgender Formel geschieht: <sup>12</sup><br />
 				<math xmlns="https://www.w3.org/1998/Math/MathML/" display="inline">
 				<msqrt>
 					<msup>
@@ -680,7 +714,8 @@ Gantrisch                           600915.0    172616.0      2176.0  46  200.
 
 			<a name="nam_dxf"></a>
 			<h3>1.5.5&nbsp;&nbsp;Panorama und Bergnamen als DXF-Datei</h3>
-			<p>Wie zuvor erläutert, werden während der Berechnung die Namen fortlaufend anhand ihrer Lagekoordinaten auf Übereinstimmung mit errechneten Geländepunkten geprüft und sobald eine solche gegeben ist, mit den relevanten Informationen (Name, Höhe, Distanz, X- und Y-Bildkoordinaten) in eine kommagetrennte, temporäre Textdatei geschrieben. Für die Visualisierung lässt sich diese aber nicht verwenden, weshalb am Schluss die Übersetzung in das CAD-Format DXF vorgenommen wird. DXF ist ein textbasiertes Austauschformat für CAD-Systeme, welches 1982 durch die Firma Autodesk eingeführt wurde und auch nach über 4 Jahrzehnten noch oft verwendet wird, teilweise auch im GIS-Bereich. <script type="text/javascript">var name="ao"; var kap=""; verweis("dokSky");</script> Da es hierfür aber eigentlich nicht geeignet ist, müssen sich GIS-Nutzer mit einigen unpraktischen Eigenschaften abfinden, wie etwa der fehlenden Möglichkeit, benutzerdefinierte Attribute zu führen. Ein grosser Vorteil ist hingegen, dass in einer einzigen DXF-Datei verschiedene Geometrietypen verwaltet werden können. Dazu gehören auch Textobjekte, so genannte <em>Annotations</em>.</p>
+
+			<p>Wie zuvor erläutert, werden während der Berechnung die Namen fortlaufend anhand ihrer Lagekoordinaten auf Übereinstimmung mit errechneten Geländepunkten geprüft und sobald eine solche gegeben ist, mit den relevanten Informationen (Name, Höhe, Distanz, X- und Y-Bildkoordinaten) in eine kommagetrennte, temporäre Textdatei geschrieben. Für die Visualisierung lässt sich diese aber nicht verwenden, weshalb am Schluss die Übersetzung in das CAD-Format DXF vorgenommen wird. DXF ist ein textbasiertes Austauschformat für CAD-Systeme, welches 1982 durch die Firma Autodesk eingeführt wurde und auch nach über 4 Jahrzehnten noch oft verwendet wird, teilweise auch im GIS-Bereich. <sup>13</sup> Da es hierfür aber eigentlich nicht geeignet ist, müssen sich GIS-Nutzer mit einigen unpraktischen Eigenschaften abfinden, wie etwa der fehlenden Möglichkeit, benutzerdefinierte Attribute zu führen. Ein grosser Vorteil ist hingegen, dass in einer einzigen DXF-Datei verschiedene Geometrietypen verwaltet werden können. Dazu gehören auch Textobjekte, so genannte <em>Annotations</em>.</p>
 
 			<p>Bei der aktuellen Umsetzung wird nur eine stark vereinfachte DXF-Struktur erzeugt. Zu jedem detektierten Punkt wird der zugehörige Name (mit Höhe in m und Entfernung in km) im Winkel von 45° oberhalb des Gipfels platziert, wobei für die Positionierung der Namen im Bild der Geländepunkt mit der höchsten Y-Bildkoordinate massgebend ist. Für die Zuweisung des Namens zum Punkt dient eine durch zwei Punkte festgelegte Linie. Ausserdem wird ein Rahmen um das Panoramabild erzeugt, wobei sich die untere Begrenzung nach dem visuell tiefsten Graphikelement richtet, welches eine Silhouette oder eine Namen-Zuordnungslinie sein kann. Damit Namen nicht geschnitten werden, lässt sich über die Parameter <em>erwRahmenRechts</em> und <em>erwRahmenOben</em> in der Datei <em>params.txt</em> festlegen, wie weit die rechte und obere Begrenzung zu erweitern ist. Bei Namen nahe des rechten Bildrandes führt dies allerdings dazu, dass die Konturlinien des Panoramas dann nicht bis zum rechten Bildrand reichen (siehe Abb.&nbsp;11).<p>
 
@@ -727,16 +762,99 @@ Gantrisch                           600915.0    172616.0      2176.0  46  200.
 			</ul>
 			<p>So lässt sich die Darstellung der einzelnen Klassen wunschgemäss manuell gestalten. Mittels einer <em>Definition Query</em> können ausserdem nicht darzustellende Elemente ausgeblendet werden.</p>
 
+			<a name="uebernord"></a>
+			<h2>1.6&nbsp;&nbsp;Das «Nord» Problem</h2>
+
+			<p>In der Einleitung wurde gesagt, dass der gewünschte Sektor weit gehend beliebig definierbar ist. Bei der Umsetzung führte dies zu einem Problem, welches nicht einfach zu lösen war: Wird nämlich der Sektor so gelegt, dass Norden darin enthalten ist, ist das linke Azimut niedriger als das rechte. Die Applikation SCOP.SKYPLOT kommt mit solch einer Konstellation leider überhaupt nicht zurecht und bricht bei entsprechender Parametrisierung des Input-Files mit einer Fehlermeldung ab. Als Lösung des Problems blieb einzig, solche Berechungen in zwei Teilen vorzunehmen, nämlich einen linken (<em>Azimut links</em> bis 400 gon) und einen rechten (0 gon bis <em>Azimut rechts</em>). Dies bedingte in verschiedenen Teilen des Programms entsprechende Anpassungen, nämlich:</p>
+      <ul>
+        <li>Damit gewisse Berechnungen korrekte Resultate liefern, ist die Variable für das <em>Azimut rechts</em> um 400 gon zu erhöhen. Für das Berechnungsprotokoll wird dieser Wert wieder «korrigiert».</li>
+        <li>Berechnung der Extrempunkte: Im Resultatsfile der ersten Berechnung ist die letzte Zeile zu löschen, da 400 gon identisch mit 0 gon ist.</li>
+        <li>Berechnung des Panoramas: Hier gilt dasselbe, wobei dieser Prozess bei jeder Teilberechnung zur Anwendung kommt.</li>
+        <li>Platzierung der Namen: Hier ist zu beachten, dass beim rechten Teil (0 gon bis <em>Azimut rechts</em>) den jeweiligen Azimuten noch 400 gon dazuaddiert werden, damit die Namen an der richtigen Stelle stehen.</li>
+        <li>Platzierung der Himmelsrichtungen: Den Himmelsrichtungen, deren Azimut kleiner als <em>Azimut rechts</em> ist, muss aus demselben Grund ebenfalls 400 gon dazugerechnet werden.</li>
+      </ul>
+
+			<a name="prot"></a>
+			<h2>1.7&nbsp;&nbsp;Berechnungsprotokoll</h2>
+
+			<p>Zu jeder Berechnung wird ein Berechnungsprotokoll erstellt, welches nachfolgend erläutert wird.</p>
+      
+      <p>Im Titel erscheint der eingegebene Name des Standortes sowie das Berechnungsdatum und Angaben zur Applikation.</p>
+			<code>
+Berechnet am : So. 08. Februar 2026, 12:09 Uhr
+Berechnet von: aboeh
+
+
+******************************************************************************************
+Berechnungsprotokoll Oltscheren
+skyplot2pano v3.0  , https://github.com/ABoehlen/skyplot2pano
+******************************************************************************************
+			</code>
+			<p class="Bildlegende">Tab.&nbsp;7:&nbsp;Titel des Protokolls mit Name, Berechnungsdatum und Angaben zur Applikation.</p>
+
+			<p>Es folgt der Teil «Eingabe», wo sämtliche eingegebenen Parameter übersichtlich aufgelistet werden.</p>
+			<code>
+Eingabe
+*******
+
+Standort (X / Y / Z)                :  650355 / 174072 / 1631
+Name                                :  Oltscheren
+Azimut links                        :  24 gon
+Azimut rechts                       :  35 gon
+Azimutale Aufloesung                :  0.005 gon
+Bildbreite                          :  400 mm
+Verwendetes Hoehenmodell            :  Digitales Hoehenmodell DHM25 (25 m  Gitter)
+Verwendete Namendatei               :  swissTLM-Regio Names
+Berechnungen ab                        10 km
+   bis                                 150 km
+   im Abstand von                      10000 m durchgefuehrt
+			</code>
+			<p class="Bildlegende">Tab.&nbsp;8:&nbsp;Eingabe-Teil des Protokolls.</p>
+
+			<p>Unter den «Abgeleiteten Parameter» finden sich diverse berechnete Werte. Zwecks besserer Übersichtlichkeit ist hier die eingegebene Standorthöhe nochmals aufgeführt. Ebenfalls enthalten ist die effektive azimutale Aufloesung, die mitunter grösser ist als der eingegebene Wert und in diesen Fällen das maximal mögliche repräsentiert, was SCOP.SKYPLOT beim gegebenen Öffnungswinkel zulässt. Zu guter Letzt wird auch die Dauer der Berechnung festgehalten.</p>
+			<code>
+Abgeleitete Parameter
+*********************
+
+Eingegebene Hoehe                   :  1631.0 m
+Interpolierte Hoehe im DHM25        :  1629.3 m
+Differenz zum Hoehenmodell          :  1.7 m
+Oeffnungswinkel                     :  11 gon
+Projektionszylinderradius           :  2314.981 mm
+Effektive azimutale Aufloesung      :  0.00688 gon
+Anzahl Berechnungen                 :  15
+Berechnungsdauer                    :  00 Std. 02 Min. 47 Sek.
+			</code>
+			<p class="Bildlegende">Tab.&nbsp;9:&nbsp;Im Protokoll aufgeführte abgeleitete Parameter.</p>
+
+			<p>Den letzten Teil bilden die Topographischen Extrempunkte, die bereits im Abschnitt 1.3.3 erläutert wurden. Bei ausserhalb des Sektors liegenden Extrempunkten sind die Koordinaten gleich den Standortkoordinaten (hier südlichster und westlichster Punkt).</p>
+			<code>
+Topographische Extrempunkte
+***************************
+
+Extrempunkt    X       Y       Z     D [km] Azi [gon] E-R [m] dH [m]
+--------------------------------------------------------------------
+Noerdlichster: 727390  302348   692  149.7   34.429   1529.3  -938
+Oestlichster:  728548  301733   711  149.7   34.986   1530.9  -919
+Suedlichster:  650355  174072  1631    0.0    0.000      0.0     0
+Westlichster:  650355  174072  1631    0.0    0.000      0.0     0
+Hoechster:     662199  203420  2110   31.6   24.419     68.4   479
+Entferntester: 728388  302124   701  150.0   34.842   1536.0  -929
+			</code>
+			<p class="Bildlegende">Tab.&nbsp;10:&nbsp;Im Protokoll aufgeführte Topographische Extrempunkte.</p>
+
+
 			<a name="ben"></a>
 			<h1>2&nbsp;&nbsp;Benutzung</h1>
 			<h2>2.1&nbsp;&nbsp;Voraussetzungen</h2>
+
 			<p>Folgende Voraussetzungen müssen erfüllt sein, damit <em>skyplot2pano</em> verwendet werden kann:</p>
 			<ul>
 				<li>Die direkt ausführbare Quelltextdatei <em>skyplot2pano.awk</em> sowie die Konfigurationsdateien <em>dhm.txt</em>, <em>nam.txt</em> und <em>params.txt</em> müssen von <a target="_blank" href="https://github.com/ABoehlen/skyplot2pano">https://github.com/ABoehlen/skyplot2pano</a> heruntergeladen werden.</li>
-				<li><em>skyplot2pano</em> ist in der Programmiersprache Awk geschrieben, nutzt jedoch auch UNIX-Kommandos <script type="text/javascript">var name="ai"; var kap=""; verweis("dokSky");</script>. Es kann daher nur in einer Umgebung ausgeführt werden, die diese Befehle versteht, also z.B. einem beliebigen Linux-System, oder unter Windows innerhalb Emulatoren wie <em>Git for Windows</em> oder <em>Cygwin</em>, die auch GNU Awk bereits enthalten.</li>
+				<li><em>skyplot2pano</em> ist in der Programmiersprache Awk geschrieben, nutzt jedoch auch UNIX-Kommandos <sup>14</sup>. Es kann daher nur in einer Umgebung ausgeführt werden, die diese Befehle versteht, also z.B. einem beliebigen Linux-System, oder unter Windows innerhalb Emulatoren wie <em>Git for Windows</em> oder <em>Cygwin</em>, die auch GNU Awk bereits enthalten.</li>
         <li>Das Programm läuft nur mit GNU Awk (<em>Gawk</em>) ab Version 4.0. Unter <em>mawk</em> läuft es nicht. Weitere Awk-Portierungen wurden nicht getestet.</li>
 				<li>Das Programmsystem SCOP der TU Wien wird nicht benötigt, jedoch das Zusatzprogramm <em>skyplot.exe</em>, welches genau aus dieser einzelnen exe-Datei besteht. Der Speicherort muss in die Umgebungsvariable PATH aufgenommen worden sein. Idealerweise wird <em>skyplot2pano.awk</em> am gleichen Ort abgelegt.</li>
-				<li>Es wird zumindest ein Höhenmodell im Format SCOP RDH benötigt (*.dtm oder *.rdh Datei). Dieses hybride Höhenmodellformat kann vermutlich nur mit SCOP++ aus verschiedenen gängigen Höhenmodell-Formaten (z.B. ESRI ASCII GRID) erzeugt werden. <script type="text/javascript">var name="aj"; var kap=""; verweis("dokSky");</script> GIS-Applikationen wie ESRI ArcGIS oder Safe FME unterstützen das Format nicht.</li>
+				<li>Es wird zumindest ein Höhenmodell im Format SCOP RDH benötigt (*.dtm oder *.rdh Datei). Dieses hybride Höhenmodellformat kann vermutlich nur mit SCOP++ aus verschiedenen gängigen Höhenmodell-Formaten (z.B. ESRI ASCII GRID) erzeugt werden. <sup>15</sup> GIS-Applikationen wie ESRI ArcGIS oder Safe FME unterstützen das Format nicht.</li>
 				<li>Der Speicherort und die Beschreibung der verwendeten Höhenmodelle muss in der Datei <em>dhm.txt</em> festgelegt werden.</li>
 				<li>Der Standort (Projektionszentrum) muss innerhalb des verwendeten Höhenmodells liegen. Es ist mit SCOP.SKYPLOT nicht möglich, von einem ausserhalb liegenden Standort auf ein Höhenmodell zu blicken (im Gegensatz zu SCOP.PER).</li>
 				<li>Soll das Panorama mit Namen ergänzt werden, ist zumindest eine in der vorgegebenen Struktur vorliegende Namendatei erforderlich. Der Speicherort und die Beschreibung müssen in der Datei <em>nam.txt</em> eingetragen sein. Damit das Programm korrekt starten kann, muss diese Datei vorhanden sein, auch wenn keine Namendaten existieren. Sie enthält dann einfach nur die erste Zeile mit den Feldbezeichnungen.</li>
@@ -745,7 +863,7 @@ Gantrisch                           600915.0    172616.0      2176.0  46  200.
 
 			<a name="konf"></a>
 			<h2>2.2&nbsp;&nbsp;Konfigurationsdateien</h2>
-			<p>Damit <em>skyplot2pano</em> weiss, auf welche Höhenmodelle und Namendateien zugegriffen werden kann, werden zwei Konfigurationsdateien benötigt, die der Benutzer selber entsprechend ausfüllen muss. Nachfolgend je ein Beispiel. Es handelt sich um kommagetrennte Dateien, wobei der Leerraum zwischen den Feldern nur der besseren Lesbarkeit dient. Darauf kann auch verzichtet werden.</p>
+			<p>Damit <em>skyplot2pano</em> «weiss», auf welche Höhenmodelle und Namendateien zugegriffen werden kann, werden zwei Konfigurationsdateien benötigt, die der Benutzer selber entsprechend ausfüllen muss. Nachfolgend je ein Beispiel. Es handelt sich um kommagetrennte Dateien, wobei der Leerraum zwischen den Feldern nur der besseren Lesbarkeit dient. Darauf kann auch verzichtet werden.</p>
 			<p>dhm.txt<br />Hier muss mindestens ein Höhenmodell eingetragen sein.</p>
 			<code>
 Kuerzel ,Pfad                                 ,Beschreibung  
@@ -816,9 +934,9 @@ mv sil_* $dir
 				<p class="Bildlegende">Abb.&nbsp;13:&nbsp;Laden der Punkte einer DXF-Datei.<br />Eigener Screenshot aus ArcView vom 23.09.2025</p>
 			</div>
 
-      <p>Die Visualisierung der Panorama-Ansicht erfolgt am besten in einem Geographischen Informationssystem (GIS). Dies kann auf zwei Arten erfolgen: Am einfachsten ist das Laden des Geometrietyps <em>Point</em> der DXF-Datei. Je nach System kann dazu das Aktivieren einer Extension nötig sein (z.B. in ArcView 3.*). Da eine DXF-Datei das Speichern unterschiedlicher Geometrietypen in der gleichen Datei ermöglicht, genügt es nicht, im Dateibrowser einfach das DXF auszuwählen, sondern der gewünschte Typ muss gezielt selektiert werden, in diesem Fall also <em>Point</em>, siehe Abb. 13. Die wichtigsten Informationen zu jedem dargestellten Punkt finden sich dann in den DXF-Attributen <em>Layer</em>, <em>Elevation</em> und <em>Color</em>, wie in Abschnitt 1.5.5 erläutert. Zwecks Darstellung eines Rahmens und weiterer Informationen sind ausserdem die Geometrietypen <em>Line</em> und <em>Annotation</em> zu laden. Mehr dazu im Abschnitt 2.6.8.</p>
-			
-			<p>In einigen GIS-Systemen (z.B. QGIS, getestet mit Version 3.4.2) werden die DXF-Attribute allerdings nicht, oder nicht vollständig erkannt. Die Lösung ist das Laden der kommagetrennten sil-Datei, was in allen Systemen funktionieren sollte. Die genaue Handhabung ist dabei überall ein wenig anders, weshalb darauf nicht eingegangen wird. Für die nachstehenden Beispiele wurde wie bereits zuvor ESRI ArcView GIS 3.2a verwendet <script type="text/javascript">var name="al"; var kap=""; verweis("dokSky");</script>. Entscheidend ist die Zuweisung der richtigen Felder für die Darstellung der X- und Y-Koordinaten im Bildkoordinatensystem. Da diese bereits mit X und Y gekennzeichnet sind, sollten sie vom System normalerweise automatisch erkannt werden. Danach erscheinen die Punkte, welche die sichtbegrenzenden Kreten repräsentieren, in einer Einheitsgrösse im Kartenfenster. Mit dem Attribut <em>DiRel</em> (Distanz relativ, entspricht <em>Color</em> im DXF) werden die Punkte je nach Konstellation in 8 – 10 Klassen unterteilt und lassen sich daher mit unterschiedlichen Grössen symbolisieren (siehe z.B. Abb.&nbsp;14). So lässt sich ein realistischer Landschaftseindruck erzielen, indem nahe gelegene Formationen mit grossen, weit entfernte dagegen mit kleinen Punkten dargestellt werden. Bei einer hohen Punktdichte, wie sie bei einer sehr geringen azimutalen Auflösung resultiert, verschmelzen die Punkte zudem zu durchgehenden Linien.</p>
+      <p>Die Visualisierung der Panorama-Ansicht erfolgt am besten in einem Geographischen Informationssystem (GIS). Dies kann auf zwei Arten erfolgen: Am einfachsten ist das Laden des Geometrietyps <em>Point</em> der DXF-Datei. Je nach System kann dazu das Aktivieren einer Extension nötig sein (z.B. in ArcView 3.*). Da eine DXF-Datei das Speichern unterschiedlicher Geometrietypen in der gleichen Datei ermöglicht, genügt es nicht, im Dateibrowser einfach das DXF auszuwählen, sondern der gewünschte Typ muss gezielt selektiert werden, in diesem Fall also <em>Point</em>, siehe Abb.&nbsp;13. Die wichtigsten Informationen zu jedem dargestellten Punkt finden sich dann in den DXF-Attributen <em>Layer</em>, <em>Elevation</em> und <em>Color</em>, wie in Abschnitt 1.5.5 erläutert. Zwecks Darstellung eines Rahmens und weiterer Informationen sind ausserdem die Geometrietypen <em>Line</em> und <em>Annotation</em> zu laden. Mehr dazu im Abschnitt 2.6.8.</p>
+
+			<p>In einigen GIS-Systemen (z.B. QGIS, getestet mit Version 3.4.2) werden die DXF-Attribute allerdings nicht, oder nicht vollständig erkannt. Die Lösung ist das Laden der kommagetrennten sil-Datei, was in allen Systemen funktionieren sollte. Die genaue Handhabung ist dabei überall ein wenig anders, weshalb darauf nicht eingegangen wird. Für die nachstehenden Beispiele wurde wie bereits zuvor ESRI ArcView GIS 3.2a verwendet <sup>16</sup>. Entscheidend ist die Zuweisung der richtigen Felder für die Darstellung der X- und Y-Koordinaten im Bildkoordinatensystem. Da diese bereits mit X und Y gekennzeichnet sind, sollten sie vom System normalerweise automatisch erkannt werden. Danach erscheinen die Punkte, welche die sichtbegrenzenden Kreten repräsentieren, in einer Einheitsgrösse im Kartenfenster. Mit dem Attribut <em>DiRel</em> (Distanz relativ, entspricht <em>Color</em> im DXF) werden die Punkte je nach Konstellation in 8 – 10 Klassen unterteilt und lassen sich daher mit unterschiedlichen Grössen symbolisieren. So lässt sich ein realistischer Landschaftseindruck erzielen, indem nahe gelegene Formationen mit grossen, weit entfernte dagegen mit kleinen Punkten dargestellt werden (siehe z.B. Abb.&nbsp;11 oder 12). Bei einer hohen Punktdichte, wie sie bei einer sehr geringen azimutalen Auflösung resultiert, verschmelzen die Punkte zudem zu durchgehenden Linien.</p>
       
       <p>Da im DXF-Format Sachdaten nur sehr beschränkt gespeichert werden können, ist es zur Bestimmung weiterer Informationen (z.B. dem Höhenwinkel) auf jeden Fall erforderlich, die kommagetrennte sil-Datei zu visualisieren.</p>
 
@@ -833,6 +951,7 @@ mv sil_* $dir
 			
 			<a name="pte_best"></a>
 			<h3>2.6.3&nbsp;&nbsp;Lage der Punkte bestimmen</h3>
+
 			<p>Wie bereits erwähnt, werden zu jedem Punkt die zugehörigen Lagekoordinaten berechnet. Mit einem entsprechenden Werkzeug (<em>Identify</em> o.ä.) lassen sie sich dann problemlos abfragen und z.B. mittels eines Geoportals verorten. Die Abbildungen 15 und 16 zeigen ein Beispiel unter Verwendung von <a target="_blank" href="https://map.geo.admin.ch">https://map.geo.admin.ch</a>. Dort lassen sich Koordinatenpaare einfach ins Suchfeld eintippen, worauf die Ansicht zur entsprechenden Stelle springt. In diesem Beispiel handelt es sich bei dem hinter dem Gemsgrat aufragenden Gipfel mit den LV03-Koordinaten 598516 171361 demnach um den Nordgipfel des 2115&nbsp;m hohen Hane, der gemäss verwendetem Höhenmodell 2106&nbsp;m hoch ist. Alternativ zum Abtippen können über das kombinierte Feld <em>LageX LageY</em> (entspricht der <em>Elevation</em> im DXF) beide Koordinaten auf einmal mittels copy&paste übernommen werden, sofern das System dies zulässt.</p>
 			
 			<div class="Reihe">
@@ -850,6 +969,7 @@ mv sil_* $dir
 			
 			<a name="grundr"></a>
 			<h3>2.6.4&nbsp;&nbsp;Anzeige im Grundriss</h3>
+
 			<div class="Bild_l">
 				<img width="320px" height="162px" alt="Anzeige Grundriss" onclick="show('./img/anzeige_grundriss_1127x572.png');" src="./img/anzeige_grundriss_1127x572.png" />
 				<p class="Bildlegende">Abb.&nbsp;17:&nbsp;Anzeige der Silhouetten im Grundriss<br />Eigener Screenshot aus ArcView vom 10.03.2024</p>
@@ -858,6 +978,7 @@ mv sil_* $dir
 
 			<a name="extr_vis"></a>
 			<h3>2.6.5&nbsp;&nbsp;Visualisierung der Extrempunkte</h3>
+
 			<div class="Bild_r">
 				<img width="320px" height="172px" alt="Anzeige Extrempunkte" onclick="show('./img/extrempunkte_auf_karte_640x344.png');" src="./img/extrempunkte_auf_karte_640x344.png" />
 				<p class="Bildlegende">Abb.&nbsp;18:&nbsp;Anzeige der Extrempunkte vor der Landeskarte der Schweiz 1:1 Mio.<br />Eigener Screenshot aus ArcView vom 21.12.2024</p>
@@ -875,7 +996,7 @@ mv sil_* $dir
 			</div>
 
 			<p>Um aus dem Ergebnis eine «echte» Linie zu erzielen, müssen die Punkte (egal ob aus dem DXF oder der importierten Textdatei) einfach mit einem passenden Werkzeug in eine Linie umgewandelt werden. Da die interne Reihenfolge der Punkte von links nach rechts verläuft, klappt dies problemlos. Abb.&nbsp;19 zeigt das aus obiger Parametrisierung erzielte Ergebnis.</p>
-			<p>Anwendungsfälle, für solche stark abstrahierten Abbildungen der Berge gibt es genügend, beispielsweise die vom Autor in Zusammenarbeit mit der Südostbahn realisierte Beschriftung der S-Bahn Züge, für die damals aber SCOP.PER verwendet wurde. <script type="text/javascript">var name="am"; var kap=""; verweis("dokSky");</script></p>
+			<p>Anwendungsfälle, für solche stark abstrahierten Abbildungen der Berge gibt es genügend, beispielsweise die vom Autor in Zusammenarbeit mit der Südostbahn realisierte Beschriftung der S-Bahn Züge, für die damals aber SCOP.PER verwendet wurde. <sup>17</sup></p>
 
 			<a name="namen"></a>
 			<h3>2.6.7&nbsp;&nbsp;Erzeugen der automatischen Beschriftung</h3>
@@ -883,6 +1004,7 @@ mv sil_* $dir
 
 			<a name="dxf_symb"></a>
 			<h3>2.6.8&nbsp;&nbsp;Darstellen der DXF-Datei</h3>
+
 			<p>Um die Namen zu visualisieren, sind die DXF-Geometrietypen <em>Line</em> und <em>Annotation</em> zu laden, die anschliessend in Form von 2 Ebenen in der Liste der geladenen Daten erscheinen. Für die Darstellung ist es am sinnvollsten, eine Klassifizierung nach dem Attribut <em>Layer</em> vorzunehmen, wie in Abb.&nbsp;20 gezeigt. Für den Rahmen lässt sich dann z.B. eine breite Linie definieren, für die Himmelsrichtungen und den Horizont eine feinere und für die Zuordnungslinie eine strichlierte. So kann ein Ergebnis wie in Abb.&nbsp;21 realisiert werden. Auch die Textobjekte können auf diese Weise unterschiedlich dargestellt werden, wobei sich lediglich die Schriftart und Farbe einstellen lässt, nicht jedoch die Schriftgrösse, die ja in der DXF-Datei festgelegt ist (siehe Abschnitt 2.2). Liegen mehrere sichtbare Namenspunkte im gleichen oder sehr ähnlichen Azimut, so überlagern sich leider die Beschriftungen. Dies lässt sich manuell nicht korrigieren, da DXF-Dateien in GIS-Systemen nicht bearbeitet werden können. Eine Lösungsvariante ist es, die weniger wichtigen Namen zu ermitteln und in der Namendatei mit der Priorität 98 zu kennzeichnen, sodass sie bei der Berechnung ignoriert werden (siehe Abschnitt 1.5).</p>
 			<div class="Reihe">
 				<div class="Zelle_norm">
@@ -900,8 +1022,7 @@ mv sil_* $dir
 
 			<a name="qu"></a>
 			<h1>Anmerkungen, Literatur und Quellen</h1>			
-
-			<!-- automatically generated by quellenverzeichnis.awk -->
+			<!-- automatically generated by xref_bibliography.awk -->
 			<div class="Reihe">
 				<div class="Zelle_Verw_l">
 					<sup>1</sup>
@@ -915,7 +1036,7 @@ mv sil_* $dir
 					<sup>2</sup>
 				</div>
 				<div class="Zelle_Verw_r">
-					SCOP wurde ab 1971 am Institut für Photogrammetrie der Universität Stuttgart unter der Leitung des damaligen Direktors Friedrich (Fritz) Ackermann (1929 – 2021) entwickelt. Daraus leitet sich auch der Name des Programmsystems ab: <strong>S</strong>tuttgart <strong>Co</strong>ntour <strong>P</strong>rogram. Siehe Anmerkung 15, S. 1 und 2.
+					SCOP wurde ab 1971 am Institut für Photogrammetrie der Universität Stuttgart unter der Leitung des damaligen Direktors Friedrich (Fritz) Ackermann (1929 – 2021) entwickelt. Daraus leitet sich auch der Name des Programmsystems ab: <strong>S</strong>tuttgart <strong>Co</strong>ntour <strong>P</strong>rogram. siehe Anmerkung 15, S. 1 und 2.
 				</div>
 			</div>
 			<div class="Reihe">
@@ -931,7 +1052,7 @@ mv sil_* $dir
 					<sup>4</sup>
 				</div>
 				<div class="Zelle_Verw_r">
-					Bartsch, Hans-Jochen: Mathematische Formeln, Stuttgart 1967, S. 184ff
+					Bartsch, Hans-Jochen: Mathematische Formeln, Stuttgart 1967, S. 184 ff
 				</div>
 			</div>
 			<div class="Reihe">
@@ -947,7 +1068,7 @@ mv sil_* $dir
 					<sup>6</sup>
 				</div>
 				<div class="Zelle_Verw_r">
-					<a target="_blank" href="https://rechneronline.de/erdradius/">https://rechneronline.de/erdradius/</a> (Online-Rechner für den Erdradius nach Breitengrad)
+					<a target="_blank" href="https://rechneronline.de/erdradius/">https://rechneronline.de/erdradius/</a>		 (Online-Rechner für den Erdradius nach Breitengrad) (letzter Aufruf: 08.02.2026)
 				</div>
 			</div>
 			<div class="Reihe">
@@ -955,7 +1076,7 @@ mv sil_* $dir
 					<sup>7</sup>
 				</div>
 				<div class="Zelle_Verw_r">
-					gemäss Programm SCOP.PERSPECT – Version 3.5, Wien 2002.<br />Da das Handbuch zu SCOP.SKYPLOT diesbezüglich keine Angaben macht, ist anzunehmen, dass dieser Wert dort ebenso gilt. 
+					gemäss Programm SCOP.PERSPECT – Version 3.5, Wien 2002. Da das Handbuch zu SCOP.SKYPLOT diesbezüglich keine Angaben macht, ist anzunehmen, dass dieser Wert dort ebenso gilt. 
 				</div>
 			</div>
 			<div class="Reihe">
@@ -963,7 +1084,7 @@ mv sil_* $dir
 					<sup>8</sup>
 				</div>
 				<div class="Zelle_Verw_r">
-					<a target="_blank" href="https://de.wikipedia.org/wiki/Terrestrische_Refraktion">https://de.wikipedia.org/wiki/Terrestrische_Refraktion</a> (Wikipedia: Terrestrische Refraktion)
+					<a target="_blank" href="https://de.wikipedia.org/wiki/Terrestrische_Refraktion">https://de.wikipedia.org/wiki/Terrestrische_Refraktion</a>		 (Wikipedia: Terrestrische Refraktion) (letzter Aufruf: 08.02.2026)
 				</div>
 			</div>
 			<div class="Reihe">
@@ -971,7 +1092,7 @@ mv sil_* $dir
 					<sup>9</sup>
 				</div>
 				<div class="Zelle_Verw_r">
-					Rickenbacher, Martin: Panorama vom Wittnauer Homberg, Wittnau 1991 (<a target="_blank" href="http://www.martinrickenbacher.ch/panoramen/Adlerauge_1991_Panorama_vom_Wittnauer_Homberg_ocr.pdf">http://www.martinrickenbacher.ch/ […] Wittnauer_Homberg_ocr.pdf</a>)
+					<a target="_blank" href="http://www.martinrickenbacher.ch/panoramen/Adlerauge_1991_Panorama_vom_Wittnauer_Homberg_ocr.pdf">http://www.martinrickenbacher.ch/panoramen/Adlerauge_1991_Panorama_vom_Wittnauer_Homberg_ocr.pdf</a>		 (Rickenbacher, Martin: Panorama vom Wittnauer Homberg, Wittnau 1991) (letzter Aufruf: 08.02.2026)
 				</div>
 			</div>
 			<div class="Reihe">
@@ -979,7 +1100,7 @@ mv sil_* $dir
 					<sup>10</sup>
 				</div>
 				<div class="Zelle_Verw_r">
-					<a target="_blank" href="https://de.wikipedia.org/wiki/Innere_und_%C3%A4u%C3%9Fere_Orientierung">https://de.wikipedia.org/ […]</a> (Wikipedia: Innere und äußere Orientierung)
+					<a target="_blank" href="https://de.wikipedia.org/wiki/Innere_und_%C3%A4u%C3%9Fere_Orientierung">https://de.wikipedia.org/wiki/Innere_und_%C3%A4u%C3%9Fere_Orientierung</a>		 (Wikipedia: Innere und äußere Orientierung) (letzter Aufruf: 08.02.2026)
 				</div>
 			</div>
 			<div class="Reihe">
@@ -987,7 +1108,7 @@ mv sil_* $dir
 					<sup>11</sup>
 				</div>
 				<div class="Zelle_Verw_r">
-					siehe Anmerkung 7, Abschnitt «Direktive NAMES»
+					siehe Anmerkung 7, Abschnitt NAMESFIL
 				</div>
 			</div>
 			<div class="Reihe">
@@ -995,7 +1116,7 @@ mv sil_* $dir
 					<sup>12</sup>
 				</div>
 				<div class="Zelle_Verw_r">
-					siehe Anmerkung 4, S. 230
+					siehe Anmerkung ab, S. 230
 				</div>
 			</div>
 			<div class="Reihe">
@@ -1003,7 +1124,7 @@ mv sil_* $dir
 					<sup>13</sup>
 				</div>
 				<div class="Zelle_Verw_r">
-					<a target="_blank" href="https://de.wikipedia.org/wiki/DXF">https://de.wikipedia.org/wiki/DXF</a> (Wikipedia: DXF)
+					<a target="_blank" href="https://de.wikipedia.org/wiki/DXF">https://de.wikipedia.org/wiki/DXF</a>		 (Wikipedia: DXF) (letzter Aufruf: 08.02.2026)
 				</div>
 			</div>
 			<div class="Reihe">
@@ -1019,7 +1140,7 @@ mv sil_* $dir
 					<sup>15</sup>
 				</div>
 				<div class="Zelle_Verw_r">
-					Kraus, Karl und Otepka, Johannes: DTM Modelling and Visualisation – The SCOP Approach, Heidelberg 2005 (<a target="_blank" href="https://phowo.ifp.uni-stuttgart.de/publications/phowo05/290kraus.pdf">https://phowo.ifp.uni-stuttgart.de/publications/phowo05/290kraus.pdf</a>)
+					<a target="_blank" href="https://phowo.ifp.uni-stuttgart.de/publications/phowo05/290kraus.pdf">https://phowo.ifp.uni-stuttgart.de/publications/phowo05/290kraus.pdf</a>		 (Kraus, Karl und Otepka, Johannes: DTM Modelling and Visualisation – The SCOP Approach, Heidelberg 2005) (letzter Aufruf: 08.02.2026)
 				</div>
 			</div>
 			<div class="Reihe">
@@ -1027,7 +1148,7 @@ mv sil_* $dir
 					<sup>16</sup>
 				</div>
 				<div class="Zelle_Verw_r">
-					<a target="_blank" href="https://en.wikipedia.org/wiki/ArcView_3.x">https://en.wikipedia.org/wiki/ArcView_3.x</a> (Wikipedia: ArcView 3.x)
+					<a target="_blank" href="https://en.wikipedia.org/wiki/ArcView_3.x">https://en.wikipedia.org/wiki/ArcView_3.x</a>		 (Wikipedia: ArcView 3.x) (letzter Aufruf: 08.02.2026)
 				</div>
 			</div>
 			<div class="Reihe">
@@ -1035,7 +1156,7 @@ mv sil_* $dir
 					<sup>17</sup>
 				</div>
 				<div class="Zelle_Verw_r">
-					Krucker, Claudia: Die Namen der Südostbahn-Züge: Von A-Z im Höhenflug, St.&nbsp;Gallen 2022 (<a target="_blank" href="https://direkt.sob.ch/themen/einblick/von-a-z-im-hoehenflug">https://direkt.sob.ch/themen/einblick/von-a-z-im-hoehenflug</a>)
+					<a target="_blank" href="https://direkt.sob.ch/themen/einblick/von-a-z-im-hoehenflug">https://direkt.sob.ch/themen/einblick/von-a-z-im-hoehenflug</a>		 (Krucker, Claudia: Die Namen der Südostbahn-Züge: Von A-Z im Höhenflug, St.&nbsp;Gallen 2022) (letzter Aufruf: 08.02.2026)
 				</div>
 			</div>
 		</div>

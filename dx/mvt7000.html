@@ -27,7 +27,7 @@
 		<div class="box">
 			<h1>Erfahrungen und Empfangsbeobachtungen mit dem Yupiteru MVT-7000</h1>
 			<p>Adrian Böhlen<br />
-			Version 2.9 vom 11.12.2025</p>
+			Version 3.0 vom 13.02.2026</p>
 
 			<h2>Einleitung</h2>
 
@@ -35,24 +35,24 @@
 
 			<table border="1" width="100%" cellspacing="2" cellpadding="0">
 			<tr> 
-				<th>Nr</th>
+				<th>Nr.</th>
         <th>Datum Erhalt</th>
 				<th>Zweck/Bemerkungen</th>
 			</tr>
 			<tr>
 				<td align="right" bgcolor="#FFFFFF"> 21201191 </td>
         <td align="left" bgcolor="#FFFFFF"> 13.05.2024 </td>
-				<td align="left" bgcolor="#FFFFFF"> «Hauptgerät» mit diversen durchgeführten Modifikationen. Lieferung komplett mit Original-Teleskopantenne, Schutzhülle und Bedienungsanleitung.<br />Der Abstimmknopf funktioniert nicht mehr und der Speicherkondensator hat nicht mehr die volle Kapazität.</td>
+				<td align="left" bgcolor="#FFFFFF"> Lieferung komplett mit Original-Teleskopantenne, Schutzhülle und Bedienungsanleitung. Abstimmknopf defekt und der Speicherkondensator mit geringer Kapazität.<br />Im Frühjahr 2026 in Gehäuse von Nr. 10702137 eingebaut. Rückseitige Platine mit diversen Modifikationen im HF-Teil. Frontplatine von Gerät Nr. 10702137, nummerierte Taster vom Gerät Nr. 21101713. Originale Frontplatine vermutlich bei Experimenten mit der Stromversorgung beschädigt; bleibt wie das Gehäuse in Reserve.</td>
 			</tr>
 			<tr>
 				<td align="right" bgcolor="#FFFFFF"> 21101713 </td>
         <td align="left" bgcolor="#FFFFFF"> 03.05.2025 </td>
-				<td align="left" bgcolor="#FFFFFF"> Erworben mit Status «defekt», was auch zutraf. Lieferung mit Original-Teleskopantenne.<br />Ausgeschlachtet als Ersatzteilspender. </td>
+				<td align="left" bgcolor="#FFFFFF"> Erworben mit Status «defekt». Lieferung mit Original-Teleskopantenne.<br />Genauer Defekt liess sich nicht ermitteln, bzw. beheben. Ausgeschlachtet als Ersatzteilspender. </td>
 			</tr>
 			<tr>
 				<td align="right" bgcolor="#FFFFFF"> 10702137 </td>
         <td align="left" bgcolor="#FFFFFF"> 05.12.2025 </td>
-				<td align="left" bgcolor="#FFFFFF"> Unverbasteltes Zweitgerät ohne Modifikationen für Vergleichszwecke.<br />Der Abstimmknopf funktioniert nicht mehr und der Speicherkondensator hat nicht mehr die volle Kapazität. </td>
+				<td align="left" bgcolor="#FFFFFF"> Lieferung ohne jegliches Zubehör, aber funktionstüchtig. Abstimmknopf defekt.<br />Gehäuse und Frontplatine mit Empfangsteil von Nr. 21201191 zusammengebaut (siehe oben), Eingabetastatur restauriert. Rückseitige Platine (Empfangsteil) ist funktionsfähig und bleibt in Reserve.</td>
 			</tr>
 			</table>
       <br />
@@ -70,6 +70,9 @@
 			<ul>
 				<li>
 					<a href="#eigensch">Eigenschaften</a>
+				</li>
+				<li>
+					<a href="#aufb">Aufbau</a>
 				</li>
 				<li>
 					<a href="#manual">Handbuch und Schaltplan</a>
@@ -137,20 +140,49 @@
 			<p>Mit einem Verkaufspreis von DM&nbsp;499.– (Bogerfunk, Stand 1996 <sup>4</sup>) war dieses sehr gut ausgestattete Gerät vergleichsweise günstig zu haben. Interessant ist, dass in einem Inserat von 1998 Bogerfunk plötzlich DM&nbsp;552.– verlangte, obwohl damals nicht nur der Nachfolger MVT-7100/7200, sondern bereits auch dessen Nachfolger MVT-9000 im Handel war. Letzterer kostete allerdings mehr als doppelt so viel und ist daher nicht mehr wirklich vergleichbar. <sup>5</sup> Zum MVT-7000 fand ich noch ein Inserat aus England von 1995, welches einen Verkaufspreis von £&nbsp;265.– ausweist <sup>6</sup>, was beim damaligen Wechselkurs ein wenig teurer als der Preis in Deutschland war. <sup>7</sup> </p>
 			
 			<p>Das umfangreiche Handbuch (siehe dazu nächster Abschnitt) erläutert die vielseitigen Möglichkeiten, wie dieser Empfänger benutzt werden kann. Im Gegensatz zu vielen anderen Funkscannern lässt sich das Gerät aber auch wie ein «normales» Radio bedienen, indem bekannte Frequenzen direkt über die Zahlentastatur eingegeben werden. Auch manueller Suchempfang im eingestellten Raster über die Up- und Down-Taste ist möglich. Desweitern gibt es auf der Oberseite einen rastenden Drehknopf, mit dem quasi-analog ein Bereich abgesucht werden kann. Bei zwei meiner Geräte funktioniert dieser allerdings nicht mehr; keine Ahnung ob das Zufall ist, oder ein Schwachpunkt dieser Geräte. Insgesamt 200 Frequenzen lassen sich speichern, wobei die Speicherung intern über einen Kondensator (<em>Gold Capacitor</em>) mit der hohen Kapazität von 0.22&nbsp;F sichergestellt wird. <sup>8</sup> Diese Teile halten leider nicht ewig und verlieren irgendwann ihre Eigenschaften, was sich dadurch äussert, dass der Speicherinhalt weg ist, wenn das Gerät zwischendurch vom Strom getrennt wurde.</p>
-			
+
+			<a name="aufb"></a>
+			<h2>Aufbau</h2>
+
+      <p>Die Zerlegung des Gerätes ist vor allem beim ersten Mal ziemlich kompliziert. Ich habe den Vorgang bei der Beschreibung der <a href="mvt7000_wfm-filter-mod.html">WFM-Filtermodifikation</a> beschrieben. Das Gehäuse besteht aus Kunststoff in Form von zwei Halbschalen, in die je eine Platine eingeschraubt ist. Die rückseitige Platine beinhaltet den Empfangsteil, wobei sich auf der Oberseite konventionelle und HF-Bauteile finden, während die Rückseite mit SMD-Bauteilen und Miniatur-ICs bestückt ist. Eine kritische Baugruppe (vermutlich der erste Mischer) ist beidseitig mit einem Abschirmblech geschützt. Ansonsten sind keinerlei Abschirmungen vorhanden. Die Frontplatine besteht aus zwei fest miteinander verbundenen Teilen (in Abb.&nbsp;3 erkennbar) und beinhaltet die Bauteile der Stromversorgung sowie den Prozessor und die Bedienelemente.</p>
+      <p>Zwischen vorderer und hinterer Gehäusehalbschale befindet sich auf der Oberseite eine genau in diese Aussparung passende Kunststoffplatte, die über den BNC-Antennenanschluss fest mit der rückseitigen Platine (Empfangsteil) verbunden ist. Der Drehschalter, der ein quasi-analoges Abstimmen ermöglicht, ist dagegen auf der Frontplatine festgelötet, was das Zerlegen kompliziert macht. Dieses Teil scheint ein Schwachpunkt des Empfängers zu sein. Bei den beiden funktionsfähigen Geräten, die ich erworben habe, war er defekt. Da er aber für den Betrieb nicht unbedingt nötig ist (auch in der Grösse vergleichbare Kofferradios haben lediglich eine Tipptasten-Abstimmung), habe ich ihn endgültig entfernt. Das Zerlegen und Zusammenbauen geht daher ein wenig leichter vonstatten.</p>
+
+			<div class="Bild_l">
+				<img width="320px" height="183px" alt="untere Halbschale" onclick="show('./img/mvt7000_untere_halbschale_mit_metallplatten_640x366.jpg');" src="./img/mvt7000_untere_halbschale_mit_metallplatten_640x366.jpg" />
+				<p class="Bildlegende">Abb.&nbsp;3:&nbsp;Rückseitige Gehäusehalbschale mit den vier eingeschraubten Metallplättchen, die die Verbindung zur vorderen Halbschale sicherstellen. Links ist der eine Teil der 16-poligen Stiftleiste zu erkennen.<br />Eigene Aufnahme vom 12.02.2026</p>
+			</div>
+
+      <p>Zur Verbindung zwischen den beiden Halbschalen dienen Metallplättchen, in die je 2 Schrauben eingedreht werden. Es ist sinnvoll, sie nur auf einer Seite zu lösen, da man ansonsten beim Zusammenbau die Plättchen fast nicht mehr an die richtige Stelle kriegt.</p>
+      <p>Die beiden Platinen sind im Betrieb über eine 16-polige Stiftleiste miteinander verbunden. Beim Zerlegen wird diese Verbindung unterbrochen, weshalb ein Betrieb in geöffnetem Zustand nicht möglich ist. Dies gilt auch für das Batteriefach, wo sich ein Teil der Kontakte in der vorderen, und ein Teil in der hinteren Gehäusehälfte befinden. Zur Stromversorgung sind 4 Batterien oder NiMH-Akkus der Grösse AA (Mignon) einzulegen. Dazu ist leider viel Kraft erforderlich, was zwar Wackelkontakte ausschliesst, aber einen permanenten Druck auf das Gehäuse ausübt, weshalb dieses in vielen Fällen Risse aufweist. Alternativ ist auch eine Stromversorgung über ein 12&nbsp;V-Netzteil möglich, wobei der passende Hohlstecker wohl ziemlich selten zu finden ist. Falls man diese Option wählt, ist es am sinnvollsten, ein Original-Steckernetzteil von Yupiteru zu verwenden. Mehr zur Stromversorung im Abschnitt <a href="#batt">Batterien und Akkus</a>.</p>
+      <p>Der wohlklingende Lautsprecher des japanischen Herstellers Namiki ist auf der vorderen Gehäusehälfte eingeschraubt, wird aber von der rückseitigen Platine mit dem Signal versorgt. Das Kabel ist dort mit einer feinen zweipoligen Steckverbindung angeschlossen.</p>
+      <p>Die Bedienung erfolgt primär über 20 Kunststofftaster auf der Frontseite. Diese wirken im Innern auf stabile Drucktaster, wobei eine Kupferplatte für ihren korrekten Halt sorgt. Damit die Tasten nicht klappern, ist zudem ein Schaumstoff eingefügt, der sich leider im Laufe der Jahrzehnte allmählich zersetzt. Es lohnt sich, diesen zu entfernen und die oft korrodierte Kupferplatte zu reinigen. Beim Zerlegen ist zu beachten, dass die Platte über eine Lötfahne mit der Frontplatine verlötet ist, um einen Massekontakt herzustellen. Diese Verbindung muss zuerst mit dem Lötkolben gelöst werden. Danach gilt es, zu verhindern, dass die 20 Taster herauspurzeln. Es macht Sinn, sie zunächst mit einem wasserfesten Filzstift auf der Rückseite zu beschriften, damit sie anschliessend wieder an der richtigen Stelle eingesetzt werden können. Die Taster funktionieren auch ohne den Schaumstoff einwandfrei.</p>
+
+			<div class="Reihe">
+				<div class="Zelle_norm">
+					<img width="320px" height="254px" alt="Tastaturfeld zerlegt" onclick="show('./img/mvt7000_tastaturfeld_zerlegt_640x508.jpg');" src="./img/mvt7000_tastaturfeld_zerlegt_640x508.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;4:&nbsp;Drucktaster und Bedienelemente. Der auf der Kupferplatte aufliegende braune Schaumstoff fällt beim Zerlegen auseinander und sollte gänzlich entfernt werden.<br />Eigene Aufnahme vom 10.02.2026</p>
+				</div>
+				<div class="Zelle_zw">
+				</div>
+				<div class="Zelle_norm">
+					<img width="320px" height="254px" alt="Tastaturfeld gereinigt" onclick="show('./img/mvt7000_taster_eingesetzt_640x508.jpg');" src="./img/mvt7000_taster_eingesetzt_640x508.jpg" />
+					<p class="Bildlegende">Abb.&nbsp;5:&nbsp;Die rückseitig beschrifteten Bedienelemente sind in die passenden Aussparungen der gereinigten Kupferplatte eingelegt. Auf der linken Seite die im Text erwähnte Lötfahne.<br />Eigene Aufnahme vom 12.02.2026</p>
+				</div>
+			</div>
+
 			<a name="manual"></a>
 			<h2>Handbuch und Schaltplan</h2>
 
 			<div class="Reihe">
 				<div class="Zelle_norm">
 					<img width="320px" height="415px" alt="Handbuch" onclick="show('./img/mvt7000_handbuch_640x830.jpg');" src="./img/mvt7000_handbuch_640x830.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;3:&nbsp;Auszug aus dem mehrseitigen «Handbuch», d.h. doppelseitig bedruckten, gehefteten A4-Seiten.<br />Eigene Aufnahme vom 15.05.2025</p>
+					<p class="Bildlegende">Abb.&nbsp;6:&nbsp;Auszug aus dem mehrseitigen «Handbuch», d.h. doppelseitig bedruckten, gehefteten A4-Seiten.<br />Eigene Aufnahme vom 15.05.2025</p>
 				</div>
 				<div class="Zelle_zw">
 				</div>
 				<div class="Zelle_norm">
 					<img width="320px" height="415px" alt="Schaltplan" onclick="show('./img/mvt7000_schaltplan_640x830.jpg');" src="./img/mvt7000_schaltplan_640x830.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;4:&nbsp;Auszug aus dem Schaltplan in originaler Auflösung.<br />Download von <a target="_blank" href="https://www.rigpix.com/yupiteru/mvt7000_schematic.pdf">https://www.rigpix.com/</a> vom 26.10.2024</p>
+					<p class="Bildlegende">Abb.&nbsp;7:&nbsp;Auszug aus dem Schaltplan in originaler Auflösung.<br />Download von <a target="_blank" href="https://www.rigpix.com/yupiteru/mvt7000_schematic.pdf">https://www.rigpix.com/</a> vom 26.10.2024</p>
 				</div>
 			</div>
 
@@ -158,7 +190,7 @@
 			
 			<p>Wie einem Inserat von bogerfunk (heute boger electronics GmbH) aus den 1990er Jahren zu entnehmen ist, gab es einst auch eine Bedienungsanleitung in deutscher Sprache, die vermutlich von bogerfunk selbst verfasst wurde (siehe Abb.&nbsp;2). Wer irgendwo eine solche auftreiben kann, ist natürlich bestens bedient. <sup>10</sup></p>
 			
-			<p>Will man das Gerät nicht nur bedienen, sondern auch wissen, wie es funktioniert, beispielsweise um Modifikationen selbst vorzunehmen, ist ein Schaltplan erforderlich. Manchmal waren diese im Anhang der Dokumentation aufgeführt, wie z.B. im excellenten Handbuch des Lowe HF-225 von 1989. Beim MVT-7000 ist das leider nicht der Fall, aber online liess sich ein Scan des <em>Service Manual</em> finden, welches nebst dem Schaltplan auch einen Bestückungsplan und eine Liste der verbauten Teile enthält. <sup>11</sup> Auch dieses Dokument ist leider nur von sehr bescheidener graphischer Qualität, sodass es z.B. unmöglich ist, die Namen, bzw. Werte der meisten Bauteile zu erkennen. Mit etwas Verständnis für die Sache gelingt es aber durchaus, wesentliche Erkenntnisse zu gewinnen. Im Ausschnitt, der in Abb.&nbsp;4 gezeigt wird, ist z.B. der Motorola-Baustein MC3361D zu erkennen, wo die finale Zwischenfrequenz von 455&nbsp;kHz erzeugt und durch das Keramikfilter geschleust wird. Danach trennen sich die Wege von NFM- und AM-Signal. Details im nächsten Abschnitt.</p>
+			<p>Will man das Gerät nicht nur bedienen, sondern auch wissen, wie es funktioniert, beispielsweise um Modifikationen selbst vorzunehmen, ist ein Schaltplan erforderlich. Manchmal waren diese im Anhang der Dokumentation aufgeführt, wie z.B. im excellenten Handbuch des Lowe HF-225 von 1989. Beim MVT-7000 ist das leider nicht der Fall, aber online liess sich ein Scan des <em>Service Manual</em> finden, welches nebst dem Schaltplan auch einen Bestückungsplan und eine Liste der verbauten Teile enthält. <sup>11</sup> Auch dieses Dokument ist leider nur von sehr bescheidener graphischer Qualität, sodass es z.B. unmöglich ist, die Namen, bzw. Werte der meisten Bauteile zu erkennen. Mit etwas Verständnis für die Sache gelingt es aber durchaus, wesentliche Erkenntnisse zu gewinnen. Im Ausschnitt, der in Abb.&nbsp;7 gezeigt wird, ist z.B. der Motorola-Baustein MC3361D zu erkennen, wo die finale Zwischenfrequenz von 455&nbsp;kHz erzeugt und durch das Keramikfilter geschleust wird. Danach trennen sich die Wege von NFM- und AM-Signal. Details im nächsten Abschnitt.</p>
 
 			<a name="funkt"></a>
 			<h2>Funktionsprinzip</h2>
@@ -173,13 +205,13 @@
 			<div class="Reihe">
 				<div class="Zelle_norm">
 					<img width="320px" height="200px" alt="Filter 45K24A1" src="./img/mvt_45k24a1_320x200.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;5:&nbsp;Das 24&nbsp;kHz-Quarzfilter auf der 45&nbsp;MHz-Ebene mit seiner typischen Quarzform.<br />Eigene Aufnahme vom 09.05.2025</p>
+					<p class="Bildlegende">Abb.&nbsp;8:&nbsp;Das 24&nbsp;kHz-Quarzfilter auf der 45&nbsp;MHz-Ebene mit seiner typischen Quarzform.<br />Eigene Aufnahme vom 09.05.2025</p>
 				</div>
 				<div class="Zelle_zw">
 				</div>
 				<div class="Zelle_norm">
 					<img width="320px" height="200px" alt="Filter LF-B15" src="./img/mvt_lf-b15_320x200.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;6:&nbsp;Das 15&nbsp;kHz-Keramikfilter auf der 455&nbsp;kHz-Ebene mit seiner typischen Kästchenform.<br />Eigene Aufnahme vom 20.09.2024</p>
+					<p class="Bildlegende">Abb.&nbsp;9:&nbsp;Das 15&nbsp;kHz-Keramikfilter auf der 455&nbsp;kHz-Ebene mit seiner typischen Kästchenform.<br />Eigene Aufnahme vom 20.09.2024</p>
 				</div>
 			</div>
 
@@ -194,7 +226,7 @@
 
 			<div class="Bild_l">
 				<img width="320px" height="103px" alt="S9-Signal" onclick="show('./img/mvt_hf225_27185_640x206.jpg');" src="./img/mvt_hf225_27185_640x206.jpg" />
-				<p class="Bildlegende">Abb.&nbsp;7:&nbsp;Stark einfallende Signale (hier S9 vom eigenen CB-Sender, gemessen mit dem Lowe HF-225) bereiten dem MVT-7000 einige Probleme.<br />Eigene Aufnahme vom 20.10.2024</p>
+				<p class="Bildlegende">Abb.&nbsp;10:&nbsp;Stark einfallende Signale (hier S9 vom eigenen CB-Sender, gemessen mit dem Lowe HF-225) bereiten dem MVT-7000 einige Probleme.<br />Eigene Aufnahme vom 20.10.2024</p>
 			</div>
 
 			<p>Ausgehend von den Daten der eingesetzten Filter und unter Zuhilfenahme des eigenen CB-Senders auf 27.185&nbsp;MHz lässt sich nun prüfen, wie gut die Filter bei einem starken Signal sperren. Als Messempfänger für die Signalstärke dient der in ca. 1&nbsp;m Distanz von der Sendeantenne aufgestellte Lowe HF-225 von 1989, der ebenfalls einen koaxialen 50&nbsp;Ohm-Antennenanschluss aufweist (PL-259 Norm), in den ich eine passende Teleskopantenne eingeschraubt habe. Das S-Meter zeigt knapp über S9 an, was einer Eingangsspannung am Antennenanschluss von ungefähr 50&nbsp;µV entspricht. <sup>18</sup> Dies ist nun kein überaus hoher Wert und weniger als ich erwartet hatte. Gerade im Sichtfeld starker Sender dürften in der Praxis noch deutlich stärkere Pegel zu registrieren sein. Als Testanordnung ist dies aber ein realistisches Szenario und daher gut geeignet.</p>
@@ -207,7 +239,7 @@
 
 			<div class="Bild_l">
 				<img width="320px" height="250px" alt="UKW-Testsender" onclick="show('./img/mvt_ukw-sender_test_640x500.jpg');" src="./img/mvt_ukw-sender_test_640x500.jpg" />
-				<p class="Bildlegende">Abb.&nbsp;8:&nbsp;UKW-Testsender, eingestellt auf 88.2&nbsp;MHz, ausgestattet mit Teleskopantenne, gespeist mit dem als mp3-Player arbeitenden Samsung GT-S6102.<br />Eigene Aufnahme vom 07.02.2025</p>
+				<p class="Bildlegende">Abb.&nbsp;11:&nbsp;UKW-Testsender, eingestellt auf 88.2&nbsp;MHz, ausgestattet mit Teleskopantenne, gespeist mit dem als mp3-Player arbeitenden Samsung GT-S6102.<br />Eigene Aufnahme vom 07.02.2025</p>
 			</div>
 			
 			<p>Für einen zweiten Test kommt ein Belkin Tunecast II FM Transmitter, umgangssprachlich «Mini-Zünder» genannt, zum Einsatz. Gespeist mit dem mp3-Player produziert dieser ein Breitband-FM-Signal, wie die «echten» UKW-Sender (wenn auch mit geringerem Frequenzhub). Auch hier prüfe ich, wie weit abseits der eigentlichen Frequenz der MVT-7000 das Tonsignal wiedergibt, wie zuvor in WFM und NFM. Als Frequenz wähle ich 88.2&nbsp;MHz. Wie stark das Signal ist, kann ich nicht messen, da der HF-225 nur bis 30&nbsp;MHz empfängt. Es ist aber höchstwahrscheinlich deutlich schwächer, weshalb ich den Abstand zur Sendeantenne auf unter 1&nbsp;m reduziere.</p>
@@ -223,7 +255,7 @@
 
 			<div class="Bild_l">
 				<img width="320px" height="250px" alt="NFM-Empfang" onclick="show('./img/mvt7000_ukw-nfm_640x500.jpg');" src="./img/mvt7000_ukw-nfm_640x500.jpg" />
-				<p class="Bildlegende">Abb.&nbsp;9:&nbsp;Die Signale des weit nördlich der Schweizer Grenze liegenden Senders Witthoh kann der MVT-7000 in Unterbach&nbsp;BE, mitten in den Alpen, noch mit 3 von 5 S-Stufen wiedergeben, dies allerdings nur in NFM.<br />Eigene Aufnahme vom 01.10.2024</p>
+				<p class="Bildlegende">Abb.&nbsp;12:&nbsp;Die Signale des weit nördlich der Schweizer Grenze liegenden Senders Witthoh kann der MVT-7000 in Unterbach&nbsp;BE, mitten in den Alpen, noch mit 3 von 5 S-Stufen wiedergeben, dies allerdings nur in NFM.<br />Eigene Aufnahme vom 01.10.2024</p>
 			</div>
 
 			<p>Wie gesehen ergeben sich auch mit modifizierter Bandbreite in WFM noch zahlreiche Probleme vor allem im Umfeld starker Signale. Bei den Empfangstests 2024 in <a target="_blank" href="https://s.geo.admin.ch/53yvep77tc53">Unterbach&nbsp;BE</a> habe ich beim UKW-DX daher zwischendurch versuchshalber auch mal auf NFM umgeschaltet. Dabei zeigt sich ein gänzlich anderes Bild als in WFM: Zum einen ist die Empfindlichkeit deutlich höher und das S-Meter springt oft zwei bis drei Stufen nach oben. Zum anderen sind die beschriebenen Grosssignaleffekte weitaus schwächer und Sender, von denen in WFM keine Spur zu erkennen ist, sind laut und «deutlich» hörbar, z.B. Radio&nbsp;7 von Witthoh auf 102.5&nbsp;MHz mit 3&nbsp;S-Stufen (in WFM durch «Geistersender» zugedeckt). Auch die Trennschärfe ist so gut, dass selbst 100&nbsp;kHz neben Ortssendern Empfang möglich ist, z.B. der Bantiger auf 93.2&nbsp;MHz (SRF&nbsp;2) neben dem nur 5.6&nbsp;km entfernten und 0.5&nbsp;kW starken Sender Brienz/Wellenberg auf 93.1&nbsp;MHz (SRF&nbsp;1). Für ausgesprochenes DX in diesem Frequenzbereich ist der Empfänger also in der Stellung NFM durchaus zu gebrauchen, wenngleich dies den erheblichen Nachteil mit sich bringt, dass dynamik-komprimierte und/oder stark modulierte Signale kaum lesbar sind. Am besten geeignet für solche Versuche sind Kultur- und/oder Klassik-Programme (getestet mit SRF&nbsp;2, SWR&nbsp;Kultur und dem Deutschlandfunk). Auch die Frequenzstabilität ist in NFM ausgezeichnet und es zeigen sich bei längerer Betriebsdauer keinerlei Abweichungen.</p>
@@ -235,7 +267,7 @@
 
 			<div class="Bild_l">
 				<img width="320px" height="210px" alt="KW-Empfang" onclick="show('./img/mvt7000_kurzwelle_640x420.jpg');" src="./img/mvt7000_kurzwelle_640x420.jpg" />
-				<p class="Bildlegende">Abb.&nbsp;10:&nbsp;Vor allem die internationalen Kurzwellensender sind oft in guter Qualität mit dem MVT-7000 zu empfangen, so wie hier Radio România Internațional mit seinem deutschsprachigen Programm nachmittags auf 9600 kHz, welches mit einer Leistung von 300&nbsp;kW vom Standort Țigănești nördlich von Bukarest ausgestrahlt wird.<br />Ein Kopfhörer ist auf der Oberseite eingesteckt.<br />Eigene Aufnahme vom 26.09.2024</p>
+				<p class="Bildlegende">Abb.&nbsp;13:&nbsp;Vor allem die internationalen Kurzwellensender sind oft in guter Qualität mit dem MVT-7000 zu empfangen, so wie hier Radio România Internațional mit seinem deutschsprachigen Programm nachmittags auf 9600 kHz, welches mit einer Leistung von 300&nbsp;kW vom Standort Țigănești nördlich von Bukarest ausgestrahlt wird.<br />Ein Kopfhörer ist auf der Oberseite eingesteckt.<br />Eigene Aufnahme vom 26.09.2024</p>
 			</div>
 			
 			<p>Der MVT-7000 ist bekanntlich ein Breitbandempfänger, daher lohnt sich auch ein Blick auf Wellenbereiche abseits von UKW. Nun heisst es zwar manchmal, der Kurzwellenbereich sei bei den meisten Funkscannern nur ein Werbeargument und in der Praxis kaum zu gebrauchen <sup>21</sup>, beim MVT-7000 trifft das aber ganz und gar nicht zu. Wie bereits gesehen, entspricht die AM-Bandbreite etwa drei Kurzwellenkanälen à 5&nbsp;kHz, was in der Praxis weniger ein Problem ist, als man vielleicht denken könnte. Beim Vergleich mit einem klassischen portablen Weltempfänger hoher Qualität (Panasonic RF-B45 von 1991) zeigte sich, dass der MVT-7000 die meisten mit dem Vergleichsgerät gehörten Sender ebenfalls empfangen kann und dies mit der bei diesem Gerät auf Kurzwelle nicht ideal angepassten Teleskopantenne. Yupiteru hat diesen Frequenzbereich offensichtlich sehr ernst genommen und dem Empfänger auch dort eine überdurchschnittliche Empfindlichkeit beschert. Weitere Details dazu weiter unten.</p>
@@ -250,13 +282,13 @@
 			<div class="Reihe">
 				<div class="Zelle_norm">
 					<img width="320px" height="426px" alt="Mobiler Dipol eingeschoben" onclick="show('./img/mobiler-dipol_eingeschoben_640x853.jpg');" src="./img/mobiler-dipol_eingeschoben_640x853.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;11:&nbsp;Mobile Dipolantenne mit eingeschobenen Teleskopstäben.<br />Eigene Aufnahme vom 10.05.2025</p>
+					<p class="Bildlegende">Abb.&nbsp;14:&nbsp;Mobile Dipolantenne mit eingeschobenen Teleskopstäben.<br />Eigene Aufnahme vom 10.05.2025</p>
 				</div>
 				<div class="Zelle_zw">
 				</div>
 				<div class="Zelle_norm">
 					<img width="320px" height="426px" alt="Mobiler Dipol vertikal" onclick="show('./img/mobiler-dipol_vertikal_montiert_640x853.jpg');" src="./img/mobiler-dipol_vertikal_montiert_640x853.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;12:&nbsp;Mobile Dipolantenne, vertikal montiert. Die drei äussersten Segmente sind jeweils eingeschoben, womit jeder Schenkel ca. 50&nbsp;cm lang ist, was für den Empfang im oberen Flugfunkbereich ideal ist (Wellenlänge ca. 2.2&nbsp;m).<br />Eigene Aufnahme vom 10.05.2025</p>
+					<p class="Bildlegende">Abb.&nbsp;15:&nbsp;Mobile Dipolantenne, vertikal montiert. Die drei äussersten Segmente sind jeweils eingeschoben, womit jeder Schenkel ca. 50&nbsp;cm lang ist, was für den Empfang im oberen Flugfunkbereich ideal ist (Wellenlänge ca. 2.2&nbsp;m).<br />Eigene Aufnahme vom 10.05.2025</p>
 				</div>
 			</div>
 
@@ -267,7 +299,7 @@
 
 			<div class="Bild_l">
 				<img width="320px" height="480px" alt="Grahn-Antenne" onclick="show('./img/mvt_grahn_antenne_640x960.jpg');" src="./img/mvt_grahn_antenne_640x960.jpg" />
-				<p class="Bildlegende">Abb.&nbsp;13:&nbsp;Die Grahn-Antenne (hier die GS2 von 1995 mit dem kombinierten Mittel- und Kurzwellenmodul ML-1-S) lässt sich gut mit dem MVT-7000 verwenden. Zur Verbindung ist ein kurzes Koaxkabel RG58 mit BNC-Stecker beidseitig erforderlich. Ausserdem benötigt diese Antenne eine externe 12&nbsp;V-Stromversorgung.<br />Eigene Aufnahme vom 25.10.2024</p>
+				<p class="Bildlegende">Abb.&nbsp;16:&nbsp;Die Grahn-Antenne (hier die GS2 von 1995 mit dem kombinierten Mittel- und Kurzwellenmodul ML-1-S) lässt sich gut mit dem MVT-7000 verwenden. Zur Verbindung ist ein kurzes Koaxkabel RG58 mit BNC-Stecker beidseitig erforderlich. Ausserdem benötigt diese Antenne eine externe 12&nbsp;V-Stromversorgung.<br />Eigene Aufnahme vom 25.10.2024</p>
 			</div>
 
 			<p>Ein weiterer Antennentyp, der mit dem MVT-7000 sehr gut betrieben werden kann, ist die selektive Rahmenantenne (engl. <em>Magnetic Loop</em>). Antennen dieser Art empfangen die magnetische Komponente der elektromagnetischen Wellen und dies nur in einem schmalen Frequenzbereich. Sie sind folglich bei jedem Senderwechsel neu einzustellen, unterdrücken dafür aber sehr wirkungsvoll störende Signale anderer, unerwünschter Sender. Solche Antennen lassen sich mit etwas Aufwand selber bauen, daneben gibt es auch verschiedene käufliche Produkte, wie beispielsweise jene des deutschen Herstellers Grahn. <sup>23</sup> Hierbei handelt es sich um aktive Antennensysteme, d.h. im Basisgerät ist ein Verstärker integriert, der immer eingeschaltet sein muss. Um den Empfänger nicht zu überfordern, dreht man den entsprechenden Regler am besten zunächst auf das Minimum zurück, was oft schon ein genügend starkes Signal ergibt. Andernfalls kann man versuchen, ob mit einer höheren Verstärkung eine Empfangsverbesserung eintritt.</p>
@@ -279,7 +311,7 @@
 
 			<div class="Bild_l">
 				<img width="320px" height="229px" alt="Tropenband" onclick="show('./img/mvt7000_tropenband_grahn_640x458.jpg');" src="./img/mvt7000_tropenband_grahn_640x458.jpg" />
-				<p class="Bildlegende">Abb.&nbsp;14:&nbsp;Auch das geht: Tropenbandempfang mit dem MVT-7000. Der nur 1.5&nbsp;kW starke Sender Weenermoor auf 3995&nbsp;kHz, nahe der nicht ganz tropischen Nordseeküste, lässt sich mithilfe der Grahn-Antenne frühmorgens einwandfrei empfangen. Um einem Störton aus dem Weg zu gehen, ist die Frequenz 10&nbsp;kHz tiefer, auf 3985&nbsp;kHz eingestellt.<br />Eigene Aufnahme vom 25.10.2024</p>
+				<p class="Bildlegende">Abb.&nbsp;17:&nbsp;Auch das geht: Tropenbandempfang mit dem MVT-7000. Der nur 1.5&nbsp;kW starke Sender Weenermoor auf 3995&nbsp;kHz, nahe der nicht ganz tropischen Nordseeküste, lässt sich mithilfe der Grahn-Antenne frühmorgens einwandfrei empfangen. Um einem Störton aus dem Weg zu gehen, ist die Frequenz 10&nbsp;kHz tiefer, auf 3985&nbsp;kHz eingestellt.<br />Eigene Aufnahme vom 25.10.2024</p>
 			</div>
 
 			<p>Wie bereits erwähnt, beginnt der garantierte Empfangsbereich bei 8&nbsp;MHz, jedoch lassen sich auch Sender bis ins 49&nbsp;m-Band bei 6&nbsp;MHz einwandfrei empfangen. Da stellt sich die Frage, ob das Gerät auch bei tieferen Frequenzen noch Empfang liefert. Dies herauszufinden wird allerdings dadurch erschwert, dass es weiter unten nur noch wenige Rundfunksender gibt. Die so genannten Tropenbänder (60, 75, 90 und 120&nbsp;m) im Bereich 2 – 5&nbsp;MHz werden in den Ländern der tropischen Zone, denen sie einst zugeteilt waren, kaum noch benutzt; auch dort findet Rundfunk mittlerweile primär auf UKW statt. Jedoch gibt es in anderen Weltgegenden durchaus noch Aktivitäten, wenn auch wenige. Welche es sind, lässt sich graphisch und in tabellarischer Form auf der Seite <a target="_blank" href="http://www.short-wave.info/index.php">http://www.short-wave.info/index.php</a> anzeigen</p>
@@ -304,13 +336,13 @@
 			<div class="Reihe">
 				<div class="Zelle_norm">
 					<img width="320px" height="275px" alt="HF-Ausgang Videogerät" onclick="show('./img/mvt_video_ausgang_640x550.jpg');" src="./img/mvt_video_ausgang_640x550.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;15:&nbsp;Einfache Dipolantenne am koaxialen Ausgang (RF OUT) auf der Rückseite des Videorecorders JVC HR-E249E.<br />Eigene Aufnahme vom 25.10.2024</p>
+					<p class="Bildlegende">Abb.&nbsp;18:&nbsp;Einfache Dipolantenne am koaxialen Ausgang (RF OUT) auf der Rückseite des Videorecorders JVC HR-E249E.<br />Eigene Aufnahme vom 25.10.2024</p>
 				</div>
 				<div class="Zelle_zw">
 				</div>
 				<div class="Zelle_norm">
 					<img width="320px" height="275px" alt="MVT-7000 Videokanal" onclick="show('./img/mvt7000_videokanal_640x550.jpg');" src="./img/mvt7000_videokanal_640x550.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;16:&nbsp;MVT-7000 mit eingestellter Tonfrequenz des Videokanals (UHF-Kanal&nbsp;60). Aufgrund des Frequenzrasters in WFM muss die Frequenz leicht verschoben auf 788.7&nbsp;MHz eingestellt werden. Selbst direkt neben dem Videogerät beträgt die Feldstärke nur 1 – 2 S-Stufen.<br />Eigene Aufnahme vom 25.10.2024</p>
+					<p class="Bildlegende">Abb.&nbsp;19:&nbsp;MVT-7000 mit eingestellter Tonfrequenz des Videokanals (UHF-Kanal&nbsp;60). Aufgrund des Frequenzrasters in WFM muss die Frequenz leicht verschoben auf 788.7&nbsp;MHz eingestellt werden. Selbst direkt neben dem Videogerät beträgt die Feldstärke nur 1 – 2 S-Stufen.<br />Eigene Aufnahme vom 25.10.2024</p>
 				</div>
 			</div>
 
@@ -321,7 +353,7 @@
 
 			<div class="Bild_l">
 				<img width="320px" height="275px" alt="ZF empfangen" onclick="show('./img/mvt7000_zf_empfangen_640x550.jpg');" src="./img/mvt7000_zf_empfangen_640x550.jpg" />
-				<p class="Bildlegende">Abb.&nbsp;17:&nbsp;Es geht auch gemeinsam: Der RF-B45 horcht auf 88.5&nbsp;MHz nach Signalen des 378&nbsp;km entfernten Senders Neuvy-Deux-Clochers, und der MVT-7000 empfängt die dabei intern produzierte Zwischenfrequenz auf 10.7&nbsp;MHz und demoduliert in Schmalband-FM.<br />Eigene Aufnahme vom 23.02.2025</p>
+				<p class="Bildlegende">Abb.&nbsp;20:&nbsp;Es geht auch gemeinsam: Der RF-B45 horcht auf 88.5&nbsp;MHz nach Signalen des 378&nbsp;km entfernten Senders Neuvy-Deux-Clochers, und der MVT-7000 empfängt die dabei intern produzierte Zwischenfrequenz auf 10.7&nbsp;MHz und demoduliert in Schmalband-FM.<br />Eigene Aufnahme vom 23.02.2025</p>
 			</div>
 			
 			<p>Nur eine interessante, aber nutzlose Spielerei? Durchaus nicht! Dass man UKW-Rundfunksender auch in Schmalband-FM empfangen kann, wurde im ersten Abschnitt bereits behandelt. Auf diese Weise ist nicht nur die Kanaltrennung im 100&nbsp;kHz-Raster kein Problem, sondern aufgrund der sehr hohen Empfindlichkeit können auch schwächste Signale noch aus dem Rauschen geholt werden. Hat man also einen hochwertigen UKW-Empfänger verfügbar, der aber nur in Breitband-FM empfängt (was üblich ist), so kann auf diese Weise u.U. noch etwas mehr herausgeholt werden.</p>
@@ -335,45 +367,45 @@
 
 			<div class="Bild_l">
 				<img width="320px" height="390px" alt="ext. Lautsprecher" onclick="show('./img/mvt7000_ext_ls_640x780.jpg');" src="./img/mvt7000_ext_ls_640x780.jpg" />
-				<p class="Bildlegende">Abb.&nbsp;18:&nbsp;Ein hochwertiger externer Lautsprecher (hier ein Canton Plus GXL.3) verbessert die Wiedergabequalität erheblich und ermöglicht eine höhere Lautstärke.<br />Eigene Aufnahme vom 21.02.2025</p>
+				<p class="Bildlegende">Abb.&nbsp;21:&nbsp;Ein hochwertiger externer Lautsprecher (hier ein Canton Plus GXL.3) verbessert die Wiedergabequalität erheblich und ermöglicht eine höhere Lautstärke.<br />Eigene Aufnahme vom 21.02.2025</p>
 			</div>
 
-			<p>Ein Punkt, der bei <em>Mersey Radio</em> <sup>29</sup> nebst der hohen Empfindlichkeit besonders hervorgehoben wird, ist die Wiedergabequalität. Die meisten solch kleinen Geräte klingen reichlich blechern, aber Yupiteru hat durch den Einbau eines qualitativ hochwertigen Lautsprechers ein Gerät geschaffen, das sich durchaus auch zum gemütlichen «Zuhör-Empfang» eignet, wenn auch aufgrund der erzielbaren Lautstärke nur zur Beschallung kleiner Räume. Wer diesbezüglich mehr erwartet, muss zu einem externen Lautsprecher greifen, wobei sich mit einem hochwertigen Exemplar ein sehr gutes Klangbild realisieren lässt. Die Leistung des NF-Verstärker lässt auch eine recht hohe Lautstärke zu, vorausgesetzt, die Akkus liefern genügend Strom (siehe nächstes Kapitel). Das Tonsignal wird über die 3.5&nbsp;mm Klinkenbuchse mit der Bezeichnung EXT SP auf der Oberseite abgegriffen.</p>
+			<p>Ein Punkt, der bei <em>Mersey Radio</em> <sup>29</sup> nebst der hohen Empfindlichkeit besonders hervorgehoben wird, ist die Wiedergabequalität. Die meisten solch kleinen Geräte klingen reichlich blechern, aber Yupiteru hat durch den Einbau eines qualitativ hochwertigen Lautsprechers des japanischen Herstellers Namiki ein Gerät geschaffen, das sich durchaus auch zum gemütlichen «Zuhör-Empfang» eignet, wenn auch aufgrund der erzielbaren Lautstärke nur zur Beschallung kleiner Räume. Wer diesbezüglich mehr erwartet, muss zu einem externen Lautsprecher greifen, wobei sich mit einem hochwertigen Exemplar ein sehr gutes Klangbild realisieren lässt. Die Leistung des NF-Verstärker lässt auch eine recht hohe Lautstärke zu, vorausgesetzt, die Akkus liefern genügend Strom (siehe nächstes Kapitel). Das Tonsignal wird über die 3.5&nbsp;mm Klinkenbuchse mit der Bezeichnung EXT SP auf der Oberseite abgegriffen.</p>
 			
 			<p>Bevorzugt man einen Kopfhörer, muss ebenfalls dieser Anschluss verwendet werden, der natürlich für Mono-Stecker vorgesehen ist. Man kann zwar auf beiden Seiten ein Tonsignal erzwingen, wenn man den Klinkenstecker nicht ganz an den Anschlag schiebt, aber das ist nur für Testzwecke ein gangbarer Weg. Wenn man also nicht im Besitz eines speziellen Funk-Kopfhörers ist <sup>30</sup>, müssen die Anschlüsse eines herkömmlichen Stereokopfhörers so mit einem Monostecker verlötet werden, dass beidseitig ein Tonsignal zu hören ist. Wie erwähnt, ist der Anschluss mit EXT SP bezeichnet, weshalb die Impedanz eigentlich an einen Lautsprecher angepasst ist, aber im Handbuch steht, dass dort sowohl ein externer Lautsprecher wie auch ein Kopfhörer angeschlossen werden kann. In der Praxis zeigt sich allerdings, dass beim Anschluss von normalen Ohrhörern, wie sie früher beispielsweise Walkmen oder Handys beilagen, das Signal sehr laut ist, selbst wenn man den Lautstärkeregler nur ganz wenig aufdreht. Dies ist vor allem in der Betriebsart NFM der Fall und nicht nur äusserst unangenehm, sondern auch nicht gerade gesund, namentlich weil sich auch das Ein- und Ausschalten mit einem lauten Knacken im Hörer bemerkbar macht. Weiter fällt vor allem in der Betriebsart WFM auf, dass die Wiedergabe sehr höhenbetont ist und praktisch keine Bässe wahrnehmbar sind. Als Vergleichsgerät diente hierzu der Panasonic RF-B45, der für UKW-Empfang ebenfalls mit 56&nbsp;kHz-Filtern ausgestattet ist und den Kopfhöreranschluss auch nur mit einem Mono-Signal beliefert. Die Wiedergabe ist dort ausgezeichnet und das volle Klangbild ist fast schon HiFi-mässig (getestet und verglichen mit einem Sennheiser HD 300). Als Funkscanner wurde der MVT-7000 dagegen primär für die Sprechfunkwiedergabe optimiert, selbst in der Betriebsart WFM. Das lässt sich nicht ändern, aber damit kann man leben, zumal der Effekt mit einem guten externen Lautsprecher weniger ausgeprägt ist (siehe oben).</p>
 
 			<div class="Reihe">
 				<div class="Zelle_norm">
 					<img width="320px" height="215px" alt="Tiefpassfilter Schaltung" onclick="show('./img/mvt_schaltung_tiefpass_640x430.jpg');" src="./img/mvt_schaltung_tiefpass_640x430.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;19:&nbsp;Schaltplan für ein einfaches RC-Tiefpassfilter mit variablem Widerstand.<br />Eigene Aufnahme vom 05.12.2025</p>
+					<p class="Bildlegende">Abb.&nbsp;22:&nbsp;Schaltplan für ein einfaches RC-Tiefpassfilter mit variablem Widerstand.<br />Eigene Aufnahme vom 05.12.2025</p>
 				</div>
 				<div class="Zelle_zw">
 				</div>
 				<div class="Zelle_norm">
 					<img width="320px" height="215px" alt="Tiefpassfilter aufgebaut" onclick="show('./img/mvt_tiefpass_auf_lochstreifenplatine_640x430.jpg');" src="./img/mvt_tiefpass_auf_lochstreifenplatine_640x430.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;20:&nbsp;RC-Tiefpassfilter, aufgebaut auf einem Stückchen Lochstreifenplatine. Die Kabel vom Anschlussstecker und zum Stereo-Ohrhörer sind angeschlossen.<br />Eigene Aufnahme vom 30.11.2025</p>
+					<p class="Bildlegende">Abb.&nbsp;23:&nbsp;RC-Tiefpassfilter, aufgebaut auf einem Stückchen Lochstreifenplatine. Die Kabel vom Anschlussstecker und zum Stereo-Ohrhörer sind angeschlossen.<br />Eigene Aufnahme vom 30.11.2025</p>
 				</div>
 			</div>
       
-			<p>Um hingegen das Lautstärkeproblem zu entschärfen, habe ich mich entschieden, einen der zahlreich in der Bastelkiste liegenden Kopfhörer (Ohrhörer) für den Einsatz mit dem MVT-7000 etwas umzubauen. Dazu gäbe es verschiedene Möglichkeiten; ich habe mich für ein passives RC-Tiefpassfilter entschieden. So können gleichzeitig auch störende, hochfrequente Töne wie Rauschen oder das erwähnte Knacken gedämpft werden. Ein solches Filter ist äusserst einfach aufgebaut und besteht nur aus einem Widerstand und einem Kondensator (daher auch die Bezeichnung RC). Die Berechnung der korrekten Werte kann man basierend auf den zugrunde liegenden Formeln mit dem Taschenrechner vornehmen, oder man benutzt einfach einen Online-Rechner; letzteren Weg, habe ich gewählt. <sup>31</sup> Das Ergebnis ist auf der Skizze in Abb.&nbsp;19 erkennbar. Zum Aufbau der Konstruktion diente ein kleiner Rest Lochstreifenplatine. Auf diese Weise konnte ich auch gleich die beiden Tonkanäle des Hörers zu einem zusammenfügen. Mangels eines geeigneten Gehäuses habe ich selbst eines aus ein paar Bastelhölzern zusammengeklebt und anschliessend lackiert. Die ideale Einstellung des Trimmpotis wurde durch Versuch festgestellt, wobei ich in der Gehäuseoberseite ein Loch gebohrt habe, um die Einstellung bei Bedarf nachträglich verändern zu können. Die Verbesserung gegenüber vorher ist markant, und fällt vor allem beim Wechsel von WFM zu NFM auf, wo einem zuvor jeweils fast die Ohren abgefallen sind!</p>
+			<p>Um hingegen das Lautstärkeproblem zu entschärfen, habe ich mich entschieden, einen der zahlreich in der Bastelkiste liegenden Kopfhörer (Ohrhörer) für den Einsatz mit dem MVT-7000 etwas umzubauen. Dazu gäbe es verschiedene Möglichkeiten; ich habe mich für ein passives RC-Tiefpassfilter entschieden. So können gleichzeitig auch störende, hochfrequente Töne wie Rauschen oder das erwähnte Knacken gedämpft werden. Ein solches Filter ist äusserst einfach aufgebaut und besteht nur aus einem Widerstand und einem Kondensator (daher auch die Bezeichnung RC). Die Berechnung der korrekten Werte kann man basierend auf den zugrunde liegenden Formeln mit dem Taschenrechner vornehmen, oder man benutzt einfach einen Online-Rechner; letzteren Weg, habe ich gewählt. <sup>31</sup> Das Ergebnis ist auf der Skizze in Abb.&nbsp;22 erkennbar. Zum Aufbau der Konstruktion diente ein kleiner Rest Lochstreifenplatine. Auf diese Weise konnte ich auch gleich die beiden Tonkanäle des Hörers zu einem zusammenfügen. Mangels eines geeigneten Gehäuses habe ich selbst eines aus ein paar Bastelhölzern zusammengeklebt und anschliessend lackiert. Die ideale Einstellung des Trimmpotis wurde durch Versuch festgestellt, wobei ich in der Gehäuseoberseite ein Loch gebohrt habe, um die Einstellung bei Bedarf nachträglich verändern zu können. Die Verbesserung gegenüber vorher ist markant, und fällt vor allem beim Wechsel von WFM zu NFM auf, wo einem zuvor jeweils fast die Ohren abgefallen sind!</p>
 
 			<div class="Reihe">
 				<div class="Zelle_norm">
 					<img width="320px" height="215px" alt="Tiefpassfilter Gebäuse" onclick="show('./img/mvt_einbau_gehaeuse_640x430.jpg');" src="./img/mvt_einbau_gehaeuse_640x430.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;21:&nbsp;Einbau des Tiefpassfilters in ein kleines Gehäuse aus Bastelholz. Die obere Abdeckung wird später mit Holzleim direkt festgeklebt und nach dem Trocknen das ganze Gehäuse lackiert. Ein kleines Loch ermöglicht, den Trimmpoti bei Bedarf anders einzustellen (siehe nächste Aufnahme, unten).<br />Eigene Aufnahme vom 30.11.2025</p>
+					<p class="Bildlegende">Abb.&nbsp;24:&nbsp;Einbau des Tiefpassfilters in ein kleines Gehäuse aus Bastelholz. Die obere Abdeckung wird später mit Holzleim direkt festgeklebt und nach dem Trocknen das ganze Gehäuse lackiert. Ein kleines Loch ermöglicht, den Trimmpoti bei Bedarf anders einzustellen (siehe nächste Aufnahme, unten).<br />Eigene Aufnahme vom 30.11.2025</p>
 				</div>
 				<div class="Zelle_zw">
 				</div>
 				<div class="Zelle_norm">
 					<img width="320px" height="215px" alt="Kopfhörer mit Filter" onclick="show('./img/mvt_fertiger_kopfhoerer_v02_640x430.jpg');" src="./img/mvt_fertiger_kopfhoerer_v02_640x430.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;22:&nbsp;Der fertige Kopfhörer. Das Kästchen in der Mitte sieht nicht besonders schön aus, erfüllt aber seinen Zweck. Gerade beim Empfang schwieriger Sender ist ein Kopfhörer sehr nützlich und da lohnt es sich, etwas Aufwand zu betreiben, um einen guten Höreindruck zu erhalten. Ein geschlossener Kopfhörer wäre noch besser, würde aber im Reisegepäck zu viel Platz beanspruchen.<br />Eigene Aufnahme vom 05.12.2025</p>
+					<p class="Bildlegende">Abb.&nbsp;25:&nbsp;Der fertige Kopfhörer. Das Kästchen in der Mitte sieht nicht besonders schön aus, erfüllt aber seinen Zweck. Gerade beim Empfang schwieriger Sender ist ein Kopfhörer sehr nützlich und da lohnt es sich, etwas Aufwand zu betreiben, um einen guten Höreindruck zu erhalten. Ein geschlossener Kopfhörer wäre noch besser, würde aber im Reisegepäck zu viel Platz beanspruchen.<br />Eigene Aufnahme vom 05.12.2025</p>
 				</div>
 			</div>
 
 			<a name="batt"></a>
 			<h2>Batterien und Akkus</h2>
 
-			<p>Während heutzutage alles mit Lithium-Ionen Akkus ausgestattet ist, erfolgt die Stromversorgung bei Geräten aus früheren Jahrzehnten (wie diesem) mit herkömmlichen (AA) Batterien, bzw. NiMH (früher NiCad) Akkus derselben Grösse. Da letztere zu relativ günstigen Preisen erhältlich sind und ohne weiteres tausendmal wiederaufgeladen werden können, lässt sich damit ein sehr kostengünstiger Betrieb realisieren. Akkus dieses Typs haben aber den Nachteil, dass die Spannung pro Zelle nur 1.2&nbsp;V beträgt, statt 1.5&nbsp;V wie bei einer normalen Batterie. Bei vier Zellen stehen dem Empfänger dann statt der erwarteten 6&nbsp;V nur ca. 4.8&nbsp;V zur Verfügung, weshalb es eigentlich noch einen fünften Akku bräuchte, der aber natürlich nicht mehr ins Batteriefach passt. Beim MVT-7000 hat dies zur Folge, dass bereits nach kurzer Zeit die Anzeige BATT im Display aufleuchtet, was gemäss Handbuch bedeutet, dass die Batterien gewechselt oder die Akkus geladen werden müssen. Auch ein Scanner-Test von 1996 bemängelt Probleme beim Akku-Betrieb und kommt zur Schlussfolgerung, dass nur mit voll geladenem Akku ein sicherer Betrieb möglich sei. <sup>32</sup> Leider zeigen meine Erfahrungen, dass dies zutrifft. Obwohl das Gerät relativ lange betrieben werden kann, äussert sich die zu geringe Spannung in Form zahlreicher Probleme:</p>
+			<p>Während heutzutage alles mit Lithium-Ionen Akkus ausgestattet ist, erfolgt die Stromversorgung bei Geräten aus früheren Jahrzehnten (wie diesem) mit herkömmlichen (AA) Batterien, bzw. NiMH (früher NiCad) Akkus derselben Grösse. Da letztere zu relativ günstigen Preisen erhältlich sind und ohne weiteres hunderte Male wiederaufgeladen werden können, lässt sich damit ein sehr kostengünstiger Betrieb realisieren. Akkus dieses Typs haben aber den Nachteil, dass die Spannung pro Zelle nur 1.2&nbsp;V beträgt, statt 1.5&nbsp;V wie bei einer normalen Batterie. Bei vier Zellen stehen dem Empfänger dann statt der erwarteten 6&nbsp;V nur ca. 4.8&nbsp;V zur Verfügung, weshalb es eigentlich noch einen fünften Akku bräuchte, der aber natürlich nicht mehr ins Batteriefach passt. Beim MVT-7000 hat dies zur Folge, dass bereits nach kurzer Zeit die Anzeige BATT im Display aufleuchtet, was gemäss Handbuch bedeutet, dass die Batterien gewechselt oder die Akkus geladen werden müssen. Auch ein Scanner-Test von 1996 bemängelt Probleme beim Akku-Betrieb und kommt zur Schlussfolgerung, dass nur mit voll geladenem Akku ein sicherer Betrieb möglich sei. <sup>32</sup> Leider zeigen meine Erfahrungen, dass dies zutrifft. Obwohl das Gerät relativ lange betrieben werden kann, äussert sich die zu geringe Spannung in Form zahlreicher Probleme:</p>
 			<ul>
 				<li>Der Lautsprecher beginnt fürchterlich zu heulen und krächzen, wenn die Lautstärke zu weit aufgedreht wird. Dies trifft gleichsam auf den eingebauten, wie auch auf einen allfällig angeschlossenen externen Lautsprecher zu und äussert sich vor allem in NFM.</li>
 				<li>Das Display lässt sich schlecht ablesen, da der Kontrast mit sinkender Versorgungsspannung immer geringer wird.</li>
@@ -381,39 +413,24 @@
 				<li>Letztendlich hatte ich auch den Eindruck, dass die Empfangsergebnisse nachlassen, wenn die Spannung zu gering ist. Dies ist aber schwierig zu testen, weshalb diese Feststellung mit Vorsicht zu geniessen ist.</li>
 			</ul>
 			
-			<p>Die einzige Alternative ist der Betrieb mit einem Netzteil, welches gemäss Anleitung 12&nbsp;V liefern soll. Diese zu hohe Spannung wird intern mit dem Toshiba-Baustein TA78006AP auf 6V begrenzt, wie aus dem Schaltplan hervorgeht. <sup>33</sup> Diese Lösung kam für mich aber nicht in Frage, weil ich das Gerät ja mobil einsetzen möchte. Also blieb als Lösung nur ein Umbau des Geräts, damit es mit 5&nbsp;NiMH-Zellen versorgt werden kann, was die vorgegebenen 6&nbsp;V ergibt. Dazu geeignete Batteriehalter gibt es meines Wissens keine, aber in der Bastelkiste fand sich noch ein Exemplar für 6 Zellen. Das nicht benutzte Fach darf nun natürlich nicht einfach leer bleiben, weil dadurch der Stromkreis unterbrochen würde. Mittels eines Stücks Rundholz habe ich daher eine «Dummy-Batterie» erbaut, die über zwei Kontakte und ein Stück Kabel die nötige Verbindung sicherstellt. Um das Gerät nicht wieder öffnen zu müssen, habe ich die Anschlüsse im Batteriefach fest gelötet und über zwei Drähte nach aussen geführt. Die Verbindung mit dem 6fach-Batteriehalter erfolgt dann mit einem Batterieclip, wie man ihn von 9&nbsp;V-Blockbatterien kennt. Da der Deckel des Batteriefachs einen sehr guten Halt bietet, habe ich die ganze Konstruktion mit reichlich Zweikomponentenkleber dort festgeklebt. So lässt sich der Batteriehalter bei Nichtgebrauch problemlos entfernen und der MVT-7000 weiterhin in der praktischen Schutztasche aufbewahren.</p>
-			<p>Dieser Umbau hat sich wirklich gelohnt, denn mit der auf diese Weise sichergestellten korrekten Versorgungsspannung arbeitet das Gerät deutlich zuverlässiger. Ein angenehmer Nebeneffekt ist, dass das Gerät (wenn stationär betrieben) wesentlich stabiler steht, da der Batteriehalter wie eine Stütze wirkt. Allerdings habe ich festgestellt, dass sich die Akkus vergleichsweise schnell entleeren, wenn sie dauerhaft angeschlossen bleiben. Besser ist es daher, die Stromversorgung über den Batterieclip zu lösen, wenn das Gerät längere Zeit nicht gebraucht wird. Damit der Speicherinhalt möglichst nicht verloren geht, habe ich im Batteriefach einen passenden 1000&nbsp;μF Elektrolytkondensator eingelötet. Wie oben erläutert, wird dies eigentlich durch einen eingebauten <em>Gold Capacitor</em> mit 0.22&nbsp;F Kapazität erledigt, der in meinem Fall jedoch nicht mehr richtig zu funktionieren scheint. Nach einigen Stunden ohne Versorgungsspannung waren die gespeicherten Frequenzen jeweils gelöscht. Mit diesem Kondensator konnte ich das Problem nun deutlich entschärfen und bei Tests war der Speicherinhalt auch nach 48&nbsp;Stunden ohne Strom noch vorhanden.</p>
-			<p>Das Handbuch verweist im Übrigen darauf, dass Akkus direkt im Gerät geladen werden können, wenn über die DC12V Buchse eine externe Stromversorgung angeschlossen ist. Davon würde ich abraten. Sinnvoller ist es, die Akkus in einem Schnellladegerät zu laden, welches den Ladevorgang automatisch stoppt, wenn sie voll sind.</p>
-
-			<div class="Reihe">
-				<div class="Zelle_norm">
-					<img width="320px" height="217px" alt="externer Batterieanschluss" onclick="show('./img/mvt7000_ext_batterieanschluss_640x435.jpg');" src="./img/mvt7000_ext_batterieanschluss_640x435.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;23:&nbsp;Anschluss für den externen Batteriehalter, festgelötet im Batteriefach. Um die Leitungen nach aussen zu führen, habe ich zwei kleine Löcher in die Unterseite gebohrt. Der Kondensator hilft mit, dass der Speicherinhalt länger erhalten bleibt.<br />Eigene Aufnahme vom 15.10.2025</p>
-				</div>
-				<div class="Zelle_zw">
-				</div>
-				<div class="Zelle_norm">
-					<img width="320px" height="217px" alt="externes Batteriepaket" onclick="show('./img/mvt7000_ext_batteriepaket_640x435.jpg');" src="./img/mvt7000_ext_batteriepaket_640x435.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;24:&nbsp;Betrieb mit externem 6fach-Batteriehalter. Da nur 5 NiMH-Akkus benötigt werden, ist anstelle des fehlenden Akkus ein «Dummy» eingesetzt, der die elektrische Verbindung sicherstellt.<br />Eigene Aufnahme vom 21.02.2025</p>
-				</div>
-			</div>
+			<p>Die einzige Alternative ist der Betrieb mit einem Netzteil, welches gemäss Anleitung 12&nbsp;V liefern soll. Diese zu hohe Spannung wird intern mit dem Toshiba-Baustein TA78006AP auf 6&nbsp;V begrenzt, wie aus dem Schaltplan hervorgeht. <sup>33</sup> Der benötigte Hohlstecker konnte ich in meiner Sammlung aber nicht finden, vermutlich ist diese Norm recht selten. Am sinnvollsten ist sicher der Betrieb mit einem Original-Netzteil, aber dies habe ich derzeit nicht zur Hand. Als Lösung schwebte mir vor, über einen externen Batteriehalter das Gerät mit 5&nbsp;NiMH-Zellen zu versorgen, was die vorgegebenen 6&nbsp;V ergibt. Das hat zunächst auch funktioniert, jedoch zeigte das Gerät mit der Zeit ein unerklärliches Fehlverhalten, indem es auch bei geladenen Akkus einen niedrigen Batteriestand anzeigte und irgendwann den Betrieb komplett verweigerte. Die Ursache ist mir nicht ganz klar, aber vermutlich war die abgegebene Spannung bei 5 voll geladenen Akkus doch etwas zu hoch. Ein Augenschein auf der Platine in zerlegtem Zustand zeigt, dass einige der Elkos nur für 6&nbsp;V ausgelegt sind. Gut möglich, dass diese dadurch beschädigt wurden. Von Versuchen dieser Art kann daher nur abgeraten werden und als Alternative empfiehlt sich, ein kleines NiMH-Ladegerät mit in den Urlaub zu nehmen, oder auf normale Alkali-Mangan-Batterien auszuweichen, wenn eine längere Betriebszeit gewünscht wird.</p>
 
 			<a name="knoepfe"></a>
 			<h2>Drehknöpfe</h2>
 
-			<p>Das beim MVT-7000 gewählte Verfahren, den Lautstärkeregler mit dem Ein-/Aus-Schalter zu kombinieren (POW/VOL), war früher nicht selten. Der Vorteil ist, dass sich dadurch ein separater Schalter einsparen lässt, was gerade bei kleinen Geräten ein wichtiger Aspekt ist. Diese Variante ist zudem deutlich weniger störanfällig, als ein elektronisches Ein-/Ausschalten über einen Drucktaster. Beim MVT-7000 zeigt sich aber auch ein Nachteil dieser Methode: Der auf der Achse aufgesetzte Kunststoff-Drehknopf wird bei häufigem Gebrauch relativ stark belastet, da das Ein- und Ausschalten einen gewissen Kraftaufwand erfordert. Im Laufe der Zeit kann dies dazu führen, dass der zierliche Drehknopf einen Riss bekommt und dann nicht mehr richtig auf der Achse festsitzt. So ist es bei meinem Gerät passiert. Der Versuch, dies mit Sekundenkleber zu reparieren, ist gescheitert. Einen passenden Ersatzknopf konnte ich nicht finden, weshalb ich mir einen neuen Knopf selbst gebaut habe. Ideal dazu wäre eine runde Holzleiste mit einem Durchmesser von ca. 8&nbsp;–&nbsp;10&nbsp;mm, aber mangels einer solchen, musste eine quadratische Leiste mit einer Seitenlänge von 10&nbsp;mm herhalten. Genau in die Mitte habe ich mit der Handbohrmaschine ein 4&nbsp;mm grosses Loch gebohrt und anschliessend an einer Seite einen sehr dünnen Span von einem Bastelholz eingeleimt. Nach dem Trocknen wurde das Stück, welches den neuen Schalter bilden soll, von der Leiste abgesägt, alle Ecken mit Schleifpapier abgerundet, das Loch auf der Oberseite zugeleimt und schliesslich mit Klarlack lackiert. Schwarze Farbe würde optisch besser passen, stand aber nicht zur Verfügung.</p>
-			<p>Der neue POW/VOL Knopf sieht nicht besonders schön aus, ist aber robust und lässt sich deutlich besser bedienen, als der sehr kleine runde Originalknopf. Bei den beiden anderen Drehknöpfen sollte dieses Verfahren nicht notwendig sein, da diese leichtgängig gedreht werden und nicht mit einem Schalter kombiniert sind.</p>
+			<p>Das beim MVT-7000 gewählte Verfahren, den Lautstärkeregler mit dem Ein-/Aus-Schalter zu kombinieren (POW/VOL), war früher nicht selten. Der Vorteil ist, dass sich dadurch ein separater Schalter einsparen lässt, was gerade bei kleinen Geräten ein wichtiger Aspekt ist. Diese Variante ist zudem deutlich weniger störanfällig, als ein elektronisches Ein-/Ausschalten über einen Drucktaster. Beim MVT-7000 zeigt sich aber auch ein Nachteil dieser Methode: Der auf der Achse aufgesetzte Kunststoff-Drehknopf wird bei häufigem Gebrauch relativ stark belastet, da das Ein- und Ausschalten einen gewissen Kraftaufwand erfordert. Im Laufe der Zeit kann dies dazu führen, dass der zierliche Drehknopf einen Riss bekommt und dann nicht mehr richtig auf der Achse festsitzt. So ist es bei meinem Gerät passiert. Der Versuch, dies mit Sekundenkleber zu reparieren, ist gescheitert. Einen passenden Ersatzknopf konnte ich vor dem Erwerb weiterer Geräte dieses Typs nicht finden, weshalb ich mir einen neuen Knopf selbst gebaut habe. Ideal dazu wäre eine runde Holzleiste mit einem Durchmesser von ca. 8&nbsp;–&nbsp;10&nbsp;mm, aber mangels einer solchen, musste eine quadratische Leiste mit einer Seitenlänge von 10&nbsp;mm herhalten. Genau in die Mitte habe ich mit der Handbohrmaschine ein 4&nbsp;mm grosses Loch gebohrt und anschliessend an einer Seite einen sehr dünnen Span von einem Bastelholz eingeleimt. Nach dem Trocknen wurde das Stück, welches den neuen Schalter bilden soll, von der Leiste abgesägt, alle Ecken mit Schleifpapier abgerundet, das Loch auf der Oberseite zugeleimt und schliesslich mit Klarlack lackiert. Schwarze Farbe würde optisch besser passen, stand aber nicht zur Verfügung.</p>
+			<p>Der neue POW/VOL Knopf sieht nicht besonders schön aus, ist aber robust und lässt sich deutlich besser bedienen, als der sehr kleine runde Originalknopf. Darum habe ich ihn, trotz inzwischen genügend Ersatzteilen, beibehalten. Bei den beiden anderen Drehknöpfen sollte dieses Verfahren nicht notwendig sein, da diese leichtgängig gedreht werden und nicht mit einem Schalter kombiniert sind.</p>
 
 			<div class="Reihe">
 				<div class="Zelle_norm">
 					<img width="320px" height="225px" alt="Holzdrehknopf" onclick="show('./img/mvt7000_holzdrehknopf_640x450.jpg');" src="./img/mvt7000_holzdrehknopf_640x450.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;25:&nbsp;Aus einem Stück Holzleiste hergestellter Drehknopf mit 4&nbsp;mm Loch.<br />Eigene Aufnahme vom 16.05.2025</p>
+					<p class="Bildlegende">Abb.&nbsp;26:&nbsp;Aus einem Stück Holzleiste hergestellter Drehknopf mit 4&nbsp;mm Loch.<br />Eigene Aufnahme vom 16.05.2025</p>
 				</div>
 				<div class="Zelle_zw">
 				</div>
 				<div class="Zelle_norm">
 					<img width="320px" height="225px" alt="Holzdrehknopf montiert" onclick="show('./img/mvt7000_holzdrehknopf-montiert_640x450.jpg');" src="./img/mvt7000_holzdrehknopf-montiert_640x450.jpg" />
-					<p class="Bildlegende">Abb.&nbsp;26:&nbsp;Selbst hergestellter Drehknopf, aufgesetzt.<br />Eigene Aufnahme vom 17.05.2025</p>
+					<p class="Bildlegende">Abb.&nbsp;27:&nbsp;Selbst hergestellter Drehknopf, aufgesetzt.<br />Eigene Aufnahme vom 17.05.2025</p>
 				</div>
 			</div>
 
@@ -426,7 +443,7 @@
 
 			<a name="quellen"></a>
 			<h3>Grundlagen und Literatur</h3>
-			<!-- automatically generated by xref_bibliography.awk -->
+      <!-- automatically generated by xref_bibliography.awk -->
 			<div class="Reihe">
 				<div class="Zelle_Verw_l">
 					<sup>1</sup>

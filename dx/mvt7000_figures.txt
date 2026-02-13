@@ -14,8 +14,6 @@ _tiefpassfilt-plan_$
 _tiefpassfilt-bau_$
 _tiefpassfilt-geh_$
 _kopfh-filter_$
-_ext-batt-ans_$
-_ext-batt-pack_$
 _filter-45k24_$
 _mob-dip-ein_$
 _mob-dip-vert_$
@@ -25,5 +23,8 @@ _holzdrehkn-mont_$
 _handbuch-ausz_$
 _schaltpl-ausz_$
 _bogerfunk-ins_$
+_tastaturf-zerl_$
+_tastaturf-ger_$
+_unt-halbsch_$
 
 # Ende

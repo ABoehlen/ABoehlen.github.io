@@ -66,6 +66,7 @@ neuigkeiten[52] = "11.01.2026: Aufgrund von Angriffen von AI bots auf hikr.org, 
 neuigkeiten[53] = "16.01.2026: Das im letzten Eintrag erwähnte Problem habe ich dadurch gelöst, indem ich die benötigten Bilder von hikr.org ins github Repo kopiert habe und von dort aufrufe.";
 neuigkeiten[54] = "18.01.2026: UKW-Bandscan <a target=\"_blank\" href=\"./dx/bandscans/ukw_bandscan_bolligen-bern.html\">Bolligen/Bern von 1996</a> digital erfasst und neu hinzugefügt";
 neuigkeiten[55] = "13.02.2026: Aktualisierung der Seiten <a href=\"./dx/mvt7000.html\">MVT-7000</a> und <a href=\"./dx/mvt7000_wfm-filter-mod.html\">MVT-7000 WFM-Modifikation</a>";
+neuigkeiten[56] = "15.02.2026: Neue Seite <a target=\"_blank\" href=\"./dx/geraetebestand.html\">Gerätebestand</a> ergänzt";
 
 //------------------------------------------------------------------------------------------------------------------------
 

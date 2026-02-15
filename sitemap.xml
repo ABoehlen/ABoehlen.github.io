@@ -201,6 +201,11 @@
   <priority>0.7</priority>
 </url>
 <url>
+  <loc>https://aboehlen.github.io/dx/geraetebestand.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
   <loc>https://aboehlen.github.io/dx/jingles.html</loc>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
@@ -272,6 +277,11 @@
 </url>
 <url>
   <loc>https://aboehlen.github.io/pano/skyplot2pano.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pano/skyplot2pano_ori.html</loc>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>

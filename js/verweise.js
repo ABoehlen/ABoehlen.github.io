@@ -217,6 +217,16 @@ dxMVT7000wfmDict["ai"] = "1";
 dxMVT7000wfmDict["am"] = "9";
 dxMVT7000wfmDict["ao"] = "10";
 
+var dxMVT7000nfmDict = new Array();
+dxMVT7000nfmDict["aa"] = "1";
+dxMVT7000nfmDict["ab"] = "2";
+dxMVT7000nfmDict["ac"] = "3";
+dxMVT7000nfmDict["ad"] = "4";
+dxMVT7000nfmDict["ae"] = "5";
+dxMVT7000nfmDict["af"] = "6";
+dxMVT7000nfmDict["ag"] = "7";
+
+
 var dxRFBnfDict = new Array();
 dxRFBnfDict["aa"] = "2";
 dxRFBnfDict["ab"] = "4";
@@ -248,28 +258,6 @@ dxUKWLoopDict["ac"] = "3";
 dxUKWLoopDict["ad"] = "4";
 dxUKWLoopDict["ae"] = "5";
 dxUKWLoopDict["af"] = "6";
-
-// ***************************
-// Dokus
-
-var dokSkyDict = new Array();
-dokSkyDict["aa"] = "3";
-dokSkyDict["ab"] = "4";
-dokSkyDict["ac"] = "5";
-dokSkyDict["ad"] = "6";
-dokSkyDict["ae"] = "7";
-dokSkyDict["af"] = "8";
-dokSkyDict["ag"] = "9";
-dokSkyDict["ah"] = "1";
-dokSkyDict["ai"] = "14";
-dokSkyDict["aj"] = "15";
-dokSkyDict["ak"] = "2";
-dokSkyDict["al"] = "16";
-dokSkyDict["am"] = "17";
-dokSkyDict["an"] = "11";
-dokSkyDict["ao"] = "13";
-dokSkyDict["ap"] = "10";
-dokSkyDict["aq"] = "12";
 
 
 // ******************************************************
@@ -347,6 +335,9 @@ function verweis(ref) {
     case "dxMVT7000wfm":
       uebersetze(dxMVT7000wfmDict);
       break;
+    case "dxMVT7000nfm":
+      uebersetze(dxMVT7000nfmDict);
+      break;
     case "dxRFBnf":
       uebersetze(dxRFBnfDict);
       break;
@@ -355,9 +346,6 @@ function verweis(ref) {
       break;
     case "dxUKWLoop":
       uebersetze(dxUKWLoopDict);
-      break;
-    case "dokSky":
-      uebersetze(dokSkyDict);
       break;
 
   }

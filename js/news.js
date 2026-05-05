@@ -65,7 +65,8 @@ var neuigkeiten =  [
   "16.01.2026: Das im letzten Eintrag erwähnte Problem habe ich dadurch gelöst, indem ich die benötigten Bilder von hikr.org ins github Repo kopiert habe und von dort aufrufe.",
   "18.01.2026: UKW-Bandscan <a target=\"_blank\" href=\"./dx/bandscans/ukw_bandscan_bolligen-bern.html\">Bolligen/Bern von 1996</a> digital erfasst und neu hinzugefügt",
   "13.02.2026: Aktualisierung der Seiten <a href=\"./dx/mvt7000.html\">MVT-7000</a> und <a href=\"./dx/mvt7000_wfm-filter-mod.html\">MVT-7000 WFM-Modifikation</a>",
-  "15.02.2026: Neue Seite <a target=\"_blank\" href=\"./dx/geraetebestand.html\">Gerätebestand</a> ergänzt"
+  "15.02.2026: Neue Seite <a target=\"_blank\" href=\"./dx/geraetebestand.html\">Gerätebestand</a> ergänzt",
+  "05.05.2026: Weitere <a href=\"./dx/jingles.html\">Erkennungsmelodien von Rundfunksendern und Sendungen</a> ergänzt"
 ];
 
 //------------------------------------------------------------------------------------------------------------------------

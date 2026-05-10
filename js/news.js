@@ -66,7 +66,8 @@ var neuigkeiten =  [
   "18.01.2026: UKW-Bandscan <a target=\"_blank\" href=\"./dx/bandscans/ukw_bandscan_bolligen-bern.html\">Bolligen/Bern von 1996</a> digital erfasst und neu hinzugefügt",
   "13.02.2026: Aktualisierung der Seiten <a href=\"./dx/mvt7000.html\">MVT-7000</a> und <a href=\"./dx/mvt7000_wfm-filter-mod.html\">MVT-7000 WFM-Modifikation</a>",
   "15.02.2026: Neue Seite <a target=\"_blank\" href=\"./dx/geraetebestand.html\">Gerätebestand</a> ergänzt",
-  "05.05.2026: Weitere <a href=\"./dx/jingles.html\">Erkennungsmelodien von Rundfunksendern und Sendungen</a> ergänzt"
+  "05.05.2026: Weitere <a href=\"./dx/jingles.html\">Erkennungsmelodien von Rundfunksendern und Sendungen</a> ergänzt",
+  "10.05.2026: Diverse Buchcover in Berichten unter <a href=\"./adventure_series/adventure.html\">Adventure Series</a>, <a href=\"./famous_five/famous_five.html\">Famous Five</a> und <a href=\"./secret_series/secret.html\">Secret Series</a> eingefügt"
 ];
 
 //------------------------------------------------------------------------------------------------------------------------

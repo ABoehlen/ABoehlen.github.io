@@ -57,17 +57,19 @@ advRivDict["ad"] = "5";
 advRivDict["ae"] = "1";
 
 var advValDict = new Array();
-advValDict["aa"] = "1";
-advValDict["ab"] = "2";
-advValDict["ac"] = "4";
-advValDict["ad"] = "6";
-advValDict["ae"] = "5";
-advValDict["af"] = "7";
-advValDict["ag"] = "8";
-advValDict["ah"] = "10";
-advValDict["ai"] = "3";
-advValDict["aj"] = "11";
-advValDict["ak"] = "9";
+advValDict["aa"] = "3";
+advValDict["ab"] = "4";
+advValDict["ac"] = "6";
+advValDict["ad"] = "8";
+advValDict["ae"] = "7";
+advValDict["af"] = "9";
+advValDict["ag"] = "10";
+advValDict["ah"] = "12";
+advValDict["ai"] = "5";
+advValDict["aj"] = "13";
+advValDict["ak"] = "11";
+advValDict["al"] = "1";
+advValDict["am"] = "2";
 
 // ***************************
 // Famous Five
@@ -114,28 +116,30 @@ ffSaillDict["al"] = "11";
 
 var ffSmugDict = new Array();
 ffSmugDict["aa"] = "1";
-ffSmugDict["ab"] = "2";
-ffSmugDict["ac"] = "3";
-ffSmugDict["ad"] = "4";
-ffSmugDict["ae"] = "6";
-ffSmugDict["af"] = "7";
-ffSmugDict["ag"] = "9";
-ffSmugDict["ah"] = "10";
-ffSmugDict["ai"] = "11";
-ffSmugDict["aj"] = "12";
-ffSmugDict["ak"] = "14";
-ffSmugDict["al"] = "15";
-ffSmugDict["am"] = "18";
-ffSmugDict["an"] = "13";
-ffSmugDict["ao"] = "16";
-ffSmugDict["ap"] = "17";
-ffSmugDict["aq"] = "19";
-ffSmugDict["ar"] = "20";
-ffSmugDict["as"] = "22";
-ffSmugDict["at"] = "23";
-ffSmugDict["au"] = "8";
-ffSmugDict["av"] = "21";
-ffSmugDict["aw"] = "5";
+ffSmugDict["ab"] = "4";
+ffSmugDict["ac"] = "5";
+ffSmugDict["ad"] = "6";
+ffSmugDict["ae"] = "8";
+ffSmugDict["af"] = "9";
+ffSmugDict["ag"] = "11";
+ffSmugDict["ah"] = "12";
+ffSmugDict["ai"] = "13";
+ffSmugDict["aj"] = "14";
+ffSmugDict["ak"] = "16";
+ffSmugDict["al"] = "17";
+ffSmugDict["am"] = "20";
+ffSmugDict["an"] = "15";
+ffSmugDict["ao"] = "18";
+ffSmugDict["ap"] = "19";
+ffSmugDict["aq"] = "21";
+ffSmugDict["ar"] = "22";
+ffSmugDict["as"] = "24";
+ffSmugDict["at"] = "25";
+ffSmugDict["au"] = "10";
+ffSmugDict["av"] = "23";
+ffSmugDict["aw"] = "7";
+ffSmugDict["ax"] = "2";
+ffSmugDict["ay"] = "3";
 
 // ***************************
 // Secret Series
@@ -148,35 +152,40 @@ secrIntrDict["ad"] = "5";
 secrIntrDict["ae"] = "4";
 
 var secrKilliDict = new Array();
-secrKilliDict["aa"] = "2";
-secrKilliDict["ab"] = "3";
-secrKilliDict["ac"] = "4";
-secrKilliDict["ad"] = "6";
-secrKilliDict["ae"] = "7";
-secrKilliDict["af"] = "5";
+secrKilliDict["aa"] = "4";
+secrKilliDict["ab"] = "5";
+secrKilliDict["ac"] = "6";
+secrKilliDict["ad"] = "8";
+secrKilliDict["ae"] = "9";
+secrKilliDict["af"] = "7";
 secrKilliDict["ag"] = "1";
+secrKilliDict["ah"] = "2";
+secrKilliDict["ai"] = "3";
 
 var secrMoonDict = new Array();
 secrMoonDict["aa"] = "1";
-secrMoonDict["ab"] = "2";
-secrMoonDict["ac"] = "7";
-secrMoonDict["ad"] = "6";
-secrMoonDict["ae"] = "4";
-secrMoonDict["af"] = "3";
-secrMoonDict["ag"] = "5";
+secrMoonDict["ab"] = "3";
+secrMoonDict["ac"] = "9";
+secrMoonDict["ad"] = "8";
+secrMoonDict["ae"] = "5";
+secrMoonDict["af"] = "4";
+secrMoonDict["ag"] = "7";
+secrMoonDict["ah"] = "2";
+secrMoonDict["ai"] = "6";
 
 var secrMtnDict = new Array();
 secrMtnDict["aa"] = "1";
-secrMtnDict["ab"] = "2";
-secrMtnDict["ac"] = "6";
-secrMtnDict["ad"] = "3";
-secrMtnDict["ae"] = "5";
-secrMtnDict["af"] = "9";
-secrMtnDict["ag"] = "8";
-secrMtnDict["ah"] = "11";
-secrMtnDict["ai"] = "4";
-secrMtnDict["aj"] = "7";
-secrMtnDict["ak"] = "10";
+secrMtnDict["ab"] = "3";
+secrMtnDict["ac"] = "7";
+secrMtnDict["ad"] = "4";
+secrMtnDict["ae"] = "6";
+secrMtnDict["af"] = "10";
+secrMtnDict["ag"] = "9";
+secrMtnDict["ah"] = "12";
+secrMtnDict["ai"] = "5";
+secrMtnDict["aj"] = "8";
+secrMtnDict["ak"] = "11";
+secrMtnDict["al"] = "2";
 
 // ***************************
 // DX

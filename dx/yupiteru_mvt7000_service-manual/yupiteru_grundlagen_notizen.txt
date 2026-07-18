@@ -1,0 +1,24 @@
+MVT-7000
+
+schematic diagram: https://www.rigpix.com/yupiteru/mvt7000_schematic.pdf
+
+user manual: https://www.rigpix.com/yupiteru/mvt7000_manual.pdf
+
+
+
+MVT-7100
+
+schematic diagram: https://elektrotanya.com/yupiteru_mvt-7100.pdf/download.html
+
+
+MVT-7000 Runtime
+
+6 NiMH Akkus
+
+Sept. 2025: 17h
+Nov. 2025:  19h45
+Dez. 2025:  16h50
+Jan. 2026:  19h
+
+6 NiMH Akkus
+

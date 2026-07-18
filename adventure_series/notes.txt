@@ -1,0 +1,39 @@
+Valley maps
+
+https://maps.lib.utexas.edu/maps/ams/western_europe/index_map.html 
+
+https://maps.lib.utexas.edu/maps/ams/western_europe/ 
+
+https://maps.lib.utexas.edu/maps/ams/central_europe/
+https://maps.lib.utexas.edu/maps/germany.html
+
+https://library.csun.edu/sites/default/files/map-collection/m501.pdf 
+
+https://en.wikipedia.org/wiki/Army_Map_Service 
+
+
+
+
+-------------------------------------------------------------
+
+asc from points
+
+QGIS
+
+Add Layer to Project (Punkte)
+IDW Interpolation
+- Interpolation aatribute: Höhenattribut
+- mit '+' hinzufügen
+- Distance coefficient P: 2
+- Extent: Calculate from layer
+- Pixel size X/Y: gleich wie Raster
+Run
+
+-> temporäres Raster-Höhenmodell wird geladen
+
+Menu Raster > Conversion > Translate (Convert formats)
+Nodata: 0
+Converted: Save to file (ASC files)
+
+Zeilen dx und dy löschen
+Stattdessen Zeile cellsize einfügen und Rasterwert dahinter eintragen

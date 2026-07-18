@@ -1,0 +1,37 @@
+﻿# Liste der Grundlagen
+
+_aa_$SCOP.SKYPLOT (Abschattungsberechnungen aus einem Geländemodell) – Benutzerhandbuch, Wien 1999
+
+_ab_$Bartsch, Hans-Jochen: Mathematische Formeln, Stuttgart 1967, S. 184 ff
+
+_ac_$Reber, Robert: Über Erdkrümmung und Refraktion. Jahrbuch des Schweizer Alpenclub, Bern 1893
+
+_ad_$https://rechneronline.de/erdradius/ (Online-Rechner für den Erdradius nach Breitengrad) (letzter Aufruf: 08.02.2026)
+
+_ae_$gemäss Programm SCOP.PERSPECT – Version 3.5, Wien 2002. Da das Handbuch zu SCOP.SKYPLOT diesbezüglich keine Angaben macht, ist anzunehmen, dass dieser Wert dort ebenso gilt. 
+
+_af_$https://de.wikipedia.org/wiki/Terrestrische_Refraktion (Wikipedia: Terrestrische Refraktion) (letzter Aufruf: 08.02.2026)
+
+_ag_$http://www.martinrickenbacher.ch/panoramen/Adlerauge_1991_Panorama_vom_Wittnauer_Homberg_ocr.pdf (Rickenbacher, Martin: Panorama vom Wittnauer Homberg, Wittnau 1991) (letzter Aufruf: 08.02.2026)
+
+_ah_$Aho, Alfred et al.: The Awk Programming Language, Murray Hill NJ 1988
+
+_ai_$siehe Anmerkung _ah_, S. 64
+
+_aj_$https://phowo.ifp.uni-stuttgart.de/publications/phowo05/290kraus.pdf (Kraus, Karl und Otepka, Johannes: DTM Modelling and Visualisation – The SCOP Approach, Heidelberg 2005) (letzter Aufruf: 08.02.2026)
+
+_ak_$SCOP wurde ab 1971 am Institut für Photogrammetrie der Universität Stuttgart unter der Leitung des damaligen Direktors Friedrich (Fritz) Ackermann (1929 – 2021) entwickelt. Daraus leitet sich auch der Name des Programmsystems ab: <strong>S</strong>tuttgart <strong>Co</strong>ntour <strong>P</strong>rogram. siehe Anmerkung _aj_, S. 1 und 2.
+
+_al_$https://en.wikipedia.org/wiki/ArcView_3.x (Wikipedia: ArcView 3.x) (letzter Aufruf: 08.02.2026)
+
+_am_$https://direkt.sob.ch/themen/einblick/von-a-z-im-hoehenflug (Krucker, Claudia: Die Namen der Südostbahn-Züge: Von A-Z im Höhenflug, St.&nbsp;Gallen 2022) (letzter Aufruf: 08.02.2026)
+
+_an_$siehe Anmerkung _ae_, Abschnitt NAMESFIL
+
+_ao_$https://de.wikipedia.org/wiki/DXF (Wikipedia: DXF) (letzter Aufruf: 08.02.2026)
+
+_ap_$https://de.wikipedia.org/wiki/Innere_und_%C3%A4u%C3%9Fere_Orientierung (Wikipedia: Innere und äußere Orientierung) (letzter Aufruf: 08.02.2026)
+
+_aq_$siehe Anmerkung ab, S. 230
+
+# Ende

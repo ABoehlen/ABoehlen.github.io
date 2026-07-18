@@ -1,0 +1,71 @@
+#!/bin/bash
+#################################################################################################
+#
+# Filename:     xref
+# Author:       Adrian Boehlen
+# Date:         22.06.2024
+# Version:      1.1
+# Product:      Website
+#
+# Purpose:      erzeugt fortlaufende Querverweise ueber mehrere Dateien hinweg
+#               - benoetigt xref.awk, xref_bibliography.awk und xref_figurelist.awk
+#                 im gleichen Verzeichnis.
+#               - die zu bearbeitenden HTML-Dateien muessen in einer Liste in der richtigen
+#                 Reihenfolge eingetragen sein. Die letzten Dateien muessen das Literatur-
+#                 verzeichnis bibliography.txt und das Abbildungsverzeichnis figures.txt
+#                 (diese Namen sind zwingend) sein. Danach muss eine Leerzeile stehen.
+#                 Diese Liste ist als 1. Argument anzugeben.
+#               - Das Literatur- und das Abbildungsverzeichnis werden in je eine HTML-Seite
+#                 uebersetzt. Diese beiden zu erzeugenden Dateien muessen als 2. und 4. Argument
+#                 angegeben werden.
+#               - Die Titel von Literatur- und das Abbildungsverzeichnis sind in einfache oder 
+#                 doppelte Hochkommas als 3. und 5. Argument anzugeben
+#               - die Ausgabe wird in das Verzeichnis geschrieben, welches als 6. Argument
+#                 angegeben wird
+#               - Zum Erstellen der HTML-Seiten werden die Dateien header.txt und footer.txt in
+#                 der richtigen Struktur im gleichen Verzeichnis benoetigt.
+#
+#################################################################################################
+
+if [[ $# != 6 ]]
+then
+  echo ' ' 
+  echo ' '
+  echo '**************************************************************************************************************************'
+  echo 'Usage:  xref <filelist> <bibliography html> <bibliography title> <list of figures html> <list of figures title> <dest dir>'
+  echo '**************************************************************************************************************************'
+  echo ' '
+  echo ' '
+  exit
+fi 
+
+# Variablen zuweisen
+filelist=$1
+bibHtml=$2
+bibTitle=$3
+figHtml=$4
+figTitle=$5
+destDir=$6
+
+# Zielverzeichnis anlegen, falls nicht vorhanden
+if [[ ! -d $destDir ]]
+then
+  mkdir $destDir
+fi
+
+# symbolische Namen fortlaufenden Nummern zuweisen und Ersetzen-Script anlegen
+awk -f xref.awk $filelist
+
+# symbolische Namen durch fortlaufende Nummern ersetzen
+while IFS= read -r file
+do
+  cat $file | awk -f xref.tmp $file > $destDir/$file
+done < $filelist
+
+# Literatur- und Abbildungsverzeichnis uebersetzen
+awk -v bibTitle=$bibTitle -f xref_bibliography.awk $destDir/bibliography.txt > $destDir/$bibHtml
+awk -v figTitle=$figTitle -f xref_figurelist.awk $destDir/figures.txt        > $destDir/$figHtml
+
+# Aufraeumen
+rm -f xref.tmp
+rm -f $destDir/*.txt

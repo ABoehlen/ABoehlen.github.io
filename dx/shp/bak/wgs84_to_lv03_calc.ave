@@ -1,0 +1,116 @@
+'############################################################################################
+'#
+'# Filename:         wgs2ch03_calculator.ave
+'# Author:           Adrian Boehlen
+'# Date:             13.04.2025
+'# Version:          1.0
+'#
+'# Purpose:          konvertiert WGS1984 Koordinaten
+'#                     (Laenge / Breite in Dezimalgrad) 
+'#                   zu CH1903-Koordinaten 
+'#                     (Meter, bezogen auf den Nullpunkt Bern)
+'#
+'# Based on:         "Formeln und Konstanten für die Berechnung der Schweizerischen
+'#                    schiefachsigen Zylinderprojektion und der Transformation zwischen
+'#                    Koordinatensysteme", Okt. 2008, S. 11
+'#                   und
+'#                    gsx2shp_lv03 vom 24.05.2015, https://github.com/ABoehlen/gpx2shp_lv03
+'#               
+'############################################################################################
+
+'# Listen initialisieren
+eingabe = {}
+eingabeDef = {}
+wgs84Coords = {}
+
+'# Auswahl der Eingabe
+ch = MsgBox.YesNo("Eingabe in Grad/Minuten/Sekunden (Yes) oder Dezimalgrad (No)", "DMS oder DD", true)
+
+
+'##### Eingabemasken definieren #####
+
+if (ch = true) then
+  
+  eingabe.Add("Breite Grad")
+  eingabe.Add("Breite Minute")
+  eingabe.Add("Breite Sekunde")
+  eingabe.Add("Laenge Grad")
+  eingabe.Add("Laenge Minute")
+  eingabe.Add("Laenge Sekunde")
+  
+  eingabeDef.Add(46.AsString)
+  eingabeDef.Add(55.AsString)
+  eingabeDef.Add(34.AsString)
+  eingabeDef.Add(7.AsString)
+  eingabeDef.Add(34.AsString)
+  eingabeDef.Add(38.AsString)
+  
+  wgs84Coords = MsgBox.MultiInput("WGS84 Koordinaten eingeben", "WGS84 to LV03", eingabe, eingabeDef)
+  
+  if (wgs84Coords.Count = 0) then
+    MsgBox.Warning("Keine Daten eingegeben. Abbruch", "Abbruch")
+    exit
+  end
+  
+  '# Werte in Sekunden umrechnen
+  
+  brGrad = wgs84Coords.Get(0).AsNumber
+  brMinute = wgs84Coords.Get(1).AsNumber
+  brSekunde = wgs84Coords.Get(2).AsNumber
+  sexagesimalBreite = brSekunde + (brMinute * 60) + (brGrad * 3600)
+  
+  laeGrad = wgs84Coords.Get(3).AsNumber
+  laeMinute = wgs84Coords.Get(4).AsNumber
+  laeSekunde = wgs84Coords.Get(5).AsNumber
+  sexagesimalLaenge = laeSekunde + (laeMinute * 60) + (laeGrad * 3600)
+
+else
+
+  eingabe.Add("Breitengrad")
+  eingabe.Add("Laengengrad")
+  
+  eingabeDef.Add(46.926114.AsString)
+  eingabeDef.Add(7.577220.AsString)
+  
+  wgs84Coords = MsgBox.MultiInput("WGS84 Koordinaten eingeben", "WGS84 to LV03", eingabe, eingabeDef)
+
+  if (wgs84Coords.Count = 0) then
+    MsgBox.Warning("Keine Daten eingegeben. Abbruch", "Abbruch")
+    exit
+  end
+
+  '# Werte in Sekunden umrechnen
+  
+  brGrad = wgs84Coords.Get(0).AsNumber
+  brGradTr = brGrad.Truncate
+  brMinute = ((brGrad - brGradTr) * 60).Truncate
+  brSekunde = (((brGrad - brGradTr) * 60) - brMinute ) * 60
+  sexagesimalBreite = brSekunde + (brMinute * 60) + (brGradTr * 3600)
+  
+  laeGrad = wgs84Coords.Get(1).AsNumber
+  laeGradTr = laeGrad.Truncate
+  laeMinute = ((laeGrad - laeGradTr) * 60).Truncate
+  laeSekunde = (((laeGrad - laeGradTr) * 60) - laeMinute ) * 60
+  sexagesimalLaenge = laeSekunde + (laeMinute * 60) + (laeGradTr * 3600)
+  
+end
+
+'##### geographische WGS84-Koordinaten zu rechwinkligen CH1903 Koordinaten umrechnen #####
+
+breiteAux = (sexagesimalBreite - 169028.66) / 10000
+laengeAux = (sexagesimalLaenge - 26782.5) / 10000
+
+xCoord = 600072.37 
++ (211455.93 * laengeAux) 
+-  (10938.51 * laengeAux * breiteAux)
+-      (0.36 * laengeAux * (breiteAux ^ 2))
+-     (44.54 * (laengeAux ^ 3))
+
+yCoord = 200147.07
++ (308807.95 * breiteAux) 
++   (3745.25 * (laengeAux ^ 2))
++     (76.63 * (breiteAux ^ 2))
+-    (194.56 * (laengeAux ^ 2) * breiteAux)
++    (119.79 * (breiteAux ^ 3))
+
+MsgBox.Report(xCoord.AsString + " / " + yCoord.AsString, "Koordinaten in CH1903 LV03")

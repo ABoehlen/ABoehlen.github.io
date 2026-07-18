@@ -1,0 +1,16 @@
+aa$http://www.shortwaveradio.ch/doku.php?id=de:rf-b55 (Beschreibung Panasonic RF-B55, letzter Aufruf: 17.05.2026)
+ab$https://www.radiomuseum.org/r/siemens_human_wake_system_rk759.html (Beschreibung Siemens RK 759, letzter Aufruf: 17.05.2026)
+ac$Schiffhauer, Nils: Weltempfänger Testbuch Nr. 8. Siebel Verlag, Meckenheim 1994, S.&nbsp;47 und 92
+ad$Helmbold, Frank et al: reflexion – Das Technik-Buch. UKW/TV-Arbeitskreis der AGDX e.V. Bremen 1996, S.&nbsp;45
+ae$https://www.addx.de/addx/klubdienst.php (Kontaktdaten von Jürgen Martens auf der Seite des ADDX, letzter Aufruf: 17.05.2026)
+af$Persönliches Schreiben von Bernhard Weiskopf, Mitglied im UKW/TV-Arbeitskreis der AGDX e. V. vom 27.02.2001
+ag$https://www.discriminator.nl/ic/mc3361.pdf	(Motorola Low Power Narrowband IC MC3361C, letzter Aufruf: 17.05.2026)
+ah$Siebel, Wolf: Zusatzgeräte für den Funkempfang. Siebel Verlag, Meckenheim 1995, S.&nbsp;56
+ai$HF-225 General Coverage Receiver. User’s Manual. Lowe Electronics Ltd, Matlock, Derbyshire 1989, S.&nbsp;8
+aj$https://www.funkamateur.de/bauelemente-2.html?file=tl_files/downloads/bauelementeinfo/MC3361C_M3361P.pdf (Beispielschaltung mit dem MC3361, letzter Aufruf: 17.05.2026)
+ak$http://www.giga-tech.de/pageID_10547575.html (Keramische Filter, letzter Aufruf: 17.05.2026)
+al$Klawitter, Gerd: Ionosphäre und Wellenausbreitung. Siebel Verlag, Meckenheim 2000, S.&nbsp;52/53
+am$Schiffhauer, Nils: Scanner – UKW-Sprechfunk-Empfänger. Siebel Verlag, Meckenheim 1995, S. 121/122
+an$https://www.addx.org/textarchiv/2017-07-28-31.pdf (Offset DX – Tief im Unterholz der Mittelwelle, letzter Aufruf: 17.05.2026)
+ao$https://www.qsl.net/n/n9zia/fmdemod/ (21.4 MHz FM Demodulator, letzter Aufruf: 17.05.2026)
+ap$https://www.rundfunkforum.de/viewtopic.php?f=5&t=63508&start=240 (Einzug von Morteau/le Meix Musy, letzter Aufruf: 17.05.2026)

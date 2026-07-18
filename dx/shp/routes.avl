@@ -1,0 +1,232 @@
+/3.2
+(ODB.1
+	FirstRootClassName:	"Legend"
+	Roots:	2
+	Version:	32
+)
+
+(Legend.2
+	SymType:	0x01
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	3
+	Symbols:	4
+	Class:	23
+	Class:	24
+	Class:	25
+	StdDevs:	1.00000000000000
+	NullSym:	26
+	NullValues:	28
+	StatValues:	29
+	Precision:	-3
+)
+
+(AVStr.3
+	S:	"Typ"
+)
+
+(SymList.4
+	Child:	5
+	Child:	13
+	Child:	21
+)
+
+(CLnSym.5
+	Color:	6
+	Size:	2.00000000000000
+	Symbols:	7
+)
+
+(TClr.6
+	Red:	0xffff
+)
+
+(SymList.7
+	Child:	8
+	Child:	9
+)
+
+(BLnSym.8
+	Color:	6
+	Width:	2.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(VLnArw.9
+	Color:	6
+	Size:	2.00000000000000
+	Interval:	120.00000000000000
+	ArrowLen:	0.04000000000000
+	BasicShade:	10
+	BasicLine:	8
+)
+
+(BShSym.10
+	Color:	6
+	Outline:	1
+	OutlineColor:	11
+	BgColor:	12
+)
+
+(TClr.11
+)
+
+(TClr.12
+	Name:	"Transparent"
+)
+
+(CLnSym.13
+	Color:	14
+	Size:	2.00000000000000
+	Symbols:	15
+)
+
+(TClr.14
+	Red:	0x189
+	Green:	0x8200
+	Blue:	0x81
+)
+
+(SymList.15
+	Child:	16
+	Child:	17
+)
+
+(BLnSym.16
+	Color:	14
+	Width:	2.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(VLnArw.17
+	Color:	14
+	Size:	2.00000000000000
+	Interval:	120.00000000000000
+	ArrowLen:	0.04000000000000
+	BasicShade:	18
+	BasicLine:	16
+)
+
+(BShSym.18
+	Color:	14
+	Outline:	1
+	OutlineColor:	19
+	BgColor:	20
+)
+
+(TClr.19
+)
+
+(TClr.20
+	Name:	"Transparent"
+)
+
+(BLnSym.21
+	Color:	22
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.22
+	Name:	"Transparent"
+)
+
+(LClass.23
+	IsText:	1
+	Label:	"SID"
+	MinStr:	"SID"
+	MaxStr:	"SID"
+	Precision:	-3
+)
+
+(LClass.24
+	IsText:	1
+	Label:	"Transition"
+	MinStr:	"Transition"
+	MaxStr:	"Transition"
+	Precision:	-3
+)
+
+(LClass.25
+	IsNoData:	1
+	IsText:	1
+	Label:	"No Data"
+	Precision:	-3
+)
+
+(BLnSym.26
+	Color:	27
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.27
+	Name:	"Transparent"
+)
+
+(NameDict.28
+)
+
+(NameDict.29
+)
+

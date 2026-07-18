@@ -1,0 +1,59 @@
+--------------
+Schriftgrössen
+--------------
+
+HEADER
+h2: 40px normal
+h3: 20px normal
+
+NAVIGATION
+a: 14px bold
+
+CONTENT
+h1: 25px bold
+h2: 21px bold
+h3: 18px bold
+th: 18px bold
+p: 16px normal
+figcaption: 14px normal
+sup: 10px normal
+
+SIDEBAR
+h1: 16px bold
+h2: 16px bold
+p: 14px normal
+a: 14px normal
+
+FOOTER
+alle: 10px italic
+
+
+---------------------------
+
+Website bei Google anmelden
+
+https://search.google.com/search-console/about
+Anmelden in Google Search Console
+
+URL-Präfix
+URL eintragen
+
+generierte HTML-Datei im root-Verzeichnis ablegen
+
+Sitemap generieren
+https://www.xml-sitemaps.com/
+
+und im root-Verzeichnis ablegen
+
+In Google Search Console -> Sitemaps -> Neue Sitemap hinzufügen 
+
+
+robots.txt-Datei erstellen
+https://developers.google.com/search/docs/advanced/robots/create-robots-txt
+
+-----------------------------------
+
+Temp
+
+http://www.railfaneurope.net/pix/it/station/Cuzzago/pix.html
+http://www.railfaneurope.net/pix/hu/private/GySEV/car/passenger/Schlieren/pix.html

@@ -1,0 +1,63 @@
+'##############################################################
+'#
+'# Filename:     calc_dist_from_qth.ave
+'# Author:       Adrian Boehlen
+'# Date:         15.02.2025
+'# Version:      1.0
+'#
+'# Purpose:      Berechnet die Distanz jedes Sendestandortes
+'#               vom QTH
+'#                 
+'##############################################################
+
+'# X/Y-Koordinaten des QTH (CH1903 LV03)
+qthX = 610555
+qthY = 197233
+
+'# ein View muss aktiv sein
+theView = av.GetActiveDoc
+
+'# lokale Variablen
+theTheme = theView.GetActiveThemes.Get(0)
+theFTab = theTheme.GetFTab
+xField = theFTab.FindField("Metx")
+yField = theFTab.FindField("Mety")
+distField = theFTab.FindField("Dist")
+
+'# pruefen, ob das Thema bearbeitbar und im Bearbeitungsmodus ist
+if (theFTab.canEdit.Not) then
+  MsgBox.Warning("Die Tabelle ist nicht editierbar", "Abbruch")
+  return nil
+end
+
+if (theFTab.isEditable.Not) then
+  MsgBox.Warning("Bitte starten Sie zuerst eine Edit-Session", "Abbruch")
+  return nil
+end
+
+'# jede Zeile durchgehen
+for each rec in theFTab
+  xCoord = theFTab.returnValue(xField, rec)
+  yCoord = theFTab.returnValue(yField, rec)
+  
+  '# Differenz der X- und Y-Koordinate berechnen
+  if (qthX > xCoord) then
+    xDiff = qthX - xCoord
+  else
+    xDiff = xCoord - qthX
+  end
+
+  if (qthY > yCoord) then
+    yDiff = qthY - yCoord
+  else
+    yDiff = yCoord - qthY
+  end
+  
+  '# Distanz gemaess Pythagoras berechnen und als gerundeten km-Wert speichern
+  dist = ((xDiff ^ 2) + (yDiff ^ 2)).Sqrt
+  dist = dist/1000
+  dist.SetFormat("d")
+  
+  '# Distanz in km ins entsprechende Feld schreiben
+  theFTab.SetValueNumber(distField, rec, dist)
+end

@@ -45,7 +45,7 @@ alog.avx\n$AVEXT/geoproc.avx\n$AVEXT/vedit.avx\n"
 	Doc:	3942
 	Doc:	3946
 	Doc:	3950
-	ActiveDoc:	1851
+	ActiveDoc:	3355
 	Buttons:	3963
 	Buttons:	3964
 	Buttons:	3965
@@ -80,17 +80,19 @@ alog.avx\n$AVEXT/geoproc.avx\n$AVEXT/vedit.avx\n"
 	Prefs:	3995
 	GUI:	4646
 	GUI:	5247
-	GUI:	5567
-	GUI:	5896
-	GUI:	6017
-	GUI:	6125
-	WorkDir:	6697
-	WinX:	314
-	WinY:	29
-	WinW:	1109
-	WinH:	764
+	GUI:	5566
+	GUI:	5895
+	GUI:	6015
+	GUI:	6123
+	WorkDir:	6695
+	WinX:	-8
+	WinY:	-7
+	WinW:	1936
+	WinH:	1042
 	SerialNumber:	"899941126318"
-	SelColor:	6698
+	SelColor:	6696
+	GUINames:	6697
+	GUINames:	6698
 	GUINames:	6699
 	GUINames:	6700
 	GUINames:	6701
@@ -100,8 +102,6 @@ alog.avx\n$AVEXT/geoproc.avx\n$AVEXT/vedit.avx\n"
 	GUINames:	6705
 	GUINames:	6706
 	GUINames:	6707
-	GUINames:	6708
-	GUINames:	6709
 	TocWidthScale:	1.00000000000000
 )
 
@@ -13048,7 +13048,6 @@ alog.avx\n$AVEXT/geoproc.avx\n$AVEXT/vedit.avx\n"
 
 (DocWin.1852
 	Owner:	1851
-	Open:	1
 	X:	284
 	Y:	1
 	W:	777
@@ -13221,12 +13220,12 @@ alog.avx\n$AVEXT/geoproc.avx\n$AVEXT/vedit.avx\n"
 )
 
 (Numb.1875
-	N:	106.00000000000000
+	N:	0.17549668874172
 )
 
 (PointD.1876
-	x:	548625.92282464262000
-	y:	416771.61077913706000
+	x:	814803.41522171116000
+	y:	437325.85729628516000
 )
 
 (Numb.1877
@@ -23723,8 +23722,9 @@ r = fstr + 10.AsChar + \"  </tr>\"\n  R_file.WriteElt(fstr)\n  rt = rt + 1\nend\
 
 (DocWin.3356
 	Owner:	3355
-	X:	403
-	Y:	300
+	Open:	1
+	X:	354
+	Y:	143
 	W:	1286
 	H:	558
 )
@@ -23823,7 +23823,7 @@ r = fstr + 10.AsChar + \"  </tr>\"\n  R_file.WriteElt(fstr)\n  rt = rt + 1\nend\
 )
 
 (Bitmap.3368
-	NumBits:	28
+	NumBits:	27
 	Bits:	00000000 
 )
 
@@ -27554,7 +27554,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	HelpTopic:	"New_button"
 	Update:	"Doc.NewUpdate"
 	Label:	"&New"
-	Click:	"View.New"
+	Click:	"Table.New"
 )
 
 (LButn.3964
@@ -27565,10 +27565,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (LButn.3965
-	HelpTopic:	"Print_button"
-	Update:	"Doc.ActionUpdate"
-	Label:	"P&rint"
-	Click:	"Doc.Action"
+	HelpTopic:	"Add_button"
+	Update:	"Table.ActionUpdate"
+	Label:	"&Add"
+	Click:	"Table.Action"
 )
 
 (FN.3966
@@ -27690,29 +27690,29 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 
 (NameDict.3995
 	Obj:	3996
-	Obj:	3997
+	Obj:	3999
 	Obj:	4000
 	Obj:	4633
-	Obj:	4638
+	Obj:	4639
 	Obj:	4644
 )
 
 (AVDict.3996
-	InternalName:	"Table of Contents Defaults Dialog"
-)
-
-(AVDict.3997
 	InternalName:	"Dialog Designer"
-	Key:	3998
-	Value:	3999
+	Key:	3997
+	Value:	3998
 )
 
-(AVStr.3998
+(AVStr.3997
 	S:	"IsVisible"
 )
 
-(Bool.3999
+(Bool.3998
 	Truth:	1
+)
+
+(AVDict.3999
+	InternalName:	"Table of Contents Defaults Dialog"
 )
 
 (AVDict.4000
@@ -27729,60 +27729,60 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (AVDict.4633
-	InternalName:	"Geoprocessing"
+	InternalName:	"Table Master 2"
 	Key:	4634
-	Key:	4635
-	Value:	4636
-	Value:	4637
+	Value:	4635
 )
 
 (AVStr.4634
-	S:	"Loaded"
-)
-
-(AVStr.4635
-	S:	"Version"
-)
-
-(Bool.4636
-	Truth:	1
-)
-
-(Numb.4637
-	N:	3.10000000000000
-)
-
-(AVDict.4638
-	InternalName:	"Table Master 2"
-	Key:	4639
-	Value:	4640
-)
-
-(AVStr.4639
 	S:	"Table Master 2"
 )
 
-(AVDict.4640
+(AVDict.4635
+	Key:	4636
+	Value:	4637
+)
+
+(Numb.4636
+)
+
+(List.4637
+	InternalName:	"Incorrect"
+	Child:	4638
+)
+
+(AVStr.4638
+	S:	"1"
+)
+
+(AVDict.4639
+	InternalName:	"Geoprocessing"
+	Key:	4640
 	Key:	4641
 	Value:	4642
+	Value:	4643
 )
 
-(Numb.4641
+(AVStr.4640
+	S:	"Loaded"
 )
 
-(List.4642
-	InternalName:	"Incorrect"
-	Child:	4643
+(AVStr.4641
+	S:	"Version"
 )
 
-(AVStr.4643
-	S:	"1"
+(Bool.4642
+	Truth:	1
+)
+
+(Numb.4643
+	N:	3.10000000000000
 )
 
 (AVDict.4644
 	InternalName:	"Projection Utility Wizard"
 	Key:	4645
-	Value:	4636
+	Value:	4642
 )
 
 (AVStr.4645
@@ -30337,9 +30337,9 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Modified:	1
 	Visible:	1
 	MenuBar:	5248
-	ButnBar:	5396
-	Popups:	5465
-	ToolBar:	5466
+	ButnBar:	5395
+	Popups:	5464
+	ToolBar:	5465
 	NewScript:	"Table.New"
 	OpenScript:	"Doc.Open"
 	ActionScript:	"Table.Action"
@@ -30347,7 +30347,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	OpenUpdateScript:	"Doc.OpenUpdate"
 	ActionUpdateScript:	"Table.ActionUpdate"
 	Title:	"Tables"
-	Icon:	5477
+	Icon:	5476
 )
 
 (MenuBar.5248
@@ -30357,7 +30357,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	5297
 	Child:	5306
 	Child:	5380
-	Child:	5391
+	Child:	5390
 )
 
 (PMenu.5249
@@ -30773,6 +30773,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.5298
+	Disabled:	1
 	Help:	"Sorts rows in ascending order (A-Z), (0-9)"
 	HelpTopic:	"Sort_table"
 	Update:	"Table.SortUpdate"
@@ -30782,6 +30783,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.5299
+	Disabled:	1
 	Help:	"Sorts rows in descending order (Z-A), (9-0)"
 	HelpTopic:	"Sort_table"
 	Update:	"Table.SortUpdate"
@@ -30794,6 +30796,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.5301
+	Disabled:	1
 	Help:	"Creates or removes an index on the active field"
 	HelpTopic:	"Create_Remove_Index"
 	Update:	"Table.IndexUpdate"
@@ -30806,6 +30809,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.5303
+	Disabled:	1
 	Help:	"Creates a summary table grouped by the active field"
 	HelpTopic:	"Summarize"
 	Update:	"Table.SortUpdate"
@@ -30825,6 +30829,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.5305
+	Disabled:	1
 	Help:	"Generates a report of statistics for data in the active, numeric field"
 	HelpTopic:	"Statistics"
 	Update:	"Table.StatisticsUpdate"
@@ -30848,7 +30853,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	5386
 	Child:	5388
 	Child:	5389
-	Child:	5390
 	Label:	"&Window"
 )
 
@@ -30893,7 +30897,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (AVStr.5387
-	S:	"dx.apr Attributes of Ukw_empf_tabl UKW-Sender"
+	S:	"dx.apr geraetebestand.dbf"
 )
 
 (Choice.5388
@@ -30904,29 +30908,22 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.5389
-	Help:	"Activates Attributes of Ukw_empf_tabl"
-	Label:	"&2 Attributes of Ukw_empf_tabl"
+	Help:	"Activates geraetebestand.dbf"
+	Label:	"&2 geraetebestand.dbf"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5390
-	Help:	"Activates UKW-Sender"
-	Label:	"&3 UKW-Sender"
-	Click:	"WindowActivate"
-	Shortcut:	"Keys.None"
-)
-
-(PMenu.5391
+(PMenu.5390
 	InternalName:	"Help"
+	Child:	5391
 	Child:	5392
 	Child:	5393
 	Child:	5394
-	Child:	5395
 	Label:	"&Help"
 )
 
-(Choice.5392
+(Choice.5391
 	Help:	"Displays the dialog for browsing and searching ArcView's help system"
 	HelpTopic:	"Help_on_Help_Topics"
 	Label:	"Help &Topics..."
@@ -30934,7 +30931,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5393
+(Choice.5392
 	Help:	"Provides instructions for how to obtain help from ArcView"
 	HelpTopic:	"Help_on_How_to_Get_Help"
 	Label:	"&How to Get Help..."
@@ -30942,10 +30939,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5394
+(Space.5393
 )
 
-(Choice.5395
+(Choice.5394
 	Help:	"Provides information about ArcView"
 	HelpTopic:	"About"
 	Label:	"&About ArcView..."
@@ -30953,378 +30950,381 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(ButnBar.5396
-	Child:	5397
+(ButnBar.5395
+	Child:	5396
+	Child:	5398
 	Child:	5399
-	Child:	5400
-	Child:	5404
-	Child:	5406
+	Child:	5403
+	Child:	5405
+	Child:	5419
 	Child:	5420
-	Child:	5421
-	Child:	5423
-	Child:	5425
-	Child:	5427
+	Child:	5422
+	Child:	5424
+	Child:	5426
+	Child:	5428
 	Child:	5429
-	Child:	5430
+	Child:	5431
 	Child:	5432
-	Child:	5433
-	Child:	5435
-	Child:	5437
+	Child:	5434
+	Child:	5436
+	Child:	5438
 	Child:	5439
-	Child:	5440
+	Child:	5441
 	Child:	5442
-	Child:	5443
-	Child:	5445
+	Child:	5444
+	Child:	5446
 	Child:	5447
-	Child:	5448
-	Child:	5460
+	Child:	5459
+	Child:	5461
 	Child:	5462
-	Child:	5463
 )
 
-(Butn.5397
+(Butn.5396
 	Help:	"Save Project//Saves the current project"
 	HelpTopic:	"Save_Project"
-	Icon:	5398
+	Icon:	5397
 	Click:	"Project.Save"
 )
 
-(AVIcon.5398
+(AVIcon.5397
 	Name:	"Save"
 	Res:	"Icons.Save"
 
 )
 
-(Space.5399
+(Space.5398
 )
 
-(Butn.5400
+(Butn.5399
 	Disabled:	1
 	Help:	"Cut//Cuts the selected cell to the clipboard"
 	HelpTopic:	"Cut"
 	Update:	"Table.CutUpdate"
-	Icon:	5401
+	Icon:	5400
 	Click:	"Table.Cut"
 )
 
-(AVIcon.5401
+(AVIcon.5400
 	Name:	"Cut"
 	Res:	"Icons.Cut"
 
 )
 
-(Butn.5404
+(Butn.5403
 	Disabled:	1
 	Help:	"Copy//Copies the selected cell to the clipboard"
 	HelpTopic:	"Copy"
 	Update:	"Table.CutUpdate"
-	Icon:	5405
+	Icon:	5404
 	Click:	"Table.Copy"
 )
 
-(AVIcon.5405
+(AVIcon.5404
 	Name:	"Copy"
 	Res:	"Icons.Copy"
 
 )
 
-(Butn.5406
+(Butn.5405
 	Disabled:	1
 	Help:	"Paste//Inserts the contents of the Clipboard into the active cell"
 	HelpTopic:	"Paste"
 	Update:	"Table.CutUpdate"
-	Icon:	5407
+	Icon:	5406
 	Click:	"Table.Paste"
 )
 
-(AVIcon.5407
+(AVIcon.5406
 	Name:	"Paste"
 	Res:	"Icons.Paste"
 
 )
 
-(Space.5420
+(Space.5419
 )
 
-(Butn.5421
+(Butn.5420
 	Help:	"Export Table to HTML//"
-	Icon:	5422
+	Icon:	5421
 	Click:	"ExportHTML"
 )
 
-(AVIcon.5422
+(AVIcon.5421
 	Name:	"H"
 	Res:	"Icons.H"
 
 )
 
-(Butn.5423
+(Butn.5422
 	Help:	"Select All//Selects all records in the table"
 	HelpTopic:	"Select_All"
-	Icon:	5424
+	Icon:	5423
 	Click:	"Table.SelectAll"
 )
 
-(AVIcon.5424
+(AVIcon.5423
 	Name:	"SelectAll"
 	Res:	"Icons.SelectAll"
 
 )
 
-(Butn.5425
+(Butn.5424
 	Help:	"Select None//Unselects all records in the table"
 	HelpTopic:	"Select_None_in_a_table"
-	Icon:	5426
+	Icon:	5425
 	Click:	"Table.UnselectAll"
 )
 
-(AVIcon.5426
+(AVIcon.5425
 	Name:	"SelectNone"
 	Res:	"Icons.SelectNone"
 
 )
 
-(Butn.5427
+(Butn.5426
 	Help:	"Switch Selection//Toggles selected and unselected records in the table"
 	HelpTopic:	"Switch_Selection"
-	Icon:	5428
+	Icon:	5427
 	Click:	"Table.SwitchSelection"
 )
 
-(AVIcon.5428
+(AVIcon.5427
 	Name:	"SwitchSelect"
 	Res:	"Icons.SwitchSelect"
 
 )
 
-(Space.5429
+(Space.5428
 )
 
-(Butn.5430
+(Butn.5429
 	Help:	"Create Chart//Creates a chart from the table"
 	HelpTopic:	"Create_Chart"
 	Update:	"Table.ChartUpdate"
-	Icon:	5431
+	Icon:	5430
 	Click:	"Table.Chart"
 )
 
-(AVIcon.5431
+(AVIcon.5430
 	Name:	"MakeChart"
 	Res:	"Icons.MakeChart"
 
 )
 
-(Space.5432
+(Space.5431
 )
 
-(Butn.5433
+(Butn.5432
 	Help:	"Find//Finds the row in the table using the text you enter"
 	HelpTopic:	"Find"
-	Icon:	5434
+	Icon:	5433
 	Click:	"Table.Find"
 )
 
-(AVIcon.5434
+(AVIcon.5433
 	Name:	"Find"
 	Res:	"Icons.Find"
 
 )
 
-(Butn.5435
+(Butn.5434
 	Help:	"Query Builder//Displays the Query Builder to select records with a logical expression"
 	HelpTopic:	"Query_Builder"
-	Icon:	5436
+	Icon:	5435
 	Click:	"Table.Query"
 )
 
-(AVIcon.5436
+(AVIcon.5435
 	Name:	"QueryBuilder"
 	Res:	"Icons.QueryBuilder"
 
 )
 
-(Butn.5437
+(Butn.5436
 	Disabled:	1
 	Help:	"Promote//Promotes selected rows to the top of the table"
 	HelpTopic:	"Promote"
 	Update:	"Table.PromoteUpdate"
-	Icon:	5438
+	Icon:	5437
 	Click:	"Table.Promote"
 )
 
-(AVIcon.5438
+(AVIcon.5437
 	Name:	"Promote"
 	Res:	"Icons.Promote"
 
 )
 
-(Space.5439
+(Space.5438
 )
 
-(Butn.5440
+(Butn.5439
 	Disabled:	1
 	Help:	"Join//Appends the fields of another table to the active table based on a common field"
 	HelpTopic:	"Join"
 	Update:	"Table.JoinUpdate"
-	Icon:	5441
+	Icon:	5440
 	Click:	"Table.Join"
 )
 
-(AVIcon.5441
+(AVIcon.5440
 	Name:	"Join"
 	Res:	"Icons.Join"
 
 )
 
-(Space.5442
+(Space.5441
 )
 
-(Butn.5443
+(Butn.5442
+	Disabled:	1
 	Help:	"Summarize//Creates a summary table grouped by the active field"
 	HelpTopic:	"Summarize"
 	Update:	"Table.SortUpdate"
-	Icon:	5444
+	Icon:	5443
 	Click:	"Table.Summarize"
 )
 
-(AVIcon.5444
+(AVIcon.5443
 	Name:	"Summarize"
 	Res:	"Icons.Summarize"
 
 )
 
-(Butn.5445
+(Butn.5444
 	Disabled:	1
 	Help:	"Calculate//Calculates the value of a field"
 	HelpTopic:	"Calculate"
 	Update:	"Table.CalculateUpdate"
-	Icon:	5446
+	Icon:	5445
 	Click:	"Table.Calculate"
 )
 
-(AVIcon.5446
+(AVIcon.5445
 	Name:	"Calculator"
 	Res:	"Icons.Calculator"
 
 )
 
-(Space.5447
+(Space.5446
 )
 
-(Butn.5448
+(Butn.5447
+	Disabled:	1
 	Help:	"Sort Ascending//Sorts rows in ascending order (A-Z), (0-9)"
 	HelpTopic:	"Sort_table"
 	Update:	"Table.SortUpdate"
-	Icon:	5449
+	Icon:	5448
 	Click:	"Table.SortAscending"
 )
 
-(AVIcon.5449
+(AVIcon.5448
 	Name:	"SortAscending"
 	Res:	"Icons.SortAscending"
 
 )
 
-(Butn.5460
+(Butn.5459
+	Disabled:	1
 	Help:	"Sort Descending//Sorts rows in descending order (Z-A), (9-0)"
 	HelpTopic:	"Sort_table"
 	Update:	"Table.SortUpdate"
-	Icon:	5461
+	Icon:	5460
 	Click:	"Table.SortDescending"
 )
 
-(AVIcon.5461
+(AVIcon.5460
 	Name:	"SortDescending"
 	Res:	"Icons.SortDescending"
 
 )
 
-(Space.5462
+(Space.5461
 )
 
-(Butn.5463
+(Butn.5462
 	Help:	"Help//Gets help about the next button, tool, or menu choice you click"
 	HelpTopic:	"Help_button"
-	Icon:	5464
+	Icon:	5463
 	Click:	"Help.Tool"
 )
 
-(AVIcon.5464
+(AVIcon.5463
 	Name:	"HelpTool"
 	Res:	"Icons.HelpTool"
 
 )
 
-(PopupSet.5465
+(PopupSet.5464
 )
 
-(ToolBar.5466
-	Child:	5467
-	Child:	5469
-	Child:	5471
+(ToolBar.5465
+	Child:	5466
+	Child:	5468
+	Child:	5470
 )
 
-(Tool.5467
+(Tool.5466
 	Help:	"Select//Selects records in the table"
 	HelpTopic:	"Select_tool"
-	Icon:	5468
+	Icon:	5467
 	Cursor:	"Cursors.Default"
 	Apply:	"Table.Select"
 	Click:	"Table.StopEditing"
 )
 
-(AVIcon.5468
+(AVIcon.5467
 	Name:	"Select"
 	Res:	"Icons.Select"
 
 )
 
-(Tool.5469
+(Tool.5468
 	Disabled:	1
 	Help:	"Edit//Changes cell values"
 	HelpTopic:	"Edit_tool"
 	Update:	"Table.IsEditableUpdate"
-	Icon:	5470
+	Icon:	5469
 	Cursor:	"Cursors.Finger"
 	Apply:	"Table.Edit"
 )
 
-(AVIcon.5470
+(AVIcon.5469
 	Name:	"Edit"
 	Res:	"Icons.Edit"
 
 )
 
-(Tool.5471
+(Tool.5470
 	Help:	"Identify//Provides information about a record"
 	HelpTopic:	"Identify_tool"
-	Icon:	5472
+	Icon:	5471
 	Cursor:	"Cursors.ID"
 	Apply:	"Table.Identify"
 	Click:	"Table.StopEditing"
 )
 
-(AVIcon.5472
+(AVIcon.5471
 	Name:	"ID"
 	Res:	"Icons.ID"
 
 )
 
-(AVIcon.5477
+(AVIcon.5476
 	Name:	"Icon"
 	Res:	"Table.Icon"
 
 )
 
-(DocGUI.5567
+(DocGUI.5566
 	Name:	"Layout"
 	Type:	"Layout"
 	Modified:	1
 	Visible:	1
-	MenuBar:	5568
-	ButnBar:	5655
-	Popups:	5700
-	ToolBar:	5712
+	MenuBar:	5567
+	ButnBar:	5654
+	Popups:	5699
+	ToolBar:	5711
 	NewScript:	"Layout.New"
 	OpenScript:	"Doc.Open"
 	ActionScript:	"Doc.Action"
@@ -31332,20 +31332,21 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	OpenUpdateScript:	"Doc.OpenUpdate"
 	ActionUpdateScript:	"Doc.ActionUpdate"
 	Title:	"Layouts"
-	Icon:	5769
+	Icon:	5768
 )
 
-(MenuBar.5568
-	Child:	5569
-	Child:	5583
-	Child:	5592
-	Child:	5610
-	Child:	5638
-	Child:	5650
+(MenuBar.5567
+	Child:	5568
+	Child:	5582
+	Child:	5591
+	Child:	5609
+	Child:	5637
+	Child:	5649
 )
 
-(PMenu.5569
+(PMenu.5568
 	InternalName:	"File"
+	Child:	5569
 	Child:	5570
 	Child:	5571
 	Child:	5572
@@ -31358,11 +31359,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	5579
 	Child:	5580
 	Child:	5581
-	Child:	5582
 	Label:	"&File"
 )
 
-(Choice.5570
+(Choice.5569
 	Help:	"Closes the active component"
 	HelpTopic:	"Close"
 	Label:	"&Close"
@@ -31370,7 +31370,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5571
+(Choice.5570
 	Help:	"Closes all components"
 	HelpTopic:	"Close_All"
 	Label:	"Close &All"
@@ -31378,10 +31378,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5572
+(Space.5571
 )
 
-(Choice.5573
+(Choice.5572
 	Help:	"Saves the current project"
 	HelpTopic:	"Save_Project"
 	Label:	"&Save Project"
@@ -31389,7 +31389,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+S"
 )
 
-(Choice.5574
+(Choice.5573
 	Help:	"Saves the current project with a new name"
 	HelpTopic:	"Save_Project_As"
 	Label:	"Save Project As..."
@@ -31397,10 +31397,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5575
+(Space.5574
 )
 
-(Choice.5576
+(Choice.5575
 	Help:	"Displays the Extensions Dialog"
 	HelpTopic:	"Extensions"
 	Label:	"Extensions..."
@@ -31408,10 +31408,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5577
+(Space.5576
 )
 
-(Choice.5578
+(Choice.5577
 	Help:	"Prints the layout"
 	HelpTopic:	"Print"
 	Label:	"&Print..."
@@ -31419,7 +31419,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5579
+(Choice.5578
 	Help:	"Edits the printer and the printing options"
 	HelpTopic:	"Print_Setup"
 	Label:	"P&rint Setup..."
@@ -31427,7 +31427,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5580
+(Choice.5579
 	Help:	"Exports the Layout to a graphics file"
 	HelpTopic:	"Export"
 	Label:	"&Export..."
@@ -31435,10 +31435,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5581
+(Space.5580
 )
 
-(Choice.5582
+(Choice.5581
 	Help:	"Exits ArcView"
 	HelpTopic:	"Exit"
 	Label:	"E&xit"
@@ -31446,8 +31446,9 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.5583
+(PMenu.5582
 	InternalName:	"Edit"
+	Child:	5583
 	Child:	5584
 	Child:	5585
 	Child:	5586
@@ -31455,11 +31456,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	5588
 	Child:	5589
 	Child:	5590
-	Child:	5591
 	Label:	"&Edit"
 )
 
-(Choice.5584
+(Choice.5583
 	Disabled:	1
 	Help:	"Undo last edit"
 	HelpTopic:	"Undo"
@@ -31469,10 +31469,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+Z"
 )
 
-(Space.5585
+(Space.5584
 )
 
-(Choice.5586
+(Choice.5585
 	Help:	"Copies selected graphics to the clipboard and removes them from the layout"
 	HelpTopic:	"Cut"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -31481,7 +31481,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+X"
 )
 
-(Choice.5587
+(Choice.5586
 	Help:	"Copies the selected shapes or graphics to the clipboard"
 	HelpTopic:	"Copy"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -31490,7 +31490,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+C"
 )
 
-(Choice.5588
+(Choice.5587
 	Help:	"Inserts the contents of the clipboard"
 	HelpTopic:	"Paste"
 	Update:	"Layout.PasteUpdate"
@@ -31499,7 +31499,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+V"
 )
 
-(Choice.5589
+(Choice.5588
 	Help:	"Removes the selected frames or graphics from the layout"
 	HelpTopic:	"Delete"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -31508,10 +31508,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Del"
 )
 
-(Space.5590
+(Space.5589
 )
 
-(Choice.5591
+(Choice.5590
 	Help:	"Selects all graphics in the layout"
 	HelpTopic:	"Select_All"
 	Update:	"Layout.HasGraphicsUpdate"
@@ -31520,8 +31520,9 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.5592
+(PMenu.5591
 	InternalName:	"Layout"
+	Child:	5592
 	Child:	5593
 	Child:	5594
 	Child:	5595
@@ -31538,11 +31539,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	5606
 	Child:	5607
 	Child:	5608
-	Child:	5609
 	Label:	"&Layout"
 )
 
-(Choice.5593
+(Choice.5592
 	Help:	"Displays the dialog box to edit properties of the layout"
 	HelpTopic:	"Layout_Properties"
 	Label:	"&Properties..."
@@ -31550,7 +31550,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5594
+(Choice.5593
 	Help:	"Displays the page setup dialog"
 	HelpTopic:	"Page_Setup"
 	Label:	"Page Se&tup..."
@@ -31558,10 +31558,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5595
+(Space.5594
 )
 
-(Choice.5596
+(Choice.5595
 	Help:	"Zooms to the extent of the layout's page"
 	HelpTopic:	"Zoom_to_Page"
 	Label:	"&Zoom to Page"
@@ -31569,7 +31569,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5597
+(Choice.5596
 	Help:	"Zooms to display the actual size of the layout (1:1)"
 	HelpTopic:	"Zoom_to_Actual_Size"
 	Label:	"Zoom to &Actual"
@@ -31577,7 +31577,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5598
+(Choice.5597
 	Help:	"Zooms to the extent of the selected layout graphics"
 	HelpTopic:	"Zoom_to_Selected"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -31586,7 +31586,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5599
+(Choice.5598
 	Help:	"Zooms in on the center of the display"
 	HelpTopic:	"Zoom_In"
 	Label:	"Zoom &In"
@@ -31594,7 +31594,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.F2"
 )
 
-(Choice.5600
+(Choice.5599
 	Help:	"Zooms out from the center of the display"
 	HelpTopic:	"Zoom_Out"
 	Label:	"Zoom &Out"
@@ -31602,10 +31602,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.F3"
 )
 
-(Space.5601
+(Space.5600
 )
 
-(Choice.5602
+(Choice.5601
 	Help:	"Shows or hides the layout's grid"
 	HelpTopic:	"Show_Hide_Grid"
 	Update:	"Layout.ShowHideGridUpdate"
@@ -31614,7 +31614,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5603
+(Choice.5602
 	Help:	"Shows or hides the layout's margins"
 	HelpTopic:	"Show_Hide_Margins"
 	Update:	"Layout.ShowHideMarginsUpdate"
@@ -31623,10 +31623,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5604
+(Space.5603
 )
 
-(Choice.5605
+(Choice.5604
 	Help:	"Places a neatline around your graphics or inside your margins "
 	HelpTopic:	"Layout_Neatline"
 	Update:	"Graphic.Neatline ShowUpdate"
@@ -31635,10 +31635,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5606
+(Space.5605
 )
 
-(Choice.5607
+(Choice.5606
 	Help:	"Create a new layout by using a predefined template"
 	HelpTopic:	"Use_Template"
 	Label:	"&Use Template..."
@@ -31646,7 +31646,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5608
+(Choice.5607
 	Help:	"Store the current layout as a template"
 	HelpTopic:	"Store_As_Template"
 	Label:	"Sto&re As Template..."
@@ -31654,7 +31654,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5609
+(Choice.5608
 	Help:	"Store each graphic group in the current layout as a north arrow"
 	HelpTopic:	"Store_North_Arrows"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -31663,8 +31663,9 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.5610
+(PMenu.5609
 	InternalName:	"Graphics"
+	Child:	5610
 	Child:	5611
 	Child:	5612
 	Child:	5613
@@ -31673,15 +31674,14 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	5616
 	Child:	5617
 	Child:	5618
-	Child:	5619
+	Child:	5620
 	Child:	5621
 	Child:	5622
 	Child:	5623
-	Child:	5624
 	Label:	"&Graphics"
 )
 
-(Choice.5611
+(Choice.5610
 	Help:	"Displays the property editor for the selected graphic"
 	HelpTopic:	"Graphic_Properties"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -31690,10 +31690,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5612
+(Space.5611
 )
 
-(Choice.5613
+(Choice.5612
 	Help:	"Shows a dialog where you can set the default values for the text tools"
 	HelpTopic:	"Default_settings_for_text_and_label_tools"
 	Label:	"&Text Tool Defaults..."
@@ -31701,10 +31701,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5614
+(Space.5613
 )
 
-(Choice.5615
+(Choice.5614
 	Help:	"Displays a dialog box to adjust size and position of selected graphic"
 	HelpTopic:	"Size_and_Position"
 	Update:	"Graphic.SingleSelectionUpdate"
@@ -31713,7 +31713,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5616
+(Choice.5615
 	Help:	"Aligns the selected graphics"
 	HelpTopic:	"Align"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -31722,10 +31722,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+A"
 )
 
-(Space.5617
+(Space.5616
 )
 
-(Choice.5618
+(Choice.5617
 	Help:	"Moves selected graphics in front of other graphics"
 	HelpTopic:	"Bring_to_Front"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -31734,7 +31734,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5619
+(Choice.5618
 	Help:	"Moves selected graphics behind other graphics"
 	HelpTopic:	"Send_to_Back"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -31743,7 +31743,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5621
+(Choice.5620
 	Disabled:	1
 	Help:	"Groups selected graphics"
 	HelpTopic:	"Group"
@@ -31753,7 +31753,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+G"
 )
 
-(Choice.5622
+(Choice.5621
 	Disabled:	1
 	Help:	"Ungroups selected graphics"
 	HelpTopic:	"Ungroup"
@@ -31763,10 +31763,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+U"
 )
 
-(Space.5623
+(Space.5622
 )
 
-(Choice.5624
+(Choice.5623
 	Help:	"Simplify selected graphics by converting them to a set of shapes"
 	HelpTopic:	"Simplify"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -31775,21 +31775,21 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.5638
+(PMenu.5637
 	InternalName:	"Window"
+	Child:	5638
 	Child:	5639
 	Child:	5640
 	Child:	5641
 	Child:	5642
-	Child:	5643
-	Child:	5645
+	Child:	5644
+	Child:	5646
 	Child:	5647
 	Child:	5648
-	Child:	5649
 	Label:	"&Window"
 )
 
-(Choice.5639
+(Choice.5638
 	Help:	"Arranges windows as non-overlapping tiles"
 	HelpTopic:	"Tile"
 	Label:	"&Tile"
@@ -31797,7 +31797,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5640
+(Choice.5639
 	Help:	"Arranges windows"
 	HelpTopic:	"Cascade"
 	Label:	"&Cascade"
@@ -31805,7 +31805,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5641
+(Choice.5640
 	Help:	"Arranges iconified windows"
 	HelpTopic:	"Arrange_Icons"
 	Label:	"&Arrange Icons"
@@ -31813,10 +31813,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5642
+(Space.5641
 )
 
-(Choice.5643
+(Choice.5642
 	Help:	"Shows the symbol window"
 	HelpTopic:	"Show_Symbol_Window"
 	Label:	"Show Symbol Window..."
@@ -31824,46 +31824,46 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+P"
 )
 
-(Space.5645
-	ObjectTag:	5646
+(Space.5644
+	ObjectTag:	5645
 	Update:	"WindowMenuUpdate"
 )
 
-(AVStr.5646
+(AVStr.5645
 	S:	"dx.apr temp UKW-Sender"
 )
 
-(Choice.5647
+(Choice.5646
 	Help:	"Activates dx.apr"
 	Label:	"&1 dx.apr"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5648
+(Choice.5647
 	Help:	"Activates temp"
 	Label:	"&2 temp"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5649
+(Choice.5648
 	Help:	"Activates UKW-Sender"
 	Label:	"&3 UKW-Sender"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.5650
+(PMenu.5649
 	InternalName:	"Help"
+	Child:	5650
 	Child:	5651
 	Child:	5652
 	Child:	5653
-	Child:	5654
 	Label:	"&Help"
 )
 
-(Choice.5651
+(Choice.5650
 	Help:	"Displays the dialog for browsing and searching ArcView's help system"
 	HelpTopic:	"Help_on_Help_Topics"
 	Label:	"Help &Topics..."
@@ -31871,7 +31871,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5652
+(Choice.5651
 	Help:	"Provides instructions for how to obtain help from ArcView"
 	HelpTopic:	"Help_on_How_to_Get_Help"
 	Label:	"&How to Get Help..."
@@ -31879,10 +31879,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5653
+(Space.5652
 )
 
-(Choice.5654
+(Choice.5653
 	Help:	"Provides information about ArcView"
 	HelpTopic:	"About"
 	Label:	"&About ArcView..."
@@ -31890,303 +31890,304 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(ButnBar.5655
-	Child:	5656
+(ButnBar.5654
+	Child:	5655
+	Child:	5657
 	Child:	5658
-	Child:	5659
-	Child:	5663
-	Child:	5665
+	Child:	5662
+	Child:	5664
+	Child:	5666
 	Child:	5667
-	Child:	5668
-	Child:	5670
-	Child:	5672
-	Child:	5674
-	Child:	5676
-	Child:	5678
+	Child:	5669
+	Child:	5671
+	Child:	5673
+	Child:	5675
+	Child:	5677
+	Child:	5679
 	Child:	5680
-	Child:	5681
-	Child:	5683
-	Child:	5685
-	Child:	5687
-	Child:	5689
+	Child:	5682
+	Child:	5684
+	Child:	5686
+	Child:	5688
+	Child:	5690
 	Child:	5691
-	Child:	5692
+	Child:	5693
 	Child:	5694
-	Child:	5695
+	Child:	5696
 	Child:	5697
-	Child:	5698
 )
 
-(Butn.5656
+(Butn.5655
 	Help:	"Save Project//Saves the current project"
 	HelpTopic:	"Save_Project"
-	Icon:	5657
+	Icon:	5656
 	Click:	"Project.Save"
 )
 
-(AVIcon.5657
+(AVIcon.5656
 	Name:	"Save"
 	Res:	"Icons.Save"
 
 )
 
-(Space.5658
+(Space.5657
 )
 
-(Butn.5659
+(Butn.5658
 	Help:	"Cut//Cuts the selection and puts it into the clipboard"
 	HelpTopic:	"Cut"
 	Update:	"Graphic.HasSelectionUpdate"
-	Icon:	5660
+	Icon:	5659
 	Click:	"Layout.Cut"
 )
 
-(AVIcon.5660
+(AVIcon.5659
 	Name:	"Cut"
 	Res:	"Icons.Cut"
 
 )
 
-(Butn.5663
+(Butn.5662
 	Help:	"Copy//Copies the selected graphics to the clipboard"
 	HelpTopic:	"Copy"
 	Update:	"Graphic.HasSelectionUpdate"
-	Icon:	5664
+	Icon:	5663
 	Click:	"Layout.Copy"
 )
 
-(AVIcon.5664
+(AVIcon.5663
 	Name:	"Copy"
 	Res:	"Icons.Copy"
 
 )
 
-(Butn.5665
+(Butn.5664
 	Help:	"Paste//Inserts the contents of the clipboard"
 	HelpTopic:	"Paste"
 	Update:	"Layout.PasteUpdate"
-	Icon:	5666
+	Icon:	5665
 	Click:	"Layout.Paste"
 )
 
-(AVIcon.5666
+(AVIcon.5665
 	Name:	"Paste"
 	Res:	"Icons.Paste"
 
 )
 
-(Space.5667
+(Space.5666
 )
 
-(Butn.5668
+(Butn.5667
 	Help:	"Layout Properties//Displays the dialog box to edit properties of the layout"
 	HelpTopic:	"Layout_Properties"
-	Icon:	5669
+	Icon:	5668
 	Click:	"Layout.Properties"
 )
 
-(AVIcon.5669
+(AVIcon.5668
 	Name:	"Props"
 	Res:	"Icons.Props"
 
 )
 
-(Butn.5670
+(Butn.5669
 	Disabled:	1
 	Help:	"Group//Groups selected graphics"
 	HelpTopic:	"Group"
 	Update:	"Graphic.GroupUpdate"
-	Icon:	5671
+	Icon:	5670
 	Click:	"Graphic.Group"
 )
 
-(AVIcon.5671
+(AVIcon.5670
 	Name:	"Group"
 	Res:	"Icons.Group"
 
 )
 
-(Butn.5672
+(Butn.5671
 	Disabled:	1
 	Help:	"Ungroup//Ungroups selected graphics"
 	HelpTopic:	"Ungroup"
 	Update:	"Graphic.UngroupUpdate"
-	Icon:	5673
+	Icon:	5672
 	Click:	"Graphic.Ungroup"
 )
 
-(AVIcon.5673
+(AVIcon.5672
 	Name:	"Ungroup"
 	Res:	"Icons.Ungroup"
 
 )
 
-(Butn.5674
+(Butn.5673
 	Help:	"Bring to Front//Moves selected graphics in front of other graphics"
 	HelpTopic:	"Bring_to_Front"
 	Update:	"Graphic.HasSelectionUpdate"
-	Icon:	5675
+	Icon:	5674
 	Click:	"Graphic.ToFront"
 )
 
-(AVIcon.5675
+(AVIcon.5674
 	Name:	"MoveToFront"
 	Res:	"Icons.MoveToFront"
 
 )
 
-(Butn.5676
+(Butn.5675
 	Help:	"Send to Back//Moves selected graphics behind other graphics"
 	HelpTopic:	"Send_to_Back"
 	Update:	"Graphic.HasSelectionUpdate"
-	Icon:	5677
+	Icon:	5676
 	Click:	"Graphic.ToBack"
 )
 
-(AVIcon.5677
+(AVIcon.5676
 	Name:	"SendToBack"
 	Res:	"Icons.SendToBack"
 
 )
 
-(Butn.5678
+(Butn.5677
 	Disabled:	1
 	Help:	"Undo//Undo last edit"
 	HelpTopic:	"Undo"
 	Update:	"Layout.UndoUpdate"
-	Icon:	5679
+	Icon:	5678
 	Click:	"Layout.Undo"
 )
 
-(AVIcon.5679
+(AVIcon.5678
 	Name:	"Undo"
 	Res:	"Icons.Undo"
 
 )
 
-(Space.5680
+(Space.5679
 )
 
-(Butn.5681
+(Butn.5680
 	Help:	"Zoom to Page//Zooms to the page"
 	HelpTopic:	"Zoom_to_Page"
-	Icon:	5682
+	Icon:	5681
 	Click:	"Layout.ZoomPage"
 )
 
-(AVIcon.5682
+(AVIcon.5681
 	Name:	"ZoomToPage"
 	Res:	"Icons.ZoomToPage"
 
 )
 
-(Butn.5683
+(Butn.5682
 	Help:	"Zoom to Actual Size//Zooms to display the actual size of the layout (1:1)"
 	HelpTopic:	"Zoom_to_Actual_Size"
-	Icon:	5684
+	Icon:	5683
 	Click:	"Layout.ZoomActual"
 )
 
-(AVIcon.5684
+(AVIcon.5683
 	Name:	"ZoomToActual"
 	Res:	"Icons.ZoomToActual"
 
 )
 
-(Butn.5685
+(Butn.5684
 	Help:	"Zoom to Selected//Zooms to the extent of the selected layout graphics"
 	HelpTopic:	"Zoom_to_Selected"
 	Update:	"Graphic.HasSelectionUpdate"
-	Icon:	5686
+	Icon:	5685
 	Click:	"Layout.ZoomSelected"
 )
 
-(AVIcon.5686
+(AVIcon.5685
 	Name:	"ZoomToSelected"
 	Res:	"Icons.ZoomToSelected"
 
 )
 
-(Butn.5687
+(Butn.5686
 	Help:	"Zoom In//Zooms in on the center of the display"
 	HelpTopic:	"Zoom_In"
-	Icon:	5688
+	Icon:	5687
 	Click:	"Layout.ZoomIn"
 )
 
-(AVIcon.5688
+(AVIcon.5687
 	Name:	"ZoomIn"
 	Res:	"Icons.ZoomIn"
 
 )
 
-(Butn.5689
+(Butn.5688
 	Help:	"Zoom Out//Zooms out from the center of the display"
 	HelpTopic:	"Zoom_Out"
-	Icon:	5690
+	Icon:	5689
 	Click:	"Layout.ZoomOut"
 )
 
-(AVIcon.5690
+(AVIcon.5689
 	Name:	"ZoomOut"
 	Res:	"Icons.ZoomOut"
 
 )
 
-(Space.5691
+(Space.5690
 )
 
-(Butn.5692
+(Butn.5691
 	Help:	"Neatline//Places a neatline around your graphics or inside your margins"
 	HelpTopic:	"Layout_Neatline"
 	Update:	"Graphic.Neatline ShowUpdate"
-	Icon:	5693
+	Icon:	5692
 	Click:	"Graphic.Neatline Show"
 )
 
-(AVIcon.5693
+(AVIcon.5692
 	Name:	"Neatline"
 	Res:	"Icons.Neatline"
 
 )
 
-(Space.5694
+(Space.5693
 )
 
-(Butn.5695
+(Butn.5694
 	Help:	"Print//Prints the layout"
 	HelpTopic:	"Print"
-	Icon:	5696
+	Icon:	5695
 	Click:	"Doc.Print"
 )
 
-(AVIcon.5696
+(AVIcon.5695
 	Name:	"Print"
 	Res:	"Icons.Print"
 
 )
 
-(Space.5697
+(Space.5696
 )
 
-(Butn.5698
+(Butn.5697
 	Help:	"Help//Gets help about the next button, tool, or menu choice you click"
 	HelpTopic:	"Help_button"
-	Icon:	5699
+	Icon:	5698
 	Click:	"Help.Tool"
 )
 
-(AVIcon.5699
+(AVIcon.5698
 	Name:	"HelpTool"
 	Res:	"Icons.HelpTool"
 
 )
 
-(PopupSet.5700
-	Child:	5701
+(PopupSet.5699
+	Child:	5700
 )
 
-(Popup.5701
+(Popup.5700
+	Child:	5701
 	Child:	5702
 	Child:	5703
 	Child:	5704
@@ -32196,11 +32197,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	5708
 	Child:	5709
 	Child:	5710
-	Child:	5711
 	Label:	"Menu"
 )
 
-(Choice.5702
+(Choice.5701
 	Help:	"Selects all layout graphics"
 	HelpTopic:	"Select_All"
 	Update:	"Layout.HasGraphicsUpdate"
@@ -32209,10 +32209,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5703
+(Space.5702
 )
 
-(Choice.5704
+(Choice.5703
 	Help:	"Undo the last edit"
 	Update:	"Layout.UndoUpdate"
 	Label:	"Undo"
@@ -32220,10 +32220,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5705
+(Space.5704
 )
 
-(Choice.5706
+(Choice.5705
 	Help:	"Moves selected graphics in front of other graphics"
 	HelpTopic:	"Bring_to_Front"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -32232,7 +32232,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5707
+(Choice.5706
 	Help:	"Moves selected graphics behind other graphics"
 	HelpTopic:	"Send_to_Back"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -32241,10 +32241,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5708
+(Space.5707
 )
 
-(Choice.5709
+(Choice.5708
 	Help:	"Simplifies the selected graphic by converting it to a set of shapes"
 	HelpTopic:	"Simplify"
 	Update:	"Graphic.HasSelectionUpdate"
@@ -32253,10 +32253,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5710
+(Space.5709
 )
 
-(Choice.5711
+(Choice.5710
 	Help:	"Refreshes view frames"
 	Update:	"Frame.RefreshUpdate"
 	Label:	"Refresh View Frames"
@@ -32264,455 +32264,455 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(ToolBar.5712
-	Child:	5713
-	Child:	5715
-	Child:	5717
-	Child:	5719
-	Child:	5721
-	Child:	5725
-	Child:	5738
-	Child:	5751
+(ToolBar.5711
+	Child:	5712
+	Child:	5714
+	Child:	5716
+	Child:	5718
+	Child:	5720
+	Child:	5724
+	Child:	5737
+	Child:	5750
 )
 
-(Tool.5713
+(Tool.5712
 	Help:	"Pointer//Selects frames or graphics on the layout by pointing or dragging"
 	HelpTopic:	"Pointer_tool"
-	Icon:	5714
+	Icon:	5713
 	Cursor:	"Cursors.Select"
 	Apply:	"Layout.Select"
 	Click:	"Layout.SelectTool"
 )
 
-(AVIcon.5714
+(AVIcon.5713
 	Name:	"Select"
 	Res:	"Icons.Select"
 
 )
 
-(Tool.5715
+(Tool.5714
 	Help:	"Vertex_Edit//Adds, moves, and deletes vertices of line and polygon graphics"
 	HelpTopic:	"Vertex_Edit_Tool"
-	Icon:	5716
+	Icon:	5715
 	Cursor:	"Cursors.SelectEdit"
 	Apply:	"Layout.SelectToEdit"
 	Click:	"Layout.SelectToEditTool"
 )
 
-(AVIcon.5716
+(AVIcon.5715
 	Name:	"SelectEdit"
 	Res:	"Icons.SelectEdit"
 
 )
 
-(Tool.5717
+(Tool.5716
 	Help:	"Zoom In//Zooms in at a point you click or zooms in on a rectangle you drag"
 	HelpTopic:	"Zoom_In_tool"
-	Icon:	5718
+	Icon:	5717
 	Cursor:	"Cursors.ZoomIn"
 	Apply:	"Layout.ZoomInTool"
 )
 
-(AVIcon.5718
+(AVIcon.5717
 	Name:	"ZoomInTool"
 	Res:	"Icons.ZoomInTool"
 
 )
 
-(Tool.5719
+(Tool.5718
 	Help:	"Zoom Out//Zooms out from a point you click or zooms out to include a rectangle you drag"
 	HelpTopic:	"Zoom_Out_tool"
-	Icon:	5720
+	Icon:	5719
 	Cursor:	"Cursors.ZoomOut"
 	Apply:	"Layout.ZoomOutTool"
 )
 
-(AVIcon.5720
+(AVIcon.5719
 	Name:	"ZoomOutTool"
 	Res:	"Icons.ZoomOutTool"
 
 )
 
-(Tool.5721
+(Tool.5720
 	Help:	"Pan//Drags the display in the direction you move the cursor"
 	HelpTopic:	"Pan_tool"
-	Icon:	5722
+	Icon:	5721
 	Cursor:	"Cursors.Pan"
 	Apply:	"Layout.Pan"
 )
 
-(AVIcon.5722
+(AVIcon.5721
 	Name:	"Pan"
 	Res:	"Icons.Pan"
 
 )
 
-(ToolMenu.5725
+(ToolMenu.5724
 	Help:	"Text//Creates text on the display"
 	HelpTopic:	"Text_tool"
 	Update:	"Layout.TextToolUpdate"
-	Icon:	5726
+	Icon:	5725
 	Cursor:	"Cursors.Text"
 	Apply:	"Layout.Text"
 	Click:	"SymWin.DisplayFontPanel"
+	Child:	5726
 	Child:	5727
-	Child:	5728
-	Child:	5730
-	Child:	5732
-	Child:	5734
-	Child:	5736
+	Child:	5729
+	Child:	5731
+	Child:	5733
+	Child:	5735
 )
 
-(AVIcon.5726
+(AVIcon.5725
 	Name:	"Text"
 	Res:	"Icons.Text"
 
 )
 
-(Tool.5727
+(Tool.5726
 	Help:	"Text//Creates text on the display"
 	HelpTopic:	"Text_tool"
 	Update:	"Layout.TextToolUpdate"
-	Icon:	5726
+	Icon:	5725
 	Cursor:	"Cursors.Text"
 	Apply:	"Layout.Text"
 	Click:	"SymWin.DisplayFontPanel"
 )
 
-(Tool.5728
+(Tool.5727
 	Help:	"Callout Text//Draws text with a box and leader around it"
 	HelpTopic:	"Text_tool"
 	Update:	"Layout.TextToolUpdate"
-	Icon:	5729
+	Icon:	5728
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.CalloutTextTool"
 )
 
-(AVIcon.5729
+(AVIcon.5728
 	Name:	"CallOutText1"
 	Res:	"Icons.CallOutText1"
 
 )
 
-(Tool.5730
+(Tool.5729
 	Help:	"Bullet Leader Text//Draws text with a bullet and leader"
 	HelpTopic:	"Text_tool"
 	Update:	"Layout.TextToolUpdate"
-	Icon:	5731
+	Icon:	5730
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.BulletLeaderTextTool"
 )
 
-(AVIcon.5731
+(AVIcon.5730
 	Name:	"CallOutText2"
 	Res:	"Icons.CallOutText2"
 
 )
 
-(Tool.5732
+(Tool.5731
 	Help:	"Banner Text//Creates text with a box and shadow around it"
 	HelpTopic:	"Text_tool"
 	Update:	"Layout.TextToolUpdate"
-	Icon:	5733
+	Icon:	5732
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.ShadowBoxTextTool"
 )
 
-(AVIcon.5733
+(AVIcon.5732
 	Name:	"CallOutText3"
 	Res:	"Icons.CallOutText3"
 
 )
 
-(Tool.5734
+(Tool.5733
 	Help:	"Drop-Shadow Text//Creates text where each letter has a drop-shadow"
 	HelpTopic:	"Text_tool"
 	Update:	"Layout.TextToolUpdate"
-	Icon:	5735
+	Icon:	5734
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.CreateDropShadowText"
 )
 
-(AVIcon.5735
+(AVIcon.5734
 	Name:	"DropShadowText"
 	Res:	"Icons.DropShadowText"
 
 )
 
-(Tool.5736
+(Tool.5735
 	Help:	"SplineText//Adds text aligned to a spline baseline"
 	HelpTopic:	"Text_tool"
 	Update:	"Layout.TextToolUpdate"
-	Icon:	5737
+	Icon:	5736
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.SplineText"
 )
 
-(AVIcon.5737
+(AVIcon.5736
 	Name:	"TextAligned"
 	Res:	"Icons.TextAligned"
 
 )
 
-(ToolMenu.5738
+(ToolMenu.5737
 	Help:	"Draw Point//Creates a point on the display"
 	HelpTopic:	"Draw_tool"
-	Icon:	5739
+	Icon:	5738
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.Point"
 	Click:	"SymWin.DisplayMarkerPanel"
+	Child:	5739
 	Child:	5740
-	Child:	5741
-	Child:	5743
-	Child:	5745
-	Child:	5747
-	Child:	5749
+	Child:	5742
+	Child:	5744
+	Child:	5746
+	Child:	5748
 )
 
-(AVIcon.5739
+(AVIcon.5738
 	Name:	"Point"
 	Res:	"Icons.Point"
 
 )
 
-(Tool.5740
+(Tool.5739
 	Help:	"Draw Point//Creates a point on the display"
 	HelpTopic:	"Draw_tool"
-	Icon:	5739
+	Icon:	5738
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.Point"
 	Click:	"SymWin.DisplayMarkerPanel"
 )
 
-(Tool.5741
+(Tool.5740
 	Help:	"Draw Straight Line//Creates a line on the display"
 	HelpTopic:	"Draw_tool"
-	Icon:	5742
+	Icon:	5741
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.Line"
 	Click:	"SymWin.DisplayPenPanel"
 )
 
-(AVIcon.5742
+(AVIcon.5741
 	Name:	"SelectLine"
 	Res:	"Icons.SelectLine"
 
 )
 
-(Tool.5743
+(Tool.5742
 	Help:	"Draw Line//Creates a line with three or more points on the display"
 	HelpTopic:	"Draw_tool"
-	Icon:	5744
+	Icon:	5743
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.PolyLine"
 	Click:	"SymWin.DisplayPenPanel"
 )
 
-(AVIcon.5744
+(AVIcon.5743
 	Name:	"Lines"
 	Res:	"Icons.Lines"
 
 )
 
-(Tool.5745
+(Tool.5744
 	Help:	"Draw Rectangle//Creates a rectangle on the display"
 	HelpTopic:	"Draw_tool"
-	Icon:	5746
+	Icon:	5745
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.Rect"
 	Click:	"SymWin.DisplayFillPanel"
 )
 
-(AVIcon.5746
+(AVIcon.5745
 	Name:	"Rect"
 	Res:	"Icons.Rect"
 
 )
 
-(Tool.5747
+(Tool.5746
 	Help:	"Draw Circle//Creates a circle on the display"
 	HelpTopic:	"Draw_tool"
-	Icon:	5748
+	Icon:	5747
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.Circle"
 	Click:	"SymWin.DisplayFillPanel"
 )
 
-(AVIcon.5748
+(AVIcon.5747
 	Name:	"Disk"
 	Res:	"Icons.Disk"
 
 )
 
-(Tool.5749
+(Tool.5748
 	Help:	"Draw Polygon//Creates a polygon on the display"
 	HelpTopic:	"Draw_tool"
-	Icon:	5750
+	Icon:	5749
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.Poly"
 	Click:	"SymWin.DisplayFillPanel"
 )
 
-(AVIcon.5750
+(AVIcon.5749
 	Name:	"Poly"
 	Res:	"Icons.Poly"
 
 )
 
-(ToolMenu.5751
+(ToolMenu.5750
 	Help:	"View Frame//Creates a view frame on the display"
 	HelpTopic:	"Frame_tool"
-	Icon:	5752
+	Icon:	5751
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.FrameView"
+	Child:	5752
 	Child:	5753
-	Child:	5754
-	Child:	5756
-	Child:	5758
-	Child:	5760
-	Child:	5762
-	Child:	5764
+	Child:	5755
+	Child:	5757
+	Child:	5759
+	Child:	5761
+	Child:	5763
 )
 
-(AVIcon.5752
+(AVIcon.5751
 	Name:	"FrameView"
 	Res:	"Icons.FrameView"
 
 )
 
-(Tool.5753
+(Tool.5752
 	Help:	"View Frame//Creates a view frame on the display"
 	HelpTopic:	"Frame_tool"
-	Icon:	5752
+	Icon:	5751
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.FrameView"
 )
 
-(Tool.5754
+(Tool.5753
 	Help:	"Legend Frame//Creates a legend frame on the display"
 	HelpTopic:	"Frame_tool"
-	Icon:	5755
+	Icon:	5754
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.FrameLegend"
 )
 
-(AVIcon.5755
+(AVIcon.5754
 	Name:	"FrameLegend"
 	Res:	"Icons.FrameLegend"
 
 )
 
-(Tool.5756
+(Tool.5755
 	Help:	"Scale Bar Frame//Creates a scale bar frame on the display"
 	HelpTopic:	"Frame_tool"
-	Icon:	5757
+	Icon:	5756
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.FrameScalebar"
 )
 
-(AVIcon.5757
+(AVIcon.5756
 	Name:	"FrameScalebar"
 	Res:	"Icons.FrameScalebar"
 
 )
 
-(Tool.5758
+(Tool.5757
 	Help:	"North Arrow//Creates a north arrow on the display"
 	HelpTopic:	"Frame_tool"
-	Icon:	5759
+	Icon:	5758
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.NorthArrow"
 )
 
-(AVIcon.5759
+(AVIcon.5758
 	Name:	"NorthArrow"
 	Res:	"Icons.NorthArrow"
 
 )
 
-(Tool.5760
+(Tool.5759
 	Help:	"Chart Frame//Creates a chart frame on the display"
 	HelpTopic:	"Frame_tool"
-	Icon:	5761
+	Icon:	5760
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.FrameChart"
 )
 
-(AVIcon.5761
+(AVIcon.5760
 	Name:	"FrameChart"
 	Res:	"Icons.FrameChart"
 
 )
 
-(Tool.5762
+(Tool.5761
 	Help:	"Table Frame//Creates a table frame on the display"
 	HelpTopic:	"Frame_tool"
-	Icon:	5763
+	Icon:	5762
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.FrameTable"
 )
 
-(AVIcon.5763
+(AVIcon.5762
 	Name:	"FrameTable"
 	Res:	"Icons.FrameTable"
 
 )
 
-(Tool.5764
+(Tool.5763
 	Help:	"Picture Frame//Creates a picture frame on the display"
 	HelpTopic:	"Frame_tool"
-	Icon:	5765
+	Icon:	5764
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Layout.FramePicture"
 )
 
-(AVIcon.5765
+(AVIcon.5764
 	Name:	"FramePicture"
 	Res:	"Icons.FramePicture"
 
 )
 
-(AVIcon.5769
+(AVIcon.5768
 	Name:	"Icon"
 	Res:	"Layout.Icon"
 
 )
 
-(DocGUI.5896
+(DocGUI.5895
 	Name:	"Project"
 	Type:	"Project"
 	Modified:	1
-	MenuBar:	5897
-	ButnBar:	5978
-	Popups:	5996
-	ToolBar:	5997
-	Icon:	5998
+	MenuBar:	5896
+	ButnBar:	5976
+	Popups:	5994
+	ToolBar:	5995
+	Icon:	5996
 )
 
-(MenuBar.5897
-	Child:	5898
-	Child:	5910
-	Child:	5920
-	Child:	5963
-	Child:	5973
+(MenuBar.5896
+	Child:	5897
+	Child:	5909
+	Child:	5919
+	Child:	5962
+	Child:	5971
 )
 
-(PMenu.5898
+(PMenu.5897
 	InternalName:	"File"
+	Child:	5898
 	Child:	5899
 	Child:	5900
 	Child:	5901
 	Child:	5902
 	Child:	5903
-	Child:	5904
+	Child:	5905
 	Child:	5906
 	Child:	5907
 	Child:	5908
-	Child:	5909
 	Label:	"&File"
 )
 
-(Choice.5899
+(Choice.5898
 	Help:	"Creates a new project"
 	HelpTopic:	"New_Project"
 	Label:	"&New Project"
@@ -32720,7 +32720,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+N"
 )
 
-(Choice.5900
+(Choice.5899
 	Help:	"Opens an existing project"
 	HelpTopic:	"Open_Project"
 	Label:	"&Open Project..."
@@ -32728,7 +32728,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5901
+(Choice.5900
 	Help:	"Closes the project window"
 	HelpTopic:	"Close_Project"
 	Label:	"&Close Project"
@@ -32736,10 +32736,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5902
+(Space.5901
 )
 
-(Choice.5903
+(Choice.5902
 	Help:	"Saves the current project"
 	HelpTopic:	"Save_Project"
 	Label:	"&Save Project"
@@ -32747,7 +32747,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+S"
 )
 
-(Choice.5904
+(Choice.5903
 	Help:	"Saves the current project with a new name"
 	HelpTopic:	"Save_Project_As"
 	Label:	"Save Project &As..."
@@ -32755,10 +32755,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5906
+(Space.5905
 )
 
-(Choice.5907
+(Choice.5906
 	Help:	"Displays the Extensions dialog"
 	HelpTopic:	"Extensions"
 	Label:	"&Extensions..."
@@ -32766,10 +32766,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5908
+(Space.5907
 )
 
-(Choice.5909
+(Choice.5908
 	Help:	"Exits ArcView"
 	HelpTopic:	"Exit"
 	Label:	"E&xit"
@@ -32777,8 +32777,9 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.5910
+(PMenu.5909
 	InternalName:	"Project"
+	Child:	5910
 	Child:	5911
 	Child:	5912
 	Child:	5913
@@ -32787,11 +32788,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	5916
 	Child:	5917
 	Child:	5918
-	Child:	5919
 	Label:	"&Project"
 )
 
-(Choice.5911
+(Choice.5910
 	Help:	"Displays the dialog box to edit properties of the project"
 	HelpTopic:	"Project_Properties"
 	Label:	"&Properties..."
@@ -32799,7 +32799,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5912
+(Choice.5911
 	Help:	"Customizes the active project"
 	HelpTopic:	"Customize"
 	Update:	"Project.CustomizeUpdate"
@@ -32808,31 +32808,31 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5913
+(Space.5912
 )
 
-(Choice.5914
+(Choice.5913
 	Help:	"Renames the selected project component"
 	HelpTopic:	"Rename"
 	Update:	"Project.RenameUpdate"
-	Label:	"&Rename 'Airband'..."
+	Label:	"&Rename 'geraetebestand.dbf'..."
 	Click:	"Project.Rename"
 	Shortcut:	"Keys.Ctrl+R"
 )
 
-(Choice.5915
+(Choice.5914
 	Help:	"Deletes the selected component from the project"
 	HelpTopic:	"Delete_Component"
 	Update:	"Project.DeleteUpdate"
-	Label:	"&Delete 'Airband'..."
+	Label:	"&Delete 'geraetebestand.dbf'..."
 	Click:	"Project.Delete"
 	Shortcut:	"Keys.Del"
 )
 
-(Space.5916
+(Space.5915
 )
 
-(Choice.5917
+(Choice.5916
 	Help:	"Adds a table to the project"
 	HelpTopic:	"Add_Table"
 	Update:	"Project.AddTableUpdate"
@@ -32841,7 +32841,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5918
+(Choice.5917
 	Help:	"Creates a new project component from an external source"
 	HelpTopic:	"Import"
 	Update:	"Project.ImportUpdate"
@@ -32850,7 +32850,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5919
+(Choice.5918
 	Help:	"Opens the SQL Connection manager"
 	HelpTopic:	"SQL_Connect"
 	Update:	"Project.HasSQL"
@@ -32859,25 +32859,24 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.5920
+(PMenu.5919
 	Tag:	"Xtools1234"
 	Label:	"&XTools"
 )
 
-(PMenu.5963
+(PMenu.5962
 	InternalName:	"Window"
+	Child:	5963
 	Child:	5964
 	Child:	5965
 	Child:	5966
 	Child:	5967
 	Child:	5968
-	Child:	5969
-	Child:	5971
-	Child:	5972
+	Child:	5970
 	Label:	"&Window"
 )
 
-(Choice.5964
+(Choice.5963
 	Help:	"Arranges windows as non-overlapping tiles"
 	HelpTopic:	"Tile"
 	Label:	"&Tile"
@@ -32885,7 +32884,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5965
+(Choice.5964
 	Help:	"Arranges windows"
 	HelpTopic:	"Cascade"
 	Label:	"&Cascade"
@@ -32893,7 +32892,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5966
+(Choice.5965
 	Help:	"Arranges iconified windows"
 	HelpTopic:	"Arrange_Icons"
 	Label:	"&Arrange Icons"
@@ -32901,10 +32900,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5967
+(Space.5966
 )
 
-(Choice.5968
+(Choice.5967
 	Help:	"Shows the symbol window"
 	HelpTopic:	"Show_Symbol_Window"
 	Label:	"Show Symbol Window..."
@@ -32912,39 +32911,32 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+P"
 )
 
-(Space.5969
-	ObjectTag:	5970
+(Space.5968
+	ObjectTag:	5969
 	Update:	"WindowMenuUpdate"
 )
 
-(AVStr.5970
-	S:	"dx.apr UKW-Sender"
+(AVStr.5969
+	S:	"dx.apr"
 )
 
-(Choice.5971
+(Choice.5970
 	Help:	"Activates dx.apr"
 	Label:	"&1 dx.apr"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5972
-	Help:	"Activates UKW-Sender"
-	Label:	"&2 UKW-Sender"
-	Click:	"WindowActivate"
-	Shortcut:	"Keys.None"
-)
-
-(PMenu.5973
+(PMenu.5971
 	InternalName:	"Help"
+	Child:	5972
+	Child:	5973
 	Child:	5974
 	Child:	5975
-	Child:	5976
-	Child:	5977
 	Label:	"&Help"
 )
 
-(Choice.5974
+(Choice.5972
 	Help:	"Displays the dialog for browsing and searching ArcView's help system"
 	HelpTopic:	"Help_on_Help_Topics"
 	Label:	"Help &Topics..."
@@ -32952,7 +32944,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.5975
+(Choice.5973
 	Help:	"Provides instructions for how to obtain help from ArcView"
 	HelpTopic:	"Help_on_How_to_Get_Help"
 	Label:	"&How to Get Help..."
@@ -32960,10 +32952,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.5976
+(Space.5974
 )
 
-(Choice.5977
+(Choice.5975
 	Help:	"Provides information about ArcView"
 	HelpTopic:	"About"
 	Label:	"&About ArcView..."
@@ -32971,62 +32963,62 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(ButnBar.5978
+(ButnBar.5976
 	Update:	"Project.UpdateButtons"
+	Child:	5977
 	Child:	5979
-	Child:	5981
-	Child:	5982
+	Child:	5980
 )
 
-(Butn.5979
+(Butn.5977
 	Help:	"Save Project//Saves the current project"
 	HelpTopic:	"Save_Project"
-	Icon:	5980
+	Icon:	5978
 	Click:	"Project.Save"
 )
 
-(AVIcon.5980
+(AVIcon.5978
 	Name:	"Save"
 	Res:	"Icons.Save"
 
 )
 
-(Space.5981
+(Space.5979
 )
 
-(Butn.5982
+(Butn.5980
 	Help:	"Help//Gets help about the next button, tool, or menu choice you click"
 	HelpTopic:	"Help_button"
-	Icon:	5983
+	Icon:	5981
 	Click:	"Help.Tool"
 )
 
-(AVIcon.5983
+(AVIcon.5981
 	Name:	"HelpTool"
 	Res:	"Icons.HelpTool"
 
 )
 
-(PopupSet.5996
+(PopupSet.5994
 )
 
-(ToolBar.5997
+(ToolBar.5995
 )
 
-(AVIcon.5998
+(AVIcon.5996
 	Name:	"Icon"
 	Res:	"Project.Icon"
 
 )
 
-(DocGUI.6017
+(DocGUI.6015
 	Name:	"XTSED"
 	Type:	"SEd"
 	Modified:	1
-	MenuBar:	6018
-	ButnBar:	6081
-	Popups:	6122
-	ToolBar:	6123
+	MenuBar:	6016
+	ButnBar:	6079
+	Popups:	6120
+	ToolBar:	6121
 	NewScript:	"Script.New"
 	OpenScript:	"Doc.Open"
 	ActionScript:	"Script.Action"
@@ -33034,19 +33026,21 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	OpenUpdateScript:	"Doc.OpenUpdate"
 	ActionUpdateScript:	"Script.ActionUpdate"
 	Title:	"XTSED"
-	Icon:	6124
+	Icon:	6122
 )
 
-(MenuBar.6018
-	Child:	6019
-	Child:	6032
-	Child:	6048
-	Child:	6065
-	Child:	6076
+(MenuBar.6016
+	Child:	6017
+	Child:	6030
+	Child:	6046
+	Child:	6063
+	Child:	6074
 )
 
-(PMenu.6019
+(PMenu.6017
 	InternalName:	"File"
+	Child:	6018
+	Child:	6019
 	Child:	6020
 	Child:	6021
 	Child:	6022
@@ -33057,12 +33051,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	6027
 	Child:	6028
 	Child:	6029
-	Child:	6030
-	Child:	6031
 	Label:	"&File"
 )
 
-(Choice.6020
+(Choice.6018
 	Help:	"Closes the active component"
 	HelpTopic:	"Close"
 	Label:	"&Close"
@@ -33070,7 +33062,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6021
+(Choice.6019
 	Help:	"Closes all components"
 	HelpTopic:	"Close_All"
 	Label:	"Close &All"
@@ -33078,10 +33070,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6022
+(Space.6020
 )
 
-(Choice.6023
+(Choice.6021
 	Help:	"Saves the current project"
 	HelpTopic:	"Save_Project"
 	Label:	"&Save Project"
@@ -33089,7 +33081,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+S"
 )
 
-(Choice.6024
+(Choice.6022
 	Help:	"Saves the current project with a new name"
 	HelpTopic:	"Save_Project_As"
 	Label:	"Save Project As..."
@@ -33097,10 +33089,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6025
+(Space.6023
 )
 
-(Choice.6026
+(Choice.6024
 	Help:	"Displays the Extensions Dialog"
 	HelpTopic:	"Extensions"
 	Label:	"Extensions..."
@@ -33108,10 +33100,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6027
+(Space.6025
 )
 
-(Choice.6028
+(Choice.6026
 	Help:	"Prints the script"
 	HelpTopic:	"Print"
 	Label:	"&Print..."
@@ -33119,7 +33111,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6029
+(Choice.6027
 	Disabled:	1
 	Help:	"Edits the printer and the printing options"
 	HelpTopic:	"Print_Setup"
@@ -33129,10 +33121,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6030
+(Space.6028
 )
 
-(Choice.6031
+(Choice.6029
 	Help:	"Exits ArcView"
 	HelpTopic:	"Exit"
 	Label:	"E&xit"
@@ -33140,8 +33132,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.6032
+(PMenu.6030
 	InternalName:	"Edit"
+	Child:	6031
+	Child:	6032
 	Child:	6033
 	Child:	6034
 	Child:	6035
@@ -33155,12 +33149,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	6043
 	Child:	6044
 	Child:	6045
-	Child:	6046
-	Child:	6047
 	Label:	"&Edit"
 )
 
-(Choice.6033
+(Choice.6031
 	Help:	"Undoes the last change"
 	HelpTopic:	"Undo__Script_"
 	Label:	"&Undo"
@@ -33168,10 +33160,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+Z"
 )
 
-(Space.6034
+(Space.6032
 )
 
-(Choice.6035
+(Choice.6033
 	Help:	"Finds the selected or specified string"
 	HelpTopic:	"Script_Find"
 	Label:	"&Find..."
@@ -33179,7 +33171,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6036
+(Choice.6034
 	Disabled:	1
 	Help:	"Finds the next occurrence of the string"
 	HelpTopic:	"Script_FindNext"
@@ -33189,7 +33181,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.F3"
 )
 
-(Choice.6037
+(Choice.6035
 	Help:	"Replaces the selected or specifed string"
 	HelpTopic:	"Script_Replace"
 	Label:	"Rep&lace..."
@@ -33197,10 +33189,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6038
+(Space.6036
 )
 
-(Choice.6039
+(Choice.6037
 	Disabled:	1
 	Help:	"Cuts the selection and puts it into the clipboard"
 	HelpTopic:	"Cut"
@@ -33210,7 +33202,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+X"
 )
 
-(Choice.6040
+(Choice.6038
 	Disabled:	1
 	Help:	"Copies the selection and puts it into the clipboard"
 	HelpTopic:	"Copy"
@@ -33220,7 +33212,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+C"
 )
 
-(Choice.6041
+(Choice.6039
 	Help:	"Inserts the contents of the clipboard"
 	HelpTopic:	"Paste"
 	Label:	"&Paste"
@@ -33228,10 +33220,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+V"
 )
 
-(Space.6042
+(Space.6040
 )
 
-(Choice.6043
+(Choice.6041
 	Help:	"Selects all text in the script editor"
 	HelpTopic:	"Select_All_in_a_script"
 	Label:	"Select &All"
@@ -33239,7 +33231,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6044
+(Choice.6042
 	Help:	"Deletes text from the cursor to the left margin"
 	HelpTopic:	"Delete_Left"
 	Label:	"&Delete Left"
@@ -33247,10 +33239,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+U"
 )
 
-(Space.6045
+(Space.6043
 )
 
-(Choice.6046
+(Choice.6044
 	Disabled:	1
 	Help:	"Comments selected text"
 	HelpTopic:	"Comment"
@@ -33260,7 +33252,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6047
+(Choice.6045
 	Disabled:	1
 	Help:	"Uncomments selected text"
 	HelpTopic:	"Remove_Comment"
@@ -33270,8 +33262,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.6048
+(PMenu.6046
 	InternalName:	"Script"
+	Child:	6047
+	Child:	6048
 	Child:	6049
 	Child:	6050
 	Child:	6051
@@ -33286,12 +33280,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	6060
 	Child:	6061
 	Child:	6062
-	Child:	6063
-	Child:	6064
 	Label:	"&Script"
 )
 
-(Choice.6049
+(Choice.6047
 	Help:	"Displays the dialog box to edit properties of the script"
 	HelpTopic:	"Script_Properties"
 	Label:	"&Properties..."
@@ -33299,10 +33291,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6050
+(Space.6048
 )
 
-(Choice.6051
+(Choice.6049
 	Disabled:	1
 	Help:	"Compiles the script"
 	HelpTopic:	"Compile"
@@ -33312,7 +33304,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6052
+(Choice.6050
 	Help:	"Executes one request or object reference in the compiled script"
 	HelpTopic:	"Step"
 	Update:	"Script.RunUpdate"
@@ -33321,7 +33313,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.F8"
 )
 
-(Choice.6053
+(Choice.6051
 	Help:	"Runs the compiled script"
 	HelpTopic:	"Run"
 	Update:	"Script.RunUpdate"
@@ -33330,10 +33322,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.F5"
 )
 
-(Space.6054
+(Space.6052
 )
 
-(Choice.6055
+(Choice.6053
 	Help:	"Toggles a breakpoint on or off at the current cursor position"
 	HelpTopic:	"Toggle_Breakpoint"
 	Update:	"Script.RunUpdate"
@@ -33342,7 +33334,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6056
+(Choice.6054
 	Help:	"Clears all breakpoints"
 	HelpTopic:	"Clear_All_Breakpoints"
 	Update:	"Script.RunUpdate"
@@ -33351,7 +33343,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6057
+(Choice.6055
 	Help:	"Displays the current value of local and global variables"
 	HelpTopic:	"Examine_Variables"
 	Update:	"Script.RunUpdate"
@@ -33360,10 +33352,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+E"
 )
 
-(Space.6058
+(Space.6056
 )
 
-(Choice.6059
+(Choice.6057
 	Help:	"Inserts the source code of a system script"
 	HelpTopic:	"Load_System_Script"
 	Label:	"&Load System Script..."
@@ -33371,7 +33363,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6060
+(Choice.6058
 	Help:	"Inserts the contents of a text file"
 	HelpTopic:	"Load_Text_File"
 	Label:	"Load &Text File..."
@@ -33379,7 +33371,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6061
+(Choice.6059
 	Help:	"Writes the entire script or the selected text to a text file"
 	HelpTopic:	"Write_Text_File"
 	Label:	"&Write Text File..."
@@ -33387,10 +33379,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6062
+(Space.6060
 )
 
-(Choice.6063
+(Choice.6061
 	Help:	"Embeds the script in the project and deletes its window"
 	HelpTopic:	"Embed_Script"
 	Update:	"Script.RunUpdate"
@@ -33399,7 +33391,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6064
+(Choice.6062
 	Disabled:	1
 	Help:	"Removes specified script from embedded scripts and puts it in a SEd"
 	HelpTopic:	"Script_Unembed"
@@ -33409,21 +33401,21 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.6065
+(PMenu.6063
 	InternalName:	"Window"
+	Child:	6064
+	Child:	6065
 	Child:	6066
 	Child:	6067
 	Child:	6068
 	Child:	6069
 	Child:	6070
-	Child:	6071
 	Child:	6072
-	Child:	6074
-	Child:	6075
+	Child:	6073
 	Label:	"&Window"
 )
 
-(Choice.6066
+(Choice.6064
 	Help:	"Arranges windows as non-overlapping tiles"
 	HelpTopic:	"Tile"
 	Label:	"&Tile"
@@ -33431,7 +33423,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6067
+(Choice.6065
 	Help:	"Arranges windows"
 	HelpTopic:	"Cascade"
 	Label:	"&Cascade"
@@ -33439,7 +33431,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6068
+(Choice.6066
 	Help:	"Arranges iconified windows"
 	HelpTopic:	"Arrange_Icons"
 	Label:	"&Arrange Icons"
@@ -33447,10 +33439,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6069
+(Space.6067
 )
 
-(Choice.6070
+(Choice.6068
 	Help:	"Shows the symbol window"
 	HelpTopic:	"Show_Symbol_Window"
 	Label:	"Show Symbol Window..."
@@ -33458,46 +33450,46 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+P"
 )
 
-(Choice.6071
+(Choice.6069
 	Help:	"Symbol Editor"
 	Label:	"Edit Symbols..."
 	Click:	"SymbEd.Edit"
 	Shortcut:	"Keys.None"
 )
 
-(Space.6072
-	ObjectTag:	6073
+(Space.6070
+	ObjectTag:	6071
 	Update:	"WindowMenuUpdate"
 )
 
-(AVStr.6073
+(AVStr.6071
 	S:	"makedef.apr .Script1"
 )
 
-(Choice.6074
+(Choice.6072
 	Help:	"Activates makedef.apr"
 	Label:	"&1 makedef.apr"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6075
+(Choice.6073
 	Help:	"Activates .Script1"
 	Label:	"&2 .Script1"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.6076
+(PMenu.6074
 	InternalName:	"Help"
+	Child:	6075
+	Child:	6076
 	Child:	6077
 	Child:	6078
-	Child:	6079
-	Child:	6080
 	Label:	"&Help"
 )
 
-(Choice.6077
+(Choice.6075
 	Help:	"Displays the dialog for browsing and searching ArcView's help system"
 	HelpTopic:	"Help_on_Help_Topics"
 	Label:	"Help &Topics..."
@@ -33505,7 +33497,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6078
+(Choice.6076
 	Help:	"Provides instructions for how to obtain help from ArcView"
 	HelpTopic:	"Help_on_How_to_Get_Help"
 	Label:	"&How to Get Help"
@@ -33513,10 +33505,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6079
+(Space.6077
 )
 
-(Choice.6080
+(Choice.6078
 	Help:	"Provides information about ArcView"
 	HelpTopic:	"About"
 	Label:	"&About ArcView..."
@@ -33524,301 +33516,301 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(ButnBar.6081
+(ButnBar.6079
+	Child:	6080
 	Child:	6082
-	Child:	6084
+	Child:	6083
 	Child:	6085
 	Child:	6087
 	Child:	6089
-	Child:	6091
+	Child:	6090
 	Child:	6092
-	Child:	6094
+	Child:	6093
 	Child:	6095
 	Child:	6097
-	Child:	6099
+	Child:	6098
 	Child:	6100
 	Child:	6102
 	Child:	6104
 	Child:	6106
 	Child:	6108
-	Child:	6110
+	Child:	6109
 	Child:	6111
 	Child:	6113
 	Child:	6115
-	Child:	6117
+	Child:	6116
 	Child:	6118
-	Child:	6120
 )
 
-(Butn.6082
+(Butn.6080
 	Help:	"Save Project//Saves the current project"
 	HelpTopic:	"Save_Project"
-	Icon:	6083
+	Icon:	6081
 	Click:	"Project.Save"
 )
 
-(AVIcon.6083
+(AVIcon.6081
 	Name:	"Save"
 	Res:	"Icons.Save"
 
 )
 
-(Space.6084
+(Space.6082
 )
 
-(Butn.6085
+(Butn.6083
 	Disabled:	1
 	Help:	"Cut//Cuts the selection and puts it into the clipboard"
 	HelpTopic:	"Cut"
 	Update:	"Script.HasSelUpdate"
-	Icon:	6086
+	Icon:	6084
 	Click:	"Script.Cut"
 )
 
-(AVIcon.6086
+(AVIcon.6084
 	Name:	"Cut"
 	Res:	"Icons.Cut"
 
 )
 
-(Butn.6087
+(Butn.6085
 	Disabled:	1
 	Help:	"Copy//Copies the selection and puts it into the clipboard"
 	HelpTopic:	"Copy"
 	Update:	"Script.HasSelUpdate"
-	Icon:	6088
+	Icon:	6086
 	Click:	"Script.Copy"
 )
 
-(AVIcon.6088
+(AVIcon.6086
 	Name:	"Copy"
 	Res:	"Icons.Copy"
 
 )
 
-(Butn.6089
+(Butn.6087
 	Help:	"Paste//Inserts the contents of the clipboard"
 	HelpTopic:	"Paste"
-	Icon:	6090
+	Icon:	6088
 	Click:	"Script.Paste"
 )
 
-(AVIcon.6090
+(AVIcon.6088
 	Name:	"Paste"
 	Res:	"Icons.Paste"
 
 )
 
-(Space.6091
+(Space.6089
 )
 
-(Butn.6092
+(Butn.6090
 	Help:	"Undo//Undoes the last modification to the script editor text"
 	HelpTopic:	"Undo__Script_"
-	Icon:	6093
+	Icon:	6091
 	Click:	"Script.Undo"
 )
 
-(AVIcon.6093
+(AVIcon.6091
 	Name:	"Undo"
 	Res:	"Icons.Undo"
 
 )
 
-(Space.6094
+(Space.6092
 )
 
-(Butn.6095
+(Butn.6093
 	Help:	"Shift Lines Left//Shifts selected lines or current line two spaces to the left"
 	HelpTopic:	"Shift_lines_left_or_right"
-	Icon:	6096
+	Icon:	6094
 	Click:	"Script.ShiftLeft"
 )
 
-(AVIcon.6096
+(AVIcon.6094
 	Name:	"ShiftLeft"
 	Res:	"Icons.ShiftLeft"
 
 )
 
-(Butn.6097
+(Butn.6095
 	Help:	"Shift Lines Right//Shifts selected lines or current line two spaces to the right"
 	HelpTopic:	"Shift_lines_left_or_right"
-	Icon:	6098
+	Icon:	6096
 	Click:	"Script.ShiftRight"
 )
 
-(AVIcon.6098
+(AVIcon.6096
 	Name:	"ShiftRight"
 	Res:	"Icons.ShiftRight"
 
 )
 
-(Space.6099
+(Space.6097
 )
 
-(Butn.6100
+(Butn.6098
 	Disabled:	1
 	Help:	"Compile//Compiles the script"
 	HelpTopic:	"Compile"
 	Update:	"Script.CompileUpdate"
-	Icon:	6101
+	Icon:	6099
 	Click:	"Script.Compile"
 )
 
-(AVIcon.6101
+(AVIcon.6099
 	Name:	"Check"
 	Res:	"Icons.Check"
 
 )
 
-(Butn.6102
+(Butn.6100
 	Help:	"Run//Runs the compiled script"
 	HelpTopic:	"Run"
 	Update:	"Script.RunUpdate"
-	Icon:	6103
+	Icon:	6101
 	Click:	"Script.Run"
 )
 
-(AVIcon.6103
+(AVIcon.6101
 	Name:	"Run"
 	Res:	"Icons.Run"
 
 )
 
-(Butn.6104
+(Butn.6102
 	Help:	"Step//Executes one request or object reference in the compiled script"
 	HelpTopic:	"Step"
 	Update:	"Script.RunUpdate"
-	Icon:	6105
+	Icon:	6103
 	Click:	"Script.Step"
 )
 
-(AVIcon.6105
+(AVIcon.6103
 	Name:	"Footprints"
 	Res:	"Icons.Footprints"
 
 )
 
-(Butn.6106
+(Butn.6104
 	Help:	"Toggle Breakpoint//Toggles a breakpoint on or off at the current cursor position"
 	HelpTopic:	"Toggle_Breakpoint"
 	Update:	"Script.RunUpdate"
-	Icon:	6107
+	Icon:	6105
 	Click:	"Script.ToggleBreak"
 )
 
-(AVIcon.6107
+(AVIcon.6105
 	Name:	"Hand"
 	Res:	"Icons.Hand"
 
 )
 
-(Butn.6108
+(Butn.6106
 	Help:	"Examine Variables//Displays the current value of local and global variables"
 	HelpTopic:	"Examine_Variables"
 	Update:	"Script.RunUpdate"
-	Icon:	6109
+	Icon:	6107
 	Click:	"Script.ShowVariables"
 )
 
-(AVIcon.6109
+(AVIcon.6107
 	Name:	"Examine"
 	Res:	"Icons.Examine"
 
 )
 
-(Space.6110
+(Space.6108
 )
 
-(Butn.6111
+(Butn.6109
 	Help:	"Load System Script//Inserts the source code of a system script"
 	HelpTopic:	"Load_System_Script"
-	Icon:	6112
+	Icon:	6110
 	Click:	"Script.SystemLoad"
 )
 
-(AVIcon.6112
+(AVIcon.6110
 	Name:	"LoadScript"
 	Res:	"Icons.LoadScript"
 
 )
 
-(Butn.6113
+(Butn.6111
 	Help:	"Load Text File//Inserts the contents of a text file"
 	HelpTopic:	"Load_Text_File"
-	Icon:	6114
+	Icon:	6112
 	Click:	"Script.FileLoad"
 )
 
-(AVIcon.6114
+(AVIcon.6112
 	Name:	"Open"
 	Res:	"Icons.Open"
 
 )
 
-(Butn.6115
+(Butn.6113
 	Help:	"Write Text File//Writes the entire script or the selected text to a text file"
 	HelpTopic:	"Write_Text_File"
-	Icon:	6116
+	Icon:	6114
 	Click:	"Script.FileWrite"
 )
 
-(AVIcon.6116
+(AVIcon.6114
 	Name:	"Write"
 	Res:	"Icons.Write"
 
 )
 
-(Space.6117
+(Space.6115
 )
 
-(Butn.6118
+(Butn.6116
 	Help:	"Script Help//Searches for help using the current selection"
 	HelpTopic:	"Getting_help_about_script_components"
-	Icon:	6119
+	Icon:	6117
 	Click:	"Script.Help"
 )
 
-(AVIcon.6119
+(AVIcon.6117
 	Name:	"Help"
 	Res:	"Icons.Help"
 
 )
 
-(Butn.6120
+(Butn.6118
 	Help:	"Help//Gets help about the next button, tool, or menu choice you click"
 	HelpTopic:	"Help_button"
-	Icon:	6121
+	Icon:	6119
 	Click:	"Help.Tool"
 )
 
-(AVIcon.6121
+(AVIcon.6119
 	Name:	"HelpTool"
 	Res:	"Icons.HelpTool"
 
 )
 
-(PopupSet.6122
+(PopupSet.6120
 )
 
-(ToolBar.6123
+(ToolBar.6121
 )
 
-(AVIcon.6124
+(AVIcon.6122
 	Name:	"Icon"
 	Res:	"SEd.Icon"
 
 )
 
-(DocGUI.6125
+(DocGUI.6123
 	Name:	"XTGUI"
 	Type:	"View"
 	Modified:	1
-	MenuBar:	6126
-	ButnBar:	6287
-	Popups:	6347
-	ToolBar:	6369
+	MenuBar:	6124
+	ButnBar:	6285
+	Popups:	6345
+	ToolBar:	6367
 	NewScript:	"View.New"
 	OpenScript:	"Doc.Open"
 	ActionScript:	"Doc.Action"
@@ -33826,23 +33818,25 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	OpenUpdateScript:	"Doc.OpenUpdate"
 	ActionUpdateScript:	"Doc.ActionUpdate"
 	Title:	"XTGUI"
-	Icon:	6452
+	Icon:	6450
 )
 
-(MenuBar.6126
-	Child:	6127
-	Child:	6145
-	Child:	6165
-	Child:	6194
-	Child:	6217
-	Child:	6233
-	Child:	6263
-	Child:	6275
-	Child:	6280
+(MenuBar.6124
+	Child:	6125
+	Child:	6143
+	Child:	6163
+	Child:	6192
+	Child:	6215
+	Child:	6231
+	Child:	6261
+	Child:	6273
+	Child:	6278
 )
 
-(PMenu.6127
+(PMenu.6125
 	InternalName:	"File"
+	Child:	6126
+	Child:	6127
 	Child:	6128
 	Child:	6129
 	Child:	6130
@@ -33858,12 +33852,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	6140
 	Child:	6141
 	Child:	6142
-	Child:	6143
-	Child:	6144
 	Label:	"&File"
 )
 
-(Choice.6128
+(Choice.6126
 	Help:	"Closes the active component"
 	HelpTopic:	"Close"
 	Label:	"&Close"
@@ -33871,7 +33863,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6129
+(Choice.6127
 	Help:	"Closes all components"
 	HelpTopic:	"Close_All"
 	Label:	"Close &All"
@@ -33879,10 +33871,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6130
+(Space.6128
 )
 
-(Choice.6131
+(Choice.6129
 	Help:	"Allows you to specify the current working directory"
 	HelpTopic:	"Set_Working_Directory"
 	Label:	"Set &Working Directory..."
@@ -33890,7 +33882,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6132
+(Choice.6130
 	Help:	"Saves the current project"
 	HelpTopic:	"Save_Project"
 	Label:	"&Save Project"
@@ -33898,7 +33890,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+S"
 )
 
-(Choice.6133
+(Choice.6131
 	Help:	"Saves the current project with a new name"
 	HelpTopic:	"Save_Project_As"
 	Label:	"Save Project As..."
@@ -33906,10 +33898,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6134
+(Space.6132
 )
 
-(Choice.6135
+(Choice.6133
 	Help:	"Displays the Extensions dialog"
 	HelpTopic:	"Extensions"
 	Label:	"Extensions..."
@@ -33917,10 +33909,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6136
+(Space.6134
 )
 
-(Choice.6137
+(Choice.6135
 	Help:	"Prints the view"
 	HelpTopic:	"Print"
 	Label:	"&Print..."
@@ -33928,7 +33920,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6138
+(Choice.6136
 	Help:	"Edits the printer and the printing options"
 	HelpTopic:	"Print_Setup"
 	Label:	"P&rint Setup..."
@@ -33936,7 +33928,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6139
+(Choice.6137
 	Disabled:	1
 	Help:	"Exports the view"
 	HelpTopic:	"Export"
@@ -33946,10 +33938,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6140
+(Space.6138
 )
 
-(Choice.6141
+(Choice.6139
 	Help:	"Displays the dialog box to delete, edit, and copy data sources"
 	HelpTopic:	"Manage_Sources"
 	Label:	"&Manage Data Sources..."
@@ -33957,7 +33949,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6142
+(Choice.6140
 	Help:	"Launches the ArcView Projection Utility wizard// Launches the ArcView Projection Utility wizard"
 	HelpTopic:	"What_is_the_ArcView_Projection_Utility_@projutil.hlp"
 	Label:	"ArcView Projection Utility..."
@@ -33965,10 +33957,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6143
+(Space.6141
 )
 
-(Choice.6144
+(Choice.6142
 	Help:	"Exits ArcView"
 	HelpTopic:	"Exit"
 	Label:	"E&xit"
@@ -33976,8 +33968,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.6145
+(PMenu.6143
 	InternalName:	"Edit"
+	Child:	6144
+	Child:	6145
 	Child:	6146
 	Child:	6147
 	Child:	6148
@@ -33995,12 +33989,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	6160
 	Child:	6161
 	Child:	6162
-	Child:	6163
-	Child:	6164
 	Label:	"&Edit"
 )
 
-(Choice.6146
+(Choice.6144
 	Disabled:	1
 	Help:	"Cuts the active themes to the clipboard"
 	HelpTopic:	"Cut_Themes"
@@ -34010,7 +34002,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6147
+(Choice.6145
 	Disabled:	1
 	Help:	"Copies the active themes to the clipboard"
 	HelpTopic:	"Copy_Themes"
@@ -34020,7 +34012,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6148
+(Choice.6146
 	Disabled:	1
 	Help:	"Removes the active themes from the view"
 	HelpTopic:	"Delete_Themes"
@@ -34030,10 +34022,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6149
+(Space.6147
 )
 
-(Choice.6150
+(Choice.6148
 	Disabled:	1
 	Help:	"Undo the last edit to graphics on a view"
 	HelpTopic:	"Undo_Graphic_Edit_on_a_view"
@@ -34043,7 +34035,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+Z"
 )
 
-(Choice.6151
+(Choice.6149
 	Disabled:	1
 	Invisible:	1
 	Help:	"Redo the last edit operation on a theme that was undone"
@@ -34054,10 +34046,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+Y"
 )
 
-(Space.6152
+(Space.6150
 )
 
-(Choice.6153
+(Choice.6151
 	Disabled:	1
 	Help:	"Cuts the selected graphics to the clipboard"
 	HelpTopic:	"Cut_Graphics"
@@ -34067,7 +34059,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+X"
 )
 
-(Choice.6154
+(Choice.6152
 	Disabled:	1
 	Help:	"Copies the selected graphics to the clipboard"
 	HelpTopic:	"Copy_Graphics"
@@ -34077,7 +34069,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+C"
 )
 
-(Choice.6155
+(Choice.6153
 	Disabled:	1
 	Help:	"Removes the selected graphics from the view"
 	HelpTopic:	"Delete_Graphics"
@@ -34087,10 +34079,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Del"
 )
 
-(Space.6156
+(Space.6154
 )
 
-(Choice.6157
+(Choice.6155
 	Disabled:	1
 	Help:	"Combines the selected polygons"
 	HelpTopic:	"Combine_Graphics"
@@ -34100,7 +34092,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6158
+(Choice.6156
 	Disabled:	1
 	Help:	"Unions the selected graphics to create a new graphic"
 	HelpTopic:	"Union_Graphics"
@@ -34110,7 +34102,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6159
+(Choice.6157
 	Disabled:	1
 	Help:	"Subtracts one selected polygon from the other selected polygon"
 	HelpTopic:	"Subtract_Graphics"
@@ -34120,7 +34112,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6160
+(Choice.6158
 	Disabled:	1
 	Help:	"Creates a new polygon from the area  of overlap between the selected polygons"
 	HelpTopic:	"Intersect_Graphics"
@@ -34130,10 +34122,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6161
+(Space.6159
 )
 
-(Choice.6162
+(Choice.6160
 	Disabled:	1
 	Help:	"Inserts the contents of the clipboard"
 	HelpTopic:	"Paste"
@@ -34143,10 +34135,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+V"
 )
 
-(Space.6163
+(Space.6161
 )
 
-(Choice.6164
+(Choice.6162
 	Disabled:	1
 	Help:	"Selects all graphics in the view"
 	HelpTopic:	"Select_All_Graphics"
@@ -34156,8 +34148,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.6165
+(PMenu.6163
 	InternalName:	"View"
+	Child:	6164
+	Child:	6165
 	Child:	6166
 	Child:	6167
 	Child:	6168
@@ -34184,12 +34178,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	6189
 	Child:	6190
 	Child:	6191
-	Child:	6192
-	Child:	6193
 	Label:	"&View"
 )
 
-(Choice.6166
+(Choice.6164
 	Help:	"Displays the dialog box to edit properties of the view"
 	HelpTopic:	"View_Properties"
 	Label:	"&Properties..."
@@ -34197,10 +34189,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6167
+(Space.6165
 )
 
-(Choice.6168
+(Choice.6166
 	Help:	"Inserts themes into the view"
 	HelpTopic:	"Add_Theme"
 	Label:	"&Add Theme..."
@@ -34208,7 +34200,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+T"
 )
 
-(Choice.6169
+(Choice.6167
 	Disabled:	1
 	Help:	"Displays a dialog box to create a geocoded theme"
 	HelpTopic:	"Geocode_Addresses"
@@ -34218,7 +34210,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6170
+(Choice.6168
 	Disabled:	1
 	Help:	"Displays a dialog box to create an XY or dynamic segmentation event-based theme "
 	HelpTopic:	"Add_Event_Theme"
@@ -34228,7 +34220,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6171
+(Choice.6169
 	Help:	"Creates a new theme"
 	HelpTopic:	"New_Theme"
 	Label:	"&New Theme..."
@@ -34236,7 +34228,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6172
+(Choice.6170
 	Disabled:	1
 	Help:	"Makes all themes visible"
 	HelpTopic:	"Themes_On_Themes_Off"
@@ -34246,7 +34238,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6173
+(Choice.6171
 	Disabled:	1
 	Help:	"Makes all themes invisible"
 	HelpTopic:	"Themes_On_Themes_Off"
@@ -34256,10 +34248,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6174
+(Space.6172
 )
 
-(Choice.6175
+(Choice.6173
 	Disabled:	1
 	Help:	"Create a Layout from the View"
 	HelpTopic:	"Layout_menu_choice"
@@ -34269,10 +34261,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6176
+(Space.6174
 )
 
-(Choice.6177
+(Choice.6175
 	Help:	"Shows a dialog where you can change the style of the TOC"
 	HelpTopic:	"TOC_Defaults"
 	Update:	"TocDefs.ShowUpdate"
@@ -34281,10 +34273,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6178
+(Space.6176
 )
 
-(Choice.6179
+(Choice.6177
 	Disabled:	1
 	Help:	"Zooms to the extent of all themes"
 	HelpTopic:	"Zoom_to_Full_Extent"
@@ -34294,7 +34286,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6180
+(Choice.6178
 	Disabled:	1
 	Help:	"Zooms in on the center of the display"
 	HelpTopic:	"Zoom_In"
@@ -34304,7 +34296,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6181
+(Choice.6179
 	Disabled:	1
 	Help:	"Zooms out from the center of the display"
 	HelpTopic:	"Zoom_Out"
@@ -34314,7 +34306,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6182
+(Choice.6180
 	Disabled:	1
 	Help:	"Zooms to the extent of active themes"
 	HelpTopic:	"Zoom_to_Active_Theme"
@@ -34324,7 +34316,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6183
+(Choice.6181
 	Disabled:	1
 	Help:	"Zooms to the extent of the selected features"
 	HelpTopic:	"Zoom_to_Selected"
@@ -34334,7 +34326,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6184
+(Choice.6182
 	Disabled:	1
 	Help:	"Goes back to the previous extent you were viewing"
 	HelpTopic:	"Zoom_Previous"
@@ -34344,10 +34336,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6185
+(Space.6183
 )
 
-(Choice.6186
+(Choice.6184
 	Disabled:	1
 	Help:	"Finds features in the active themes using the text you enter"
 	HelpTopic:	"Find"
@@ -34357,7 +34349,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+F"
 )
 
-(Choice.6187
+(Choice.6185
 	Disabled:	1
 	Help:	"Locates an address in the active, matchable theme"
 	HelpTopic:	"Locate_Address"
@@ -34367,10 +34359,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6188
+(Space.6186
 )
 
-(Choice.6189
+(Choice.6187
 	Help:	"Displays the Digitizer Registration Window"
 	HelpTopic:	"Digitizer_Setup@digitize.hlp"
 	Update:	"Digit.UpdateSetup"
@@ -34379,7 +34371,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6190
+(Choice.6188
 	Help:	"Set digitizer mode to be puck or mouse"
 	HelpTopic:	"Digitizer_as_Puck_Mouse@digitize.hlp"
 	Update:	"Digit.UpdateMode"
@@ -34388,7 +34380,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.F2"
 )
 
-(Choice.6191
+(Choice.6189
 	Help:	"Sets the stream tolerance"
 	HelpTopic:	"Stream_Tolerance@digitize.hlp"
 	Update:	"Digit.StreamToleranceUpdate"
@@ -34397,7 +34389,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6192
+(Choice.6190
 	Help:	"Enables stream mode digitizing"
 	HelpTopic:	"Enable_Disable_Stream_Mode@digitize.hlp"
 	Update:	"Digit.StreamModeUpdate"
@@ -34406,7 +34398,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.F3"
 )
 
-(Choice.6193
+(Choice.6191
 	InternalName:	"GeoProc"
 	Help:	"Opens the GeoProcessing Wizard"
 	HelpTopic:	"geoproc_choice"
@@ -34417,8 +34409,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.6194
+(PMenu.6192
 	InternalName:	"Theme"
+	Child:	6193
+	Child:	6194
 	Child:	6195
 	Child:	6196
 	Child:	6197
@@ -34439,12 +34433,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	6212
 	Child:	6213
 	Child:	6214
-	Child:	6215
-	Child:	6216
 	Label:	"&Theme"
 )
 
-(Choice.6195
+(Choice.6193
 	Disabled:	1
 	Help:	"Displays the dialog box to edit properties of the active theme"
 	HelpTopic:	"Theme_Properties"
@@ -34454,10 +34446,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6196
+(Space.6194
 )
 
-(Choice.6197
+(Choice.6195
 	Disabled:	1
 	Help:	"Starts or stops editing of shapefile"
 	HelpTopic:	"Start_Stop_Editing_in_a_view"
@@ -34467,7 +34459,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6198
+(Choice.6196
 	Disabled:	1
 	Help:	"Save edits to the source shapefile"
 	HelpTopic:	"Save_edits_theme"
@@ -34477,7 +34469,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6199
+(Choice.6197
 	Disabled:	1
 	Help:	"Saves edits to a new shapefile"
 	HelpTopic:	"Save_edits_as_theme"
@@ -34487,7 +34479,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6200
+(Choice.6198
 	Disabled:	1
 	Help:	"Converts a theme to a shapefile"
 	HelpTopic:	"Convert_to_Shapefile"
@@ -34497,10 +34489,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6201
+(Space.6199
 )
 
-(Choice.6202
+(Choice.6200
 	Disabled:	1
 	Help:	"Displays the legends of the active themes"
 	HelpTopic:	"Edit_Legend"
@@ -34510,7 +34502,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6203
+(Choice.6201
 	Disabled:	1
 	Help:	"Shows or hides the active themes' legends"
 	HelpTopic:	"Hide_show_Legend"
@@ -34520,10 +34512,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6204
+(Space.6202
 )
 
-(Choice.6205
+(Choice.6203
 	Disabled:	1
 	Help:	"Displays the Re-match dialog for re-matching addresses"
 	HelpTopic:	"Re_match_Addresses"
@@ -34533,10 +34525,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6206
+(Space.6204
 )
 
-(Choice.6207
+(Choice.6205
 	Disabled:	1
 	Help:	"Labels features in active, visible themes"
 	HelpTopic:	"Auto_label"
@@ -34546,7 +34538,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+L"
 )
 
-(Choice.6208
+(Choice.6206
 	Disabled:	1
 	Help:	"Removes any labels from active themes"
 	HelpTopic:	"Remove_Labels"
@@ -34556,7 +34548,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+R"
 )
 
-(Choice.6209
+(Choice.6207
 	Disabled:	1
 	Help:	"Removes the overlapping labels from active themes, if they are still green."
 	HelpTopic:	"Remove_Overlapping_Labels"
@@ -34566,7 +34558,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6210
+(Choice.6208
 	Disabled:	1
 	Help:	"Converts selected overlapping labels to symbol of selected good label"
 	HelpTopic:	"Convert_Overlapping_Labels"
@@ -34576,10 +34568,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+O"
 )
 
-(Space.6211
+(Space.6209
 )
 
-(Choice.6212
+(Choice.6210
 	Disabled:	1
 	Help:	"Opens the tables of the active themes"
 	HelpTopic:	"Open_Theme_Table"
@@ -34589,7 +34581,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6213
+(Choice.6211
 	Disabled:	1
 	Help:	"Displays the Query Builder to select features with a logical expression"
 	HelpTopic:	"Query_Builder"
@@ -34599,7 +34591,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+Q"
 )
 
-(Choice.6214
+(Choice.6212
 	Disabled:	1
 	Help:	"Selects features in the active themes using another theme's features"
 	HelpTopic:	"Select_By_Theme"
@@ -34609,7 +34601,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6215
+(Choice.6213
 	Disabled:	1
 	Help:	"Creates buffers around features"
 	HelpTopic:	"Create_Buffer_Choice"
@@ -34619,7 +34611,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6216
+(Choice.6214
 	Disabled:	1
 	Help:	"Unselects the selected features of all active themes"
 	HelpTopic:	"Clear_Selected_Features"
@@ -34629,8 +34621,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.6217
+(PMenu.6215
 	InternalName:	"Graphics"
+	Child:	6216
+	Child:	6217
 	Child:	6218
 	Child:	6219
 	Child:	6220
@@ -34644,12 +34638,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	6228
 	Child:	6229
 	Child:	6230
-	Child:	6231
-	Child:	6232
 	Label:	"&Graphics"
 )
 
-(Choice.6218
+(Choice.6216
 	Disabled:	1
 	Help:	"Displays the property editor for the selected graphic"
 	HelpTopic:	"Graphic_Properties"
@@ -34659,10 +34651,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6219
+(Space.6217
 )
 
-(Choice.6220
+(Choice.6218
 	Help:	"Shows a dialog where you can set the default values for the label and text tools"
 	HelpTopic:	"Default_settings_for_text_and_label_tools"
 	Label:	"&Text and Label Defaults..."
@@ -34670,10 +34662,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6221
+(Space.6219
 )
 
-(Choice.6222
+(Choice.6220
 	Disabled:	1
 	Help:	"Displays a dialog box to adjust size and position of selected graphic"
 	HelpTopic:	"Size_and_Position"
@@ -34683,7 +34675,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6223
+(Choice.6221
 	Disabled:	1
 	Help:	"Aligns the selected graphics"
 	HelpTopic:	"Align"
@@ -34693,10 +34685,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+A"
 )
 
-(Space.6224
+(Space.6222
 )
 
-(Choice.6225
+(Choice.6223
 	Disabled:	1
 	Help:	"Moves selected graphics in front of other graphics"
 	HelpTopic:	"Bring_to_Front_on_a_view"
@@ -34706,7 +34698,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6226
+(Choice.6224
 	Disabled:	1
 	Help:	"Moves selected graphics behind other graphics"
 	HelpTopic:	"Send_to_Back_on_a_view"
@@ -34716,7 +34708,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6227
+(Choice.6225
 	Disabled:	1
 	Help:	"Groups selected graphics"
 	HelpTopic:	"Group_on_a_view"
@@ -34726,7 +34718,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+G"
 )
 
-(Choice.6228
+(Choice.6226
 	Disabled:	1
 	Help:	"Ungroups selected graphics"
 	HelpTopic:	"Ungroup_on_a_view"
@@ -34736,10 +34728,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+U"
 )
 
-(Space.6229
+(Space.6227
 )
 
-(Choice.6230
+(Choice.6228
 	Disabled:	1
 	Help:	"Associates selected graphics with active themes"
 	HelpTopic:	"Attach_Graphics"
@@ -34749,7 +34741,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6231
+(Choice.6229
 	Disabled:	1
 	Help:	"Removes association between graphics and active themes"
 	HelpTopic:	"Detach_Graphics"
@@ -34759,11 +34751,13 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6232
+(Space.6230
 )
 
-(PMenu.6233
+(PMenu.6231
 	Tag:	"Xtools1234"
+	Child:	6232
+	Child:	6233
 	Child:	6234
 	Child:	6235
 	Child:	6236
@@ -34791,12 +34785,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	6258
 	Child:	6259
 	Child:	6260
-	Child:	6261
-	Child:	6262
 	Label:	"&XTools"
 )
 
-(Choice.6234
+(Choice.6232
 	Help:	"View or change the XTools defaults for language version, data map units, View map units, View distance units, output area units, and View projection."
 	Tag:	"Xtools1234"
 	Label:	"View/Change XTools Defaults"
@@ -34804,11 +34796,11 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6235
+(Space.6233
 	Tag:	"Xtools1234"
 )
 
-(Choice.6236
+(Choice.6234
 	Help:	"Run a batch file containing XTools Overlay commands:  Clip, Erase, Identity, Intersect, Union, or Update.    Press \"Shift\" and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"XTools Batch Overlay"
@@ -34816,7 +34808,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6237
+(Choice.6235
 	Help:	"View the log file for most XTools operations."
 	Tag:	"Xtools1234"
 	Label:	"View XTools Log File"
@@ -34824,11 +34816,11 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6238
+(Space.6236
 	Tag:	"Xtools1234"
 )
 
-(Choice.6239
+(Choice.6237
 	Help:	"Clip With Polygon(s)//Clips a point, multipoint, polyline or polygon theme with selected polygons from a polygon theme.  Press \"Shift and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Clip With Polygon(s)"
@@ -34836,7 +34828,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6240
+(Choice.6238
 	Help:	"Erase Features//Erases point, multipoint, polyline, or polygon features using selected polygons from an erase theme.  Press \"Shift\" and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Erase Features"
@@ -34844,7 +34836,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6241
+(Choice.6239
 	Help:	"Perform an \"Identity\" overlay operation.//Performs an \"Identity\" overlay operation.  Press \"Shift\" and click this menu item for description and instructions."
 	Tag:	"Xtools1234"
 	Label:	"Identity"
@@ -34852,7 +34844,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6242
+(Choice.6240
 	Help:	"Intersect Themes//Intersect a point, multipoint, polyline, or polygon theme with selected polygons from a polygon theme. Press \"Shift\" and click this menu item for instructions.."
 	Tag:	"Xtools1234"
 	Label:	"Intersect Themes"
@@ -34860,7 +34852,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6243
+(Choice.6241
 	Help:	"Merge Themes//Merges two or more feature themes with the same feature type.  Requires at least two feature themes with the same feature type.  Press \"Shift\" and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Merge Themes"
@@ -34868,7 +34860,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6244
+(Choice.6242
 	Help:	"Union two polygon themes.  Press \"Shift\" and click this menu item for a description and instructions."
 	HelpTopic:	" "
 	Tag:	"Xtools1234"
@@ -34877,7 +34869,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6245
+(Choice.6243
 	Help:	"Update Polygon Theme//Update a polygon theme using polygons from another theme.  Requires two polygon themes.  Press \"Shift\" and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Update Polygon Theme"
@@ -34885,11 +34877,11 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6246
+(Space.6244
 	Tag:	"Xtools1234"
 )
 
-(Choice.6247
+(Choice.6245
 	Help:	"Update Feature Size Values//Uses the XTools defaults specs to update the size of features (area, perimeter, length, and acres and/or hectares), as appropriate. Press \"Shift\" and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Calculate Area, Perimeter , Length , Acres, Hectares"
@@ -34897,7 +34889,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6248
+(Choice.6246
 	Help:	"Copies and pastes features between themes, with feature type conversion if necessary and possible.  Press and hold the \"Shift\" key and click on this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Transfer / Convert Selected Features"
@@ -34905,11 +34897,11 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6249
+(Space.6247
 	Tag:	"Xtools1234"
 )
 
-(Choice.6250
+(Choice.6248
 	Help:	"Buffer Selected Features//Creates a  buffer around selected features, or all features if none selected.  Requires at least one active theme.  Press \"Shift\" and click this menu item for a description and instructions."
 	Tag:	"Xtools1234"
 	Label:	"Buffer Selected Features"
@@ -34917,7 +34909,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6251
+(Choice.6249
 	Help:	"Converts multipart shapes to single part shapes and places them in a new shapefile.  Press and hold the \"Shift\" key and click this menu item for a description and instructions."
 	Tag:	"Xtools1234"
 	Label:	"Convert Multipart Shapes to Single Part"
@@ -34925,7 +34917,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6252
+(Choice.6250
 	Help:	"Convert Polygons to Polylines//Converts selected polygons to polylines.  Requires a polygon theme.   Press \"Shift\" and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Convert Polygons To PolyLines"
@@ -34933,7 +34925,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6253
+(Choice.6251
 	Help:	"Builds one polygon from the selected polylines in a theme.   Press the \"Shift\" key and click on this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Make One Polygon From Polylines"
@@ -34941,7 +34933,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6254
+(Choice.6252
 	Help:	"Builds one polygon from the selected points in a theme.   Press the \"Shift\" key and click on this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Make One Polygon From Points"
@@ -34949,14 +34941,14 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6255
+(Choice.6253
 	Tag:	"Xtools1234"
 	Label:	"Make One Polyline From Points"
 	Click:	"aanView.Points2PolyLine"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6256
+(Choice.6254
 	Help:	"Convert Shapes To Graphics//Convert selected shapes to graphics.  Requires a feature theme with shapes.  Press \"Shift\" and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Convert Shapes to Graphics"
@@ -34964,7 +34956,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6257
+(Choice.6255
 	Help:	"Convert Graphics to Shapes//Converts all of the graphics in the View of a specified feature type to shapes, and stores them in a shape file.  Press and hold the \"Shift\" key and click this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Convert Graphics To Shapes"
@@ -34972,11 +34964,23 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6258
+(Choice.6256
 	Help:	"Make a new point theme based on the center points (centroids) of the input theme features.  Press and hold the \"Shift\" key and click on this menu item for instructions."
 	Tag:	"Xtools1234"
 	Label:	"Convert Shapes To Centroids"
 	Click:	"aauView.Shape2Centroid"
+	Shortcut:	"Keys.None"
+)
+
+(Space.6257
+	Tag:	"Xtools1234"
+)
+
+(Choice.6258
+	Help:	"Batch Import Active Themes To Shapefiles//This script allows the user to batch import active themes to shapefiles.  Requires at least one active theme in the View.  Press \"Shift\" and click this menu item for instructions."
+	Tag:	"Xtools1234"
+	Label:	"Batch Import Themes To Shapefiles"
+	Click:	"aanView.BatchImportToShape"
 	Shortcut:	"Keys.None"
 )
 
@@ -34985,18 +34989,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.6260
-	Help:	"Batch Import Active Themes To Shapefiles//This script allows the user to batch import active themes to shapefiles.  Requires at least one active theme in the View.  Press \"Shift\" and click this menu item for instructions."
-	Tag:	"Xtools1234"
-	Label:	"Batch Import Themes To Shapefiles"
-	Click:	"aanView.BatchImportToShape"
-	Shortcut:	"Keys.None"
-)
-
-(Space.6261
-	Tag:	"Xtools1234"
-)
-
-(Choice.6262
 	Help:	"Manage shapefiles using the ArcView Source Manager.  Allows the user to copy, rename, or delete associated shapefile datasets as a group.   No \"Shift Click\" instructions ."
 	Tag:	"Xtools1234"
 	Label:	"Manage Shapefiles"
@@ -35004,22 +34996,22 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.6263
+(PMenu.6261
 	InternalName:	"Window"
+	Child:	6262
+	Child:	6263
 	Child:	6264
 	Child:	6265
 	Child:	6266
 	Child:	6267
 	Child:	6268
-	Child:	6269
 	Child:	6270
+	Child:	6271
 	Child:	6272
-	Child:	6273
-	Child:	6274
 	Label:	"&Window"
 )
 
-(Choice.6264
+(Choice.6262
 	Help:	"Arranges windows as non-overlapping tiles"
 	HelpTopic:	"Tile"
 	Label:	"&Tile"
@@ -35027,7 +35019,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6265
+(Choice.6263
 	Help:	"Arranges windows"
 	HelpTopic:	"Cascade"
 	Label:	"&Cascade"
@@ -35035,7 +35027,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6266
+(Choice.6264
 	Help:	"Arranges iconified windows"
 	HelpTopic:	"Arrange_Icons"
 	Label:	"&Arrange Icons"
@@ -35043,10 +35035,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6267
+(Space.6265
 )
 
-(Choice.6268
+(Choice.6266
 	Help:	"Shows the symbol window"
 	HelpTopic:	"Show_Symbol_Window"
 	Label:	"Show Symbol Window..."
@@ -35054,53 +35046,53 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.Ctrl+P"
 )
 
-(Choice.6269
+(Choice.6267
 	Help:	"Symbol Editor"
 	Label:	"Edit Symbols..."
 	Click:	"SymbEd.Edit"
 	Shortcut:	"Keys.None"
 )
 
-(Space.6270
-	ObjectTag:	6271
+(Space.6268
+	ObjectTag:	6269
 	Update:	"WindowMenuUpdate"
 )
 
-(AVStr.6271
+(AVStr.6269
 	S:	"makedef.apr View.Highway5 Apply View1"
 )
 
-(Choice.6272
+(Choice.6270
 	Help:	"Activates makedef.apr"
 	Label:	"&1 makedef.apr"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6273
+(Choice.6271
 	Help:	"Activates View.Highway5 Apply"
 	Label:	"&2 View.Highway5 Apply"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6274
+(Choice.6272
 	Help:	"Activates View1"
 	Label:	"&3 View1"
 	Click:	"WindowActivate"
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.6275
+(PMenu.6273
 	InternalName:	"Help"
+	Child:	6274
+	Child:	6275
 	Child:	6276
 	Child:	6277
-	Child:	6278
-	Child:	6279
 	Label:	"&Help"
 )
 
-(Choice.6276
+(Choice.6274
 	Help:	"Displays the dialog for browsing and searching ArcView's help system"
 	HelpTopic:	"Help_on_Help_Topics"
 	Label:	"Help &Topics..."
@@ -35108,7 +35100,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6277
+(Choice.6275
 	Help:	"Provides instructions for how to obtain help from ArcView"
 	HelpTopic:	"Help_on_How_to_Get_Help"
 	Label:	"&How to Get Help..."
@@ -35116,10 +35108,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6278
+(Space.6276
 )
 
-(Choice.6279
+(Choice.6277
 	Help:	"Provides information about ArcView"
 	HelpTopic:	"About"
 	Label:	"&About ArcView..."
@@ -35127,17 +35119,17 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(PMenu.6280
+(PMenu.6278
+	Child:	6279
+	Child:	6280
 	Child:	6281
 	Child:	6282
 	Child:	6283
 	Child:	6284
-	Child:	6285
-	Child:	6286
 	Label:	"MILA utilities"
 )
 
-(Choice.6281
+(Choice.6279
 	Help:	"Calculates area and perimeter for polygon themes and length for line themes"
 	Update:	"MILA.Util.OneTheme.Update"
 	Label:	"Calculate Area/Perimeter/Length"
@@ -35145,7 +35137,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6282
+(Choice.6280
 	Help:	"Adds X and Y coordinates of features to Attribute table (Point / Polygon themes)"
 	Update:	"MILA.Util.OneTheme.Update"
 	Label:	"Add X/Y coordinate"
@@ -35153,7 +35145,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6283
+(Choice.6281
 	Help:	"Adds a record numeber to all active Theme tables"
 	Update:	"MILA.Util.OneTheme.Update"
 	Label:	"Add record number"
@@ -35161,7 +35153,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6284
+(Choice.6282
 	Disabled:	1
 	Help:	"Make a new Theme of polygon circles from a point themes having a numeric field for circles radius definition\n"
 	Update:	"MILA.Util.MakeCirces.Update"
@@ -35170,7 +35162,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6285
+(Choice.6283
 	Help:	"Random selection of a precised percentage of features of actives themes"
 	Update:	"MILA.Util.OneTheme.Update"
 	Label:	"Random selection"
@@ -35178,7 +35170,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6286
+(Choice.6284
 	Disabled:	1
 	Help:	"Dissolve polygons based on their Area"
 	Update:	"MILA.Util.DissolveByArea.Update"
@@ -35187,32 +35179,33 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(ButnBar.6287
+(ButnBar.6285
+	Child:	6286
 	Child:	6288
-	Child:	6290
+	Child:	6289
 	Child:	6291
-	Child:	6293
+	Child:	6292
 	Child:	6294
 	Child:	6296
 	Child:	6298
-	Child:	6300
+	Child:	6299
 	Child:	6301
 	Child:	6303
 	Child:	6305
-	Child:	6307
+	Child:	6306
 	Child:	6308
 	Child:	6310
 	Child:	6312
 	Child:	6314
 	Child:	6316
 	Child:	6318
-	Child:	6320
+	Child:	6319
 	Child:	6321
 	Child:	6323
 	Child:	6325
-	Child:	6327
+	Child:	6326
 	Child:	6328
-	Child:	6330
+	Child:	6329
 	Child:	6331
 	Child:	6333
 	Child:	6335
@@ -35220,313 +35213,312 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	6339
 	Child:	6341
 	Child:	6343
-	Child:	6345
 )
 
-(Butn.6288
+(Butn.6286
 	Help:	"Save Project//Saves the current project"
 	HelpTopic:	"Save_Project"
-	Icon:	6289
+	Icon:	6287
 	Click:	"Project.Save"
 )
 
-(AVIcon.6289
+(AVIcon.6287
 	Name:	"Save"
 	Res:	"Icons.Save"
 
 )
 
-(Space.6290
+(Space.6288
 )
 
-(Butn.6291
+(Butn.6289
 	Help:	"Add Theme//Inserts themes into the view"
 	HelpTopic:	"Add_Theme"
-	Icon:	6292
+	Icon:	6290
 	Click:	"View.Add"
 )
 
-(AVIcon.6292
+(AVIcon.6290
 	Name:	"AddTheme"
 	Res:	"Icons.AddTheme"
 
 )
 
-(Space.6293
+(Space.6291
 )
 
-(Butn.6294
+(Butn.6292
 	Disabled:	1
 	Help:	"Theme Properties//Displays the dialog box to edit properties of the active theme"
 	HelpTopic:	"Theme_Properties"
 	Update:	"View.ActiveThemesUpdate"
-	Icon:	6295
+	Icon:	6293
 	Click:	"View.ThemeProperties"
 )
 
-(AVIcon.6295
+(AVIcon.6293
 	Name:	"Props"
 	Res:	"Icons.Props"
 
 )
 
-(Butn.6296
+(Butn.6294
 	Disabled:	1
 	Help:	"Edit Legend//Displays the legends of the active themes"
 	HelpTopic:	"Edit_Legend"
 	Update:	"View.ActiveThemesUpdate"
-	Icon:	6297
+	Icon:	6295
 	Click:	"View.EditLegendClick"
 )
 
-(AVIcon.6297
+(AVIcon.6295
 	Name:	"Legend"
 	Res:	"Icons.Legend"
 
 )
 
-(Butn.6298
+(Butn.6296
 	Disabled:	1
 	Help:	"Open Theme Table//Opens the tables of the active themes"
 	HelpTopic:	"Open_Theme_Table"
 	Update:	"View.TabularThemesUpdate"
-	Icon:	6299
+	Icon:	6297
 	Click:	"View.ShowTable"
 )
 
-(AVIcon.6299
+(AVIcon.6297
 	Name:	"Table"
 	Res:	"Icons.Table"
 
 )
 
-(Space.6300
+(Space.6298
 )
 
-(Butn.6301
+(Butn.6299
 	Disabled:	1
 	Help:	"Find//Finds features in the active themes using the text you enter"
 	HelpTopic:	"Find"
 	Update:	"View.TabularThemesUpdate"
-	Icon:	6302
+	Icon:	6300
 	Click:	"View.Find"
 )
 
-(AVIcon.6302
+(AVIcon.6300
 	Name:	"Find"
 	Res:	"Icons.Find"
 
 )
 
-(Butn.6303
+(Butn.6301
 	Disabled:	1
 	Help:	"Locate Address//Locates an address in the active, matchable theme"
 	HelpTopic:	"Locate_Address"
 	Update:	"View.LocateUpdate"
-	Icon:	6304
+	Icon:	6302
 	Click:	"View.Locate"
 )
 
-(AVIcon.6304
+(AVIcon.6302
 	Name:	"AddMatch"
 	Res:	"Icons.AddMatch"
 
 )
 
-(Butn.6305
+(Butn.6303
 	Disabled:	1
 	Help:	"Query Builder//Displays the Query Builder to select features with a logical expression"
 	HelpTopic:	"Query_Builder"
 	Update:	"View.AttributeThemesUpdate"
-	Icon:	6306
+	Icon:	6304
 	Click:	"View.Query"
 )
 
-(AVIcon.6306
+(AVIcon.6304
 	Name:	"QueryBuilder"
 	Res:	"Icons.QueryBuilder"
 
 )
 
-(Space.6307
+(Space.6305
 )
 
-(Butn.6308
+(Butn.6306
 	Disabled:	1
 	Help:	"Zoom to Full Extent//Zooms to the extent of all themes"
 	HelpTopic:	"Zoom_to_Full_Extent"
 	Update:	"View.HasDataUpdate"
-	Icon:	6309
+	Icon:	6307
 	Click:	"View.ZoomFullExtent"
 )
 
-(AVIcon.6309
+(AVIcon.6307
 	Name:	"ZoomView"
 	Res:	"Icons.ZoomView"
 
 )
 
-(Butn.6310
+(Butn.6308
 	Disabled:	1
 	Help:	"Zoom to Active Theme(s)//Zooms to the extent of active themes"
 	HelpTopic:	"Zoom_to_Active_Theme"
 	Update:	"View.ActiveThemesUpdate"
-	Icon:	6311
+	Icon:	6309
 	Click:	"View.ZoomToThemes"
 )
 
-(AVIcon.6311
+(AVIcon.6309
 	Name:	"ZoomTheme"
 	Res:	"Icons.ZoomTheme"
 
 )
 
-(Butn.6312
+(Butn.6310
 	Disabled:	1
 	Help:	"Zoom to Selected//Zooms to the extent of the selected features"
 	HelpTopic:	"Zoom_to_Selected"
 	Update:	"View.SelectableThemesUpdate"
-	Icon:	6313
+	Icon:	6311
 	Click:	"View.ZoomToSelected"
 )
 
-(AVIcon.6313
+(AVIcon.6311
 	Name:	"ZoomToSelected"
 	Res:	"Icons.ZoomToSelected"
 
 )
 
-(Butn.6314
+(Butn.6312
 	Disabled:	1
 	Help:	"Zoom In//Zooms in on the center of the display"
 	HelpTopic:	"Zoom_In"
 	Update:	"View.HasDataUpdate"
-	Icon:	6315
+	Icon:	6313
 	Click:	"View.ZoomIn"
 )
 
-(AVIcon.6315
+(AVIcon.6313
 	Name:	"ZoomIn"
 	Res:	"Icons.ZoomIn"
 
 )
 
-(Butn.6316
+(Butn.6314
 	Disabled:	1
 	Help:	"Zoom Out//Zooms out from the center of the display"
 	HelpTopic:	"Zoom_Out"
 	Update:	"View.HasDataUpdate"
-	Icon:	6317
+	Icon:	6315
 	Click:	"View.ZoomOut"
 )
 
-(AVIcon.6317
+(AVIcon.6315
 	Name:	"ZoomOut"
 	Res:	"Icons.ZoomOut"
 
 )
 
-(Butn.6318
+(Butn.6316
 	Disabled:	1
 	Help:	"Zoom to Previous Extent//Goes back to the previous extent you were viewing"
 	HelpTopic:	"Zoom_Previous"
 	Update:	"View.UndoZoomUpdate"
-	Icon:	6319
+	Icon:	6317
 	Click:	"View.UndoZoom"
 )
 
-(AVIcon.6319
+(AVIcon.6317
 	Name:	"ZoomPrevious"
 	Res:	"Icons.ZoomPrevious"
 
 )
 
-(Space.6320
+(Space.6318
 )
 
-(Butn.6321
-	Icon:	6322
+(Butn.6319
+	Icon:	6320
 	Click:	"View.YXPan"
 )
 
-(AVIcon.6322
+(AVIcon.6320
 	Name:	"XY"
 	Res:	"Icons.XY"
 
 )
 
-(Butn.6323
+(Butn.6321
 	Disabled:	1
 	Help:	"Select Features Using Graphic//Selects features in active themes using selected graphics"
 	HelpTopic:	"Select_Features_Using_Graphic"
 	Update:	"View.SpatialSelectUpdate"
-	Icon:	6324
+	Icon:	6322
 	Click:	"View.SpatialSelect"
 )
 
-(AVIcon.6324
+(AVIcon.6322
 	Name:	"SpatialSelect"
 	Res:	"Icons.SpatialSelect"
 
 )
 
-(Butn.6325
+(Butn.6323
 	Disabled:	1
 	Help:	"Clear Selected Features//Unselects the selected features of all active themes"
 	HelpTopic:	"Clear_Selected_Features"
 	Update:	"View.AttributeThemesUpdate"
-	Icon:	6326
+	Icon:	6324
 	Click:	"View.ClearSelect"
 )
 
-(AVIcon.6326
+(AVIcon.6324
 	Name:	"SelectNone"
 	Res:	"Icons.SelectNone"
 
 )
 
-(Space.6327
+(Space.6325
 )
 
-(Butn.6328
+(Butn.6326
 	Help:	"Help//Gets help about the next button, tool, or menu choice you click"
 	HelpTopic:	"Help_button"
-	Icon:	6329
+	Icon:	6327
 	Click:	"Help.Tool"
 )
 
-(AVIcon.6329
+(AVIcon.6327
 	Name:	"HelpTool"
 	Res:	"Icons.HelpTool"
 
 )
 
-(Space.6330
+(Space.6328
 	Tag:	"Xtools1234"
 )
 
-(Butn.6331
+(Butn.6329
 	Help:	"Display Selected Shapes Info.//Display the number and amount (acres for polygons, length for lines) of selected shapes in each ftheme that has selected features.  Press \"Shift and click this button for instructions."
 	HelpTopic:	" "
 	Tag:	"Xtools1234"
-	Icon:	6332
+	Icon:	6330
 	Click:	"XTDisplaySelected.Open"
 )
 
-(AVIcon.6332
+(AVIcon.6330
 	Name:	"Summarize"
 	Res:	"Icons.Summarize"
 
 )
 
-(Butn.6333
+(Butn.6331
 	Help:	"Explodes MultiPart Shapes in the Theme of Your Choice//Explode MultiPart Shapes in the Theme of Your Choice"
 	Update:	"Explode MultiPart Shapes.Update"
-	Icon:	6334
+	Icon:	6332
 	Click:	"Explode MultiPart Shapes"
 )
 
-(AVIcon.6334
+(AVIcon.6332
 	Name:	"explode.bmp"
 	Data:	4e442049 6d616765 00010011 00110000 
 	Data:	00ccffff ffffffff fffff000 0000ffff 
@@ -35550,39 +35542,39 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Data:	00000000 0000
 )
 
-(Butn.6335
+(Butn.6333
 	Help:	"Random points//Generate randomly-distributed points"
 	Update:	"random.open.update"
-	Icon:	6336
+	Icon:	6334
 	Click:	"random.open"
 )
 
-(AVIcon.6336
+(AVIcon.6334
 	Name:	"Icon5"
 	Res:	"Icons.Icon5"
 
 )
 
-(Butn.6337
+(Butn.6335
 	Help:	"Generate vector grid//"
-	Icon:	6338
+	Icon:	6336
 	Click:	"MILA.Util.View.Gridmkr"
 )
 
-(AVIcon.6338
+(AVIcon.6336
 	Name:	"FrameTable"
 	Res:	"Icons.FrameTable"
 
 )
 
-(Butn.6339
+(Butn.6337
 	Help:	"Convert to Star exchange format//Convert View vector themes to the Star STD ASCII interchange file format"
 	Update:	"MILA.Util.Arc2star.main.update"
-	Icon:	6340
+	Icon:	6338
 	Click:	"MILA.Util.Arc2star.Main"
 )
 
-(AVIcon.6340
+(AVIcon.6338
 	Name:	"star.gif"
 	Data:	4e442049 6d616765 00010018 00180000 
 	Data:	02407b7b 7b7b7b7b 7b7b7b7b 7b7b7b7b 
@@ -35689,29 +35681,29 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Data:	00000000 00000000 0000
 )
 
-(Butn.6341
+(Butn.6339
 	Help:	"MILA - Utilities Extension Help//"
-	Icon:	6342
+	Icon:	6340
 	Click:	"MILA.Util.Help"
 )
 
-(AVIcon.6342
+(AVIcon.6340
 	Name:	"ID"
 	Res:	"Icons.ID"
 
 )
 
-(Butn.6343
+(Butn.6341
 	Disabled:	1
 	Help:	"Rotates selected PolyLines or Polygons around individual object's centre"
 	HelpTopic:	" "
 	Tag:	" "
 	Update:	"Rotate.Update"
-	Icon:	6344
+	Icon:	6342
 	Click:	"Rotate"
 )
 
-(AVIcon.6344
+(AVIcon.6342
 	Name:	"rotate.bmp"
 	Data:	4e442049 6d616765 00010014 00110000 
 	Data:	00cc7777 77770000 07777777 00007777 
@@ -35735,14 +35727,14 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Data:	00000000 0000
 )
 
-(Butn.6345
+(Butn.6343
 	Help:	"AutoSnap is ON//ArcView Draw and Vertex Edit tools will AutoSnap to active themes and graphics ! (Ron Schultz - 0104)"
 	Tag:	"Rons"
-	Icon:	6346
+	Icon:	6344
 	Click:	"AutoSnap"
 )
 
-(AVIcon.6346
+(AVIcon.6344
 	Name:	"snapon.bmp"
 	Data:	4e442049 6d616765 00010019 00160000 
 	Data:	0688bfbf bf000000 00000000 00000000 
@@ -35854,11 +35846,13 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Data:	0000
 )
 
-(PopupSet.6347
-	Child:	6348
+(PopupSet.6345
+	Child:	6346
 )
 
-(Popup.6348
+(Popup.6346
+	Child:	6347
+	Child:	6348
 	Child:	6349
 	Child:	6350
 	Child:	6351
@@ -35877,12 +35871,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	6364
 	Child:	6365
 	Child:	6366
-	Child:	6367
-	Child:	6368
 	Label:	"Menu"
 )
 
-(Choice.6349
+(Choice.6347
 	Disabled:	1
 	Invisible:	1
 	Help:	"Deletes the last entered point on the line or polygon being drawn"
@@ -35892,7 +35884,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6350
+(Choice.6348
 	Disabled:	1
 	Help:	"Undo the last edit to graphics on a view"
 	HelpTopic:	"Undo_Graphic_Edit_on_a_view"
@@ -35902,7 +35894,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6351
+(Choice.6349
 	Disabled:	1
 	Invisible:	1
 	Help:	"Redo the last edit operation on a theme that was undone"
@@ -35912,10 +35904,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6352
+(Space.6350
 )
 
-(Choice.6353
+(Choice.6351
 	Disabled:	1
 	Invisible:	1
 	Help:	"Turns general snapping on"
@@ -35925,7 +35917,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6354
+(Choice.6352
 	Disabled:	1
 	Invisible:	1
 	Help:	"Turns interactive snapping on"
@@ -35935,7 +35927,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6355
+(Choice.6353
 	Help:	"Turns snap tolerance cursor on"
 	Update:	"View.ToggleTolCursorUpdate"
 	Label:	"Show Snap Tolerance Cursor"
@@ -35943,10 +35935,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6356
+(Space.6354
 )
 
-(Choice.6357
+(Choice.6355
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snaps the next entered point to the nearest vertex within the user tolerance"
@@ -35956,7 +35948,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6358
+(Choice.6356
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snaps the next entered point to the nearest line segment"
@@ -35966,7 +35958,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6359
+(Choice.6357
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snaps the next entered point to the nearest node common to two or more features"
@@ -35976,7 +35968,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6360
+(Choice.6358
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snaps the next entered point to the nearest endpoint of an existing line"
@@ -35986,10 +35978,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6361
+(Space.6359
 )
 
-(Choice.6362
+(Choice.6360
 	Disabled:	1
 	Help:	"Unselects the selected features in all active themes"
 	Update:	"View.AttributeThemesUpdate"
@@ -35998,7 +35990,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6363
+(Choice.6361
 	Disabled:	1
 	Help:	"Zooms in at point where you click to bring up popup menu"
 	Update:	"View.HasDataUpdate"
@@ -36007,7 +35999,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6364
+(Choice.6362
 	Disabled:	1
 	Help:	"Zooms out from point where you click to bring up popup menu"
 	Update:	"View.HasDataUpdate"
@@ -36016,7 +36008,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6365
+(Choice.6363
 	Disabled:	1
 	Help:	"Zooms to the extent of the selected features"
 	Update:	"View.SelectableThemesUpdate"
@@ -36025,7 +36017,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Choice.6366
+(Choice.6364
 	Disabled:	1
 	Help:	"Centers display on point where you click to bring up popup"
 	Update:	"View.HasDataUpdate"
@@ -36034,10 +36026,10 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(Space.6367
+(Space.6365
 )
 
-(Choice.6368
+(Choice.6366
 	Disabled:	1
 	Help:	"Opens the shape properties window for editing vertex locations"
 	Update:	"ShapeWin.PopUp Update"
@@ -36046,7 +36038,8 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Shortcut:	"Keys.None"
 )
 
-(ToolBar.6369
+(ToolBar.6367
+	Child:	6368
 	Child:	6370
 	Child:	6372
 	Child:	6374
@@ -36058,201 +36051,201 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	6386
 	Child:	6388
 	Child:	6390
-	Child:	6392
-	Child:	6411
-	Child:	6424
-	Child:	6443
+	Child:	6409
+	Child:	6422
+	Child:	6441
+	Child:	6446
 	Child:	6448
-	Child:	6450
 )
 
-(Tool.6370
+(Tool.6368
 	Disabled:	1
 	Help:	"Identify//Provides information about a feature"
 	HelpTopic:	"Identify_tool"
 	Update:	"View.IdentifyUpdate"
-	Icon:	6371
+	Icon:	6369
 	Cursor:	"Cursors.ID"
 	Apply:	"View.Identify"
 )
 
-(AVIcon.6371
+(AVIcon.6369
 	Name:	"ID"
 	Res:	"Icons.ID"
 
 )
 
-(Tool.6372
+(Tool.6370
 	Disabled:	1
 	Help:	"Pointer//Selects, moves, and resizes graphics"
 	HelpTopic:	"Pointer_tool"
 	Update:	"View.HasDataUpdate"
-	Icon:	6373
+	Icon:	6371
 	Cursor:	"Cursors.Select"
 	Apply:	"View.Select"
 	Click:	"View.SelectTool"
 )
 
-(AVIcon.6373
+(AVIcon.6371
 	Name:	"Select"
 	Res:	"Icons.Select"
 
 )
 
-(Tool.6374
+(Tool.6372
 	Disabled:	1
 	Help:	"Vertex Edit//Adds, moves, and deletes vertices of features and graphics"
 	HelpTopic:	"Vertex_Edit_tool"
 	Update:	"View.SelectToEditUpdate"
-	Icon:	6375
+	Icon:	6373
 	Cursor:	"Cursors.SelectEdit"
 	Apply:	"View.SelectToEdit"
 	Click:	"View.SelectToEditTool"
 )
 
-(AVIcon.6375
+(AVIcon.6373
 	Name:	"SelectEdit"
 	Res:	"Icons.SelectEdit"
 
 )
 
-(Tool.6376
+(Tool.6374
 	Disabled:	1
 	Help:	"Select Feature//Selects features in the active themes by pointing or dragging"
 	HelpTopic:	"Select_Feature_tool"
 	Update:	"View.SelectableThemesUpdate"
-	Icon:	6377
+	Icon:	6375
 	Cursor:	"Cursors.Default"
 	Apply:	"View.SelectPoint"
 )
 
-(AVIcon.6377
+(AVIcon.6375
 	Name:	"FeatureSelect"
 	Res:	"Icons.FeatureSelect"
 
 )
 
-(Tool.6378
+(Tool.6376
 	Disabled:	1
 	Help:	"Zoom In//Zooms in at a point you click or zooms in on a rectangle you drag"
 	HelpTopic:	"Zoom_In_tool"
 	Update:	"View.HasDataUpdate"
-	Icon:	6379
+	Icon:	6377
 	Cursor:	"Cursors.ZoomIn"
 	Apply:	"View.ZoomInTool"
 )
 
-(AVIcon.6379
+(AVIcon.6377
 	Name:	"ZoomInTool"
 	Res:	"Icons.ZoomInTool"
 
 )
 
-(Tool.6380
+(Tool.6378
 	Disabled:	1
 	Help:	"Zoom Out//Zooms out from a point you click or zooms out to include a rectangle you drag"
 	HelpTopic:	"Zoom_Out_tool"
 	Update:	"View.HasDataUpdate"
-	Icon:	6381
+	Icon:	6379
 	Cursor:	"Cursors.ZoomOut"
 	Apply:	"View.ZoomOutTool"
 )
 
-(AVIcon.6381
+(AVIcon.6379
 	Name:	"ZoomOutTool"
 	Res:	"Icons.ZoomOutTool"
 
 )
 
-(Tool.6382
+(Tool.6380
 	Disabled:	1
 	Help:	"Pan//Drags the display in the direction you move the cursor"
 	HelpTopic:	"Pan_tool"
 	Update:	"View.HasDataUpdate"
-	Icon:	6383
+	Icon:	6381
 	Cursor:	"Cursors.Pan"
 	Apply:	"View.Pan"
 )
 
-(AVIcon.6383
+(AVIcon.6381
 	Name:	"Pan"
 	Res:	"Icons.Pan"
 
 )
 
-(Tool.6384
+(Tool.6382
 	Help:	"Rotate (outline)//Dynamically rotate selected graphics--press shift or wait five seconds to end.  Press shift while clicking the tool to change outlining mode."
 	Tag:	"Outline"
 	Update:	"View.RotateGraphicTool.Update"
-	Icon:	6385
+	Icon:	6383
 	Cursor:	"Cursors.RotateAll"
 	Apply:	"View.RotateGraphicTool"
 	Click:	"View.RotateGraphicTool.Click"
 )
 
-(AVIcon.6385
+(AVIcon.6383
 	Name:	"Redo"
 	Res:	"Icons.Redo"
 
 )
 
-(Tool.6386
+(Tool.6384
 	Disabled:	1
 	Help:	"Measure//Measures distance"
 	HelpTopic:	"Measure_tool"
 	Update:	"View.HasDataUpdate"
-	Icon:	6387
+	Icon:	6385
 	Cursor:	"Cursors.Measure"
 	Apply:	"View.Measure"
 )
 
-(AVIcon.6387
+(AVIcon.6385
 	Name:	"Measure"
 	Res:	"Icons.Measure"
 
 )
 
-(Tool.6388
+(Tool.6386
 	Disabled:	1
 	Help:	"Hot Link//Follows a hot link in the active themes"
 	HelpTopic:	"Hot_Link_tool"
 	Update:	"View.HotLinkUpdate"
-	Icon:	6389
+	Icon:	6387
 	Cursor:	"Cursors.Media"
 	Apply:	"View.HotLink"
 )
 
-(AVIcon.6389
+(AVIcon.6387
 	Name:	"Media"
 	Res:	"Icons.Media"
 
 )
 
-(Tool.6390
+(Tool.6388
 	Disabled:	1
 	Help:	"Area of Interest//Sets the view's Area Of Interest for library-based themes"
 	HelpTopic:	"Area_Of_Interest_tool"
 	Update:	"View.AOIToolUpdate"
-	Icon:	6391
+	Icon:	6389
 	Cursor:	"Cursors.Default"
 	Apply:	"View.AOITool"
 )
 
-(AVIcon.6391
+(AVIcon.6389
 	Name:	"AOI"
 	Res:	"Icons.AOI"
 
 )
 
-(ToolMenu.6392
+(ToolMenu.6390
 	Disabled:	1
 	Help:	"Label//Labels a feature in the active theme with data from its table"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.LabelToolUpdate"
-	Icon:	6393
+	Icon:	6391
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.LabelTool"
-	Child:	6394
+	Child:	6392
+	Child:	6393
 	Child:	6395
 	Child:	6397
 	Child:	6399
@@ -36260,274 +36253,274 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	6403
 	Child:	6405
 	Child:	6407
-	Child:	6409
 )
 
-(AVIcon.6393
+(AVIcon.6391
 	Name:	"Tag"
 	Res:	"Icons.Tag"
 
 )
 
-(Tool.6394
+(Tool.6392
 	Disabled:	1
 	Help:	"Label//Labels a feature in the active theme with data from its table"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.LabelToolUpdate"
-	Icon:	6393
+	Icon:	6391
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.LabelTool"
 )
 
-(Tool.6395
+(Tool.6393
 	Disabled:	1
 	Help:	"Callout Label//Click on a feature and drag in the direction you want the label to appear"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	6396
+	Icon:	6394
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.CalloutLabelTool"
 )
 
-(AVIcon.6396
+(AVIcon.6394
 	Name:	"CallOutLabel1"
 	Res:	"Icons.CallOutLabel1"
 
 )
 
-(Tool.6397
+(Tool.6395
 	Disabled:	1
 	Help:	"Bullet Leader Label//Click on a feature and drag in the direction you want the label to appear"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	6398
+	Icon:	6396
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.BulletLeaderLabelTool"
 )
 
-(AVIcon.6398
+(AVIcon.6396
 	Name:	"CallOutLabel2"
 	Res:	"Icons.CallOutLabel2"
 
 )
 
-(Tool.6399
+(Tool.6397
 	Disabled:	1
 	Help:	"Banner Label//Click on a feature you want to label"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	6400
+	Icon:	6398
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.ShadowBoxLabelTool"
 )
 
-(AVIcon.6400
+(AVIcon.6398
 	Name:	"CallOutLabel3"
 	Res:	"Icons.CallOutLabel3"
 
 )
 
-(Tool.6401
+(Tool.6399
 	Disabled:	1
 	Help:	"U.S. Interstate//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	6402
+	Icon:	6400
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.Highway1 Apply"
 )
 
-(AVIcon.6402
+(AVIcon.6400
 	Name:	"BW US Interstate"
 	Res:	"Icons.BW US Interstate"
 
 )
 
-(Tool.6403
+(Tool.6401
 	Disabled:	1
 	Help:	"U.S. Route//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	6404
+	Icon:	6402
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.Highway2 Apply"
 )
 
-(AVIcon.6404
+(AVIcon.6402
 	Name:	"USRoute"
 	Res:	"Icons.USRoute"
 
 )
 
-(Tool.6405
+(Tool.6403
 	Disabled:	1
 	Help:	"Generic State Hwy//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	6406
+	Icon:	6404
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.Highway3 Apply"
 )
 
-(AVIcon.6406
+(AVIcon.6404
 	Name:	"GenericStateHighway"
 	Res:	"Icons.GenericStateHighway"
 
 )
 
-(Tool.6407
+(Tool.6405
 	Disabled:	1
 	Help:	"Generic Square Hwy//Click where you want to place a highway shield"
 	HelpTopic:	"Label_Tool"
 	Update:	"View.CalloutUpdate"
-	Icon:	6408
+	Icon:	6406
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.Highway4 Apply"
 )
 
-(AVIcon.6408
+(AVIcon.6406
 	Name:	"GenericHighway1"
 	Res:	"Icons.GenericHighway1"
 
 )
 
-(Tool.6409
+(Tool.6407
 	Disabled:	1
 	Help:	"Generic Oval Hwy//Click where you want to place a highway shield"
 	Update:	"View.CalloutUpdate"
-	Icon:	6410
+	Icon:	6408
 	Cursor:	"Cursors.Tag"
 	Apply:	"View.Highway5 Apply"
 )
 
-(AVIcon.6410
+(AVIcon.6408
 	Name:	"GenericHighway2"
 	Res:	"Icons.GenericHighway2"
 
 )
 
-(ToolMenu.6411
+(ToolMenu.6409
 	Disabled:	1
 	Help:	"Text//Creates text on the display"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	6412
+	Icon:	6410
 	Cursor:	"Cursors.Text"
 	Apply:	"View.TextTool"
 	Click:	"SymWin.DisplayFontPanel"
-	Child:	6413
+	Child:	6411
+	Child:	6412
 	Child:	6414
 	Child:	6416
 	Child:	6418
 	Child:	6420
-	Child:	6422
 )
 
-(AVIcon.6412
+(AVIcon.6410
 	Name:	"Text"
 	Res:	"Icons.Text"
 
 )
 
-(Tool.6413
+(Tool.6411
 	Disabled:	1
 	Help:	"Text//Creates text on the display"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	6412
+	Icon:	6410
 	Cursor:	"Cursors.Text"
 	Apply:	"View.TextTool"
 	Click:	"SymWin.DisplayFontPanel"
 )
 
-(Tool.6414
+(Tool.6412
 	Disabled:	1
 	Help:	"Callout Text//Click and drag to where you want your text to appear, then enter the text"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	6415
+	Icon:	6413
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.CalloutTextTool"
 )
 
-(AVIcon.6415
+(AVIcon.6413
 	Name:	"CallOutText1"
 	Res:	"Icons.CallOutText1"
 
 )
 
-(Tool.6416
+(Tool.6414
 	Disabled:	1
 	Help:	"Bullet Leader Text//Click and drag to where you want your text to appear, then enter the text"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	6417
+	Icon:	6415
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.BulletLeaderTextTool"
 )
 
-(AVIcon.6417
+(AVIcon.6415
 	Name:	"CallOutText2"
 	Res:	"Icons.CallOutText2"
 
 )
 
-(Tool.6418
+(Tool.6416
 	Disabled:	1
 	Help:	"Banner Text//Click where you want your label to appear and enter your text"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	6419
+	Icon:	6417
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.ShadowBoxTextTool"
 )
 
-(AVIcon.6419
+(AVIcon.6417
 	Name:	"CallOutText3"
 	Res:	"Icons.CallOutText3"
 
 )
 
-(Tool.6420
+(Tool.6418
 	Disabled:	1
 	Help:	"Drop-Shadow Text//Click where you want your text to appear and enter your text"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	6421
+	Icon:	6419
 	Cursor:	"Cursors.Target"
 	Apply:	"View.CreateDropShadowText"
 )
 
-(AVIcon.6421
+(AVIcon.6419
 	Name:	"DropShadowText"
 	Res:	"Icons.DropShadowText"
 
 )
 
-(Tool.6422
+(Tool.6420
 	Help:	"Spline Text//Adds text that is aligned to a splined baseline"
 	HelpTopic:	"Text_tool"
 	Update:	"View.TextToolUpdate"
-	Icon:	6423
+	Icon:	6421
 	Cursor:	"Cursors.Bullseye"
 	Apply:	"View.SplineText"
 )
 
-(AVIcon.6423
+(AVIcon.6421
 	Name:	"TextAligned"
 	Res:	"Icons.TextAligned"
 
 )
 
-(ToolMenu.6424
+(ToolMenu.6422
 	Help:	"Draw Point//Creates a point on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PointToolUpdate"
-	Icon:	6425
+	Icon:	6423
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.PointTool"
 	Click:	"SymWin.DisplayMarkerPanel"
-	Child:	6426
+	Child:	6424
+	Child:	6425
 	Child:	6427
 	Child:	6429
 	Child:	6431
@@ -36535,285 +36528,284 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	Child:	6435
 	Child:	6437
 	Child:	6439
-	Child:	6441
 )
 
-(AVIcon.6425
+(AVIcon.6423
 	Name:	"Point"
 	Res:	"Icons.Point"
 
 )
 
-(Tool.6426
+(Tool.6424
 	Help:	"Draw Point//Creates a point on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PointToolUpdate"
-	Icon:	6425
+	Icon:	6423
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.PointTool"
 	Click:	"SymWin.DisplayMarkerPanel"
 )
 
-(Tool.6427
+(Tool.6425
 	Help:	"Draw Straight Line//Creates a line on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.GraphicToolUpdate"
-	Icon:	6428
+	Icon:	6426
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.LineTool"
 	Click:	"SymWin.DisplayPenPanel"
 )
 
-(AVIcon.6428
+(AVIcon.6426
 	Name:	"SelectLine"
 	Res:	"Icons.SelectLine"
 
 )
 
-(Tool.6429
+(Tool.6427
 	Help:	"Draw Line//Creates a line with two or more points on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PolyLineToolUpdate"
-	Icon:	6430
+	Icon:	6428
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.PolyLineTool"
 	Click:	"SymWin.DisplayPenPanel"
 )
 
-(AVIcon.6430
+(AVIcon.6428
 	Name:	"Lines"
 	Res:	"Icons.Lines"
 
 )
 
-(Tool.6431
+(Tool.6429
 	Help:	"Draw Rectangle//Creates a rectangle on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PolyToolUpdate"
-	Icon:	6432
+	Icon:	6430
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.RectTool"
 	Click:	"SymWin.DisplayFillPanel"
 )
 
-(AVIcon.6432
+(AVIcon.6430
 	Name:	"Rect"
 	Res:	"Icons.Rect"
 
 )
 
-(Tool.6433
+(Tool.6431
 	Help:	"Draw Circle//Creates a circle on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PolyToolUpdate"
-	Icon:	6434
+	Icon:	6432
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.CircleTool"
 	Click:	"SymWin.DisplayFillPanel"
 )
 
-(AVIcon.6434
+(AVIcon.6432
 	Name:	"Disk"
 	Res:	"Icons.Disk"
 
 )
 
-(Tool.6435
+(Tool.6433
 	Help:	"Draw Polygon//Creates a polygon on the display"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.PolyToolUpdate"
-	Icon:	6436
+	Icon:	6434
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.PolyTool"
 	Click:	"SymWin.DisplayFillPanel"
 )
 
-(AVIcon.6436
+(AVIcon.6434
 	Name:	"Poly"
 	Res:	"Icons.Poly"
 
 )
 
-(Tool.6437
+(Tool.6435
 	Disabled:	1
 	Help:	"Draw Line to Split Feature//Creates a line to split line features"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.SplitLineToolUpdate"
+	Icon:	6436
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.SplitTool"
+)
+
+(AVIcon.6436
+	Name:	"SplitLine"
+	Res:	"Icons.SplitLine"
+
+)
+
+(Tool.6437
+	Disabled:	1
+	Help:	"Draw Line to Split Polygon//Creates a line to split polygon features"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.SplitPolyToolUpdate"
 	Icon:	6438
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.SplitTool"
 )
 
 (AVIcon.6438
-	Name:	"SplitLine"
-	Res:	"Icons.SplitLine"
-
-)
-
-(Tool.6439
-	Disabled:	1
-	Help:	"Draw Line to Split Polygon//Creates a line to split polygon features"
-	HelpTopic:	"Draw_tool"
-	Update:	"View.SplitPolyToolUpdate"
-	Icon:	6440
-	Cursor:	"Cursors.CrossHair"
-	Apply:	"View.SplitTool"
-)
-
-(AVIcon.6440
 	Name:	"SplitPoly"
 	Res:	"Icons.SplitPoly"
 
 )
 
-(Tool.6441
+(Tool.6439
 	Disabled:	1
 	Help:	"Draw Line to Append Polygon//Appends a new polygon adjacent to other polygons"
 	HelpTopic:	"Draw_tool"
 	Update:	"View.AutoCompleteUpdate"
-	Icon:	6442
+	Icon:	6440
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"View.AutoCompleteTool"
 )
 
-(AVIcon.6442
+(AVIcon.6440
 	Name:	"AutoComplete"
 	Res:	"Icons.AutoComplete"
 
 )
 
-(ToolMenu.6443
+(ToolMenu.6441
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snap//Sets the general snapping tolerance for the editable theme"
 	HelpTopic:	"Snap_tools"
 	Update:	"View.SnapToolUpdate"
-	Icon:	6444
+	Icon:	6442
 	Cursor:	"Cursors.Default"
 	Apply:	"View.SnapTool"
-	Child:	6445
-	Child:	6446
+	Child:	6443
+	Child:	6444
 )
 
-(AVIcon.6444
+(AVIcon.6442
 	Name:	"SnapTool"
 	Res:	"Icons.SnapTool"
 
 )
 
-(Tool.6445
+(Tool.6443
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snap//Sets the general snapping tolerance for the editable theme"
 	HelpTopic:	"Snap_tools"
 	Update:	"View.SnapToolUpdate"
-	Icon:	6444
+	Icon:	6442
 	Cursor:	"Cursors.Default"
 	Apply:	"View.SnapTool"
 )
 
-(Tool.6446
+(Tool.6444
 	Disabled:	1
 	Invisible:	1
 	Help:	"Snap//Sets the interactive snapping tolerance for the editable theme"
 	HelpTopic:	"Snap_tools"
 	Update:	"View.InteractiveSnapToolUpdate"
-	Icon:	6447
+	Icon:	6445
 	Cursor:	"Cursors.Default"
 	Apply:	"View.InteractiveSnapTool"
 )
 
-(AVIcon.6447
+(AVIcon.6445
 	Name:	"SnapFeatureTool"
 	Res:	"Icons.SnapFeatureTool"
 
 )
 
-(Tool.6448
+(Tool.6446
 	Help:	"Stream Tolerance//Sets the stream tolerance (in map units) to digitize features in stream mode."
 	HelpTopic:	"Stream_Tolerance@digitize.hlp"
 	Update:	"Digit.StreamToleranceToolUpdate"
-	Icon:	6449
+	Icon:	6447
 	Cursor:	"Cursors.Default"
 	Apply:	"Digit.StreamToleranceTool"
 )
 
-(AVIcon.6449
+(AVIcon.6447
 	Name:	"SelectCircle"
 	Res:	"Icons.SelectCircle"
 
 )
 
-(Tool.6450
+(Tool.6448
 	Help:	"Azimuth//Draw polylines using angle and length"
 	Tag:	"Ron Schultz"
-	Icon:	6451
+	Icon:	6449
 	Cursor:	"Cursors.CrossHair"
 	Apply:	"Azimuth"
 )
 
-(AVIcon.6451
+(AVIcon.6449
 	Name:	"AlignTop"
 	Res:	"Icons.AlignTop"
 
 )
 
-(AVIcon.6452
+(AVIcon.6450
 	Name:	"Icon"
 	Res:	"View.Icon"
 
 )
 
-(FN.6697
+(FN.6695
 	Path:	"C:/Users/aboeh/git/ABoehlen.github.io/dx"
 )
 
-(TClr.6698
+(TClr.6696
 	Red:	0xffff
 	Green:	0xffff
 )
 
-(AVStr.6699
+(AVStr.6697
 	S:	"View"
 )
 
-(AVStr.6700
+(AVStr.6698
 	S:	"Table"
 )
 
-(AVStr.6701
+(AVStr.6699
 	S:	"Chart"
 )
 
-(AVStr.6702
+(AVStr.6700
 	S:	"Layout"
 )
 
-(AVStr.6703
+(AVStr.6701
 	S:	"Script"
 )
 
-(AVStr.6704
+(AVStr.6702
 	S:	"Project"
 )
 
-(AVStr.6705
+(AVStr.6703
 	S:	"Appl"
 )
 
-(AVStr.6706
+(AVStr.6704
 	S:	"XTSED"
 )
 
-(AVStr.6707
+(AVStr.6705
 	S:	"XTGUI"
 )
 
-(AVStr.6708
+(AVStr.6706
 	S:	"Request"
 )
 
-(AVStr.6709
+(AVStr.6707
 	S:	"DialogEditor"
 )
 

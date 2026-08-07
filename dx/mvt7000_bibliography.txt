@@ -58,7 +58,7 @@ _bb_$https://www.merseyradar.co.uk/airband-radio/home-made-coaxial-dipole-antenn
 
 _bc_$Radio-Scanner, Das Hör- und Abhör-Magazin, Nr. 4/1996. Burgdorf 1996, S.&nbsp;45
 
-_bd_$Radiohören & Scannen, Das Hobby-Magazin für weltweiten Funkempfang, Nr. 10/1998. Baden-Baden 1998, S.&nbsp;17
+_bd_$Radiohören &amp; Scannen, Das Hobby-Magazin für weltweiten Funkempfang, Nr. 10/1998. Baden-Baden 1998, S.&nbsp;17
 
 _be_$AFM Aircrew Speak, An Air-band Frequency Guide. Stamford, Lincolnshire 1995, S.&nbsp;25
 

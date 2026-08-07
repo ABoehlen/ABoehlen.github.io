@@ -68,7 +68,8 @@ var neuigkeiten =  [
   "15.02.2026: Neue Seite <a target=\"_blank\" href=\"./dx/geraetebestand.html\">Gerätebestand</a> ergänzt",
   "05.05.2026: Weitere <a href=\"./dx/jingles.html\">Erkennungsmelodien von Rundfunksendern und Sendungen</a> ergänzt",
   "10.05.2026: Diverse Buchcover in Berichten unter <a href=\"./adventure_series/adventure.html\">Adventure Series</a>, <a href=\"./famous_five/famous_five.html\">Famous Five</a> und <a href=\"./secret_series/secret.html\">Secret Series</a> eingefügt",
-  "17.07.2026: Neuer Bericht: <a href=\"./dx/mvt7000_zf455-mod.html\">NFM/AM-Filtermodifikation beim Yupiteru MVT-7000</a>"
+  "17.07.2026: Neuer Bericht: <a href=\"./dx/mvt7000_zf455-mod.html\">NFM/AM-Filtermodifikation beim Yupiteru MVT-7000</a>",
+  "07.08.2026: Diverse Berichte in der Rubrik <a href=\"./dx.html\">DX</a> erweitert und aktualisiert"
 ];
 
 //------------------------------------------------------------------------------------------------------------------------

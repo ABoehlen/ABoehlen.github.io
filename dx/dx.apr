@@ -27554,7 +27554,7 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 	HelpTopic:	"New_button"
 	Update:	"Doc.NewUpdate"
 	Label:	"&New"
-	Click:	"Table.New"
+	Click:	"View.New"
 )
 
 (LButn.3964
@@ -27566,9 +27566,9 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 
 (LButn.3965
 	HelpTopic:	"Add_button"
-	Update:	"Table.ActionUpdate"
+	Update:	"Doc.ActionUpdate"
 	Label:	"&Add"
-	Click:	"Table.Action"
+	Click:	"Doc.Action"
 )
 
 (FN.3966
@@ -27690,29 +27690,29 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 
 (NameDict.3995
 	Obj:	3996
-	Obj:	3999
+	Obj:	3997
 	Obj:	4000
 	Obj:	4633
-	Obj:	4639
+	Obj:	4638
 	Obj:	4644
 )
 
 (AVDict.3996
-	InternalName:	"Dialog Designer"
-	Key:	3997
-	Value:	3998
+	InternalName:	"Table of Contents Defaults Dialog"
 )
 
-(AVStr.3997
+(AVDict.3997
+	InternalName:	"Dialog Designer"
+	Key:	3998
+	Value:	3999
+)
+
+(AVStr.3998
 	S:	"IsVisible"
 )
 
-(Bool.3998
+(Bool.3999
 	Truth:	1
-)
-
-(AVDict.3999
-	InternalName:	"Table of Contents Defaults Dialog"
 )
 
 (AVDict.4000
@@ -27729,60 +27729,60 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (AVDict.4633
-	InternalName:	"Table Master 2"
+	InternalName:	"Geoprocessing"
 	Key:	4634
-	Value:	4635
-)
-
-(AVStr.4634
-	S:	"Table Master 2"
-)
-
-(AVDict.4635
-	Key:	4636
+	Key:	4635
+	Value:	4636
 	Value:	4637
 )
 
-(Numb.4636
-)
-
-(List.4637
-	InternalName:	"Incorrect"
-	Child:	4638
-)
-
-(AVStr.4638
-	S:	"1"
-)
-
-(AVDict.4639
-	InternalName:	"Geoprocessing"
-	Key:	4640
-	Key:	4641
-	Value:	4642
-	Value:	4643
-)
-
-(AVStr.4640
+(AVStr.4634
 	S:	"Loaded"
 )
 
-(AVStr.4641
+(AVStr.4635
 	S:	"Version"
 )
 
-(Bool.4642
+(Bool.4636
 	Truth:	1
 )
 
-(Numb.4643
+(Numb.4637
 	N:	3.10000000000000
+)
+
+(AVDict.4638
+	InternalName:	"Table Master 2"
+	Key:	4639
+	Value:	4640
+)
+
+(AVStr.4639
+	S:	"Table Master 2"
+)
+
+(AVDict.4640
+	Key:	4641
+	Value:	4642
+)
+
+(Numb.4641
+)
+
+(List.4642
+	InternalName:	"Incorrect"
+	Child:	4643
+)
+
+(AVStr.4643
+	S:	"1"
 )
 
 (AVDict.4644
 	InternalName:	"Projection Utility Wizard"
 	Key:	4645
-	Value:	4642
+	Value:	4636
 )
 
 (AVStr.4645

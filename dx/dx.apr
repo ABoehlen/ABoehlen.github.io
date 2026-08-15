@@ -23823,7 +23823,7 @@ r = fstr + 10.AsChar + \"  </tr>\"\n  R_file.WriteElt(fstr)\n  rt = rt + 1\nend\
 )
 
 (Bitmap.3368
-	NumBits:	27
+	NumBits:	28
 	Bits:	00000000 
 )
 
@@ -27690,29 +27690,29 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 
 (NameDict.3995
 	Obj:	3996
-	Obj:	3997
+	Obj:	3999
 	Obj:	4000
 	Obj:	4633
-	Obj:	4638
+	Obj:	4639
 	Obj:	4644
 )
 
 (AVDict.3996
-	InternalName:	"Table of Contents Defaults Dialog"
-)
-
-(AVDict.3997
 	InternalName:	"Dialog Designer"
-	Key:	3998
-	Value:	3999
+	Key:	3997
+	Value:	3998
 )
 
-(AVStr.3998
+(AVStr.3997
 	S:	"IsVisible"
 )
 
-(Bool.3999
+(Bool.3998
 	Truth:	1
+)
+
+(AVDict.3999
+	InternalName:	"Table of Contents Defaults Dialog"
 )
 
 (AVDict.4000
@@ -27729,60 +27729,60 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (AVDict.4633
-	InternalName:	"Geoprocessing"
+	InternalName:	"Table Master 2"
 	Key:	4634
-	Key:	4635
-	Value:	4636
-	Value:	4637
+	Value:	4635
 )
 
 (AVStr.4634
-	S:	"Loaded"
-)
-
-(AVStr.4635
-	S:	"Version"
-)
-
-(Bool.4636
-	Truth:	1
-)
-
-(Numb.4637
-	N:	3.10000000000000
-)
-
-(AVDict.4638
-	InternalName:	"Table Master 2"
-	Key:	4639
-	Value:	4640
-)
-
-(AVStr.4639
 	S:	"Table Master 2"
 )
 
-(AVDict.4640
+(AVDict.4635
+	Key:	4636
+	Value:	4637
+)
+
+(Numb.4636
+)
+
+(List.4637
+	InternalName:	"Incorrect"
+	Child:	4638
+)
+
+(AVStr.4638
+	S:	"1"
+)
+
+(AVDict.4639
+	InternalName:	"Geoprocessing"
+	Key:	4640
 	Key:	4641
 	Value:	4642
+	Value:	4643
 )
 
-(Numb.4641
+(AVStr.4640
+	S:	"Loaded"
 )
 
-(List.4642
-	InternalName:	"Incorrect"
-	Child:	4643
+(AVStr.4641
+	S:	"Version"
 )
 
-(AVStr.4643
-	S:	"1"
+(Bool.4642
+	Truth:	1
+)
+
+(Numb.4643
+	N:	3.10000000000000
 )
 
 (AVDict.4644
 	InternalName:	"Projection Utility Wizard"
 	Key:	4645
-	Value:	4636
+	Value:	4642
 )
 
 (AVStr.4645
@@ -30773,7 +30773,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.5298
-	Disabled:	1
 	Help:	"Sorts rows in ascending order (A-Z), (0-9)"
 	HelpTopic:	"Sort_table"
 	Update:	"Table.SortUpdate"
@@ -30783,7 +30782,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.5299
-	Disabled:	1
 	Help:	"Sorts rows in descending order (Z-A), (9-0)"
 	HelpTopic:	"Sort_table"
 	Update:	"Table.SortUpdate"
@@ -30796,7 +30794,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.5301
-	Disabled:	1
 	Help:	"Creates or removes an index on the active field"
 	HelpTopic:	"Create_Remove_Index"
 	Update:	"Table.IndexUpdate"
@@ -30809,7 +30806,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Choice.5303
-	Disabled:	1
 	Help:	"Creates a summary table grouped by the active field"
 	HelpTopic:	"Summarize"
 	Update:	"Table.SortUpdate"
@@ -31177,7 +31173,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Butn.5442
-	Disabled:	1
 	Help:	"Summarize//Creates a summary table grouped by the active field"
 	HelpTopic:	"Summarize"
 	Update:	"Table.SortUpdate"
@@ -31210,7 +31205,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Butn.5447
-	Disabled:	1
 	Help:	"Sort Ascending//Sorts rows in ascending order (A-Z), (0-9)"
 	HelpTopic:	"Sort_table"
 	Update:	"Table.SortUpdate"
@@ -31225,7 +31219,6 @@ Minute * 60) + (laeGradTr * 3600)\n  \nend\n\n'##### geographische WGS84-Koordin
 )
 
 (Butn.5459
-	Disabled:	1
 	Help:	"Sort Descending//Sorts rows in descending order (Z-A), (9-0)"
 	HelpTopic:	"Sort_table"
 	Update:	"Table.SortUpdate"

@@ -16,9 +16,9 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://aboehlen.github.io/index_a.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <loc>https://aboehlen.github.io/404.html</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
 </url>
 <url>
   <loc>https://aboehlen.github.io/blyton.html</loc>
@@ -41,6 +41,11 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://aboehlen.github.io/index_a.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://aboehlen.github.io/karten.html</loc>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
@@ -60,11 +65,7 @@
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 </url>
-<url>
-  <loc>https://aboehlen.github.io/404.html</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.5</priority>
-</url>
+
 <url>
   <loc>https://aboehlen.github.io/adventure_series/adventure.html</loc>
   <changefreq>monthly</changefreq>
@@ -211,6 +212,11 @@
   <priority>0.7</priority>
 </url>
 <url>
+  <loc>https://aboehlen.github.io/dx/kk9803.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
   <loc>https://aboehlen.github.io/dx/mvt7000.html</loc>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
@@ -241,7 +247,7 @@
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://aboehlen.github.io/dx/bandscans/ukw_bandscan_worb.html</loc>
+  <loc>https://aboehlen.github.io/dx/bandscans/ukw_bandscan_bolligen-bern.html</loc>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
@@ -252,6 +258,11 @@
 </url>
 <url>
   <loc>https://aboehlen.github.io/dx/bandscans/ukw_bandscan_saasgrund.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/dx/bandscans/ukw_bandscan_worb.html</loc>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
@@ -309,6 +320,21 @@
   <loc>https://aboehlen.github.io/secret_series/secret_mountain.html</loc>
   <changefreq>yearly</changefreq>
   <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pdf/20220412_SOB-Schriftzug_Hoehenzuege.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pdf/20220412_Suedostschweiz_SOB-Vrenelisgaertli.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://aboehlen.github.io/pdf/20250104_BZ_Erdkruemmung.pdf</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
 </url>
 <url>
   <loc>https://aboehlen.github.io/pdf/castaway-hill_map.pdf</loc>
